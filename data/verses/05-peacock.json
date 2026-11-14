@@ -1,6 +1,7 @@
 {
   "id": "peacock",
-  "number": "Verse 2 · Līlāvatī 152",
+  "number": "Verse 5 · Līlāvatī 152 · Right triangles",
+  "topic": "Pythagorean theorem",
   "title": "The Peacock and the Snake",
   "meter": "Meter: Śārdūlavikrīḍita (19 syllables per line)",
   "devanagari": [
@@ -16,6 +17,7 @@
     "kṣipraṃ brūhi tayor bilāt kati karaiḥ sāmyena gatyor yutiḥ ||"
   ],
   "translation": "There is a hole at the foot of a pillar, and on top of it stands a pet peacock. The pillar is <b>nine hastas</b> high. Seeing a snake coming toward the hole from a distance of <b>three times the pillar's height</b>, the peacock swoops down on it <b>slantwise</b>. Say quickly: at how many hastas from the hole do they meet, if their speeds are <b>equal</b>?",
+  "translation_hi": "एक खंभे के नीचे एक बिल है और खंभे के ऊपर एक पालतू मोर बैठा है। खंभा नौ हाथ ऊँचा है। खंभे की ऊँचाई के तीन गुना दूरी से एक साँप को बिल की ओर आते देखकर मोर तिरछा उस पर झपटता है। जल्दी बताओ, यदि दोनों की गति बराबर हो, तो बिल से कितने हाथ की दूरी पर दोनों मिलते हैं?",
   "words": [
     {
       "sanskrit": "अस्ति",
@@ -160,7 +162,7 @@
   "question": "How many hastas from the hole do they meet?",
   "answer": 12,
   "unit": "hastas",
-  "figure": "figures/02-peacock.svg",
+  "figure": "figures/05-peacock.svg",
   "solution": "<div class=\"math\"> <p>Let the meeting point be <i>x</i> hastas from the hole. The snake travels 27 − x. The peacock flies the hypotenuse √(9² + x²).</p> <p>Equal speeds and equal time mean equal distances: √(81 + x²) = 27 − x</p> <p>81 + x² = 729 − 54x + x² &nbsp;⟹&nbsp; 54x = 648 &nbsp;⟹&nbsp; <b>x = 12 hastas</b></p> <p>Bhaskara's own rule (verse 151): x = ½ (d − h²/d) = ½ (27 − 81/27) = ½ (24) = 12</p></div> <div class=\"science\"><b>Science link:</b> both animals travel 15 hastas, giving the right triangle 9, 12, 15. That is the 3, 4, 5 triangle scaled by 3. Bhaskara uses the Pythagorean theorem (<span class=\"dv\">भुजकोटिकर्णन्याय</span>, the base-upright-hypotenuse rule) here.</div>",
-  "code": "code/02-peacock.py"
+  "code": "code/05-peacock.py"
 }

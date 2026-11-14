@@ -1,6 +1,7 @@
 {
   "id": "short-english-id",
-  "number": "Verse 4",
+  "number": "Verse 8 · Topic",
+  "topic": "Pythagorean theorem",
   "title": "Title of the Puzzle",
   "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
   "devanagari": [
@@ -16,6 +17,7 @@
     "fourth line ||"
   ],
   "translation": "English translation. Wrap key numbers in <b>bold</b>.",
+  "translation_hi": "हिन्दी अनुवाद यहाँ।",
   "words": [
     {
       "sanskrit": "शब्द",
@@ -29,9 +31,10 @@
   ],
   "question": "The question the reader must answer?",
   "answer": 0,
-  "tolerance": 0.000001,
+  "tolerance": 1e-06,
   "unit": "hastas",
-  "figure": "figures/04-name.svg",
+  "figure": "figures/08-name.svg",
   "solution": "<div class=\"math\"><p>Step 1</p><p>Step 2: <b>answer</b></p></div><div class=\"science\"><b>Science link:</b> modern connection.</div>",
-  "code": "code/04-name.py"
+  "code": "code/08-name.py",
+  "audio": "audio/08-name.mp3"
 }

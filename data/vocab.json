@@ -53,6 +53,36 @@
       "iast": "sāmya",
       "meaning": "equality",
       "today": "<span class=\"dv\">साम्यावस्था</span> = equilibrium"
+    },
+    {
+      "sanskrit": "इष्टकर्म",
+      "iast": "iṣṭakarma",
+      "meaning": "working with a chosen number",
+      "today": "method of false position, <i>regula falsi</i>"
+    },
+    {
+      "sanskrit": "अङ्कपाश",
+      "iast": "aṅkapāśa",
+      "meaning": "the 'net of digits': permutations",
+      "today": "combinatorics, n!"
+    },
+    {
+      "sanskrit": "व्यक्त / अव्यक्त",
+      "iast": "vyakta / avyakta",
+      "meaning": "known / unknown quantities",
+      "today": "arithmetic / algebra"
+    },
+    {
+      "sanskrit": "अयुत",
+      "iast": "ayuta",
+      "meaning": "ten thousand",
+      "today": "Bhaskara's names for powers of ten up to परार्ध (10¹⁷)"
+    },
+    {
+      "sanskrit": "चाप",
+      "iast": "cāpa",
+      "meaning": "bow",
+      "today": "<span class=\"dv\">चाप</span> = arc of a circle; ज्या (bowstring) gave us 'sine'"
     }
   ]
 }

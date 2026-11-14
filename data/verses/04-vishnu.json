@@ -1,0 +1,167 @@
+{
+  "id": "vishnu",
+  "number": "Verse 4 · Permutations (aṅkapāśa)",
+  "topic": "Combinatorics",
+  "title": "The Forms of Shiva and Vishnu",
+  "meter": "Meter: Vasantatilakā (14 syllables per line)",
+  "devanagari": [
+    "पाशाङ्कुशाहिडमरूककपालशूलैः",
+    "खट्वाङ्गशक्तिशरचापयुतैर्भवन्ति।",
+    "अन्योन्यहस्तकलितैः कति मूर्तिभेदाः",
+    "शम्भोर्हरेरिव गदारिसरोजशङ्खैः॥"
+  ],
+  "iast": [
+    "pāśāṅkuśāhi-ḍamarūka-kapāla-śūlaiḥ",
+    "khaṭvāṅga-śakti-śara-cāpa-yutair bhavanti |",
+    "anyonya-hasta-kalitaiḥ kati mūrti-bhedāḥ",
+    "śambhor harer iva gadāri-saroja-śaṅkhaiḥ ||"
+  ],
+  "translation": "With the noose, goad, snake, ḍamaru drum, skull-cup, trident, skull-staff, spear, arrow and bow, <b>ten</b> objects held in his hands and exchanged from hand to hand, how many different forms of Shambhu (Shiva) are there? And likewise of Hari (Vishnu), with the <b>four</b>: mace, discus, lotus and conch?",
+  "translation_hi": "पाश, अंकुश, सर्प, डमरू, कपाल, त्रिशूल, खट्वांग, शक्ति, बाण और धनुष, इन दस वस्तुओं को अलग अलग हाथों में बदल बदल कर रखने से शंभु (शिव) के कितने रूप बनते हैं? और इसी प्रकार गदा, चक्र, कमल और शंख से हरि (विष्णु) के कितने रूप बनते हैं?",
+  "words": [
+    {
+      "sanskrit": "पाश",
+      "iast": "pāśa",
+      "meaning": "noose",
+      "note": "Rope used to bind."
+    },
+    {
+      "sanskrit": "अङ्कुश",
+      "iast": "aṅkuśa",
+      "meaning": "elephant goad",
+      "note": "Hindi अंकुश, 'control'."
+    },
+    {
+      "sanskrit": "अहि",
+      "iast": "ahi",
+      "meaning": "snake",
+      "note": "Same word as in the peacock verse."
+    },
+    {
+      "sanskrit": "डमरूक",
+      "iast": "ḍamarūka",
+      "meaning": "ḍamaru drum",
+      "note": "Shiva's small hand drum."
+    },
+    {
+      "sanskrit": "कपाल",
+      "iast": "kapāla",
+      "meaning": "skull-cup",
+      "note": ""
+    },
+    {
+      "sanskrit": "शूलैः",
+      "iast": "śūlaiḥ",
+      "meaning": "with the trident",
+      "note": "The instrumental plural ending -aiḥ covers the whole compound list."
+    },
+    {
+      "sanskrit": "खट्वाङ्ग",
+      "iast": "khaṭvāṅga",
+      "meaning": "skull-topped staff",
+      "note": ""
+    },
+    {
+      "sanskrit": "शक्ति",
+      "iast": "śakti",
+      "meaning": "spear",
+      "note": "Also 'power'. In Hindi physics, शक्ति = power."
+    },
+    {
+      "sanskrit": "शर",
+      "iast": "śara",
+      "meaning": "arrow",
+      "note": ""
+    },
+    {
+      "sanskrit": "चाप",
+      "iast": "cāpa",
+      "meaning": "bow",
+      "note": "Also 'arc' in geometry: चाप = arc of a circle."
+    },
+    {
+      "sanskrit": "युतैः",
+      "iast": "yutaiḥ",
+      "meaning": "joined with",
+      "note": "From √yu (to join). Compare yutiḥ in the peacock verse."
+    },
+    {
+      "sanskrit": "भवन्ति",
+      "iast": "bhavanti",
+      "meaning": "there are",
+      "note": "Present tense plural of √bhū (to be, become)."
+    },
+    {
+      "sanskrit": "अन्योन्यहस्तकलितैः",
+      "iast": "anyonya-hasta-kalitaiḥ",
+      "meaning": "held in each other's hands",
+      "note": "anyonya (mutual) + hasta (hand) + kalita (held): swapped hand to hand."
+    },
+    {
+      "sanskrit": "कति",
+      "iast": "kati",
+      "meaning": "how many",
+      "note": "Compare Hindi कितने."
+    },
+    {
+      "sanskrit": "मूर्तिभेदाः",
+      "iast": "mūrti-bhedāḥ",
+      "meaning": "different forms",
+      "note": "mūrti (image, form) + bheda (difference). Hindi मूर्ति, भेद."
+    },
+    {
+      "sanskrit": "शम्भोः",
+      "iast": "śambhoḥ",
+      "meaning": "of Shambhu (Shiva)",
+      "note": "Genitive of śambhu."
+    },
+    {
+      "sanskrit": "हरेः",
+      "iast": "hareḥ",
+      "meaning": "of Hari (Vishnu)",
+      "note": "Genitive of hari."
+    },
+    {
+      "sanskrit": "इव",
+      "iast": "iva",
+      "meaning": "like, as",
+      "note": ""
+    },
+    {
+      "sanskrit": "गदा",
+      "iast": "gadā",
+      "meaning": "mace",
+      "note": ""
+    },
+    {
+      "sanskrit": "अरि",
+      "iast": "ari",
+      "meaning": "discus",
+      "note": "Literally 'enemy'; a name for the cakra, the enemy of demons."
+    },
+    {
+      "sanskrit": "सरोज",
+      "iast": "saroja",
+      "meaning": "lotus",
+      "note": "saras (lake) + ja (born): 'born in a lake'."
+    },
+    {
+      "sanskrit": "शङ्खैः",
+      "iast": "śaṅkhaiḥ",
+      "meaning": "with the conch",
+      "note": "Instrumental plural, closing the second list."
+    }
+  ],
+  "grammar": [
+    "<b>One ending for a long list:</b> <span class='dv'>पाशाङ्कुशाहिडमरूककपालशूलैः</span> is one dvandva compound. Only the last word takes the case ending (-ऐः); all the others share it.",
+    "<b>Visarga to r:</b> <span class='dv'>शम्भोः + हरेः + इव → शम्भोर्हरेरिव</span>. After a vowel other than अ/आ, visarga becomes र् before a voiced sound.",
+    "<b>Upapada compound:</b> <span class='dv'>सरोज</span> = सरस् + ज, 'lake-born'. Same pattern: जलज, पङ्कज (lotus), द्विज (twice-born).",
+    "<b>Genitive:</b> <span class='dv'>शम्भोः, हरेः</span> 'of Shambhu, of Hari'. The forms belong to the god, so the god takes the 'of' case."
+  ],
+  "question": "How many different forms of Vishnu are there?",
+  "answer": 24,
+  "unit": "forms",
+  "figure": "figures/04-vishnu.svg",
+  "solution": "<div class=\"math\"><p>The first hand can hold any of the 4 objects, the second any of the 3 left, then 2, then 1:</p><p>4 × 3 × 2 × 1 = 4! = <b>24 forms of Vishnu</b></p><p>For Shiva's ten objects: 10! = 10 × 9 × … × 1 = <b>3,628,800 forms</b></p></div><div class=\"science\"><b>Science link:</b> this is the factorial, n!, the number of ways to arrange n things. In the Lilavati it comes from the <span class=\"dv\">अङ्कपाश</span> (aṅkapāśa) chapter on permutations. <b>In your puja:</b> the 24 names recited during ācamana and sandhyā (<span class=\"dv\">केशव, नारायण, माधव, गोविन्द</span>…) are traditionally the 24 forms of Vishnu, each told apart by the order of śaṅkha, cakra, gadā and padma in his four hands. Exactly 4! = 24.</div>",
+  "code": "code/04-vishnu.py"
+}

@@ -1,6 +1,7 @@
 {
   "id": "bees",
-  "number": "Verse 1",
+  "number": "Verse 3 · Square-root problems",
+  "topic": "Quadratic equations",
   "title": "The Bee Swarm",
   "meter": "Meter: Mālinī (15 syllables per line)",
   "devanagari": [
@@ -16,6 +17,7 @@
     "pratiraṇati raṇantaṃ brūhi kānte 'li-saṃkhyām ||"
   ],
   "translation": "The <b>square root of half</b> of a swarm of bees went to a jasmine bush, and so did <b>eight ninths</b> of the whole swarm. <b>One</b> female bee hums in answer to <b>one</b> male bee who, greedy for fragrance at night, is trapped inside a lotus and humming. Tell me, beloved, the number of bees.",
+  "translation_hi": "भौंरों के झुंड के आधे भाग का वर्गमूल मालती की झाड़ी पर गया, और पूरे झुंड का 8/9 भाग भी वहीं गया। एक भौंरी उस एक भौंरे को गुंजन करके उत्तर दे रही है, जो रात में सुगंध के लोभ में कमल के भीतर बंद होकर गुंजन कर रहा है। हे प्रिये, बताओ भौंरों की संख्या कितनी है?",
   "words": [
     {
       "sanskrit": "अलिकुल",
@@ -153,7 +155,7 @@
   "question": "How many bees are in the swarm?",
   "answer": 72,
   "unit": "bees",
-  "figure": "figures/01-bees.svg",
+  "figure": "figures/03-bees.svg",
   "solution": "<div class=\"math\"> <p>Let the swarm be <i>x</i>. The verse says: √(x/2) + (8/9)x + 2 = x</p> <p>Bhaskara's trick is to treat the square root as the unknown. Put x = 2y², so √(x/2) = y:</p> <p>y + (16/9)y² + 2 = 2y² &nbsp;⟹&nbsp; 2y² − 9y − 18 = 0</p> <p>y = (9 + √(81 + 144)) / 4 = (9 + 15) / 4 = 6 &nbsp;⟹&nbsp; x = 2 × 36 = <b>72 bees</b></p></div> <div class=\"science\"><b>Science link:</b> this is a quadratic equation in √x. Bhaskara solves it by completing the square, the same method behind the quadratic formula you use today. This class of problem is called <span class=\"dv\">मूलजाति</span> (mūla-jāti, the \"root type\").</div>",
-  "code": "code/01-bees.py"
+  "code": "code/03-bees.py"
 }

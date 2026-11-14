@@ -1,0 +1,12 @@
+<svg viewBox="0 0 640 150" width="640" role="img" aria-label="Powers of ten in Sanskrit">
+<g font-size="14" text-anchor="middle">
+<rect x="10" y="30" width="70" height="56" rx="8" fill="var(--accent-soft)"/><text x="45" y="55" class="dv" fill="var(--ink)" font-size="18">एक</text><text x="45" y="76" fill="var(--muted)">1</text>
+<rect x="88" y="30" width="70" height="56" rx="8" fill="var(--accent-soft)"/><text x="123" y="55" class="dv" fill="var(--ink)" font-size="18">दश</text><text x="123" y="76" fill="var(--muted)">10</text>
+<rect x="166" y="30" width="70" height="56" rx="8" fill="var(--accent-soft)"/><text x="201" y="55" class="dv" fill="var(--ink)" font-size="18">शत</text><text x="201" y="76" fill="var(--muted)">10²</text>
+<rect x="244" y="30" width="70" height="56" rx="8" fill="var(--accent-soft)"/><text x="279" y="55" class="dv" fill="var(--ink)" font-size="18">सहस्र</text><text x="279" y="76" fill="var(--muted)">10³</text>
+<rect x="322" y="30" width="70" height="56" rx="8" fill="var(--accent)"/><text x="357" y="55" class="dv" fill="var(--on-accent)" font-size="18">अयुत</text><text x="357" y="76" fill="var(--on-accent)">10⁴</text>
+<rect x="400" y="30" width="70" height="56" rx="8" fill="var(--accent-soft)"/><text x="435" y="55" class="dv" fill="var(--ink)" font-size="18">लक्ष</text><text x="435" y="76" fill="var(--muted)">10⁵</text>
+<rect x="478" y="30" width="70" height="56" rx="8" fill="var(--accent-soft)"/><text x="513" y="55" class="dv" fill="var(--ink)" font-size="18">प्रयुत</text><text x="513" y="76" fill="var(--muted)">10⁶</text>
+<rect x="556" y="30" width="74" height="56" rx="8" fill="var(--accent-soft)"/><text x="593" y="55" class="dv" fill="var(--ink)" font-size="18">कोटि</text><text x="593" y="76" fill="var(--muted)">10⁷</text>
+<text x="320" y="118" fill="var(--muted)">… up to परार्ध = 10¹⁷ &#160;·&#160; 10,000 − 360 = 9,640</text>
+</g></svg>

@@ -1,0 +1,10 @@
+<svg viewBox="0 0 640 170" width="640" role="img" aria-label="4 times 3 times 2 times 1 equals 24">
+<g font-size="15" text-anchor="middle" fill="var(--ink)">
+<circle cx="90" cy="70" r="40" fill="var(--accent-soft)" stroke="var(--accent)"/><text x="90" y="66" font-size="26" fill="var(--accent)">4</text><text x="90" y="88" font-size="12" fill="var(--muted)">1st hand</text>
+<text x="165" y="76" font-size="22" fill="var(--muted)">×</text>
+<circle cx="240" cy="70" r="40" fill="var(--accent-soft)" stroke="var(--accent)"/><text x="240" y="66" font-size="26" fill="var(--accent)">3</text><text x="240" y="88" font-size="12" fill="var(--muted)">2nd hand</text>
+<text x="315" y="76" font-size="22" fill="var(--muted)">×</text>
+<circle cx="390" cy="70" r="40" fill="var(--accent-soft)" stroke="var(--accent)"/><text x="390" y="66" font-size="26" fill="var(--accent)">2</text><text x="390" y="88" font-size="12" fill="var(--muted)">3rd hand</text>
+<text x="465" y="76" font-size="22" fill="var(--muted)">×</text>
+<circle cx="540" cy="70" r="40" fill="var(--accent-soft)" stroke="var(--accent)"/><text x="540" y="66" font-size="26" fill="var(--accent)">1</text><text x="540" y="88" font-size="12" fill="var(--muted)">4th hand</text>
+<text x="320" y="145" fill="var(--muted)">शङ्ख · चक्र · गदा · पद्म &#160;→&#160; 4! = 24 forms</text></g></svg>

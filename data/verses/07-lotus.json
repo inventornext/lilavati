@@ -1,6 +1,7 @@
 {
   "id": "lotus",
-  "number": "Verse 3",
+  "number": "Verse 7 · Right triangles",
+  "topic": "Pythagorean theorem",
   "title": "The Lotus in the Lake",
   "meter": "Meter: Mandākrāntā (17 syllables per line)",
   "devanagari": [
@@ -16,6 +17,7 @@
     "tasmin magnaṃ gaṇaka kathaya kṣipram ambhaḥ-pramāṇam ||"
   ],
   "translation": "In a pond whose water was crowded with cakravāka and krauñca birds, the tip of a lotus bud was seen standing <b>one span</b> (half a hasta) above the water. Struck by the wind, it moved slowly, slowly, and went under the water at a distance of <b>two hastas</b>. O mathematician, tell quickly the <b>depth of the water</b>.",
+  "translation_hi": "चकवा और क्रौंच पक्षियों से भरे एक तालाब में पानी के ऊपर एक कमल की कली का सिरा एक बित्ता (आधा हाथ) ऊँचा दिखाई दिया। हवा के झोंके से वह धीरे धीरे हिला और दो हाथ की दूरी पर पानी में डूब गया। हे गणितज्ञ, जल्दी बताओ कि पानी कितना गहरा है?",
   "words": [
     {
       "sanskrit": "चक्रक्रौञ्च",
@@ -148,7 +150,7 @@
   "question": "What is the depth of the water, in hastas?",
   "answer": 3.75,
   "unit": "hastas",
-  "figure": "figures/03-lotus.svg",
+  "figure": "figures/07-lotus.svg",
   "solution": "<div class=\"math\"> <p>Let the depth be <i>d</i>. The full stalk is d + ½. When the wind pushes it over, the same stalk becomes the hypotenuse of a right triangle with sides d and 2:</p> <p>(d + ½)² = d² + 2² &nbsp;⟹&nbsp; d² + d + ¼ = d² + 4 &nbsp;⟹&nbsp; <b>d = 3¾ hastas</b></p> <p>General rule: d = (b² − h²) / (2h) = (4 − ¼) / 1 = 3.75</p> <p class=\"note\">If a hasta is taken as about 45 cm, the pond is roughly 1.7 m deep.</p></div> <div class=\"science\"><b>Science link:</b> the same geometry is used in physics to find how far a pendulum or a moored buoy shifts sideways when a force tilts it. Chinese mathematicians posed a reed-in-a-pond problem centuries earlier in the <i>Nine Chapters</i>, so this puzzle connects Indian and world mathematics.</div>",
-  "code": "code/03-lotus.py"
+  "code": "code/07-lotus.py"
 }
