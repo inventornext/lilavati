@@ -1,0 +1,166 @@
+{
+  "id": "peacock",
+  "number": "Verse 2 · Līlāvatī 152",
+  "title": "The Peacock and the Snake",
+  "meter": "Meter: Śārdūlavikrīḍita (19 syllables per line)",
+  "devanagari": [
+    "अस्ति स्तम्भतले बिलं तदुपरि क्रीडाशिखण्डी स्थितः",
+    "स्तम्भे हस्तनवोच्छ्रिते त्रिगुणितस्तम्भप्रमाणान्तरे।",
+    "दृष्ट्वाहिं बिलमाव्रजन्तमपतत्तिर्यक् स तस्योपरि",
+    "क्षिप्रं ब्रूहि तयोर्बिलात् कतिकरैः साम्येन गत्योर्युतिः॥"
+  ],
+  "iast": [
+    "asti stambha-tale bilaṃ tad-upari krīḍā-śikhaṇḍī sthitaḥ",
+    "stambhe hasta-navocchrite triguṇita-stambha-pramāṇāntare |",
+    "dṛṣṭvāhiṃ bilam āvrajantam apatat tiryak sa tasyopari",
+    "kṣipraṃ brūhi tayor bilāt kati karaiḥ sāmyena gatyor yutiḥ ||"
+  ],
+  "translation": "There is a hole at the foot of a pillar, and on top of it stands a pet peacock. The pillar is <b>nine hastas</b> high. Seeing a snake coming toward the hole from a distance of <b>three times the pillar's height</b>, the peacock swoops down on it <b>slantwise</b>. Say quickly: at how many hastas from the hole do they meet, if their speeds are <b>equal</b>?",
+  "words": [
+    {
+      "sanskrit": "अस्ति",
+      "iast": "asti",
+      "meaning": "there is",
+      "note": "Present tense of √as (to be)."
+    },
+    {
+      "sanskrit": "स्तम्भतले",
+      "iast": "stambha-tale",
+      "meaning": "at the foot of a pillar",
+      "note": "stambha (pillar) + tala (base). Locative."
+    },
+    {
+      "sanskrit": "बिलम्",
+      "iast": "bilam",
+      "meaning": "a hole",
+      "note": "Neuter noun, the snake's hole."
+    },
+    {
+      "sanskrit": "तदुपरि",
+      "iast": "tad-upari",
+      "meaning": "above it",
+      "note": "tat (that) + upari (above)."
+    },
+    {
+      "sanskrit": "क्रीडाशिखण्डी",
+      "iast": "krīḍā-śikhaṇḍī",
+      "meaning": "a pet peacock",
+      "note": "krīḍā (play) + śikhaṇḍin (crested one, peacock)."
+    },
+    {
+      "sanskrit": "स्थितः",
+      "iast": "sthitaḥ",
+      "meaning": "is standing",
+      "note": "Past participle of √sthā (to stand)."
+    },
+    {
+      "sanskrit": "हस्तनवोच्छ्रिते",
+      "iast": "hasta-nava-ucchrite",
+      "meaning": "raised nine hastas",
+      "note": "nava + ucchrita: अ + उ → ओ (guṇa sandhi)."
+    },
+    {
+      "sanskrit": "त्रिगुणित",
+      "iast": "triguṇita",
+      "meaning": "tripled",
+      "note": "tri (three) + guṇita (multiplied)."
+    },
+    {
+      "sanskrit": "प्रमाणान्तरे",
+      "iast": "pramāṇa-antare",
+      "meaning": "at a distance of (that) measure",
+      "note": "pramāṇa (measure) + antara (gap, distance). Locative."
+    },
+    {
+      "sanskrit": "दृष्ट्वा",
+      "iast": "dṛṣṭvā",
+      "meaning": "having seen",
+      "note": "Gerund of √dṛś. The -tvā ending means 'having done'."
+    },
+    {
+      "sanskrit": "अहिम्",
+      "iast": "ahim",
+      "meaning": "the snake",
+      "note": "Accusative of ahi (snake)."
+    },
+    {
+      "sanskrit": "आव्रजन्तम्",
+      "iast": "āvrajantam",
+      "meaning": "coming toward",
+      "note": "Present participle of ā + √vraj (to come)."
+    },
+    {
+      "sanskrit": "अपतत्",
+      "iast": "apatat",
+      "meaning": "swooped, fell",
+      "note": "Imperfect (past) tense of √pat (to fall, fly)."
+    },
+    {
+      "sanskrit": "तिर्यक्",
+      "iast": "tiryak",
+      "meaning": "slantwise",
+      "note": "Oblique, diagonal. Today: तिर्यक् रेखा = oblique line."
+    },
+    {
+      "sanskrit": "तस्य उपरि",
+      "iast": "tasya upari",
+      "meaning": "upon it",
+      "note": "अ + उ → ओ gives तस्योपरि."
+    },
+    {
+      "sanskrit": "क्षिप्रम्",
+      "iast": "kṣipram",
+      "meaning": "quickly",
+      "note": "Adverb. The mathematician is told to answer fast!"
+    },
+    {
+      "sanskrit": "तयोः",
+      "iast": "tayoḥ",
+      "meaning": "of the two",
+      "note": "Genitive dual of tad. Visarga → र् before a voiced sound."
+    },
+    {
+      "sanskrit": "बिलात्",
+      "iast": "bilāt",
+      "meaning": "from the hole",
+      "note": "Ablative: the 'from' case."
+    },
+    {
+      "sanskrit": "कति करैः",
+      "iast": "kati karaiḥ",
+      "meaning": "at how many hastas",
+      "note": "kati = how many; kara = hand, used as the hasta unit. Instrumental plural."
+    },
+    {
+      "sanskrit": "साम्येन",
+      "iast": "sāmyena",
+      "meaning": "with equality",
+      "note": "Instrumental of sāmya: 'their speeds being equal'."
+    },
+    {
+      "sanskrit": "गत्योः",
+      "iast": "gatyoḥ",
+      "meaning": "of the two motions",
+      "note": "Genitive dual of gati (motion, speed)."
+    },
+    {
+      "sanskrit": "युतिः",
+      "iast": "yutiḥ",
+      "meaning": "the meeting, junction",
+      "note": "From √yu (to join). Compare yoga."
+    }
+  ],
+  "grammar": [
+    "<b>Guṇa sandhi:</b> <span class='dv'>नव + उच्छ्रिते → नवोच्छ्रिते</span> and <span class='dv'>तस्य + उपरि → तस्योपरि</span>. अ + उ always becomes ओ.",
+    "<b>Long vowel sandhi:</b> <span class='dv'>दृष्ट्वा + अहिम् → दृष्ट्वाहिम्</span>. Two similar vowels merge into one long vowel.",
+    "<b>Dual number:</b> Sanskrit has singular, dual and plural. <span class='dv'>तयोः</span> and <span class='dv'>गत्योः</span> are dual because there are exactly two animals.",
+    "<b>Ablative case:</b> <span class='dv'>बिलात्</span> = 'from the hole'. The distance is measured from the hole, which tells you exactly what <i>x</i> is in the equation.",
+    "<b>Gerund:</b> <span class='dv'>दृष्ट्वा</span> 'having seen'. Very common: गत्वा (having gone), कृत्वा (having done)."
+  ],
+  "question": "How many hastas from the hole do they meet?",
+  "answer": 12,
+  "unit": "hastas",
+  "figure": "figures/02-peacock.svg",
+  "solution": "<div class=\"math\"> <p>Let the meeting point be <i>x</i> hastas from the hole. The snake travels 27 − x. The peacock flies the hypotenuse √(9² + x²).</p> <p>Equal speeds and equal time mean equal distances: √(81 + x²) = 27 − x</p> <p>81 + x² = 729 − 54x + x² &nbsp;⟹&nbsp; 54x = 648 &nbsp;⟹&nbsp; <b>x = 12 hastas</b></p> <p>Bhaskara's own rule (verse 151): x = ½ (d − h²/d) = ½ (27 − 81/27) = ½ (24) = 12</p></div> <div class=\"science\"><b>Science link:</b> both animals travel 15 hastas, giving the right triangle 9, 12, 15. That is the 3, 4, 5 triangle scaled by 3. Bhaskara uses the Pythagorean theorem (<span class=\"dv\">भुजकोटिकर्णन्याय</span>, the base-upright-hypotenuse rule) here.</div>",
+  "code": "code/02-peacock.py"
+}

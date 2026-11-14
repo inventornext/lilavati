@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lilavati Puzzles</title>
+<meta name="description" content="Learn Sanskrit through Bhaskaracharya's Lilavati: verse, word meanings, grammar and worked solutions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit&family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <p class="om">॥ श्रीगणेशाय नमः ॥</p>
+    <h1>Lilavati Puzzles<span class="deva">लीलावती गणितम्</span></h1>
+    <p class="sub">Learn Sanskrit through Bhaskaracharya's mathematics. One verse at a time: the original text, every word, the grammar, and the solution worked out.</p>
+    <nav id="nav"></nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="intro">
+    <p>In 1150 CE, Bhaskaracharya (Bhāskara II) wrote the <i>Līlāvatī</i>, the arithmetic and geometry volume of his <i>Siddhānta Śiromaṇi</i>. Its problems are written as Sanskrit poetry, in proper classical meters, often addressed to a young girl named Lilavati. That makes it a perfect textbook for learning the language and the mathematics together.</p>
+    <p><b>How to use this page:</b> read the verse aloud, then try to understand it from the word cards before reading the translation. Try the puzzle yourself before opening the solution.</p>
+    <div class="controls" role="group" aria-label="Display options">
+      <button class="btn on" data-script="deva">देवनागरी</button>
+      <button class="btn" data-script="both">Both</button>
+      <button class="btn" data-script="iast">IAST</button>
+      <button class="btn" id="selftest">Self-test: hide meanings</button>
+    </div>
+  </div>
+
+  <div id="verses"><p class="note">Loading verses…</p></div>
+
+  <section class="verse" id="vocab">
+    <div class="vnum">Word bank</div>
+    <h2>Science vocabulary from these verses</h2>
+    <p>Many of these words are still used in mathematics and engineering in Hindi and other Indian languages today.</p>
+    <table class="vocab">
+      <thead><tr><th>Sanskrit</th><th>Meaning in the verse</th><th>Where you see it today</th></tr></thead>
+      <tbody id="vocab-body"></tbody>
+    </table>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <p><b>About the text.</b> Verses follow the commonly printed text of the <i>Līlāvatī</i>. Readings and verse numbers differ slightly between editions, so compare with a printed edition when you study. The peacock problem is verse 152, with its rule in verse 151 (Plofker's translation in Katz, ed., <i>The Mathematics of Egypt, Mesopotamia, China, India, and Islam: A Sourcebook</i>, Princeton, 2007).</p>
+    <p><b>Further reading:</b> <a href="https://old.maa.org/node/116870">MAA: Mathematical Treasures, Lilavati of Bhaskara</a> · <a href="https://wolframcloud.com/obj/history-of-mathematics/production/artifacts/lilavati-of-bhaskara-ii">MoMath + Wolfram: Lilāvatī of Bhāskara II</a></p>
+    <p>Lilavati Puzzles · by Rajeev Ranjan Pandey · a new verse every week</p>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

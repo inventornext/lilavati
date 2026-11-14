@@ -1,0 +1,58 @@
+{
+  "words": [
+    {
+      "sanskrit": "मूल",
+      "iast": "mūla",
+      "meaning": "square root (literally \"root\")",
+      "today": "<span class=\"dv\">वर्गमूल</span> = square root, <span class=\"dv\">घनमूल</span> = cube root"
+    },
+    {
+      "sanskrit": "भाग",
+      "iast": "bhāga",
+      "meaning": "part, fraction",
+      "today": "<span class=\"dv\">भाग</span> = division; <span class=\"dv\">भागफल</span> = quotient"
+    },
+    {
+      "sanskrit": "संख्या",
+      "iast": "saṃkhyā",
+      "meaning": "number, count",
+      "today": "<span class=\"dv\">संख्या</span> = number; Sāṅkhya = the \"enumeration\" school"
+    },
+    {
+      "sanskrit": "गणक",
+      "iast": "gaṇaka",
+      "meaning": "O calculator, mathematician",
+      "today": "<span class=\"dv\">गणित</span> = mathematics, <span class=\"dv\">गणना</span> = counting"
+    },
+    {
+      "sanskrit": "प्रमाण",
+      "iast": "pramāṇa",
+      "meaning": "measure, magnitude",
+      "today": "<span class=\"dv\">प्रमाण</span> = standard, proof; <span class=\"dv\">प्रमाणपत्र</span> = certificate"
+    },
+    {
+      "sanskrit": "तिर्यक्",
+      "iast": "tiryak",
+      "meaning": "slantwise, oblique",
+      "today": "<span class=\"dv\">तिर्यक् रेखा</span> = transversal / oblique line"
+    },
+    {
+      "sanskrit": "हस्त, कर",
+      "iast": "hasta, kara",
+      "meaning": "a unit of length, forearm (about 45 cm)",
+      "today": "same idea as the cubit"
+    },
+    {
+      "sanskrit": "त्रिगुणित",
+      "iast": "triguṇita",
+      "meaning": "multiplied by three",
+      "today": "<span class=\"dv\">गुणा</span> = multiplication, <span class=\"dv\">गुणनफल</span> = product"
+    },
+    {
+      "sanskrit": "साम्य",
+      "iast": "sāmya",
+      "meaning": "equality",
+      "today": "<span class=\"dv\">साम्यावस्था</span> = equilibrium"
+    }
+  ]
+}

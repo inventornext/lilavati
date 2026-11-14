@@ -1,0 +1,15 @@
+<svg viewBox="0 0 520 240" width="520" role="img" aria-label="Pillar 9 high, snake starts 27 away, they meet 12 from the hole">
+<line x1="40" y1="200" x2="500" y2="200" stroke="var(--muted)" stroke-width="2"/>
+<rect x="34" y="65" width="12" height="135" fill="var(--muted)"/>
+<circle cx="40" cy="58" r="8" fill="var(--indigo)"/>
+<line x1="40" y1="65" x2="220" y2="200" stroke="var(--indigo)" stroke-width="3" stroke-dasharray="6 5"/>
+<line x1="220" y1="200" x2="445" y2="200" stroke="var(--saffron)" stroke-width="4"/>
+<circle cx="445" cy="200" r="6" fill="var(--saffron)"/>
+<circle cx="220" cy="200" r="6" fill="var(--ok)"/>
+<text x="14" y="140" font-size="14" fill="var(--ink)">9</text>
+<text x="118" y="222" font-size="14" fill="var(--ink)">x = 12</text>
+<text x="300" y="222" font-size="14" fill="var(--ink)">27 − x = 15</text>
+<text x="140" y="118" font-size="14" fill="var(--indigo)">√(81 + x²) = 15</text>
+<text x="40" y="38" font-size="13" fill="var(--muted)" text-anchor="middle">peacock</text>
+<text x="445" y="185" font-size="13" fill="var(--muted)" text-anchor="middle">snake</text>
+<text x="40" y="222" font-size="13" fill="var(--muted)" text-anchor="middle">hole</text></svg>

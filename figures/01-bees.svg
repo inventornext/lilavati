@@ -1,0 +1,8 @@
+<svg viewBox="0 0 640 120" width="640" role="img" aria-label="72 bees split into 6, 64 and 2">
+<rect x="20" y="40" width="50" height="40" fill="var(--saffron)" rx="4"/>
+<rect x="70" y="40" width="533.33" height="40" fill="var(--indigo)" rx="4"/>
+<rect x="603.33" y="40" width="16.67" height="40" fill="var(--ok)" rx="4"/>
+<text x="20" y="28" font-size="14" fill="var(--ink)">√(72/2) = 6</text>
+<text x="250" y="28" font-size="14" fill="var(--ink)">8/9 × 72 = 64</text>
+<text x="560" y="28" font-size="14" fill="var(--ink)">2 bees</text>
+<text x="320" y="105" font-size="14" fill="var(--muted)" text-anchor="middle">6 + 64 + 2 = 72</text></svg>
