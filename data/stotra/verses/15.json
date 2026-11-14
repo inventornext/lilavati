@@ -1,0 +1,111 @@
+{
+  "id": "tandava-15",
+  "number": "Verse 15 · Found in some editions",
+  "title": "The Wedding Sound",
+  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "devanagari": [
+    "प्रचण्डवाडवानलप्रभाशुभप्रचारणी",
+    "महाष्टसिद्धिकामिनीजनावहूतजल्पना।",
+    "विमुक्तवामलोचनाविवाहकालिकध्वनिः",
+    "शिवेति मन्त्रभूषणा जगज्जयाय जायताम्॥"
+  ],
+  "iast": [
+    "pracaṇḍa-vāḍavānala-prabhā-śubha-pracāraṇī",
+    "mahāṣṭa-siddhi-kāminī-janāvahūta-jalpanā |",
+    "vimukta-vāma-locanā-vivāha-kālika-dhvaniḥ",
+    "śiveti mantra-bhūṣaṇā jagaj-jayāya jāyatām ||"
+  ],
+  "translation": "Radiant and auspicious like the fierce <b>fire beneath the ocean</b>, sung by the women who embody the <b>eight great siddhis</b>, the sound at the time of Shiva's <b>wedding to fair-eyed Parvati</b>, adorned with the mantra 'Śiva': may it bring <b>victory to the world</b>.",
+  "translation_hi": "प्रचंड बड़वानल की आभा जैसी शुभ और फैलने वाली, अष्ट महासिद्धि रूपी स्त्रियों द्वारा गाई गई, सुंदर नेत्रों वाली पार्वती के विवाह के समय की वह ध्वनि, जो 'शिव' मंत्र से सुशोभित है, जगत की विजय के लिए हो।",
+  "words": [
+    {
+      "sanskrit": "प्रचण्ड",
+      "iast": "pracaṇḍa",
+      "meaning": "fierce",
+      "note": ""
+    },
+    {
+      "sanskrit": "वाडवानल",
+      "iast": "vāḍavānala",
+      "meaning": "fire beneath the ocean",
+      "note": "vāḍava + anala (fire). Hindi बड़वानल."
+    },
+    {
+      "sanskrit": "शुभ",
+      "iast": "śubha",
+      "meaning": "auspicious",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्रचारणी",
+      "iast": "pracāraṇī",
+      "meaning": "spreading",
+      "note": "Hindi प्रचार."
+    },
+    {
+      "sanskrit": "महाष्टसिद्धि",
+      "iast": "mahāṣṭa-siddhi",
+      "meaning": "the eight great siddhis",
+      "note": "Aṇimā, mahimā, garimā, laghimā, prāpti, prākāmya, īśitva, vaśitva."
+    },
+    {
+      "sanskrit": "कामिनीजन",
+      "iast": "kāminī-jana",
+      "meaning": "women",
+      "note": ""
+    },
+    {
+      "sanskrit": "अवहूत",
+      "iast": "avahūta",
+      "meaning": "called out, sung",
+      "note": ""
+    },
+    {
+      "sanskrit": "जल्पना",
+      "iast": "jalpanā",
+      "meaning": "chant, speech",
+      "note": ""
+    },
+    {
+      "sanskrit": "वामलोचना",
+      "iast": "vāma-locanā",
+      "meaning": "fair-eyed woman (Parvati)",
+      "note": ""
+    },
+    {
+      "sanskrit": "विवाहकालिक",
+      "iast": "vivāha-kālika",
+      "meaning": "of the wedding time",
+      "note": "Hindi विवाह, कालिक."
+    },
+    {
+      "sanskrit": "ध्वनिः",
+      "iast": "dhvaniḥ",
+      "meaning": "sound",
+      "note": ""
+    },
+    {
+      "sanskrit": "मन्त्रभूषणा",
+      "iast": "mantra-bhūṣaṇā",
+      "meaning": "adorned with the mantra",
+      "note": "Hindi भूषण."
+    },
+    {
+      "sanskrit": "जगज्जयाय",
+      "iast": "jagaj-jayāya",
+      "meaning": "for the victory of the world",
+      "note": "Dative of purpose."
+    },
+    {
+      "sanskrit": "जायताम्",
+      "iast": "jāyatām",
+      "meaning": "may it be",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Long vowel sandhi:</b> <span class='dv'>वाडव + अनल → वाडवानल</span>.",
+    "<b>t → j before j:</b> <span class='dv'>जगत् + जय → जगज्जय</span>.",
+    "<b>Laghu and guru again:</b> two of the eight siddhis are <span class='dv'>लघिमा</span> (lightness) and <span class='dv'>गरिमा</span> (heaviness), from the same words the meter scanner uses: laghu and guru."
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "id": "tandava-6",
+  "number": "Verse 6",
+  "title": "Fire on the Forehead",
+  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "devanagari": [
+    "ललाटचत्वरज्वलद्धनञ्जयस्फुलिङ्गभा-",
+    "निपीतपञ्चसायकं नमन्निलिम्पनायकम्।",
+    "सुधामयूखलेखया विराजमानशेखरं",
+    "महाकपालिसम्पदेशिरोजटालमस्तु नः॥"
+  ],
+  "iast": [
+    "lalāṭa-catvara-jvalad-dhanañjaya-sphuliṅga-bhā-",
+    "nipīta-pañca-sāyakaṃ naman-nilimpa-nāyakam |",
+    "sudhā-mayūkha-lekhayā virājamāna-śekharaṃ",
+    "mahā-kapāli-sampade śiro-jaṭālam astu naḥ ||"
+  ],
+  "translation": "With the sparks of the <b>fire blazing on the broad field of his forehead</b>, he swallowed up <b>Kāma</b>, the god of the five arrows. The leaders of the gods bow to him. His crest shines with the crescent of the <b>nectar-rayed moon</b>. May that matted-haired head of the great skull-bearer bring us prosperity.",
+  "translation_hi": "जिन्होंने अपने ललाट रूपी आँगन में जलती अग्नि की चिंगारियों के तेज से पंचबाण कामदेव को भस्म कर दिया, जिन्हें देवताओं के नायक प्रणाम करते हैं, और जिनका मुकुट अमृतकिरण चंद्रमा की रेखा से शोभित है, उन महाकपाली शिव का जटाधारी मस्तक हमें समृद्धि दे।",
+  "words": [
+    {
+      "sanskrit": "चत्वर",
+      "iast": "catvara",
+      "meaning": "open courtyard",
+      "note": "The broad forehead seen as a square."
+    },
+    {
+      "sanskrit": "धनञ्जय",
+      "iast": "dhanañjaya",
+      "meaning": "fire",
+      "note": "Literally 'winner of wealth'; also a name of Arjuna."
+    },
+    {
+      "sanskrit": "स्फुलिङ्ग",
+      "iast": "sphuliṅga",
+      "meaning": "spark",
+      "note": ""
+    },
+    {
+      "sanskrit": "भा",
+      "iast": "bhā",
+      "meaning": "radiance",
+      "note": "Root of भास्कर, 'light-maker', the sun, and Bhāskara's own name."
+    },
+    {
+      "sanskrit": "निपीत",
+      "iast": "nipīta",
+      "meaning": "swallowed up",
+      "note": "ni + √pā (to drink)."
+    },
+    {
+      "sanskrit": "पञ्चसायकम्",
+      "iast": "pañca-sāyakam",
+      "meaning": "the five-arrowed one (Kāma)",
+      "note": "sāyaka = arrow."
+    },
+    {
+      "sanskrit": "नमत्",
+      "iast": "namat",
+      "meaning": "bowing",
+      "note": "√nam. Hindi नमन. Becomes नमन् before न."
+    },
+    {
+      "sanskrit": "निलिम्पनायकम्",
+      "iast": "nilimpa-nāyakam",
+      "meaning": "leader of the gods",
+      "note": "nāyaka = leader. Hindi नायक."
+    },
+    {
+      "sanskrit": "सुधामयूख",
+      "iast": "sudhā-mayūkha",
+      "meaning": "nectar-rayed (the moon)",
+      "note": "sudhā = nectar; mayūkha = ray."
+    },
+    {
+      "sanskrit": "लेखया",
+      "iast": "lekhayā",
+      "meaning": "with the crescent line",
+      "note": "Instrumental of lekhā (line)."
+    },
+    {
+      "sanskrit": "विराजमानशेखरम्",
+      "iast": "virājamāna-śekharam",
+      "meaning": "whose crest shines",
+      "note": ""
+    },
+    {
+      "sanskrit": "महाकपालि",
+      "iast": "mahā-kapāli",
+      "meaning": "of the great skull-bearer",
+      "note": "kapālin = one who carries a skull, Shiva."
+    },
+    {
+      "sanskrit": "सम्पदे",
+      "iast": "sampade",
+      "meaning": "for wealth",
+      "note": "Dative of sampad. Hindi संपदा, संपत्ति."
+    },
+    {
+      "sanskrit": "शिरः",
+      "iast": "śiraḥ",
+      "meaning": "head",
+      "note": "Hindi शिर, सिर."
+    },
+    {
+      "sanskrit": "जटालम्",
+      "iast": "jaṭālam",
+      "meaning": "having matted locks",
+      "note": ""
+    },
+    {
+      "sanskrit": "अस्तु",
+      "iast": "astu",
+      "meaning": "may it be",
+      "note": "Imperative of √as. तथास्तु = 'so be it'."
+    }
+  ],
+  "grammar": [
+    "<b>The story:</b> this is Kāmadahana. When Kāma shot his arrows at Shiva, the fire of Shiva's third eye burned him to ash.",
+    "<b>t → n before a nasal:</b> <span class='dv'>नमत् + निलिम्प → नमन्निलिम्प</span>.",
+    "<b>अस्तु:</b> the imperative of 'to be', used in blessings: <span class='dv'>स्वस्ति अस्तु, तथास्तु</span>.",
+    "<b>Bhāskara's name:</b> <span class='dv'>भा</span> (light) + कर (maker) = the sun. The author of the Lilavati carries this word in his name."
+  ]
+}

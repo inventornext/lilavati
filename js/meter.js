@@ -10,6 +10,7 @@
   const METERS = {
     'Anuṣṭubh': null,
     'Mālinī': 'LLLLLLGGGLGGLGG',
+    'Pañcacāmara': 'LGLGLGLGLGLGLGLG',
     'Śārdūlavikrīḍita': 'GGGLLGLGLLLGGGLGGLG',
     'Mandākrāntā': 'GGGGLLLLLGGLGGLGG',
     'Vasantatilakā': 'GGLGLLLGLLGLGG',

@@ -1,0 +1,135 @@
+{
+  "id": "tandava-2",
+  "number": "Verse 2",
+  "title": "Ganga in His Hair",
+  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "devanagari": [
+    "जटाकटाहसम्भ्रमभ्रमन्निलिम्पनिर्झरी-",
+    "विलोलवीचिवल्लरीविराजमानमूर्धनि।",
+    "धगद्धगद्धगज्ज्वलल्ललाटपट्टपावके",
+    "किशोरचन्द्रशेखरे रतिः प्रतिक्षणं मम॥"
+  ],
+  "iast": [
+    "jaṭā-kaṭāha-sambhrama-bhraman-nilimpa-nirjharī-",
+    "vilola-vīci-vallarī-virājamāna-mūrdhani |",
+    "dhagad-dhagad-dhagaj-jvalal-lalāṭa-paṭṭa-pāvake",
+    "kiśora-candra-śekhare ratiḥ pratikṣaṇaṃ mama ||"
+  ],
+  "translation": "His head shines with the restless, creeper-like waves of the <b>heavenly river</b>, whirling round and round in the cauldron of his matted locks. On his broad forehead a <b>fire</b> blazes, <i>dhagad dhagad dhagad</i>. He wears the <b>young crescent moon</b> as his crest. May my delight be in him every moment.",
+  "translation_hi": "जिनका मस्तक जटा रूपी कड़ाह में घूमती देवनदी गंगा की चंचल लहरों से सुशोभित है, जिनके ललाट पर धगद् धगद् धगद् करती अग्नि जल रही है, और जो बाल चंद्रमा को मुकुट की तरह धारण करते हैं, उन शिव में मेरा प्रेम हर क्षण बना रहे।",
+  "words": [
+    {
+      "sanskrit": "कटाह",
+      "iast": "kaṭāha",
+      "meaning": "cauldron",
+      "note": "Hindi कड़ाह, कड़ाही."
+    },
+    {
+      "sanskrit": "सम्भ्रम",
+      "iast": "sambhrama",
+      "meaning": "whirling",
+      "note": ""
+    },
+    {
+      "sanskrit": "भ्रमत्",
+      "iast": "bhramat",
+      "meaning": "spinning, wandering",
+      "note": "√bhram. Hindi भ्रमण, भ्रम."
+    },
+    {
+      "sanskrit": "निलिम्पनिर्झरी",
+      "iast": "nilimpa-nirjharī",
+      "meaning": "river of the gods (Ganga)",
+      "note": "nilimpa = god; nirjharī = stream, waterfall (Hindi निर्झर)."
+    },
+    {
+      "sanskrit": "विलोल",
+      "iast": "vilola",
+      "meaning": "restless, tossing",
+      "note": ""
+    },
+    {
+      "sanskrit": "वीचि",
+      "iast": "vīci",
+      "meaning": "wave",
+      "note": ""
+    },
+    {
+      "sanskrit": "वल्लरी",
+      "iast": "vallarī",
+      "meaning": "creeper, vine",
+      "note": "The waves curl like vines."
+    },
+    {
+      "sanskrit": "विराजमान",
+      "iast": "virājamāna",
+      "meaning": "shining",
+      "note": "Hindi विराजमान."
+    },
+    {
+      "sanskrit": "मूर्धनि",
+      "iast": "mūrdhani",
+      "meaning": "on the head",
+      "note": "Locative of mūrdhan (head). Hindi मूर्धन्य."
+    },
+    {
+      "sanskrit": "धगद्धगद्",
+      "iast": "dhagad-dhagad",
+      "meaning": "crackle of flames",
+      "note": "Onomatopoeia."
+    },
+    {
+      "sanskrit": "ज्वलत्",
+      "iast": "jvalat",
+      "meaning": "blazing",
+      "note": "√jval. Hindi ज्वाला. ज्वलत् + ल → ज्वलल्ल."
+    },
+    {
+      "sanskrit": "ललाटपट्ट",
+      "iast": "lalāṭa-paṭṭa",
+      "meaning": "broad forehead",
+      "note": "lalāṭa = forehead; paṭṭa = flat surface."
+    },
+    {
+      "sanskrit": "पावके",
+      "iast": "pāvake",
+      "meaning": "fire",
+      "note": "Locative. pāvaka = 'the purifier', a name of Agni."
+    },
+    {
+      "sanskrit": "किशोरचन्द्र",
+      "iast": "kiśora-candra",
+      "meaning": "young moon",
+      "note": "kiśora = young (Hindi किशोर)."
+    },
+    {
+      "sanskrit": "शेखरे",
+      "iast": "śekhare",
+      "meaning": "on him whose crest is…",
+      "note": "śekhara = crest, crown. Candraśekhara = Shiva."
+    },
+    {
+      "sanskrit": "रतिः",
+      "iast": "ratiḥ",
+      "meaning": "delight, love",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्रतिक्षणम्",
+      "iast": "pratikṣaṇam",
+      "meaning": "every moment",
+      "note": "prati (each) + kṣaṇa (moment)."
+    },
+    {
+      "sanskrit": "मम",
+      "iast": "mama",
+      "meaning": "my",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Bahuvrīhi compounds:</b> <span class='dv'>…मूर्धनि, …पावके, …शेखरे</span> all describe Shiva: 'him whose head…, whose forehead-fire…, whose crest…'. They are locative because love is felt 'in' him.",
+    "<b>No verb needed:</b> <span class='dv'>रतिः प्रतिक्षणं मम</span> 'my love (is) every moment'. Sanskrit often leaves out 'is'.",
+    "<b>Consonant assimilation:</b> <span class='dv'>ज्वलत् + ललाट → ज्वलल्ललाट</span>. त् becomes ल् before ल."
+  ]
+}

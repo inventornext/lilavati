@@ -10,6 +10,8 @@ Learn Sanskrit through Bhaskaracharya's *Līlāvatī* (1150 CE). Each verse has 
 |---|---|
 | `#` | Home: all verses, progress |
 | `#peacock` (any verse id) | One verse, with previous/next buttons |
+| `#tandava` | Shiva Tāṇḍava Stotram: full text for recitation |
+| `#tandava-1` … `#tandava-17` | One stotra verse with meaning, grammar and meter |
 | `#flashcards` | Flashcards for every word, progress saved on the device |
 | `#shabdakosh` | Vidyut Shabdakosh, searchable |
 | `#words` | Science word bank |
@@ -26,6 +28,7 @@ data/manifest.json      which verses appear, and in what order
 data/verses/*.json      one file per verse
 data/shabdakosh.json    electrical engineering terms
 data/vocab.json         science word bank
+data/stotra/            Shiva Tāṇḍava Stotram: manifest.json + verses/01.json … 17.json
 figures/*.svg           one diagram per verse
 code/*.py               one Python check per verse
 audio/                  your own recitations (optional)
@@ -64,6 +67,10 @@ The meter scanner works automatically. If it shows "Meter not recognised" or red
 | `question`, `answer`, `tolerance`, `unit` | the puzzle and its numeric answer |
 | `solution` | HTML: `<div class="math">` for steps, `<div class="science">` for the modern link |
 | `audio` | optional: path to your recording, e.g. `audio/08-name.mp3` |
+
+## Shiva Tāṇḍava Stotram
+
+Each verse is a file in `data/stotra/verses/`, with the same fields as a Lilavati verse but no puzzle (`question`, `answer`, `figure`, `code` are left out). To fix a reading, edit the `devanagari` and `iast` lines; the meter scanner will flag any line that no longer scans. To add your recitation, save `audio/tandava-01.mp3` and add `"audio": "audio/tandava-01.mp3"` to `01.json`.
 
 ## Your own recitation
 

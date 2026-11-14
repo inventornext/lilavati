@@ -1,0 +1,135 @@
+{
+  "id": "tandava-3",
+  "number": "Verse 3",
+  "title": "Delight of Parvati",
+  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "devanagari": [
+    "धराधरेन्द्रनन्दिनीविलासबन्धुबन्धुर-",
+    "स्फुरद्दिगन्तसन्ततिप्रमोदमानमानसे।",
+    "कृपाकटाक्षधोरणीनिरुद्धदुर्धरापदि",
+    "क्वचिद्दिगम्बरे मनो विनोदमेतु वस्तुनि॥"
+  ],
+  "iast": [
+    "dharādharendra-nandinī-vilāsa-bandhu-bandhura-",
+    "sphurad-diganta-santati-pramodamāna-mānase |",
+    "kṛpā-kaṭākṣa-dhoraṇī-niruddha-durdharāpadi",
+    "kvacid digambare mano vinodam etu vastuni ||"
+  ],
+  "translation": "His mind rejoices in the graceful play of the <b>daughter of the king of mountains</b> (Parvati), which lights up every direction. The stream of his <b>merciful glances</b> holds back even the hardest misfortunes. May my mind find joy in that <b>Digambara</b>, clothed only by the directions.",
+  "translation_hi": "जिनका मन पर्वतराज की पुत्री पार्वती की लीलाओं से, जो सब दिशाओं को प्रकाशित करती हैं, आनंदित रहता है, और जिनकी कृपा दृष्टि की धारा कठिन से कठिन विपत्तियों को रोक देती है, उन दिगंबर शिव में मेरा मन आनंद पाए।",
+  "words": [
+    {
+      "sanskrit": "धराधरेन्द्र",
+      "iast": "dharādharendra",
+      "meaning": "king of mountains (Himalaya)",
+      "note": "dharā (earth) + dhara (holder) = mountain; + indra (king)."
+    },
+    {
+      "sanskrit": "नन्दिनी",
+      "iast": "nandinī",
+      "meaning": "daughter",
+      "note": "'She who gives joy'. Here: Parvati."
+    },
+    {
+      "sanskrit": "विलास",
+      "iast": "vilāsa",
+      "meaning": "graceful play",
+      "note": ""
+    },
+    {
+      "sanskrit": "बन्धुर",
+      "iast": "bandhura",
+      "meaning": "lovely, charming",
+      "note": ""
+    },
+    {
+      "sanskrit": "स्फुरत्",
+      "iast": "sphurat",
+      "meaning": "shining, flashing",
+      "note": "Hindi स्फूर्ति."
+    },
+    {
+      "sanskrit": "दिगन्त",
+      "iast": "diganta",
+      "meaning": "ends of the directions",
+      "note": "dik (direction) + anta (end). Hindi दिगंत."
+    },
+    {
+      "sanskrit": "सन्तति",
+      "iast": "santati",
+      "meaning": "the whole expanse",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्रमोदमानमानसे",
+      "iast": "pramodamāna-mānase",
+      "meaning": "whose mind rejoices",
+      "note": "pramoda = joy; mānasa = mind. Locative."
+    },
+    {
+      "sanskrit": "कृपाकटाक्ष",
+      "iast": "kṛpā-kaṭākṣa",
+      "meaning": "merciful glance",
+      "note": "kṛpā = mercy (Hindi कृपा); kaṭākṣa = sidelong glance."
+    },
+    {
+      "sanskrit": "धोरणी",
+      "iast": "dhoraṇī",
+      "meaning": "continuous stream",
+      "note": ""
+    },
+    {
+      "sanskrit": "निरुद्ध",
+      "iast": "niruddha",
+      "meaning": "held back, blocked",
+      "note": "Same √rudh as the trapped bee (Lilavati verse 3) and प्रतिरोध (resistance)."
+    },
+    {
+      "sanskrit": "दुर्धरापदि",
+      "iast": "durdharāpadi",
+      "meaning": "hard-to-bear calamities",
+      "note": "durdhara (hard to bear) + āpad (calamity, Hindi आपदा)."
+    },
+    {
+      "sanskrit": "क्वचित्",
+      "iast": "kvacit",
+      "meaning": "sometimes, somewhere",
+      "note": ""
+    },
+    {
+      "sanskrit": "दिगम्बरे",
+      "iast": "digambare",
+      "meaning": "in Digambara, 'sky-clad'",
+      "note": "dik (directions) + ambara (clothes). क् → ग् before a vowel."
+    },
+    {
+      "sanskrit": "मनः",
+      "iast": "manaḥ",
+      "meaning": "mind",
+      "note": "-अः → -ओ before a voiced sound: मनो विनोदम्."
+    },
+    {
+      "sanskrit": "विनोदम्",
+      "iast": "vinodam",
+      "meaning": "joy, delight",
+      "note": "Hindi विनोद."
+    },
+    {
+      "sanskrit": "एतु",
+      "iast": "etu",
+      "meaning": "may it go, may it reach",
+      "note": "Imperative of √i (to go)."
+    },
+    {
+      "sanskrit": "वस्तुनि",
+      "iast": "vastuni",
+      "meaning": "in that reality",
+      "note": "Locative of vastu (thing, real being)."
+    }
+  ],
+  "grammar": [
+    "<b>Imperative of √i 'go':</b> <span class='dv'>विनोदम् एतु</span> 'may it go to joy', meaning 'may it find joy'. A tiny verb: एति (goes), एतु (may it go).",
+    "<b>Consonant sandhi:</b> <span class='dv'>दिक् + अम्बर → दिगम्बर</span>. A hard consonant softens before a vowel, like वेगात् → वेगाद् in the bamboo verse.",
+    "<b>Root √rudh:</b> <span class='dv'>निरुद्ध</span> 'blocked'. One root gives निरुद्ध (blocked), प्रतिरोध (resistance) and अवरोध (obstruction)."
+  ]
+}

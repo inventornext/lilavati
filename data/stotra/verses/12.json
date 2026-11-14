@@ -1,0 +1,141 @@
+{
+  "id": "tandava-12",
+  "number": "Verse 12",
+  "title": "Equal Vision",
+  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "devanagari": [
+    "दृषद्विचित्रतल्पयोर्भुजङ्गमौक्तिकस्रजो-",
+    "र्गरिष्ठरत्नलोष्ठयोः सुहृद्विपक्षपक्षयोः।",
+    "तृणारविन्दचक्षुषोः प्रजामहीमहेन्द्रयोः",
+    "समं प्रवर्तयन्मनः कदा सदाशिवं भजे॥"
+  ],
+  "iast": [
+    "dṛṣad-vicitra-talpayor bhujaṅga-mauktika-srajor",
+    "gariṣṭha-ratna-loṣṭhayoḥ suhṛd-vipakṣa-pakṣayoḥ |",
+    "tṛṇāravinda-cakṣuṣoḥ prajā-mahī-mahendrayoḥ",
+    "samaṃ pravartayan manaḥ kadā sadāśivaṃ bhaje ||"
+  ],
+  "translation": "A <b>stone</b> and a beautiful <b>bed</b>, a <b>snake</b> and a <b>pearl necklace</b>, a precious <b>jewel</b> and a <b>lump of earth</b>, <b>friend</b> and <b>enemy</b>, a <b>blade of grass</b> and a <b>lotus-eyed beauty</b>, a <b>common subject</b> and the <b>king</b> of the earth: when will I look on them all <b>alike</b>, with an even mind, and worship Sadāśiva?",
+  "translation_hi": "पत्थर और सुंदर शय्या, सर्प और मोतियों की माला, बहुमूल्य रत्न और मिट्टी का ढेला, मित्र और शत्रु, तिनका और कमलनयनी सुंदरी, साधारण प्रजा और पृथ्वी का राजा, इन सबके प्रति समान भाव रखते हुए मैं कब सदाशिव को भजूँगा?",
+  "words": [
+    {
+      "sanskrit": "दृषद्",
+      "iast": "dṛṣad",
+      "meaning": "stone",
+      "note": ""
+    },
+    {
+      "sanskrit": "विचित्रतल्प",
+      "iast": "vicitra-talpa",
+      "meaning": "beautiful bed",
+      "note": "talpa = bed."
+    },
+    {
+      "sanskrit": "भुजङ्ग",
+      "iast": "bhujaṅga",
+      "meaning": "snake",
+      "note": ""
+    },
+    {
+      "sanskrit": "मौक्तिकस्रज्",
+      "iast": "mauktika-sraj",
+      "meaning": "pearl necklace",
+      "note": "mauktika = pearl, as in the necklace verse; sraj = garland."
+    },
+    {
+      "sanskrit": "गरिष्ठ",
+      "iast": "gariṣṭha",
+      "meaning": "most precious, heaviest",
+      "note": "Superlative of guru. Hindi गरिष्ठ (heavy food)."
+    },
+    {
+      "sanskrit": "रत्न",
+      "iast": "ratna",
+      "meaning": "jewel",
+      "note": ""
+    },
+    {
+      "sanskrit": "लोष्ठ",
+      "iast": "loṣṭha",
+      "meaning": "clod of earth",
+      "note": ""
+    },
+    {
+      "sanskrit": "सुहृद्",
+      "iast": "suhṛd",
+      "meaning": "friend",
+      "note": "'Good-hearted': su + hṛd."
+    },
+    {
+      "sanskrit": "विपक्षपक्ष",
+      "iast": "vipakṣa-pakṣa",
+      "meaning": "the enemy's side",
+      "note": "Hindi विपक्ष (opposition)."
+    },
+    {
+      "sanskrit": "तृण",
+      "iast": "tṛṇa",
+      "meaning": "blade of grass",
+      "note": "Hindi तिनका."
+    },
+    {
+      "sanskrit": "अरविन्दचक्षुस्",
+      "iast": "aravinda-cakṣus",
+      "meaning": "lotus-eyed (woman)",
+      "note": "aravinda = lotus; cakṣus = eye."
+    },
+    {
+      "sanskrit": "प्रजा",
+      "iast": "prajā",
+      "meaning": "common people",
+      "note": "Hindi प्रजा."
+    },
+    {
+      "sanskrit": "महीमहेन्द्र",
+      "iast": "mahī-mahendra",
+      "meaning": "king of the earth",
+      "note": "mahī = earth."
+    },
+    {
+      "sanskrit": "समम्",
+      "iast": "samam",
+      "meaning": "equally",
+      "note": "Hindi सम, समान."
+    },
+    {
+      "sanskrit": "प्रवर्तयन्",
+      "iast": "pravartayan",
+      "meaning": "keeping, directing",
+      "note": "Causative participle of pra + √vṛt."
+    },
+    {
+      "sanskrit": "मनः",
+      "iast": "manaḥ",
+      "meaning": "mind",
+      "note": ""
+    },
+    {
+      "sanskrit": "कदा",
+      "iast": "kadā",
+      "meaning": "when?",
+      "note": ""
+    },
+    {
+      "sanskrit": "सदाशिवम्",
+      "iast": "sadāśivam",
+      "meaning": "Sadāśiva, the ever-auspicious",
+      "note": ""
+    },
+    {
+      "sanskrit": "भजे",
+      "iast": "bhaje",
+      "meaning": "shall I worship",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>The dual number:</b> every pair ends in <span class='dv'>-योः</span> (genitive dual): तल्पयोः, स्रजोः, लोष्ठयोः, पक्षयोः, चक्षुषोः, महेन्द्रयोः. Six pairs of opposites, six duals. Compare तयोः in the peacock verse.",
+    "<b>Superlative -इष्ठ:</b> <span class='dv'>गुरु → गरिष्ठ</span> 'heaviest', like श्रेष्ठ (best), ज्येष्ठ (eldest). Guru also means 'heavy' in meter!",
+    "<b>Samatva:</b> the ideal of an even mind, as in the Gita: <span class='dv'>समत्वं योग उच्यते</span>."
+  ]
+}

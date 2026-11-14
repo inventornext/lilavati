@@ -68,10 +68,33 @@ for name in manifest["verses"]:
 
 load(ROOT / "data" / "vocab.json")
 
+# Shiva Tandava Stotram (no puzzle, so no answer/figure/code needed)
+STOTRA_REQUIRED = ["id", "number", "title", "meter", "devanagari", "iast",
+                   "translation", "words", "grammar"]
+smeta = load(ROOT / "data" / "stotra" / "manifest.json")
+if smeta:
+    for name in smeta["verses"]:
+        v = load(ROOT / "data" / "stotra" / "verses" / f"{name}.json")
+        if v is None:
+            continue
+        for f in STOTRA_REQUIRED:
+            if f not in v:
+                errors.append(f"stotra {name}: missing field '{f}'")
+        if v.get("id") in seen_ids:
+            errors.append(f"stotra {name}: duplicate id '{v.get('id')}'")
+        seen_ids.add(v.get("id"))
+        if len(v.get("devanagari", [])) != len(v.get("iast", [])):
+            warnings.append(f"stotra {name}: devanagari and iast line counts differ")
+        for i, w in enumerate(v.get("words", []), 1):
+            for f in WORD_FIELDS:
+                if not w.get(f):
+                    errors.append(f"stotra {name}: word {i} missing '{f}'")
+
 for w in warnings:
     print("WARNING:", w)
 for e in errors:
     print("ERROR:", e)
 if errors:
     sys.exit(1)
-print(f"OK: {len(manifest['verses'])} verses checked.")
+n_st = len(smeta["verses"]) if smeta else 0
+print(f"OK: {len(manifest['verses'])} Lilavati verses and {n_st} stotra verses checked.")

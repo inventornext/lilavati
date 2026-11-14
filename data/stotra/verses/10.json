@@ -1,0 +1,123 @@
+{
+  "id": "tandava-10",
+  "number": "Verse 10",
+  "title": "Ender of Death",
+  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "devanagari": [
+    "अखर्वसर्वमङ्गलाकलाकदम्बमञ्जरी-",
+    "रसप्रवाहमाधुरीविजृम्भणामधुव्रतम्।",
+    "स्मरान्तकं पुरान्तकं भवान्तकं मखान्तकं",
+    "गजान्तकान्धकान्तकं तमन्तकान्तकं भजे॥"
+  ],
+  "iast": [
+    "akharva-sarva-maṅgalā-kalā-kadamba-mañjarī-",
+    "rasa-pravāha-mādhurī-vijṛmbhaṇā-madhu-vratam |",
+    "smarāntakaṃ purāntakaṃ bhavāntakaṃ makhāntakaṃ",
+    "gajāntakāndhakāntakaṃ tam antakāntakaṃ bhaje ||"
+  ],
+  "translation": "Like a <b>bee</b> lost in the sweet, flowing nectar of the blossoming arts of <b>Sarvamaṅgalā</b> (Parvati), he delights in its sweetness. I worship him, the ender of Kāma, of Tripura, of worldly existence, of the sacrifice, of the elephant demon, of Andhaka, and the <b>ender of death itself</b>.",
+  "translation_hi": "जो सर्वमंगला पार्वती की कलाओं रूपी मंजरी के रस प्रवाह की मधुरता पर मुग्ध भौंरे के समान हैं, उन शिव को मैं भजता हूँ, जो कामदेव, त्रिपुर, संसार, दक्ष यज्ञ, गजासुर और अंधकासुर का अंत करने वाले हैं, और स्वयं मृत्यु का भी अंत करने वाले हैं।",
+  "words": [
+    {
+      "sanskrit": "अखर्व",
+      "iast": "akharva",
+      "meaning": "great, not small",
+      "note": "a (not) + kharva (dwarf)."
+    },
+    {
+      "sanskrit": "सर्वमङ्गला",
+      "iast": "sarva-maṅgalā",
+      "meaning": "the all-auspicious (Parvati)",
+      "note": "As in 'sarvamaṅgala-māṅgalye'."
+    },
+    {
+      "sanskrit": "कला",
+      "iast": "kalā",
+      "meaning": "art",
+      "note": ""
+    },
+    {
+      "sanskrit": "कदम्ब",
+      "iast": "kadamba",
+      "meaning": "cluster",
+      "note": ""
+    },
+    {
+      "sanskrit": "मञ्जरी",
+      "iast": "mañjarī",
+      "meaning": "blossom cluster",
+      "note": "Hindi मंजरी (tulsi mañjarī)."
+    },
+    {
+      "sanskrit": "रसप्रवाह",
+      "iast": "rasa-pravāha",
+      "meaning": "flow of nectar",
+      "note": ""
+    },
+    {
+      "sanskrit": "माधुरी",
+      "iast": "mādhurī",
+      "meaning": "sweetness",
+      "note": "Hindi माधुर्य, मधुर."
+    },
+    {
+      "sanskrit": "विजृम्भण",
+      "iast": "vijṛmbhaṇa",
+      "meaning": "blossoming, spreading",
+      "note": ""
+    },
+    {
+      "sanskrit": "मधुव्रतम्",
+      "iast": "madhu-vratam",
+      "meaning": "bee",
+      "note": "'Whose vow is honey'. A third word for bee, after ali and bhṛṅga in the Lilavati bee verse!"
+    },
+    {
+      "sanskrit": "स्मरान्तकम्",
+      "iast": "smarāntakam",
+      "meaning": "ender of Kāma",
+      "note": "smara + antaka."
+    },
+    {
+      "sanskrit": "पुरान्तकम्",
+      "iast": "purāntakam",
+      "meaning": "ender of Tripura",
+      "note": ""
+    },
+    {
+      "sanskrit": "भवान्तकम्",
+      "iast": "bhavāntakam",
+      "meaning": "ender of worldly existence",
+      "note": ""
+    },
+    {
+      "sanskrit": "मखान्तकम्",
+      "iast": "makhāntakam",
+      "meaning": "ender of the sacrifice",
+      "note": ""
+    },
+    {
+      "sanskrit": "अन्धकान्तकम्",
+      "iast": "andhakāntakam",
+      "meaning": "ender of Andhaka",
+      "note": ""
+    },
+    {
+      "sanskrit": "अन्तकान्तकम्",
+      "iast": "antakāntakam",
+      "meaning": "ender of the Ender (death)",
+      "note": "Mṛtyuñjaya."
+    },
+    {
+      "sanskrit": "भजे",
+      "iast": "bhaje",
+      "meaning": "I worship",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Same list, new word:</b> verse 9 used <span class='dv'>-च्छिद्</span> (cutter); this verse repeats the list with <span class='dv'>-अन्तक</span> (ender). A good way to learn synonyms.",
+    "<b>Bahuvrīhi:</b> <span class='dv'>मधुव्रत</span> 'one whose vow is honey' = a bee. The compound describes something else.",
+    "<b>Wordplay:</b> <span class='dv'>अन्तकान्तक</span> 'ender of the ender', since antaka (Yama) himself means 'the ender'."
+  ]
+}

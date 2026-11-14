@@ -1,0 +1,123 @@
+{
+  "id": "tandava-9",
+  "number": "Verse 9",
+  "title": "Destroyer of All Bonds",
+  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "devanagari": [
+    "प्रफुल्लनीलपङ्कजप्रपञ्चकालिमप्रभा-",
+    "वलम्बिकण्ठकन्दलीरुचिप्रबद्धकन्धरम्।",
+    "स्मरच्छिदं पुरच्छिदं भवच्छिदं मखच्छिदं",
+    "गजच्छिदान्धकच्छिदं तमन्तकच्छिदं भजे॥"
+  ],
+  "iast": [
+    "praphulla-nīla-paṅkaja-prapañca-kālima-prabhā-",
+    "valambi-kaṇṭha-kandalī-ruci-prabaddha-kandharam |",
+    "smara-cchidaṃ pura-cchidaṃ bhava-cchidaṃ makha-cchidaṃ",
+    "gaja-cchidāndhaka-cchidaṃ tam antaka-cchidaṃ bhaje ||"
+  ],
+  "translation": "His neck glows with a darkness like a spread of fully blossomed <b>blue lotuses</b>. I worship him who cut down <b>Kāma</b>, the <b>three cities</b> (Tripura), <b>worldly bondage</b>, <b>Daksha's sacrifice</b>, the <b>elephant demon</b>, <b>Andhaka</b>, and <b>Antaka</b>, death itself.",
+  "translation_hi": "जिनका कंठ खिले हुए नीले कमलों के फैलाव जैसी श्यामल आभा से सुशोभित है, उन शिव को मैं भजता हूँ, जिन्होंने कामदेव, त्रिपुर, संसार बंधन, दक्ष यज्ञ, गजासुर, अंधकासुर और स्वयं यमराज का नाश किया।",
+  "words": [
+    {
+      "sanskrit": "प्रफुल्ल",
+      "iast": "praphulla",
+      "meaning": "fully blossomed",
+      "note": "Hindi प्रफुल्लित."
+    },
+    {
+      "sanskrit": "नीलपङ्कज",
+      "iast": "nīla-paṅkaja",
+      "meaning": "blue lotus",
+      "note": "paṅkaja = 'mud-born', like saroja 'lake-born'."
+    },
+    {
+      "sanskrit": "प्रपञ्च",
+      "iast": "prapañca",
+      "meaning": "spread, expanse",
+      "note": ""
+    },
+    {
+      "sanskrit": "कालिम",
+      "iast": "kālima",
+      "meaning": "blackness",
+      "note": "Hindi कालिमा."
+    },
+    {
+      "sanskrit": "कण्ठकन्दली",
+      "iast": "kaṇṭha-kandalī",
+      "meaning": "the (lovely) neck",
+      "note": "kandalī = tender plantain shoot."
+    },
+    {
+      "sanskrit": "रुचि",
+      "iast": "ruci",
+      "meaning": "lustre",
+      "note": "Also 'taste, liking' (Hindi रुचि)."
+    },
+    {
+      "sanskrit": "प्रबद्धकन्धरम्",
+      "iast": "prabaddha-kandharam",
+      "meaning": "whose neck is bound (with that lustre)",
+      "note": "Accusative."
+    },
+    {
+      "sanskrit": "स्मरच्छिदम्",
+      "iast": "smara-cchidam",
+      "meaning": "destroyer of Smara (Kāma)",
+      "note": "-cchid = 'cutter', from √chid (to cut)."
+    },
+    {
+      "sanskrit": "पुरच्छिदम्",
+      "iast": "pura-cchidam",
+      "meaning": "destroyer of the three cities",
+      "note": "Tripura, the flying cities of the demons."
+    },
+    {
+      "sanskrit": "भवच्छिदम्",
+      "iast": "bhava-cchidam",
+      "meaning": "destroyer of worldly bondage",
+      "note": "bhava = worldly existence."
+    },
+    {
+      "sanskrit": "मखच्छिदम्",
+      "iast": "makha-cchidam",
+      "meaning": "destroyer of the sacrifice",
+      "note": "Daksha's yajña."
+    },
+    {
+      "sanskrit": "गजच्छिद्",
+      "iast": "gaja-cchid",
+      "meaning": "slayer of the elephant demon",
+      "note": "Gajāsura."
+    },
+    {
+      "sanskrit": "अन्धकच्छिदम्",
+      "iast": "andhaka-cchidam",
+      "meaning": "slayer of Andhaka",
+      "note": "A demon."
+    },
+    {
+      "sanskrit": "अन्तकच्छिदम्",
+      "iast": "antaka-cchidam",
+      "meaning": "destroyer of Antaka (death)",
+      "note": "antaka = 'the ender', Yama."
+    },
+    {
+      "sanskrit": "तम्",
+      "iast": "tam",
+      "meaning": "him",
+      "note": ""
+    },
+    {
+      "sanskrit": "भजे",
+      "iast": "bhaje",
+      "meaning": "I worship",
+      "note": "√bhaj, middle voice, 1st person. Hindi भजन."
+    }
+  ],
+  "grammar": [
+    "<b>Root nouns at the end of compounds:</b> <span class='dv'>-च्छिद्</span> 'cutter' (√छिद्). After a short vowel, छ doubles to च्छ: स्मर + छिद् → स्मरच्छिद्.",
+    "<b>Middle voice:</b> <span class='dv'>भजे</span> 'I worship (for myself)'. Sanskrit verbs have an active and a middle voice.",
+    "<b>Accusative of the object:</b> every -च्छिदम् is accusative because he is the one worshipped: 'I worship <i>him</i>.'"
+  ]
+}

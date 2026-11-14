@@ -20,7 +20,7 @@ const prefs = {
 const solved = new Set(store.get('lp-solved', []));
 const known = new Set(store.get('lp-known', []));
 
-const DATA = { verses: [], vocab: [], shabda: { intro: '', terms: [] } };
+const DATA = { verses: [], vocab: [], shabda: { intro: '', terms: [] }, stotra: { meta: null, verses: [] } };
 
 async function getJSON(p) { const r = await fetch(p); if (!r.ok) throw new Error(`Could not load ${p} (${r.status})`); return r.json(); }
 async function getText(p) { const r = await fetch(p); if (!r.ok) throw new Error(`Could not load ${p} (${r.status})`); return r.text(); }
@@ -37,6 +37,11 @@ async function loadAll() {
   }));
   DATA.vocab = (await getJSON('data/vocab.json')).words;
   DATA.shabda = await getJSON('data/shabdakosh.json').catch(() => ({ intro: '', terms: [] }));
+  try {
+    const meta = await getJSON('data/stotra/manifest.json');
+    DATA.stotra.meta = meta;
+    DATA.stotra.verses = await Promise.all(meta.verses.map(n => getJSON(`data/stotra/verses/${n}.json`)));
+  } catch { DATA.stotra = { meta: null, verses: [] }; }
 }
 
 // ---------- decorative mandala for the home page ----------
@@ -85,6 +90,14 @@ function viewHome() {
       </a>`).join('')}
   </div>
 
+  ${DATA.stotra.meta ? `
+  <h2 class="section-title">शिवताण्डवस्तोत्रम् · Shiva Tāṇḍava Stotram</h2>
+  <p class="section-sub">All ${DATA.stotra.verses.length} verses, word by word, with the Pañcacāmara rhythm shown beat by beat.</p>
+  <div class="grid">
+    <a class="card feature" href="#tandava"><div class="big">डमड्डमड्</div><h3>Read the full stotra</h3><p class="note">The complete text in one place for recitation, in Devanagari or IAST.</p></a>
+    <a class="card feature" href="#tandava-1"><div class="big">जटाटवी</div><h3>Learn it verse by verse</h3><p class="note">Meanings, grammar, meter and translations in English and Hindi.</p></a>
+  </div>` : ''}
+
   <h2 class="section-title">Practise and explore</h2>
   <div class="grid">
     <a class="card feature" href="#flashcards"><div class="big">स्मरण</div><h3>Flashcards</h3><p class="note">Every word from every verse. Flip, test yourself, and track what you know.</p></a>
@@ -120,11 +133,11 @@ function translationHTML(v) {
   return prefs.lang === 'hi' ? hi : prefs.lang === 'both' ? en + hi : en;
 }
 
-function viewVerse(v, idx) {
-  const prev = DATA.verses[idx - 1], next = DATA.verses[idx + 1];
+function viewVerse(v, idx, list = DATA.verses, crumb = { href: '#', label: 'Verses' }, end = { href: '#flashcards', label: 'Practise with flashcards' }) {
+  const prev = list[idx - 1], next = list[idx + 1];
   const lines = v.devanagari.map((d, i) => `<div class="l">${d}</div><div class="t">${v.iast[i] || ''}</div>`).join('');
   return `
-  <p class="crumbs"><a href="#">Verses</a> › ${v.title}</p>
+  <p class="crumbs"><a href="${crumb.href}">${crumb.label}</a> › ${v.title}</p>
   <div class="vhead">
     <div class="vnum">${v.number}</div>
     <h1>${v.title}</h1>
@@ -161,7 +174,7 @@ function viewVerse(v, idx) {
     <ul class="gram">${v.grammar.map(g => `<li>${g}</li>`).join('')}</ul>
   </div>
 
-  <div class="block">
+  ${v.question ? `<div class="block">
     <h2>Your turn</h2>
     <p>${v.question}</p>
     <div class="try">
@@ -175,11 +188,11 @@ function viewVerse(v, idx) {
       ${v.solution}
       ${v.codeText ? `<div class="codebar"><span>Verify it in Python</span><button class="btn" id="copy">Copy</button></div><pre><code>${esc(v.codeText)}</code></pre>` : ''}
     </div>
-  </div>
+  </div>` : ''}
 
   <nav class="pager">
     ${prev ? `<a href="#${prev.id}"><small>← Previous</small>${prev.title}</a>` : '<span></span>'}
-    ${next ? `<a class="next" href="#${next.id}"><small>Next →</small>${next.title}</a>` : `<a class="next" href="#flashcards"><small>Next →</small>Practise with flashcards</a>`}
+    ${next ? `<a class="next" href="#${next.id}"><small>Next →</small>${next.title}</a>` : `<a class="next" href="${end.href}"><small>Next →</small>${end.label}</a>`}
   </nav>`;
 }
 
@@ -214,7 +227,12 @@ function bindVerse(v) {
     $$('.w.revealed').forEach(w => w.classList.remove('revealed'));
   };
 
-  // puzzle
+  // puzzle (only verses with a question)
+  if (v.question) bindPuzzle(v);
+  bindListen(v);
+}
+
+function bindPuzzle(v) {
   const sol = $('#sol'), fb = $('#fb'), rev = $('#reveal'), inp = $('#ans');
   const tol = v.tolerance ?? 1e-6;
   const check = () => {
@@ -235,7 +253,10 @@ function bindVerse(v) {
     setTimeout(() => cp.textContent = 'Copy', 1600);
   };
 
-  // listen: your own recording if the verse has "audio", otherwise the device voice
+}
+
+// listen: your own recording if the verse has "audio", otherwise the device voice
+function bindListen(v) {
   const btn = $('#listen'), note = $('#listen-note');
   let audio = null;
   btn.onclick = () => {
@@ -267,11 +288,17 @@ const fc = { deck: 'all', dir: 'sa', hideKnown: true, queue: [], cur: null };
 function allCards() {
   const cards = [];
   DATA.verses.forEach(v => v.words.forEach((w, i) => cards.push({ key: `${v.id}:${i}`, deck: v.id, front: w.sanskrit, sub: w.iast, back: w.meaning, note: w.note, from: v.title })));
+  DATA.stotra.verses.forEach(v => v.words.forEach((w, i) => cards.push({ key: `${v.id}:${i}`, deck: v.id, group: 'tandava', front: w.sanskrit, sub: w.iast, back: w.meaning, note: w.note, from: `Shiva Tāṇḍava · ${v.title}` })));
   DATA.shabda.terms.forEach((t, i) => cards.push({ key: `shabda:${i}`, deck: 'shabda', front: t.sanskrit, sub: t.iast, back: t.english, note: t.root, from: 'Vidyut Shabdakosh' }));
   return cards;
 }
+function inDeck(c) {
+  if (fc.deck === 'all') return !c.group && c.deck !== 'shabda';
+  if (fc.deck === 'tandava') return c.group === 'tandava';
+  return c.deck === fc.deck;
+}
 function buildQueue() {
-  let cards = allCards().filter(c => fc.deck === 'all' ? c.deck !== 'shabda' : c.deck === fc.deck);
+  let cards = allCards().filter(inDeck);
   if (fc.hideKnown) cards = cards.filter(c => !known.has(c.key));
   for (let i = cards.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [cards[i], cards[j]] = [cards[j], cards[i]]; }
   fc.queue = cards;
@@ -282,9 +309,11 @@ function viewFlashcards() {
   <p class="section-sub">Look at the card, say the meaning aloud, then tap to flip. Mark it <b>Got it</b> or <b>Again</b>.</p>
   <div class="fc-controls">
     <select id="fc-deck" aria-label="Deck">
-      <option value="all">All verse words</option>
-      ${DATA.verses.map(v => `<option value="${v.id}">${v.title}</option>`).join('')}
-      <option value="shabda">Vidyut Shabdakosh</option>
+      <optgroup label="Lilavati"><option value="all">All Lilavati words</option>
+      ${DATA.verses.map(v => `<option value="${v.id}">${v.title}</option>`).join('')}</optgroup>
+      ${DATA.stotra.meta ? `<optgroup label="Shiva Tāṇḍava Stotram"><option value="tandava">All stotra words</option>
+      ${DATA.stotra.verses.map((v, i) => `<option value="${v.id}">${i + 1}. ${v.title}</option>`).join('')}</optgroup>` : ''}
+      <optgroup label="Science"><option value="shabda">Vidyut Shabdakosh</option></optgroup>
     </select>
     <div class="seg" role="group" aria-label="Direction"><button data-dir="sa">Sanskrit → English</button><button data-dir="en">English → Sanskrit</button></div>
     <label class="note"><input type="checkbox" id="fc-hide" ${fc.hideKnown ? 'checked' : ''}> Skip words I know</label>
@@ -297,7 +326,7 @@ function viewFlashcards() {
 function drawCard() {
   const card = fc.queue[0], flash = $('#flash');
   flash.classList.remove('flipped');
-  const total = allCards().filter(c => fc.deck === 'all' ? c.deck !== 'shabda' : c.deck === fc.deck);
+  const total = allCards().filter(inDeck);
   const k = total.filter(c => known.has(c.key)).length;
   $('#fc-status').textContent = `You know ${k} of ${total.length} words in this deck · ${fc.queue.length} left in this round`;
   const [front, back] = $$('.face', flash);
@@ -370,6 +399,43 @@ function viewAbout() {
   </div>`;
 }
 
+// ---------- Shiva Tandava Stotram: full text ----------
+function viewStotra() {
+  const m = DATA.stotra.meta;
+  const body = DATA.stotra.verses.map((v, i) => `
+    <div class="stotra-verse">
+      ${v.devanagari.map((d, j) => `<div class="l">${d}</div><div class="t">${v.iast[j] || ''}</div>`).join('')}
+      <div class="vfoot"><span class="dv">॥ ${toDeva(i + 1)} ॥</span> <a href="#${v.id}">${v.title} · meaning →</a></div>
+    </div>`).join('');
+  return `
+  <p class="crumbs"><a href="#">Home</a> › ${m.title}</p>
+  <div class="vhead">
+    <div class="vnum">${DATA.stotra.verses.length} verses · Rāvaṇa</div>
+    <h1 class="dv" style="color:var(--accent)">${m.title_deva}</h1>
+    <p class="en" style="font-family:var(--serif);font-size:24px;margin:0">${m.title}</p>
+  </div>
+  <p>${m.intro}</p>
+  <p class="note">${m.note}</p>
+  <div class="toolbar">
+    <div class="seg" role="group" aria-label="Script"><button data-script="deva">देवनागरी</button><button data-script="both">Both</button><button data-script="iast">IAST</button></div>
+    <a class="btn primary" href="#tandava-1">Learn verse by verse →</a>
+  </div>
+  <div class="shloka stotra mode-${prefs.script}">
+    <p class="invocation dv" style="color:var(--gold);margin:0 0 16px">॥ अथ रावणकृतं शिवताण्डवस्तोत्रम् ॥</p>
+    ${body}
+    <p class="invocation dv" style="color:var(--gold);margin:16px 0 0">॥ इति श्रीरावणकृतं शिवताण्डवस्तोत्रं सम्पूर्णम् ॥</p>
+  </div>`;
+}
+function bindStotra() {
+  const setScript = mode => {
+    prefs.script = mode; store.set('lp-script', mode);
+    $$('[data-script]').forEach(b => b.classList.toggle('on', b.dataset.script === mode));
+    $('.shloka').className = 'shloka stotra mode-' + mode;
+  };
+  $$('[data-script]').forEach(b => b.onclick = () => setScript(b.dataset.script));
+  setScript(prefs.script);
+}
+
 // ---------- router ----------
 function render() {
   const app = $('#app');
@@ -377,7 +443,14 @@ function render() {
   const idx = DATA.verses.findIndex(v => v.id === id);
   let view = 'home';
   window.speechSynthesis && speechSynthesis.cancel();
-  if (idx >= 0) { view = 'verse'; app.innerHTML = viewVerse(DATA.verses[idx], idx); bindVerse(DATA.verses[idx]); document.title = `${DATA.verses[idx].title} · Lilavati Puzzles`; }
+  const sIdx = DATA.stotra.verses.findIndex(v => v.id === id);
+  if (sIdx >= 0) {
+    view = 'tandava'; const v = DATA.stotra.verses[sIdx];
+    app.innerHTML = viewVerse(v, sIdx, DATA.stotra.verses, { href: '#tandava', label: 'Shiva Tāṇḍava Stotram' }, { href: '#tandava', label: 'Read the full stotra' });
+    bindVerse(v); document.title = `${v.title} · Shiva Tāṇḍava Stotram`;
+  }
+  else if (id === 'tandava' && DATA.stotra.meta) { view = 'tandava'; app.innerHTML = viewStotra(); bindStotra(); document.title = 'Shiva Tāṇḍava Stotram · Lilavati Puzzles'; }
+  else if (idx >= 0) { view = 'verse'; app.innerHTML = viewVerse(DATA.verses[idx], idx); bindVerse(DATA.verses[idx]); document.title = `${DATA.verses[idx].title} · Lilavati Puzzles`; }
   else if (id === 'flashcards') { view = id; app.innerHTML = viewFlashcards(); bindFlashcards(); document.title = 'Flashcards · Lilavati Puzzles'; }
   else if (id === 'shabdakosh') { view = id; app.innerHTML = viewShabda(); bindShabda(); document.title = 'Vidyut Shabdakosh · Lilavati Puzzles'; }
   else if (id === 'words') { view = id; app.innerHTML = viewWords(); document.title = 'Word bank · Lilavati Puzzles'; }
