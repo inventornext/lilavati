@@ -1,0 +1,69 @@
+{
+  "id": "devi-stuti-2",
+  "number": "Opening",
+  "title": "Fierce and Gentle",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "रौद्रायै नमो नित्यायै",
+    "गौर्यै धात्र्यै नमो नमः।",
+    "ज्योत्स्नायै चेन्दुरूपिण्यै",
+    "सुखायै सततं नमः॥"
+  ],
+  "iast": [
+    "raudrāyai namo nityāyai",
+    "gauryai dhātryai namo namaḥ |",
+    "jyotsnāyai cendu-rūpiṇyai",
+    "sukhāyai satataṃ namaḥ ||"
+  ],
+  "translation": "Salutations to the <b>fierce one</b>, to the <b>eternal one</b>, to <b>Gaurī</b>, to the <b>supporter</b> of all. Salutations always to her who is <b>moonlight</b>, who has the form of the <b>moon</b>, who is <b>happiness</b> itself.",
+  "translation_hi": "रौद्रा को, नित्या को, गौरी को, धात्री को बार बार नमस्कार है। ज्योत्स्ना को, चंद्ररूपिणी को और सुखस्वरूपा को सदा नमस्कार है।",
+  "words": [
+    {
+      "sanskrit": "रौद्रायै",
+      "iast": "raudrāyai",
+      "meaning": "to the fierce one",
+      "note": "From rudra."
+    },
+    {
+      "sanskrit": "नित्यायै",
+      "iast": "nityāyai",
+      "meaning": "to the eternal one",
+      "note": ""
+    },
+    {
+      "sanskrit": "गौर्यै",
+      "iast": "gauryai",
+      "meaning": "to Gaurī",
+      "note": "The fair one, Pārvatī."
+    },
+    {
+      "sanskrit": "धात्र्यै",
+      "iast": "dhātryai",
+      "meaning": "to the supporter",
+      "note": "dhātrī = supporter, also nurse, mother."
+    },
+    {
+      "sanskrit": "ज्योत्स्नायै",
+      "iast": "jyotsnāyai",
+      "meaning": "to moonlight",
+      "note": ""
+    },
+    {
+      "sanskrit": "इन्दुरूपिण्यै",
+      "iast": "indu-rūpiṇyai",
+      "meaning": "to her whose form is the moon",
+      "note": "indu = moon, as in bālendu."
+    },
+    {
+      "sanskrit": "सुखायै",
+      "iast": "sukhāyai",
+      "meaning": "to happiness",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Opposites in one Goddess:</b> <span class='dv'>रौद्रा</span> (fierce) and <span class='dv'>ज्योत्स्ना</span> (gentle moonlight) side by side.",
+    "<b>Guṇa sandhi:</b> <span class='dv'>च + इन्दु → चेन्दु</span>. अ + इ → ए.",
+    "<b>-rūpiṇī:</b> 'having the form of', the feminine of -rūpa."
+  ]
+}

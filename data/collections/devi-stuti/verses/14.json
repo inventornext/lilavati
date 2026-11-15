@@ -1,0 +1,31 @@
+{
+  "id": "devi-stuti-14",
+  "number": "Yā Devī 9",
+  "title": "Forbearance",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "या देवी सर्वभूतेषु",
+    "क्षान्तिरूपेण संस्थिता।",
+    "नमस्तस्यै नमस्तस्यै",
+    "नमस्तस्यै नमो नमः॥"
+  ],
+  "iast": [
+    "yā devī sarva-bhūteṣu",
+    "kṣānti-rūpeṇa saṃsthitā |",
+    "namas tasyai namas tasyai",
+    "namas tasyai namo namaḥ ||"
+  ],
+  "translation": "To the Goddess who, in all beings, is <b>present as forbearance</b>: salutation to her, salutation to her, salutation to her, salutation again and again.",
+  "translation_hi": "जो देवी सब प्राणियों में क्षमा रूप में स्थित हैं, उनको नमस्कार है, उनको नमस्कार है, उनको नमस्कार है, बार बार नमस्कार है।",
+  "words": [
+    {
+      "sanskrit": "क्षान्ति",
+      "iast": "kṣānti",
+      "meaning": "forbearance, patience",
+      "note": "Related to kṣamā."
+    }
+  ],
+  "grammar": [
+    "<b>The changing word:</b> <span class='dv'>क्षान्ति</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
+  ]
+}

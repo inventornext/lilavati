@@ -1,0 +1,44 @@
+{
+  "id": "argala-20",
+  "number": "Verse 20",
+  "title": "Praised by Shiva",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "हिमाचलसुतानाथ-",
+    "संस्तुते परमेश्वरि।",
+    "रूपं देहि जयं देहि",
+    "यशो देहि द्विषो जहि॥"
+  ],
+  "iast": [
+    "himācala-sutā-nātha-",
+    "saṃstute parameśvari |",
+    "rūpaṃ dehi jayaṃ dehi",
+    "yaśo dehi dviṣo jahi ||"
+  ],
+  "translation": "O Supreme Goddess, <b>praised by the lord of the daughter of the Himalaya</b> (Shiva)! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation_hi": "हे परमेश्वरी, हिमालय की पुत्री के स्वामी शिव द्वारा स्तुत। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
+  "words": [
+    {
+      "sanskrit": "हिमाचल",
+      "iast": "himācala",
+      "meaning": "the Himalaya",
+      "note": "hima (snow) + acala (mountain, 'unmoving')."
+    },
+    {
+      "sanskrit": "सुता",
+      "iast": "sutā",
+      "meaning": "daughter",
+      "note": ""
+    },
+    {
+      "sanskrit": "नाथ",
+      "iast": "nātha",
+      "meaning": "lord",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Acala = mountain:</b> 'the unmoving', the same word as the 'still' stars in Āryabhaṭa's boat verse.",
+    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
+  ]
+}

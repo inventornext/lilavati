@@ -1,0 +1,69 @@
+{
+  "id": "argala-24",
+  "number": "Verse 24",
+  "title": "A Good Life Partner",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "पत्नीं मनोरमां देहि",
+    "मनोवृत्तानुसारिणीम्।",
+    "तारिणीं दुर्गसंसार-",
+    "सागरस्य कुलोद्भवाम्॥"
+  ],
+  "iast": [
+    "patnīṃ manoramāṃ dehi",
+    "mano-vṛttānusāriṇīm |",
+    "tāriṇīṃ durga-saṃsāra-",
+    "sāgarasya kulodbhavām ||"
+  ],
+  "translation": "Give me a <b>charming wife</b> who follows the wishes of my heart, born of a <b>good family</b>, who helps me <b>cross the difficult ocean of worldly life</b>.",
+  "translation_hi": "मुझे मन के अनुसार चलने वाली, सुंदर पत्नी दीजिए, जो उत्तम कुल में जन्मी हो और इस कठिन संसार सागर से पार लगाने वाली हो।",
+  "words": [
+    {
+      "sanskrit": "पत्नीम्",
+      "iast": "patnīm",
+      "meaning": "wife",
+      "note": ""
+    },
+    {
+      "sanskrit": "मनोरमाम्",
+      "iast": "manoramām",
+      "meaning": "charming",
+      "note": "'Delighting the mind'."
+    },
+    {
+      "sanskrit": "मनोवृत्त",
+      "iast": "mano-vṛtta",
+      "meaning": "wishes of the heart",
+      "note": ""
+    },
+    {
+      "sanskrit": "अनुसारिणीम्",
+      "iast": "anusāriṇīm",
+      "meaning": "who follows",
+      "note": "Hindi अनुसार."
+    },
+    {
+      "sanskrit": "तारिणीम्",
+      "iast": "tāriṇīm",
+      "meaning": "who carries across",
+      "note": "√tṝ, as tīrtha."
+    },
+    {
+      "sanskrit": "संसारसागरस्य",
+      "iast": "saṃsāra-sāgarasya",
+      "meaning": "of the ocean of worldly life",
+      "note": ""
+    },
+    {
+      "sanskrit": "कुलोद्भवाम्",
+      "iast": "kulodbhavām",
+      "meaning": "born of a good family",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>No refrain here:</b> this verse is a full four-quarter prayer, traditionally recited by unmarried men.",
+    "<b>Tāriṇī:</b> 'she who carries across', the same idea as दुर्गपारा in the Devī Stuti.",
+    "<b>Accusative chain:</b> every word describing the wife is accusative, the object of <span class='dv'>देहि</span>."
+  ]
+}

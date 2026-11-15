@@ -1,0 +1,50 @@
+{
+  "id": "argala-12",
+  "number": "Verse 12",
+  "title": "Give Health and Joy",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "देहि सौभाग्यमारोग्यं",
+    "देहि मे परमं सुखम्।",
+    "रूपं देहि जयं देहि",
+    "यशो देहि द्विषो जहि॥"
+  ],
+  "iast": [
+    "dehi saubhāgyam ārogyaṃ",
+    "dehi me paramaṃ sukham |",
+    "rūpaṃ dehi jayaṃ dehi",
+    "yaśo dehi dviṣo jahi ||"
+  ],
+  "translation": "Give me <b>good fortune and health</b>, give me the <b>highest happiness</b>. <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation_hi": "मुझे सौभाग्य और आरोग्य दीजिए, मुझे परम सुख दीजिए। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
+  "words": [
+    {
+      "sanskrit": "सौभाग्यम्",
+      "iast": "saubhāgyam",
+      "meaning": "good fortune",
+      "note": ""
+    },
+    {
+      "sanskrit": "आरोग्यम्",
+      "iast": "ārogyam",
+      "meaning": "health",
+      "note": "a + roga (disease)."
+    },
+    {
+      "sanskrit": "मे",
+      "iast": "me",
+      "meaning": "to me",
+      "note": ""
+    },
+    {
+      "sanskrit": "परमम्",
+      "iast": "paramam",
+      "meaning": "highest",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Ārogya:</b> 'freedom from disease', a + roga. Hindi आरोग्य.",
+    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
+  ]
+}

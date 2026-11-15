@@ -1,4 +1,4 @@
-// Lilavati Puzzles: a small single-page site driven by the files in data/.
+// Shlokashala: a small single-page site driven by the files in data/.
 // Pages: #  (home) · #<lilavati verse id> · #stotras · #<collection id> · #<collection id>-<n>
 //        #flashcards · #quiz · #grammar · #shabdakosh · #words · #about
 // To add content you edit data/ only. See README.md.
@@ -15,7 +15,7 @@ const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
 };
-const prefs = { script: store.get('lp-script', 'deva'), lang: store.get('lp-lang', 'en') };
+const prefs = { script: store.get('lp-script', 'deva'), lang: store.get('lp-lang', 'en'), motion: store.get('lp-motion', true) };
 const solved = new Set(store.get('lp-solved', []));
 const known = new Set(store.get('lp-known', []));
 
@@ -72,25 +72,22 @@ function dailyVerse() {
 function viewHome() {
   const all = everyVerse();
   const words = all.reduce((n, x) => n + x.v.words.length, 0);
-  const meters = new Set(all.map(x => (Meter.identify(x.v.devanagari) || {}).name).filter(Boolean)).size;
-  const pct = Math.round(100 * DATA.verses.filter(v => solved.has(v.id)).length / DATA.verses.length);
   const d = dailyVerse();
   const stotras = DATA.collections.filter(c => c.meta.kind === 'stotra');
-  const arya = coll('aryabhatiya');
+  const bhaktiVerses = stotras.reduce((n, c) => n + c.verses.length, 0);
+  const ganitaVerses = DATA.verses.length + (coll('aryabhatiya')?.verses.length || 0);
   return `
   <section class="hero">
     ${mandala()}
     <p class="invocation">॥ श्रीगणेशाय नमः ॥</p>
-    <h1>लीलावती</h1>
-    <p class="en">Lilavati Puzzles</p>
-    <p class="sub">Learn Sanskrit through mathematics, astronomy and the great Shiva stotras. Every verse comes with its words, grammar, meter and translation.</p>
+    <h1>श्लोकशाला</h1>
+    <p class="en">Shlokashala · a school of verses</p>
+    <p class="sub">Learn Sanskrit one verse at a time: the great stotras to Shiva and the Goddess, and the poetry of Indian mathematics and astronomy. Every verse comes with its words, grammar, meter and translation.</p>
     <div class="stats">
       <span class="stat"><b>${all.length}</b> verses</span>
       <span class="stat"><b>${words}</b> words</span>
-      <span class="stat"><b>${meters}</b> meters</span>
-      <span class="stat"><b>${DATA.shabda.terms.length}</b> science terms</span>
+      <span class="stat"><b>${DATA.collections.length + 1}</b> texts</span>
     </div>
-    <a class="cta" href="#${DATA.verses.find(v => !solved.has(v.id))?.id || DATA.verses[0].id}">${solved.size ? 'Continue learning' : 'Start with verse 1'} →</a>
   </section>
 
   <a class="daily" href="${d.href}">
@@ -99,8 +96,46 @@ function viewHome() {
     <div class="dt">${d.v.title} →</div>
   </a>
 
-  <h2 class="section-title">लीलावती · The Līlāvatī puzzles</h2>
-  <p class="section-sub">Solve each puzzle to tick it off. Your progress stays on this device.</p>
+  <div class="doors">
+    <a class="door bhakti" href="#bhakti">
+      <div class="door-deva">भक्ति</div>
+      <h2>Bhakti</h2>
+      <p>Stotras to Shiva and the Goddess: Śiva Tāṇḍava, Rudrāṣṭakam, Nirvāṇa Ṣaṭkam, Liṅgāṣṭakam, and the Durgā Saptaśatī.</p>
+      <span class="door-count">${stotras.length} stotras · ${bhaktiVerses} verses →</span>
+    </a>
+    <a class="door ganita" href="#ganita">
+      <div class="door-deva">गणित</div>
+      <h2>Gaṇita</h2>
+      <p>Bhaskaracharya's Līlāvatī puzzles in verse, and Āryabhaṭa's astronomy: π, the turning Earth, the light of the Moon.</p>
+      <span class="door-count">${ganitaVerses} verses with puzzles →</span>
+    </a>
+  </div>
+
+  <div class="grid small-doors">
+    <a class="card feature" href="#practice"><div class="big">अभ्यास</div><h3>Practice</h3><p class="note">Flashcards for every word, and a ten-question quiz.</p></a>
+    <a class="card feature" href="#learn"><div class="big">व्याकरण</div><h3>Learn</h3><p class="note">Grammar guide, Vidyut Shabdakosh and the science word bank.</p></a>
+  </div>`;
+}
+function viewBhakti() {
+  const st = DATA.collections.filter(c => c.meta.kind === 'stotra');
+  const groups = [...new Set(st.map(c => c.meta.group || 'Stotras'))];
+  const intro = { 'Shiva': 'Hymns to Shiva, from Rāvaṇa’s thundering Tāṇḍava to Śaṅkara’s meditation on the Self.', 'Durgā Saptaśatī': 'The most-recited parts of the Durgā Saptaśatī (Devī Māhātmya). More chapters will be added over time.' };
+  return `
+  <div class="page-head"><div class="page-deva">भक्ति</div><h1>Bhakti · Stotras</h1>
+  <p class="section-sub">Each stotra has a full-text page for recitation and a page for every verse with meanings, grammar, meter and translations.</p></div>
+  ${groups.map(g => `
+    <h2 class="section-title">${g === 'Shiva' ? 'शिव · Shiva' : g === 'Durgā Saptaśatī' ? 'दुर्गासप्तशती · Durgā Saptaśatī' : g}</h2>
+    <p class="section-sub">${intro[g] || ''}</p>
+    <div class="grid">${st.filter(c => (c.meta.group || 'Stotras') === g).map(c => `<a class="card feature" href="#${c.meta.id}"><div class="big">${c.meta.title_deva}</div><h3>${c.meta.title}</h3>
+      <p class="note">${c.meta.intro.replace(/<[^>]+>/g, '').slice(0, 140)}…</p><span class="tag">${c.verses.length} verses · ${c.meta.author}</span></a>`).join('')}</div>`).join('')}`;
+}
+function viewGanita() {
+  const pct = Math.round(100 * DATA.verses.filter(v => solved.has(v.id)).length / DATA.verses.length);
+  const arya = coll('aryabhatiya');
+  return `
+  <div class="page-head"><div class="page-deva">गणित</div><h1>Gaṇita · Mathematics in verse</h1>
+  <p class="section-sub">Each verse is a puzzle: read the Sanskrit, solve it, then open the worked solution and its Python check. Your progress stays on this device.</p></div>
+  <h2 class="section-title">लीलावती · Līlāvatī (Bhaskaracharya, 1150 CE)</h2>
   <div class="progress" aria-label="Progress"><div style="width:${pct}%"></div></div>
   <div class="grid">
     ${DATA.verses.map((v, i) => `
@@ -112,25 +147,30 @@ function viewHome() {
         <span class="tag">${v.topic || ''}</span>
       </a>`).join('')}
   </div>
-
-  ${stotras.length ? `
-  <h2 class="section-title">स्तोत्राणि · Stotras</h2>
-  <p class="section-sub">Hymns to Shiva, word by word, with their rhythm shown beat by beat.</p>
-  <div class="grid">${stotras.map(collCard).join('')}</div>` : ''}
-
   ${arya ? `
-  <h2 class="section-title">आर्यभटीयम् · Astronomy</h2>
-  <p class="section-sub">${arya.meta.intro}</p>
+  <h2 class="section-title">आर्यभटीयम् · Āryabhaṭīya (499 CE)</h2>
+  <p class="section-sub">${arya.meta.intro} <a href="#aryabhatiya">Read all three verses →</a></p>
   <div class="grid">${arya.verses.map(v => `
-    <a class="card" href="#${v.id}">${solved.has(v.id) ? '<span class="done">✓</span>' : ''}<div class="kicker">${v.number}</div><h3>${v.title}</h3><div class="line1">${v.devanagari[0]}</div><span class="tag">${v.topic || ''}</span></a>`).join('')}</div>` : ''}
-
-  <h2 class="section-title">Practise and explore</h2>
+    <a class="card" href="#${v.id}">${solved.has(v.id) ? '<span class="done">✓</span>' : ''}<div class="kicker">${v.number}</div><h3>${v.title}</h3><div class="line1">${v.devanagari[0]}</div><span class="tag">${v.topic || ''}</span></a>`).join('')}</div>` : ''}`;
+}
+function viewPractice() {
+  return `
+  <div class="page-head"><div class="page-deva">अभ्यास</div><h1>Practice</h1>
+  <p class="section-sub">Revise a day after you study a verse. Little and often works best.</p></div>
   <div class="grid">
-    <a class="card feature" href="#quiz"><div class="big">परीक्षा</div><h3>Quiz</h3><p class="note">Ten quick questions mixing words and meters from every section.</p></a>
-    <a class="card feature" href="#flashcards"><div class="big">स्मरण</div><h3>Flashcards</h3><p class="note">Every word from every verse. Flip, test yourself, and track what you know.</p></a>
-    <a class="card feature" href="#grammar"><div class="big">व्याकरण</div><h3>Grammar guide</h3><p class="note">Sandhi, cases, verbs, compounds, meters and word numerals in one place.</p></a>
+    <a class="card feature" href="#flashcards"><div class="big">स्मरण</div><h3>Flashcards</h3><p class="note">Every word from every verse, by text or all together. Flip, mark Got it or Again, and track what you know.</p></a>
+    <a class="card feature" href="#quiz"><div class="big">परीक्षा</div><h3>Quiz</h3><p class="note">Ten questions: word meanings both ways, and naming the meter of a verse. Best score: ${store.get('lp-quiz-best', 0)} / 10.</p></a>
+  </div>`;
+}
+function viewLearn() {
+  return `
+  <div class="page-head"><div class="page-deva">व्याकरण</div><h1>Learn</h1>
+  <p class="section-sub">Reference pages that gather what the verses teach.</p></div>
+  <div class="grid">
+    <a class="card feature" href="#grammar"><div class="big">व्याकरणम्</div><h3>Grammar guide</h3><p class="note">Sandhi, the eight cases, verb forms, compounds, meters and word numerals, each linked to a verse.</p></a>
     <a class="card feature" href="#shabdakosh"><div class="big">विद्युत्</div><h3>Vidyut Shabdakosh</h3><p class="note">Electrical engineering terms built from Sanskrit roots.</p></a>
     <a class="card feature" href="#words"><div class="big">गणित</div><h3>Science word bank</h3><p class="note">Maths words from the verses that are still used today.</p></a>
+    <a class="card feature" href="#about"><div class="big">परिचय</div><h3>About</h3><p class="note">About Shlokashala, how to study a verse, and the sources.</p></a>
   </div>`;
 }
 function collCard(c) {
@@ -190,7 +230,7 @@ function viewVerse(v, idx, list, crumb, end) {
     <button class="btn" id="listen">${v.audio ? '🔊 Listen' : '🔊 Listen (machine voice)'}</button>
     <span class="note" id="listen-note"></span>
   </div>
-  <div class="shloka mode-${prefs.script}">${lines}</div>
+  <div class="shloka mode-${prefs.script}">${shlokaMandala()}${lines}</div>
 
   ${meterBlock(v)}
 
@@ -298,13 +338,13 @@ function bindListen(v) {
   btn.onclick = () => {
     if (v.audio) {
       if (!audio) { audio = new Audio(v.audio); audio.onended = () => btn.textContent = '🔊 Listen'; }
-      if (audio.paused) { audio.play().catch(() => note.textContent = 'Could not play the recording.'); btn.textContent = '⏸ Pause'; }
+      if (audio.paused) { audio.play().catch(() => note.textContent = 'Could not play the recording.'); btn.textContent = '⏸ Pause'; glow(true); audio.onpause = () => glow(false); }
       else { audio.pause(); btn.textContent = '🔊 Listen'; }
       return;
     }
     const synth = window.speechSynthesis;
     if (!synth) { note.textContent = 'Speech is not supported in this browser.'; return; }
-    if (synth.speaking) { synth.cancel(); btn.textContent = '🔊 Listen (machine voice)'; return; }
+    if (synth.speaking) { synth.cancel(); btn.textContent = '🔊 Listen (machine voice)'; glow(false); return; }
     const voices = synth.getVoices();
     const voice = voices.find(x => /^sa/i.test(x.lang)) || voices.find(x => /^hi/i.test(x.lang)) || voices.find(x => /^(mr|ne)/i.test(x.lang));
     if (!voice && voices.length) note.textContent = 'No Hindi voice found. Add one in your device’s text-to-speech settings.';
@@ -312,22 +352,44 @@ function bindListen(v) {
       const u = new SpeechSynthesisUtterance(line.replace(/[।॥-]/g, ' '));
       u.lang = voice ? voice.lang : 'hi-IN'; if (voice) u.voice = voice;
       u.rate = 0.72;
-      if (i === v.devanagari.length - 1) u.onend = () => btn.textContent = '🔊 Listen (machine voice)';
+      if (i === v.devanagari.length - 1) u.onend = () => { btn.textContent = '🔊 Listen (machine voice)'; glow(false); };
       synth.speak(u);
     });
-    btn.textContent = '⏹ Stop';
+    btn.textContent = '⏹ Stop'; glow(true);
   };
 }
 
-// ---------- collections (stotras, Āryabhaṭīya) ----------
-function viewStotras() {
-  const st = DATA.collections.filter(c => c.meta.kind === 'stotra');
-  return `
-  <h1 class="section-title">स्तोत्राणि · Stotras</h1>
-  <p class="section-sub">Each stotra has a full-text page for recitation and a page for every verse with meanings, grammar, meter and translations.</p>
-  <div class="grid">${st.map(c => `<a class="card feature" href="#${c.meta.id}"><div class="big">${c.meta.title_deva}</div><h3>${c.meta.title}</h3>
-    <p class="note">${c.meta.intro.replace(/<[^>]+>/g, '').slice(0, 150)}…</p><span class="tag">${c.verses.length} verses · ${c.meta.author}</span></a>`).join('')}</div>`;
+// ---------- devotional animation ----------
+function shlokaMandala() {
+  let p = '';
+  for (let i = 0; i < 12; i++) p += `<ellipse cx="100" cy="52" rx="10" ry="34" transform="rotate(${i * 30} 100 100)"/>`;
+  return `<svg class="shloka-mandala" viewBox="0 0 200 200" aria-hidden="true" fill="none" stroke="var(--gold)" stroke-width=".8">
+    <circle cx="100" cy="100" r="96"/><circle cx="100" cy="100" r="88" stroke-dasharray="2 4"/><circle cx="100" cy="100" r="22"/>${p}</svg>`;
 }
+function glow(on) { const sh = $('.shloka'); if (sh) sh.classList.toggle('glow', on); }
+function petals(on) {
+  let box = $('#petals');
+  if (!on || !prefs.motion) { if (box) box.remove(); return; }
+  if (box) return;
+  box = document.createElement('div'); box.id = 'petals'; box.setAttribute('aria-hidden', 'true');
+  const colors = ['#f59e0b', '#f97316', '#fbbf24', '#ea580c', '#fcd34d'];
+  for (let i = 0; i < 14; i++) {
+    const s = document.createElement('span');
+    s.style.left = Math.random() * 100 + 'vw';
+    s.style.animationDuration = 9 + Math.random() * 8 + 's, ' + (3 + Math.random() * 3) + 's';
+    s.style.animationDelay = -Math.random() * 15 + 's, 0s';
+    s.style.background = colors[i % colors.length];
+    s.style.transform = `scale(${0.6 + Math.random() * 0.7})`;
+    box.appendChild(s);
+  }
+  document.body.appendChild(box);
+}
+function applyMotion() {
+  document.body.classList.toggle('no-motion', !prefs.motion);
+  const t = $('#motion-toggle'); if (t) t.textContent = `Animations: ${prefs.motion ? 'on' : 'off'}`;
+}
+
+// ---------- collections (stotras, Āryabhaṭīya) ----------
 function viewCollection(c) {
   const m = c.meta;
   const body = c.verses.map((v, i) => `
@@ -335,7 +397,7 @@ function viewCollection(c) {
       ${v.devanagari.map((d, j) => `<div class="l">${d}</div><div class="t">${v.iast[j] || ''}</div>`).join('')}
       <div class="vfoot"><span class="dv">॥ ${toDeva(i + 1)} ॥</span> <a href="#${v.id}">${v.title} · meaning →</a></div>
     </div>`).join('');
-  const crumb = m.kind === 'stotra' ? '<a href="#stotras">Stotras</a>' : '<a href="#">Home</a>';
+  const crumb = m.kind === 'stotra' ? '<a href="#bhakti">Bhakti</a>' : '<a href="#ganita">Gaṇita</a>';
   return `
   <p class="crumbs">${crumb} › ${m.title}</p>
   <div class="vhead">
@@ -350,6 +412,7 @@ function viewCollection(c) {
     <a class="btn primary" href="#${c.verses[0].id}">Learn verse by verse →</a>
   </div>
   <div class="shloka stotra mode-${prefs.script}">
+    ${shlokaMandala()}
     ${m.opening ? `<p class="invocation dv" style="color:var(--gold);margin:0 0 16px">${m.opening}</p>` : ''}
     ${body}
     ${m.closing ? `<p class="invocation dv" style="color:var(--gold);margin:16px 0 0">${m.closing}</p>` : ''}
@@ -521,8 +584,9 @@ function viewWords() {
 function viewAbout() {
   return `
   <div class="prose">
-    <h1 class="section-title">About this site</h1>
-    <p>In 1150 CE, Bhaskaracharya (Bhāskara II) wrote the <i>Līlāvatī</i>, the arithmetic and geometry volume of his <i>Siddhānta Śiromaṇi</i>. Its problems are written as Sanskrit poetry in classical meters, often addressed to a young girl named Lilavati. That makes it a perfect textbook for learning the language and the mathematics together. The site also includes the astronomy of Āryabhaṭa and four great hymns to Shiva.</p>
+    <h1 class="section-title">About Shlokashala</h1>
+    <p><b>Shlokashala</b> (श्लोकशाला, 'school of verses') teaches Sanskrit through two kinds of verse: <b>bhakti</b>, the great stotras to Shiva and the Goddess, and <b>gaṇita</b>, the mathematics and astronomy of Bhaskaracharya and Āryabhaṭa.</p>
+    <p>In 1150 CE, Bhaskaracharya (Bhāskara II) wrote the <i>Līlāvatī</i>, the arithmetic and geometry volume of his <i>Siddhānta Śiromaṇi</i>. Its problems are written as Sanskrit poetry in classical meters, often addressed to a young girl named Lilavati. That makes it a perfect textbook for learning the language and the mathematics together.</p>
     <h2>How to study a verse</h2>
     <p>1. Listen to the verse and read it aloud. 2. Look at the meter scanner and clap the rhythm: long for —, short for ◡. 3. Work out the meaning from the word cards before you read the translation. 4. Solve the puzzle yourself, then open the solution. 5. Revise in Flashcards and the Quiz a day later.</p>
     <h2>About the texts</h2>
@@ -531,7 +595,7 @@ function viewAbout() {
     <p><a href="https://old.maa.org/node/116870">MAA: Mathematical Treasures, Lilavati of Bhaskara</a><br>
     <a href="https://wolframcloud.com/obj/history-of-mathematics/production/artifacts/lilavati-of-bhaskara-ii">MoMath + Wolfram: Lilāvatī of Bhāskara II</a></p>
     <h2>Coming next</h2>
-    <p>More Līlāvatī verses, the Śiva Mahimnaḥ Stotram, and recitations in my own voice.</p>
+    <p>More chapters of the Durgā Saptaśatī (Kīlakam, Siddha Kuñjikā), the Śiva Mahimnaḥ Stotram, more Līlāvatī verses, and recitations in my own voice.</p>
   </div>`;
 }
 
@@ -539,32 +603,38 @@ function viewAbout() {
 function render() {
   const app = $('#app');
   const id = decodeURIComponent(location.hash.slice(1));
-  let view = 'home';
+  let view = 'home', devotional = false;
   window.speechSynthesis && speechSynthesis.cancel();
   const lIdx = DATA.verses.findIndex(v => v.id === id);
   const c = coll(id);
   const owner = DATA.collections.find(x => x.verses.some(v => v.id === id));
+  const T = t => document.title = `${t} · Shlokashala`;
   if (lIdx >= 0) {
-    view = 'home'; const v = DATA.verses[lIdx];
-    app.innerHTML = viewVerse(v, lIdx, DATA.verses, { href: '#', label: 'Līlāvatī' }, { href: '#quiz', label: 'Test yourself in the quiz' });
-    bindVerse(v); document.title = `${v.title} · Lilavati Puzzles`;
+    view = 'ganita'; const v = DATA.verses[lIdx];
+    app.innerHTML = viewVerse(v, lIdx, DATA.verses, { href: '#ganita', label: 'Gaṇita · Līlāvatī' }, { href: '#quiz', label: 'Test yourself in the quiz' });
+    bindVerse(v); T(v.title);
   } else if (owner) {
     const i = owner.verses.findIndex(v => v.id === id), v = owner.verses[i];
-    view = owner.meta.kind === 'stotra' ? 'stotras' : owner.meta.id;
+    devotional = owner.meta.kind === 'stotra'; view = devotional ? 'bhakti' : 'ganita';
     app.innerHTML = viewVerse(v, i, owner.verses, { href: `#${owner.meta.id}`, label: owner.meta.title }, { href: `#${owner.meta.id}`, label: `Read the full ${owner.meta.title}` });
-    bindVerse(v); document.title = `${v.title} · ${owner.meta.title}`;
+    bindVerse(v); T(`${v.title} · ${owner.meta.title}`);
   } else if (c) {
-    view = c.meta.kind === 'stotra' ? 'stotras' : c.meta.id;
-    app.innerHTML = viewCollection(c); bindScript('shloka stotra'); document.title = `${c.meta.title} · Lilavati Puzzles`;
-  } else if (id === 'stotras') { view = id; app.innerHTML = viewStotras(); document.title = 'Stotras · Lilavati Puzzles'; }
-  else if (id === 'flashcards') { view = id; app.innerHTML = viewFlashcards(); bindFlashcards(); document.title = 'Flashcards · Lilavati Puzzles'; }
-  else if (id === 'quiz') { view = id; app.innerHTML = viewQuiz(); makeQuiz(); drawQuiz(); document.title = 'Quiz · Lilavati Puzzles'; }
-  else if (id === 'grammar') { view = id; app.innerHTML = viewGrammar(); bindGrammar(); document.title = 'Grammar guide · Lilavati Puzzles'; }
-  else if (id === 'shabdakosh') { view = id; app.innerHTML = viewShabda(); bindShabda(); document.title = 'Vidyut Shabdakosh · Lilavati Puzzles'; }
-  else if (id === 'words') { view = id; app.innerHTML = viewWords(); document.title = 'Word bank · Lilavati Puzzles'; }
-  else if (id === 'about') { view = id; app.innerHTML = viewAbout(); document.title = 'About · Lilavati Puzzles'; }
-  else { app.innerHTML = viewHome(); document.title = 'Lilavati Puzzles · लीलावती'; }
+    devotional = c.meta.kind === 'stotra'; view = devotional ? 'bhakti' : 'ganita';
+    app.innerHTML = viewCollection(c); bindScript('shloka stotra'); T(c.meta.title);
+  } else if (id === 'bhakti' || id === 'stotras') { view = 'bhakti'; devotional = true; app.innerHTML = viewBhakti(); T('Bhakti'); }
+  else if (id === 'ganita') { view = 'ganita'; app.innerHTML = viewGanita(); T('Gaṇita'); }
+  else if (id === 'practice') { view = 'practice'; app.innerHTML = viewPractice(); T('Practice'); }
+  else if (id === 'learn') { view = 'learn'; app.innerHTML = viewLearn(); T('Learn'); }
+  else if (id === 'flashcards') { view = 'practice'; app.innerHTML = viewFlashcards(); bindFlashcards(); T('Flashcards'); }
+  else if (id === 'quiz') { view = 'practice'; app.innerHTML = viewQuiz(); makeQuiz(); drawQuiz(); T('Quiz'); }
+  else if (id === 'grammar') { view = 'learn'; app.innerHTML = viewGrammar(); bindGrammar(); T('Grammar guide'); }
+  else if (id === 'shabdakosh') { view = 'learn'; app.innerHTML = viewShabda(); bindShabda(); T('Vidyut Shabdakosh'); }
+  else if (id === 'words') { view = 'learn'; app.innerHTML = viewWords(); T('Word bank'); }
+  else if (id === 'about') { view = 'learn'; app.innerHTML = viewAbout(); T('About'); }
+  else { app.innerHTML = viewHome(); document.title = 'Shlokashala · श्लोकशाला'; }
   $$('#links a').forEach(a => a.classList.toggle('active', a.dataset.view === view));
+  document.body.classList.toggle('devotional', devotional);
+  petals(devotional);
   window.scrollTo(0, 0);
 }
 
@@ -579,6 +649,8 @@ function setupTheme() {
 
 (async function main() {
   setupTheme();
+  applyMotion();
+  $('#motion-toggle').onclick = e => { e.preventDefault(); prefs.motion = !prefs.motion; store.set('lp-motion', prefs.motion); applyMotion(); render(); };
   try {
     await loadAll();
     window.addEventListener('hashchange', render);

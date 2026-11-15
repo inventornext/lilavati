@@ -1,0 +1,31 @@
+{
+  "id": "devi-stuti-9",
+  "number": "Yā Devī 4",
+  "title": "Sleep",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "या देवी सर्वभूतेषु",
+    "निद्रारूपेण संस्थिता।",
+    "नमस्तस्यै नमस्तस्यै",
+    "नमस्तस्यै नमो नमः॥"
+  ],
+  "iast": [
+    "yā devī sarva-bhūteṣu",
+    "nidrā-rūpeṇa saṃsthitā |",
+    "namas tasyai namas tasyai",
+    "namas tasyai namo namaḥ ||"
+  ],
+  "translation": "To the Goddess who, in all beings, is <b>present as sleep</b>: salutation to her, salutation to her, salutation to her, salutation again and again.",
+  "translation_hi": "जो देवी सब प्राणियों में निद्रा रूप में स्थित हैं, उनको नमस्कार है, उनको नमस्कार है, उनको नमस्कार है, बार बार नमस्कार है।",
+  "words": [
+    {
+      "sanskrit": "निद्रा",
+      "iast": "nidrā",
+      "meaning": "sleep",
+      "note": "Hindi नींद."
+    }
+  ],
+  "grammar": [
+    "<b>The changing word:</b> <span class='dv'>निद्रा</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
+  ]
+}

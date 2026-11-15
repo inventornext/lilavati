@@ -1,0 +1,50 @@
+{
+  "id": "argala-7",
+  "number": "Verse 7",
+  "title": "Whose Feet Are Worshipped",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "वन्दिताङ्घ्रियुगे देवि",
+    "सर्वसौभाग्यदायिनि।",
+    "रूपं देहि जयं देहि",
+    "यशो देहि द्विषो जहि॥"
+  ],
+  "iast": [
+    "vanditāṅghri-yuge devi",
+    "sarva-saubhāgya-dāyini |",
+    "rūpaṃ dehi jayaṃ dehi",
+    "yaśo dehi dviṣo jahi ||"
+  ],
+  "translation": "O Goddess whose <b>two feet are worshipped</b>, giver of <b>all good fortune</b>! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation_hi": "हे देवी, जिनके दोनों चरण वंदित हैं, सब सौभाग्य देने वाली। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
+  "words": [
+    {
+      "sanskrit": "वन्दित",
+      "iast": "vandita",
+      "meaning": "worshipped",
+      "note": ""
+    },
+    {
+      "sanskrit": "अङ्घ्रियुगे",
+      "iast": "aṅghri-yuge",
+      "meaning": "whose pair of feet",
+      "note": "aṅghri = foot (Tāṇḍava verse 5); yuga = pair."
+    },
+    {
+      "sanskrit": "सौभाग्य",
+      "iast": "saubhāgya",
+      "meaning": "good fortune",
+      "note": ""
+    },
+    {
+      "sanskrit": "दायिनि",
+      "iast": "dāyini",
+      "meaning": "O giver",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Yuga = pair:</b> the same word as śata-yuga (two hundred) in the monkey verse.",
+    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "devi-stuti-5",
+  "number": "Opening",
+  "title": "Most Gentle, Most Fierce",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "अतिसौम्यातिरौद्रायै",
+    "नतास्तस्यै नमो नमः।",
+    "नमो जगत्प्रतिष्ठायै",
+    "देव्यै कृत्यै नमो नमः॥"
+  ],
+  "iast": [
+    "ati-saumyāti-raudrāyai",
+    "natās tasyai namo namaḥ |",
+    "namo jagat-pratiṣṭhāyai",
+    "devyai kṛtyai namo namaḥ ||"
+  ],
+  "translation": "We bow to her who is <b>most gentle</b> and <b>most fierce</b>; salutations to her again and again. Salutations to the <b>foundation of the world</b>, to the Goddess who is <b>action</b> itself.",
+  "translation_hi": "अत्यंत सौम्य और अत्यंत रौद्र रूप वाली देवी को हम झुककर बार बार नमस्कार करते हैं। जगत की आधारस्वरूपा, क्रियारूपा देवी को बार बार नमस्कार है।",
+  "words": [
+    {
+      "sanskrit": "अतिसौम्य",
+      "iast": "ati-saumya",
+      "meaning": "most gentle",
+      "note": "ati = very; saumya = gentle, moon-like."
+    },
+    {
+      "sanskrit": "अतिरौद्रायै",
+      "iast": "ati-raudrāyai",
+      "meaning": "to the most fierce",
+      "note": ""
+    },
+    {
+      "sanskrit": "नताः",
+      "iast": "natāḥ",
+      "meaning": "(we are) bowed",
+      "note": ""
+    },
+    {
+      "sanskrit": "तस्यै",
+      "iast": "tasyai",
+      "meaning": "to her",
+      "note": "Dative of sā."
+    },
+    {
+      "sanskrit": "जगत्प्रतिष्ठायै",
+      "iast": "jagat-pratiṣṭhāyai",
+      "meaning": "to the foundation of the world",
+      "note": "Hindi प्रतिष्ठा."
+    },
+    {
+      "sanskrit": "कृत्यै",
+      "iast": "kṛtyai",
+      "meaning": "to action",
+      "note": "From √kṛ."
+    }
+  ],
+  "grammar": [
+    "<b>Ati- 'very':</b> <span class='dv'>अतिसौम्य, अतिरौद्र</span>. Hindi uses the same: अति सुंदर.",
+    "<b>Tasyai 'to her':</b> the dative of सा, the word that becomes the refrain नमस्तस्यै in the next verses.",
+    "<b>Saumya:</b> from soma, the moon: gentle and cool like moonlight."
+  ]
+}

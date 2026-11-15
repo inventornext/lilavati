@@ -1,0 +1,81 @@
+{
+  "id": "devi-stuti-3",
+  "number": "Opening",
+  "title": "Growth of Those Who Bow",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "कल्याण्यै प्रणतां वृद्ध्यै",
+    "सिद्ध्यै कुर्मो नमो नमः।",
+    "नैर्ऋत्यै भूभृतां लक्ष्म्यै",
+    "शर्वाण्यै ते नमो नमः॥"
+  ],
+  "iast": [
+    "kalyāṇyai praṇatāṃ vṛddhyai",
+    "siddhyai kurmo namo namaḥ |",
+    "nairṛtyai bhūbhṛtāṃ lakṣmyai",
+    "śarvāṇyai te namo namaḥ ||"
+  ],
+  "translation": "To the <b>auspicious one</b>, to her who is the <b>growth</b> and <b>success</b> of those who bow to her, we offer salutations again and again. To her who is <b>misfortune</b> to the wicked and <b>prosperity</b> to kings, to <b>Śarvāṇī</b>, salutations again and again.",
+  "translation_hi": "कल्याणी को, प्रणाम करने वालों की वृद्धि और सिद्धि रूपा देवी को हम बार बार नमस्कार करते हैं। दुष्टों के लिए नैर्ऋती, राजाओं की लक्ष्मी और शर्वाणी को बार बार नमस्कार है।",
+  "words": [
+    {
+      "sanskrit": "कल्याण्यै",
+      "iast": "kalyāṇyai",
+      "meaning": "to the auspicious one",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्रणताम्",
+      "iast": "praṇatām",
+      "meaning": "of those who bow",
+      "note": "Genitive plural."
+    },
+    {
+      "sanskrit": "वृद्ध्यै",
+      "iast": "vṛddhyai",
+      "meaning": "to growth",
+      "note": "Hindi वृद्धि."
+    },
+    {
+      "sanskrit": "सिद्ध्यै",
+      "iast": "siddhyai",
+      "meaning": "to success",
+      "note": "Hindi सिद्धि."
+    },
+    {
+      "sanskrit": "कुर्मः",
+      "iast": "kurmaḥ",
+      "meaning": "we do, we make",
+      "note": "√kṛ, 1st person plural."
+    },
+    {
+      "sanskrit": "नैर्ऋत्यै",
+      "iast": "nairṛtyai",
+      "meaning": "to misfortune (for the wicked)",
+      "note": "From nirṛti, goddess of decay."
+    },
+    {
+      "sanskrit": "भूभृताम्",
+      "iast": "bhūbhṛtām",
+      "meaning": "of kings, 'earth-bearers'",
+      "note": ""
+    },
+    {
+      "sanskrit": "लक्ष्म्यै",
+      "iast": "lakṣmyai",
+      "meaning": "to prosperity",
+      "note": ""
+    },
+    {
+      "sanskrit": "शर्वाण्यै",
+      "iast": "śarvāṇyai",
+      "meaning": "to Śarvāṇī",
+      "note": "Wife of Śarva (Shiva)."
+    }
+  ],
+  "grammar": [
+    "<b>Namaḥ kurmaḥ:</b> 'we make salutation', with √kṛ in the plural.",
+    "<b>Bhū-bhṛt:</b> 'earth-bearer' = king (and also mountain). Same √bhṛ as bhartṛ in Tāṇḍava verse 4.",
+    "<b>Genitive plural -ām:</b> <span class='dv'>प्रणताम्, भूभृताम्</span> 'of those who bow, of kings'."
+  ]
+}

@@ -1,16 +1,19 @@
-# Lilavati Puzzles · लीलावती
+# Shlokashala · श्लोकशाला
 
-Learn Sanskrit through Bhaskaracharya's *Līlāvatī* (1150 CE). Each verse has the original text, a meter scanner, word cards, English and Hindi translations, grammar notes, a puzzle with a worked solution, and a Python check. The site also has flashcards, a Sanskrit glossary of electrical engineering terms (Vidyut Shabdakosh) and a science word bank.
+Shlokashala ('school of verses') teaches Sanskrit through **Bhakti** (stotras to Shiva and the Goddess, including the Durgā Saptaśatī) and **Gaṇita** (Bhaskaracharya's *Līlāvatī* and Āryabhaṭa's astronomy). Each verse has the original text, a meter scanner, word cards, English and Hindi translations, grammar notes, a puzzle with a worked solution, and a Python check. The site also has flashcards, a Sanskrit glossary of electrical engineering terms (Vidyut Shabdakosh) and a science word bank.
 
-**Live site:** https://inventornext.github.io/lilavati/
+**Live site:** https://inventornext.github.io/shlokashala/
 
 ## Pages
 
 | Link | Page |
 |---|---|
-| `#` | Home: all verses, progress |
+| `#` | Home: verse of the day, Bhakti and Gaṇita |
+| `#bhakti` | All stotras, grouped (Shiva, Durgā Saptaśatī) |
+| `#ganita` | Līlāvatī puzzles and Āryabhaṭīya, with progress |
+| `#practice` | Flashcards and quiz |
+| `#learn` | Grammar, Shabdakosh, word bank, about |
 | `#peacock` (any verse id) | One verse, with previous/next buttons |
-| `#stotras` | List of all stotras |
 | `#tandava`, `#rudrashtakam`, `#nirvana`, `#lingashtakam` | A stotra's full text for recitation |
 | `#aryabhatiya` | Āryabhaṭīya (astronomy) full text |
 | `#tandava-1`, `#nirvana-3`, `#aryabhatiya-1` … | One verse of a collection |
@@ -100,3 +103,11 @@ Record the verse on your phone, save it as `audio/03-bees.mp3`, and add `"audio"
 
 - The page loads its data with `fetch`, so double-clicking `index.html` will not work. Use `python -m http.server` locally.
 - Verse texts follow the commonly printed *Līlāvatī*. Compare with a printed edition before publishing new verses.
+
+## Animation
+
+The diya flame, the slowly turning mandala behind each shloka, the ārti glow while a verse plays, and the marigold petals on Bhakti pages are all in `css/style.css` (search for "devotional animation") and `js/app.js` (`shlokaMandala`, `glow`, `petals`). Visitors can switch them off with "Animations: on/off" in the footer, and they stop automatically for anyone whose device asks for reduced motion.
+
+## Grouping stotras
+
+A stotra's `manifest.json` can have `"group": "Shiva"` or `"group": "Durgā Saptaśatī"`. The Bhakti page shows one section per group, so a new group (for example "Viṣṇu") appears automatically.

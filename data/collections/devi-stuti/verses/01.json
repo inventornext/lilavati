@@ -1,0 +1,87 @@
+{
+  "id": "devi-stuti-1",
+  "number": "Opening",
+  "title": "Salutations to the Goddess",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "नमो देव्यै महादेव्यै",
+    "शिवायै सततं नमः।",
+    "नमः प्रकृत्यै भद्रायै",
+    "नियताः प्रणताः स्म ताम्॥"
+  ],
+  "iast": [
+    "namo devyai mahādevyai",
+    "śivāyai satataṃ namaḥ |",
+    "namaḥ prakṛtyai bhadrāyai",
+    "niyatāḥ praṇatāḥ sma tām ||"
+  ],
+  "translation": "Salutations to the <b>Goddess</b>, the <b>Great Goddess</b>, to the <b>auspicious one</b>, always. Salutations to <b>Prakṛti</b>, to the gracious one. With minds controlled, we bow to her.",
+  "translation_hi": "देवी को, महादेवी को, कल्याणमयी शिवा को सदा नमस्कार है। प्रकृति को, भद्रा को नमस्कार है। हम संयमित होकर उन्हें प्रणाम करते हैं।",
+  "words": [
+    {
+      "sanskrit": "नमः",
+      "iast": "namaḥ",
+      "meaning": "salutation",
+      "note": "With the dative: नमः X-ai = 'salutation to X'."
+    },
+    {
+      "sanskrit": "देव्यै",
+      "iast": "devyai",
+      "meaning": "to the Goddess",
+      "note": "Dative of devī. Feminine -ī nouns take -यै."
+    },
+    {
+      "sanskrit": "महादेव्यै",
+      "iast": "mahādevyai",
+      "meaning": "to the Great Goddess",
+      "note": ""
+    },
+    {
+      "sanskrit": "शिवायै",
+      "iast": "śivāyai",
+      "meaning": "to the auspicious one",
+      "note": "Dative of śivā (feminine of śiva)."
+    },
+    {
+      "sanskrit": "सततम्",
+      "iast": "satatam",
+      "meaning": "always",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्रकृत्यै",
+      "iast": "prakṛtyai",
+      "meaning": "to Prakṛti (nature)",
+      "note": "Hindi प्रकृति."
+    },
+    {
+      "sanskrit": "भद्रायै",
+      "iast": "bhadrāyai",
+      "meaning": "to the gracious one",
+      "note": "Hindi भद्र."
+    },
+    {
+      "sanskrit": "नियताः",
+      "iast": "niyatāḥ",
+      "meaning": "self-controlled (we)",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्रणताः स्म",
+      "iast": "praṇatāḥ sma",
+      "meaning": "we have bowed",
+      "note": "sma makes the present past or emphatic."
+    },
+    {
+      "sanskrit": "ताम्",
+      "iast": "tām",
+      "meaning": "to her",
+      "note": "Accusative of sā."
+    }
+  ],
+  "grammar": [
+    "<b>Namaḥ + dative:</b> salutation always takes the dative ('to'): <span class='dv'>देव्यै, शिवायै, प्रकृत्यै</span>. Compare शिवाय नमः.",
+    "<b>Feminine dative -ai:</b> devī → <span class='dv'>देव्यै</span>, śivā → <span class='dv'>शिवायै</span>, prakṛti → <span class='dv'>प्रकृत्यै</span>.",
+    "<b>Setting:</b> in chapter 5 of the Durgā Saptaśatī, the gods, defeated by the demons Śumbha and Niśumbha, go to the Himalaya and praise the Goddess with this hymn."
+  ]
+}

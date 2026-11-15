@@ -1,0 +1,75 @@
+{
+  "id": "devi-stuti-4",
+  "number": "Opening",
+  "title": "Durgā Who Carries Across",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "दुर्गायै दुर्गपारायै",
+    "सारायै सर्वकारिण्यै।",
+    "ख्यात्यै तथैव कृष्णायै",
+    "धूम्रायै सततं नमः॥"
+  ],
+  "iast": [
+    "durgāyai durga-pārāyai",
+    "sārāyai sarva-kāriṇyai |",
+    "khyātyai tathaiva kṛṣṇāyai",
+    "dhūmrāyai satataṃ namaḥ ||"
+  ],
+  "translation": "Salutations always to <b>Durgā</b>, who carries us <b>across difficulties</b>, to the <b>essence</b>, the <b>maker of all</b>, to <b>fame</b>, and to the dark and the smoke-coloured one.",
+  "translation_hi": "दुर्गा को, जो कठिनाइयों से पार लगाती हैं, सार स्वरूपा को, सबकी कर्त्री को, ख्याति को, कृष्णा को और धूम्रा को सदा नमस्कार है।",
+  "words": [
+    {
+      "sanskrit": "दुर्गायै",
+      "iast": "durgāyai",
+      "meaning": "to Durgā",
+      "note": "'Hard to reach', from dur + √gam."
+    },
+    {
+      "sanskrit": "दुर्गपारायै",
+      "iast": "durga-pārāyai",
+      "meaning": "to her who carries across difficulty",
+      "note": "durga = hardship; pāra = far shore."
+    },
+    {
+      "sanskrit": "सारायै",
+      "iast": "sārāyai",
+      "meaning": "to the essence",
+      "note": "Hindi सार."
+    },
+    {
+      "sanskrit": "सर्वकारिण्यै",
+      "iast": "sarva-kāriṇyai",
+      "meaning": "to the maker of all",
+      "note": ""
+    },
+    {
+      "sanskrit": "ख्यात्यै",
+      "iast": "khyātyai",
+      "meaning": "to fame",
+      "note": "Hindi ख्याति."
+    },
+    {
+      "sanskrit": "तथैव",
+      "iast": "tathaiva",
+      "meaning": "and likewise",
+      "note": "tathā + eva."
+    },
+    {
+      "sanskrit": "कृष्णायै",
+      "iast": "kṛṣṇāyai",
+      "meaning": "to the dark one",
+      "note": ""
+    },
+    {
+      "sanskrit": "धूम्रायै",
+      "iast": "dhūmrāyai",
+      "meaning": "to the smoke-coloured one",
+      "note": "Hindi धुआँ."
+    }
+  ],
+  "grammar": [
+    "<b>Durgā's name:</b> <span class='dv'>दुर्ग</span> = a fort, a hard place; <span class='dv'>दुर्गपारा</span> = she who takes you across hard places. The name contains her promise.",
+    "<b>Vṛddhi sandhi:</b> <span class='dv'>तथा + एव → तथैव</span>. आ + ए → ऐ.",
+    "<b>Pāra:</b> the far shore, as in संसारपार in Rudrāṣṭakam."
+  ]
+}

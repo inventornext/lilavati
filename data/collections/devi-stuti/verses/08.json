@@ -1,0 +1,44 @@
+{
+  "id": "devi-stuti-8",
+  "number": "Yā Devī 3",
+  "title": "Intelligence",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "या देवी सर्वभूतेषु",
+    "बुद्धिरूपेण संस्थिता।",
+    "नमस्तस्यै नमस्तस्यै",
+    "नमस्तस्यै नमो नमः॥"
+  ],
+  "iast": [
+    "yā devī sarva-bhūteṣu",
+    "buddhi-rūpeṇa saṃsthitā |",
+    "namas tasyai namas tasyai",
+    "namas tasyai namo namaḥ ||"
+  ],
+  "translation": "To the Goddess who, in all beings, is <b>present as intelligence</b>: salutation to her, salutation to her, salutation to her, salutation again and again.",
+  "translation_hi": "जो देवी सब प्राणियों में बुद्धि रूप में स्थित हैं, उनको नमस्कार है, उनको नमस्कार है, उनको नमस्कार है, बार बार नमस्कार है।",
+  "words": [
+    {
+      "sanskrit": "बुद्धि",
+      "iast": "buddhi",
+      "meaning": "intelligence",
+      "note": ""
+    },
+    {
+      "sanskrit": "रूपेण",
+      "iast": "rūpeṇa",
+      "meaning": "in the form of",
+      "note": "Instrumental of rūpa: 'by way of form'."
+    },
+    {
+      "sanskrit": "संस्थिता",
+      "iast": "saṃsthitā",
+      "meaning": "dwells, is established",
+      "note": "sam + √sthā."
+    }
+  ],
+  "grammar": [
+    "<b>The pattern from here on:</b> <span class='dv'>X-रूपेण संस्थिता</span> 'present in the form of X'. Only one word changes in each verse: learn that word and you know the verse.",
+    "<b>Instrumental of manner:</b> <span class='dv'>रूपेण</span> 'by way of form', like अनिलेन 'by the wind'."
+  ]
+}

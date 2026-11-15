@@ -1,0 +1,44 @@
+{
+  "id": "argala-22",
+  "number": "Verse 22",
+  "title": "Destroyer of Mighty Arms",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "देवि प्रचण्डदोर्दण्ड-",
+    "दैत्यदर्पविनाशिनि।",
+    "रूपं देहि जयं देहि",
+    "यशो देहि द्विषो जहि॥"
+  ],
+  "iast": [
+    "devi pracaṇḍa-dor-daṇḍa-",
+    "daitya-darpa-vināśini |",
+    "rūpaṃ dehi jayaṃ dehi",
+    "yaśo dehi dviṣo jahi ||"
+  ],
+  "translation": "O Goddess, destroyer of the <b>pride of demons with mighty arms</b>! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation_hi": "हे देवी, प्रचंड भुजाओं वाले दैत्यों का दर्प नष्ट करने वाली। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
+  "words": [
+    {
+      "sanskrit": "दोर्दण्ड",
+      "iast": "dor-daṇḍa",
+      "meaning": "mighty arm",
+      "note": "dos (arm) + daṇḍa (staff)."
+    },
+    {
+      "sanskrit": "दैत्यदर्प",
+      "iast": "daitya-darpa",
+      "meaning": "pride of demons",
+      "note": ""
+    },
+    {
+      "sanskrit": "विनाशिनि",
+      "iast": "vināśini",
+      "meaning": "O destroyer",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Visarga to r:</b> <span class='dv'>दोः + दण्ड → दोर्दण्ड</span>.",
+    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
+  ]
+}

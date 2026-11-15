@@ -1,0 +1,56 @@
+{
+  "id": "argala-16",
+  "number": "Verse 16",
+  "title": "Make Me Learned",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "विद्यावन्तं यशस्वन्तं",
+    "लक्ष्मीवन्तं जनं कुरु।",
+    "रूपं देहि जयं देहि",
+    "यशो देहि द्विषो जहि॥"
+  ],
+  "iast": [
+    "vidyāvantaṃ yaśasvantaṃ",
+    "lakṣmīvantaṃ janaṃ kuru |",
+    "rūpaṃ dehi jayaṃ dehi",
+    "yaśo dehi dviṣo jahi ||"
+  ],
+  "translation": "Make your devotee <b>learned</b>, <b>famous</b> and <b>prosperous</b>. <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation_hi": "अपने भक्त को विद्यावान, यशस्वी और लक्ष्मीवान बनाइए। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
+  "words": [
+    {
+      "sanskrit": "विद्यावन्तम्",
+      "iast": "vidyāvantam",
+      "meaning": "learned",
+      "note": "vidyā + -vat (having)."
+    },
+    {
+      "sanskrit": "यशस्वन्तम्",
+      "iast": "yaśasvantam",
+      "meaning": "famous",
+      "note": ""
+    },
+    {
+      "sanskrit": "लक्ष्मीवन्तम्",
+      "iast": "lakṣmīvantam",
+      "meaning": "prosperous",
+      "note": ""
+    },
+    {
+      "sanskrit": "जनम्",
+      "iast": "janam",
+      "meaning": "the person",
+      "note": ""
+    },
+    {
+      "sanskrit": "कुरु",
+      "iast": "kuru",
+      "meaning": "make!",
+      "note": "Imperative of √kṛ."
+    }
+  ],
+  "grammar": [
+    "<b>Suffix -vat 'having':</b> <span class='dv'>विद्यावत्, लक्ष्मीवत्</span>, like ninādavat in Tāṇḍava verse 1. Hindi विद्यावान.",
+    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
+  ]
+}

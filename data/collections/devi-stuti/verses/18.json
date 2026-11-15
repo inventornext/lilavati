@@ -1,0 +1,31 @@
+{
+  "id": "devi-stuti-18",
+  "number": "Yā Devī 13",
+  "title": "Faith",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "या देवी सर्वभूतेषु",
+    "श्रद्धारूपेण संस्थिता।",
+    "नमस्तस्यै नमस्तस्यै",
+    "नमस्तस्यै नमो नमः॥"
+  ],
+  "iast": [
+    "yā devī sarva-bhūteṣu",
+    "śraddhā-rūpeṇa saṃsthitā |",
+    "namas tasyai namas tasyai",
+    "namas tasyai namo namaḥ ||"
+  ],
+  "translation": "To the Goddess who, in all beings, is <b>present as faith</b>: salutation to her, salutation to her, salutation to her, salutation again and again.",
+  "translation_hi": "जो देवी सब प्राणियों में श्रद्धा रूप में स्थित हैं, उनको नमस्कार है, उनको नमस्कार है, उनको नमस्कार है, बार बार नमस्कार है।",
+  "words": [
+    {
+      "sanskrit": "श्रद्धा",
+      "iast": "śraddhā",
+      "meaning": "faith",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>The changing word:</b> <span class='dv'>श्रद्धा</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
+  ]
+}

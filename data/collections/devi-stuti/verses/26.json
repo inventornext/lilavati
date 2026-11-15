@@ -1,0 +1,32 @@
+{
+  "id": "devi-stuti-26",
+  "number": "Yā Devī 21",
+  "title": "Delusion",
+  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "devanagari": [
+    "या देवी सर्वभूतेषु",
+    "भ्रान्तिरूपेण संस्थिता।",
+    "नमस्तस्यै नमस्तस्यै",
+    "नमस्तस्यै नमो नमः॥"
+  ],
+  "iast": [
+    "yā devī sarva-bhūteṣu",
+    "bhrānti-rūpeṇa saṃsthitā |",
+    "namas tasyai namas tasyai",
+    "namas tasyai namo namaḥ ||"
+  ],
+  "translation": "To the Goddess who, in all beings, is <b>present even as delusion</b>: salutation to her, salutation to her, salutation to her, salutation again and again.",
+  "translation_hi": "जो देवी सब प्राणियों में भ्रांति रूप में स्थित हैं, उनको नमस्कार है, उनको नमस्कार है, उनको नमस्कार है, बार बार नमस्कार है।",
+  "words": [
+    {
+      "sanskrit": "भ्रान्ति",
+      "iast": "bhrānti",
+      "meaning": "delusion, error",
+      "note": "√bhram, as bhramat in Tāṇḍava verse 2."
+    }
+  ],
+  "grammar": [
+    "<b>Even delusion:</b> after sleep, hunger and thirst, the hymn says the Goddess is present even as <span class='dv'>भ्रान्ति</span>, error. Nothing in experience is outside her.",
+    "<b>Root √bhram:</b> to wander. भ्रान्ति, भ्रमण, भ्रम: wandering of the mind and of the feet."
+  ]
+}
