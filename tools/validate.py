@@ -68,27 +68,42 @@ for name in manifest["verses"]:
 
 load(ROOT / "data" / "vocab.json")
 
-# Shiva Tandava Stotram (no puzzle, so no answer/figure/code needed)
-STOTRA_REQUIRED = ["id", "number", "title", "meter", "devanagari", "iast",
-                   "translation", "words", "grammar"]
-smeta = load(ROOT / "data" / "stotra" / "manifest.json")
-if smeta:
-    for name in smeta["verses"]:
-        v = load(ROOT / "data" / "stotra" / "verses" / f"{name}.json")
+# Collections: stotras and the Aryabhatiya (puzzle fields optional)
+COLL_REQUIRED = ["id", "number", "title", "meter", "devanagari", "iast",
+                 "translation", "words", "grammar"]
+n_coll = 0
+cindex = load(ROOT / "data" / "collections.json") or {"collections": []}
+for cid in cindex["collections"]:
+    cmeta = load(ROOT / "data" / "collections" / cid / "manifest.json")
+    if not cmeta:
+        continue
+    for name in cmeta["verses"]:
+        v = load(ROOT / "data" / "collections" / cid / "verses" / f"{name}.json")
         if v is None:
             continue
-        for f in STOTRA_REQUIRED:
+        n_coll += 1
+        tag = f"{cid}/{name}:"
+        for f in COLL_REQUIRED:
             if f not in v:
-                errors.append(f"stotra {name}: missing field '{f}'")
+                errors.append(f"{tag} missing field '{f}'")
         if v.get("id") in seen_ids:
-            errors.append(f"stotra {name}: duplicate id '{v.get('id')}'")
+            errors.append(f"{tag} duplicate id '{v.get('id')}'")
         seen_ids.add(v.get("id"))
         if len(v.get("devanagari", [])) != len(v.get("iast", [])):
-            warnings.append(f"stotra {name}: devanagari and iast line counts differ")
+            warnings.append(f"{tag} devanagari and iast line counts differ")
         for i, w in enumerate(v.get("words", []), 1):
             for f in WORD_FIELDS:
                 if not w.get(f):
-                    errors.append(f"stotra {name}: word {i} missing '{f}'")
+                    errors.append(f"{tag} word {i} missing '{f}'")
+        for key in ("figure", "code"):
+            if v.get(key) and not (ROOT / v[key]).exists():
+                errors.append(f"{tag} {key} file '{v[key]}' not found")
+        if v.get("code") and (ROOT / v["code"]).exists():
+            r = subprocess.run([sys.executable, str(ROOT / v["code"])], capture_output=True, text=True, timeout=30)
+            if r.returncode != 0:
+                errors.append(f"{tag} {v['code']} crashed:\n{r.stderr.strip()}")
+
+load(ROOT / "data" / "grammar.json")
 
 for w in warnings:
     print("WARNING:", w)
@@ -96,5 +111,4 @@ for e in errors:
     print("ERROR:", e)
 if errors:
     sys.exit(1)
-n_st = len(smeta["verses"]) if smeta else 0
-print(f"OK: {len(manifest['verses'])} Lilavati verses and {n_st} stotra verses checked.")
+print(f"OK: {len(manifest['verses'])} Lilavati verses and {n_coll} collection verses checked.")

@@ -1,0 +1,57 @@
+{
+  "id": "lingashtakam-7",
+  "number": "Verse 7",
+  "title": "On the Eight-petalled Lotus",
+  "meter": "Meter: 16 mātrās per line (Dodhaka pattern)",
+  "devanagari": [
+    "अष्टदलोपरिवेष्टितलिङ्गं",
+    "सर्वसमुद्भवकारणलिङ्गम्।",
+    "अष्टदरिद्रविनाशितलिङ्गं",
+    "तत्प्रणमामि सदाशिवलिङ्गम्॥"
+  ],
+  "iast": [
+    "aṣṭa-dalopari-veṣṭita-liṅgaṃ",
+    "sarva-samudbhava-kāraṇa-liṅgam |",
+    "aṣṭa-daridra-vināśita-liṅgaṃ",
+    "tat praṇamāmi sadāśiva-liṅgam ||"
+  ],
+  "translation": "Set upon the <b>eight-petalled lotus</b>, the <b>cause of all creation</b>, the liṅga that removes the <b>eight kinds of poverty</b>: I bow to that liṅga of Sadāśiva.",
+  "translation_hi": "जो अष्टदल कमल पर स्थित है, सबकी उत्पत्ति का कारण है, और आठ प्रकार की दरिद्रता का नाश करता है, उस सदाशिव लिंग को मैं प्रणाम करता हूँ।",
+  "words": [
+    {
+      "sanskrit": "अष्टदल",
+      "iast": "aṣṭa-dala",
+      "meaning": "eight petals",
+      "note": "dala = petal; also 'half' in the bee verse!"
+    },
+    {
+      "sanskrit": "उपरि",
+      "iast": "upari",
+      "meaning": "upon",
+      "note": "As in tad-upari in the peacock verse."
+    },
+    {
+      "sanskrit": "समुद्भव",
+      "iast": "samudbhava",
+      "meaning": "origin, creation",
+      "note": ""
+    },
+    {
+      "sanskrit": "दरिद्र",
+      "iast": "daridra",
+      "meaning": "poverty",
+      "note": "Hindi दरिद्र."
+    },
+    {
+      "sanskrit": "विनाशित",
+      "iast": "vināśita",
+      "meaning": "destroyed",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>One word, two meanings:</b> <span class='dv'>दल</span> = petal here, and 'half' in Lilavati verse 3. The meaning comes from context.",
+    "<b>Guṇa sandhi:</b> <span class='dv'>अष्टदल + उपरि → अष्टदलोपरि</span>, like तस्योपरि.",
+    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that liṅga of Sadāśiva.'"
+  ]
+}

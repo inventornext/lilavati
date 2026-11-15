@@ -1,0 +1,91 @@
+{
+  "id": "aryabhatiya-1",
+  "number": "Gaṇitapāda 10 · Geometry",
+  "topic": "Value of π",
+  "title": "Āryabhaṭa's π",
+  "meter": "Meter: Āryā (counted in mātrās: 30 + 27 per half-verse)",
+  "devanagari": [
+    "चतुरधिकं शतमष्टगुणं द्वाषष्टिस्तथा सहस्राणाम्।",
+    "अयुतद्वयविष्कम्भस्यासन्नो वृत्तपरिणाहः॥"
+  ],
+  "iast": [
+    "caturadhikaṃ śatam aṣṭa-guṇaṃ dvāṣaṣṭis tathā sahasrāṇām |",
+    "ayuta-dvaya-viṣkambhasyāsanno vṛtta-pariṇāhaḥ ||"
+  ],
+  "translation": "<b>Add 4 to 100, multiply by 8</b>, and add <b>62,000</b>. This is the <b>approximate</b> circumference of a circle whose diameter is <b>20,000</b>.",
+  "translation_hi": "सौ में चार जोड़ो, आठ से गुणा करो और फिर बासठ हज़ार जोड़ो। यह बीस हज़ार व्यास वाले वृत्त की परिधि का निकटतम मान है।",
+  "words": [
+    {
+      "sanskrit": "चतुरधिकम्",
+      "iast": "caturadhikam",
+      "meaning": "increased by four",
+      "note": "catur (4) + adhika (more). Hindi अधिक."
+    },
+    {
+      "sanskrit": "शतम्",
+      "iast": "śatam",
+      "meaning": "a hundred",
+      "note": ""
+    },
+    {
+      "sanskrit": "अष्टगुणम्",
+      "iast": "aṣṭa-guṇam",
+      "meaning": "multiplied by eight",
+      "note": ""
+    },
+    {
+      "sanskrit": "द्वाषष्टिः",
+      "iast": "dvāṣaṣṭiḥ",
+      "meaning": "sixty-two",
+      "note": "Hindi बासठ."
+    },
+    {
+      "sanskrit": "तथा",
+      "iast": "tathā",
+      "meaning": "and also",
+      "note": ""
+    },
+    {
+      "sanskrit": "सहस्राणाम्",
+      "iast": "sahasrāṇām",
+      "meaning": "of thousands",
+      "note": "62 thousands = 62,000."
+    },
+    {
+      "sanskrit": "अयुतद्वय",
+      "iast": "ayuta-dvaya",
+      "meaning": "two ayutas = 20,000",
+      "note": "ayuta = 10,000, as in Lilavati verse 1."
+    },
+    {
+      "sanskrit": "विष्कम्भस्य",
+      "iast": "viṣkambhasya",
+      "meaning": "of the diameter",
+      "note": "viṣkambha = diameter."
+    },
+    {
+      "sanskrit": "आसन्नः",
+      "iast": "āsannaḥ",
+      "meaning": "approximate, near",
+      "note": "Literally 'sitting near'. Hindi आसन्न."
+    },
+    {
+      "sanskrit": "वृत्तपरिणाहः",
+      "iast": "vṛtta-pariṇāhaḥ",
+      "meaning": "circumference of a circle",
+      "note": "vṛtta = circle (Hindi वृत्त); pariṇāha = circumference."
+    }
+  ],
+  "grammar": [
+    "<b>Āsanna 'approximate':</b> Āryabhaṭa calls his value 'near', not exact. Some historians read this as a sign he knew no exact fraction for π exists; π's irrationality was proved only in 1761.",
+    "<b>Numbers as words:</b> <span class='dv'>चतुरधिकं शतम्</span> 'a hundred with four more' = 104. The verse is a recipe: (104 × 8) + 62000.",
+    "<b>Genitive:</b> <span class='dv'>विष्कम्भस्य</span> 'of the diameter': the circumference belongs to that circle."
+  ],
+  "question": "What value of π does this give, to four decimal places?",
+  "answer": 3.1416,
+  "tolerance": 6e-05,
+  "unit": "",
+  "figure": "figures/aryabhatiya/01-pi.svg",
+  "solution": "<div class=\"math\"><p>Circumference = (100 + 4) × 8 + 62000 = 832 + 62000 = <b>62832</b></p><p>π = circumference / diameter = 62832 / 20000 = <b>3.1416</b></p><p>True value: 3.14159265… Āryabhaṭa's value is correct to four decimal places.</p></div><div class=\"science\"><b>Science link:</b> choosing a diameter of 20,000 is clever: it turns π into a whole-number ratio with four exact decimals. The same trick, scaling up to avoid fractions, is what engineers do with per-unit values in power systems.</div>",
+  "code": "code/aryabhatiya/01-pi.py"
+}

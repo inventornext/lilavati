@@ -1,0 +1,69 @@
+{
+  "id": "lingashtakam-4",
+  "number": "Verse 4",
+  "title": "Adorned with Gold and Serpents",
+  "meter": "Meter: 16 mātrās per line (Dodhaka pattern)",
+  "devanagari": [
+    "कनकमहामणिभूषितलिङ्गं",
+    "फणिपतिवेष्टितशोभितलिङ्गम्।",
+    "दक्षसुयज्ञविनाशनलिङ्गं",
+    "तत्प्रणमामि सदाशिवलिङ्गम्॥"
+  ],
+  "iast": [
+    "kanaka-mahāmaṇi-bhūṣita-liṅgaṃ",
+    "phaṇi-pati-veṣṭita-śobhita-liṅgam |",
+    "dakṣa-suyajña-vināśana-liṅgaṃ",
+    "tat praṇamāmi sadāśiva-liṅgam ||"
+  ],
+  "translation": "Adorned with <b>gold and great jewels</b>, beautiful with the <b>king of serpents</b> coiled around it, the liṅga that ended <b>Dakṣa's sacrifice</b>: I bow to that liṅga of Sadāśiva.",
+  "translation_hi": "जो सोने और महामणियों से विभूषित है, सर्पराज से लिपटा हुआ सुशोभित है, और जिसने दक्ष के यज्ञ का विनाश किया, उस सदाशिव लिंग को मैं प्रणाम करता हूँ।",
+  "words": [
+    {
+      "sanskrit": "कनक",
+      "iast": "kanaka",
+      "meaning": "gold",
+      "note": ""
+    },
+    {
+      "sanskrit": "महामणि",
+      "iast": "mahāmaṇi",
+      "meaning": "great jewel",
+      "note": ""
+    },
+    {
+      "sanskrit": "भूषित",
+      "iast": "bhūṣita",
+      "meaning": "adorned",
+      "note": ""
+    },
+    {
+      "sanskrit": "फणिपति",
+      "iast": "phaṇi-pati",
+      "meaning": "king of serpents",
+      "note": "phaṇin = hooded one."
+    },
+    {
+      "sanskrit": "वेष्टित",
+      "iast": "veṣṭita",
+      "meaning": "coiled around",
+      "note": ""
+    },
+    {
+      "sanskrit": "दक्ष",
+      "iast": "dakṣa",
+      "meaning": "Dakṣa",
+      "note": "Sati's father."
+    },
+    {
+      "sanskrit": "सुयज्ञ",
+      "iast": "suyajña",
+      "meaning": "great sacrifice",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Mātrā equivalence:</b> <span class='dv'>कनकमहा…</span> starts with four light syllables (◡◡◡◡ = 4 mātrās), the same weight as — ◡ ◡. The scanner shows these lines as mātrā-equal.",
+    "<b>Dakṣa's yajña:</b> the same story as makha-cchid in Tāṇḍava verse 9.",
+    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that liṅga of Sadāśiva.'"
+  ]
+}

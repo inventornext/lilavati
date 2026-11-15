@@ -1,0 +1,161 @@
+{
+  "id": "kadamba",
+  "number": "Verse 9 · Fractions",
+  "topic": "Linear equations",
+  "title": "Bees Among the Flowers",
+  "meter": "Meter: Śārdūlavikrīḍita (19 syllables per line)",
+  "devanagari": [
+    "पञ्चांशोऽलिकुलात्कदम्बमगमत्त्र्यंशः शिलीन्ध्रं तयो-",
+    "र्विश्लेषस्त्रिगुणो मृगाक्षि कुटजं दोलायमानोऽपरः।",
+    "कान्ते केतकमालतीपरिमलप्राप्तैककालप्रिया-",
+    "दूताहूत इतस्ततो भ्रमति खे भृङ्गोऽलिसंख्यां वद॥"
+  ],
+  "iast": [
+    "pañcāṃśo 'li-kulāt kadambam agamat tryaṃśaḥ śilīndhraṃ tayor",
+    "viśleṣas triguṇo mṛgākṣi kuṭajaṃ dolāyamāno 'paraḥ |",
+    "kānte ketaka-mālatī-parimala-prāptaika-kāla-priyā-",
+    "dūtāhūta itas tato bhramati khe bhṛṅgo 'li-saṃkhyāṃ vada ||"
+  ],
+  "translation": "From a swarm of bees, <b>one fifth</b> flew to a kadamba flower and <b>one third</b> to a śilīndhra. <b>Three times the difference</b> of these two went to a kuṭaja, O deer-eyed one. <b>One bee</b> was left, swinging to and fro in the sky, drawn at the same moment by the fragrance of the ketakī and the jasmine, like a lover called by two messengers. Tell me, dear one, the number of bees.",
+  "translation_hi": "भौंरों के झुंड का पाँचवाँ भाग कदंब पर गया और तीसरा भाग शिलींध्र पर। हे मृगनयनी, इन दोनों के अंतर का तीन गुना कुटज पर गया। एक भौंरा बचा जो केतकी और मालती की सुगंध से एक साथ बुलाए जाने पर, दो दूतों से बुलाए प्रेमी की तरह, आकाश में इधर उधर डोल रहा है। हे प्रिये, भौंरों की संख्या बताओ।",
+  "words": [
+    {
+      "sanskrit": "पञ्चांशः",
+      "iast": "pañcāṃśaḥ",
+      "meaning": "one fifth",
+      "note": "pañca + aṃśa (part)."
+    },
+    {
+      "sanskrit": "अलिकुलात्",
+      "iast": "ali-kulāt",
+      "meaning": "from the swarm of bees",
+      "note": "Ablative: 'from'."
+    },
+    {
+      "sanskrit": "कदम्बम्",
+      "iast": "kadambam",
+      "meaning": "to the kadamba flower",
+      "note": "Accusative of destination."
+    },
+    {
+      "sanskrit": "अगमत्",
+      "iast": "agamat",
+      "meaning": "went",
+      "note": "Aorist (past) of √gam."
+    },
+    {
+      "sanskrit": "त्र्यंशः",
+      "iast": "tryaṃśaḥ",
+      "meaning": "one third",
+      "note": "tri + aṃśa."
+    },
+    {
+      "sanskrit": "शिलीन्ध्रम्",
+      "iast": "śilīndhram",
+      "meaning": "to the śilīndhra flower",
+      "note": ""
+    },
+    {
+      "sanskrit": "तयोः विश्लेषः",
+      "iast": "tayoḥ viśleṣaḥ",
+      "meaning": "the difference of the two",
+      "note": "viśleṣa = separation, difference. Hindi विश्लेषण (analysis)."
+    },
+    {
+      "sanskrit": "त्रिगुणः",
+      "iast": "triguṇaḥ",
+      "meaning": "three times",
+      "note": "Same as triguṇita in the peacock verse."
+    },
+    {
+      "sanskrit": "मृगाक्षि",
+      "iast": "mṛgākṣi",
+      "meaning": "O deer-eyed one",
+      "note": "mṛga + akṣi (eye). Vocative."
+    },
+    {
+      "sanskrit": "कुटजम्",
+      "iast": "kuṭajam",
+      "meaning": "to the kuṭaja flower",
+      "note": ""
+    },
+    {
+      "sanskrit": "दोलायमानः",
+      "iast": "dolāyamānaḥ",
+      "meaning": "swinging",
+      "note": "Hindi डोलना, दोला (swing)."
+    },
+    {
+      "sanskrit": "अपरः",
+      "iast": "aparaḥ",
+      "meaning": "another (one)",
+      "note": ""
+    },
+    {
+      "sanskrit": "केतकमालती",
+      "iast": "ketaka-mālatī",
+      "meaning": "ketakī and jasmine",
+      "note": "A dvandva compound."
+    },
+    {
+      "sanskrit": "परिमल",
+      "iast": "parimala",
+      "meaning": "fragrance",
+      "note": "Also in the first bee verse."
+    },
+    {
+      "sanskrit": "एककाल",
+      "iast": "eka-kāla",
+      "meaning": "at the same time",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्रियादूताहूतः",
+      "iast": "priyā-dūtāhūtaḥ",
+      "meaning": "called by a beloved's messenger",
+      "note": "dūta = messenger; āhūta = called."
+    },
+    {
+      "sanskrit": "इतस्ततः",
+      "iast": "itas tataḥ",
+      "meaning": "here and there",
+      "note": "Hindi इधर उधर."
+    },
+    {
+      "sanskrit": "भ्रमति",
+      "iast": "bhramati",
+      "meaning": "wanders",
+      "note": "Hindi भ्रमण."
+    },
+    {
+      "sanskrit": "खे",
+      "iast": "khe",
+      "meaning": "in the sky",
+      "note": "Locative of kha (sky)."
+    },
+    {
+      "sanskrit": "भृङ्गः",
+      "iast": "bhṛṅgaḥ",
+      "meaning": "a bee",
+      "note": ""
+    },
+    {
+      "sanskrit": "अलिसंख्याम्",
+      "iast": "ali-saṃkhyām",
+      "meaning": "the number of bees",
+      "note": "Same ending as the first bee verse."
+    }
+  ],
+  "grammar": [
+    "<b>Aorist past:</b> <span class='dv'>अगमत्</span> 'went', another past tense (compare चकार and अपतत्).",
+    "<b>Ablative 'from':</b> <span class='dv'>अलिकुलात्</span> 'from the swarm', like बिलात् 'from the hole'.",
+    "<b>Visarga to ś:</b> <span class='dv'>विश्लेषः + त्रिगुणः → विश्लेषस्त्रिगुणः</span> (स् before त), and <span class='dv'>तयोः + विश्लेषः → तयोर्विश्लेषः</span> (र् before a voiced sound).",
+    "<b>Poetry in maths:</b> the lone bee is compared to a lover torn between two messengers. Bhaskara never lets the numbers be dull."
+  ],
+  "question": "How many bees were in the swarm?",
+  "answer": 15,
+  "unit": "bees",
+  "figure": "figures/09-kadamba.svg",
+  "solution": "<div class=\"math\"><p>Let the swarm be <i>x</i>. Kadamba: x/5. Śilīndhra: x/3. Kuṭaja: 3 × (x/3 − x/5) = 2x/5. One bee is left.</p><p>x/5 + x/3 + 2x/5 + 1 = x &nbsp;⟹&nbsp; (3 + 5 + 6)x/15 + 1 = x &nbsp;⟹&nbsp; x/15 = 1 &nbsp;⟹&nbsp; <b>x = 15 bees</b></p><p>Check: 3 + 5 + 6 + 1 = 15</p></div><div class=\"science\"><b>Science link:</b> a linear equation with fractions, solved by clearing denominators with their least common multiple, 15. Bhaskara also solves it with iṣṭa-karma, the method of false position from the necklace verse.</div>",
+  "code": "code/09-kadamba.py"
+}

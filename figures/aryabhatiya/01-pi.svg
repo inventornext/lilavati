@@ -1,0 +1,7 @@
+<svg viewBox="0 0 560 230" width="560" role="img" aria-label="Circle with diameter 20000 and circumference 62832">
+<circle cx="170" cy="115" r="95" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="3"/>
+<line x1="75" y1="115" x2="265" y2="115" stroke="var(--gold)" stroke-width="3"/>
+<g font-size="15" fill="var(--ink)"><text x="125" y="108">20,000</text><text x="105" y="230" fill="var(--accent)">परिणाह = 62,832</text>
+<text x="310" y="80">(100 + 4) × 8 = 832</text><text x="310" y="108">832 + 62,000 = 62,832</text>
+<text x="310" y="146" font-weight="600" fill="var(--accent)">π ≈ 62832 / 20000 = 3.1416</text>
+<text x="310" y="174" fill="var(--muted)" font-size="13">true π = 3.14159…</text></g></svg>

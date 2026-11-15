@@ -1,0 +1,8 @@
+<svg viewBox="0 0 640 140" width="640" role="img" aria-label="Rule of three for interest">
+<g font-size="16" fill="var(--ink)" text-anchor="middle">
+<rect x="20" y="30" width="170" height="70" rx="10" fill="var(--accent-soft)"/><text x="105" y="58">100 for 1 month</text><text x="105" y="84" fill="var(--accent)" font-weight="600">earns 5</text>
+<text x="235" y="72" font-size="24" fill="var(--muted)">→</text>
+<rect x="280" y="30" width="170" height="70" rx="10" fill="var(--gold-soft)"/><text x="365" y="58">16 for 12 months</text><text x="365" y="84" fill="var(--gold)" font-weight="600">earns ?</text>
+<text x="495" y="72" font-size="24" fill="var(--muted)">=</text>
+<text x="575" y="62">16×5×12</text><line x1="530" y1="70" x2="620" y2="70" stroke="var(--ink)"/><text x="575" y="90">100</text>
+<text x="320" y="128" fill="var(--muted)" font-size="14">त्रैराशिक (rule of three) → 9.6 = 9⅗</text></g></svg>

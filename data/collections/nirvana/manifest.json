@@ -1,0 +1,19 @@
+{
+  "id": "nirvana",
+  "kind": "stotra",
+  "title": "Nirvāṇa Ṣaṭkam",
+  "title_deva": "निर्वाणषट्कम्",
+  "author": "Ādi Śaṅkarācārya",
+  "intro": "Six verses by Ādi Śaṅkarācārya on the nature of the Self, also called Ātma-ṣaṭkam. Each verse says what the Self is not, and ends with the same refrain: <i>cid-ānanda-rūpaḥ śivo 'haṃ śivo 'ham</i>, 'my form is consciousness and bliss; I am Shiva'.",
+  "note": "Written in Bhujaṅgaprayāta, 'the serpent's gait': four groups of light-heavy-heavy (◡ — —) per line. Word cards for the refrain are given in verse 1.",
+  "opening": "॥ अथ निर्वाणषट्कम् ॥",
+  "closing": "॥ इति श्रीमच्छङ्कराचार्यविरचितं निर्वाणषट्कं सम्पूर्णम् ॥",
+  "verses": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+  ]
+}

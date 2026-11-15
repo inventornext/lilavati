@@ -1,0 +1,16 @@
+{
+  "id": "aryabhatiya",
+  "kind": "science",
+  "title": "Āryabhaṭīya",
+  "title_deva": "आर्यभटीयम्",
+  "author": "Āryabhaṭa (499 CE)",
+  "intro": "Āryabhaṭa wrote the <i>Āryabhaṭīya</i> in 499 CE, at the age of 23, in just 121 verses. These three verses give his value of π, his idea that the Earth turns while the stars stand still, and his explanation of why the Moon and planets shine.",
+  "note": "The Āryabhaṭīya is written in the Āryā meter, which counts mātrās (light = 1, heavy = 2) instead of syllables. Each verse is shown here as two half-verses of 30 and 27 mātrās; the meter scanner counts them for you.",
+  "opening": "॥ आर्यभटीयम् ॥",
+  "closing": "॥ इति आर्यभटीयात् ॥",
+  "verses": [
+    "01",
+    "02",
+    "03"
+  ]
+}

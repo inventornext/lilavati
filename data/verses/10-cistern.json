@@ -1,0 +1,148 @@
+{
+  "id": "cistern",
+  "number": "Verse 10 · Rates of work",
+  "topic": "Rates (parallel sums)",
+  "title": "Four Streams Filling a Tank",
+  "meter": "Meter: Vasantatilakā (14 syllables per line)",
+  "devanagari": [
+    "ये निर्झरा दिनदिनार्धतृतीयषष्ठैः",
+    "सम्पूरयन्ति हि पृथक् पृथगेव मुक्ताः।",
+    "वापीं यदा युगपदेव सखे विमुक्ता-",
+    "स्ते केन वासरलवेन तदा वद त्वम्॥"
+  ],
+  "iast": [
+    "ye nirjharā dina-dinārdha-tṛtīya-ṣaṣṭhaiḥ",
+    "sampūrayanti hi pṛthak pṛthag eva muktāḥ |",
+    "vāpīṃ yadā yugapad eva sakhe vimuktās",
+    "te kena vāsara-lavena tadā vada tvam ||"
+  ],
+  "translation": "Four streams, each opened on its own, fill a tank in <b>one day</b>, <b>half a day</b>, <b>a third</b> and <b>a sixth of a day</b>. O friend, if they are all opened <b>together</b>, in what fraction of a day will they fill it? Tell me.",
+  "translation_hi": "चार झरने अलग अलग खोले जाने पर एक तालाब को क्रमशः एक दिन, आधे दिन, तिहाई दिन और छठे भाग दिन में भरते हैं। हे मित्र, यदि वे सब एक साथ खोल दिए जाएँ, तो वे तालाब को दिन के कितने भाग में भरेंगे? बताओ।",
+  "words": [
+    {
+      "sanskrit": "ये",
+      "iast": "ye",
+      "meaning": "which (ones)",
+      "note": "Relative pronoun, plural."
+    },
+    {
+      "sanskrit": "निर्झराः",
+      "iast": "nirjharāḥ",
+      "meaning": "streams, fountains",
+      "note": "Same as nirjharī in the Tāṇḍava stotra."
+    },
+    {
+      "sanskrit": "दिन",
+      "iast": "dina",
+      "meaning": "a day",
+      "note": "Hindi दिन."
+    },
+    {
+      "sanskrit": "दिनार्ध",
+      "iast": "dinārdha",
+      "meaning": "half a day",
+      "note": "dina + ardha."
+    },
+    {
+      "sanskrit": "तृतीय",
+      "iast": "tṛtīya",
+      "meaning": "a third",
+      "note": ""
+    },
+    {
+      "sanskrit": "षष्ठैः",
+      "iast": "ṣaṣṭhaiḥ",
+      "meaning": "by a sixth",
+      "note": "Instrumental plural for the whole list."
+    },
+    {
+      "sanskrit": "सम्पूरयन्ति",
+      "iast": "sampūrayanti",
+      "meaning": "fill completely",
+      "note": "sam + √pṝ (to fill). Hindi पूरा, पूर्ण."
+    },
+    {
+      "sanskrit": "पृथक् पृथक्",
+      "iast": "pṛthak pṛthak",
+      "meaning": "each separately",
+      "note": "Hindi पृथक्."
+    },
+    {
+      "sanskrit": "मुक्ताः",
+      "iast": "muktāḥ",
+      "meaning": "released, opened",
+      "note": ""
+    },
+    {
+      "sanskrit": "वापीम्",
+      "iast": "vāpīm",
+      "meaning": "the tank, step-well",
+      "note": "Hindi बावड़ी."
+    },
+    {
+      "sanskrit": "यदा",
+      "iast": "yadā",
+      "meaning": "when",
+      "note": ""
+    },
+    {
+      "sanskrit": "युगपत्",
+      "iast": "yugapat",
+      "meaning": "all at once, together",
+      "note": "yuga (yoke) + pad: 'yoked together'."
+    },
+    {
+      "sanskrit": "सखे",
+      "iast": "sakhe",
+      "meaning": "O friend",
+      "note": "Vocative of sakhi."
+    },
+    {
+      "sanskrit": "विमुक्ताः",
+      "iast": "vimuktāḥ",
+      "meaning": "opened",
+      "note": ""
+    },
+    {
+      "sanskrit": "ते",
+      "iast": "te",
+      "meaning": "they",
+      "note": ""
+    },
+    {
+      "sanskrit": "केन",
+      "iast": "kena",
+      "meaning": "by what?",
+      "note": "Instrumental of kim."
+    },
+    {
+      "sanskrit": "वासरलवेन",
+      "iast": "vāsara-lavena",
+      "meaning": "fraction of a day",
+      "note": "vāsara = day; lava = small part."
+    },
+    {
+      "sanskrit": "तदा",
+      "iast": "tadā",
+      "meaning": "then",
+      "note": ""
+    },
+    {
+      "sanskrit": "वद त्वम्",
+      "iast": "vada tvam",
+      "meaning": "you tell!",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Relative and correlative:</b> <span class='dv'>ये … ते</span> 'which (streams) … they', like यः … तस्य in Tāṇḍava verse 17.",
+    "<b>Repetition for 'each':</b> <span class='dv'>पृथक् पृथक्</span> 'each on its own', like Hindi अलग अलग.",
+    "<b>Visarga to s:</b> <span class='dv'>विमुक्ताः + ते → विमुक्तास्ते</span>."
+  ],
+  "question": "Together, in how many hours do they fill the tank? (Take a day as 24 hours.)",
+  "answer": 2,
+  "unit": "hours",
+  "figure": "figures/10-cistern.svg",
+  "solution": "<div class=\"math\"><p>In one day the streams fill 1, 2, 3 and 6 tanks. Together: 1 + 2 + 3 + 6 = 12 tanks a day.</p><p>So one tank takes <b>1/12 of a day</b> = 24/12 = <b>2 hours</b>.</p><p>Bhaskara's rule: add the reciprocals of the times, then take the reciprocal of the sum. 1 / (1/1 + 1/(1/2) + 1/(1/3) + 1/(1/6)) = 1/12</p></div><div class=\"science\"><b>Science link:</b> this is exactly how <b>parallel resistors</b> combine. Conductances add like filling rates: 1/R = 1/R₁ + 1/R₂ + … Put resistances of 1, ½, ⅓ and ⅙ Ω in parallel and you get 1/12 Ω, the same arithmetic as the four streams.</div>",
+  "code": "code/10-cistern.py"
+}

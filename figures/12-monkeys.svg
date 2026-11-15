@@ -1,0 +1,8 @@
+<svg viewBox="0 -10 560 300" width="560" role="img" aria-label="Tree 100, leap 50, pond 200 away, flight 250">
+<line x1="20" y1="250" x2="540" y2="250" stroke="var(--muted)" stroke-width="2"/>
+<rect x="76" y="100" width="8" height="150" fill="var(--ok)"/><circle cx="80" cy="92" r="22" fill="var(--ok)" opacity=".5"/>
+<line x1="80" y1="100" x2="80" y2="25" stroke="var(--gold)" stroke-width="3" stroke-dasharray="5 5"/>
+<line x1="80" y1="25" x2="380" y2="250" stroke="var(--accent)" stroke-width="3"/>
+<line x1="90" y1="100" x2="90" y2="244" stroke="var(--teal)" stroke-width="2"/><line x1="90" y1="244" x2="380" y2="244" stroke="var(--teal)" stroke-width="2"/>
+<ellipse cx="400" cy="255" rx="40" ry="10" fill="var(--teal-soft)" stroke="var(--teal)"/>
+<g font-size="14" fill="var(--ink)"><text x="30" y="180">100</text><text x="30" y="65" fill="var(--gold)">x = 50</text><text x="220" y="270">200</text><text x="250" y="130" fill="var(--accent)">flight = 250</text><text x="430" y="240" fill="var(--teal)">pond</text></g></svg>

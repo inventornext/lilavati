@@ -1,0 +1,93 @@
+{
+  "id": "rudrashtakam-6",
+  "number": "Verse 6",
+  "title": "Be Pleased, O Lord",
+  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "devanagari": [
+    "कलातीतकल्याणकल्पान्तकारी",
+    "सदा सज्जनानन्ददाता पुरारी।",
+    "चिदानन्दसन्दोहमोहापहारी",
+    "प्रसीद प्रसीद प्रभो मन्मथारी॥"
+  ],
+  "iast": [
+    "kalātīta-kalyāṇa-kalpānta-kārī",
+    "sadā saj-janānanda-dātā purārī |",
+    "cid-ānanda-sandoha-mohāpahārī",
+    "prasīda prasīda prabho manmathārī ||"
+  ],
+  "translation": "Beyond all parts, the auspicious one who brings the <b>end of the age</b>; who always gives joy to <b>good people</b>; the <b>enemy of Tripura</b>; a mass of consciousness and bliss who takes away <b>delusion</b>: be pleased, be pleased, O Lord, <b>enemy of Kāma</b>.",
+  "translation_hi": "जो कलाओं से परे, कल्याण स्वरूप और कल्प का अंत करने वाले हैं, सदा सज्जनों को आनंद देने वाले, त्रिपुर के शत्रु, चेतना और आनंद के समूह और मोह को हरने वाले हैं, हे प्रभु, हे कामदेव के शत्रु, प्रसन्न होइए, प्रसन्न होइए।",
+  "words": [
+    {
+      "sanskrit": "कलातीत",
+      "iast": "kalātīta",
+      "meaning": "beyond the parts",
+      "note": "kalā + atīta."
+    },
+    {
+      "sanskrit": "कल्याण",
+      "iast": "kalyāṇa",
+      "meaning": "auspicious",
+      "note": ""
+    },
+    {
+      "sanskrit": "कल्पान्तकारी",
+      "iast": "kalpānta-kārī",
+      "meaning": "bringer of the end of the age",
+      "note": "kalpa = cosmic age."
+    },
+    {
+      "sanskrit": "सज्जन",
+      "iast": "saj-jana",
+      "meaning": "good people",
+      "note": "sat + jana. Hindi सज्जन."
+    },
+    {
+      "sanskrit": "आनन्ददाता",
+      "iast": "ānanda-dātā",
+      "meaning": "giver of joy",
+      "note": "dātṛ = giver."
+    },
+    {
+      "sanskrit": "पुरारी",
+      "iast": "purārī",
+      "meaning": "enemy of Tripura",
+      "note": "pura + ari, as in pura-cchid."
+    },
+    {
+      "sanskrit": "सन्दोह",
+      "iast": "sandoha",
+      "meaning": "mass, abundance",
+      "note": ""
+    },
+    {
+      "sanskrit": "मोहापहारी",
+      "iast": "mohāpahārī",
+      "meaning": "remover of delusion",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्रसीद",
+      "iast": "prasīda",
+      "meaning": "be pleased!",
+      "note": "Imperative of pra + √sad."
+    },
+    {
+      "sanskrit": "प्रभो",
+      "iast": "prabho",
+      "meaning": "O Lord",
+      "note": "Vocative of prabhu."
+    },
+    {
+      "sanskrit": "मन्मथारी",
+      "iast": "manmathārī",
+      "meaning": "enemy of Kāma",
+      "note": "manmatha = 'mind-churner', Kāma."
+    }
+  ],
+  "grammar": [
+    "<b>Consonant sandhi:</b> <span class='dv'>सत् + जन → सज्जन</span>. त् + ज → ज्ज.",
+    "<b>Imperative of request:</b> <span class='dv'>प्रसीद प्रसीद</span>, repeated for emphasis, like मन्दं मन्दं in the lotus verse.",
+    "<b>-ari 'enemy':</b> पुरारि, मन्मथारि, and अरि (discus, the enemy of demons) in Lilavati verse 4."
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "rudrashtakam-1",
+  "number": "Verse 1",
+  "title": "I Bow to the Lord",
+  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "devanagari": [
+    "नमामीशमीशान निर्वाणरूपं",
+    "विभुं व्यापकं ब्रह्मवेदस्वरूपम्।",
+    "निजं निर्गुणं निर्विकल्पं निरीहं",
+    "चिदाकाशमाकाशवासं भजेऽहम्॥"
+  ],
+  "iast": [
+    "namāmīśam īśāna nirvāṇa-rūpaṃ",
+    "vibhuṃ vyāpakaṃ brahma-veda-svarūpam |",
+    "nijaṃ nirguṇaṃ nirvikalpaṃ nirīhaṃ",
+    "cid-ākāśam ākāśa-vāsaṃ bhaje 'ham ||"
+  ],
+  "translation": "I bow to the Lord, O Īśāna, whose form is <b>liberation</b>, the all-pervading, the embodiment of Brahman and the Vedas. I worship him who is <b>his own self</b>, <b>beyond qualities</b>, changeless and desireless, the <b>sky of consciousness</b>, who dwells in the sky itself.",
+  "translation_hi": "हे ईशान, मैं उन ईश्वर को नमस्कार करता हूँ जो मोक्ष स्वरूप, सर्वव्यापी, ब्रह्म और वेद स्वरूप हैं। मैं उन्हें भजता हूँ जो अपने स्वरूप में स्थित, निर्गुण, निर्विकल्प, इच्छारहित, चेतना रूपी आकाश हैं और आकाश में ही निवास करते हैं।",
+  "words": [
+    {
+      "sanskrit": "नमामि",
+      "iast": "namāmi",
+      "meaning": "I bow",
+      "note": "√nam, 1st person. Hindi नमन."
+    },
+    {
+      "sanskrit": "ईशम्",
+      "iast": "īśam",
+      "meaning": "the Lord",
+      "note": ""
+    },
+    {
+      "sanskrit": "ईशान",
+      "iast": "īśāna",
+      "meaning": "O Īśāna",
+      "note": "Vocative: a name of Shiva, lord of the north-east."
+    },
+    {
+      "sanskrit": "निर्वाणरूपम्",
+      "iast": "nirvāṇa-rūpam",
+      "meaning": "whose form is liberation",
+      "note": ""
+    },
+    {
+      "sanskrit": "विभुम्",
+      "iast": "vibhum",
+      "meaning": "all-pervading",
+      "note": ""
+    },
+    {
+      "sanskrit": "व्यापकम्",
+      "iast": "vyāpakam",
+      "meaning": "pervading",
+      "note": "Hindi व्यापक."
+    },
+    {
+      "sanskrit": "ब्रह्मवेदस्वरूपम्",
+      "iast": "brahma-veda-svarūpam",
+      "meaning": "embodiment of Brahman and the Vedas",
+      "note": ""
+    },
+    {
+      "sanskrit": "निजम्",
+      "iast": "nijam",
+      "meaning": "his own self",
+      "note": "Hindi निज."
+    },
+    {
+      "sanskrit": "निर्गुणम्",
+      "iast": "nirguṇam",
+      "meaning": "beyond qualities",
+      "note": "nir + guṇa."
+    },
+    {
+      "sanskrit": "निरीहम्",
+      "iast": "nirīham",
+      "meaning": "desireless",
+      "note": "nir + īhā (desire)."
+    },
+    {
+      "sanskrit": "चिदाकाशम्",
+      "iast": "cid-ākāśam",
+      "meaning": "sky of consciousness",
+      "note": ""
+    },
+    {
+      "sanskrit": "आकाशवासम्",
+      "iast": "ākāśa-vāsam",
+      "meaning": "dwelling in the sky",
+      "note": ""
+    },
+    {
+      "sanskrit": "भजेऽहम्",
+      "iast": "bhaje 'ham",
+      "meaning": "I worship",
+      "note": "bhaje + aham."
+    }
+  ],
+  "grammar": [
+    "<b>Accusative chain:</b> every epithet ends in -म् because each is an object of <span class='dv'>नमामि</span> and <span class='dv'>भजे</span>.",
+    "<b>nir- 'without':</b> <span class='dv'>निर्गुण, निर्विकल्प, निरीह</span>, like निराकार in Nirvāṇa Ṣaṭkam.",
+    "<b>Author:</b> Goswami Tulsidas, in the Uttarakāṇḍa of the Rāmcharitmānas (16th century). The Brahmin in the story recites it to please Shiva."
+  ]
+}

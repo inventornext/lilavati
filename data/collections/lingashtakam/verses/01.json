@@ -1,0 +1,111 @@
+{
+  "id": "lingashtakam-1",
+  "number": "Verse 1",
+  "title": "Worshipped by Brahma and Vishnu",
+  "meter": "Meter: 16 mātrās per line (Dodhaka pattern)",
+  "devanagari": [
+    "ब्रह्ममुरारिसुरार्चितलिङ्गं",
+    "निर्मलभासितशोभितलिङ्गम्।",
+    "जन्मजदुःखविनाशकलिङ्गं",
+    "तत्प्रणमामि सदाशिवलिङ्गम्॥"
+  ],
+  "iast": [
+    "brahma-murāri-surārcita-liṅgaṃ",
+    "nirmala-bhāsita-śobhita-liṅgam |",
+    "janmaja-duḥkha-vināśaka-liṅgaṃ",
+    "tat praṇamāmi sadāśiva-liṅgam ||"
+  ],
+  "translation": "The liṅga worshipped by <b>Brahmā, Viṣṇu</b> and the gods, <b>pure</b>, shining and beautiful, which <b>destroys the sorrow born of birth</b>: I bow to that liṅga of Sadāśiva.",
+  "translation_hi": "जो लिंग ब्रह्मा, विष्णु और देवताओं द्वारा पूजित है, निर्मल, प्रकाशमान और सुशोभित है, और जन्म से उत्पन्न दुःखों का नाश करता है, उस सदाशिव लिंग को मैं प्रणाम करता हूँ।",
+  "words": [
+    {
+      "sanskrit": "ब्रह्म",
+      "iast": "brahma",
+      "meaning": "Brahmā",
+      "note": ""
+    },
+    {
+      "sanskrit": "मुरारि",
+      "iast": "murāri",
+      "meaning": "Viṣṇu, 'enemy of Mura'",
+      "note": "mura + ari."
+    },
+    {
+      "sanskrit": "सुर",
+      "iast": "sura",
+      "meaning": "the gods",
+      "note": ""
+    },
+    {
+      "sanskrit": "अर्चित",
+      "iast": "arcita",
+      "meaning": "worshipped",
+      "note": "√arc. Hindi अर्चना."
+    },
+    {
+      "sanskrit": "लिङ्गम्",
+      "iast": "liṅgam",
+      "meaning": "the liṅga, sign",
+      "note": "Literally 'mark, sign'. In grammar, liṅga means gender!"
+    },
+    {
+      "sanskrit": "निर्मल",
+      "iast": "nirmala",
+      "meaning": "pure",
+      "note": "nir + mala (dirt)."
+    },
+    {
+      "sanskrit": "भासित",
+      "iast": "bhāsita",
+      "meaning": "shining",
+      "note": "√bhās."
+    },
+    {
+      "sanskrit": "शोभित",
+      "iast": "śobhita",
+      "meaning": "beautiful",
+      "note": ""
+    },
+    {
+      "sanskrit": "जन्मज",
+      "iast": "janmaja",
+      "meaning": "born of birth",
+      "note": "janma + ja."
+    },
+    {
+      "sanskrit": "दुःख",
+      "iast": "duḥkha",
+      "meaning": "sorrow",
+      "note": ""
+    },
+    {
+      "sanskrit": "विनाशक",
+      "iast": "vināśaka",
+      "meaning": "destroyer",
+      "note": ""
+    },
+    {
+      "sanskrit": "तत्",
+      "iast": "tat",
+      "meaning": "that",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्रणमामि",
+      "iast": "praṇamāmi",
+      "meaning": "I bow",
+      "note": "pra + √nam. न → ण after र."
+    },
+    {
+      "sanskrit": "सदाशिव",
+      "iast": "sadāśiva",
+      "meaning": "Sadāśiva, the ever-auspicious",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>A mātrā meter:</b> each line has 16 mātrās in four beats of 4 (— ◡ ◡ or ◡ ◡ ◡ ◡). The scanner shows the Dodhaka pattern, and two light syllables may replace one heavy.",
+    "<b>Retroflex ṇ:</b> <span class='dv'>प्र + नमामि → प्रणमामि</span>. After र in the same word, न becomes ण.",
+    "<b>Liṅga = sign:</b> also the word for grammatical gender: पुंलिङ्ग, स्त्रीलिङ्ग, नपुंसकलिङ्ग."
+  ]
+}

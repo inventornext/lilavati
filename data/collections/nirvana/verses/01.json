@@ -1,0 +1,130 @@
+{
+  "id": "nirvana-1",
+  "number": "Verse 1",
+  "title": "Not the Mind, Not the Senses",
+  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "devanagari": [
+    "मनोबुद्ध्यहङ्कारचित्तानि नाहं",
+    "न च श्रोत्रजिह्वे न च घ्राणनेत्रे।",
+    "न च व्योम भूमिर्न तेजो न वायु-",
+    "श्चिदानन्दरूपः शिवोऽहं शिवोऽहम्॥"
+  ],
+  "iast": [
+    "mano-buddhy-ahaṅkāra-cittāni nāhaṃ",
+    "na ca śrotra-jihve na ca ghrāṇa-netre |",
+    "na ca vyoma bhūmir na tejo na vāyuś",
+    "cid-ānanda-rūpaḥ śivo 'haṃ śivo 'ham ||"
+  ],
+  "translation": "I am not the <b>mind</b>, the <b>intellect</b>, the <b>ego</b> or <b>memory</b>. I am not the ears or the tongue, nor the nose or the eyes. I am not <b>space, earth, fire or air</b>. My form is <b>consciousness and bliss</b>: I am Shiva, I am Shiva.",
+  "translation_hi": "मैं मन, बुद्धि, अहंकार और चित्त नहीं हूँ। मैं कान और जीभ नहीं, न नाक और आँखें हूँ। मैं आकाश, भूमि, अग्नि या वायु नहीं हूँ। मेरा स्वरूप चेतना और आनंद है: मैं शिव हूँ, मैं शिव हूँ।",
+  "words": [
+    {
+      "sanskrit": "मनः",
+      "iast": "manaḥ",
+      "meaning": "mind",
+      "note": ""
+    },
+    {
+      "sanskrit": "बुद्धि",
+      "iast": "buddhi",
+      "meaning": "intellect",
+      "note": "Hindi बुद्धि."
+    },
+    {
+      "sanskrit": "अहङ्कार",
+      "iast": "ahaṅkāra",
+      "meaning": "ego",
+      "note": "aham (I) + kāra (maker): 'the I-maker'."
+    },
+    {
+      "sanskrit": "चित्तानि",
+      "iast": "cittāni",
+      "meaning": "memory, mind-stuff",
+      "note": "citta. Plural for the whole list."
+    },
+    {
+      "sanskrit": "न अहम्",
+      "iast": "na aham",
+      "meaning": "I am not",
+      "note": "Written नाहं."
+    },
+    {
+      "sanskrit": "श्रोत्र",
+      "iast": "śrotra",
+      "meaning": "ear",
+      "note": "√śru (to hear). Same root as śruti."
+    },
+    {
+      "sanskrit": "जिह्वे",
+      "iast": "jihve",
+      "meaning": "tongue",
+      "note": "Dual with śrotra: 'ear and tongue'."
+    },
+    {
+      "sanskrit": "घ्राण",
+      "iast": "ghrāṇa",
+      "meaning": "nose, smell",
+      "note": ""
+    },
+    {
+      "sanskrit": "नेत्रे",
+      "iast": "netre",
+      "meaning": "eyes",
+      "note": "Hindi नेत्र."
+    },
+    {
+      "sanskrit": "व्योम",
+      "iast": "vyoma",
+      "meaning": "space, sky",
+      "note": "Hindi व्योम."
+    },
+    {
+      "sanskrit": "भूमिः",
+      "iast": "bhūmiḥ",
+      "meaning": "earth",
+      "note": ""
+    },
+    {
+      "sanskrit": "तेजः",
+      "iast": "tejaḥ",
+      "meaning": "fire, light",
+      "note": "Hindi तेज."
+    },
+    {
+      "sanskrit": "वायुः",
+      "iast": "vāyuḥ",
+      "meaning": "air",
+      "note": "Hindi वायु."
+    },
+    {
+      "sanskrit": "चित्",
+      "iast": "cit",
+      "meaning": "consciousness",
+      "note": ""
+    },
+    {
+      "sanskrit": "आनन्द",
+      "iast": "ānanda",
+      "meaning": "bliss",
+      "note": "Hindi आनंद."
+    },
+    {
+      "sanskrit": "रूपः",
+      "iast": "rūpaḥ",
+      "meaning": "whose form is",
+      "note": "Bahuvrīhi: 'having consciousness-bliss as form'."
+    },
+    {
+      "sanskrit": "शिवोऽहम्",
+      "iast": "śivo 'ham",
+      "meaning": "I am Shiva",
+      "note": "śivaḥ + aham → śivo 'ham (avagraha)."
+    }
+  ],
+  "grammar": [
+    "<b>Negation:</b> <span class='dv'>न … न … न</span> 'not … not … not'. The whole stotra defines the Self by what it is not (neti neti).",
+    "<b>Avagraha:</b> <span class='dv'>शिवः + अहम् → शिवोऽहम्</span>. -अः before अ becomes -ओ and the अ drops.",
+    "<b>Dual compounds:</b> <span class='dv'>श्रोत्रजिह्वे, घ्राणनेत्रे</span> are dual: 'the two, ear and tongue'.",
+    "<b>Author:</b> Ādi Śaṅkarācārya. Also called Ātma-ṣaṭkam, 'six verses on the Self'."
+  ]
+}

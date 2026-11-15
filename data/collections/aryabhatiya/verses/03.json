@@ -1,0 +1,91 @@
+{
+  "id": "aryabhatiya-3",
+  "number": "Golapāda 5 · Astronomy",
+  "topic": "Reflected light",
+  "title": "Why the Moon Shines",
+  "meter": "Meter: Āryā (counted in mātrās: 30 + 27 per half-verse)",
+  "devanagari": [
+    "भूग्रहभानां गोलार्धानि स्वच्छायया विवर्णानि।",
+    "अर्धानि यथासारं सूर्याभिमुखानि दीप्यन्ते॥"
+  ],
+  "iast": [
+    "bhū-graha-bhānāṃ golārdhāni sva-cchāyayā vivarṇāni |",
+    "ardhāni yathā-sāraṃ sūryābhimukhāni dīpyante ||"
+  ],
+  "translation": "Of the <b>Earth, the planets and the stars</b>, one <b>half of each sphere is dark</b>, in its own shadow. The <b>halves facing the Sun</b> shine, each according to its nature.",
+  "translation_hi": "पृथ्वी, ग्रहों और नक्षत्रों के गोलों का आधा भाग अपनी ही छाया से अंधकारमय रहता है, और सूर्य की ओर वाला आधा भाग अपने स्वभाव के अनुसार प्रकाशित होता है।",
+  "words": [
+    {
+      "sanskrit": "भू",
+      "iast": "bhū",
+      "meaning": "the Earth",
+      "note": ""
+    },
+    {
+      "sanskrit": "ग्रह",
+      "iast": "graha",
+      "meaning": "planet",
+      "note": "Hindi ग्रह."
+    },
+    {
+      "sanskrit": "भानाम्",
+      "iast": "bhānām",
+      "meaning": "of the stars",
+      "note": "Genitive plural of bha."
+    },
+    {
+      "sanskrit": "गोलार्धानि",
+      "iast": "golārdhāni",
+      "meaning": "hemispheres",
+      "note": "gola (sphere) + ardha (half). Hindi गोला, गोलार्ध."
+    },
+    {
+      "sanskrit": "स्वच्छायया",
+      "iast": "sva-cchāyayā",
+      "meaning": "by their own shadow",
+      "note": "chāyā = shadow (Hindi छाया). छ doubles after a short vowel."
+    },
+    {
+      "sanskrit": "विवर्णानि",
+      "iast": "vivarṇāni",
+      "meaning": "dark, colourless",
+      "note": "vi + varṇa (colour)."
+    },
+    {
+      "sanskrit": "अर्धानि",
+      "iast": "ardhāni",
+      "meaning": "the (other) halves",
+      "note": ""
+    },
+    {
+      "sanskrit": "यथासारम्",
+      "iast": "yathā-sāram",
+      "meaning": "according to their nature",
+      "note": "sāra = essence."
+    },
+    {
+      "sanskrit": "सूर्याभिमुखानि",
+      "iast": "sūryābhimukhāni",
+      "meaning": "facing the Sun",
+      "note": "abhimukha = facing. Hindi अभिमुख."
+    },
+    {
+      "sanskrit": "दीप्यन्ते",
+      "iast": "dīpyante",
+      "meaning": "shine",
+      "note": "√dīp (to shine). Hindi दीप, दीपक."
+    }
+  ],
+  "grammar": [
+    "<b>छ doubling:</b> <span class='dv'>स्व + छाया → स्वच्छाया</span>, like स्मर + छिद् → स्मरच्छिद् in the Tāṇḍava stotra.",
+    "<b>Middle-voice verb:</b> <span class='dv'>दीप्यन्ते</span> 'they shine (by themselves)', 3rd person plural middle.",
+    "<b>Gola:</b> Indian astronomers described the Earth as a <span class='dv'>गोल</span>, a sphere. Āryabhaṭa's astronomy chapter is called Golapāda, 'the chapter on the sphere'."
+  ],
+  "question": "What fraction of the Moon's surface is lit by the Sun at any moment? (Give a decimal.)",
+  "answer": 0.5,
+  "tolerance": 0.001,
+  "unit": "",
+  "figure": "figures/aryabhatiya/03-moon.svg",
+  "solution": "<div class=\"math\"><p>Exactly <b>half</b> (0.5): the hemisphere facing the Sun. The phases we see from Earth (crescent, half, full) are just how much of that lit half is turned toward us.</p></div><div class=\"science\"><b>Science link:</b> the Moon and planets do not make their own light; they reflect sunlight. That explains lunar phases, and Āryabhaṭa also used the shadows of the Earth and Moon to explain eclipses correctly, instead of the demon Rāhu swallowing the Sun.</div>",
+  "code": "code/aryabhatiya/03-moon.py"
+}

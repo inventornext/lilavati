@@ -1,0 +1,8 @@
+<svg viewBox="0 0 600 200" width="600" role="img" aria-label="Boat moving forward, shore appears to move back; Earth turning east, stars appear to move west">
+<g font-size="14" fill="var(--ink)" text-anchor="middle">
+<path d="M40 110 h160 l-25 30 h-110 z" fill="var(--gold)"/><line x1="120" y1="110" x2="120" y2="60" stroke="var(--ink)" stroke-width="2"/><path d="M122 62 l40 40 h-40 z" fill="var(--surface-2)" stroke="var(--muted)"/>
+<text x="120" y="170">boat moves →</text><text x="120" y="190" fill="var(--muted)">shore seems to move ←</text>
+<circle cx="440" cy="110" r="55" fill="var(--teal-soft)" stroke="var(--teal)" stroke-width="2"/><path d="M440 45 a65 65 0 0 1 60 40" fill="none" stroke="var(--teal)" stroke-width="2" marker-end="url(#a)"/>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 z" fill="var(--teal)"/></marker></defs>
+<text x="440" y="115">पृथ्वी</text><text x="440" y="190" fill="var(--muted)">Earth turns east · stars seem to move west</text>
+<g fill="var(--gold)"><circle cx="350" cy="30" r="3"/><circle cx="560" cy="40" r="3"/><circle cx="380" cy="190" r="0"/><circle cx="545" cy="160" r="3"/></g></g></svg>

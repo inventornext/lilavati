@@ -11,6 +11,7 @@
     'Anuṣṭubh': null,
     'Mālinī': 'LLLLLLGGGLGGLGG',
     'Pañcacāmara': 'LGLGLGLGLGLGLGLG',
+    'Dodhaka': 'GLLGLLGLLGG',
     'Śārdūlavikrīḍita': 'GGGLLGLGLLLGGGLGGLG',
     'Mandākrāntā': 'GGGGLLLLLGGLGGLGG',
     'Vasantatilakā': 'GGLGLLLGLLGLGG',
@@ -70,9 +71,16 @@
     return out;
   }
 
+  const morae = p => [...p].reduce((n, c) => n + (c === 'G' ? 2 : 1), 0);
+  // the last syllable of a line may count as heavy
+  const moraOptions = p => p.endsWith('L') ? [morae(p), morae(p) + 1] : [morae(p)];
+
   function identify(lines) {
     const pats = lines.map(l => scan(l).map(s => s.weight).join(''));
     const lens = pats.map(p => p.length);
+    // Āryā: a mātrā meter, written here as two half-verses of 30 and 27 mātrās
+    if (pats.length === 2 && moraOptions(pats[0]).includes(30) && moraOptions(pats[1]).includes(27))
+      return { name: 'Āryā', pattern: null, matras: [30, 27], matches: 2, total: 2 };
     for (const [name, ref] of Object.entries(METERS)) {
       if (!ref) continue;
       // the final syllable of a line may be light or heavy (anceps)
@@ -81,10 +89,13 @@
     }
     if (lens.every(n => n === 8) || (lens.length === 2 && lens.every(n => n === 16)))
       return { name: 'Anuṣṭubh', pattern: null, matches: pats.length, total: pats.length };
+    // lines with the same number of mātrās: a mātrā meter
+    const m = moraOptions(pats[0]).find(x => pats.every(p => moraOptions(p).includes(x)));
+    if (m) return { name: `Mātrā meter (${m} mātrās per line)`, pattern: null, matches: pats.length, total: pats.length };
     return null;
   }
 
-  const api = { scan, ganas, identify, METERS };
+  const api = { scan, ganas, identify, morae, moraOptions, METERS };
   if (typeof module !== 'undefined') module.exports = api;
   else root.Meter = api;
 })(this);

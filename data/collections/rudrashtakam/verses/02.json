@@ -1,0 +1,105 @@
+{
+  "id": "rudrashtakam-2",
+  "number": "Verse 2",
+  "title": "Beyond Words and Senses",
+  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "devanagari": [
+    "निराकारमोङ्कारमूलं तुरीयं",
+    "गिराज्ञानगोतीतमीशं गिरीशम्।",
+    "करालं महाकालकालं कृपालं",
+    "गुणागारसंसारपारं नतोऽहम्॥"
+  ],
+  "iast": [
+    "nirākāram oṅkāra-mūlaṃ turīyaṃ",
+    "girā-jñāna-go-'tītam īśaṃ girīśam |",
+    "karālaṃ mahākāla-kālaṃ kṛpālaṃ",
+    "guṇāgāra-saṃsāra-pāraṃ nato 'ham ||"
+  ],
+  "translation": "Formless, the <b>root of Oṃ</b>, the <b>fourth state</b> beyond waking, dream and sleep, beyond <b>speech, knowledge and the senses</b>; the Lord of the mountain. Terrible, the <b>death of Mahākāla</b> himself, yet merciful; the home of all virtues, beyond the ocean of worldly life: to him I bow.",
+  "translation_hi": "जो निराकार हैं, ओंकार के मूल हैं, तुरीय हैं, वाणी, ज्ञान और इंद्रियों से परे हैं, कैलासपति ईश्वर हैं; जो विकराल हैं, महाकाल के भी काल हैं, फिर भी कृपालु हैं, गुणों के धाम और संसार से परे हैं, उन्हें मैं प्रणाम करता हूँ।",
+  "words": [
+    {
+      "sanskrit": "ओङ्कारमूलम्",
+      "iast": "oṅkāra-mūlam",
+      "meaning": "root of Oṃ",
+      "note": "mūla again: root."
+    },
+    {
+      "sanskrit": "तुरीयम्",
+      "iast": "turīyam",
+      "meaning": "the fourth (state)",
+      "note": "Beyond waking, dreaming and deep sleep."
+    },
+    {
+      "sanskrit": "गिरा",
+      "iast": "girā",
+      "meaning": "speech",
+      "note": ""
+    },
+    {
+      "sanskrit": "ज्ञान",
+      "iast": "jñāna",
+      "meaning": "knowledge",
+      "note": ""
+    },
+    {
+      "sanskrit": "गो",
+      "iast": "go",
+      "meaning": "the senses",
+      "note": "go also means cow, light and earth!"
+    },
+    {
+      "sanskrit": "अतीतम्",
+      "iast": "atītam",
+      "meaning": "beyond",
+      "note": "Hindi अतीत (past, beyond)."
+    },
+    {
+      "sanskrit": "गिरीशम्",
+      "iast": "girīśam",
+      "meaning": "lord of the mountain",
+      "note": "giri + īśa."
+    },
+    {
+      "sanskrit": "करालम्",
+      "iast": "karālam",
+      "meaning": "terrible",
+      "note": ""
+    },
+    {
+      "sanskrit": "महाकालकालम्",
+      "iast": "mahākāla-kālam",
+      "meaning": "death of great Time itself",
+      "note": "kāla = time and death."
+    },
+    {
+      "sanskrit": "कृपालम्",
+      "iast": "kṛpālam",
+      "meaning": "merciful",
+      "note": ""
+    },
+    {
+      "sanskrit": "गुणागार",
+      "iast": "guṇāgāra",
+      "meaning": "home of virtues",
+      "note": "āgāra = house."
+    },
+    {
+      "sanskrit": "संसारपारम्",
+      "iast": "saṃsāra-pāram",
+      "meaning": "beyond worldly existence",
+      "note": "pāra = the far shore."
+    },
+    {
+      "sanskrit": "नतोऽहम्",
+      "iast": "nato 'ham",
+      "meaning": "I bow",
+      "note": "nataḥ + aham."
+    }
+  ],
+  "grammar": [
+    "<b>Kāla = time and death:</b> <span class='dv'>महाकालकाल</span> 'the death of Mahākāla'. The pun only works in Sanskrit.",
+    "<b>Turīya:</b> 'the fourth', from the Māṇḍūkya Upaniṣad's four states of consciousness. Related to catur (four).",
+    "<b>Avagraha:</b> <span class='dv'>नतः + अहम् → नतोऽहम्</span>."
+  ]
+}

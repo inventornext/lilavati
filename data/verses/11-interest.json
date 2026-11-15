@@ -1,0 +1,119 @@
+{
+  "id": "interest",
+  "number": "Verse 11 · Interest",
+  "topic": "Rule of three",
+  "title": "Interest on a Loan",
+  "meter": "Meter: Vasantatilakā (14 syllables per line)",
+  "devanagari": [
+    "मासे शतस्य यदि पञ्च कलान्तरं स्यात्",
+    "वर्षे गते भवति किं वद षोडशानाम्।",
+    "कालं तथा कथय मूलकलान्तराभ्यां",
+    "मूलं धनं गणक कालफलं विदित्वा॥"
+  ],
+  "iast": [
+    "māse śatasya yadi pañca kalāntaraṃ syāt",
+    "varṣe gate bhavati kiṃ vada ṣoḍaśānām |",
+    "kālaṃ tathā kathaya mūla-kalāntarābhyāṃ",
+    "mūlaṃ dhanaṃ gaṇaka kāla-phalaṃ viditvā ||"
+  ],
+  "translation": "If the interest on <b>100</b> is <b>5 a month</b>, tell me the interest on <b>16</b> when a <b>year</b> has passed. And, O mathematician, tell me how to find the <b>time</b> from the principal and the interest, and the <b>principal</b> when you know the time and the interest.",
+  "translation_hi": "यदि 100 पर एक महीने का ब्याज 5 हो, तो बताओ कि एक वर्ष बीतने पर 16 पर कितना ब्याज होगा। और हे गणितज्ञ, मूलधन और ब्याज से समय, तथा समय और ब्याज जानकर मूलधन भी बताओ।",
+  "words": [
+    {
+      "sanskrit": "मासे",
+      "iast": "māse",
+      "meaning": "in a month",
+      "note": "Locative of māsa. Hindi मास, महीना."
+    },
+    {
+      "sanskrit": "शतस्य",
+      "iast": "śatasya",
+      "meaning": "of a hundred",
+      "note": "Genitive of śata."
+    },
+    {
+      "sanskrit": "कलान्तरम्",
+      "iast": "kalāntaram",
+      "meaning": "interest",
+      "note": "Literally 'the difference over time'."
+    },
+    {
+      "sanskrit": "स्यात्",
+      "iast": "syāt",
+      "meaning": "should be",
+      "note": "Optative of √as."
+    },
+    {
+      "sanskrit": "वर्षे गते",
+      "iast": "varṣe gate",
+      "meaning": "when a year has passed",
+      "note": "Locative absolute: 'the year having gone'."
+    },
+    {
+      "sanskrit": "भवति",
+      "iast": "bhavati",
+      "meaning": "becomes",
+      "note": ""
+    },
+    {
+      "sanskrit": "किम्",
+      "iast": "kim",
+      "meaning": "what?",
+      "note": ""
+    },
+    {
+      "sanskrit": "षोडशानाम्",
+      "iast": "ṣoḍaśānām",
+      "meaning": "of sixteen",
+      "note": "Genitive plural of ṣoḍaśa. Hindi सोलह."
+    },
+    {
+      "sanskrit": "कालम्",
+      "iast": "kālam",
+      "meaning": "the time",
+      "note": "Hindi काल."
+    },
+    {
+      "sanskrit": "मूल",
+      "iast": "mūla",
+      "meaning": "principal",
+      "note": "Literally 'root'. The root of the money, like the root of a number!"
+    },
+    {
+      "sanskrit": "मूलकलान्तराभ्याम्",
+      "iast": "mūla-kalāntarābhyām",
+      "meaning": "from principal and interest",
+      "note": "Ablative dual."
+    },
+    {
+      "sanskrit": "धनम्",
+      "iast": "dhanam",
+      "meaning": "money, wealth",
+      "note": "Hindi धन."
+    },
+    {
+      "sanskrit": "कालफलम्",
+      "iast": "kāla-phalam",
+      "meaning": "time and interest",
+      "note": "phala = fruit, result: the interest earned."
+    },
+    {
+      "sanskrit": "विदित्वा",
+      "iast": "viditvā",
+      "meaning": "having known",
+      "note": "Gerund of √vid (to know)."
+    }
+  ],
+  "grammar": [
+    "<b>Locative absolute:</b> <span class='dv'>वर्षे गते</span> 'the year having gone' = after a year. Noun and participle both in the locative.",
+    "<b>Dual again:</b> <span class='dv'>मूलकलान्तराभ्याम्</span> 'from the two, principal and interest', ablative dual.",
+    "<b>Mūla = principal:</b> the same word means root of a plant, square root (bee verse) and the principal of a loan."
+  ],
+  "question": "What is the interest on 16 after one year? (Give a decimal.)",
+  "answer": 9.6,
+  "tolerance": 0.001,
+  "unit": "(= 9⅗)",
+  "figure": "figures/11-interest.svg",
+  "solution": "<div class=\"math\"><p>Rule of three (<span class=\"dv\">त्रैराशिक</span>): if 100 earns 5 in 1 month, then 16 earns (16 × 5 × 12) / (100 × 1) in 12 months.</p><p>= 960 / 100 = <b>9.6</b> = 9⅗</p><p>Time from principal P and interest I: t = (100 × I) / (P × 5) months. Principal from time and interest: P = (100 × I) / (5 × t).</p></div><div class=\"science\"><b>Science link:</b> this is simple interest, I = P × r × t, with r = 5% a month. Bhaskara's rule of three (trairāśika) is direct proportion, the same reasoning behind Ohm's law scaling: double the voltage, double the current.</div>",
+  "code": "code/11-interest.py"
+}

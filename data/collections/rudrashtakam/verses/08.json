@@ -1,0 +1,99 @@
+{
+  "id": "rudrashtakam-8",
+  "number": "Verse 8",
+  "title": "Protect Me, O Shambhu",
+  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "devanagari": [
+    "न जानामि योगं जपं नैव पूजां",
+    "नतोऽहं सदा सर्वदा शम्भु तुभ्यम्।",
+    "जराजन्मदुःखौघ तातप्यमानं",
+    "प्रभो पाहि आपन्नमामीश शम्भो॥"
+  ],
+  "iast": [
+    "na jānāmi yogaṃ japaṃ naiva pūjāṃ",
+    "nato 'haṃ sadā sarvadā śambhu tubhyam |",
+    "jarā-janma-duḥkhaugha-tātapyamānaṃ",
+    "prabho pāhi āpannam āmīśa śambho ||"
+  ],
+  "translation": "I do not know <b>yoga</b>, nor <b>japa</b>, nor <b>pūjā</b>. Yet I bow to you always, at every moment, O Shambhu. I am burning in the flood of <b>old age, birth and suffering</b>. Protect me, O Lord, in my <b>distress</b>, O Shambhu.",
+  "translation_hi": "मैं न योग जानता हूँ, न जप, न पूजा। फिर भी हे शंभु, मैं सदा, हर समय आपको नमन करता हूँ। बुढ़ापे, जन्म और दुःखों के समूह से मैं जल रहा हूँ। हे प्रभु, हे ईश, हे शंभु, इस संकट में मेरी रक्षा कीजिए।",
+  "words": [
+    {
+      "sanskrit": "न जानामि",
+      "iast": "na jānāmi",
+      "meaning": "I do not know",
+      "note": "√jñā. Hindi जानना."
+    },
+    {
+      "sanskrit": "योगम्",
+      "iast": "yogam",
+      "meaning": "yoga",
+      "note": ""
+    },
+    {
+      "sanskrit": "जपम्",
+      "iast": "japam",
+      "meaning": "repetition of a mantra",
+      "note": ""
+    },
+    {
+      "sanskrit": "पूजाम्",
+      "iast": "pūjām",
+      "meaning": "worship",
+      "note": ""
+    },
+    {
+      "sanskrit": "सदा सर्वदा",
+      "iast": "sadā sarvadā",
+      "meaning": "always, at every time",
+      "note": ""
+    },
+    {
+      "sanskrit": "तुभ्यम्",
+      "iast": "tubhyam",
+      "meaning": "to you",
+      "note": "Dative of tvam."
+    },
+    {
+      "sanskrit": "जरा",
+      "iast": "jarā",
+      "meaning": "old age",
+      "note": ""
+    },
+    {
+      "sanskrit": "दुःखौघ",
+      "iast": "duḥkhaugha",
+      "meaning": "flood of sorrows",
+      "note": "duḥkha + ogha (flood). अ + ओ → औ."
+    },
+    {
+      "sanskrit": "तातप्यमानम्",
+      "iast": "tātapyamānam",
+      "meaning": "burning intensely",
+      "note": "Intensive form of √tap (to burn): 'burning and burning'."
+    },
+    {
+      "sanskrit": "पाहि",
+      "iast": "pāhi",
+      "meaning": "protect!",
+      "note": "Imperative of √pā."
+    },
+    {
+      "sanskrit": "आपन्नम्",
+      "iast": "āpannam",
+      "meaning": "one in distress",
+      "note": "Hindi आपदा."
+    },
+    {
+      "sanskrit": "शम्भो",
+      "iast": "śambho",
+      "meaning": "O Shambhu",
+      "note": "Vocative."
+    }
+  ],
+  "grammar": [
+    "<b>Intensive verb:</b> <span class='dv'>तातप्यमान</span> from √तप् repeated, 'burning over and over'. Sanskrit can intensify a verb by doubling it.",
+    "<b>Vṛddhi sandhi:</b> <span class='dv'>दुःख + ओघ → दुःखौघ</span>. अ + ओ → औ.",
+    "<b>Dative 'to you':</b> <span class='dv'>तुभ्यम्</span>, as in नमस्तुभ्यम्, 'salutations to you'."
+  ]
+}

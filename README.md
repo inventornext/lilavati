@@ -10,8 +10,12 @@ Learn Sanskrit through Bhaskaracharya's *Līlāvatī* (1150 CE). Each verse has 
 |---|---|
 | `#` | Home: all verses, progress |
 | `#peacock` (any verse id) | One verse, with previous/next buttons |
-| `#tandava` | Shiva Tāṇḍava Stotram: full text for recitation |
-| `#tandava-1` … `#tandava-17` | One stotra verse with meaning, grammar and meter |
+| `#stotras` | List of all stotras |
+| `#tandava`, `#rudrashtakam`, `#nirvana`, `#lingashtakam` | A stotra's full text for recitation |
+| `#aryabhatiya` | Āryabhaṭīya (astronomy) full text |
+| `#tandava-1`, `#nirvana-3`, `#aryabhatiya-1` … | One verse of a collection |
+| `#quiz` | Ten-question quiz from every section |
+| `#grammar` | Grammar guide: sandhi, cases, verbs, compounds, meter, word numerals |
 | `#flashcards` | Flashcards for every word, progress saved on the device |
 | `#shabdakosh` | Vidyut Shabdakosh, searchable |
 | `#words` | Science word bank |
@@ -28,7 +32,9 @@ data/manifest.json      which verses appear, and in what order
 data/verses/*.json      one file per verse
 data/shabdakosh.json    electrical engineering terms
 data/vocab.json         science word bank
-data/stotra/            Shiva Tāṇḍava Stotram: manifest.json + verses/01.json … 17.json
+data/collections.json   which collections appear (stotras, Āryabhaṭīya), in order
+data/collections/<id>/  one folder per collection: manifest.json + verses/01.json …
+data/grammar.json       the grammar guide (HTML in each section)
 figures/*.svg           one diagram per verse
 code/*.py               one Python check per verse
 audio/                  your own recitations (optional)
@@ -68,9 +74,16 @@ The meter scanner works automatically. If it shows "Meter not recognised" or red
 | `solution` | HTML: `<div class="math">` for steps, `<div class="science">` for the modern link |
 | `audio` | optional: path to your recording, e.g. `audio/08-name.mp3` |
 
-## Shiva Tāṇḍava Stotram
+## Stotras and the Āryabhaṭīya (collections)
 
-Each verse is a file in `data/stotra/verses/`, with the same fields as a Lilavati verse but no puzzle (`question`, `answer`, `figure`, `code` are left out). To fix a reading, edit the `devanagari` and `iast` lines; the meter scanner will flag any line that no longer scans. To add your recitation, save `audio/tandava-01.mp3` and add `"audio": "audio/tandava-01.mp3"` to `01.json`.
+Each collection is a folder in `data/collections/`, for example `data/collections/nirvana/`:
+
+- `manifest.json`: `title`, `title_deva`, `author`, `kind` (`stotra` or `science`), `intro`, `note`, `opening`, `closing` and the list of `verses`.
+- `verses/01.json` …: same fields as a Lilavati verse. `question`, `answer`, `figure`, `code` are optional (the Āryabhaṭīya verses have them; stotras do not).
+
+**Add a new stotra:** copy a folder such as `data/collections/nirvana/`, edit its manifest and verse files, and add its folder name to `data/collections.json`. It then appears on the home page, the Stotras page, in Flashcards and in the Quiz automatically.
+
+The meter scanner checks every line. Two light syllables may replace one heavy (a mātrā-equal variant); anything else it marks in red, which usually means a typo.
 
 ## Your own recitation
 

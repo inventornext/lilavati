@@ -1,0 +1,6 @@
+<svg viewBox="0 0 600 200" width="600" role="img" aria-label="Sun lights half of the Moon">
+<circle cx="70" cy="100" r="45" fill="var(--gold)"/><text x="70" y="170" text-anchor="middle" font-size="14" fill="var(--ink)">सूर्य</text>
+<g stroke="var(--gold)" stroke-width="2" opacity=".6"><line x1="125" y1="80" x2="330" y2="80"/><line x1="125" y1="100" x2="330" y2="100"/><line x1="125" y1="120" x2="330" y2="120"/></g>
+<circle cx="400" cy="100" r="55" fill="var(--surface-2)" stroke="var(--muted)"/>
+<path d="M400 45 a55 55 0 0 0 0 110 z" fill="var(--gold-soft)" stroke="var(--gold)"/>
+<g font-size="14" fill="var(--ink)" text-anchor="middle"><text x="370" y="104">lit</text><text x="430" y="104" fill="var(--muted)">dark</text><text x="400" y="185">चन्द्र: half lit, half in its own shadow</text></g></svg>

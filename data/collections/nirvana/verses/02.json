@@ -1,0 +1,81 @@
+{
+  "id": "nirvana-2",
+  "number": "Verse 2",
+  "title": "Not the Breath, Not the Body",
+  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "devanagari": [
+    "न च प्राणसंज्ञो न वै पञ्चवायु-",
+    "र्न वा सप्तधातुर्न वा पञ्चकोशः।",
+    "न वाक्पाणिपादं न चोपस्थपायू",
+    "चिदानन्दरूपः शिवोऽहं शिवोऽहम्॥"
+  ],
+  "iast": [
+    "na ca prāṇa-saṃjño na vai pañca-vāyur",
+    "na vā sapta-dhātur na vā pañca-kośaḥ |",
+    "na vāk-pāṇi-pādaṃ na copastha-pāyū",
+    "cid-ānanda-rūpaḥ śivo 'haṃ śivo 'ham ||"
+  ],
+  "translation": "I am not what is called <b>prāṇa</b>, nor the <b>five vital airs</b>; not the <b>seven tissues</b> of the body, nor the <b>five sheaths</b>; not speech, hands or feet, nor the organs of excretion and procreation. My form is consciousness and bliss: I am Shiva, I am Shiva.",
+  "translation_hi": "मैं प्राण नहीं हूँ, न पाँच वायु हूँ; न सात धातुएँ हूँ, न पाँच कोश; न वाणी, हाथ और पैर हूँ, न उपस्थ और पायु। मेरा स्वरूप चेतना और आनंद है: मैं शिव हूँ, मैं शिव हूँ।",
+  "words": [
+    {
+      "sanskrit": "प्राणसंज्ञः",
+      "iast": "prāṇa-saṃjñaḥ",
+      "meaning": "what is called prāṇa",
+      "note": "saṃjñā = name. Hindi संज्ञा (noun)!"
+    },
+    {
+      "sanskrit": "वै",
+      "iast": "vai",
+      "meaning": "indeed",
+      "note": ""
+    },
+    {
+      "sanskrit": "पञ्चवायुः",
+      "iast": "pañca-vāyuḥ",
+      "meaning": "the five vital airs",
+      "note": "Prāṇa, apāna, vyāna, udāna, samāna."
+    },
+    {
+      "sanskrit": "सप्तधातुः",
+      "iast": "sapta-dhātuḥ",
+      "meaning": "the seven tissues",
+      "note": "In Āyurveda. Hindi धातु also means metal and verb root!"
+    },
+    {
+      "sanskrit": "पञ्चकोशः",
+      "iast": "pañca-kośaḥ",
+      "meaning": "the five sheaths",
+      "note": "The layers of the self in the Upaniṣads."
+    },
+    {
+      "sanskrit": "वाक्",
+      "iast": "vāk",
+      "meaning": "speech",
+      "note": "Hindi वाणी."
+    },
+    {
+      "sanskrit": "पाणि",
+      "iast": "pāṇi",
+      "meaning": "hand",
+      "note": "As in dvi-tri-pāṇi in the bamboo verse."
+    },
+    {
+      "sanskrit": "पादम्",
+      "iast": "pādam",
+      "meaning": "foot",
+      "note": ""
+    },
+    {
+      "sanskrit": "उपस्थपायू",
+      "iast": "upastha-pāyū",
+      "meaning": "organs of procreation and excretion",
+      "note": "Dual."
+    }
+  ],
+  "grammar": [
+    "<b>Number words:</b> <span class='dv'>पञ्च, सप्त, पञ्च</span>: Indian philosophy loves lists, and their numbers become part of the name: पञ्चवायु, सप्तधातु, पञ्चकोश.",
+    "<b>Saṃjñā:</b> 'name'. In Sanskrit grammar, Pāṇini uses saṃjñā for a technical term; in Hindi grammar संज्ञा means noun.",
+    "Refrain: <span class='dv'>चिदानन्दरूपः शिवोऽहं शिवोऽहम्</span> 'My form is consciousness and bliss. I am Shiva, I am Shiva.'"
+  ]
+}

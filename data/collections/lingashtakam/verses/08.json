@@ -1,0 +1,69 @@
+{
+  "id": "lingashtakam-8",
+  "number": "Verse 8",
+  "title": "Beyond the Highest",
+  "meter": "Meter: 16 mātrās per line (Dodhaka pattern)",
+  "devanagari": [
+    "सुरगुरुसुरवरपूजितलिङ्गं",
+    "सुरवनपुष्पसदार्चितलिङ्गम्।",
+    "परात्परं परमात्मकलिङ्गं",
+    "तत्प्रणमामि सदाशिवलिङ्गम्॥"
+  ],
+  "iast": [
+    "sura-guru-sura-vara-pūjita-liṅgaṃ",
+    "sura-vana-puṣpa-sadārcita-liṅgam |",
+    "parāt paraṃ paramātmaka-liṅgaṃ",
+    "tat praṇamāmi sadāśiva-liṅgam ||"
+  ],
+  "translation": "Worshipped by <b>Bṛhaspati</b>, teacher of the gods, and the best of the gods, always offered <b>flowers from the heavenly garden</b>; higher than the highest, the <b>Supreme Self</b>: I bow to that liṅga of Sadāśiva.",
+  "translation_hi": "जो देवगुरु बृहस्पति और श्रेष्ठ देवताओं द्वारा पूजित है, देवताओं के उद्यान के फूलों से सदा अर्चित है, परे से भी परे और परमात्म स्वरूप है, उस सदाशिव लिंग को मैं प्रणाम करता हूँ।",
+  "words": [
+    {
+      "sanskrit": "सुरगुरु",
+      "iast": "sura-guru",
+      "meaning": "teacher of the gods (Bṛhaspati)",
+      "note": ""
+    },
+    {
+      "sanskrit": "सुरवर",
+      "iast": "sura-vara",
+      "meaning": "best of the gods",
+      "note": ""
+    },
+    {
+      "sanskrit": "पूजित",
+      "iast": "pūjita",
+      "meaning": "worshipped",
+      "note": ""
+    },
+    {
+      "sanskrit": "सुरवन",
+      "iast": "sura-vana",
+      "meaning": "garden of the gods",
+      "note": ""
+    },
+    {
+      "sanskrit": "पुष्प",
+      "iast": "puṣpa",
+      "meaning": "flower",
+      "note": ""
+    },
+    {
+      "sanskrit": "परात् परम्",
+      "iast": "parāt param",
+      "meaning": "higher than the highest",
+      "note": "Ablative of comparison: 'higher than'."
+    },
+    {
+      "sanskrit": "परमात्मक",
+      "iast": "paramātmaka",
+      "meaning": "whose nature is the Supreme Self",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Ablative of comparison:</b> <span class='dv'>परात् परम्</span> 'higher than the high'. The ablative means 'than' as well as 'from'.",
+    "<b>Eight light syllables:</b> <span class='dv'>सुरगुरुसुरवर</span> is ◡◡◡◡◡◡◡◡, two full beats of light syllables.",
+    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that liṅga of Sadāśiva.'"
+  ]
+}

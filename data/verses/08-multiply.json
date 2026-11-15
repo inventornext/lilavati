@@ -1,0 +1,161 @@
+{
+  "id": "multiply",
+  "number": "Verse 8 · Multiplication",
+  "topic": "Place value",
+  "title": "The Deer-eyed Girl's Multiplication",
+  "meter": "Meter: Śārdūlavikrīḍita (19 syllables per line)",
+  "devanagari": [
+    "बाले बालकुरङ्गलोलनयने लीलावति प्रोच्यतां",
+    "पञ्चत्र्येकमिता दिवाकरगुणा अङ्काः कति स्युर्यदि।",
+    "रूपस्थानविभागखण्डगुणने कल्यासि कल्याणिनि",
+    "छिन्नास्तेन गुणेन ते च गुणिता जाताः कति स्युर्वद॥"
+  ],
+  "iast": [
+    "bāle bāla-kuraṅga-lola-nayane līlāvati procyatāṃ",
+    "pañca-try-eka-mitā divākara-guṇā aṅkāḥ kati syur yadi |",
+    "rūpa-sthāna-vibhāga-khaṇḍa-guṇane kalyāsi kalyāṇini",
+    "chinnās tena guṇena te ca guṇitā jātāḥ kati syur vada ||"
+  ],
+  "translation": "O girl, Lilavati, with eyes as restless as a young deer's! If you are clever, O fair one, at multiplying <b>whole, by places, by factors and by parts</b>, tell me: the number written <b>five-three-one</b>, multiplied by the <b>suns</b>, what does it become? And when that product is <b>divided by the same multiplier</b>, what comes back?",
+  "translation_hi": "हे बाला लीलावती, हिरन के बच्चे जैसी चंचल आँखों वाली! हे कल्याणी, यदि तुम पूर्ण संख्या, स्थान, विभाग और खंड विधि से गुणा करने में कुशल हो, तो बताओ कि पाँच-तीन-एक वाली संख्या को 'सूर्यों' से गुणा करने पर क्या मिलता है? और उस गुणनफल को उसी गुणक से भाग देने पर क्या बचता है?",
+  "words": [
+    {
+      "sanskrit": "बाले",
+      "iast": "bāle",
+      "meaning": "O girl",
+      "note": "Vocative of bālā."
+    },
+    {
+      "sanskrit": "बालकुरङ्ग",
+      "iast": "bāla-kuraṅga",
+      "meaning": "young deer",
+      "note": "kuraṅga = deer. Hindi कुरंग."
+    },
+    {
+      "sanskrit": "लोलनयने",
+      "iast": "lola-nayane",
+      "meaning": "O restless-eyed one",
+      "note": "lola (restless) + nayana (eye). Vocative."
+    },
+    {
+      "sanskrit": "प्रोच्यताम्",
+      "iast": "procyatām",
+      "meaning": "let it be told",
+      "note": "Passive imperative of pra + √vac."
+    },
+    {
+      "sanskrit": "पञ्चत्र्येकमिताः",
+      "iast": "pañca-try-eka-mitāḥ",
+      "meaning": "measured as five-three-one",
+      "note": "Digits are read right to left: 5, 3, 1 → 135."
+    },
+    {
+      "sanskrit": "दिवाकरगुणाः",
+      "iast": "divākara-guṇāḥ",
+      "meaning": "multiplied by the suns",
+      "note": "divākara (sun) = 12 in word numerals, for the 12 Ādityas."
+    },
+    {
+      "sanskrit": "अङ्काः",
+      "iast": "aṅkāḥ",
+      "meaning": "digits, number",
+      "note": "Hindi अंक."
+    },
+    {
+      "sanskrit": "कति",
+      "iast": "kati",
+      "meaning": "how many",
+      "note": ""
+    },
+    {
+      "sanskrit": "स्युः",
+      "iast": "syuḥ",
+      "meaning": "would be",
+      "note": "Optative of √as, plural."
+    },
+    {
+      "sanskrit": "यदि",
+      "iast": "yadi",
+      "meaning": "if",
+      "note": ""
+    },
+    {
+      "sanskrit": "रूप",
+      "iast": "rūpa",
+      "meaning": "whole (number)",
+      "note": "Multiplying by the whole multiplier at once."
+    },
+    {
+      "sanskrit": "स्थान",
+      "iast": "sthāna",
+      "meaning": "place",
+      "note": "Multiplying digit by digit, place by place."
+    },
+    {
+      "sanskrit": "विभाग",
+      "iast": "vibhāga",
+      "meaning": "factors",
+      "note": "Splitting the multiplier into factors: 12 = 3 × 4."
+    },
+    {
+      "sanskrit": "खण्ड",
+      "iast": "khaṇḍa",
+      "meaning": "parts",
+      "note": "Splitting the multiplier into a sum: 12 = 8 + 4."
+    },
+    {
+      "sanskrit": "गुणने",
+      "iast": "guṇane",
+      "meaning": "in multiplication",
+      "note": "Locative of guṇana. Hindi गुणा."
+    },
+    {
+      "sanskrit": "कल्या असि",
+      "iast": "kalyā asi",
+      "meaning": "you are clever",
+      "note": "kalya = skilled."
+    },
+    {
+      "sanskrit": "कल्याणिनि",
+      "iast": "kalyāṇini",
+      "meaning": "O fair one",
+      "note": "Vocative of kalyāṇinī."
+    },
+    {
+      "sanskrit": "छिन्नाः",
+      "iast": "chinnāḥ",
+      "meaning": "divided",
+      "note": "Literally 'cut'. √chid, as in -cchid in the Tāṇḍava stotra!"
+    },
+    {
+      "sanskrit": "तेन गुणेन",
+      "iast": "tena guṇena",
+      "meaning": "by that multiplier",
+      "note": "Instrumental."
+    },
+    {
+      "sanskrit": "जाताः",
+      "iast": "jātāḥ",
+      "meaning": "become",
+      "note": "Past participle of √jan."
+    },
+    {
+      "sanskrit": "वद",
+      "iast": "vada",
+      "meaning": "tell!",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Word numerals:</b> <span class='dv'>दिवाकर</span> (sun) = 12, for the twelve Ādityas. <span class='dv'>पञ्च-त्रि-एक</span> read right to left = 135. See the Grammar page for the full table.",
+    "<b>Division is 'cutting':</b> <span class='dv'>छिन्न</span> 'cut' from √छिद्. The same root gives -च्छिद् 'destroyer' in Tāṇḍava verse 9.",
+    "<b>Optative:</b> <span class='dv'>स्युः</span> 'would be', the mood for 'if…, what would…'.",
+    "<b>Yaṇ sandhi:</b> <span class='dv'>त्रि + एक → त्र्येक</span>. इ before a different vowel becomes य्."
+  ],
+  "question": "What is 135 × 12?",
+  "answer": 1620,
+  "unit": "",
+  "figure": "figures/08-multiply.svg",
+  "solution": "<div class=\"math\"><p><b>Whole (rūpa):</b> 135 × 12 = <b>1620</b></p><p><b>By places (sthāna):</b> 135 × 1 = 135 and 135 × 2 = 270, placed one step apart: 1350 + 270 = 1620</p><p><b>By factors (vibhāga):</b> 12 = 3 × 4, so 135 × 3 = 405, then 405 × 4 = 1620</p><p><b>By parts (khaṇḍa):</b> 12 = 8 + 4, so 135 × 8 + 135 × 4 = 1080 + 540 = 1620</p><p>Divided back by 12: 1620 ÷ 12 = 135</p></div><div class=\"science\"><b>Science link:</b> the 'factors' and 'parts' methods are the distributive and associative laws. Computers still multiply by splitting numbers into parts: Karatsuba's fast multiplication algorithm (1960) is a clever khaṇḍa method.</div>",
+  "code": "code/08-multiply.py"
+}
