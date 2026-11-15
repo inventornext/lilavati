@@ -321,3 +321,14 @@ main, footer { position: relative; z-index: 1; }
   .links { margin-left: auto; gap: 0; }
   .links a { padding: 6px 8px; font-size: 15px; }
 }
+
+/* mandala (chakra) always fits inside its box */
+.hero { padding: 72px 0 56px; }
+.hero .mandala { width: min(560px, 94vw, 100%); height: auto; aspect-ratio: 1; top: 50%; transform: translate(-50%, -50%); }
+@keyframes spin-hero { from { transform: translate(-50%, -50%) rotate(0); } to { transform: translate(-50%, -50%) rotate(360deg); } }
+@media (max-width: 640px) { .hero { padding: 48px 0 40px; } .hero .mandala { width: min(360px, 92vw); } }
+.shloka-mandala { width: auto; height: 94%; max-width: 94%; }
+.shloka.stotra .shloka-mandala { height: auto; width: min(420px, 90%); top: 230px; }
+.hero { padding: 84px 0 70px; }
+.hero .mandala { width: min(480px, 92vw); }
+@media (max-width: 640px) { .hero { padding: 56px 0 48px; } .hero .mandala { width: min(330px, 84vw); } }
