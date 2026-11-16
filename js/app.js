@@ -297,40 +297,18 @@ function bindShare(id, title, line) {
 }
 
 // ---------- install as an app ----------
-// The button always shows until the app is installed. If the browser offers
-// a direct install, tapping it installs; otherwise it shows the steps.
+// The button appears only when the browser offers a direct install; one tap installs.
 let installPrompt = null;
-const isInstalled = () => matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
 window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); installPrompt = e; showInstall(); });
 window.addEventListener('appinstalled', () => { installPrompt = null; showInstall(); });
-function showInstall() { $$('.install-app').forEach(b => b.hidden = isInstalled()); }
-function installSteps() {
-  const ua = navigator.userAgent;
-  if (/iPhone|iPad|iPod/i.test(ua)) return ['Open this site in <b>Safari</b>.', 'Tap the <b>Share</b> button (square with an arrow) at the bottom.', 'Scroll down and tap <b>Add to Home Screen</b>, then <b>Add</b>.'];
-  if (/SamsungBrowser/i.test(ua)) return ['Tap the <b>☰ menu</b> at the bottom right.', 'Tap <b>Add page to</b> → <b>Home screen</b>.', 'Tap <b>Add</b>. Shlokashala appears on your home screen.'];
-  if (/Android/i.test(ua)) return ['Tap the <b>⋮ menu</b> at the top right of Chrome.', 'Tap <b>Install app</b> or <b>Add to Home screen</b>.', 'Tap <b>Install</b>. Shlokashala appears on your home screen.'];
-  return ['In Chrome or Edge, click the <b>install icon</b> at the right end of the address bar.', 'Or open the <b>⋮ menu</b> → <b>Install Shlokashala</b>.', 'It then opens in its own window, like an app.'];
-}
+function showInstall() { $$('.install-app').forEach(b => b.hidden = !installPrompt); }
 async function doInstall() {
-  if (installPrompt) {
-    installPrompt.prompt();
-    await installPrompt.userChoice.catch(() => {});
-    installPrompt = null; showInstall();
-    return;
-  }
-  let d = $('#install-help');
-  if (!d) {
-    d = document.createElement('div'); d.id = 'install-help'; d.className = 'modal';
-    d.innerHTML = `<div class="modal-box" role="dialog" aria-modal="true" aria-label="Install Shlokashala">
-      <div class="modal-icon"><img src="icons/icon-192.png" alt="" width="64" height="64"></div>
-      <h2>Install Shlokashala</h2>
-      <ol>${installSteps().map(x => `<li>${x}</li>`).join('')}</ol>
-      <p class="note">Once installed, it opens like an app and works without internet.</p>
-      <button class="btn primary" id="install-close">Got it</button></div>`;
-    document.body.appendChild(d);
-    d.onclick = e => { if (e.target === d || e.target.id === 'install-close') d.remove(); };
-  }
+  if (!installPrompt) return;
+  installPrompt.prompt();
+  await installPrompt.userChoice.catch(() => {});
+  installPrompt = null; showInstall();
 }
+
 
 
 function bindPuzzle(v) {
