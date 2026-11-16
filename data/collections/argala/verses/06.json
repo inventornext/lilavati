@@ -1,51 +1,41 @@
 {
   "id": "argala-6",
   "number": "Verse 6",
-  "title": "Crusher of Śumbha and Niśumbha",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "title": "Crusher of Shumbha and Nishumbha",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "शुम्भस्यैव निशुम्भस्य",
     "धूम्राक्षस्य च मर्दिनि।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "śumbhasyaiva niśumbhasya",
-    "dhūmrākṣasya ca mardini |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "O crusher of <b>Śumbha</b>, of <b>Niśumbha</b> and of <b>Dhūmrākṣa</b>! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "O crusher of <b>Shumbha</b>, of <b>Nishumbha</b> and of <b>Dhumraksha</b>! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे शुंभ, निशुंभ और धूम्राक्ष का मर्दन करने वाली। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "शुम्भस्य",
-      "iast": "śumbhasya",
-      "meaning": "of Śumbha",
+      "meaning": "of Shumbha",
       "note": "Genitive."
     },
     {
       "sanskrit": "निशुम्भस्य",
-      "iast": "niśumbhasya",
-      "meaning": "of Niśumbha",
+      "meaning": "of Nishumbha",
       "note": ""
     },
     {
       "sanskrit": "धूम्राक्ष",
-      "iast": "dhūmrākṣa",
       "meaning": "the demon 'Smoke-eye'",
       "note": ""
     },
     {
       "sanskrit": "मर्दिनि",
-      "iast": "mardini",
       "meaning": "O crusher",
-      "note": "As in Mahiṣāsura-mardinī."
+      "note": "As in Mahishasura-mardini."
     }
   ],
   "grammar": [
-    "<b>Genitive with an agent noun:</b> 'crusher <i>of</i> Śumbha': the victims take the genitive.",
-    "<b>Vṛddhi sandhi:</b> <span class='dv'>शुम्भस्य + एव → शुम्भस्यैव</span>.",
+    "<b>Genitive with an agent noun:</b> 'crusher <i>of</i> Shumbha': the victims take the genitive.",
+    "<b>Vriddhi sandhi:</b> <span class='dv'>शुम्भस्य + एव → शुम्भस्यैव</span>.",
     "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

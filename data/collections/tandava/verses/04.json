@@ -2,122 +2,100 @@
   "id": "tandava-4",
   "number": "Verse 4",
   "title": "The Serpent Jewels",
-  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "जटाभुजङ्गपिङ्गलस्फुरत्फणामणिप्रभा-",
     "कदम्बकुङ्कुमद्रवप्रलिप्तदिग्वधूमुखे।",
     "मदान्धसिन्धुरस्फुरत्त्वगुत्तरीयमेदुरे",
     "मनो विनोदमद्भुतं बिभर्तु भूतभर्तरि॥"
   ],
-  "iast": [
-    "jaṭā-bhujaṅga-piṅgala-sphurat-phaṇā-maṇi-prabhā-",
-    "kadamba-kuṅkuma-drava-pralipta-dig-vadhū-mukhe |",
-    "madāndha-sindhura-sphurat-tvag-uttarīya-medure",
-    "mano vinodam adbhutaṃ bibhartu bhūta-bhartari ||"
-  ],
   "translation": "The tawny glow of the <b>jewels on the hoods of the serpents</b> in his locks paints the faces of the brides of the directions, as if with liquid <b>saffron</b>. He wears the shining hide of a maddened <b>elephant</b> as his upper cloth. May my mind hold a wonderful joy in him, the <b>lord of all beings</b>.",
   "translation_hi": "जिनकी जटाओं के सर्पों के चमकते फणों की मणियों की पीली आभा दिशा रूपी वधुओं के मुख पर केसर के लेप जैसी लगती है, और जो मदमस्त हाथी की चमकती खाल को उत्तरीय की तरह ओढ़ते हैं, उन भूतनाथ शिव में मेरा मन अद्भुत आनंद पाए।",
   "words": [
     {
       "sanskrit": "पिङ्गल",
-      "iast": "piṅgala",
       "meaning": "tawny, reddish-yellow",
       "note": ""
     },
     {
       "sanskrit": "फणा",
-      "iast": "phaṇā",
       "meaning": "serpent's hood",
       "note": "Hindi फन."
     },
     {
       "sanskrit": "मणि",
-      "iast": "maṇi",
       "meaning": "jewel",
       "note": ""
     },
     {
       "sanskrit": "प्रभा",
-      "iast": "prabhā",
       "meaning": "glow, light",
       "note": ""
     },
     {
       "sanskrit": "कदम्ब",
-      "iast": "kadamba",
       "meaning": "mass, cluster",
       "note": "Also the kadamba tree."
     },
     {
       "sanskrit": "कुङ्कुमद्रव",
-      "iast": "kuṅkuma-drava",
       "meaning": "liquid saffron",
       "note": "drava = liquid. Hindi द्रव; द्रव यांत्रिकी = fluid mechanics."
     },
     {
       "sanskrit": "प्रलिप्त",
-      "iast": "pralipta",
       "meaning": "smeared",
       "note": "Hindi लिप्त, लेप."
     },
     {
       "sanskrit": "दिग्वधूमुखे",
-      "iast": "dig-vadhū-mukhe",
       "meaning": "on the faces of the brides of the directions",
       "note": "The directions imagined as brides. Locative."
     },
     {
       "sanskrit": "मदान्ध",
-      "iast": "madāndha",
       "meaning": "blind with rage",
       "note": "mada (frenzy) + andha (blind)."
     },
     {
       "sanskrit": "सिन्धुर",
-      "iast": "sindhura",
       "meaning": "elephant",
       "note": ""
     },
     {
       "sanskrit": "त्वक्",
-      "iast": "tvak",
       "meaning": "skin, hide",
       "note": "Hindi त्वचा. Becomes त्वग् before a vowel."
     },
     {
       "sanskrit": "उत्तरीय",
-      "iast": "uttarīya",
       "meaning": "upper garment",
       "note": ""
     },
     {
       "sanskrit": "मेदुरे",
-      "iast": "medure",
       "meaning": "glossy, covered",
       "note": "Locative."
     },
     {
       "sanskrit": "अद्भुतम्",
-      "iast": "adbhutam",
       "meaning": "wonderful",
       "note": "Hindi अद्भुत."
     },
     {
       "sanskrit": "बिभर्तु",
-      "iast": "bibhartu",
       "meaning": "may it hold",
-      "note": "Imperative of √bhṛ (to bear). Reduplicated: bi-bhar-."
+      "note": "Imperative of √bhri (to bear). Reduplicated: bi-bhar-."
     },
     {
       "sanskrit": "भूतभर्तरि",
-      "iast": "bhūta-bhartari",
       "meaning": "in the lord of beings",
-      "note": "bhartṛ = supporter, lord. Locative bhartari."
+      "note": "bhartri = supporter, lord. Locative bhartari."
     }
   ],
   "grammar": [
     "<b>Reduplication:</b> some roots double their first syllable in the present: √भृ → बिभर्ति (bears), imperative बिभर्तु. Compare √दा → ददाति (gives).",
-    "<b>Agent nouns in -tṛ:</b> <span class='dv'>भर्तृ</span> 'supporter' (from √bhṛ), like कर्तृ (doer) and दातृ (giver). Locative: भर्तरि.",
+    "<b>Agent nouns in -tri:</b> <span class='dv'>भर्तृ</span> 'supporter' (from √bhri), like कर्तृ (doer) and दातृ (giver). Locative: भर्तरि.",
     "<b>Science word:</b> <span class='dv'>द्रव</span> 'liquid' is the Hindi word for fluid in physics: द्रव यांत्रिकी = fluid mechanics."
   ]
 }

@@ -2,45 +2,35 @@
   "id": "argala-11",
   "number": "Verse 11",
   "title": "For Those Who Worship",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "चण्डिके सततं ये त्वाम्",
     "अर्चयन्तीह भक्तितः।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "caṇḍike satataṃ ye tvām",
-    "arcayantīha bhaktitaḥ |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "O Caṇḍikā, for those who <b>always worship you</b> here with devotion: <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "O Chandika, for those who <b>always worship you</b> here with devotion: <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे चंडिका, जो यहाँ सदा भक्ति से आपकी पूजा करते हैं, उन्हें। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "ये",
-      "iast": "ye",
       "meaning": "those who",
       "note": ""
     },
     {
       "sanskrit": "अर्चयन्ति",
-      "iast": "arcayanti",
       "meaning": "worship",
-      "note": "√arc, as arcita in Liṅgāṣṭakam."
+      "note": "√arc, as arcita in Lingashtakam."
     },
     {
       "sanskrit": "इह",
-      "iast": "iha",
       "meaning": "here",
       "note": ""
     },
     {
       "sanskrit": "भक्तितः",
-      "iast": "bhaktitaḥ",
       "meaning": "out of devotion",
-      "note": "-taḥ = 'from'."
+      "note": "-tah = 'from'."
     }
   ],
   "grammar": [

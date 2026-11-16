@@ -1,69 +1,56 @@
 {
   "id": "argala-2",
   "number": "Verse 2",
-  "title": "Victory to Chāmuṇḍā",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "title": "Victory to Chamunda",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "जय त्वं देवि चामुण्डे",
     "जय भूतार्तिहारिणि।",
     "जय सर्वगते देवि",
     "कालरात्रि नमोऽस्तु ते॥"
   ],
-  "iast": [
-    "jaya tvaṃ devi cāmuṇḍe",
-    "jaya bhūtārti-hāriṇi |",
-    "jaya sarva-gate devi",
-    "kālarātri namo 'stu te ||"
-  ],
-  "translation": "Victory to you, O Goddess <b>Chāmuṇḍā</b>! Victory to you who <b>take away the suffering of beings</b>! Victory, O Goddess who is <b>everywhere</b>! O <b>Kālarātri</b>, salutations to you.",
+  "translation": "Victory to you, O Goddess <b>Chamunda</b>! Victory to you who <b>take away the suffering of beings</b>! Victory, O Goddess who is <b>everywhere</b>! O <b>Kalaratri</b>, salutations to you.",
   "translation_hi": "हे देवी चामुंडा, आपकी जय हो! प्राणियों की पीड़ा हरने वाली, आपकी जय हो! हे सर्वव्यापिनी देवी, आपकी जय हो! हे कालरात्रि, आपको नमस्कार है।",
   "words": [
     {
       "sanskrit": "जय",
-      "iast": "jaya",
       "meaning": "be victorious!",
       "note": "Imperative of √ji."
     },
     {
       "sanskrit": "त्वम्",
-      "iast": "tvam",
       "meaning": "you",
       "note": ""
     },
     {
       "sanskrit": "देवि",
-      "iast": "devi",
       "meaning": "O Goddess",
-      "note": "Vocative of devī."
+      "note": "Vocative of devi."
     },
     {
       "sanskrit": "चामुण्डे",
-      "iast": "cāmuṇḍe",
-      "meaning": "O Chāmuṇḍā",
-      "note": "Slayer of Caṇḍa and Muṇḍa. Vocative."
+      "meaning": "O Chamunda",
+      "note": "Slayer of Chanda and Munda. Vocative."
     },
     {
       "sanskrit": "भूतार्तिहारिणि",
-      "iast": "bhūtārti-hāriṇi",
       "meaning": "O remover of beings' pain",
-      "note": "ārti = pain; hāriṇī = remover. Vocative."
+      "note": "arti = pain; harini = remover. Vocative."
     },
     {
       "sanskrit": "सर्वगते",
-      "iast": "sarva-gate",
       "meaning": "O all-pervading one",
       "note": "Vocative."
     },
     {
       "sanskrit": "कालरात्रि",
-      "iast": "kālarātri",
       "meaning": "O Night of Time",
-      "note": "The seventh form worshipped in Navarātri."
+      "note": "The seventh form worshipped in Navaratri."
     }
   ],
   "grammar": [
-    "<b>Feminine vocatives:</b> -ā nouns take -e (<span class='dv'>चामुण्डे</span>), -ī nouns take -i (<span class='dv'>देवि, कालरात्रि</span>). Compare बाले in Lilavati verse 1.",
+    "<b>Feminine vocatives:</b> -a nouns take -e (<span class='dv'>चामुण्डे</span>), -i nouns take -i (<span class='dv'>देवि, कालरात्रि</span>). Compare बाले in Lilavati verse 1.",
     "<b>Jaya:</b> 'be victorious', the imperative; Hindi जय.",
-    "<b>Ārti:</b> 'pain' (not the same word as ārati, the lamp ceremony)."
+    "<b>Arti:</b> 'pain' (not the same word as arati, the lamp ceremony)."
   ]
 }

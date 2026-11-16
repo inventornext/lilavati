@@ -2,70 +2,58 @@
   "id": "mandukya-7",
   "number": "Mantra 6",
   "title": "Lord of All",
-  "meter": "Prose (the Upaniṣad mantras have no meter)",
-  "meterNote": "The mantras of the Māṇḍūkya Upaniṣad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pāda</b> and <b>mātrā</b>, the same two words the meter scanner is built on.",
+  "meter": "Prose (the Upanishad mantras have no meter)",
+  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "एष सर्वेश्वर एष सर्वज्ञ एषोऽन्तर्याम्येष",
     "योनिः सर्वस्य प्रभवाप्ययौ हि भूतानाम्॥"
-  ],
-  "iast": [
-    "eṣa sarveśvara eṣa sarvajña eṣo 'ntaryāmy eṣa",
-    "yoniḥ sarvasya prabhavāpyayau hi bhūtānām ||"
   ],
   "translation": "This is the <b>lord of all</b>; this is the <b>all-knowing</b>; this is the <b>inner controller</b>; this is the <b>source of all</b>; it is where all beings <b>arise and dissolve</b>.",
   "translation_hi": "यही सबका ईश्वर है, यही सर्वज्ञ है, यही अंतर्यामी है, यही सबका मूल है; यही सब प्राणियों की उत्पत्ति और लय का स्थान है।",
   "words": [
     {
       "sanskrit": "एषः",
-      "iast": "eṣaḥ",
       "meaning": "this",
       "note": ""
     },
     {
       "sanskrit": "सर्वेश्वरः",
-      "iast": "sarveśvaraḥ",
       "meaning": "lord of all",
       "note": ""
     },
     {
       "sanskrit": "सर्वज्ञः",
-      "iast": "sarvajñaḥ",
       "meaning": "all-knowing",
-      "note": "sarva + jña (knower)."
+      "note": "sarva + jna (knower)."
     },
     {
       "sanskrit": "अन्तर्यामी",
-      "iast": "antaryāmī",
       "meaning": "inner controller",
       "note": "Hindi अंतर्यामी."
     },
     {
       "sanskrit": "योनिः",
-      "iast": "yoniḥ",
       "meaning": "source, origin",
       "note": ""
     },
     {
       "sanskrit": "प्रभव",
-      "iast": "prabhava",
       "meaning": "origin",
       "note": ""
     },
     {
       "sanskrit": "अप्यय",
-      "iast": "apyaya",
       "meaning": "dissolution",
       "note": ""
     },
     {
       "sanskrit": "भूतानाम्",
-      "iast": "bhūtānām",
       "meaning": "of beings",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Dual:</b> <span class='dv'>प्रभवाप्ययौ</span> 'origin and dissolution', the two together, like the dual pairs in Tāṇḍava verse 12.",
-    "<b>Eṣa / eṣo:</b> the visarga of <span class='dv'>एषः</span> drops before most sounds and becomes ओ before अ: एषोऽन्तर्यामी."
+    "<b>Dual:</b> <span class='dv'>प्रभवाप्ययौ</span> 'origin and dissolution', the two together, like the dual pairs in Tandava verse 12.",
+    "<b>Esha / esho:</b> the visarga of <span class='dv'>एषः</span> drops before most sounds and becomes ओ before अ: एषोऽन्तर्यामी."
   ]
 }

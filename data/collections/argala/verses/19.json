@@ -1,44 +1,35 @@
 {
   "id": "argala-19",
   "number": "Verse 19",
-  "title": "Praised by Kṛṣṇa",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "title": "Praised by Krishna",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "कृष्णेन संस्तुते देवि",
     "शश्वद्भक्त्या सदाम्बिके।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "kṛṣṇena saṃstute devi",
-    "śaśvad-bhaktyā sadāmbike |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "O Goddess, O Ambikā, ever <b>praised by Kṛṣṇa</b> with constant devotion! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "O Goddess, O Ambika, ever <b>praised by Krishna</b> with constant devotion! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे देवी, हे अंबिका, जिनकी कृष्ण सदा भक्ति से स्तुति करते हैं। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "कृष्णेन",
-      "iast": "kṛṣṇena",
-      "meaning": "by Kṛṣṇa",
+      "meaning": "by Krishna",
       "note": "Instrumental: agent of a passive."
     },
     {
       "sanskrit": "शश्वत्",
-      "iast": "śaśvat",
       "meaning": "constant, eternal",
       "note": ""
     },
     {
       "sanskrit": "सदा",
-      "iast": "sadā",
       "meaning": "always",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Passive with instrumental:</b> <span class='dv'>कृष्णेन संस्तुते</span> 'praised by Kṛṣṇa', like सुकेश्या प्राप्तः in the necklace verse.",
+    "<b>Passive with instrumental:</b> <span class='dv'>कृष्णेन संस्तुते</span> 'praised by Krishna', like सुकेश्या प्राप्तः in the necklace verse.",
     "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

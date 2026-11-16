@@ -2,104 +2,85 @@
   "id": "tandava-7",
   "number": "Verse 7",
   "title": "The Three-eyed Artist",
-  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "करालभालपट्टिकाधगद्धगद्धगज्ज्वल-",
     "द्धनञ्जयाहुतीकृतप्रचण्डपञ्चसायके।",
     "धराधरेन्द्रनन्दिनीकुचाग्रचित्रपत्रक-",
     "प्रकल्पनैकशिल्पिनि त्रिलोचने रतिर्मम॥"
   ],
-  "iast": [
-    "karāla-bhāla-paṭṭikā-dhagad-dhagad-dhagaj-jvalad-",
-    "dhanañjayāhutī-kṛta-pracaṇḍa-pañca-sāyake |",
-    "dharādharendra-nandinī-kucāgra-citra-patraka-",
-    "prakalpanaika-śilpini trilocane ratir mama ||"
-  ],
-  "translation": "On the terrible surface of his forehead a fire blazes <i>dhagad dhagad</i>, and into it he offered the mighty <b>five-arrowed Kāma as an oblation</b>. He is the <b>one true artist</b> who paints decorative designs on the body of Parvati, daughter of the king of mountains. My love is for the <b>three-eyed one</b>.",
+  "translation": "On the terrible surface of his forehead a fire blazes <i>dhagad dhagad</i>, and into it he offered the mighty <b>five-arrowed Kama as an oblation</b>. He is the <b>one true artist</b> who paints decorative designs on the body of Parvati, daughter of the king of mountains. My love is for the <b>three-eyed one</b>.",
   "translation_hi": "जिनके विकराल ललाट पर धगद् धगद् करती अग्नि में प्रचंड कामदेव की आहुति दी गई, और जो पर्वतराज पुत्री पार्वती के अंगों पर चित्र पत्रावली रचने वाले एकमात्र कलाकार हैं, उन त्रिनेत्र शिव में मेरा प्रेम हो।",
   "words": [
     {
       "sanskrit": "कराल",
-      "iast": "karāla",
       "meaning": "terrible, fearsome",
       "note": "Hindi विकराल."
     },
     {
       "sanskrit": "भालपट्टिका",
-      "iast": "bhāla-paṭṭikā",
       "meaning": "surface of the forehead",
-      "note": "bhāla = forehead."
+      "note": "bhala = forehead."
     },
     {
       "sanskrit": "ज्वलत्",
-      "iast": "jvalat",
       "meaning": "blazing",
       "note": ""
     },
     {
       "sanskrit": "आहुतीकृत",
-      "iast": "āhutī-kṛta",
       "meaning": "made into an offering",
-      "note": "āhuti = oblation poured into the yajña fire."
+      "note": "ahuti = oblation poured into the yajna fire."
     },
     {
       "sanskrit": "प्रचण्डपञ्चसायके",
-      "iast": "pracaṇḍa-pañca-sāyake",
       "meaning": "the mighty five-arrowed one",
       "note": "Locative."
     },
     {
       "sanskrit": "नन्दिनी",
-      "iast": "nandinī",
       "meaning": "daughter",
       "note": ""
     },
     {
       "sanskrit": "कुचाग्र",
-      "iast": "kucāgra",
       "meaning": "bosom",
       "note": ""
     },
     {
       "sanskrit": "चित्रपत्रक",
-      "iast": "citra-patraka",
       "meaning": "decorative leaf designs",
-      "note": "Painted patterns on the body (patra-lekhā)."
+      "note": "Painted patterns on the body (patra-lekha)."
     },
     {
       "sanskrit": "प्रकल्पन",
-      "iast": "prakalpana",
       "meaning": "designing, creating",
       "note": "Hindi कल्पना."
     },
     {
       "sanskrit": "एकशिल्पिनि",
-      "iast": "eka-śilpini",
       "meaning": "in the one (unique) artist",
-      "note": "śilpin = artist, craftsman. Hindi शिल्पी."
+      "note": "shilpin = artist, craftsman. Hindi शिल्पी."
     },
     {
       "sanskrit": "त्रिलोचने",
-      "iast": "trilocane",
       "meaning": "in the three-eyed one",
       "note": "tri (three) + locana (eye)."
     },
     {
       "sanskrit": "रतिः",
-      "iast": "ratiḥ",
       "meaning": "love",
       "note": ""
     },
     {
       "sanskrit": "मम",
-      "iast": "mama",
       "meaning": "my",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>-ī-kṛta 'made into':</b> <span class='dv'>आहुति + कृत → आहुतीकृत</span> 'made into an oblation'. Same pattern: भस्मीकृत (reduced to ash), स्वीकृत (made one's own, accepted).",
-    "<b>Vṛddhi sandhi:</b> <span class='dv'>प्रकल्पन + एक → प्रकल्पनैक</span>. अ + ए → ऐ.",
+    "<b>-i-krita 'made into':</b> <span class='dv'>आहुति + कृत → आहुतीकृत</span> 'made into an oblation'. Same pattern: भस्मीकृत (reduced to ash), स्वीकृत (made one's own, accepted).",
+    "<b>Vriddhi sandhi:</b> <span class='dv'>प्रकल्पन + एक → प्रकल्पनैक</span>. अ + ए → ऐ.",
     "<b>Visarga to r:</b> <span class='dv'>रतिः + मम → रतिर्मम</span>, like शम्भोर्हरेः in the Vishnu verse."
   ]
 }

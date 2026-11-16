@@ -3,25 +3,18 @@
   "number": "Verse 8 · Topic",
   "topic": "Pythagorean theorem",
   "title": "Title of the Puzzle",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "First line in Devanagari",
     "Second line।",
     "Third line",
     "Fourth line॥"
   ],
-  "iast": [
-    "first line in IAST",
-    "second line |",
-    "third line",
-    "fourth line ||"
-  ],
   "translation": "English translation. Wrap key numbers in <b>bold</b>.",
   "translation_hi": "हिन्दी अनुवाद यहाँ।",
   "words": [
     {
       "sanskrit": "शब्द",
-      "iast": "śabda",
       "meaning": "word",
       "note": "Grammar note shown when the card is tapped."
     }

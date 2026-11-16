@@ -2,145 +2,119 @@
   "id": "tandava-1",
   "number": "Verse 1",
   "title": "The Dance Begins",
-  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "जटाटवीगलज्जलप्रवाहपावितस्थले",
     "गलेऽवलम्ब्य लम्बितां भुजङ्गतुङ्गमालिकाम्।",
     "डमड्डमड्डमड्डमन्निनादवड्डमर्वयं",
     "चकार चण्डताण्डवं तनोतु नः शिवः शिवम्॥"
   ],
-  "iast": [
-    "jaṭāṭavī-galaj-jala-pravāha-pāvita-sthale",
-    "gale 'valambya lambitāṃ bhujaṅga-tuṅga-mālikām |",
-    "ḍamaḍ-ḍamaḍ-ḍamaḍ-ḍaman-ninādavaḍ-ḍamarvayaṃ",
-    "cakāra caṇḍa-tāṇḍavaṃ tanotu naḥ śivaḥ śivam ||"
-  ],
-  "translation": "His neck is made holy by the streams of water flowing from the <b>forest of his matted locks</b>. On it hangs a long garland of mighty <b>serpents</b>. His <b>ḍamaru</b> sounds <i>ḍamaḍ ḍamaḍ ḍamaḍ ḍamaḍ</i>, and Shiva dances the fierce <b>Tāṇḍava</b>. May that Shiva spread auspiciousness upon us.",
+  "translation": "His neck is made holy by the streams of water flowing from the <b>forest of his matted locks</b>. On it hangs a long garland of mighty <b>serpents</b>. His <b>damaru</b> sounds <i>damad damad damad damad</i>, and Shiva dances the fierce <b>Tandava</b>. May that Shiva spread auspiciousness upon us.",
   "translation_hi": "जिनकी जटा रूपी वन से बहती जलधारा से पवित्र हुए कंठ में सर्पों की लंबी माला लटक रही है, और जिनका डमरू डमड् डमड् डमड् डमड् की ध्वनि कर रहा है, उन शिव ने प्रचंड तांडव किया। वे शिव हमारा कल्याण करें।",
   "words": [
     {
       "sanskrit": "जटाटवी",
-      "iast": "jaṭāṭavī",
       "meaning": "forest of matted locks",
-      "note": "jaṭā (matted hair) + aṭavī (forest). A + अ → आ."
+      "note": "jata (matted hair) + atavi (forest). A + अ → आ."
     },
     {
       "sanskrit": "गलत्",
-      "iast": "galat",
       "meaning": "flowing, dripping",
       "note": "Present participle of √gal. Before ज it becomes गलज्."
     },
     {
       "sanskrit": "जल",
-      "iast": "jala",
       "meaning": "water",
       "note": "Same in Hindi."
     },
     {
       "sanskrit": "प्रवाह",
-      "iast": "pravāha",
       "meaning": "stream, flow",
       "note": "pra + √vah (to carry). Hindi प्रवाह."
     },
     {
       "sanskrit": "पावितस्थले",
-      "iast": "pāvita-sthale",
       "meaning": "on the place made holy",
-      "note": "pāvita = purified (causative of √pū); sthala = place. Locative."
+      "note": "pavita = purified (causative of √pu); sthala = place. Locative."
     },
     {
       "sanskrit": "गले",
-      "iast": "gale",
       "meaning": "on the neck",
       "note": "Locative of gala. Hindi गला."
     },
     {
       "sanskrit": "अवलम्ब्य",
-      "iast": "avalambya",
       "meaning": "having hung",
       "note": "Gerund of ava + √lamb. With a prefix the gerund ends in -य, not -त्वा."
     },
     {
       "sanskrit": "लम्बिताम्",
-      "iast": "lambitām",
       "meaning": "long, hanging",
-      "note": "Agrees with mālikām (feminine accusative)."
+      "note": "Agrees with malikam (feminine accusative)."
     },
     {
       "sanskrit": "भुजङ्ग",
-      "iast": "bhujaṅga",
       "meaning": "serpent",
       "note": "'Moving crookedly': bhuja (bend) + √gam (go)."
     },
     {
       "sanskrit": "तुङ्ग",
-      "iast": "tuṅga",
       "meaning": "lofty, mighty",
       "note": ""
     },
     {
       "sanskrit": "मालिकाम्",
-      "iast": "mālikām",
       "meaning": "garland",
-      "note": "Accusative of mālikā. Hindi माला."
+      "note": "Accusative of malika. Hindi माला."
     },
     {
       "sanskrit": "डमड्डमड्",
-      "iast": "ḍamaḍ-ḍamaḍ",
       "meaning": "the sound of the drum",
       "note": "Onomatopoeia: the words sound like what they mean."
     },
     {
       "sanskrit": "निनादवत्",
-      "iast": "ninādavat",
       "meaning": "resounding",
-      "note": "ninād (loud sound) + -vat (having)."
+      "note": "ninad (loud sound) + -vat (having)."
     },
     {
       "sanskrit": "डमर्वयम्",
-      "iast": "ḍamarvayam",
-      "meaning": "this ḍamaru",
-      "note": "ḍamaru + ayam: उ before अ becomes व्."
+      "meaning": "this damaru",
+      "note": "damaru + ayam: उ before अ becomes व्."
     },
     {
       "sanskrit": "चकार",
-      "iast": "cakāra",
       "meaning": "did, performed",
-      "note": "Perfect tense of √kṛ (to do), used for story-past."
+      "note": "Perfect tense of √kri (to do), used for story-past."
     },
     {
       "sanskrit": "चण्डताण्डवम्",
-      "iast": "caṇḍa-tāṇḍavam",
-      "meaning": "the fierce Tāṇḍava",
-      "note": "caṇḍa = fierce (Hindi प्रचंड)."
+      "meaning": "the fierce Tandava",
+      "note": "chanda = fierce (Hindi प्रचंड)."
     },
     {
       "sanskrit": "तनोतु",
-      "iast": "tanotu",
       "meaning": "may he spread",
       "note": "Imperative of √tan (to stretch, spread)."
     },
     {
       "sanskrit": "नः",
-      "iast": "naḥ",
       "meaning": "for us",
       "note": ""
     },
     {
       "sanskrit": "शिवः",
-      "iast": "śivaḥ",
       "meaning": "Shiva",
       "note": "Nominative: the one who acts."
     },
     {
       "sanskrit": "शिवम्",
-      "iast": "śivam",
       "meaning": "auspiciousness, welfare",
       "note": "Neuter accusative: the thing he spreads."
     }
   ],
   "grammar": [
-    "<b>Wordplay:</b> <span class='dv'>शिवः शिवम्</span>. The same word is the god's name (masculine, subject) and 'auspiciousness' (neuter, object): 'May Shiva spread śivam.'",
+    "<b>Wordplay:</b> <span class='dv'>शिवः शिवम्</span>. The same word is the god's name (masculine, subject) and 'auspiciousness' (neuter, object): 'May Shiva spread shivam.'",
     "<b>Gerund with a prefix:</b> <span class='dv'>अव + लम्ब् → अवलम्ब्य</span> 'having hung'. Without a prefix you get -त्वा (दृष्ट्वा); with a prefix, -य.",
     "<b>Avagraha:</b> <span class='dv'>गले + अवलम्ब्य → गलेऽवलम्ब्य</span>, the same rule as कान्तेऽलि in the bee verse.",
     "<b>Perfect tense:</b> <span class='dv'>चकार</span> 'he did' is the tense of stories and epics, for events the speaker did not witness."

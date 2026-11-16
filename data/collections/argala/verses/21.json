@@ -2,43 +2,34 @@
   "id": "argala-21",
   "number": "Verse 21",
   "title": "Worshipped by Indra",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "इन्द्राणीपतिसद्भाव-",
     "पूजिते परमेश्वरि।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "indrāṇī-pati-sadbhāva-",
-    "pūjite parameśvari |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "O Supreme Goddess, worshipped with <b>sincere feeling by Indra</b>, the husband of Indrāṇī! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "O Supreme Goddess, worshipped with <b>sincere feeling by Indra</b>, the husband of Indrani! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे परमेश्वरी, इंद्राणी के पति इंद्र द्वारा सच्चे भाव से पूजित। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "इन्द्राणीपति",
-      "iast": "indrāṇī-pati",
-      "meaning": "Indra, husband of Indrāṇī",
+      "meaning": "Indra, husband of Indrani",
       "note": ""
     },
     {
       "sanskrit": "सद्भाव",
-      "iast": "sadbhāva",
       "meaning": "sincere feeling",
-      "note": "sat + bhāva."
+      "note": "sat + bhava."
     },
     {
       "sanskrit": "पूजिते",
-      "iast": "pūjite",
       "meaning": "O worshipped one",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Sadbhāva:</b> sat (true) + bhāva (feeling); t + bh → d + bh. Hindi सद्भाव.",
+    "<b>Sadbhava:</b> sat (true) + bhava (feeling); t + bh → d + bh. Hindi सद्भाव.",
     "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

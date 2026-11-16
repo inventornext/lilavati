@@ -15,7 +15,7 @@ const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
 };
-const prefs = { script: store.get('lp-script', 'deva') === 'iast' ? 'both' : store.get('lp-script', 'deva'), lang: store.get('lp-lang', 'en'), motion: store.get('lp-motion', true) };
+const prefs = { lang: store.get('lp-lang', 'en'), motion: store.get('lp-motion', true) };
 const solved = new Set(store.get('lp-solved', []));
 const known = new Set(store.get('lp-known', []));
 
@@ -48,7 +48,7 @@ async function loadAll() {
 
 // every verse on the site, with where it belongs
 function everyVerse() {
-  const out = DATA.verses.map(v => ({ v, where: 'Līlāvatī', href: `#${v.id}` }));
+  const out = DATA.verses.map(v => ({ v, where: 'Lilavati', href: `#${v.id}` }));
   DATA.collections.forEach(c => c.verses.forEach(v => out.push({ v, where: c.meta.title, href: `#${v.id}` })));
   return out;
 }
@@ -101,13 +101,13 @@ function viewHome() {
     <a class="door bhakti" href="#bhakti">
       <div class="door-deva">भक्ति</div>
       <h2>Bhakti</h2>
-      <p>Stotras to Shiva and the Goddess: Śiva Tāṇḍava, Rudrāṣṭakam, Nirvāṇa Ṣaṭkam, Liṅgāṣṭakam, the Durgā Saptaśatī and the Māṇḍūkya Upaniṣad.</p>
+      <p>Stotras to Shiva and the Goddess: Shiva Tandava, Rudrashtakam, Nirvana Shatkam, Lingashtakam, the Durga Saptashati and the Mandukya Upanishad.</p>
       <span class="door-count">${stotras.length} texts · ${bhaktiVerses} verses →</span>
     </a>
     <a class="door ganita" href="#ganita">
       <div class="door-deva">गणित</div>
-      <h2>Gaṇita</h2>
-      <p>Bhaskaracharya's Līlāvatī puzzles in verse, and Āryabhaṭa's astronomy: π, the turning Earth, the light of the Moon.</p>
+      <h2>Ganita</h2>
+      <p>Bhaskaracharya's Lilavati puzzles in verse, and Aryabhata's astronomy: π, the turning Earth, the light of the Moon.</p>
       <span class="door-count">${ganitaVerses} verses with puzzles →</span>
     </a>
   </div>
@@ -120,12 +120,12 @@ function viewHome() {
 function viewBhakti() {
   const st = DATA.collections.filter(c => c.meta.kind === 'stotra');
   const groups = [...new Set(st.map(c => c.meta.group || 'Stotras'))];
-  const intro = { 'Upaniṣad': 'Twelve prose mantras on Om and the four states of the Self, the root of Advaita Vedānta.', 'Shiva': 'Hymns to Shiva, from Rāvaṇa’s thundering Tāṇḍava to Śaṅkara’s meditation on the Self.', 'Durgā Saptaśatī': 'The most-recited parts of the Durgā Saptaśatī (Devī Māhātmya). More chapters will be added over time.' };
+  const intro = { 'Upanishad': 'Twelve prose mantras on Om and the four states of the Self, the root of Advaita Vedanta.', 'Shiva': 'Hymns to Shiva, from Ravana’s thundering Tandava to Shankara’s meditation on the Self.', 'Durga Saptashati': 'The most-recited parts of the Durga Saptashati (Devi Mahatmya). More chapters will be added over time.' };
   return `
-  <div class="page-head"><div class="page-deva">भक्ति</div><h1>Bhakti · Stotras and Upaniṣad</h1>
+  <div class="page-head"><div class="page-deva">भक्ति</div><h1>Bhakti · Stotras and Upanishad</h1>
   <p class="section-sub">Each stotra has a full-text page for recitation and a page for every verse with meanings, grammar, meter and translations.</p></div>
   ${groups.map(g => `
-    <h2 class="section-title">${({ 'Shiva': 'शिव · Shiva', 'Durgā Saptaśatī': 'दुर्गासप्तशती · Durgā Saptaśatī', 'Upaniṣad': 'उपनिषद् · Upaniṣad' })[g] || g}</h2>
+    <h2 class="section-title">${({ 'Shiva': 'शिव · Shiva', 'Durga Saptashati': 'दुर्गासप्तशती · Durga Saptashati', 'Upanishad': 'उपनिषद् · Upanishad' })[g] || g}</h2>
     <p class="section-sub">${intro[g] || ''}</p>
     <div class="grid">${st.filter(c => (c.meta.group || 'Stotras') === g).map(c => `<a class="card feature" href="#${c.meta.id}"><div class="big">${c.meta.title_deva}</div><h3>${c.meta.title}</h3>
       <p class="note">${c.meta.intro.replace(/<[^>]+>/g, '').slice(0, 140)}…</p><span class="tag">${c.verses.length} verses · ${c.meta.author}</span></a>`).join('')}</div>`).join('')}`;
@@ -134,9 +134,9 @@ function viewGanita() {
   const pct = Math.round(100 * DATA.verses.filter(v => solved.has(v.id)).length / DATA.verses.length);
   const arya = coll('aryabhatiya');
   return `
-  <div class="page-head"><div class="page-deva">गणित</div><h1>Gaṇita · Mathematics in verse</h1>
+  <div class="page-head"><div class="page-deva">गणित</div><h1>Ganita · Mathematics in verse</h1>
   <p class="section-sub">Each verse is a puzzle: read the Sanskrit, solve it, then open the worked solution and its Python check. Your progress stays on this device.</p></div>
-  <h2 class="section-title">लीलावती · Līlāvatī (Bhaskaracharya, 1150 CE)</h2>
+  <h2 class="section-title">लीलावती · Lilavati (Bhaskaracharya, 1150 CE)</h2>
   <div class="progress" aria-label="Progress"><div style="width:${pct}%"></div></div>
   <div class="grid">
     ${DATA.verses.map((v, i) => `
@@ -149,7 +149,7 @@ function viewGanita() {
       </a>`).join('')}
   </div>
   ${arya ? `
-  <h2 class="section-title">आर्यभटीयम् · Āryabhaṭīya (499 CE)</h2>
+  <h2 class="section-title">आर्यभटीयम् · Aryabhatiya (499 CE)</h2>
   <p class="section-sub">${arya.meta.intro} <a href="#aryabhatiya">Read all three verses →</a></p>
   <div class="grid">${arya.verses.map(v => `
     <a class="card" href="#${v.id}">${solved.has(v.id) ? '<span class="done">✓</span>' : ''}<div class="kicker">${v.number}</div><h3>${v.title}</h3><div class="line1">${v.devanagari[0]}</div><span class="tag">${v.topic || ''}</span></a>`).join('')}</div>` : ''}`;
@@ -189,21 +189,21 @@ function meterBlock(v) {
     const syl = Meter.scan(line);
     const pat = syl.map(s => s.weight).join('');
     const morae = Meter.morae(pat);
-    // two light syllables may stand for one heavy: same mātrās, not an error
+    // two light syllables may stand for one heavy: same matras, not an error
     const matraEqual = ref && pat.length !== ref.length && Meter.moraOptions(pat).some(m => Meter.moraOptions(ref).includes(m));
     const chips = syl.map((s, i) => {
       const off = ref && !matraEqual && i < ref.length - 1 && ref[i] !== s.weight ? ' off' : '';
       const gap = !info || info.pattern ? (i > 0 && i % 3 === 0 ? ' gap' : '') : '';
       return `<span class="syl ${s.weight}${gap}${off}"><span class="mk">${s.weight === 'G' ? '—' : '◡'}</span><span class="tx">${s.text}</span></span>`;
     }).join('');
-    const extra = matraEqual ? ` · <b>mātrā-equal variant</b> (◡◡ = —, still ${refMorae} mātrās)` : '';
-    const ganas = info && info.pattern ? ` · gaṇas: ${Meter.ganas(pat).join(' ')}` : '';
-    return `<div class="mline">${chips}</div><div class="ganas">${syl.length} syllables · ${morae} mātrās${ganas}${extra}</div>`;
+    const extra = matraEqual ? ` · <b>matra-equal variant</b> (◡◡ = —, still ${refMorae} matras)` : '';
+    const ganas = info && info.pattern ? ` · ganas: ${Meter.ganas(pat).join(' ')}` : '';
+    return `<div class="mline">${chips}</div><div class="ganas">${syl.length} syllables · ${morae} matras${ganas}${extra}</div>`;
   }).join('');
   return `
   <div class="block">
     <h2>Meter scanner <span class="meter-result">${info ? `✓ ${info.name}` : 'Meter not recognised'}</span></h2>
-    <p class="legend"><b>—</b> guru (heavy, 2 mātrās): a long vowel, or a vowel followed by ं ः or two consonants. <b>◡</b> laghu (light, 1 mātrā): a short vowel followed by at most one consonant. The last syllable of a line may be either. <a href="#grammar">More in the grammar guide →</a></p>
+    <p class="legend"><b>—</b> guru (heavy, 2 matras): a long vowel, or a vowel followed by ं ः or two consonants. <b>◡</b> laghu (light, 1 matra): a short vowel followed by at most one consonant. The last syllable of a line may be either. <a href="#grammar">More in the grammar guide →</a></p>
     ${rows}
   </div>`;
 }
@@ -217,7 +217,7 @@ function translationHTML(v) {
 // ---------- one verse ----------
 function viewVerse(v, idx, list, crumb, end) {
   const prev = list[idx - 1], next = list[idx + 1];
-  const lines = v.devanagari.map((d, i) => `<div class="l">${d}</div><div class="t">${v.iast[i] || ''}</div>`).join('');
+  const lines = v.devanagari.map((d, i) => `<div class="l">${d}</div>`).join('');
   return `
   <p class="crumbs"><a href="${crumb.href}">${crumb.label}</a> › ${v.title}</p>
   <div class="vhead">
@@ -226,14 +226,11 @@ function viewVerse(v, idx, list, crumb, end) {
     <span class="pill">${v.meter}</span>${v.topic ? `<span class="pill">${v.topic}</span>` : ''}
   </div>
   <div class="toolbar">
-    <div class="seg" role="group" aria-label="Script">
-      <button data-script="deva">देवनागरी</button><button data-script="both">+ Roman</button>
-    </div>
     <button class="btn" id="listen">${v.audio ? '🔊 Listen' : '🔊 Listen (machine voice)'}</button>
     ${shareButton()}
     <span class="note" id="listen-note"></span>
   </div>
-  <div class="shloka mode-${prefs.script}">${shlokaMandala()}${lines}</div>
+  <div class="shloka">${shlokaMandala()}${lines}</div>
 
   ${meterBlock(v)}
 
@@ -241,7 +238,7 @@ function viewVerse(v, idx, list, crumb, end) {
     <h2>Word by word <button class="btn ${document.body.classList.contains('selftest') ? 'on' : ''}" id="selftest">Self-test</button></h2>
     <p class="tip">Tap a card for its grammar note. Self-test hides the meanings; tap a card to reveal it.</p>
     <div class="words">${v.words.map(w => `
-      <div class="w" tabindex="0"><div class="d">${w.sanskrit}</div><div class="i iast">${w.iast}</div><div class="m">${w.meaning}</div><div class="n">${w.note || ''}</div></div>`).join('')}
+      <div class="w" tabindex="0"><div class="d">${w.sanskrit}</div><div class="m">${w.meaning}</div><div class="n">${w.note || ''}</div></div>`).join('')}
     </div>
   </div>
 
@@ -279,20 +276,7 @@ function viewVerse(v, idx, list, crumb, end) {
   </nav>`;
 }
 
-function bindScript(cls = 'shloka') {
-  const setScript = m => {
-    const changed = (m === 'both') !== (prefs.script === 'both');
-    prefs.script = m; store.set('lp-script', m);
-    if (changed) { applyRoman(); render(); return; }
-    $$('[data-script]').forEach(b => b.classList.toggle('on', b.dataset.script === m));
-    $('.shloka').className = `${cls} mode-${m}`;
-  };
-  $$('[data-script]').forEach(b => b.onclick = () => setScript(b.dataset.script));
-  setScript(prefs.script);
-}
-
 function bindVerse(v) {
-  bindScript();
   const setLang = l => {
     prefs.lang = l; store.set('lp-lang', l);
     $$('[data-lang]').forEach(b => b.classList.toggle('on', b.dataset.lang === l));
@@ -328,7 +312,6 @@ function shareButton() {
 function bindShare(id, title, line) {
   const btn = $('#share'); if (!btn) return;
   const url = shareUrl(id);
-  if (prefs.script !== 'both') title = plain(title);
   const text = `${line}\n${title} · Shlokashala\n${url}`;
   const menu = $('#share-menu');
   $('#share-wa').href = `https://wa.me/?text=${encodeURIComponent(text)}`;
@@ -407,24 +390,6 @@ function bindListen(v) {
   };
 }
 
-// ---------- Devanagari first: plain spellings unless Roman (IAST) is switched on ----------
-const PLAIN = { 'ā': 'a', 'ī': 'i', 'ū': 'u', 'ṛ': 'ri', 'ṝ': 'ri', 'ḷ': 'li', 'ṅ': 'n', 'ñ': 'n', 'ṭ': 't', 'ḍ': 'd', 'ṇ': 'n', 'ś': 'sh', 'ṣ': 'sh', 'ṃ': 'm', 'ḥ': 'h',
-  'Ā': 'A', 'Ī': 'I', 'Ū': 'U', 'Ṛ': 'Ri', 'Ś': 'Sh', 'Ṣ': 'Sh', 'Ṭ': 'T', 'Ḍ': 'D', 'Ṇ': 'N', 'Ṅ': 'N', 'Ñ': 'N', 'Ṃ': 'M', 'Ḥ': 'H' };
-const PLAIN_RE = /[āīūṛṝḷṅñṭḍṇśṣṃḥĀĪŪṚŚṢṬḌṆṄÑṂḤ]/g;
-// in a Sanskrit word (one that has a diacritic), c is च: write it "ch"
-const SKT_WORD = /[A-Za-zāīūṛṝḷṅñṭḍṇśṣṃḥĀĪŪṚŚṢṬḌṆṄÑṂḤ'-]*[āīūṛṝḷṅñṭḍṇśṣṃḥĀĪŪṚŚṢṬḌṆṄÑṂḤ][A-Za-zāīūṛṝḷṅñṭḍṇśṣṃḥĀĪŪṚŚṢṬḌṆṄÑṂḤ'-]*/g;
-const plain = t => t.replace(SKT_WORD, w => w.replace(/c(?!h)/g, 'ch').replace(/C(?!h)/g, 'Ch').replace(PLAIN_RE, ch => PLAIN[ch]));
-function simplify(root) {
-  if (prefs.script === 'both' || !root) return;
-  const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
-    acceptNode: n => n.parentElement && n.parentElement.closest('.iast, .t, script, style, pre, code') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT
-  });
-  let n; while ((n = w.nextNode())) { if (/[āīūṛṝḷṅñṭḍṇśṣṃḥĀĪŪṚŚṢṬḌṆṄÑṂḤ]/.test(n.nodeValue)) n.nodeValue = plain(n.nodeValue); }
-}
-function applyRoman() { document.body.classList.toggle('roman', prefs.script === 'both'); }
-new MutationObserver(ms => { if (prefs.script === 'both') return; ms.forEach(m => m.addedNodes.forEach(x => simplify(x.nodeType === 1 ? x : x.parentElement))); })
-  .observe(document.getElementById('app'), { childList: true, subtree: true });
-
 // ---------- devotional animation ----------
 function shlokaMandala() {
   let p = '';
@@ -455,15 +420,15 @@ function applyMotion() {
   const t = $('#motion-toggle'); if (t) t.textContent = `Animations: ${prefs.motion ? 'on' : 'off'}`;
 }
 
-// ---------- collections (stotras, Āryabhaṭīya) ----------
+// ---------- collections (stotras, Aryabhatiya) ----------
 function viewCollection(c) {
   const m = c.meta;
   const body = c.verses.map((v, i) => `
     <div class="stotra-verse">
-      ${v.devanagari.map((d, j) => `<div class="l">${d}</div><div class="t">${v.iast[j] || ''}</div>`).join('')}
+      ${v.devanagari.map((d, j) => `<div class="l">${d}</div>`).join('')}
       <div class="vfoot"><span class="dv">॥ ${toDeva(i + 1)} ॥</span> <a href="#${v.id}">${v.title} · meaning →</a></div>
     </div>`).join('');
-  const crumb = m.kind === 'stotra' ? '<a href="#bhakti">Bhakti</a>' : '<a href="#ganita">Gaṇita</a>';
+  const crumb = m.kind === 'stotra' ? '<a href="#bhakti">Bhakti</a>' : '<a href="#ganita">Ganita</a>';
   return `
   <p class="crumbs">${crumb} › ${m.title}</p>
   <div class="vhead">
@@ -474,11 +439,10 @@ function viewCollection(c) {
   <p>${m.intro}</p>
   <p class="note">${m.note || ''}</p>
   <div class="toolbar">
-    <div class="seg" role="group" aria-label="Script"><button data-script="deva">देवनागरी</button><button data-script="both">+ Roman</button></div>
     <a class="btn primary" href="#${c.verses[0].id}">Learn verse by verse →</a>
     ${shareButton()}
   </div>
-  <div class="shloka stotra mode-${prefs.script}">
+  <div class="shloka stotra">
     ${shlokaMandala()}
     ${m.opening ? `<p class="invocation dv" style="color:var(--gold);margin:0 0 16px">${m.opening}</p>` : ''}
     ${body}
@@ -490,9 +454,9 @@ function viewCollection(c) {
 const fc = { deck: 'lilavati', dir: 'sa', hideKnown: true, queue: [] };
 function allCards() {
   const cards = [];
-  DATA.verses.forEach(v => v.words.forEach((w, i) => cards.push({ key: `${v.id}:${i}`, deck: v.id, group: 'lilavati', front: w.sanskrit, sub: w.iast, back: w.meaning, note: w.note, from: v.title })));
-  DATA.collections.forEach(c => c.verses.forEach(v => v.words.forEach((w, i) => cards.push({ key: `${v.id}:${i}`, deck: v.id, group: c.meta.id, front: w.sanskrit, sub: w.iast, back: w.meaning, note: w.note, from: `${c.meta.title} · ${v.title}` }))));
-  DATA.shabda.terms.forEach((t, i) => cards.push({ key: `shabda:${i}`, deck: 'shabda', group: 'shabda', front: t.sanskrit, sub: t.iast, back: t.english, note: t.root, from: 'Vidyut Shabdakosh' }));
+  DATA.verses.forEach(v => v.words.forEach((w, i) => cards.push({ key: `${v.id}:${i}`, deck: v.id, group: 'lilavati', front: w.sanskrit, back: w.meaning, note: w.note, from: v.title })));
+  DATA.collections.forEach(c => c.verses.forEach(v => v.words.forEach((w, i) => cards.push({ key: `${v.id}:${i}`, deck: v.id, group: c.meta.id, front: w.sanskrit, back: w.meaning, note: w.note, from: `${c.meta.title} · ${v.title}` }))));
+  DATA.shabda.terms.forEach((t, i) => cards.push({ key: `shabda:${i}`, deck: 'shabda', group: 'shabda', front: t.sanskrit, back: t.english, note: t.root, from: 'Vidyut Shabdakosh' }));
   return cards;
 }
 const inDeck = c => c.group === fc.deck || c.deck === fc.deck || fc.deck === 'everything';
@@ -508,7 +472,7 @@ function viewFlashcards() {
   <div class="fc-controls">
     <select id="fc-deck" aria-label="Deck">
       <option value="everything">Everything</option>
-      <optgroup label="Līlāvatī"><option value="lilavati">All Līlāvatī words</option>
+      <optgroup label="Lilavati"><option value="lilavati">All Lilavati words</option>
       ${DATA.verses.map(v => `<option value="${v.id}">${v.title}</option>`).join('')}</optgroup>
       <optgroup label="Stotras and astronomy">${DATA.collections.map(c => `<option value="${c.meta.id}">${c.meta.title}</option>`).join('')}</optgroup>
       <optgroup label="Science"><option value="shabda">Vidyut Shabdakosh</option></optgroup>
@@ -535,7 +499,7 @@ function drawCard() {
     if (again) again.onclick = e => { e.stopPropagation(); fc.hideKnown = false; $('#fc-hide').checked = false; buildQueue(); drawCard(); };
     return;
   }
-  const sa = `<div class="big">${card.front}</div><div class="small iast"><i>${card.sub}</i></div>`;
+  const sa = `<div class="big">${card.front}</div>`;
   const en = `<div class="en-big">${card.back}</div>`;
   front.innerHTML = (fc.dir === 'sa' ? sa : en) + `<div class="from">tap to flip</div>`;
   back.innerHTML = (fc.dir === 'sa' ? en : sa) + `<div class="small">${card.note || ''}</div><div class="from">from: ${card.from}</div>`;
@@ -563,11 +527,11 @@ function makeQuiz() {
   const qs = [];
   shuffle(pool.slice()).slice(0, 7).forEach((c, n) => {
     const wrong = shuffle(pool.filter(x => x.back !== c.back && x.front !== c.front)).slice(0, 3);
-    if (n % 2 === 0) qs.push({ kind: 'Meaning', prompt: `<div class="qbig dv">${c.front}</div><div class="note iast"><i>${c.sub}</i></div><p>What does this mean?</p>`, options: shuffle([c, ...wrong]).map(x => x.back), answer: c.back, explain: `${c.front} = ${c.back}. From: ${c.from}.` });
-    else qs.push({ kind: 'Sanskrit word', prompt: `<div class="qbig">${c.back}</div><p>Which Sanskrit word means this?</p>`, options: shuffle([c, ...wrong]).map(x => x.front), answer: c.front, dv: true, explain: `${c.back} = ${c.front}${prefs.script === 'both' ? ` (${c.sub})` : ''}. From: ${c.from}.` });
+    if (n % 2 === 0) qs.push({ kind: 'Meaning', prompt: `<div class="qbig dv">${c.front}</div><p>What does this mean?</p>`, options: shuffle([c, ...wrong]).map(x => x.back), answer: c.back, explain: `${c.front} = ${c.back}. From: ${c.from}.` });
+    else qs.push({ kind: 'Sanskrit word', prompt: `<div class="qbig">${c.back}</div><p>Which Sanskrit word means this?</p>`, options: shuffle([c, ...wrong]).map(x => x.front), answer: c.front, dv: true, explain: `${c.back} = ${c.front}. From: ${c.from}.` });
   });
   // meter questions
-  const verses = everyVerse().map(x => ({ ...x, m: (Meter.identify(x.v.devanagari) || {}).name })).filter(x => x.m && !x.m.startsWith('Mātrā'));
+  const verses = everyVerse().map(x => ({ ...x, m: (Meter.identify(x.v.devanagari) || {}).name })).filter(x => x.m && !x.m.startsWith('Matra'));
   const meterNames = [...new Set(verses.map(x => x.m))];
   shuffle(verses).slice(0, 3).forEach(x => {
     const opts = shuffle([x.m, ...shuffle(meterNames.filter(n => n !== x.m)).slice(0, 3)]);
@@ -627,10 +591,10 @@ function viewShabda() {
   return `
   <h1 class="section-title">विद्युत् शब्दकोश · Vidyut Shabdakosh</h1>
   <p class="section-sub">${DATA.shabda.intro}</p>
-  <input class="search" id="q" placeholder="Search: current, धारा, √vṛt…" aria-label="Search terms">
+  <input class="search" id="q" placeholder="Search: current, धारा, √वृत्…" aria-label="Search terms">
   <div class="grid" id="terms">${DATA.shabda.terms.map(t => `
-    <div class="card term" data-s="${esc((t.sanskrit + ' ' + t.iast + ' ' + t.english + ' ' + t.root).toLowerCase())}">
-      <div class="big">${t.sanskrit}</div><div class="note iast"><i>${t.iast}</i></div>
+    <div class="card term" data-s="${esc((t.sanskrit + ' ' + t.english + ' ' + t.root).toLowerCase())}">
+      <div class="big">${t.sanskrit}</div>
       <div class="en">${t.english}</div>
       <div class="root">${t.root}</div>
       ${t.link ? `<div class="link">↳ ${t.link}</div>` : ''}
@@ -645,27 +609,27 @@ function viewWords() {
   <p class="section-sub">Maths words from these verses. Many are still used in Hindi and other Indian languages today.</p>
   <div class="block"><table class="vocab">
     <thead><tr><th>Sanskrit</th><th>Meaning in the verses</th><th>Where you see it today</th></tr></thead>
-    <tbody>${DATA.vocab.map(w => `<tr><td><span class="dv">${w.sanskrit}</span><br><i class="note iast">${w.iast}</i></td><td>${w.meaning}</td><td>${w.today}</td></tr>`).join('')}</tbody>
+    <tbody>${DATA.vocab.map(w => `<tr><td><span class="dv">${w.sanskrit}</span></td><td>${w.meaning}</td><td>${w.today}</td></tr>`).join('')}</tbody>
   </table></div>`;
 }
 function viewAbout() {
   return `
   <div class="prose">
     <h1 class="section-title">About Shlokashala</h1>
-    <p><b>Shlokashala</b> (श्लोकशाला, 'school of verses') teaches Sanskrit through two kinds of verse: <b>bhakti</b>, the great stotras to Shiva and the Goddess, and <b>gaṇita</b>, the mathematics and astronomy of Bhaskaracharya and Āryabhaṭa.</p>
-    <p>In 1150 CE, Bhaskaracharya (Bhāskara II) wrote the <i>Līlāvatī</i>, the arithmetic and geometry volume of his <i>Siddhānta Śiromaṇi</i>. Its problems are written as Sanskrit poetry in classical meters, often addressed to a young girl named Lilavati. That makes it a perfect textbook for learning the language and the mathematics together.</p>
+    <p><b>Shlokashala</b> (श्लोकशाला, 'school of verses') teaches Sanskrit through two kinds of verse: <b>bhakti</b>, the great stotras to Shiva and the Goddess, and <b>ganita</b>, the mathematics and astronomy of Bhaskaracharya and Aryabhata.</p>
+    <p>In 1150 CE, Bhaskaracharya (Bhaskara II) wrote the <i>Lilavati</i>, the arithmetic and geometry volume of his <i>Siddhanta Shiromani</i>. Its problems are written as Sanskrit poetry in classical meters, often addressed to a young girl named Lilavati. That makes it a perfect textbook for learning the language and the mathematics together.</p>
     <h2>How to study a verse</h2>
     <p>1. Listen to the verse and read it aloud. 2. Look at the meter scanner and clap the rhythm: long for —, short for ◡. 3. Work out the meaning from the word cards before you read the translation. 4. Solve the puzzle yourself, then open the solution. 5. Revise in Flashcards and the Quiz a day later.</p>
     <h2>About the texts</h2>
-    <p>Verses follow commonly printed texts. Readings and verse numbers differ slightly between editions, so compare with a printed edition when you study. Every verse is checked by the meter scanner; where a hymn bends its meter, the verse notes say so. The peacock problem is Līlāvatī 152, with its rule in verse 151 (Plofker's translation in Katz, ed., <i>The Mathematics of Egypt, Mesopotamia, China, India, and Islam: A Sourcebook</i>, Princeton, 2007).</p>
+    <p>Verses follow commonly printed texts. Readings and verse numbers differ slightly between editions, so compare with a printed edition when you study. Every verse is checked by the meter scanner; where a hymn bends its meter, the verse notes say so. The peacock problem is Lilavati 152, with its rule in verse 151 (Plofker's translation in Katz, ed., <i>The Mathematics of Egypt, Mesopotamia, China, India, and Islam: A Sourcebook</i>, Princeton, 2007).</p>
     <h2>Use it as an app, even offline</h2>
     <p>Shlokashala works without internet once you have opened it. <b>Android (Chrome):</b> tap <i>Install as an app</i> on the home page, or the ⋮ menu → <i>Add to Home screen</i>. <b>iPhone (Safari):</b> tap the Share button → <i>Add to Home Screen</i>. <b>Computer (Chrome or Edge):</b> click the install icon at the right of the address bar.</p>
     <p><button class="btn primary install-app" hidden>📲 Install as an app</button></p>
     <h2>Further reading</h2>
     <p><a href="https://old.maa.org/node/116870">MAA: Mathematical Treasures, Lilavati of Bhaskara</a><br>
-    <a href="https://wolframcloud.com/obj/history-of-mathematics/production/artifacts/lilavati-of-bhaskara-ii">MoMath + Wolfram: Lilāvatī of Bhāskara II</a></p>
+    <a href="https://wolframcloud.com/obj/history-of-mathematics/production/artifacts/lilavati-of-bhaskara-ii">MoMath + Wolfram: Lilavati of Bhaskara II</a></p>
     <h2>Coming next</h2>
-    <p>More chapters of the Durgā Saptaśatī (Kīlakam, Siddha Kuñjikā), the Śiva Mahimnaḥ Stotram, more Līlāvatī verses, and recitations in my own voice.</p>
+    <p>More chapters of the Durga Saptashati (Kilakam, Siddha Kunjika), the Shiva Mahimnah Stotram, more Lilavati verses, and recitations in my own voice.</p>
   </div>`;
 }
 
@@ -678,10 +642,10 @@ function render() {
   const lIdx = DATA.verses.findIndex(v => v.id === id);
   const c = coll(id);
   const owner = DATA.collections.find(x => x.verses.some(v => v.id === id));
-  const T = t => document.title = `${prefs.script === 'both' ? t : plain(t)} · Shlokashala`;
+  const T = t => document.title = `${t} · Shlokashala`;
   if (lIdx >= 0) {
     view = 'ganita'; const v = DATA.verses[lIdx];
-    app.innerHTML = viewVerse(v, lIdx, DATA.verses, { href: '#ganita', label: 'Gaṇita · Līlāvatī' }, { href: '#quiz', label: 'Test yourself in the quiz' });
+    app.innerHTML = viewVerse(v, lIdx, DATA.verses, { href: '#ganita', label: 'Ganita · Lilavati' }, { href: '#quiz', label: 'Test yourself in the quiz' });
     bindVerse(v); T(v.title);
   } else if (owner) {
     const i = owner.verses.findIndex(v => v.id === id), v = owner.verses[i];
@@ -690,9 +654,9 @@ function render() {
     bindVerse(v); T(`${v.title} · ${owner.meta.title}`);
   } else if (c) {
     devotional = c.meta.kind === 'stotra'; view = devotional ? 'bhakti' : 'ganita';
-    app.innerHTML = viewCollection(c); bindScript('shloka stotra'); bindShare(c.meta.id, c.meta.title, c.meta.title_deva); T(c.meta.title);
+    app.innerHTML = viewCollection(c); bindShare(c.meta.id, c.meta.title, c.meta.title_deva); T(c.meta.title);
   } else if (id === 'bhakti' || id === 'stotras') { view = 'bhakti'; devotional = true; app.innerHTML = viewBhakti(); T('Bhakti'); }
-  else if (id === 'ganita') { view = 'ganita'; app.innerHTML = viewGanita(); T('Gaṇita'); }
+  else if (id === 'ganita') { view = 'ganita'; app.innerHTML = viewGanita(); T('Ganita'); }
   else if (id === 'practice') { view = 'practice'; app.innerHTML = viewPractice(); T('Practice'); }
   else if (id === 'learn') { view = 'learn'; app.innerHTML = viewLearn(); T('Learn'); }
   else if (id === 'flashcards') { view = 'practice'; app.innerHTML = viewFlashcards(); bindFlashcards(); T('Flashcards'); }
@@ -722,8 +686,6 @@ function setupTheme() {
 (async function main() {
   setupTheme();
   applyMotion();
-  applyRoman();
-  simplify(document.querySelector('.topbar')); simplify(document.querySelector('footer'));
   $('#motion-toggle').onclick = e => { e.preventDefault(); prefs.motion = !prefs.motion; store.set('lp-motion', prefs.motion); applyMotion(); render(); };
   try {
     await loadAll();

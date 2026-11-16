@@ -8,21 +8,21 @@
 
   const GANA = { LGG: 'ya', GGG: 'ma', GGL: 'ta', GLG: 'ra', LGL: 'ja', GLL: 'bha', LLL: 'na', LLG: 'sa' };
   const METERS = {
-    'Anuṣṭubh': null,
-    'Mālinī': 'LLLLLLGGGLGGLGG',
-    'Pañcacāmara': 'LGLGLGLGLGLGLGLG',
+    'Anushtubh': null,
+    'Malini': 'LLLLLLGGGLGGLGG',
+    'Panchachamara': 'LGLGLGLGLGLGLGLG',
     'Dodhaka': 'GLLGLLGLLGG',
-    'Śārdūlavikrīḍita': 'GGGLLGLGLLLGGGLGGLG',
-    'Mandākrāntā': 'GGGGLLLLLGGLGGLGG',
-    'Vasantatilakā': 'GGLGLLLGLLGLGG',
-    'Śikhariṇī': 'LGGGGGLLLLLGGLLLG',
-    'Sragdharā': 'GGGGLGGLLLLLLGGLGGLGG',
-    'Indravajrā': 'GGLGGLLGLGG',
-    'Upendravajrā': 'LGLGGLLGLGG',
-    'Vaṃśastha': 'LGLGGLLGLGLG',
-    'Bhujaṅgaprayāta': 'LGGLGGLGGLGG',
-    'Pṛthvī': 'LGLLLGLGLLLGLGGLG',
-    'Hariṇī': 'LLLLLGGGGLGLLGLLG'
+    'Shardulavikridita': 'GGGLLGLGLLLGGGLGGLG',
+    'Mandakranta': 'GGGGLLLLLGGLGGLGG',
+    'Vasantatilaka': 'GGLGLLLGLLGLGG',
+    'Shikharini': 'LGGGGGLLLLLGGLLLG',
+    'Sragdhara': 'GGGGLGGLLLLLLGGLGGLGG',
+    'Indravajra': 'GGLGGLLGLGG',
+    'Upendravajra': 'LGLGGLLGLGG',
+    'Vamshastha': 'LGLGGLLGLGLG',
+    'Bhujangaprayata': 'LGGLGGLGGLGG',
+    'Prithvi': 'LGLLLGLGLLLGLGGLG',
+    'Harini': 'LLLLLGGGGLGLLGLLG'
   };
 
   function scan(line) {
@@ -78,9 +78,9 @@
   function identify(lines) {
     const pats = lines.map(l => scan(l).map(s => s.weight).join(''));
     const lens = pats.map(p => p.length);
-    // Āryā: a mātrā meter, written here as two half-verses of 30 and 27 mātrās
+    // Arya: a matra meter, written here as two half-verses of 30 and 27 matras
     if (pats.length === 2 && moraOptions(pats[0]).includes(30) && moraOptions(pats[1]).includes(27))
-      return { name: 'Āryā', pattern: null, matras: [30, 27], matches: 2, total: 2 };
+      return { name: 'Arya', pattern: null, matras: [30, 27], matches: 2, total: 2 };
     for (const [name, ref] of Object.entries(METERS)) {
       if (!ref) continue;
       // the final syllable of a line may be light or heavy (anceps)
@@ -88,10 +88,10 @@
       if (ok >= Math.ceil(pats.length / 2)) return { name, pattern: ref, matches: ok, total: pats.length };
     }
     if (lens.every(n => n === 8) || (lens.length === 2 && lens.every(n => n === 16)))
-      return { name: 'Anuṣṭubh', pattern: null, matches: pats.length, total: pats.length };
-    // lines with the same number of mātrās: a mātrā meter
+      return { name: 'Anushtubh', pattern: null, matches: pats.length, total: pats.length };
+    // lines with the same number of matras: a matra meter
     const m = moraOptions(pats[0]).find(x => pats.every(p => moraOptions(p).includes(x)));
-    if (m) return { name: `Mātrā meter (${m} mātrās per line)`, pattern: null, matches: pats.length, total: pats.length };
+    if (m) return { name: `Matra meter (${m} matras per line)`, pattern: null, matches: pats.length, total: pats.length };
     return null;
   }
 

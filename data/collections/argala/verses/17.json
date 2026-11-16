@@ -2,44 +2,35 @@
   "id": "argala-17",
   "number": "Verse 17",
   "title": "Breaker of Demons' Pride",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "प्रचण्डदैत्यदर्पघ्ने",
     "चण्डिके प्रणताय मे।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "pracaṇḍa-daitya-darpaghne",
-    "caṇḍike praṇatāya me |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "O Caṇḍikā, who <b>breaks the pride of fierce demons</b>, to me who bows before you: <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "O Chandika, who <b>breaks the pride of fierce demons</b>, to me who bows before you: <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे प्रचंड दैत्यों का दर्प नष्ट करने वाली चंडिका, मुझ प्रणत को। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "दैत्य",
-      "iast": "daitya",
       "meaning": "demon",
       "note": ""
     },
     {
       "sanskrit": "दर्पघ्ने",
-      "iast": "darpaghne",
       "meaning": "O breaker of pride",
       "note": "darpa (pride) + ghna (killer, from √han)."
     },
     {
       "sanskrit": "प्रणताय",
-      "iast": "praṇatāya",
       "meaning": "to the one bowing",
       "note": "Dative."
     }
   ],
   "grammar": [
     "<b>-ghna 'killer':</b> from √han, like jahi in the refrain.",
-    "<b>Darpa:</b> the same word as in Liṅgāṣṭakam verse 2, Rāvaṇa's darpa.",
+    "<b>Darpa:</b> the same word as in Lingashtakam verse 2, Ravana's darpa.",
     "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

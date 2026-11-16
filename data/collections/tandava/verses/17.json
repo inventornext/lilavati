@@ -1,128 +1,105 @@
 {
   "id": "tandava-17",
-  "number": "Verse 17 · Phalaśruti",
+  "number": "Verse 17 · Phalashruti",
   "title": "At the End of Puja",
-  "meter": "Meter: Vasantatilakā (14 syllables per line)",
+  "meter": "Meter: Vasantatilaka (14 syllables per line)",
   "devanagari": [
     "पूजावसानसमये दशवक्त्रगीतं",
     "यः शम्भुपूजनपरं पठति प्रदोषे।",
     "तस्य स्थिरां रथगजेन्द्रतुरङ्गयुक्तां",
     "लक्ष्मीं सदैव सुमुखीं प्रददाति शम्भुः॥"
   ],
-  "iast": [
-    "pūjāvasāna-samaye daśavaktra-gītaṃ",
-    "yaḥ śambhu-pūjana-paraṃ paṭhati pradoṣe |",
-    "tasya sthirāṃ ratha-gajendra-turaṅga-yuktāṃ",
-    "lakṣmīṃ sadaiva sumukhīṃ pradadāti śambhuḥ ||"
-  ],
-  "translation": "Whoever recites this hymn, <b>sung by the ten-headed one</b> (Rāvaṇa) and devoted to the worship of Shambhu, at the <b>end of puja in the evening</b> (pradoṣa), to him Shambhu always grants <b>steady, smiling Lakshmi</b>, with chariots, fine elephants and horses.",
+  "translation": "Whoever recites this hymn, <b>sung by the ten-headed one</b> (Ravana) and devoted to the worship of Shambhu, at the <b>end of puja in the evening</b> (pradosha), to him Shambhu always grants <b>steady, smiling Lakshmi</b>, with chariots, fine elephants and horses.",
   "translation_hi": "जो व्यक्ति प्रदोष काल में पूजा के अंत में दशमुख रावण द्वारा गाए गए, शिव पूजा में समर्पित इस स्तोत्र का पाठ करता है, उसे शंभु सदा रथ, गजराज और घोड़ों से युक्त स्थिर और प्रसन्नमुखी लक्ष्मी प्रदान करते हैं।",
   "words": [
     {
       "sanskrit": "पूजावसानसमये",
-      "iast": "pūjāvasāna-samaye",
       "meaning": "at the end of puja",
-      "note": "avasāna = end; samaya = time."
+      "note": "avasana = end; samaya = time."
     },
     {
       "sanskrit": "दशवक्त्रगीतम्",
-      "iast": "daśavaktra-gītam",
       "meaning": "sung by the ten-faced one",
-      "note": "Rāvaṇa, the traditional author."
+      "note": "Ravana, the traditional author."
     },
     {
       "sanskrit": "यः",
-      "iast": "yaḥ",
       "meaning": "whoever",
       "note": ""
     },
     {
       "sanskrit": "शम्भुपूजनपरम्",
-      "iast": "śambhu-pūjana-param",
       "meaning": "devoted to Shambhu's worship",
       "note": ""
     },
     {
       "sanskrit": "पठति",
-      "iast": "paṭhati",
       "meaning": "recites",
       "note": ""
     },
     {
       "sanskrit": "प्रदोषे",
-      "iast": "pradoṣe",
-      "meaning": "at pradoṣa (evening twilight)",
-      "note": "Also the fortnightly Pradoṣa vrata for Shiva."
+      "meaning": "at pradosha (evening twilight)",
+      "note": "Also the fortnightly Pradosha vrata for Shiva."
     },
     {
       "sanskrit": "तस्य",
-      "iast": "tasya",
       "meaning": "to him",
       "note": ""
     },
     {
       "sanskrit": "स्थिराम्",
-      "iast": "sthirām",
       "meaning": "steady",
       "note": "Hindi स्थिर."
     },
     {
       "sanskrit": "रथ",
-      "iast": "ratha",
       "meaning": "chariot",
       "note": ""
     },
     {
       "sanskrit": "गजेन्द्र",
-      "iast": "gajendra",
       "meaning": "king of elephants",
       "note": ""
     },
     {
       "sanskrit": "तुरङ्ग",
-      "iast": "turaṅga",
       "meaning": "horse",
       "note": ""
     },
     {
       "sanskrit": "युक्ताम्",
-      "iast": "yuktām",
       "meaning": "endowed with",
       "note": ""
     },
     {
       "sanskrit": "लक्ष्मीम्",
-      "iast": "lakṣmīm",
       "meaning": "prosperity, Lakshmi",
       "note": ""
     },
     {
       "sanskrit": "सदैव",
-      "iast": "sadaiva",
       "meaning": "always",
-      "note": "sadā + eva. आ + ए → ऐ."
+      "note": "sada + eva. आ + ए → ऐ."
     },
     {
       "sanskrit": "सुमुखीम्",
-      "iast": "sumukhīm",
       "meaning": "with a smiling face",
       "note": ""
     },
     {
       "sanskrit": "प्रददाति",
-      "iast": "pradadāti",
       "meaning": "gives",
-      "note": "pra + √dā, reduplicated: da-dā-ti."
+      "note": "pra + √da, reduplicated: da-da-ti."
     },
     {
       "sanskrit": "शम्भुः",
-      "iast": "śambhuḥ",
       "meaning": "Shambhu",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>A different meter:</b> this verse is in <b>Vasantatilakā</b>, the same meter as the Vishnu verse in the Lilavati. Look at the meter scanner.",
+    "<b>A different meter:</b> this verse is in <b>Vasantatilaka</b>, the same meter as the Vishnu verse in the Lilavati. Look at the meter scanner.",
     "<b>Relative and correlative:</b> <span class='dv'>यः … तस्य</span> 'whoever … to him', exactly like Hindi जो … उसे.",
     "<b>Reduplication:</b> <span class='dv'>ददाति</span> 'gives', like बिभर्तु in verse 4."
   ]

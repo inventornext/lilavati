@@ -2,115 +2,93 @@
   "id": "tandava-14",
   "number": "Verse 14 · Found in some editions",
   "title": "Radiance of His Limbs",
-  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "निलिम्पनाथनागरीकदम्बमौलमल्लिका-",
     "निगुम्फनिर्भरक्षरन्मधूष्णिकामनोहरः।",
     "तनोतु नो मनोमुदं विनोदिनीमहर्निशं",
     "परश्रियः परं पदं तदङ्गजत्विषां चयः॥"
   ],
-  "iast": [
-    "nilimpa-nātha-nāgarī-kadamba-maula-mallikā-",
-    "nigumpha-nirbhara-kṣaran-madhūṣṇikā-manoharaḥ |",
-    "tanotu no mano-mudaṃ vinodinīm aharniśaṃ",
-    "para-śriyaḥ paraṃ padaṃ tad-aṅga-ja-tviṣāṃ cayaḥ ||"
-  ],
   "translation": "Charming with the warm honey dripping from the <b>jasmine garlands</b> woven into the hair of the women of <b>Indra's city</b>, the mass of <b>radiance from Shiva's limbs</b>, the highest abode of supreme beauty, delights our minds <b>day and night</b>.",
   "translation_hi": "देवराज इंद्र की नगरी की सुंदरियों के केशों में गुँथी मल्लिका मालाओं से टपकते मधु से मनोहर, और परम शोभा के परम धाम, शिव के अंगों की कांति का समूह दिन रात हमारे मन को आनंद दे।",
   "words": [
     {
       "sanskrit": "निलिम्पनाथ",
-      "iast": "nilimpa-nātha",
       "meaning": "lord of the gods (Indra)",
       "note": ""
     },
     {
       "sanskrit": "नागरी",
-      "iast": "nāgarī",
       "meaning": "women of the city",
       "note": "Hindi नागरिक, नगर."
     },
     {
       "sanskrit": "मौल",
-      "iast": "maula",
       "meaning": "head, hair",
       "note": "mauli = crown."
     },
     {
       "sanskrit": "मल्लिका",
-      "iast": "mallikā",
       "meaning": "jasmine",
       "note": ""
     },
     {
       "sanskrit": "निगुम्फ",
-      "iast": "nigumpha",
       "meaning": "woven garland",
       "note": ""
     },
     {
       "sanskrit": "निर्भर",
-      "iast": "nirbhara",
       "meaning": "abundant",
       "note": ""
     },
     {
       "sanskrit": "क्षरत्",
-      "iast": "kṣarat",
       "meaning": "dripping",
-      "note": "√kṣar."
+      "note": "√kshar."
     },
     {
       "sanskrit": "मधूष्णिका",
-      "iast": "madhūṣṇikā",
       "meaning": "warm honey",
-      "note": "madhu + uṣṇa (warm). उ + उ → ऊ."
+      "note": "madhu + ushna (warm). उ + उ → ऊ."
     },
     {
       "sanskrit": "मनोहरः",
-      "iast": "manoharaḥ",
       "meaning": "charming",
       "note": "'Mind-stealing': manas + hara."
     },
     {
       "sanskrit": "मनोमुदम्",
-      "iast": "mano-mudam",
       "meaning": "joy of mind",
       "note": ""
     },
     {
       "sanskrit": "विनोदिनीम्",
-      "iast": "vinodinīm",
       "meaning": "playful",
       "note": ""
     },
     {
       "sanskrit": "अहर्निशम्",
-      "iast": "aharniśam",
       "meaning": "day and night",
       "note": "Hindi अहर्निश."
     },
     {
       "sanskrit": "परश्रियः",
-      "iast": "para-śriyaḥ",
       "meaning": "of supreme beauty",
       "note": ""
     },
     {
       "sanskrit": "परं पदम्",
-      "iast": "paraṃ padam",
       "meaning": "the highest abode",
       "note": ""
     },
     {
       "sanskrit": "तदङ्गजत्विषाम्",
-      "iast": "tad-aṅga-ja-tviṣām",
       "meaning": "of the radiance born from his limbs",
-      "note": "tviṣ = radiance."
+      "note": "tvish = radiance."
     },
     {
       "sanskrit": "चयः",
-      "iast": "cayaḥ",
       "meaning": "mass, heap",
       "note": ""
     }

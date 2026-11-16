@@ -2,49 +2,39 @@
   "id": "argala-23",
   "number": "Verse 23",
   "title": "Giver of Boundless Joy",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "देवि भक्तजनोद्दाम-",
     "दत्तानन्दोदयेऽम्बिके।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "devi bhakta-janoddāma-",
-    "dattānandodaye 'mbike |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "O Goddess, O Ambikā, who gives <b>boundless joy</b> to your devotees! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "O Goddess, O Ambika, who gives <b>boundless joy</b> to your devotees! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे देवी, हे अंबिका, भक्तजनों को असीम आनंद देने वाली। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "भक्तजन",
-      "iast": "bhakta-jana",
       "meaning": "devotees",
       "note": ""
     },
     {
       "sanskrit": "उद्दाम",
-      "iast": "uddāma",
       "meaning": "boundless",
       "note": ""
     },
     {
       "sanskrit": "दत्त",
-      "iast": "datta",
       "meaning": "given",
-      "note": "Past participle of √dā."
+      "note": "Past participle of √da."
     },
     {
       "sanskrit": "आनन्दोदये",
-      "iast": "ānandodaye",
       "meaning": "O rising of joy",
-      "note": "ānanda + udaya."
+      "note": "ananda + udaya."
     }
   ],
   "grammar": [
-    "<b>Guṇa sandhi:</b> <span class='dv'>जन + उद्दाम → जनोद्दाम</span>, <span class='dv'>आनन्द + उदय → आनन्दोदय</span>.",
+    "<b>Guna sandhi:</b> <span class='dv'>जन + उद्दाम → जनोद्दाम</span>, <span class='dv'>आनन्द + उदय → आनन्दोदय</span>.",
     "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

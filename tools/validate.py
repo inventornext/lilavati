@@ -12,9 +12,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-REQUIRED = ["id", "number", "title", "meter", "devanagari", "iast", "translation",
+REQUIRED = ["id", "number", "title", "meter", "devanagari", "translation",
             "words", "grammar", "question", "answer", "unit", "solution"]
-WORD_FIELDS = ["sanskrit", "iast", "meaning"]
+WORD_FIELDS = ["sanskrit", "meaning"]
 
 errors, warnings = [], []
 
@@ -44,8 +44,6 @@ for name in manifest["verses"]:
     if v.get("id") in seen_ids:
         errors.append(f"{tag} duplicate id '{v.get('id')}'")
     seen_ids.add(v.get("id"))
-    if len(v.get("devanagari", [])) != len(v.get("iast", [])):
-        warnings.append(f"{tag} devanagari and iast have different line counts")
     for i, w in enumerate(v.get("words", []), 1):
         for f in WORD_FIELDS:
             if not w.get(f):
@@ -69,7 +67,7 @@ for name in manifest["verses"]:
 load(ROOT / "data" / "vocab.json")
 
 # Collections: stotras and the Aryabhatiya (puzzle fields optional)
-COLL_REQUIRED = ["id", "number", "title", "meter", "devanagari", "iast",
+COLL_REQUIRED = ["id", "number", "title", "meter", "devanagari",
                  "translation", "words", "grammar"]
 n_coll = 0
 cindex = load(ROOT / "data" / "collections.json") or {"collections": []}
@@ -89,8 +87,6 @@ for cid in cindex["collections"]:
         if v.get("id") in seen_ids:
             errors.append(f"{tag} duplicate id '{v.get('id')}'")
         seen_ids.add(v.get("id"))
-        if len(v.get("devanagari", [])) != len(v.get("iast", [])):
-            warnings.append(f"{tag} devanagari and iast line counts differ")
         for i, w in enumerate(v.get("words", []), 1):
             for f in WORD_FIELDS:
                 if not w.get(f):
@@ -117,3 +113,5 @@ for e in errors:
 if errors:
     sys.exit(1)
 print(f"OK: {len(manifest['verses'])} Lilavati verses and {n_coll} collection verses checked.")
+
+# the site is Devanagari only: no Roman transliteration fields

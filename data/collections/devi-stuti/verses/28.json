@@ -2,61 +2,49 @@
   "id": "devi-stuti-28",
   "number": "Closing",
   "title": "Consciousness Pervading All",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "चितिरूपेण या कृत्स्नम्",
     "एतद्व्याप्य स्थिता जगत्।",
     "नमस्तस्यै नमस्तस्यै",
     "नमस्तस्यै नमो नमः॥"
   ],
-  "iast": [
-    "citi-rūpeṇa yā kṛtsnam",
-    "etad vyāpya sthitā jagat |",
-    "namas tasyai namas tasyai",
-    "namas tasyai namo namaḥ ||"
-  ],
   "translation": "She who, as <b>consciousness</b>, pervades this <b>entire world</b> and abides in it: salutation to her, salutation to her, salutation to her, salutation again and again.",
   "translation_hi": "जो चेतना रूप से इस संपूर्ण जगत में व्याप्त होकर स्थित हैं, उनको नमस्कार है, उनको नमस्कार है, उनको नमस्कार है, बार बार नमस्कार है।",
   "words": [
     {
       "sanskrit": "चिति",
-      "iast": "citi",
       "meaning": "consciousness",
-      "note": "Same root as cit in Nirvāṇa Ṣaṭkam."
+      "note": "Same root as cit in Nirvana Shatkam."
     },
     {
       "sanskrit": "कृत्स्नम्",
-      "iast": "kṛtsnam",
       "meaning": "entire",
       "note": ""
     },
     {
       "sanskrit": "एतत्",
-      "iast": "etat",
       "meaning": "this",
       "note": ""
     },
     {
       "sanskrit": "व्याप्य",
-      "iast": "vyāpya",
       "meaning": "having pervaded",
-      "note": "Gerund of vi + √āp."
+      "note": "Gerund of vi + √ap."
     },
     {
       "sanskrit": "स्थिता",
-      "iast": "sthitā",
       "meaning": "abides",
       "note": ""
     },
     {
       "sanskrit": "जगत्",
-      "iast": "jagat",
       "meaning": "world",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>The hymn's conclusion:</b> it began with salutations, listed 21 forms, and ends here: the Goddess as <span class='dv'>चिति</span>, pure consciousness, pervading everything. Compare चिदानन्दरूपः in Nirvāṇa Ṣaṭkam.",
+    "<b>The hymn's conclusion:</b> it began with salutations, listed 21 forms, and ends here: the Goddess as <span class='dv'>चिति</span>, pure consciousness, pervading everything. Compare चिदानन्दरूपः in Nirvana Shatkam.",
     "<b>Gerund with prefix:</b> <span class='dv'>वि + आप् → व्याप्य</span> 'having pervaded'."
   ]
 }

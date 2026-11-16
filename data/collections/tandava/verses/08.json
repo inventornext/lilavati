@@ -2,122 +2,100 @@
   "id": "tandava-8",
   "number": "Verse 8",
   "title": "Dark as a New-moon Night",
-  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "नवीनमेघमण्डलीनिरुद्धदुर्धरस्फुरत्-",
     "कुहूनिशीथिनीतमः प्रबन्धबद्धकन्धरः।",
     "निलिम्पनिर्झरीधरस्तनोतु कृत्तिसिन्धुरः",
     "कलानिधानबन्धुरः श्रियं जगद्धुरन्धरः॥"
   ],
-  "iast": [
-    "navīna-megha-maṇḍalī-niruddha-durdhara-sphurat-",
-    "kuhū-niśīthinī-tamaḥ prabandha-baddha-kandharaḥ |",
-    "nilimpa-nirjharī-dharas tanotu kṛtti-sindhuraḥ",
-    "kalā-nidhāna-bandhuraḥ śriyaṃ jagad-dhurandharaḥ ||"
-  ],
   "translation": "His <b>neck is dark</b>, like the deep darkness of a <b>new-moon midnight</b> thickened by masses of fresh rain clouds. He bears the heavenly river <b>Ganga</b>, wears an <b>elephant's hide</b>, is lovely with the <b>moon</b>, the treasury of digits, and carries the <b>burden of the world</b>. May he spread prosperity.",
   "translation_hi": "जिनका कंठ नए बादलों की घटाओं से घिरी अमावस्या की आधी रात के घने अंधकार जैसा काला है, जो देवनदी गंगा को धारण करते हैं, गजचर्म ओढ़ते हैं, चंद्रमा से सुंदर हैं और जगत का भार उठाते हैं, वे शिव हमें समृद्धि दें।",
   "words": [
     {
       "sanskrit": "नवीन",
-      "iast": "navīna",
       "meaning": "new, fresh",
       "note": "Hindi नवीन."
     },
     {
       "sanskrit": "मेघमण्डली",
-      "iast": "megha-maṇḍalī",
       "meaning": "masses of clouds",
-      "note": "megha = cloud; maṇḍala = circle, mass."
+      "note": "megha = cloud; mandala = circle, mass."
     },
     {
       "sanskrit": "निरुद्ध",
-      "iast": "niruddha",
       "meaning": "blocked, closed in",
       "note": ""
     },
     {
       "sanskrit": "दुर्धर",
-      "iast": "durdhara",
       "meaning": "dense, hard to bear",
       "note": ""
     },
     {
       "sanskrit": "कुहू",
-      "iast": "kuhū",
       "meaning": "new-moon day",
-      "note": "amāvasyā."
+      "note": "amavasya."
     },
     {
       "sanskrit": "निशीथिनी",
-      "iast": "niśīthinī",
       "meaning": "night",
-      "note": "niśītha = midnight."
+      "note": "nishitha = midnight."
     },
     {
       "sanskrit": "तमः",
-      "iast": "tamaḥ",
       "meaning": "darkness",
       "note": "Hindi तम, तमस."
     },
     {
       "sanskrit": "प्रबन्धबद्ध",
-      "iast": "prabandha-baddha",
       "meaning": "tightly bound",
       "note": ""
     },
     {
       "sanskrit": "कन्धरः",
-      "iast": "kandharaḥ",
       "meaning": "(whose) neck",
-      "note": "The dark neck of Nīlakaṇṭha, who drank the hālāhala poison."
+      "note": "The dark neck of Nilakantha, who drank the halahala poison."
     },
     {
       "sanskrit": "निर्झरीधरः",
-      "iast": "nirjharī-dharaḥ",
       "meaning": "bearer of the river (Ganga)",
       "note": "dhara = holder."
     },
     {
       "sanskrit": "तनोतु",
-      "iast": "tanotu",
       "meaning": "may he spread",
       "note": ""
     },
     {
       "sanskrit": "कृत्तिसिन्धुरः",
-      "iast": "kṛtti-sindhuraḥ",
       "meaning": "whose hide is an elephant's",
-      "note": "kṛtti = hide; sindhura = elephant."
+      "note": "kritti = hide; sindhura = elephant."
     },
     {
       "sanskrit": "कलानिधान",
-      "iast": "kalā-nidhāna",
       "meaning": "treasury of digits (the moon)",
-      "note": "kalā = a digit of the moon; nidhāna = treasury."
+      "note": "kala = a digit of the moon; nidhana = treasury."
     },
     {
       "sanskrit": "बन्धुरः",
-      "iast": "bandhuraḥ",
       "meaning": "lovely",
       "note": ""
     },
     {
       "sanskrit": "श्रियम्",
-      "iast": "śriyam",
       "meaning": "prosperity",
-      "note": "Accusative of śrī."
+      "note": "Accusative of shri."
     },
     {
       "sanskrit": "जगद्धुरन्धरः",
-      "iast": "jagad-dhurandharaḥ",
       "meaning": "bearer of the world's burden",
       "note": "dhurandhara = 'yoke-bearer'. Hindi धुरंधर (expert)."
     }
   ],
   "grammar": [
-    "<b>Nīlakaṇṭha:</b> the dark neck recalls the churning of the ocean, when Shiva drank the hālāhala poison to save the world and it stayed in his throat.",
+    "<b>Nilakantha:</b> the dark neck recalls the churning of the ocean, when Shiva drank the halahala poison to save the world and it stayed in his throat.",
     "<b>Visarga before t:</b> <span class='dv'>धरः + तनोतु → धरस्तनोतु</span>, like हारस्तारः in the necklace verse.",
-    "<b>Science word:</b> <span class='dv'>कला</span> is a digit of the moon (16 kalās), and in Indian astronomy it is also a minute of arc, 1/60 of a degree."
+    "<b>Science word:</b> <span class='dv'>कला</span> is a digit of the moon (16 kalas), and in Indian astronomy it is also a minute of arc, 1/60 of a degree."
   ]
 }

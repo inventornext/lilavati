@@ -1,28 +1,21 @@
 {
   "id": "devi-stuti-22",
-  "number": "Yā Devī 17",
+  "number": "Ya Devi 17",
   "title": "Memory",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "स्मृतिरूपेण संस्थिता।",
     "नमस्तस्यै नमस्तस्यै",
     "नमस्तस्यै नमो नमः॥"
   ],
-  "iast": [
-    "yā devī sarva-bhūteṣu",
-    "smṛti-rūpeṇa saṃsthitā |",
-    "namas tasyai namas tasyai",
-    "namas tasyai namo namaḥ ||"
-  ],
   "translation": "To the Goddess who, in all beings, is <b>present as memory</b>: salutation to her, salutation to her, salutation to her, salutation again and again.",
   "translation_hi": "जो देवी सब प्राणियों में स्मृति रूप में स्थित हैं, उनको नमस्कार है, उनको नमस्कार है, उनको नमस्कार है, बार बार नमस्कार है।",
   "words": [
     {
       "sanskrit": "स्मृति",
-      "iast": "smṛti",
       "meaning": "memory",
-      "note": "From √smṛ, as smaran in Tāṇḍava verse 16."
+      "note": "From √smri, as smaran in Tandava verse 16."
     }
   ],
   "grammar": [

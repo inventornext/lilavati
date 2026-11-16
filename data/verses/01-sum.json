@@ -3,166 +3,137 @@
   "number": "Verse 1 · Addition and subtraction",
   "topic": "Place value",
   "title": "Lilavati's First Question",
-  "meter": "Meter: Śikhariṇī (17 syllables per line)",
+  "meter": "Meter: Shikharini (17 syllables per line)",
   "devanagari": [
     "अये बाले लीलावति मतिमति ब्रूहि सहितान्",
     "द्विपञ्चद्वात्रिंशत्त्रिनवतिशताष्टादश दश।",
     "शतोपेतानेतानयुतवियुतांश्चापि वद मे",
     "यदि व्यक्ते युक्तिव्यवकलनमार्गेऽसि कुशला॥"
   ],
-  "iast": [
-    "aye bāle līlāvati matimati brūhi sahitān",
-    "dvi-pañca-dvātriṃśat-trinavati-śatāṣṭādaśa daśa |",
-    "śatopetān etān ayuta-viyutāṃś cāpi vada me",
-    "yadi vyakte yukti-vyavakalana-mārge 'si kuśalā ||"
-  ],
   "translation": "O young Lilavati, clever girl! Tell me the <b>sum</b> of 2, 5, 32, 193, 18 and 10, with <b>100</b> added to them. And tell me also what is left when this sum is <b>taken away from ten thousand</b>, if you are skilled in the methods of addition and subtraction in arithmetic.",
   "translation_hi": "हे बाला लीलावती, हे बुद्धिमती! 2, 5, 32, 193, 18 और 10 में 100 जोड़कर इनका योग बताओ। और यदि तुम अंकगणित में जोड़ और घटाव की विधि में कुशल हो, तो यह भी बताओ कि दस हज़ार में से यह योग घटाने पर कितना बचता है।",
   "words": [
     {
       "sanskrit": "अये",
-      "iast": "aye",
       "meaning": "O! (calling someone)",
       "note": "An interjection used to address a person."
     },
     {
       "sanskrit": "बाले",
-      "iast": "bāle",
       "meaning": "O young girl",
-      "note": "Vocative of bālā. Feminine nouns in -ā take -e in the vocative."
+      "note": "Vocative of bala. Feminine nouns in -a take -e in the vocative."
     },
     {
       "sanskrit": "लीलावति",
-      "iast": "līlāvati",
       "meaning": "O Lilavati",
-      "note": "Vocative of līlāvatī, 'the playful one'. The book is named after her."
+      "note": "Vocative of lilavati, 'the playful one'. The book is named after her."
     },
     {
       "sanskrit": "मतिमति",
-      "iast": "matimati",
       "meaning": "O intelligent one",
-      "note": "mati (intellect) + -matī (possessing). Vocative."
+      "note": "mati (intellect) + -mati (possessing). Vocative."
     },
     {
       "sanskrit": "ब्रूहि",
-      "iast": "brūhi",
       "meaning": "tell!",
-      "note": "Imperative of √brū (to speak)."
+      "note": "Imperative of √bru (to speak)."
     },
     {
       "sanskrit": "सहितान्",
-      "iast": "sahitān",
       "meaning": "added together",
       "note": "Accusative plural: 'the numbers, joined'."
     },
     {
       "sanskrit": "द्वि",
-      "iast": "dvi",
       "meaning": "two",
       "note": ""
     },
     {
       "sanskrit": "पञ्च",
-      "iast": "pañca",
       "meaning": "five",
       "note": "Compare Hindi पाँच."
     },
     {
       "sanskrit": "द्वात्रिंशत्",
-      "iast": "dvātriṃśat",
       "meaning": "thirty-two",
-      "note": "dvā (two) + triṃśat (thirty)."
+      "note": "dva (two) + trimshat (thirty)."
     },
     {
       "sanskrit": "त्रिनवतिशत",
-      "iast": "trinavati-śata",
       "meaning": "one hundred ninety-three",
-      "note": "trinavati (93) + śata (100). In compounds numbers are added."
+      "note": "trinavati (93) + shata (100). In compounds numbers are added."
     },
     {
       "sanskrit": "अष्टादश",
-      "iast": "aṣṭādaśa",
       "meaning": "eighteen",
-      "note": "aṣṭā (eight) + daśa (ten). Compare Hindi अठारह."
+      "note": "ashta (eight) + dasha (ten). Compare Hindi अठारह."
     },
     {
       "sanskrit": "दश",
-      "iast": "daśa",
       "meaning": "ten",
       "note": ""
     },
     {
       "sanskrit": "शतोपेतान्",
-      "iast": "śatopetān",
       "meaning": "with a hundred added",
-      "note": "śata + upeta (joined). अ + उ → ओ."
+      "note": "shata + upeta (joined). अ + उ → ओ."
     },
     {
       "sanskrit": "एतान्",
-      "iast": "etān",
       "meaning": "these",
       "note": "Accusative plural of etad."
     },
     {
       "sanskrit": "अयुतवियुतान्",
-      "iast": "ayuta-viyutān",
       "meaning": "subtracted from ten thousand",
       "note": "ayuta = 10,000; viyuta = separated, subtracted."
     },
     {
       "sanskrit": "च अपि",
-      "iast": "ca api",
       "meaning": "and also",
       "note": "Written together as चापि."
     },
     {
       "sanskrit": "वद",
-      "iast": "vada",
       "meaning": "say!",
       "note": "Imperative of √vad (to speak)."
     },
     {
       "sanskrit": "मे",
-      "iast": "me",
       "meaning": "to me",
       "note": "Short form of mahyam."
     },
     {
       "sanskrit": "यदि",
-      "iast": "yadi",
       "meaning": "if",
       "note": ""
     },
     {
       "sanskrit": "व्यक्ते",
-      "iast": "vyakte",
       "meaning": "in arithmetic",
       "note": "vyakta = 'manifest' maths with known numbers. Algebra is avyakta, 'unmanifest'."
     },
     {
       "sanskrit": "युक्तिव्यवकलनमार्गे",
-      "iast": "yukti-vyavakalana-mārge",
       "meaning": "in the method of addition and subtraction",
-      "note": "yukti (joining) + vyavakalana (subtraction) + mārga (path, method). Locative."
+      "note": "yukti (joining) + vyavakalana (subtraction) + marga (path, method). Locative."
     },
     {
       "sanskrit": "असि",
-      "iast": "asi",
       "meaning": "you are",
       "note": "Present tense of √as, 2nd person singular."
     },
     {
       "sanskrit": "कुशला",
-      "iast": "kuśalā",
       "meaning": "skilled",
-      "note": "Feminine of kuśala. Same as Hindi कुशल."
+      "note": "Feminine of kushala. Same as Hindi कुशल."
     }
   ],
   "grammar": [
     "<b>Vocative case:</b> <span class='dv'>बाले, लीलावति, मतिमति</span>. Bhaskara calls Lilavati three ways at once. The vocative is the 'calling' case.",
     "<b>Number compounds:</b> <span class='dv'>द्विपञ्चद्वात्रिंशत्…</span> strings six numbers into one long compound, a list joined by 'and' (dvandva).",
     "<b>Avagraha:</b> <span class='dv'>मार्गे + असि → मार्गेऽसि</span>. The short अ after ए drops out and ऽ marks the gap.",
-    "<b>Vyakta and avyakta:</b> Bhaskara calls arithmetic <span class='dv'>व्यक्तगणित</span> (known quantities) and algebra <span class='dv'>अव्यक्तगणित</span> (unknown quantities). His algebra book is the <i>Bījagaṇita</i>."
+    "<b>Vyakta and avyakta:</b> Bhaskara calls arithmetic <span class='dv'>व्यक्तगणित</span> (known quantities) and algebra <span class='dv'>अव्यक्तगणित</span> (unknown quantities). His algebra book is the <i>Bijaganita</i>."
   ],
   "question": "What is the sum of all the numbers (including the 100)?",
   "answer": 360,

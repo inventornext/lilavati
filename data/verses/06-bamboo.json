@@ -3,140 +3,115 @@
   "number": "Verse 6 · Right triangles",
   "topic": "Pythagorean theorem",
   "title": "The Bamboo Broken by the Wind",
-  "meter": "Meter: Mālinī (15 syllables per line)",
+  "meter": "Meter: Malini (15 syllables per line)",
   "devanagari": [
     "यदि समभुवि वेणुर्द्वित्रिपाणिप्रमाणो",
     "गणक पवनवेगादेकदेशे स भग्नः।",
     "भुवि नृपमितहस्तेष्वङ्ग लग्नं तदग्रं",
     "कथय कतिषु मूलादेष भग्नः करेषु॥"
   ],
-  "iast": [
-    "yadi sama-bhuvi veṇur dvi-tri-pāṇi-pramāṇo",
-    "gaṇaka pavana-vegād eka-deśe sa bhagnaḥ |",
-    "bhuvi nṛpa-mita-hasteṣv aṅga lagnaṃ tad-agraṃ",
-    "kathaya katiṣu mūlād eṣa bhagnaḥ kareṣu ||"
-  ],
   "translation": "O mathematician, a bamboo standing on level ground, <b>32 hastas</b> tall, was broken at one point by the force of the wind. Its top touched the ground <b>16 hastas</b> from its base. Tell me, friend, at how many hastas from the root was it broken?",
   "translation_hi": "हे गणितज्ञ, समतल भूमि पर खड़ा 32 हाथ ऊँचा एक बाँस हवा के वेग से एक स्थान पर टूट गया। हे मित्र, उसका सिरा जड़ से 16 हाथ की दूरी पर भूमि को छू गया। बताओ, वह जड़ से कितने हाथ ऊपर टूटा?",
   "words": [
     {
       "sanskrit": "यदि",
-      "iast": "yadi",
       "meaning": "if",
       "note": ""
     },
     {
       "sanskrit": "समभुवि",
-      "iast": "sama-bhuvi",
       "meaning": "on level ground",
-      "note": "sama (level) + bhū (earth). Locative."
+      "note": "sama (level) + bhu (earth). Locative."
     },
     {
       "sanskrit": "वेणुः",
-      "iast": "veṇuḥ",
       "meaning": "a bamboo",
-      "note": "Also 'flute', as in Veṇugopāla. Visarga → र् before द: वेणुर्द्वि."
+      "note": "Also 'flute', as in Venugopala. Visarga → र् before द: वेणुर्द्वि."
     },
     {
       "sanskrit": "द्वित्रिपाणिप्रमाणः",
-      "iast": "dvi-tri-pāṇi-pramāṇaḥ",
       "meaning": "measuring 32 hastas",
-      "note": "dvi (2), tri (3): digits are read right to left, so 'two-three' = 32. pāṇi = hand."
+      "note": "dvi (2), tri (3): digits are read right to left, so 'two-three' = 32. pani = hand."
     },
     {
       "sanskrit": "गणक",
-      "iast": "gaṇaka",
       "meaning": "O mathematician",
       "note": "Vocative."
     },
     {
       "sanskrit": "पवनवेगात्",
-      "iast": "pavana-vegāt",
       "meaning": "from the force of the wind",
       "note": "pavana (wind) + vega (speed, force). Ablative of cause: 'because of'."
     },
     {
       "sanskrit": "एकदेशे",
-      "iast": "eka-deśe",
       "meaning": "at one place",
-      "note": "eka (one) + deśa (place). Locative."
+      "note": "eka (one) + desha (place). Locative."
     },
     {
       "sanskrit": "सः",
-      "iast": "saḥ",
       "meaning": "it",
       "note": "Visarga drops before a consonant: स भग्नः."
     },
     {
       "sanskrit": "भग्नः",
-      "iast": "bhagnaḥ",
       "meaning": "broken",
-      "note": "Past participle of √bhañj (to break). Hindi भग्न, भंग."
+      "note": "Past participle of √bhanj (to break). Hindi भग्न, भंग."
     },
     {
       "sanskrit": "भुवि",
-      "iast": "bhuvi",
       "meaning": "on the ground",
-      "note": "Locative of bhū."
+      "note": "Locative of bhu."
     },
     {
       "sanskrit": "नृपमितहस्तेषु",
-      "iast": "nṛpa-mita-hasteṣu",
       "meaning": "at 'kings'-many hastas = 16",
-      "note": "nṛpa (king) stands for 16 in the word-numeral system; mita = measured."
+      "note": "nripa (king) stands for 16 in the word-numeral system; mita = measured."
     },
     {
       "sanskrit": "अङ्ग",
-      "iast": "aṅga",
       "meaning": "dear friend",
       "note": "A friendly particle of address."
     },
     {
       "sanskrit": "लग्नम्",
-      "iast": "lagnam",
       "meaning": "touched",
       "note": "Past participle of √lag (to stick). Hindi लगना."
     },
     {
       "sanskrit": "तदग्रम्",
-      "iast": "tad-agram",
       "meaning": "its top",
       "note": "tat (its) + agra (tip). Hindi अग्र, आगे."
     },
     {
       "sanskrit": "कथय",
-      "iast": "kathaya",
       "meaning": "tell!",
       "note": ""
     },
     {
       "sanskrit": "कतिषु",
-      "iast": "katiṣu",
       "meaning": "at how many",
       "note": "Locative plural of kati."
     },
     {
       "sanskrit": "मूलात्",
-      "iast": "mūlāt",
       "meaning": "from the root",
-      "note": "Ablative of mūla. Same mūla as 'square root' in the bee verse!"
+      "note": "Ablative of mula. Same mula as 'square root' in the bee verse!"
     },
     {
       "sanskrit": "एषः",
-      "iast": "eṣaḥ",
       "meaning": "this (bamboo)",
       "note": "Visarga drops before a consonant: एष भग्नः."
     },
     {
       "sanskrit": "करेषु",
-      "iast": "kareṣu",
       "meaning": "hastas",
       "note": "Locative plural of kara (hand, a unit of length)."
     }
   ],
   "grammar": [
-    "<b>Word numerals (bhūta-saṅkhyā):</b> numbers written as words for things. <span class='dv'>नृप</span> (king) = 16 by convention. Digits are read right to left, <span class='dv'>अङ्कानां वामतो गतिः</span>, so <span class='dv'>द्वि-त्रि</span> = 32. This let poets fit numbers into a meter.",
-    "<b>Yaṇ sandhi:</b> <span class='dv'>हस्तेषु + अङ्ग → हस्तेष्वङ्ग</span>. उ before a different vowel becomes व्.",
+    "<b>Word numerals (bhuta-sankhya):</b> numbers written as words for things. <span class='dv'>नृप</span> (king) = 16 by convention. Digits are read right to left, <span class='dv'>अङ्कानां वामतो गतिः</span>, so <span class='dv'>द्वि-त्रि</span> = 32. This let poets fit numbers into a meter.",
+    "<b>Yan sandhi:</b> <span class='dv'>हस्तेषु + अङ्ग → हस्तेष्वङ्ग</span>. उ before a different vowel becomes व्.",
     "<b>Ablative of cause:</b> <span class='dv'>पवनवेगात्</span> 'because of the wind's force'. The ablative means 'from', and also 'because of'.",
     "<b>Consonant sandhi:</b> <span class='dv'>वेगात् + एक → वेगादेक</span>, <span class='dv'>मूलात् + एष → मूलादेष</span>. त् → द् before a vowel."
   ],

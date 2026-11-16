@@ -1,81 +1,66 @@
 {
   "id": "rudrashtakam-9",
-  "number": "Verse 9 · Phalaśruti",
+  "number": "Verse 9 · Phalashruti",
   "title": "Fruit of the Hymn",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "रुद्राष्टकमिदं प्रोक्तं",
     "विप्रेण हरतोषये।",
     "ये पठन्ति नरा भक्त्या",
     "तेषां शम्भुः प्रसीदति॥"
   ],
-  "iast": [
-    "rudrāṣṭakam idaṃ proktaṃ",
-    "vipreṇa hara-toṣaye |",
-    "ye paṭhanti narā bhaktyā",
-    "teṣāṃ śambhuḥ prasīdati ||"
-  ],
-  "translation": "This <b>Rudrāṣṭakam</b> was spoken by a <b>Brahmin</b> to please Hara. Those who read it with <b>devotion</b>, Shambhu is pleased with them.",
+  "translation": "This <b>Rudrashtakam</b> was spoken by a <b>Brahmin</b> to please Hara. Those who read it with <b>devotion</b>, Shambhu is pleased with them.",
   "translation_hi": "यह रुद्राष्टक एक ब्राह्मण ने शिव को प्रसन्न करने के लिए कहा था। जो मनुष्य इसे भक्ति से पढ़ते हैं, उन पर शंभु प्रसन्न होते हैं।",
   "words": [
     {
       "sanskrit": "रुद्राष्टकम्",
-      "iast": "rudrāṣṭakam",
       "meaning": "the eight verses to Rudra",
-      "note": "rudra + aṣṭaka (group of eight)."
+      "note": "rudra + ashtaka (group of eight)."
     },
     {
       "sanskrit": "इदम्",
-      "iast": "idam",
       "meaning": "this",
       "note": ""
     },
     {
       "sanskrit": "प्रोक्तम्",
-      "iast": "proktam",
       "meaning": "was spoken",
       "note": "pra + ukta."
     },
     {
       "sanskrit": "विप्रेण",
-      "iast": "vipreṇa",
       "meaning": "by a Brahmin",
       "note": "Instrumental: the agent of a passive."
     },
     {
       "sanskrit": "हरतोषये",
-      "iast": "hara-toṣaye",
       "meaning": "to please Hara",
-      "note": "Dative of purpose. toṣa = satisfaction (Hindi संतोष)."
+      "note": "Dative of purpose. tosha = satisfaction (Hindi संतोष)."
     },
     {
       "sanskrit": "पठन्ति",
-      "iast": "paṭhanti",
       "meaning": "they read",
       "note": ""
     },
     {
       "sanskrit": "भक्त्या",
-      "iast": "bhaktyā",
       "meaning": "with devotion",
       "note": "Instrumental of bhakti."
     },
     {
       "sanskrit": "तेषाम्",
-      "iast": "teṣām",
       "meaning": "on them",
       "note": "Genitive plural."
     },
     {
       "sanskrit": "प्रसीदति",
-      "iast": "prasīdati",
       "meaning": "is pleased",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>A new meter:</b> this closing verse is in <b>Anuṣṭubh</b>, eight syllables per quarter, the meter of the Gita and the epics.",
-    "<b>-aṣṭaka:</b> 'a group of eight', as in Liṅgāṣṭakam and Bilvāṣṭakam.",
-    "<b>Ye … teṣām:</b> 'those who … to them', relative and correlative."
+    "<b>A new meter:</b> this closing verse is in <b>Anushtubh</b>, eight syllables per quarter, the meter of the Gita and the epics.",
+    "<b>-ashtaka:</b> 'a group of eight', as in Lingashtakam and Bilvashtakam.",
+    "<b>Ye … tesham:</b> 'those who … to them', relative and correlative."
   ]
 }

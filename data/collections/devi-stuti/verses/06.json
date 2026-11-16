@@ -1,74 +1,60 @@
 {
   "id": "devi-stuti-6",
-  "number": "Yā Devī 1",
-  "title": "Viṣṇu's Māyā",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "number": "Ya Devi 1",
+  "title": "Vishnu's Maya",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "विष्णुमायेति शब्दिता।",
     "नमस्तस्यै नमस्तस्यै",
     "नमस्तस्यै नमो नमः॥"
   ],
-  "iast": [
-    "yā devī sarva-bhūteṣu",
-    "viṣṇu-māyeti śabditā |",
-    "namas tasyai namas tasyai",
-    "namas tasyai namo namaḥ ||"
-  ],
-  "translation": "To the Goddess who, in all beings, is <b>called Viṣṇumāyā, the power of illusion</b>: salutation to her, salutation to her, salutation to her, salutation again and again.",
+  "translation": "To the Goddess who, in all beings, is <b>called Vishnumaya, the power of illusion</b>: salutation to her, salutation to her, salutation to her, salutation again and again.",
   "translation_hi": "जो देवी सब प्राणियों में विष्णुमाया कही जाती हैं, उनको नमस्कार है, उनको नमस्कार है, उनको नमस्कार है, बार बार नमस्कार है।",
   "words": [
     {
       "sanskrit": "या",
-      "iast": "yā",
       "meaning": "she who",
       "note": "Relative pronoun, feminine."
     },
     {
       "sanskrit": "देवी",
-      "iast": "devī",
       "meaning": "the Goddess",
       "note": ""
     },
     {
       "sanskrit": "सर्वभूतेषु",
-      "iast": "sarva-bhūteṣu",
       "meaning": "in all beings",
-      "note": "Locative plural of bhūta."
+      "note": "Locative plural of bhuta."
     },
     {
       "sanskrit": "विष्णुमाया",
-      "iast": "viṣṇu-māyā",
-      "meaning": "Viṣṇu's power of illusion",
+      "meaning": "Vishnu's power of illusion",
       "note": ""
     },
     {
       "sanskrit": "इति",
-      "iast": "iti",
       "meaning": "thus, as",
       "note": "Quotation marker."
     },
     {
       "sanskrit": "शब्दिता",
-      "iast": "śabditā",
       "meaning": "is called",
-      "note": "From śabda (word): 'is worded'."
+      "note": "From shabda (word): 'is worded'."
     },
     {
       "sanskrit": "नमः",
-      "iast": "namaḥ",
       "meaning": "salutation",
       "note": ""
     },
     {
       "sanskrit": "तस्यै",
-      "iast": "tasyai",
       "meaning": "to her",
-      "note": "Dative of sā: the correlative of yā."
+      "note": "Dative of sa: the correlative of ya."
     }
   ],
   "grammar": [
-    "<b>Yā … tasyai:</b> 'she who … to her'. The relative <span class='dv'>या</span> and the correlative <span class='dv'>तस्यै</span> frame every verse of this hymn.",
+    "<b>Ya … tasyai:</b> 'she who … to her'. The relative <span class='dv'>या</span> and the correlative <span class='dv'>तस्यै</span> frame every verse of this hymn.",
     "<b>Triple refrain:</b> <span class='dv'>नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः</span>: salutation to her, to her, to her, again and again. The repetition is the heart of the chant.",
     "<b>Visarga before t:</b> <span class='dv'>नमः + तस्यै → नमस्तस्यै</span>, like हारस्तारः."
   ]

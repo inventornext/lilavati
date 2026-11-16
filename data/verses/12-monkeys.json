@@ -3,159 +3,131 @@
   "number": "Verse 12 · Right triangles",
   "topic": "Pythagorean theorem",
   "title": "Two Monkeys and a Pond",
-  "meter": "Meter: Śārdūlavikrīḍita (19 syllables per line)",
+  "meter": "Meter: Shardulavikridita (19 syllables per line)",
   "devanagari": [
     "वृक्षाद्धस्तशतोच्छ्रयाच्छतयुगे वाप्यां कपिः कोऽप्यगा-",
     "दुत्तीर्याथ परो द्रुतं श्रुतिपथात्प्रोड्डीय किञ्चिद्द्रुमात्।",
     "जातैवं समता तयोर्यदि गतावुड्डीनमानं कियद्",
     "विद्वंश्चेत्सुपरिश्रमोऽस्ति गणिते क्षिप्रं तदाचक्ष्व मे॥"
   ],
-  "iast": [
-    "vṛkṣād dhasta-śatocchrayāc chata-yuge vāpyāṃ kapiḥ ko 'py agād",
-    "uttīryātha paro drutaṃ śruti-pathāt proḍḍīya kiñcid drumāt |",
-    "jātaivaṃ samatā tayor yadi gatāv uḍḍīna-mānaṃ kiyad",
-    "vidvaṃś cet supariśramo 'sti gaṇite kṣipraṃ tad ācakṣva me ||"
-  ],
   "translation": "From a tree <b>100 hastas</b> high, one monkey climbed down and went to a pond <b>200 hastas</b> away. Another monkey <b>leapt up</b> some distance from the tree and then flew quickly <b>straight to the pond along the hypotenuse</b>. Both travelled the <b>same distance</b>. O learned one, if you have worked hard at mathematics, tell me quickly: how high did the second monkey leap?",
   "translation_hi": "100 हाथ ऊँचे एक पेड़ से एक बंदर नीचे उतरा और 200 हाथ दूर एक तालाब तक गया। दूसरा बंदर पेड़ से कुछ ऊपर उछला और फिर कर्ण के मार्ग से सीधा तालाब तक उड़ गया। दोनों ने बराबर दूरी तय की। हे विद्वान, यदि तुमने गणित में परिश्रम किया है, तो जल्दी बताओ कि दूसरा बंदर कितना ऊँचा उछला?",
   "words": [
     {
       "sanskrit": "वृक्षात्",
-      "iast": "vṛkṣāt",
       "meaning": "from a tree",
       "note": "Ablative. त् → द् before ह: वृक्षाद्धस्त."
     },
     {
       "sanskrit": "हस्तशतोच्छ्रयात्",
-      "iast": "hasta-śata-ucchrayāt",
       "meaning": "100 hastas high",
       "note": "ucchraya = height."
     },
     {
       "sanskrit": "शतयुगे",
-      "iast": "śata-yuge",
       "meaning": "at two hundred",
       "note": "'At a pair of hundreds'."
     },
     {
       "sanskrit": "वाप्याम्",
-      "iast": "vāpyām",
       "meaning": "to the pond",
-      "note": "Locative of vāpī, as in the cistern verse."
+      "note": "Locative of vapi, as in the cistern verse."
     },
     {
       "sanskrit": "कपिः",
-      "iast": "kapiḥ",
       "meaning": "a monkey",
-      "note": "Hindi कपि (Hanuman is Kapīśa)."
+      "note": "Hindi कपि (Hanuman is Kapisha)."
     },
     {
       "sanskrit": "कोऽपि",
-      "iast": "ko 'pi",
       "meaning": "some (one)",
-      "note": "kaḥ + api."
+      "note": "kah + api."
     },
     {
       "sanskrit": "अगात्",
-      "iast": "agāt",
       "meaning": "went",
       "note": "Aorist of √i (to go)."
     },
     {
       "sanskrit": "उत्तीर्य",
-      "iast": "uttīrya",
       "meaning": "having come down",
       "note": "Gerund with prefix (-य)."
     },
     {
       "sanskrit": "परः",
-      "iast": "paraḥ",
       "meaning": "the other",
       "note": ""
     },
     {
       "sanskrit": "द्रुतम्",
-      "iast": "drutam",
       "meaning": "quickly",
       "note": "Hindi द्रुत (fast tempo in music)."
     },
     {
       "sanskrit": "श्रुतिपथात्",
-      "iast": "śruti-pathāt",
       "meaning": "by the hypotenuse path",
-      "note": "śruti = ear = karṇa, and karṇa also means hypotenuse! So 'ear-path' = the hypotenuse."
+      "note": "shruti = ear = karna, and karna also means hypotenuse! So 'ear-path' = the hypotenuse."
     },
     {
       "sanskrit": "प्रोड्डीय",
-      "iast": "proḍḍīya",
       "meaning": "having leapt up",
-      "note": "pra + ut + √ḍī (to fly)."
+      "note": "pra + ut + √di (to fly)."
     },
     {
       "sanskrit": "किञ्चित्",
-      "iast": "kiñcit",
       "meaning": "a little, some distance",
       "note": ""
     },
     {
       "sanskrit": "द्रुमात्",
-      "iast": "drumāt",
       "meaning": "from the tree",
       "note": "druma = tree."
     },
     {
       "sanskrit": "समता",
-      "iast": "samatā",
       "meaning": "equality",
       "note": ""
     },
     {
       "sanskrit": "गतौ",
-      "iast": "gatau",
       "meaning": "in their journeys",
       "note": "Locative of gati."
     },
     {
       "sanskrit": "उड्डीनमानम्",
-      "iast": "uḍḍīna-mānam",
       "meaning": "the height of the leap",
-      "note": "māna = measure."
+      "note": "mana = measure."
     },
     {
       "sanskrit": "कियत्",
-      "iast": "kiyat",
       "meaning": "how much",
       "note": ""
     },
     {
       "sanskrit": "विद्वन्",
-      "iast": "vidvan",
       "meaning": "O learned one",
       "note": "Vocative of vidvas. Hindi विद्वान."
     },
     {
       "sanskrit": "सुपरिश्रमः",
-      "iast": "supariśramaḥ",
       "meaning": "good hard work",
       "note": "Hindi परिश्रम."
     },
     {
       "sanskrit": "गणिते",
-      "iast": "gaṇite",
       "meaning": "in mathematics",
       "note": ""
     },
     {
       "sanskrit": "आचक्ष्व",
-      "iast": "ācakṣva",
       "meaning": "tell!",
-      "note": "Imperative of ā + √cakṣ."
+      "note": "Imperative of a + √chaksh."
     }
   ],
   "grammar": [
-    "<b>A synonym riddle:</b> karṇa means both 'ear' and 'hypotenuse'. Bhaskara writes <span class='dv'>श्रुति</span> (ear) instead, so 'ear-path' = hypotenuse. A puzzle inside the puzzle.",
+    "<b>A synonym riddle:</b> karna means both 'ear' and 'hypotenuse'. Bhaskara writes <span class='dv'>श्रुति</span> (ear) instead, so 'ear-path' = hypotenuse. A puzzle inside the puzzle.",
     "<b>Consonant sandhi:</b> <span class='dv'>वृक्षात् + हस्त → वृक्षाद्धस्त</span> (त् + ह → द्ध), <span class='dv'>उच्छ्रयात् + शत → उच्छ्रयाच्छत</span> (त् + श → च्छ).",
-    "<b>Yaṇ sandhi:</b> <span class='dv'>गतौ + उड्डीन → गतावुड्डीन</span>. औ before a vowel becomes आव्."
+    "<b>Yan sandhi:</b> <span class='dv'>गतौ + उड्डीन → गतावुड्डीन</span>. औ before a vowel becomes आव्."
   ],
   "question": "How many hastas did the second monkey leap up?",
   "answer": 50,

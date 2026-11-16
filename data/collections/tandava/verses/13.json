@@ -2,133 +2,109 @@
   "id": "tandava-13",
   "number": "Verse 13",
   "title": "When Will I Be Happy?",
-  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "कदा निलिम्पनिर्झरीनिकुञ्जकोटरे वसन्",
     "विमुक्तदुर्मतिः सदा शिरःस्थमञ्जलिं वहन्।",
     "विलोललोललोचनो ललामभाललग्नकः",
     "शिवेति मन्त्रमुच्चरन् कदा सुखी भवाम्यहम्॥"
   ],
-  "iast": [
-    "kadā nilimpa-nirjharī-nikuñja-koṭare vasan",
-    "vimukta-durmatiḥ sadā śiraḥ-stham añjaliṃ vahan |",
-    "vilola-lola-locano lalāma-bhāla-lagnakaḥ",
-    "śiveti mantram uccaran kadā sukhī bhavāmy aham ||"
-  ],
-  "translation": "Living in a hollow among the groves by the <b>heavenly river</b>, free from evil thoughts, always holding my <b>folded hands above my head</b>, my restless eyes fixed on the one whose forehead bears the beautiful mark, chanting the mantra <b>'Śiva'</b>: <b>when will I be happy?</b>",
+  "translation": "Living in a hollow among the groves by the <b>heavenly river</b>, free from evil thoughts, always holding my <b>folded hands above my head</b>, my restless eyes fixed on the one whose forehead bears the beautiful mark, chanting the mantra <b>'Shiva'</b>: <b>when will I be happy?</b>",
   "translation_hi": "देवनदी गंगा के किनारे कुंजों की गुफा में रहते हुए, दुर्बुद्धि से मुक्त होकर, सदा सिर पर हाथ जोड़े हुए, चंचल नेत्रों से सुंदर तिलकधारी ललाट वाले शिव में लीन होकर, 'शिव' मंत्र का उच्चारण करते हुए मैं कब सुखी होऊँगा?",
   "words": [
     {
       "sanskrit": "निकुञ्ज",
-      "iast": "nikuñja",
       "meaning": "grove",
       "note": "Hindi कुंज."
     },
     {
       "sanskrit": "कोटरे",
-      "iast": "koṭare",
       "meaning": "in a hollow",
-      "note": "Locative of koṭara (hollow, cave)."
+      "note": "Locative of kotara (hollow, cave)."
     },
     {
       "sanskrit": "वसन्",
-      "iast": "vasan",
       "meaning": "living",
       "note": "Present participle of √vas. Hindi वास, निवास."
     },
     {
       "sanskrit": "विमुक्तदुर्मतिः",
-      "iast": "vimukta-durmatiḥ",
       "meaning": "free from evil thoughts",
       "note": "dur (bad) + mati (mind)."
     },
     {
       "sanskrit": "सदा",
-      "iast": "sadā",
       "meaning": "always",
       "note": ""
     },
     {
       "sanskrit": "शिरःस्थम्",
-      "iast": "śiraḥ-stham",
       "meaning": "placed on the head",
       "note": ""
     },
     {
       "sanskrit": "अञ्जलिम्",
-      "iast": "añjalim",
       "meaning": "folded hands",
       "note": "Hindi अंजलि."
     },
     {
       "sanskrit": "वहन्",
-      "iast": "vahan",
       "meaning": "carrying",
       "note": "Present participle of √vah."
     },
     {
       "sanskrit": "लोचनः",
-      "iast": "locanaḥ",
       "meaning": "(whose) eyes",
       "note": "-अः → -ओ: लोचनो ललाम."
     },
     {
       "sanskrit": "ललाम",
-      "iast": "lalāma",
       "meaning": "beautiful mark, ornament",
       "note": ""
     },
     {
       "sanskrit": "लग्नकः",
-      "iast": "lagnakaḥ",
       "meaning": "attached, devoted",
       "note": "Hindi लगन."
     },
     {
       "sanskrit": "शिवेति",
-      "iast": "śiveti",
-      "meaning": "'Śiva'",
-      "note": "śiva + iti. इति works like quotation marks."
+      "meaning": "'Shiva'",
+      "note": "shiva + iti. इति works like quotation marks."
     },
     {
       "sanskrit": "मन्त्रम्",
-      "iast": "mantram",
       "meaning": "mantra",
       "note": ""
     },
     {
       "sanskrit": "उच्चरन्",
-      "iast": "uccaran",
       "meaning": "uttering",
       "note": "ut + √car. Hindi उच्चारण."
     },
     {
       "sanskrit": "कदा",
-      "iast": "kadā",
       "meaning": "when?",
       "note": ""
     },
     {
       "sanskrit": "सुखी",
-      "iast": "sukhī",
       "meaning": "happy",
       "note": ""
     },
     {
       "sanskrit": "भवामि",
-      "iast": "bhavāmi",
       "meaning": "shall I be",
-      "note": "√bhū, present tense, 1st person."
+      "note": "√bhu, present tense, 1st person."
     },
     {
       "sanskrit": "अहम्",
-      "iast": "aham",
       "meaning": "I",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>इति as quotation marks:</b> <span class='dv'>शिव + इति → शिवेति</span> 'saying Śiva'. अ + इ → ए (guṇa).",
+    "<b>इति as quotation marks:</b> <span class='dv'>शिव + इति → शिवेति</span> 'saying Shiva'. अ + इ → ए (guna).",
     "<b>Present participles:</b> <span class='dv'>वसन्, वहन्, उच्चरन्</span> 'living, carrying, uttering', like Hindi रहते हुए, करते हुए.",
     "<b>Present for a wish:</b> <span class='dv'>कदा भवामि</span> 'when do I become' = when shall I be. With कदा, the present looks to the future."
   ]

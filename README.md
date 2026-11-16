@@ -1,6 +1,6 @@
 # Shlokashala · श्लोकशाला
 
-Shlokashala ('school of verses') teaches Sanskrit through **Bhakti** (stotras to Shiva and the Goddess, including the Durgā Saptaśatī) and **Gaṇita** (Bhaskaracharya's *Līlāvatī* and Āryabhaṭa's astronomy). Each verse has the original text, a meter scanner, word cards, English and Hindi translations, grammar notes, a puzzle with a worked solution, and a Python check. The site also has flashcards, a Sanskrit glossary of electrical engineering terms (Vidyut Shabdakosh) and a science word bank.
+Shlokashala ('school of verses') teaches Sanskrit through **Bhakti** (stotras to Shiva and the Goddess, including the Durga Saptashati) and **Ganita** (Bhaskaracharya's *Lilavati* and Aryabhata's astronomy). Each verse has the original text, a meter scanner, word cards, English and Hindi translations, grammar notes, a puzzle with a worked solution, and a Python check. The site also has flashcards, a Sanskrit glossary of electrical engineering terms (Vidyut Shabdakosh) and a science word bank.
 
 **Live site:** https://inventornext.github.io/shlokashala/
 
@@ -8,14 +8,14 @@ Shlokashala ('school of verses') teaches Sanskrit through **Bhakti** (stotras to
 
 | Link | Page |
 |---|---|
-| `#` | Home: verse of the day, Bhakti and Gaṇita |
-| `#bhakti` | All stotras, grouped (Shiva, Durgā Saptaśatī) |
-| `#ganita` | Līlāvatī puzzles and Āryabhaṭīya, with progress |
+| `#` | Home: verse of the day, Bhakti and Ganita |
+| `#bhakti` | All stotras, grouped (Shiva, Durga Saptashati) |
+| `#ganita` | Lilavati puzzles and Aryabhatiya, with progress |
 | `#practice` | Flashcards and quiz |
 | `#learn` | Grammar, Shabdakosh, word bank, about |
 | `#peacock` (any verse id) | One verse, with previous/next buttons |
 | `#tandava`, `#rudrashtakam`, `#nirvana`, `#lingashtakam` | A stotra's full text for recitation |
-| `#aryabhatiya` | Āryabhaṭīya (astronomy) full text |
+| `#aryabhatiya` | Aryabhatiya (astronomy) full text |
 | `#tandava-1`, `#nirvana-3`, `#aryabhatiya-1` … | One verse of a collection |
 | `#quiz` | Ten-question quiz from every section |
 | `#grammar` | Grammar guide: sandhi, cases, verbs, compounds, meter, word numerals |
@@ -30,12 +30,12 @@ Shlokashala ('school of verses') teaches Sanskrit through **Bhakti** (stotras to
 index.html              page shell: top bar, footer
 css/style.css           theme: all colours and fonts are variables at the top
 js/app.js               builds every page from data/ (no need to edit)
-js/meter.js             Sanskrit meter scanner (laghu/guru, gaṇas, meter name)
+js/meter.js             Sanskrit meter scanner (laghu/guru, ganas, meter name)
 data/manifest.json      which verses appear, and in what order
 data/verses/*.json      one file per verse
 data/shabdakosh.json    electrical engineering terms
 data/vocab.json         science word bank
-data/collections.json   which collections appear (stotras, Āryabhaṭīya), in order
+data/collections.json   which collections appear (stotras, Aryabhatiya), in order
 data/collections/<id>/  one folder per collection: manifest.json + verses/01.json …
 data/grammar.json       the grammar guide (HTML in each section)
 figures/*.svg           one diagram per verse
@@ -69,25 +69,25 @@ The meter scanner works automatically. If it shows "Meter not recognised" or red
 | `id` | short English id, used in the link (`#peacock`) |
 | `number` | label above the title, e.g. `Verse 8 · Fractions` |
 | `topic` | maths topic shown on the card, e.g. `Linear equations` |
-| `meter` | e.g. `Meter: Mālinī (15 syllables per line)` |
-| `devanagari`, `iast` | the shloka line by line, same number of lines |
+| `meter` | e.g. `Meter: Malini (15 syllables per line)` |
+| `devanagari` | the shloka line by line |
 | `translation`, `translation_hi` | English and Hindi translations; `<b>` allowed |
-| `words` | one entry per word: `sanskrit`, `iast`, `meaning`, `note` |
+| `words` | one entry per word: `sanskrit`, `meaning`, `note` |
 | `grammar` | list of short notes; HTML allowed (`<b>`, `<span class='dv'>`) |
 | `question`, `answer`, `tolerance`, `unit` | the puzzle and its numeric answer |
 | `solution` | HTML: `<div class="math">` for steps, `<div class="science">` for the modern link |
 | `audio` | optional: path to your recording, e.g. `audio/08-name.mp3` |
 
-## Stotras and the Āryabhaṭīya (collections)
+## Stotras and the Aryabhatiya (collections)
 
 Each collection is a folder in `data/collections/`, for example `data/collections/nirvana/`:
 
 - `manifest.json`: `title`, `title_deva`, `author`, `kind` (`stotra` or `science`), `intro`, `note`, `opening`, `closing` and the list of `verses`.
-- `verses/01.json` …: same fields as a Lilavati verse. `question`, `answer`, `figure`, `code` are optional (the Āryabhaṭīya verses have them; stotras do not).
+- `verses/01.json` …: same fields as a Lilavati verse. `question`, `answer`, `figure`, `code` are optional (the Aryabhatiya verses have them; stotras do not).
 
 **Add a new stotra:** copy a folder such as `data/collections/nirvana/`, edit its manifest and verse files, and add its folder name to `data/collections.json`. It then appears on the home page, the Stotras page, in Flashcards and in the Quiz automatically.
 
-The meter scanner checks every line. Two light syllables may replace one heavy (a mātrā-equal variant); anything else it marks in red, which usually means a typo.
+The meter scanner checks every line. Two light syllables may replace one heavy (a matra-equal variant); anything else it marks in red, which usually means a typo.
 
 ## Your own recitation
 
@@ -96,22 +96,22 @@ Record the verse on your phone, save it as `audio/03-bees.mp3`, and add `"audio"
 ## Other edits
 
 - **Colours and fonts:** variables at the top of `css/style.css`.
-- **Shabdakosh term:** add an entry to `data/shabdakosh.json` (`sanskrit`, `iast`, `english`, `root`, optional `link`).
+- **Shabdakosh term:** add an entry to `data/shabdakosh.json` (`sanskrit`, `english`, `root`, optional `link`).
 - **Word bank:** add an entry to `data/vocab.json`.
 - **Reorder verses:** reorder `data/manifest.json`.
 
 ## Notes
 
 - The page loads its data with `fetch`, so double-clicking `index.html` will not work. Use `python -m http.server` locally.
-- Verse texts follow the commonly printed *Līlāvatī*. Compare with a printed edition before publishing new verses.
+- Verse texts follow the commonly printed *Lilavati*. Compare with a printed edition before publishing new verses.
 
 ## Animation
 
-The diya flame, the slowly turning mandala behind each shloka, the ārti glow while a verse plays, and the marigold petals on Bhakti pages are all in `css/style.css` (search for "devotional animation") and `js/app.js` (`shlokaMandala`, `glow`, `petals`). Visitors can switch them off with "Animations: on/off" in the footer, and they stop automatically for anyone whose device asks for reduced motion.
+The diya flame, the slowly turning mandala behind each shloka, the arti glow while a verse plays, and the marigold petals on Bhakti pages are all in `css/style.css` (search for "devotional animation") and `js/app.js` (`shlokaMandala`, `glow`, `petals`). Visitors can switch them off with "Animations: on/off" in the footer, and they stop automatically for anyone whose device asks for reduced motion.
 
 ## Grouping stotras
 
-A stotra's `manifest.json` can have `"group": "Shiva"` or `"group": "Durgā Saptaśatī"`. The Bhakti page shows one section per group, so a new group (for example "Viṣṇu") appears automatically.
+A stotra's `manifest.json` can have `"group": "Shiva"` or `"group": "Durga Saptashati"`. The Bhakti page shows one section per group, so a new group (for example "Vishnu") appears automatically.
 
 ## Offline app and sharing
 
@@ -121,8 +121,9 @@ A stotra's `manifest.json` can have `"group": "Shiva"` or `"group": "Durgā Sapt
 
 ## Prose texts
 
-A verse file can have `"meterNote"`: a sentence shown instead of the meter scanner. The Māṇḍūkya Upaniṣad uses it, because its mantras are prose.
+A verse file can have `"meterNote"`: a sentence shown instead of the meter scanner. The Mandukya Upanishad uses it, because its mantras are prose.
 
-## Devanagari first
 
-The site shows only Devanagari by default. Roman transliteration (IAST: ā, ṣ, ś…) is hidden, and English text is shown with plain spellings (Tāṇḍava → Tandava, Pañca → Pancha). This happens automatically when the page is shown, so keep writing IAST in the data files as before: it is needed for the "+ Roman" switch, which brings the scholarly spelling back. The share pages in `v/` always use plain spellings.
+## Devanagari only
+
+The site uses Devanagari for all Sanskrit. There is no Roman transliteration (IAST). When English text mentions a Sanskrit name, write it in plain spelling: Tandava, Upanishad, Saptashati, Panchachamara (च = ch, श/ष = sh).

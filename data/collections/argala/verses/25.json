@@ -1,69 +1,56 @@
 {
   "id": "argala-25",
-  "number": "Verse 25 · Phalaśruti",
+  "number": "Verse 25 · Phalashruti",
   "title": "Before the Great Hymn",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "इदं स्तोत्रं पठित्वा तु",
     "महास्तोत्रं पठेन्नरः।",
     "स तु सप्तशतीसंख्या-",
     "वरमाप्नोति सम्पदाम्॥"
   ],
-  "iast": [
-    "idaṃ stotraṃ paṭhitvā tu",
-    "mahā-stotraṃ paṭhen naraḥ |",
-    "sa tu saptaśatī-saṃkhyā-",
-    "varam āpnoti sampadām ||"
-  ],
-  "translation": "Whoever recites this stotra and <b>then the great hymn</b> (the Saptaśatī) gains the <b>highest of blessings</b>, as many as the Saptaśatī's <b>seven hundred verses</b>.",
+  "translation": "Whoever recites this stotra and <b>then the great hymn</b> (the Saptashati) gains the <b>highest of blessings</b>, as many as the Saptashati's <b>seven hundred verses</b>.",
   "translation_hi": "जो मनुष्य इस स्तोत्र का पाठ करके फिर महास्तोत्र (सप्तशती) का पाठ करता है, वह सप्तशती की संख्या के समान श्रेष्ठ संपदा प्राप्त करता है।",
   "words": [
     {
       "sanskrit": "पठित्वा",
-      "iast": "paṭhitvā",
       "meaning": "having recited",
       "note": "Gerund."
     },
     {
       "sanskrit": "महास्तोत्रम्",
-      "iast": "mahā-stotram",
       "meaning": "the great hymn",
-      "note": "The Saptaśatī itself."
+      "note": "The Saptashati itself."
     },
     {
       "sanskrit": "पठेत्",
-      "iast": "paṭhet",
       "meaning": "should recite",
       "note": "Optative."
     },
     {
       "sanskrit": "सप्तशती",
-      "iast": "saptaśatī",
       "meaning": "the seven hundred (verses)",
-      "note": "sapta (7) + śata (100)."
+      "note": "sapta (7) + shata (100)."
     },
     {
       "sanskrit": "संख्या",
-      "iast": "saṃkhyā",
       "meaning": "number",
       "note": ""
     },
     {
       "sanskrit": "आप्नोति",
-      "iast": "āpnoti",
       "meaning": "obtains",
       "note": ""
     },
     {
       "sanskrit": "सम्पदाम्",
-      "iast": "sampadām",
       "meaning": "of blessings, riches",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Why 'Argalā':</b> argalā means a bolt or latch. This stotra is the bolt that opens the door to the Saptaśatī, so it is recited before it.",
-    "<b>Saptaśatī = 700:</b> sapta × śata. The text is named by its number of verses.",
+    "<b>Why 'Argala':</b> argala means a bolt or latch. This stotra is the bolt that opens the door to the Saptashati, so it is recited before it.",
+    "<b>Saptashati = 700:</b> sapta × shata. The text is named by its number of verses.",
     "<b>t + n → nn:</b> <span class='dv'>पठेत् + नरः → पठेन्नरः</span>."
   ]
 }

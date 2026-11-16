@@ -2,98 +2,80 @@
   "id": "rudrashtakam-7",
   "number": "Verse 7",
   "title": "No Peace Without Him",
-  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "न यावद् उमानाथपादारविन्दं",
     "भजन्तीह लोके परे वा नराणाम्।",
     "न तावत्सुखं शान्ति सन्तापनाशं",
     "प्रसीद प्रभो सर्वभूताधिवासम्॥"
   ],
-  "iast": [
-    "na yāvad umā-nātha-pādāravindaṃ",
-    "bhajantīha loke pare vā narāṇām |",
-    "na tāvat sukhaṃ śānti santāpa-nāśaṃ",
-    "prasīda prabho sarva-bhūtādhivāsam ||"
-  ],
-  "translation": "As long as people do not worship the <b>lotus feet of Umā's lord</b>, in this world or the next, they find no <b>happiness</b>, no <b>peace</b>, no end to their suffering. Be pleased, O Lord, who dwells in <b>all beings</b>.",
+  "translation": "As long as people do not worship the <b>lotus feet of Uma's lord</b>, in this world or the next, they find no <b>happiness</b>, no <b>peace</b>, no end to their suffering. Be pleased, O Lord, who dwells in <b>all beings</b>.",
   "translation_hi": "जब तक मनुष्य इस लोक या परलोक में उमापति के चरण कमलों का भजन नहीं करते, तब तक उन्हें न सुख मिलता है, न शांति, न दुःखों का नाश होता है। हे सब प्राणियों में निवास करने वाले प्रभु, प्रसन्न होइए।",
   "words": [
     {
       "sanskrit": "यावत्",
-      "iast": "yāvat",
       "meaning": "as long as",
       "note": ""
     },
     {
       "sanskrit": "उमानाथ",
-      "iast": "umā-nātha",
-      "meaning": "lord of Umā",
+      "meaning": "lord of Uma",
       "note": ""
     },
     {
       "sanskrit": "पादारविन्दम्",
-      "iast": "pādāravindam",
       "meaning": "lotus feet",
-      "note": "pāda + aravinda (lotus)."
+      "note": "pada + aravinda (lotus)."
     },
     {
       "sanskrit": "भजन्ति",
-      "iast": "bhajanti",
       "meaning": "they worship",
       "note": ""
     },
     {
       "sanskrit": "इह लोके",
-      "iast": "iha loke",
       "meaning": "in this world",
       "note": ""
     },
     {
       "sanskrit": "परे",
-      "iast": "pare",
       "meaning": "in the next",
       "note": ""
     },
     {
       "sanskrit": "नराणाम्",
-      "iast": "narāṇām",
       "meaning": "of people",
       "note": ""
     },
     {
       "sanskrit": "तावत्",
-      "iast": "tāvat",
       "meaning": "so long",
       "note": ""
     },
     {
       "sanskrit": "सुखम्",
-      "iast": "sukham",
       "meaning": "happiness",
       "note": ""
     },
     {
       "sanskrit": "शान्ति",
-      "iast": "śānti",
       "meaning": "peace",
       "note": ""
     },
     {
       "sanskrit": "सन्तापनाशम्",
-      "iast": "santāpa-nāśam",
       "meaning": "end of suffering",
       "note": ""
     },
     {
       "sanskrit": "सर्वभूताधिवासम्",
-      "iast": "sarva-bhūtādhivāsam",
       "meaning": "dwelling in all beings",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Yāvat … tāvat:</b> 'as long as … so long', like Hindi जब तक … तब तक.",
+    "<b>Yavat … tavat:</b> 'as long as … so long', like Hindi जब तक … तब तक.",
     "<b>Meter note:</b> the scanner marks two syllables in line 1: <span class='dv'>यावद् उमा</span> gives light-light where the meter wants heavy-light. Tulsidas's Sanskrit allows small freedoms like this; reciters simply lengthen the syllable.",
-    "<b>Aravinda again:</b> 'lotus', as in अरविन्दचक्षुस् (lotus-eyed) in Tāṇḍava verse 12."
+    "<b>Aravinda again:</b> 'lotus', as in अरविन्दचक्षुस् (lotus-eyed) in Tandava verse 12."
   ]
 }

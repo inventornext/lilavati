@@ -2,68 +2,55 @@
   "id": "lingashtakam-5",
   "number": "Verse 5",
   "title": "Kumkum and Sandal",
-  "meter": "Meter: 16 mātrās per line (Dodhaka pattern)",
+  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "कुङ्कुमचन्दनलेपितलिङ्गं",
     "पङ्कजहारसुशोभितलिङ्गम्।",
     "सञ्चितपापविनाशनलिङ्गं",
     "तत्प्रणमामि सदाशिवलिङ्गम्॥"
   ],
-  "iast": [
-    "kuṅkuma-candana-lepita-liṅgaṃ",
-    "paṅkaja-hāra-suśobhita-liṅgam |",
-    "sañcita-pāpa-vināśana-liṅgaṃ",
-    "tat praṇamāmi sadāśiva-liṅgam ||"
-  ],
-  "translation": "Smeared with <b>kumkum and sandal paste</b>, beautiful with a <b>garland of lotuses</b>, the liṅga that destroys <b>accumulated sins</b>: I bow to that liṅga of Sadāśiva.",
+  "translation": "Smeared with <b>kumkum and sandal paste</b>, beautiful with a <b>garland of lotuses</b>, the linga that destroys <b>accumulated sins</b>: I bow to that linga of Sadashiva.",
   "translation_hi": "जो कुमकुम और चंदन से लिप्त है, कमलों की माला से सुशोभित है, और संचित पापों का नाश करता है, उस सदाशिव लिंग को मैं प्रणाम करता हूँ।",
   "words": [
     {
       "sanskrit": "कुङ्कुम",
-      "iast": "kuṅkuma",
       "meaning": "kumkum, saffron",
       "note": ""
     },
     {
       "sanskrit": "चन्दन",
-      "iast": "candana",
       "meaning": "sandalwood",
       "note": ""
     },
     {
       "sanskrit": "लेपित",
-      "iast": "lepita",
       "meaning": "smeared",
       "note": ""
     },
     {
       "sanskrit": "पङ्कज",
-      "iast": "paṅkaja",
       "meaning": "lotus",
       "note": "'Mud-born'."
     },
     {
       "sanskrit": "हार",
-      "iast": "hāra",
       "meaning": "garland",
       "note": "As in the necklace verse."
     },
     {
       "sanskrit": "सञ्चित",
-      "iast": "sañcita",
       "meaning": "accumulated",
       "note": "Hindi संचित."
     },
     {
       "sanskrit": "पाप",
-      "iast": "pāpa",
       "meaning": "sin",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Puja words:</b> kuṅkuma, candana, paṅkaja: the things you offer in your own puja.",
-    "<b>Saṃcita:</b> 'gathered up', the karma stored from past lives in the teaching of saṃcita, prārabdha and kriyamāṇa karma.",
-    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that liṅga of Sadāśiva.'"
+    "<b>Puja words:</b> kunkuma, candana, pankaja: the things you offer in your own puja.",
+    "<b>Samchita:</b> 'gathered up', the karma stored from past lives in the teaching of samchita, prarabdha and kriyamana karma.",
+    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that linga of Sadashiva.'"
   ]
 }

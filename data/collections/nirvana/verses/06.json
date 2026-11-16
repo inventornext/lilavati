@@ -2,74 +2,60 @@
   "id": "nirvana-6",
   "number": "Verse 6",
   "title": "Beyond All Form",
-  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "अहं निर्विकल्पो निराकाररूपो",
     "विभुत्वाच्च सर्वत्र सर्वेन्द्रियाणाम्।",
     "न चासङ्गतं नैव मुक्तिर्न मेय-",
     "श्चिदानन्दरूपः शिवोऽहं शिवोऽहम्॥"
   ],
-  "iast": [
-    "ahaṃ nirvikalpo nirākāra-rūpo",
-    "vibhutvāc ca sarvatra sarvendriyāṇām |",
-    "na cāsaṅgataṃ naiva muktir na meyaś",
-    "cid-ānanda-rūpaḥ śivo 'haṃ śivo 'ham ||"
-  ],
   "translation": "I am <b>without change</b>, <b>without form</b>. Being <b>all-pervading</b>, I am everywhere, beyond all the senses. I am not attached, not even liberation, and <b>cannot be measured</b>. My form is consciousness and bliss: I am Shiva, I am Shiva.",
   "translation_hi": "मैं निर्विकल्प हूँ, निराकार हूँ। सर्वव्यापी होने के कारण मैं सब जगह, सब इंद्रियों से परे हूँ। मैं न आसक्त हूँ, न मुक्ति हूँ, न मापा जा सकता हूँ। मेरा स्वरूप चेतना और आनंद है: मैं शिव हूँ, मैं शिव हूँ।",
   "words": [
     {
       "sanskrit": "निर्विकल्पः",
-      "iast": "nirvikalpaḥ",
       "meaning": "without change, without alternatives",
       "note": "nir + vikalpa. Hindi विकल्प (option)."
     },
     {
       "sanskrit": "निराकाररूपः",
-      "iast": "nirākāra-rūpaḥ",
       "meaning": "formless",
-      "note": "nir + ākāra (shape). Hindi निराकार."
+      "note": "nir + akara (shape). Hindi निराकार."
     },
     {
       "sanskrit": "विभुत्वात्",
-      "iast": "vibhutvāt",
       "meaning": "because of being all-pervading",
-      "note": "Ablative of cause, like pavana-vegāt in the bamboo verse."
+      "note": "Ablative of cause, like pavana-vegat in the bamboo verse."
     },
     {
       "sanskrit": "सर्वत्र",
-      "iast": "sarvatra",
       "meaning": "everywhere",
       "note": ""
     },
     {
       "sanskrit": "सर्वेन्द्रियाणाम्",
-      "iast": "sarvendriyāṇām",
       "meaning": "of all the senses",
       "note": "sarva + indriya."
     },
     {
       "sanskrit": "असङ्गतम्",
-      "iast": "asaṅgatam",
       "meaning": "unattached",
       "note": ""
     },
     {
       "sanskrit": "मुक्तिः",
-      "iast": "muktiḥ",
       "meaning": "liberation",
       "note": ""
     },
     {
       "sanskrit": "मेयः",
-      "iast": "meyaḥ",
       "meaning": "measurable",
-      "note": "√mā (to measure). Same root as pramāṇa and māna!"
+      "note": "√ma (to measure). Same root as pramana and mana!"
     }
   ],
   "grammar": [
     "<b>Ablative of cause:</b> <span class='dv'>विभुत्वात्</span> 'because of all-pervadingness'.",
-    "<b>Root √mā 'measure':</b> <span class='dv'>मेय</span> (measurable), प्रमाण (measure), मान (amount). The Self is a-meya, beyond measurement, the one quantity the Lilavati cannot compute.",
+    "<b>Root √ma 'measure':</b> <span class='dv'>मेय</span> (measurable), प्रमाण (measure), मान (amount). The Self is a-meya, beyond measurement, the one quantity the Lilavati cannot compute.",
     "<b>Variant reading:</b> some editions read line 3 as <span class='dv'>सदा मे समत्वं न मुक्तिर्न बन्धः</span>."
   ]
 }

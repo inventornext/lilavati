@@ -3,176 +3,145 @@
   "number": "Verse 2 · Fractions",
   "topic": "Linear equations",
   "title": "The Broken Pearl Necklace",
-  "meter": "Meter: Sragdharā (21 syllables per line)",
+  "meter": "Meter: Sragdhara (21 syllables per line)",
   "devanagari": [
     "हारस्तारस्तरुण्या निधुवनकलहे मौक्तिकानां विशीर्णो",
     "भूमौ यातस्त्रिभागः शयनतलगतः पञ्चमांशोऽस्य दृष्टः।",
     "प्राप्तः षष्ठः सुकेश्या गणक दशमकः सङ्गृहीतः प्रियेण",
     "दृष्टं षट्कं च सूत्रे कथय कतिपयैर्मौक्तिकैरेष हारः॥"
   ],
-  "iast": [
-    "hāras tāras taruṇyā nidhuvana-kalahe mauktikānāṃ viśīrṇo",
-    "bhūmau yātas tri-bhāgaḥ śayana-tala-gataḥ pañcamāṃśo 'sya dṛṣṭaḥ |",
-    "prāptaḥ ṣaṣṭhaḥ sukeśyā gaṇaka daśamakaḥ saṅgṛhītaḥ priyeṇa",
-    "dṛṣṭaṃ ṣaṭkaṃ ca sūtre kathaya katipayair mauktikair eṣa hāraḥ ||"
-  ],
   "translation": "In a playful quarrel between lovers, a young woman's shining necklace of pearls broke. <b>One third</b> of the pearls fell to the floor, <b>one fifth</b> was seen on the bed, <b>one sixth</b> was found by the lovely-haired woman, and <b>one tenth</b> was gathered by her beloved. <b>Six</b> pearls were seen still on the string. O mathematician, tell me how many pearls the necklace had.",
   "translation_hi": "प्रेमियों की हँसी ठिठोली वाली नोक झोंक में एक युवती का मोतियों का चमकता हार टूट गया। उसका तीसरा भाग भूमि पर गिरा, पाँचवाँ भाग बिस्तर पर दिखा, छठा भाग सुंदर केशों वाली ने पाया और दसवाँ भाग प्रियतम ने उठा लिया। धागे में छह मोती बचे दिखे। हे गणितज्ञ, बताओ इस हार में कितने मोती थे?",
   "words": [
     {
       "sanskrit": "हारः",
-      "iast": "hāraḥ",
       "meaning": "necklace",
       "note": "Compare Hindi हार."
     },
     {
       "sanskrit": "तारः",
-      "iast": "tāraḥ",
       "meaning": "shining",
       "note": "Bright, sparkling. Visarga becomes स् before त: हारस्तारः."
     },
     {
       "sanskrit": "तरुण्याः",
-      "iast": "taruṇyāḥ",
       "meaning": "of a young woman",
-      "note": "Genitive of taruṇī. Hindi तरुण, तरुणी."
+      "note": "Genitive of taruni. Hindi तरुण, तरुणी."
     },
     {
       "sanskrit": "निधुवनकलहे",
-      "iast": "nidhuvana-kalahe",
       "meaning": "in a lovers' playful quarrel",
       "note": "kalaha = quarrel (Hindi कलह). Locative."
     },
     {
       "sanskrit": "मौक्तिकानाम्",
-      "iast": "mauktikānām",
       "meaning": "of pearls",
       "note": "Genitive plural of mauktika (pearl). Hindi मोती comes from this."
     },
     {
       "sanskrit": "विशीर्णः",
-      "iast": "viśīrṇaḥ",
       "meaning": "broken, scattered",
-      "note": "Past participle of vi + √śṝ. -अः becomes -ओ before a voiced sound."
+      "note": "Past participle of vi + √shri. -अः becomes -ओ before a voiced sound."
     },
     {
       "sanskrit": "भूमौ",
-      "iast": "bhūmau",
       "meaning": "on the ground",
-      "note": "Locative of bhūmi."
+      "note": "Locative of bhumi."
     },
     {
       "sanskrit": "यातः",
-      "iast": "yātaḥ",
       "meaning": "went, fell",
-      "note": "Past participle of √yā (to go)."
+      "note": "Past participle of √ya (to go)."
     },
     {
       "sanskrit": "त्रिभागः",
-      "iast": "tri-bhāgaḥ",
       "meaning": "a third part",
-      "note": "tri (three) + bhāga (part) = 1/3."
+      "note": "tri (three) + bhaga (part) = 1/3."
     },
     {
       "sanskrit": "शयनतलगतः",
-      "iast": "śayana-tala-gataḥ",
       "meaning": "fallen on the bed",
-      "note": "śayana (bed) + tala (surface) + gata (gone)."
+      "note": "shayana (bed) + tala (surface) + gata (gone)."
     },
     {
       "sanskrit": "पञ्चमांशः",
-      "iast": "pañcama-aṃśaḥ",
       "meaning": "a fifth part",
-      "note": "pañcama (fifth) + aṃśa (portion) = 1/5. Hindi अंश."
+      "note": "panchama (fifth) + amsha (portion) = 1/5. Hindi अंश."
     },
     {
       "sanskrit": "अस्य",
-      "iast": "asya",
       "meaning": "of it",
       "note": "Genitive of idam, 'of the necklace'."
     },
     {
       "sanskrit": "दृष्टः",
-      "iast": "dṛṣṭaḥ",
       "meaning": "was seen",
-      "note": "Past participle of √dṛś (to see)."
+      "note": "Past participle of √drish (to see)."
     },
     {
       "sanskrit": "प्राप्तः",
-      "iast": "prāptaḥ",
       "meaning": "was obtained",
-      "note": "Past participle of pra + √āp. Hindi प्राप्त."
+      "note": "Past participle of pra + √ap. Hindi प्राप्त."
     },
     {
       "sanskrit": "षष्ठः",
-      "iast": "ṣaṣṭhaḥ",
       "meaning": "a sixth",
-      "note": "Ordinal of ṣaṣ (six) = 1/6."
+      "note": "Ordinal of shash (six) = 1/6."
     },
     {
       "sanskrit": "सुकेश्या",
-      "iast": "sukeśyā",
       "meaning": "by the lovely-haired woman",
-      "note": "su (good) + keśa (hair). Instrumental: the 'by' case."
+      "note": "su (good) + kesha (hair). Instrumental: the 'by' case."
     },
     {
       "sanskrit": "गणक",
-      "iast": "gaṇaka",
       "meaning": "O mathematician",
       "note": "Vocative."
     },
     {
       "sanskrit": "दशमकः",
-      "iast": "daśamakaḥ",
       "meaning": "a tenth",
-      "note": "Ordinal of daśa = 1/10."
+      "note": "Ordinal of dasha = 1/10."
     },
     {
       "sanskrit": "सङ्गृहीतः",
-      "iast": "saṅgṛhītaḥ",
       "meaning": "was gathered",
       "note": "Past participle of sam + √grah. Hindi संग्रह."
     },
     {
       "sanskrit": "प्रियेण",
-      "iast": "priyeṇa",
       "meaning": "by the beloved",
       "note": "Instrumental of priya."
     },
     {
       "sanskrit": "षट्कम्",
-      "iast": "ṣaṭkam",
       "meaning": "a group of six",
-      "note": "ṣaṭ (six) + -ka (group)."
+      "note": "shat (six) + -ka (group)."
     },
     {
       "sanskrit": "सूत्रे",
-      "iast": "sūtre",
       "meaning": "on the string",
-      "note": "Locative of sūtra (thread). Hindi सूत, सूत्र."
+      "note": "Locative of sutra (thread). Hindi सूत, सूत्र."
     },
     {
       "sanskrit": "कथय",
-      "iast": "kathaya",
       "meaning": "tell!",
       "note": "Imperative of √kath."
     },
     {
       "sanskrit": "कतिपयैः",
-      "iast": "katipayaiḥ",
       "meaning": "with how many",
       "note": "Instrumental plural: 'made of how many pearls'."
     },
     {
       "sanskrit": "एषः",
-      "iast": "eṣaḥ",
       "meaning": "this",
       "note": "Its visarga drops before a consonant: एष हारः."
     }
   ],
   "grammar": [
     "<b>Visarga before t:</b> <span class='dv'>हारः + तारः → हारस्तारः</span>. Before त/थ, visarga becomes स्.",
-    "<b>-aḥ before a voiced sound:</b> <span class='dv'>विशीर्णः + भूमौ → विशीर्णो भूमौ</span>. Final -अः becomes -ओ before a voiced consonant.",
+    "<b>-ah before a voiced sound:</b> <span class='dv'>विशीर्णः + भूमौ → विशीर्णो भूमौ</span>. Final -अः becomes -ओ before a voiced consonant.",
     "<b>Passive with instrumental:</b> <span class='dv'>सुकेश्या प्राप्तः</span> 'was found by the lovely-haired one', <span class='dv'>प्रियेण सङ्गृहीतः</span> 'was gathered by the beloved'. The doer takes the instrumental case.",
     "<b>Fractions as ordinals:</b> <span class='dv'>त्रिभाग, पञ्चमांश, षष्ठ, दशमक</span> = 1/3, 1/5, 1/6, 1/10. 'The fifth' means 'the fifth part'."
   ],
@@ -180,6 +149,6 @@
   "answer": 30,
   "unit": "pearls",
   "figure": "figures/02-necklace.svg",
-  "solution": "<div class=\"math\"><p>Let the pearls be <i>x</i>. The parts that fell: 1/3 + 1/5 + 1/6 + 1/10 = (10 + 6 + 5 + 3)/30 = 24/30</p><p>So the string keeps 6/30 of the pearls: (6/30) x = 6 &nbsp;⟹&nbsp; <b>x = 30 pearls</b></p><p>Bhaskara's way, <span class=\"dv\">इष्टकर्म</span> (iṣṭa-karma, 'working with a chosen number'): guess any number, say 30. The parts leave 6 on the string. The verse also says 6, so the guess is exactly right.</p></div><div class=\"science\"><b>Science link:</b> iṣṭa-karma is the <i>method of false position</i>: assume an answer, see how far off it is, then scale. Its descendant, <i>regula falsi</i>, is still taught in numerical methods for finding roots of equations.</div>",
+  "solution": "<div class=\"math\"><p>Let the pearls be <i>x</i>. The parts that fell: 1/3 + 1/5 + 1/6 + 1/10 = (10 + 6 + 5 + 3)/30 = 24/30</p><p>So the string keeps 6/30 of the pearls: (6/30) x = 6 &nbsp;⟹&nbsp; <b>x = 30 pearls</b></p><p>Bhaskara's way, <span class=\"dv\">इष्टकर्म</span> (ishta-karma, 'working with a chosen number'): guess any number, say 30. The parts leave 6 on the string. The verse also says 6, so the guess is exactly right.</p></div><div class=\"science\"><b>Science link:</b> ishta-karma is the <i>method of false position</i>: assume an answer, see how far off it is, then scale. Its descendant, <i>regula falsi</i>, is still taught in numerical methods for finding roots of equations.</div>",
   "code": "code/02-necklace.py"
 }

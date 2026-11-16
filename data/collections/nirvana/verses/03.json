@@ -2,86 +2,70 @@
   "id": "nirvana-3",
   "number": "Verse 3",
   "title": "No Hatred, No Desire",
-  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "न मे द्वेषरागौ न मे लोभमोहौ",
     "मदो नैव मे नैव मात्सर्यभावः।",
     "न धर्मो न चार्थो न कामो न मोक्ष-",
     "श्चिदानन्दरूपः शिवोऽहं शिवोऽहम्॥"
   ],
-  "iast": [
-    "na me dveṣa-rāgau na me lobha-mohau",
-    "mado naiva me naiva mātsarya-bhāvaḥ |",
-    "na dharmo na cārtho na kāmo na mokṣaś",
-    "cid-ānanda-rūpaḥ śivo 'haṃ śivo 'ham ||"
-  ],
   "translation": "I have no <b>hatred or attachment</b>, no <b>greed or delusion</b>, no <b>pride</b> and no <b>jealousy</b>. I have no duty, wealth, desire or liberation: not even the <b>four goals of life</b>. My form is consciousness and bliss: I am Shiva, I am Shiva.",
   "translation_hi": "मुझमें न द्वेष है न राग, न लोभ न मोह, न मद है न मत्सर। मेरे लिए न धर्म है, न अर्थ, न काम, न मोक्ष। मेरा स्वरूप चेतना और आनंद है: मैं शिव हूँ, मैं शिव हूँ।",
   "words": [
     {
       "sanskrit": "मे",
-      "iast": "me",
       "meaning": "my, for me",
       "note": ""
     },
     {
       "sanskrit": "द्वेषरागौ",
-      "iast": "dveṣa-rāgau",
       "meaning": "hatred and attachment",
       "note": "Dual. Hindi द्वेष, राग."
     },
     {
       "sanskrit": "लोभमोहौ",
-      "iast": "lobha-mohau",
       "meaning": "greed and delusion",
       "note": "Dual."
     },
     {
       "sanskrit": "मदः",
-      "iast": "madaḥ",
       "meaning": "pride, intoxication",
       "note": ""
     },
     {
       "sanskrit": "नैव",
-      "iast": "naiva",
       "meaning": "not at all",
       "note": "na + eva."
     },
     {
       "sanskrit": "मात्सर्यभावः",
-      "iast": "mātsarya-bhāvaḥ",
       "meaning": "jealousy",
       "note": "Hindi मत्सर."
     },
     {
       "sanskrit": "धर्मः",
-      "iast": "dharmaḥ",
       "meaning": "duty, righteousness",
       "note": ""
     },
     {
       "sanskrit": "अर्थः",
-      "iast": "arthaḥ",
       "meaning": "wealth",
       "note": ""
     },
     {
       "sanskrit": "कामः",
-      "iast": "kāmaḥ",
       "meaning": "desire",
       "note": ""
     },
     {
       "sanskrit": "मोक्षः",
-      "iast": "mokṣaḥ",
       "meaning": "liberation",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>The six enemies:</b> kāma, krodha, lobha, moha, mada, mātsarya (ṣaḍ-ripu). This verse lists most of them.",
-    "<b>The four puruṣārthas:</b> dharma, artha, kāma, mokṣa. Even the highest goal, mokṣa, is denied: the Self is already free.",
+    "<b>The six enemies:</b> kama, krodha, lobha, moha, mada, matsarya (shad-ripu). This verse lists most of them.",
+    "<b>The four purusharthas:</b> dharma, artha, kama, moksha. Even the highest goal, moksha, is denied: the Self is already free.",
     "<b>Dual with -au:</b> <span class='dv'>द्वेषरागौ, लोभमोहौ</span>, nominative dual for pairs, like हरे गुरौ uses a locative."
   ]
 }

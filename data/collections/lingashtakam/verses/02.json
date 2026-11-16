@@ -1,69 +1,56 @@
 {
   "id": "lingashtakam-2",
   "number": "Verse 2",
-  "title": "Destroyer of Rāvaṇa's Pride",
-  "meter": "Meter: 16 mātrās per line (Dodhaka pattern)",
+  "title": "Destroyer of Ravana's Pride",
+  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "देवमुनिप्रवरार्चितलिङ्गं",
     "कामदहं करुणाकरलिङ्गम्।",
     "रावणदर्पविनाशनलिङ्गं",
     "तत्प्रणमामि सदाशिवलिङ्गम्॥"
   ],
-  "iast": [
-    "deva-muni-pravarārcita-liṅgaṃ",
-    "kāma-dahaṃ karuṇākara-liṅgam |",
-    "rāvaṇa-darpa-vināśana-liṅgaṃ",
-    "tat praṇamāmi sadāśiva-liṅgam ||"
-  ],
-  "translation": "Worshipped by the best of <b>gods and sages</b>, the one that <b>burned Kāma</b>, the <b>mine of compassion</b>, the liṅga that <b>destroyed Rāvaṇa's pride</b>: I bow to that liṅga of Sadāśiva.",
+  "translation": "Worshipped by the best of <b>gods and sages</b>, the one that <b>burned Kama</b>, the <b>mine of compassion</b>, the linga that <b>destroyed Ravana's pride</b>: I bow to that linga of Sadashiva.",
   "translation_hi": "जो देवताओं और श्रेष्ठ मुनियों द्वारा पूजित है, कामदेव को भस्म करने वाला, करुणा का भंडार है, और जिसने रावण का अहंकार नष्ट किया, उस सदाशिव लिंग को मैं प्रणाम करता हूँ।",
   "words": [
     {
       "sanskrit": "मुनि",
-      "iast": "muni",
       "meaning": "sage",
       "note": ""
     },
     {
       "sanskrit": "प्रवर",
-      "iast": "pravara",
       "meaning": "the best",
       "note": ""
     },
     {
       "sanskrit": "कामदहम्",
-      "iast": "kāma-daham",
-      "meaning": "burner of Kāma",
+      "meaning": "burner of Kama",
       "note": "√dah (to burn). Hindi दहन."
     },
     {
       "sanskrit": "करुणाकर",
-      "iast": "karuṇākara",
       "meaning": "mine of compassion",
-      "note": "karuṇā + ākara (mine, source)."
+      "note": "karuna + akara (mine, source)."
     },
     {
       "sanskrit": "रावण",
-      "iast": "rāvaṇa",
-      "meaning": "Rāvaṇa",
-      "note": "The author of the Tāṇḍava stotra!"
+      "meaning": "Ravana",
+      "note": "The author of the Tandava stotra!"
     },
     {
       "sanskrit": "दर्प",
-      "iast": "darpa",
       "meaning": "pride",
       "note": ""
     },
     {
       "sanskrit": "विनाशन",
-      "iast": "vināśana",
       "meaning": "destroying",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>A link between hymns:</b> Rāvaṇa, who sang the Tāṇḍava stotra, once tried to lift Kailāsa; Shiva pressed it down with his toe and humbled his pride.",
-    "<b>Ākara 'mine, source':</b> <span class='dv'>करुणाकर</span>. Compare रत्नाकर (the ocean, 'mine of jewels').",
-    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that liṅga of Sadāśiva.'"
+    "<b>A link between hymns:</b> Ravana, who sang the Tandava stotra, once tried to lift Kailasa; Shiva pressed it down with his toe and humbled his pride.",
+    "<b>Akara 'mine, source':</b> <span class='dv'>करुणाकर</span>. Compare रत्नाकर (the ocean, 'mine of jewels').",
+    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that linga of Sadashiva.'"
   ]
 }

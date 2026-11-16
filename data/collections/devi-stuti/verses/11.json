@@ -1,28 +1,21 @@
 {
   "id": "devi-stuti-11",
-  "number": "Yā Devī 6",
+  "number": "Ya Devi 6",
   "title": "Shadow",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "छायारूपेण संस्थिता।",
     "नमस्तस्यै नमस्तस्यै",
     "नमस्तस्यै नमो नमः॥"
   ],
-  "iast": [
-    "yā devī sarva-bhūteṣu",
-    "chāyā-rūpeṇa saṃsthitā |",
-    "namas tasyai namas tasyai",
-    "namas tasyai namo namaḥ ||"
-  ],
   "translation": "To the Goddess who, in all beings, is <b>present as shadow (shelter)</b>: salutation to her, salutation to her, salutation to her, salutation again and again.",
   "translation_hi": "जो देवी सब प्राणियों में छाया रूप में स्थित हैं, उनको नमस्कार है, उनको नमस्कार है, उनको नमस्कार है, बार बार नमस्कार है।",
   "words": [
     {
       "sanskrit": "छाया",
-      "iast": "chāyā",
       "meaning": "shadow, shelter",
-      "note": "As in Āryabhaṭa's verse on the Moon."
+      "note": "As in Aryabhata's verse on the Moon."
     }
   ],
   "grammar": [

@@ -2,37 +2,28 @@
   "id": "argala-14",
   "number": "Verse 14",
   "title": "Grant Welfare",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "विधेहि देवि कल्याणं",
     "विधेहि परमां श्रियम्।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "vidhehi devi kalyāṇaṃ",
-    "vidhehi paramāṃ śriyam |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
   "translation": "O Goddess, grant <b>welfare</b>, grant the <b>highest prosperity</b>. <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे देवी, कल्याण कीजिए, परम समृद्धि दीजिए। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "कल्याणम्",
-      "iast": "kalyāṇam",
       "meaning": "welfare",
       "note": ""
     },
     {
       "sanskrit": "परमाम्",
-      "iast": "paramām",
       "meaning": "highest (feminine)",
-      "note": "Agrees with śriyam."
+      "note": "Agrees with shriyam."
     },
     {
       "sanskrit": "श्रियम्",
-      "iast": "śriyam",
       "meaning": "prosperity",
       "note": ""
     }

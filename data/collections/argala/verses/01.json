@@ -2,86 +2,70 @@
   "id": "argala-1",
   "number": "Verse 1",
   "title": "Eleven Names",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "जयन्ती मङ्गला काली",
     "भद्रकाली कपालिनी।",
     "दुर्गा क्षमा शिवा धात्री",
     "स्वाहा स्वधा नमोऽस्तु ते॥"
   ],
-  "iast": [
-    "jayantī maṅgalā kālī",
-    "bhadrakālī kapālinī |",
-    "durgā kṣamā śivā dhātrī",
-    "svāhā svadhā namo 'stu te ||"
-  ],
-  "translation": "<b>Jayantī</b> (the victorious), <b>Maṅgalā</b>, <b>Kālī</b>, <b>Bhadrakālī</b>, <b>Kapālinī</b>, <b>Durgā</b>, <b>Kṣamā</b>, <b>Śivā</b>, <b>Dhātrī</b>, <b>Svāhā</b> and <b>Svadhā</b>: salutations to you.",
+  "translation": "<b>Jayanti</b> (the victorious), <b>Mangala</b>, <b>Kali</b>, <b>Bhadrakali</b>, <b>Kapalini</b>, <b>Durga</b>, <b>Kshama</b>, <b>Shiva</b>, <b>Dhatri</b>, <b>Svaha</b> and <b>Svadha</b>: salutations to you.",
   "translation_hi": "जयंती, मंगला, काली, भद्रकाली, कपालिनी, दुर्गा, क्षमा, शिवा, धात्री, स्वाहा और स्वधा, आपको नमस्कार है।",
   "words": [
     {
       "sanskrit": "जयन्ती",
-      "iast": "jayantī",
       "meaning": "the victorious",
       "note": "Present participle of √ji, feminine."
     },
     {
       "sanskrit": "मङ्गला",
-      "iast": "maṅgalā",
       "meaning": "the auspicious",
       "note": ""
     },
     {
       "sanskrit": "काली",
-      "iast": "kālī",
       "meaning": "the dark one, Time",
       "note": ""
     },
     {
       "sanskrit": "भद्रकाली",
-      "iast": "bhadrakālī",
-      "meaning": "the gracious Kālī",
+      "meaning": "the gracious Kali",
       "note": ""
     },
     {
       "sanskrit": "कपालिनी",
-      "iast": "kapālinī",
       "meaning": "bearer of the skull",
-      "note": "Feminine of kapālin (Tāṇḍava verse 6)."
+      "note": "Feminine of kapalin (Tandava verse 6)."
     },
     {
       "sanskrit": "क्षमा",
-      "iast": "kṣamā",
       "meaning": "forgiveness, the earth",
       "note": ""
     },
     {
       "sanskrit": "धात्री",
-      "iast": "dhātrī",
       "meaning": "supporter",
       "note": ""
     },
     {
       "sanskrit": "स्वाहा",
-      "iast": "svāhā",
-      "meaning": "Svāhā",
+      "meaning": "Svaha",
       "note": "The call with which offerings are poured into the fire."
     },
     {
       "sanskrit": "स्वधा",
-      "iast": "svadhā",
-      "meaning": "Svadhā",
+      "meaning": "Svadha",
       "note": "The call for offerings to the ancestors."
     },
     {
       "sanskrit": "नमोऽस्तु ते",
-      "iast": "namo 'stu te",
       "meaning": "salutations be to you",
-      "note": "namaḥ + astu + te."
+      "note": "namah + astu + te."
     }
   ],
   "grammar": [
-    "<b>This verse is a mantra:</b> it is often chanted on its own, 108 times, in Navarātri.",
+    "<b>This verse is a mantra:</b> it is often chanted on its own, 108 times, in Navaratri.",
     "<b>Avagraha:</b> <span class='dv'>नमः + अस्तु → नमोऽस्तु</span>.",
-    "<b>Svāhā and svadhā:</b> the two words spoken when offerings are made to the gods and to the ancestors. The Goddess is both."
+    "<b>Svaha and svadha:</b> the two words spoken when offerings are made to the gods and to the ancestors. The Goddess is both."
   ]
 }

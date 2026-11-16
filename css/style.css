@@ -343,4 +343,4 @@ button.cta { border: 0; cursor: pointer; font: inherit; font-weight: 600; }
 .install-app[hidden] { display: none !important; }
 
 /* Devanagari first: Roman transliteration only when "+ Roman" is on */
-body:not(.roman) .iast { display: none !important; }
+

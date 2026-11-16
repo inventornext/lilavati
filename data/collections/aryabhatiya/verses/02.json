@@ -1,84 +1,70 @@
 {
   "id": "aryabhatiya-2",
-  "number": "Golapāda 9 · Astronomy",
+  "number": "Golapada 9 · Astronomy",
   "topic": "Rotation of the Earth",
   "title": "The Boat and the Stars",
-  "meter": "Meter: Āryā (counted in mātrās: 30 + 27 per half-verse)",
+  "meter": "Meter: Arya (counted in matras: 30 + 27 per half-verse)",
   "devanagari": [
     "अनुलोमगतिर्नौस्थः पश्यत्यचलं विलोमगं यद्वत्।",
     "अचलानि भानि तद्वत् समपश्चिमगानि लङ्कायाम्॥"
   ],
-  "iast": [
-    "anuloma-gatir nau-sthaḥ paśyaty acalaṃ vilomagaṃ yadvat |",
-    "acalāni bhāni tadvat sama-paścima-gāni laṅkāyām ||"
-  ],
-  "translation": "Just as a man in a <b>boat moving forward</b> sees the <b>still objects</b> on the shore <b>moving backward</b>, so at Laṅkā (on the equator) the <b>still stars</b> are seen moving <b>exactly westward</b>.",
+  "translation": "Just as a man in a <b>boat moving forward</b> sees the <b>still objects</b> on the shore <b>moving backward</b>, so at Lanka (on the equator) the <b>still stars</b> are seen moving <b>exactly westward</b>.",
   "translation_hi": "जैसे आगे बढ़ती नाव में बैठा व्यक्ति किनारे की स्थिर वस्तुओं को पीछे की ओर जाते देखता है, वैसे ही लंका (भूमध्य रेखा) पर स्थिर तारे ठीक पश्चिम की ओर जाते दिखाई देते हैं।",
   "words": [
     {
       "sanskrit": "अनुलोमगतिः",
-      "iast": "anuloma-gatiḥ",
       "meaning": "moving forward",
       "note": "anuloma = 'with the grain', forward."
     },
     {
       "sanskrit": "नौस्थः",
-      "iast": "nau-sthaḥ",
       "meaning": "one standing in a boat",
       "note": "nau = boat. Hindi नाव; English 'navy' shares the root!"
     },
     {
       "sanskrit": "पश्यति",
-      "iast": "paśyati",
       "meaning": "sees",
-      "note": "Present of √paś/√dṛś."
+      "note": "Present of √pash/√drish."
     },
     {
       "sanskrit": "अचलम्",
-      "iast": "acalam",
       "meaning": "the unmoving (thing)",
       "note": "a + cala. Hindi अचल."
     },
     {
       "sanskrit": "विलोमगम्",
-      "iast": "vilomagam",
       "meaning": "going backward",
       "note": "viloma = against the grain."
     },
     {
       "sanskrit": "यद्वत्",
-      "iast": "yadvat",
       "meaning": "just as",
       "note": ""
     },
     {
       "sanskrit": "अचलानि भानि",
-      "iast": "acalāni bhāni",
       "meaning": "the unmoving stars",
-      "note": "bha = star, from √bhā (to shine)."
+      "note": "bha = star, from √bha (to shine)."
     },
     {
       "sanskrit": "तद्वत्",
-      "iast": "tadvat",
       "meaning": "so, in the same way",
       "note": ""
     },
     {
       "sanskrit": "समपश्चिमगानि",
-      "iast": "sama-paścima-gāni",
       "meaning": "moving exactly westward",
-      "note": "paścima = west. Hindi पश्चिम."
+      "note": "pashchima = west. Hindi पश्चिम."
     },
     {
       "sanskrit": "लङ्कायाम्",
-      "iast": "laṅkāyām",
-      "meaning": "at Laṅkā",
-      "note": "In Indian astronomy, Laṅkā is the point on the equator at longitude zero."
+      "meaning": "at Lanka",
+      "note": "In Indian astronomy, Lanka is the point on the equator at longitude zero."
     }
   ],
   "grammar": [
     "<b>Yadvat … tadvat:</b> 'just as … so', a relative-correlative pair for comparisons.",
-    "<b>Anuloma and viloma:</b> 'with the hair' and 'against the hair'. Yoga students know them from anuloma-viloma prāṇāyāma.",
+    "<b>Anuloma and viloma:</b> 'with the hair' and 'against the hair'. Yoga students know them from anuloma-viloma pranayama.",
     "<b>Neuter plural:</b> <span class='dv'>अचलानि भानि …गानि</span>, all ending in -आनि because bha (star) is neuter."
   ],
   "question": "A point on the equator travels about 40,075 km in 24 hours. Roughly how fast is it moving, in km/h?",
@@ -86,6 +72,6 @@
   "tolerance": 15,
   "unit": "km/h",
   "figure": "figures/aryabhatiya/02-boat.svg",
-  "solution": "<div class=\"math\"><p>Speed = 40075 km / 24 h ≈ <b>1670 km/h</b></p><p>We feel none of it, just as the man in the smooth boat feels still while the shore slides past.</p></div><div class=\"science\"><b>Science link:</b> Āryabhaṭa explained the daily motion of the stars by the Earth's rotation, about a thousand years before Copernicus. Relative motion, the boat analogy, is the same idea Galileo used and Einstein built relativity on. Many later Indian astronomers rejected this view, so Āryabhaṭa was ahead even of his own tradition.</div>",
+  "solution": "<div class=\"math\"><p>Speed = 40075 km / 24 h ≈ <b>1670 km/h</b></p><p>We feel none of it, just as the man in the smooth boat feels still while the shore slides past.</p></div><div class=\"science\"><b>Science link:</b> Aryabhata explained the daily motion of the stars by the Earth's rotation, about a thousand years before Copernicus. Relative motion, the boat analogy, is the same idea Galileo used and Einstein built relativity on. Many later Indian astronomers rejected this view, so Aryabhata was ahead even of his own tradition.</div>",
   "code": "code/aryabhatiya/02-boat.py"
 }

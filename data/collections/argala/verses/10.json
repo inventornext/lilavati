@@ -2,43 +2,33 @@
   "id": "argala-10",
   "number": "Verse 10",
   "title": "For Those Who Praise",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "स्तुवद्भ्यो भक्तिपूर्वं त्वां",
     "चण्डिके व्याधिनाशिनि।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "stuvadbhyo bhakti-pūrvaṃ tvāṃ",
-    "caṇḍike vyādhi-nāśini |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "O Caṇḍikā, destroyer of <b>disease</b>, for those who <b>praise you with devotion</b>: <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "O Chandika, destroyer of <b>disease</b>, for those who <b>praise you with devotion</b>: <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे रोगों का नाश करने वाली चंडिका, जो भक्तिपूर्वक आपकी स्तुति करते हैं, उन्हें। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "स्तुवद्भ्यः",
-      "iast": "stuvadbhyaḥ",
       "meaning": "for those praising",
       "note": "Dative plural of the present participle of √stu."
     },
     {
       "sanskrit": "भक्तिपूर्वम्",
-      "iast": "bhakti-pūrvam",
       "meaning": "with devotion",
       "note": ""
     },
     {
       "sanskrit": "त्वाम्",
-      "iast": "tvām",
       "meaning": "you",
       "note": "Accusative."
     },
     {
       "sanskrit": "व्याधि",
-      "iast": "vyādhi",
       "meaning": "disease",
       "note": ""
     }

@@ -1,50 +1,40 @@
 {
   "id": "argala-18",
   "number": "Verse 18",
-  "title": "Praised by Brahmā",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "title": "Praised by Brahma",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "चतुर्भुजे चतुर्वक्त्र-",
     "संस्तुते परमेश्वरि।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "caturbhuje caturvaktra-",
-    "saṃstute parameśvari |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "O <b>four-armed</b> one, praised by the <b>four-faced Brahmā</b>, O Supreme Goddess! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "O <b>four-armed</b> one, praised by the <b>four-faced Brahma</b>, O Supreme Goddess! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे चतुर्भुजा, चतुर्मुख ब्रह्मा द्वारा स्तुत, हे परमेश्वरी। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "चतुर्भुजे",
-      "iast": "caturbhuje",
       "meaning": "O four-armed one",
       "note": ""
     },
     {
       "sanskrit": "चतुर्वक्त्र",
-      "iast": "caturvaktra",
-      "meaning": "four-faced (Brahmā)",
-      "note": "Compare daśavaktra (Rāvaṇa) in Tāṇḍava verse 17."
+      "meaning": "four-faced (Brahma)",
+      "note": "Compare dashavaktra (Ravana) in Tandava verse 17."
     },
     {
       "sanskrit": "संस्तुते",
-      "iast": "saṃstute",
       "meaning": "O praised one",
       "note": ""
     },
     {
       "sanskrit": "परमेश्वरि",
-      "iast": "parameśvari",
       "meaning": "O Supreme Goddess",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Catur- and daśa-:</b> <span class='dv'>चतुर्वक्त्र</span> (four-faced Brahmā), <span class='dv'>दशवक्त्र</span> (ten-faced Rāvaṇa).",
+    "<b>Catur- and dasha-:</b> <span class='dv'>चतुर्वक्त्र</span> (four-faced Brahma), <span class='dv'>दशवक्त्र</span> (ten-faced Ravana).",
     "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

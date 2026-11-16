@@ -2,49 +2,39 @@
   "id": "devi-stuti-27",
   "number": "Closing",
   "title": "Ruler of the Senses",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "इन्द्रियाणामधिष्ठात्री",
     "भूतानां चाखिलेषु या।",
     "भूतेषु सततं तस्यै",
     "व्याप्तिदेव्यै नमो नमः॥"
   ],
-  "iast": [
-    "indriyāṇām adhiṣṭhātrī",
-    "bhūtānāṃ cākhileṣu yā |",
-    "bhūteṣu satataṃ tasyai",
-    "vyāpti-devyai namo namaḥ ||"
-  ],
   "translation": "She who <b>rules the senses</b> of all beings and is always present <b>in every being</b>: to that <b>all-pervading Goddess</b>, salutations again and again.",
   "translation_hi": "जो सब प्राणियों की इंद्रियों की अधिष्ठात्री हैं और सब प्राणियों में सदा व्याप्त हैं, उन व्याप्ति देवी को बार बार नमस्कार है।",
   "words": [
     {
       "sanskrit": "इन्द्रियाणाम्",
-      "iast": "indriyāṇām",
       "meaning": "of the senses",
       "note": "Genitive plural of indriya."
     },
     {
       "sanskrit": "अधिष्ठात्री",
-      "iast": "adhiṣṭhātrī",
       "meaning": "ruler, presiding one",
       "note": "Feminine agent noun."
     },
     {
       "sanskrit": "अखिलेषु",
-      "iast": "akhileṣu",
       "meaning": "in all",
       "note": ""
     },
     {
       "sanskrit": "व्याप्तिदेव्यै",
-      "iast": "vyāpti-devyai",
       "meaning": "to the all-pervading Goddess",
-      "note": "vyāpti = pervasion (Hindi व्याप्त)."
+      "note": "vyapti = pervasion (Hindi व्याप्त)."
     }
   ],
   "grammar": [
     "<b>Feminine agent noun:</b> <span class='dv'>अधिष्ठातृ → अधिष्ठात्री</span>, like धात्री in verse 2.",
-    "<b>Vyāpti:</b> 'pervasion'; in logic it means the invariable relation between smoke and fire. Here the Goddess pervades everything."
+    "<b>Vyapti:</b> 'pervasion'; in logic it means the invariable relation between smoke and fire. Here the Goddess pervades everything."
   ]
 }

@@ -2,98 +2,80 @@
   "id": "rudrashtakam-5",
   "number": "Verse 5",
   "title": "The Fierce and the Kind",
-  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "प्रचण्डं प्रकृष्टं प्रगल्भं परेशं",
     "अखण्डं अजं भानुकोटिप्रकाशम्।",
     "त्रयःशूलनिर्मूलनं शूलपाणिं",
     "भजेऽहं भवानीपतिं भावगम्यम्॥"
   ],
-  "iast": [
-    "pracaṇḍaṃ prakṛṣṭaṃ pragalbhaṃ pareśaṃ",
-    "akhaṇḍaṃ ajaṃ bhānu-koṭi-prakāśam |",
-    "trayaḥ-śūla-nirmūlanaṃ śūla-pāṇiṃ",
-    "bhaje 'haṃ bhavānī-patiṃ bhāva-gamyam ||"
-  ],
-  "translation": "Fierce, supreme, bold, the highest Lord; <b>undivided</b>, <b>unborn</b>, shining like <b>ten million suns</b>; who uproots the <b>three kinds of suffering</b>, with the <b>trident in hand</b>: I worship the husband of Bhavānī, who is reached through <b>devotion</b>.",
+  "translation": "Fierce, supreme, bold, the highest Lord; <b>undivided</b>, <b>unborn</b>, shining like <b>ten million suns</b>; who uproots the <b>three kinds of suffering</b>, with the <b>trident in hand</b>: I worship the husband of Bhavani, who is reached through <b>devotion</b>.",
   "translation_hi": "जो प्रचंड, श्रेष्ठ, तेजस्वी और परमेश्वर हैं, अखंड, अजन्मा, करोड़ों सूर्यों के समान प्रकाशमान हैं, तीनों प्रकार के दुःखों को जड़ से मिटाने वाले, हाथ में त्रिशूल धारण करने वाले हैं, उन भाव से प्राप्त होने वाले भवानीपति को मैं भजता हूँ।",
   "words": [
     {
       "sanskrit": "प्रचण्डम्",
-      "iast": "pracaṇḍam",
       "meaning": "fierce",
       "note": ""
     },
     {
       "sanskrit": "प्रकृष्टम्",
-      "iast": "prakṛṣṭam",
       "meaning": "supreme, excellent",
       "note": ""
     },
     {
       "sanskrit": "प्रगल्भम्",
-      "iast": "pragalbham",
       "meaning": "bold",
       "note": ""
     },
     {
       "sanskrit": "परेशम्",
-      "iast": "pareśam",
       "meaning": "the highest Lord",
-      "note": "para + īśa."
+      "note": "para + isha."
     },
     {
       "sanskrit": "अखण्डम्",
-      "iast": "akhaṇḍam",
       "meaning": "undivided",
-      "note": "a + khaṇḍa (part). Khaṇḍa is the 'parts' method in Lilavati verse 8!"
+      "note": "a + khanda (part). Khanda is the 'parts' method in Lilavati verse 8!"
     },
     {
       "sanskrit": "अजम्",
-      "iast": "ajam",
       "meaning": "unborn",
       "note": "a + ja (born)."
     },
     {
       "sanskrit": "भानुकोटिप्रकाशम्",
-      "iast": "bhānu-koṭi-prakāśam",
       "meaning": "bright as ten million suns",
-      "note": "bhānu = sun."
+      "note": "bhanu = sun."
     },
     {
       "sanskrit": "त्रयःशूल",
-      "iast": "trayaḥ-śūla",
       "meaning": "the three sufferings",
       "note": "Of body, of other beings, and of nature."
     },
     {
       "sanskrit": "निर्मूलनम्",
-      "iast": "nirmūlanam",
       "meaning": "uprooting",
-      "note": "nir + mūla (root). Hindi निर्मूल."
+      "note": "nir + mula (root). Hindi निर्मूल."
     },
     {
       "sanskrit": "शूलपाणिम्",
-      "iast": "śūla-pāṇim",
       "meaning": "trident in hand",
       "note": ""
     },
     {
       "sanskrit": "भवानीपतिम्",
-      "iast": "bhavānī-patim",
-      "meaning": "husband of Bhavānī",
+      "meaning": "husband of Bhavani",
       "note": ""
     },
     {
       "sanskrit": "भावगम्यम्",
-      "iast": "bhāva-gamyam",
       "meaning": "reached through devotion",
       "note": "gamya = to be reached."
     }
   ],
   "grammar": [
     "<b>The prefix pra-:</b> <span class='dv'>प्रचण्ड, प्रकृष्ट, प्रगल्भ</span>. Three pra- words in a row give the line force.",
-    "<b>Root mūla again:</b> <span class='dv'>निर्मूलन</span> 'uprooting'. mūla is root, square root and principal in the Lilavati.",
-    "<b>Gerundive -ya:</b> <span class='dv'>गम्य</span> 'to be reached', like भोज्य 'to be eaten' in Nirvāṇa Ṣaṭkam."
+    "<b>Root mula again:</b> <span class='dv'>निर्मूलन</span> 'uprooting'. mula is root, square root and principal in the Lilavati.",
+    "<b>Gerundive -ya:</b> <span class='dv'>गम्य</span> 'to be reached', like भोज्य 'to be eaten' in Nirvana Shatkam."
   ]
 }

@@ -2,55 +2,44 @@
   "id": "argala-13",
   "number": "Verse 13",
   "title": "Grant Strength",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "विधेहि द्विषतां नाशं",
     "विधेहि बलमुच्चकैः।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "vidhehi dviṣatāṃ nāśaṃ",
-    "vidhehi balam uccakaiḥ |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
   "translation": "Bring about the <b>destruction of my foes</b>, grant me <b>great strength</b>. <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "शत्रुओं का नाश कीजिए, मुझे महान बल दीजिए। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "विधेहि",
-      "iast": "vidhehi",
       "meaning": "bring about, grant",
-      "note": "Imperative of vi + √dhā."
+      "note": "Imperative of vi + √dha."
     },
     {
       "sanskrit": "द्विषताम्",
-      "iast": "dviṣatām",
       "meaning": "of enemies",
       "note": ""
     },
     {
       "sanskrit": "नाशम्",
-      "iast": "nāśam",
       "meaning": "destruction",
       "note": ""
     },
     {
       "sanskrit": "बलम्",
-      "iast": "balam",
       "meaning": "strength",
       "note": ""
     },
     {
       "sanskrit": "उच्चकैः",
-      "iast": "uccakaiḥ",
       "meaning": "greatly, high",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Vidhehi:</b> 'arrange, bring about', from vi + √dhā; vidhātṛ (Brahmā) in verse 3 is 'the arranger'.",
+    "<b>Vidhehi:</b> 'arrange, bring about', from vi + √dha; vidhatri (Brahma) in verse 3 is 'the arranger'.",
     "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

@@ -1,50 +1,40 @@
 {
   "id": "argala-5",
   "number": "Verse 5",
-  "title": "Slayer of Raktabīja",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "title": "Slayer of Raktabija",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "रक्तबीजवधे देवि",
     "चण्डमुण्डविनाशिनि।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "raktabīja-vadhe devi",
-    "caṇḍa-muṇḍa-vināśini |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "O Goddess who <b>slew Raktabīja</b>, destroyer of <b>Caṇḍa and Muṇḍa</b>! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "O Goddess who <b>slew Raktabija</b>, destroyer of <b>Chanda and Munda</b>! <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे रक्तबीज का वध करने वाली, चंड और मुंड का विनाश करने वाली देवी। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "रक्तबीज",
-      "iast": "raktabīja",
-      "meaning": "the demon Raktabīja",
+      "meaning": "the demon Raktabija",
       "note": "'Blood-seed': each drop of his blood became a new demon."
     },
     {
       "sanskrit": "वधे",
-      "iast": "vadhe",
       "meaning": "O slayer",
       "note": ""
     },
     {
       "sanskrit": "चण्डमुण्ड",
-      "iast": "caṇḍa-muṇḍa",
-      "meaning": "the demons Caṇḍa and Muṇḍa",
-      "note": "Their slaying gave her the name Chāmuṇḍā."
+      "meaning": "the demons Chanda and Munda",
+      "note": "Their slaying gave her the name Chamunda."
     },
     {
       "sanskrit": "विनाशिनि",
-      "iast": "vināśini",
       "meaning": "O destroyer",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Chāmuṇḍā:</b> caṇḍa + muṇḍa → the name of the Goddess who killed them (chapter 7).",
+    "<b>Chamunda:</b> chanda + munda → the name of the Goddess who killed them (chapter 7).",
     "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

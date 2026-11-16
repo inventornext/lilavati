@@ -2,134 +2,110 @@
   "id": "tandava-11",
   "number": "Verse 11",
   "title": "Victory to Shiva",
-  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "जयत्वदभ्रविभ्रमभ्रमद्भुजङ्गमश्वस-",
     "द्विनिर्गमत्क्रमस्फुरत्करालभालहव्यवाट्।",
     "धिमिद्धिमिद्धिमिध्वनन्मृदङ्गतुङ्गमङ्गल-",
     "ध्वनिक्रमप्रवर्तितप्रचण्डताण्डवः शिवः॥"
   ],
-  "iast": [
-    "jayatv adabhra-vibhrama-bhramad-bhujaṅgama-śvasad-",
-    "vinirgamat-krama-sphurat-karāla-bhāla-havya-vāṭ |",
-    "dhimid-dhimid-dhimi-dhvanan-mṛdaṅga-tuṅga-maṅgala-",
-    "dhvani-krama-pravartita-pracaṇḍa-tāṇḍavaḥ śivaḥ ||"
-  ],
-  "translation": "<b>Victory to Shiva!</b> On his fearsome forehead the <b>sacrificial fire</b> flares up step by step, fanned by the hissing breath of serpents whirling wildly around. To the auspicious, rising beat of the <b>mṛdaṅga</b> sounding <i>dhimid dhimid dhimi</i>, he sets his fierce Tāṇḍava in motion.",
+  "translation": "<b>Victory to Shiva!</b> On his fearsome forehead the <b>sacrificial fire</b> flares up step by step, fanned by the hissing breath of serpents whirling wildly around. To the auspicious, rising beat of the <b>mridanga</b> sounding <i>dhimid dhimid dhimi</i>, he sets his fierce Tandava in motion.",
   "translation_hi": "उन शिव की जय हो, जिनके विकराल ललाट की अग्नि तेज़ी से घूमते सर्पों की फुफकार से क्रमशः भड़क रही है, और जिन्होंने धिमिद् धिमिद् धिमि बजते मृदंग की ऊँची मंगल ध्वनि के क्रम पर अपना प्रचंड तांडव आरंभ किया।",
   "words": [
     {
       "sanskrit": "जयतु",
-      "iast": "jayatu",
       "meaning": "may he be victorious",
       "note": "Imperative of √ji. Hindi जय."
     },
     {
       "sanskrit": "अदभ्र",
-      "iast": "adabhra",
       "meaning": "great, not little",
       "note": "a + dabhra (small)."
     },
     {
       "sanskrit": "विभ्रम",
-      "iast": "vibhrama",
       "meaning": "whirling",
       "note": ""
     },
     {
       "sanskrit": "भ्रमत्",
-      "iast": "bhramat",
       "meaning": "spinning",
       "note": ""
     },
     {
       "sanskrit": "भुजङ्गम",
-      "iast": "bhujaṅgama",
       "meaning": "serpent",
       "note": ""
     },
     {
       "sanskrit": "श्वसत्",
-      "iast": "śvasat",
       "meaning": "hissing, breathing",
-      "note": "√śvas. Hindi श्वास."
+      "note": "√shvas. Hindi श्वास."
     },
     {
       "sanskrit": "विनिर्गमत्",
-      "iast": "vinirgamat",
       "meaning": "coming out",
       "note": ""
     },
     {
       "sanskrit": "क्रम",
-      "iast": "krama",
       "meaning": "step by step, sequence",
       "note": "Hindi क्रम, क्रमशः."
     },
     {
       "sanskrit": "स्फुरत्",
-      "iast": "sphurat",
       "meaning": "flashing",
       "note": ""
     },
     {
       "sanskrit": "भाल",
-      "iast": "bhāla",
       "meaning": "forehead",
       "note": ""
     },
     {
       "sanskrit": "हव्यवाट्",
-      "iast": "havya-vāṭ",
       "meaning": "fire, 'carrier of oblations'",
       "note": "havya (offering) + √vah (to carry). Agni carries offerings to the gods."
     },
     {
       "sanskrit": "धिमिद्धिमिद्",
-      "iast": "dhimid-dhimid",
-      "meaning": "sound of the mṛdaṅga",
+      "meaning": "sound of the mridanga",
       "note": "Onomatopoeia."
     },
     {
       "sanskrit": "ध्वनत्",
-      "iast": "dhvanat",
       "meaning": "sounding",
       "note": "Hindi ध्वनि."
     },
     {
       "sanskrit": "मृदङ्ग",
-      "iast": "mṛdaṅga",
       "meaning": "drum",
       "note": ""
     },
     {
       "sanskrit": "मङ्गल",
-      "iast": "maṅgala",
       "meaning": "auspicious",
       "note": ""
     },
     {
       "sanskrit": "प्रवर्तित",
-      "iast": "pravartita",
       "meaning": "set in motion",
-      "note": "pra + √vṛt (to turn), causative."
+      "note": "pra + √vrit (to turn), causative."
     },
     {
       "sanskrit": "प्रचण्डताण्डवः",
-      "iast": "pracaṇḍa-tāṇḍavaḥ",
-      "meaning": "whose Tāṇḍava is fierce",
+      "meaning": "whose Tandava is fierce",
       "note": ""
     },
     {
       "sanskrit": "शिवः",
-      "iast": "śivaḥ",
       "meaning": "Shiva",
       "note": "The subject arrives only at the very end."
     }
   ],
   "grammar": [
-    "<b>Yaṇ sandhi:</b> <span class='dv'>जयतु + अदभ्र → जयत्वदभ्र</span>. उ before a different vowel becomes व्.",
-    "<b>Root √vṛt 'turn':</b> <span class='dv'>प्रवर्तित</span> 'set turning'. The same root gives आवृत्ति (frequency) and प्रत्यावर्ती धारा (alternating current) in the Shabdakosh.",
+    "<b>Yan sandhi:</b> <span class='dv'>जयतु + अदभ्र → जयत्वदभ्र</span>. उ before a different vowel becomes व्.",
+    "<b>Root √vrit 'turn':</b> <span class='dv'>प्रवर्तित</span> 'set turning'. The same root gives आवृत्ति (frequency) and प्रत्यावर्ती धारा (alternating current) in the Shabdakosh.",
     "<b>Suspense:</b> the whole verse is one sentence, and its subject <span class='dv'>शिवः</span> is the last word."
   ]
 }

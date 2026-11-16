@@ -1,75 +1,61 @@
 {
   "id": "lingashtakam-9",
-  "number": "Verse 9 · Phalaśruti",
+  "number": "Verse 9 · Phalashruti",
   "title": "Fruit of the Hymn",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "लिङ्गाष्टकमिदं पुण्यं",
     "यः पठेच्छिवसन्निधौ।",
     "शिवलोकमवाप्नोति",
     "शिवेन सह मोदते॥"
   ],
-  "iast": [
-    "liṅgāṣṭakam idaṃ puṇyaṃ",
-    "yaḥ paṭhec chiva-sannidhau |",
-    "śiva-lokam avāpnoti",
-    "śivena saha modate ||"
-  ],
-  "translation": "Whoever recites this holy <b>Liṅgāṣṭakam</b> in Shiva's presence reaches the <b>world of Shiva</b> and rejoices <b>with Shiva</b>.",
+  "translation": "Whoever recites this holy <b>Lingashtakam</b> in Shiva's presence reaches the <b>world of Shiva</b> and rejoices <b>with Shiva</b>.",
   "translation_hi": "जो शिव के सान्निध्य में इस पवित्र लिंगाष्टक का पाठ करता है, वह शिवलोक को प्राप्त करता है और शिव के साथ आनंदित होता है।",
   "words": [
     {
       "sanskrit": "लिङ्गाष्टकम्",
-      "iast": "liṅgāṣṭakam",
-      "meaning": "the eight verses on the liṅga",
+      "meaning": "the eight verses on the linga",
       "note": ""
     },
     {
       "sanskrit": "पुण्यम्",
-      "iast": "puṇyam",
       "meaning": "holy",
       "note": ""
     },
     {
       "sanskrit": "पठेत्",
-      "iast": "paṭhet",
       "meaning": "would recite",
       "note": "Optative."
     },
     {
       "sanskrit": "शिवसन्निधौ",
-      "iast": "śiva-sannidhau",
       "meaning": "in Shiva's presence",
       "note": "Locative of sannidhi. Hindi सान्निध्य."
     },
     {
       "sanskrit": "शिवलोकम्",
-      "iast": "śiva-lokam",
       "meaning": "Shiva's world",
       "note": ""
     },
     {
       "sanskrit": "अवाप्नोति",
-      "iast": "avāpnoti",
       "meaning": "attains",
-      "note": "ava + √āp."
+      "note": "ava + √ap."
     },
     {
       "sanskrit": "शिवेन सह",
-      "iast": "śivena saha",
       "meaning": "with Shiva",
       "note": "saha takes the instrumental."
     },
     {
       "sanskrit": "मोदते",
-      "iast": "modate",
       "meaning": "rejoices",
       "note": "Middle voice. Hindi मोद."
     }
   ],
   "grammar": [
-    "<b>t + ś → cch:</b> <span class='dv'>पठेत् + शिव → पठेच्छिव</span>.",
+    "<b>t + sh → cch:</b> <span class='dv'>पठेत् + शिव → पठेच्छिव</span>.",
     "<b>Saha with instrumental:</b> <span class='dv'>शिवेन सह</span> 'with Shiva', exactly like Hindi के साथ.",
-    "<b>Anuṣṭubh:</b> like the closing verse of Rudrāṣṭakam."
+    "<b>Anushtubh:</b> like the closing verse of Rudrashtakam."
   ]
 }

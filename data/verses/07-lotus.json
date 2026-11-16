@@ -3,141 +3,115 @@
   "number": "Verse 7 · Right triangles",
   "topic": "Pythagorean theorem",
   "title": "The Lotus in the Lake",
-  "meter": "Meter: Mandākrāntā (17 syllables per line)",
+  "meter": "Meter: Mandakranta (17 syllables per line)",
   "devanagari": [
     "चक्रक्रौञ्चाकुलितसलिले क्वापि दृष्टं तडागे",
     "तोयादूर्ध्वं कमलकलिकाग्रं वितस्तिप्रमाणम्।",
     "मन्दं मन्दं चलितमनिलेनाहतं हस्तयुग्मे",
     "तस्मिन्मग्नं गणक कथय क्षिप्रमम्भःप्रमाणम्॥"
   ],
-  "iast": [
-    "cakra-krauñcākulita-salile kvāpi dṛṣṭaṃ taḍāge",
-    "toyād ūrdhvaṃ kamala-kalikāgraṃ vitasti-pramāṇam |",
-    "mandaṃ mandaṃ calitam anilenāhataṃ hasta-yugme",
-    "tasmin magnaṃ gaṇaka kathaya kṣipram ambhaḥ-pramāṇam ||"
-  ],
-  "translation": "In a pond whose water was crowded with cakravāka and krauñca birds, the tip of a lotus bud was seen standing <b>one span</b> (half a hasta) above the water. Struck by the wind, it moved slowly, slowly, and went under the water at a distance of <b>two hastas</b>. O mathematician, tell quickly the <b>depth of the water</b>.",
+  "translation": "In a pond whose water was crowded with chakravaka and krauncha birds, the tip of a lotus bud was seen standing <b>one span</b> (half a hasta) above the water. Struck by the wind, it moved slowly, slowly, and went under the water at a distance of <b>two hastas</b>. O mathematician, tell quickly the <b>depth of the water</b>.",
   "translation_hi": "चकवा और क्रौंच पक्षियों से भरे एक तालाब में पानी के ऊपर एक कमल की कली का सिरा एक बित्ता (आधा हाथ) ऊँचा दिखाई दिया। हवा के झोंके से वह धीरे धीरे हिला और दो हाथ की दूरी पर पानी में डूब गया। हे गणितज्ञ, जल्दी बताओ कि पानी कितना गहरा है?",
   "words": [
     {
       "sanskrit": "चक्रक्रौञ्च",
-      "iast": "cakra-krauñca",
       "meaning": "shelducks and cranes",
-      "note": "cakra = cakravāka (ruddy shelduck), krauñca = crane. A dvandva ('and') compound."
+      "note": "cakra = chakravaka (ruddy shelduck), krauncha = crane. A dvandva ('and') compound."
     },
     {
       "sanskrit": "आकुलित",
-      "iast": "ākulita",
       "meaning": "crowded, stirred",
       "note": "Past participle: filled with."
     },
     {
       "sanskrit": "सलिले",
-      "iast": "salile",
       "meaning": "in the water",
       "note": "Locative of salila (water)."
     },
     {
       "sanskrit": "क्वापि",
-      "iast": "kvāpi",
       "meaning": "somewhere",
       "note": "kva (where) + api (even) = 'somewhere'."
     },
     {
       "sanskrit": "दृष्टम्",
-      "iast": "dṛṣṭam",
       "meaning": "was seen",
-      "note": "Past participle of √dṛś (to see)."
+      "note": "Past participle of √drish (to see)."
     },
     {
       "sanskrit": "तडागे",
-      "iast": "taḍāge",
       "meaning": "in a pond",
-      "note": "Locative of taḍāga. Hindi तालाब comes from this family."
+      "note": "Locative of tadaga. Hindi तालाब comes from this family."
     },
     {
       "sanskrit": "तोयात्",
-      "iast": "toyāt",
       "meaning": "from the water",
       "note": "Ablative of toya (water). त् → द् before a vowel: तोयादूर्ध्वम्."
     },
     {
       "sanskrit": "ऊर्ध्वम्",
-      "iast": "ūrdhvam",
       "meaning": "above",
       "note": "Upward. Compare ऊर्ध्वाधर (vertical)."
     },
     {
       "sanskrit": "कमलकलिकाग्रम्",
-      "iast": "kamala-kalikā-agram",
       "meaning": "the tip of a lotus bud",
-      "note": "kamala (lotus) + kalikā (bud) + agra (tip)."
+      "note": "kamala (lotus) + kalika (bud) + agra (tip)."
     },
     {
       "sanskrit": "वितस्तिप्रमाणम्",
-      "iast": "vitasti-pramāṇam",
       "meaning": "one span in measure",
       "note": "vitasti = span (about half a hasta)."
     },
     {
       "sanskrit": "मन्दं मन्दम्",
-      "iast": "mandaṃ mandam",
       "meaning": "slowly, slowly",
       "note": "Repetition for emphasis. Compare Hindi धीरे धीरे."
     },
     {
       "sanskrit": "चलितम्",
-      "iast": "calitam",
       "meaning": "moved",
       "note": "Past participle of √cal (to move)."
     },
     {
       "sanskrit": "अनिलेन",
-      "iast": "anilena",
       "meaning": "by the wind",
       "note": "Instrumental of anila (wind): the 'by' case."
     },
     {
       "sanskrit": "आहतम्",
-      "iast": "āhatam",
       "meaning": "struck",
-      "note": "Past participle of ā + √han (to strike)."
+      "note": "Past participle of a + √han (to strike)."
     },
     {
       "sanskrit": "हस्तयुग्मे",
-      "iast": "hasta-yugme",
       "meaning": "at two hastas",
       "note": "yugma = pair. Locative: 'at a pair of hastas' (distance)."
     },
     {
       "sanskrit": "तस्मिन्",
-      "iast": "tasmin",
       "meaning": "there, in it",
       "note": "Locative singular of tad."
     },
     {
       "sanskrit": "मग्नम्",
-      "iast": "magnam",
       "meaning": "submerged",
       "note": "Past participle of √majj (to sink). Hindi मग्न (absorbed)."
     },
     {
       "sanskrit": "गणक",
-      "iast": "gaṇaka",
       "meaning": "O mathematician",
       "note": "Vocative. Same root as गणित (mathematics)."
     },
     {
       "sanskrit": "कथय",
-      "iast": "kathaya",
       "meaning": "tell!",
       "note": "Imperative of √kath (to tell). Compare कथा (story)."
     },
     {
       "sanskrit": "अम्भःप्रमाणम्",
-      "iast": "ambhaḥ-pramāṇam",
       "meaning": "the depth of the water",
-      "note": "ambhas (water) + pramāṇa (measure)."
+      "note": "ambhas (water) + pramana (measure)."
     }
   ],
   "grammar": [
@@ -145,7 +119,7 @@
     "<b>Long vowel sandhi:</b> <span class='dv'>अनिलेन + आहतम् → अनिलेनाहतम्</span>, <span class='dv'>क्व + अपि → क्वापि</span>.",
     "<b>Instrumental case:</b> <span class='dv'>अनिलेन</span> 'by the wind'. The instrumental marks the agent or the means.",
     "<b>Vocative:</b> <span class='dv'>गणक</span> 'O mathematician!' Bhaskara speaks directly to you, the reader.",
-    "<b>Meter:</b> Mandākrāntā means 'slowly stepping'. Its slow, heavy rhythm matches <span class='dv'>मन्दं मन्दम्</span>, the lotus moving slowly in the wind."
+    "<b>Meter:</b> Mandakranta means 'slowly stepping'. Its slow, heavy rhythm matches <span class='dv'>मन्दं मन्दम्</span>, the lotus moving slowly in the wind."
   ],
   "question": "What is the depth of the water, in hastas?",
   "answer": 3.75,

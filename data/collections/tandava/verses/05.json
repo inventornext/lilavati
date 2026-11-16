@@ -2,121 +2,98 @@
   "id": "tandava-5",
   "number": "Verse 5",
   "title": "Pollen at His Feet",
-  "meter": "Meter: Pañcacāmara (16 syllables per line)",
+  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "सहस्रलोचनप्रभृत्यशेषलेखशेखर-",
     "प्रसूनधूलिधोरणी विधूसराङ्घ्रिपीठभूः।",
     "भुजङ्गराजमालया निबद्धजाटजूटकः",
     "श्रियै चिराय जायतां चकोरबन्धुशेखरः॥"
   ],
-  "iast": [
-    "sahasra-locana-prabhṛty-aśeṣa-lekha-śekhara-",
-    "prasūna-dhūli-dhoraṇī vidhūsarāṅghri-pīṭha-bhūḥ |",
-    "bhujaṅga-rāja-mālayā nibaddha-jāṭa-jūṭakaḥ",
-    "śriyai cirāya jāyatāṃ cakora-bandhu-śekharaḥ ||"
-  ],
   "translation": "His footstool is grey with the <b>pollen</b> falling from the flowers on the crowns of all the gods, led by <b>thousand-eyed Indra</b>. His matted hair is tied up with a garland made of the <b>king of serpents</b>. May he whose crest is the <b>friend of the cakora bird</b> (the moon) bring us lasting prosperity.",
   "translation_hi": "इंद्र आदि सभी देवताओं के मुकुटों के फूलों के पराग की धारा से जिनकी चरण पीठिका धूसर हो गई है, जिनका जटाजूट सर्पराज की माला से बँधा है, वे चंद्रशेखर शिव हमें चिरकाल तक समृद्धि दें।",
   "words": [
     {
       "sanskrit": "सहस्रलोचन",
-      "iast": "sahasra-locana",
       "meaning": "thousand-eyed (Indra)",
       "note": "sahasra = 1000, locana = eye."
     },
     {
       "sanskrit": "प्रभृति",
-      "iast": "prabhṛti",
       "meaning": "and others, beginning with",
       "note": "Like 'etc.'"
     },
     {
       "sanskrit": "अशेष",
-      "iast": "aśeṣa",
       "meaning": "all, without remainder",
-      "note": "a (not) + śeṣa (remainder). Hindi शेष."
+      "note": "a (not) + shesha (remainder). Hindi शेष."
     },
     {
       "sanskrit": "लेख",
-      "iast": "lekha",
       "meaning": "god",
       "note": ""
     },
     {
       "sanskrit": "शेखर",
-      "iast": "śekhara",
       "meaning": "crown",
       "note": ""
     },
     {
       "sanskrit": "प्रसून",
-      "iast": "prasūna",
       "meaning": "flower",
       "note": ""
     },
     {
       "sanskrit": "धूलि",
-      "iast": "dhūli",
       "meaning": "dust, pollen",
       "note": "Hindi धूल."
     },
     {
       "sanskrit": "विधूसर",
-      "iast": "vidhūsara",
       "meaning": "grey",
       "note": "Hindi धूसर."
     },
     {
       "sanskrit": "अङ्घ्रिपीठभूः",
-      "iast": "aṅghri-pīṭha-bhūḥ",
       "meaning": "the footstool",
-      "note": "aṅghri = foot; pīṭha = seat."
+      "note": "anghri = foot; pitha = seat."
     },
     {
       "sanskrit": "भुजङ्गराज",
-      "iast": "bhujaṅga-rāja",
       "meaning": "king of serpents",
       "note": ""
     },
     {
       "sanskrit": "मालया",
-      "iast": "mālayā",
       "meaning": "with a garland",
       "note": "Instrumental."
     },
     {
       "sanskrit": "निबद्ध",
-      "iast": "nibaddha",
       "meaning": "tied",
       "note": "Hindi बद्ध, बंधन."
     },
     {
       "sanskrit": "जाटजूटकः",
-      "iast": "jāṭa-jūṭakaḥ",
       "meaning": "knot of matted hair",
       "note": "Hindi जटाजूट."
     },
     {
       "sanskrit": "श्रियै",
-      "iast": "śriyai",
       "meaning": "for prosperity",
-      "note": "Dative of śrī."
+      "note": "Dative of shri."
     },
     {
       "sanskrit": "चिराय",
-      "iast": "cirāya",
       "meaning": "for a long time",
       "note": "Hindi चिरकाल."
     },
     {
       "sanskrit": "जायताम्",
-      "iast": "jāyatām",
       "meaning": "may he be",
       "note": "Imperative of √jan (to be born, become)."
     },
     {
       "sanskrit": "चकोरबन्धुशेखरः",
-      "iast": "cakora-bandhu-śekharaḥ",
       "meaning": "whose crest is the cakora's friend",
       "note": "The cakora bird is said to drink moonlight, so its 'friend' is the moon."
     }
@@ -124,6 +101,6 @@
   "grammar": [
     "<b>Dative of purpose:</b> <span class='dv'>श्रियै</span> 'for prosperity', <span class='dv'>चिराय</span> 'for long'. The dative answers 'for what?'.",
     "<b>Kenning:</b> <span class='dv'>चकोरबन्धु</span> 'friend of the cakora' = the moon. Poets name things indirectly, like the word-numerals in the bamboo verse.",
-    "<b>Yaṇ sandhi:</b> <span class='dv'>प्रभृति + अशेष → प्रभृत्यशेष</span>. इ before a different vowel becomes य्."
+    "<b>Yan sandhi:</b> <span class='dv'>प्रभृति + अशेष → प्रभृत्यशेष</span>. इ before a different vowel becomes य्."
   ]
 }

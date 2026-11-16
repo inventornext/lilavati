@@ -2,55 +2,44 @@
   "id": "argala-9",
   "number": "Verse 9",
   "title": "For Those Who Bow",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "नतेभ्यः सर्वदा भक्त्या",
     "चण्डिके दुरितापहे।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "natebhyaḥ sarvadā bhaktyā",
-    "caṇḍike duritāpahe |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "O <b>Caṇḍikā</b>, remover of <b>sins</b>, for those who always bow to you with devotion: <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "O <b>Chandika</b>, remover of <b>sins</b>, for those who always bow to you with devotion: <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "हे चंडिका, पापों को दूर करने वाली, जो सदा भक्ति से आपको प्रणाम करते हैं, उन्हें। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "नतेभ्यः",
-      "iast": "natebhyaḥ",
       "meaning": "for those who bow",
       "note": "Dative plural."
     },
     {
       "sanskrit": "सर्वदा",
-      "iast": "sarvadā",
       "meaning": "always",
       "note": ""
     },
     {
       "sanskrit": "भक्त्या",
-      "iast": "bhaktyā",
       "meaning": "with devotion",
       "note": "Instrumental."
     },
     {
       "sanskrit": "चण्डिके",
-      "iast": "caṇḍike",
-      "meaning": "O Caṇḍikā",
+      "meaning": "O Chandika",
       "note": "Vocative."
     },
     {
       "sanskrit": "दुरितापहे",
-      "iast": "duritāpahe",
       "meaning": "O remover of sins",
       "note": "durita (sin) + apaha (remover)."
     }
   ],
   "grammar": [
-    "<b>Dative plural -ebhyaḥ:</b> <span class='dv'>नतेभ्यः</span> 'for those who bow'.",
+    "<b>Dative plural -ebhyah:</b> <span class='dv'>नतेभ्यः</span> 'for those who bow'.",
     "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

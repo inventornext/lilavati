@@ -2,92 +2,75 @@
   "id": "nirvana-4",
   "number": "Verse 4",
   "title": "Not Merit, Not Sin",
-  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "न पुण्यं न पापं न सौख्यं न दुःखं",
     "न मन्त्रो न तीर्थं न वेदा न यज्ञाः।",
     "अहं भोजनं नैव भोज्यं न भोक्ता",
     "चिदानन्दरूपः शिवोऽहं शिवोऽहम्॥"
   ],
-  "iast": [
-    "na puṇyaṃ na pāpaṃ na saukhyaṃ na duḥkhaṃ",
-    "na mantro na tīrthaṃ na vedā na yajñāḥ |",
-    "ahaṃ bhojanaṃ naiva bhojyaṃ na bhoktā",
-    "cid-ānanda-rūpaḥ śivo 'haṃ śivo 'ham ||"
-  ],
   "translation": "I am not <b>merit or sin</b>, not <b>pleasure or pain</b>. I am not mantra, pilgrimage, the Vedas or sacrifice. I am neither the act of <b>eating</b>, nor the <b>food</b>, nor the <b>eater</b>. My form is consciousness and bliss: I am Shiva, I am Shiva.",
   "translation_hi": "मैं न पुण्य हूँ न पाप, न सुख न दुःख। न मंत्र, न तीर्थ, न वेद, न यज्ञ। मैं न भोजन हूँ, न भोज्य, न भोक्ता। मेरा स्वरूप चेतना और आनंद है: मैं शिव हूँ, मैं शिव हूँ।",
   "words": [
     {
       "sanskrit": "पुण्यम्",
-      "iast": "puṇyam",
       "meaning": "merit",
       "note": ""
     },
     {
       "sanskrit": "पापम्",
-      "iast": "pāpam",
       "meaning": "sin",
       "note": ""
     },
     {
       "sanskrit": "सौख्यम्",
-      "iast": "saukhyam",
       "meaning": "pleasure",
       "note": "From sukha."
     },
     {
       "sanskrit": "दुःखम्",
-      "iast": "duḥkham",
       "meaning": "pain",
       "note": ""
     },
     {
       "sanskrit": "मन्त्रः",
-      "iast": "mantraḥ",
       "meaning": "mantra",
       "note": ""
     },
     {
       "sanskrit": "तीर्थम्",
-      "iast": "tīrtham",
       "meaning": "pilgrimage place",
       "note": "Literally 'a crossing place' on a river."
     },
     {
       "sanskrit": "वेदाः",
-      "iast": "vedāḥ",
       "meaning": "the Vedas",
       "note": ""
     },
     {
       "sanskrit": "यज्ञाः",
-      "iast": "yajñāḥ",
       "meaning": "sacrifices",
       "note": ""
     },
     {
       "sanskrit": "भोजनम्",
-      "iast": "bhojanam",
       "meaning": "eating, food",
       "note": "√bhuj (to eat)."
     },
     {
       "sanskrit": "भोज्यम्",
-      "iast": "bhojyam",
       "meaning": "what is eaten",
       "note": "-ya: 'to be eaten'."
     },
     {
       "sanskrit": "भोक्ता",
-      "iast": "bhoktā",
       "meaning": "the eater, enjoyer",
-      "note": "Agent noun in -tṛ."
+      "note": "Agent noun in -tri."
     }
   ],
   "grammar": [
     "<b>One root, three roles:</b> √भुज् gives <span class='dv'>भोजन</span> (the act), <span class='dv'>भोज्य</span> (the object, 'to be eaten') and <span class='dv'>भोक्ता</span> (the doer). Sanskrit builds whole word families this way.",
-    "<b>Agent noun -tṛ:</b> <span class='dv'>भोक्तृ → भोक्ता</span>, like भर्तृ in Tāṇḍava verse 4.",
+    "<b>Agent noun -tri:</b> <span class='dv'>भोक्तृ → भोक्ता</span>, like भर्तृ in Tandava verse 4.",
     "Refrain: <span class='dv'>चिदानन्दरूपः शिवोऽहं शिवोऽहम्</span> 'My form is consciousness and bliss. I am Shiva, I am Shiva.'"
   ]
 }

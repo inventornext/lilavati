@@ -2,97 +2,78 @@
   "id": "rudrashtakam-4",
   "number": "Verse 4",
   "title": "Compassionate Blue-throat",
-  "meter": "Meter: Bhujaṅgaprayāta (12 syllables per line)",
+  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "चलत्कुण्डलं भ्रूसुनेत्रं विशालं",
     "प्रसन्नाननं नीलकण्ठं दयालम्।",
     "मृगाधीशचर्माम्बरं मुण्डमालं",
     "प्रियं शङ्करं सर्वनाथं भजामि॥"
   ],
-  "iast": [
-    "calat-kuṇḍalaṃ bhrū-sunetraṃ viśālaṃ",
-    "prasannānanaṃ nīla-kaṇṭhaṃ dayālam |",
-    "mṛgādhīśa-carmāmbaraṃ muṇḍa-mālaṃ",
-    "priyaṃ śaṅkaraṃ sarva-nāthaṃ bhajāmi ||"
-  ],
-  "translation": "With swaying <b>earrings</b>, beautiful brows and large eyes, a <b>smiling face</b> and a <b>blue throat</b>, full of compassion; wearing a <b>lion's skin</b> and a garland of skulls: I worship beloved <b>Śaṅkara</b>, the lord of all.",
+  "translation": "With swaying <b>earrings</b>, beautiful brows and large eyes, a <b>smiling face</b> and a <b>blue throat</b>, full of compassion; wearing a <b>lion's skin</b> and a garland of skulls: I worship beloved <b>Shankara</b>, the lord of all.",
   "translation_hi": "जिनके कानों में कुंडल हिल रहे हैं, सुंदर भौंहें और विशाल नेत्र हैं, प्रसन्न मुख और नीला कंठ है, जो दयालु हैं, सिंहचर्म धारण करते हैं और मुंडमाला पहनते हैं, उन प्रिय सर्वनाथ शंकर को मैं भजता हूँ।",
   "words": [
     {
       "sanskrit": "चलत्कुण्डलम्",
-      "iast": "calat-kuṇḍalam",
       "meaning": "with swaying earrings",
-      "note": "calat (moving) from √cal, as in cālaka (conductor)!"
+      "note": "calat (moving) from √cal, as in chalaka (conductor)!"
     },
     {
       "sanskrit": "भ्रू",
-      "iast": "bhrū",
       "meaning": "eyebrow",
       "note": "Hindi भौंह."
     },
     {
       "sanskrit": "सुनेत्रम्",
-      "iast": "sunetram",
       "meaning": "beautiful eyes",
       "note": ""
     },
     {
       "sanskrit": "विशालम्",
-      "iast": "viśālam",
       "meaning": "large",
       "note": "Hindi विशाल."
     },
     {
       "sanskrit": "प्रसन्नाननम्",
-      "iast": "prasannānanam",
       "meaning": "with a pleased face",
-      "note": "ānana = face."
+      "note": "anana = face."
     },
     {
       "sanskrit": "नीलकण्ठम्",
-      "iast": "nīla-kaṇṭham",
       "meaning": "blue-throated",
       "note": ""
     },
     {
       "sanskrit": "दयालम्",
-      "iast": "dayālam",
       "meaning": "compassionate",
       "note": "Hindi दयालु."
     },
     {
       "sanskrit": "मृगाधीश",
-      "iast": "mṛgādhīśa",
       "meaning": "lion, 'king of beasts'",
       "note": ""
     },
     {
       "sanskrit": "चर्माम्बरम्",
-      "iast": "carmāmbaram",
       "meaning": "wearing a skin",
       "note": "carma (skin) + ambara (clothes)."
     },
     {
       "sanskrit": "मुण्डमालम्",
-      "iast": "muṇḍa-mālam",
       "meaning": "with a garland of skulls",
       "note": ""
     },
     {
       "sanskrit": "शङ्करम्",
-      "iast": "śaṅkaram",
-      "meaning": "Śaṅkara, 'maker of peace'",
-      "note": "śam (peace) + kara (maker)."
+      "meaning": "Shankara, 'maker of peace'",
+      "note": "sham (peace) + kara (maker)."
     },
     {
       "sanskrit": "सर्वनाथम्",
-      "iast": "sarva-nātham",
       "meaning": "lord of all",
       "note": ""
     },
     {
       "sanskrit": "भजामि",
-      "iast": "bhajāmi",
       "meaning": "I worship",
       "note": "Active voice; the stotra also uses middle bhaje."
     }

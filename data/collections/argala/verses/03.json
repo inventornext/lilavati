@@ -1,87 +1,71 @@
 {
   "id": "argala-3",
   "number": "Verse 3",
-  "title": "Slayer of Madhu and Kaiṭabha",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "title": "Slayer of Madhu and Kaitabha",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "मधुकैटभविद्रावि",
     "विधातृवरदे नमः।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "madhu-kaiṭabha-vidrāvi",
-    "vidhātṛ-varade namaḥ |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "Salutations to you who <b>routed Madhu and Kaiṭabha</b>, who gave a boon to <b>Brahmā</b>. <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "Salutations to you who <b>routed Madhu and Kaitabha</b>, who gave a boon to <b>Brahma</b>. <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "मधु और कैटभ को भगाने वाली, ब्रह्मा को वर देने वाली देवी, आपको नमस्कार है। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "मधुकैटभ",
-      "iast": "madhu-kaiṭabha",
-      "meaning": "the demons Madhu and Kaiṭabha",
+      "meaning": "the demons Madhu and Kaitabha",
       "note": "The story of chapter 1."
     },
     {
       "sanskrit": "विद्रावि",
-      "iast": "vidrāvi",
       "meaning": "O router, who made flee",
       "note": "Vocative."
     },
     {
       "sanskrit": "विधातृ",
-      "iast": "vidhātṛ",
-      "meaning": "Brahmā, the Creator",
+      "meaning": "Brahma, the Creator",
       "note": "Agent noun: 'arranger'."
     },
     {
       "sanskrit": "वरदे",
-      "iast": "varade",
       "meaning": "O giver of boons",
       "note": "vara (boon) + da (giver). Vocative."
     },
     {
       "sanskrit": "रूपम्",
-      "iast": "rūpam",
       "meaning": "beauty, form",
       "note": ""
     },
     {
       "sanskrit": "देहि",
-      "iast": "dehi",
       "meaning": "give!",
-      "note": "Imperative of √dā."
+      "note": "Imperative of √da."
     },
     {
       "sanskrit": "जयम्",
-      "iast": "jayam",
       "meaning": "victory",
       "note": ""
     },
     {
       "sanskrit": "यशः",
-      "iast": "yaśaḥ",
       "meaning": "glory, fame",
       "note": "Hindi यश."
     },
     {
       "sanskrit": "द्विषः",
-      "iast": "dviṣaḥ",
       "meaning": "enemies",
-      "note": "Accusative plural of dviṣ (hater). Same root as dveṣa."
+      "note": "Accusative plural of dvish (hater). Same root as dvesha."
     },
     {
       "sanskrit": "जहि",
-      "iast": "jahi",
       "meaning": "destroy!",
       "note": "Imperative of √han."
     }
   ],
   "grammar": [
     "<b>The refrain begins:</b> every verse from here ends <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span>. Its word cards are in this verse.",
-    "<b>Two imperatives:</b> <span class='dv'>देहि</span> 'give' (√dā) and <span class='dv'>जहि</span> 'destroy' (√han).",
-    "<b>Chapter 1 in one line:</b> the Saptaśatī's first story is the slaying of Madhu and Kaiṭabha. Each verse of the Argalā recalls one story."
+    "<b>Two imperatives:</b> <span class='dv'>देहि</span> 'give' (√da) and <span class='dv'>जहि</span> 'destroy' (√han).",
+    "<b>Chapter 1 in one line:</b> the Saptashati's first story is the slaying of Madhu and Kaitabha. Each verse of the Argala recalls one story."
   ]
 }

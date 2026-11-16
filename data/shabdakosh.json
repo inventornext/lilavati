@@ -3,156 +3,134 @@
   "terms": [
     {
       "sanskrit": "विद्युत्",
-      "iast": "vidyut",
       "english": "electricity",
       "root": "vi + √dyut (to shine): 'that which flashes'. The Vedic word for lightning.",
       "link": ""
     },
     {
       "sanskrit": "आवेश",
-      "iast": "āveśa",
       "english": "electric charge",
-      "root": "ā + √viś (to enter): 'that which has entered'.",
+      "root": "a + √vish (to enter): 'that which has entered'.",
       "link": ""
     },
     {
       "sanskrit": "विद्युत् धारा",
-      "iast": "vidyut dhārā",
       "english": "electric current",
-      "root": "dhārā = stream, flow. The same word as a river's dhārā.",
+      "root": "dhara = stream, flow. The same word as a river's dhara.",
       "link": ""
     },
     {
       "sanskrit": "विभवान्तर",
-      "iast": "vibhavāntara",
       "english": "potential difference, voltage",
       "root": "vibhava (potential) + antara (difference, gap).",
       "link": ""
     },
     {
       "sanskrit": "प्रतिरोध",
-      "iast": "pratirodha",
       "english": "resistance",
       "root": "prati (against) + √rudh (to block).",
       "link": "Same root as निरुद्धम्, the bee trapped in the lotus (verse 3)."
     },
     {
       "sanskrit": "चालक",
-      "iast": "cālaka",
       "english": "conductor",
       "root": "√cal (to move): 'that which makes it move'.",
       "link": "Same root as चलितम्, the lotus moving in the wind (verse 7)."
     },
     {
       "sanskrit": "अर्धचालक",
-      "iast": "ardhacālaka",
       "english": "semiconductor",
-      "root": "ardha (half) + cālaka (conductor).",
+      "root": "ardha (half) + chalaka (conductor).",
       "link": ""
     },
     {
       "sanskrit": "कुचालक",
-      "iast": "kucālaka",
       "english": "insulator, bad conductor",
-      "root": "ku (bad) + cālaka.",
+      "root": "ku (bad) + chalaka.",
       "link": ""
     },
     {
       "sanskrit": "शक्ति",
-      "iast": "śakti",
       "english": "power",
-      "root": "√śak (to be able).",
+      "root": "√shak (to be able).",
       "link": "Also the spear in Shiva's hand (verse 4)."
     },
     {
       "sanskrit": "ऊर्जा",
-      "iast": "ūrjā",
       "english": "energy",
-      "root": "ūrj = vigour, strength (a Vedic word).",
+      "root": "urj = vigour, strength (a Vedic word).",
       "link": ""
     },
     {
       "sanskrit": "आवृत्ति",
-      "iast": "āvṛtti",
       "english": "frequency",
-      "root": "ā + √vṛt (to turn): 'turning again and again'.",
+      "root": "a + √vrit (to turn): 'turning again and again'.",
       "link": ""
     },
     {
       "sanskrit": "प्रत्यावर्ती धारा",
-      "iast": "pratyāvartī dhārā",
       "english": "alternating current (AC)",
-      "root": "prati + ā + √vṛt: 'turning back again'.",
+      "root": "prati + a + √vrit: 'turning back again'.",
       "link": ""
     },
     {
       "sanskrit": "दिष्ट धारा",
-      "iast": "diṣṭa dhārā",
       "english": "direct current (DC)",
-      "root": "diṣṭa = pointed, directed (√diś, to point).",
+      "root": "dishta = pointed, directed (√dish, to point).",
       "link": ""
     },
     {
       "sanskrit": "चुम्बक",
-      "iast": "cumbaka",
       "english": "magnet",
       "root": "√cumb (to kiss): it 'kisses' iron.",
       "link": ""
     },
     {
       "sanskrit": "प्रेरकत्व",
-      "iast": "prerakatva",
       "english": "inductance",
-      "root": "pra + √īr (to set in motion) → preraka (inducer) + -tva (-ness).",
+      "root": "pra + √ir (to set in motion) → preraka (inducer) + -tva (-ness).",
       "link": ""
     },
     {
       "sanskrit": "संधारित्र",
-      "iast": "saṃdhāritra",
       "english": "capacitor",
-      "root": "sam + √dhṛ (to hold) + -tra (tool): 'the holder'.",
+      "root": "sam + √dhri (to hold) + -tra (tool): 'the holder'.",
       "link": ""
     },
     {
       "sanskrit": "परिणामित्र",
-      "iast": "pariṇāmitra",
       "english": "transformer",
-      "root": "pariṇāma (change) + -itra (tool): 'the changer'.",
+      "root": "parinama (change) + -itra (tool): 'the changer'.",
       "link": ""
     },
     {
       "sanskrit": "जनित्र",
-      "iast": "janitra",
       "english": "generator",
       "root": "√jan (to be born, produce) + -tra (tool).",
       "link": ""
     },
     {
       "sanskrit": "तरंग",
-      "iast": "taraṅga",
       "english": "wave",
       "root": "A wave on water; now any wave.",
       "link": ""
     },
     {
       "sanskrit": "सौर ऊर्जा",
-      "iast": "saura ūrjā",
       "english": "solar energy",
-      "root": "saura = 'of the sun' (from sūrya).",
+      "root": "saura = 'of the sun' (from surya).",
       "link": ""
     },
     {
       "sanskrit": "विद्युत् जाल",
-      "iast": "vidyut jāla",
       "english": "power grid",
-      "root": "jāla = net, network.",
+      "root": "jala = net, network.",
       "link": ""
     },
     {
       "sanskrit": "भार",
-      "iast": "bhāra",
       "english": "load",
-      "root": "bhāra = weight, burden (√bhṛ, to carry).",
+      "root": "bhara = weight, burden (√bhri, to carry).",
       "link": ""
     }
   ]

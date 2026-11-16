@@ -2,54 +2,44 @@
   "id": "mandukya-12",
   "number": "Mantra 11",
   "title": "M: The Third Measure",
-  "meter": "Prose (the Upaniṣad mantras have no meter)",
-  "meterNote": "The mantras of the Māṇḍūkya Upaniṣad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pāda</b> and <b>mātrā</b>, the same two words the meter scanner is built on.",
+  "meter": "Prose (the Upanishad mantras have no meter)",
+  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "सुषुप्तस्थानः प्राज्ञो मकारस्तृतीया मात्रा",
     "मितेरपीतेर्वा",
     "मिनोति ह वा इदं सर्वमपीतिश्च भवति य एवं वेद॥"
   ],
-  "iast": [
-    "suṣupta-sthānaḥ prājño makāras tṛtīyā mātrā",
-    "miter apīter vā",
-    "minoti ha vā idaṃ sarvam apītiś ca bhavati ya evaṃ veda ||"
-  ],
-  "translation": "Prājña, whose field is <b>deep sleep</b>, is <b>M</b>, the third measure: because it <b>measures</b> (miti), or because all <b>merges</b> into it (apīti). Whoever knows this measures all this and becomes the place where all merges.",
+  "translation": "Prajna, whose field is <b>deep sleep</b>, is <b>M</b>, the third measure: because it <b>measures</b> (miti), or because all <b>merges</b> into it (apiti). Whoever knows this measures all this and becomes the place where all merges.",
   "translation_hi": "सुषुप्ति अवस्था वाला प्राज्ञ मकार है, तीसरी मात्रा, क्योंकि वह मापता है (मिति) या क्योंकि सब उसमें विलीन होता है (अपीति)। जो ऐसा जानता है वह इस सबको माप लेता है और सबका लय स्थान बन जाता है।",
   "words": [
     {
       "sanskrit": "तृतीया",
-      "iast": "tṛtīyā",
       "meaning": "third (measure)",
       "note": ""
     },
     {
       "sanskrit": "मितेः",
-      "iast": "miteḥ",
       "meaning": "because of measuring",
-      "note": "miti from √mā (to measure)."
+      "note": "miti from √ma (to measure)."
     },
     {
       "sanskrit": "अपीतेः",
-      "iast": "apīteḥ",
       "meaning": "because of merging",
       "note": ""
     },
     {
       "sanskrit": "मिनोति",
-      "iast": "minoti",
       "meaning": "measures",
-      "note": "Present of √mi/√mā."
+      "note": "Present of √mi/√ma."
     },
     {
       "sanskrit": "अपीतिः",
-      "iast": "apītiḥ",
       "meaning": "the merging place",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Root √mā 'measure' once more:</b> <span class='dv'>मिति, मिनोति, मात्रा</span>, and from earlier pages प्रमाण (measure), मेय (measurable), मान (amount). One root runs through mathematics, meter and the Upaniṣad.",
+    "<b>Root √ma 'measure' once more:</b> <span class='dv'>मिति, मिनोति, मात्रा</span>, and from earlier pages प्रमाण (measure), मेय (measurable), मान (amount). One root runs through mathematics, meter and the Upanishad.",
     "<b>M closes:</b> Om ends with the lips closing on M; all sound 'merges' into it, as waking and dream merge into deep sleep."
   ]
 }

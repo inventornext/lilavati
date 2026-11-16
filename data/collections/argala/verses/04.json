@@ -1,50 +1,40 @@
 {
   "id": "argala-4",
   "number": "Verse 4",
-  "title": "Slayer of Mahiṣāsura",
-  "meter": "Meter: Anuṣṭubh (8 syllables per quarter)",
+  "title": "Slayer of Mahishasura",
+  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "महिषासुरनिर्णाशि",
     "भक्तानां सुखदे नमः।",
     "रूपं देहि जयं देहि",
     "यशो देहि द्विषो जहि॥"
   ],
-  "iast": [
-    "mahiṣāsura-nirṇāśi",
-    "bhaktānāṃ sukhade namaḥ |",
-    "rūpaṃ dehi jayaṃ dehi",
-    "yaśo dehi dviṣo jahi ||"
-  ],
-  "translation": "Salutations to you, <b>destroyer of Mahiṣāsura</b>, giver of happiness to your devotees. <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
+  "translation": "Salutations to you, <b>destroyer of Mahishasura</b>, giver of happiness to your devotees. <i>Give me beauty, give me victory, give me glory, destroy my enemies.</i>",
   "translation_hi": "महिषासुर का नाश करने वाली, भक्तों को सुख देने वाली देवी, आपको नमस्कार है। मुझे रूप दीजिए, जय दीजिए, यश दीजिए, शत्रुओं का नाश कीजिए।",
   "words": [
     {
       "sanskrit": "महिषासुर",
-      "iast": "mahiṣāsura",
       "meaning": "the buffalo demon",
       "note": "The story of chapters 2 to 4."
     },
     {
       "sanskrit": "निर्णाशि",
-      "iast": "nirṇāśi",
       "meaning": "O destroyer",
       "note": "न → ण after र."
     },
     {
       "sanskrit": "भक्तानाम्",
-      "iast": "bhaktānām",
       "meaning": "of devotees",
       "note": ""
     },
     {
       "sanskrit": "सुखदे",
-      "iast": "sukhade",
       "meaning": "O giver of happiness",
       "note": ""
     }
   ],
   "grammar": [
-    "<b>Retroflex ṇ:</b> <span class='dv'>निर् + नाशि → निर्णाशि</span>, the same rule as प्रणमामि.",
+    "<b>Retroflex n:</b> <span class='dv'>निर् + नाशि → निर्णाशि</span>, the same rule as प्रणमामि.",
     "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

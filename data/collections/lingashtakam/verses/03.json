@@ -2,67 +2,53 @@
   "id": "lingashtakam-3",
   "number": "Verse 3",
   "title": "Anointed with Fragrance",
-  "meter": "Meter: 16 mātrās per line (Dodhaka pattern)",
+  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "सर्वसुगन्धिसुलेपितलिङ्गं",
     "बुद्धिविवर्धनकारणलिङ्गम्।",
     "सिद्धसुरासुरवन्दितलिङ्गं",
     "तत्प्रणमामि सदाशिवलिङ्गम्॥"
   ],
-  "iast": [
-    "sarva-sugandhi-sulepita-liṅgaṃ",
-    "buddhi-vivardhana-kāraṇa-liṅgam |",
-    "siddha-surāsura-vandita-liṅgaṃ",
-    "tat praṇamāmi sadāśiva-liṅgam ||"
-  ],
-  "translation": "Anointed with <b>every fragrance</b>, the cause of the <b>growth of wisdom</b>, praised by <b>siddhas, gods and demons</b> alike: I bow to that liṅga of Sadāśiva.",
+  "translation": "Anointed with <b>every fragrance</b>, the cause of the <b>growth of wisdom</b>, praised by <b>siddhas, gods and demons</b> alike: I bow to that linga of Sadashiva.",
   "translation_hi": "जो सब सुगंधों से अभिषिक्त है, बुद्धि की वृद्धि का कारण है, और सिद्धों, देवताओं और असुरों द्वारा वंदित है, उस सदाशिव लिंग को मैं प्रणाम करता हूँ।",
   "words": [
     {
       "sanskrit": "सुगन्धि",
-      "iast": "sugandhi",
       "meaning": "fragrant",
       "note": ""
     },
     {
       "sanskrit": "सुलेपित",
-      "iast": "sulepita",
       "meaning": "well anointed",
       "note": "Hindi लेप."
     },
     {
       "sanskrit": "बुद्धि",
-      "iast": "buddhi",
       "meaning": "wisdom",
       "note": ""
     },
     {
       "sanskrit": "विवर्धन",
-      "iast": "vivardhana",
       "meaning": "increasing",
       "note": "Hindi वर्धन, वृद्धि."
     },
     {
       "sanskrit": "कारण",
-      "iast": "kāraṇa",
       "meaning": "cause",
       "note": ""
     },
     {
       "sanskrit": "सिद्ध",
-      "iast": "siddha",
       "meaning": "perfected being",
       "note": ""
     },
     {
       "sanskrit": "सुरासुर",
-      "iast": "surāsura",
       "meaning": "gods and demons",
       "note": "sura + asura."
     },
     {
       "sanskrit": "वन्दित",
-      "iast": "vandita",
       "meaning": "praised",
       "note": "Hindi वंदना."
     }
@@ -70,6 +56,6 @@
   "grammar": [
     "<b>Su- 'well, good':</b> <span class='dv'>सुगन्धि, सुलेपित</span>, like सुमुखी and सुकेशी in earlier verses.",
     "<b>Sura and asura:</b> a- usually means 'not', so asura looks like 'not-god'.",
-    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that liṅga of Sadāśiva.'"
+    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that linga of Sadashiva.'"
   ]
 }
