@@ -54,6 +54,7 @@ tools/validate.py       checks everything before you push
 5. Check, preview, push:
 
 ```bash
+python tools/build_static.py   # share pages, sitemap
 python tools/validate.py
 python -m http.server 8000     # open http://localhost:8000
 git add . && git commit -m "Add verse 8: name" && git push
@@ -111,3 +112,9 @@ The diya flame, the slowly turning mandala behind each shloka, the ārti glow wh
 ## Grouping stotras
 
 A stotra's `manifest.json` can have `"group": "Shiva"` or `"group": "Durgā Saptaśatī"`. The Bhakti page shows one section per group, so a new group (for example "Viṣṇu") appears automatically.
+
+## Offline app and sharing
+
+- **Offline:** `sw.js` (the service worker) saves every page and verse on the visitor's device the first time they open the site, so it works without internet. `manifest.webmanifest` and `icons/` make it installable ("Add to Home screen"). Nothing to do when you add verses: the service worker reads the data files and picks them up on the next visit.
+- **Share pages:** `python tools/build_static.py` writes `v/<verse-id>.html` for every verse and every stotra, plus `sitemap.xml`. These give WhatsApp and Google a proper title and description, and the Share button on each verse links to them. **Run it every time you add or change verses**; `tools/validate.py` warns you if you forget.
+- **Google:** submit `https://inventornext.github.io/shlokashala/sitemap.xml` in Google Search Console once, so the verse pages get indexed.

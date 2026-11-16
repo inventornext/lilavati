@@ -88,6 +88,7 @@ function viewHome() {
       <span class="stat"><b>${words}</b> words</span>
       <span class="stat"><b>${DATA.collections.length + 1}</b> texts</span>
     </div>
+    <button class="cta install-app" hidden>📲 Install as an app (works offline)</button>
   </section>
 
   <a class="daily" href="${d.href}">
@@ -228,6 +229,7 @@ function viewVerse(v, idx, list, crumb, end) {
       <button data-script="deva">देवनागरी</button><button data-script="both">Both</button><button data-script="iast">IAST</button>
     </div>
     <button class="btn" id="listen">${v.audio ? '🔊 Listen' : '🔊 Listen (machine voice)'}</button>
+    ${shareButton()}
     <span class="note" id="listen-note"></span>
   </div>
   <div class="shloka mode-${prefs.script}">${shlokaMandala()}${lines}</div>
@@ -307,6 +309,48 @@ function bindVerse(v) {
   };
   if (v.question) bindPuzzle(v);
   bindListen(v);
+  bindShare(v.id, v.title, `${v.devanagari[0].replace(/[।॥-]/g, '')} ${v.devanagari[1].replace(/[।॥-]/g, '').trim()}`);
+}
+
+// ---------- sharing ----------
+const siteBase = () => location.href.split('#')[0].replace(/index\.html$/, '');
+const shareUrl = id => `${siteBase()}v/${id}.html`;
+function shareButton() {
+  return `<span class="share-wrap"><button class="btn" id="share">📤 Share</button>
+    <span class="share-menu" id="share-menu" hidden>
+      <a id="share-wa" target="_blank" rel="noopener">WhatsApp</a>
+      <button id="share-copy">Copy link</button>
+    </span></span>`;
+}
+function bindShare(id, title, line) {
+  const btn = $('#share'); if (!btn) return;
+  const url = shareUrl(id);
+  const text = `${line}\n${title} · Shlokashala\n${url}`;
+  const menu = $('#share-menu');
+  $('#share-wa').href = `https://wa.me/?text=${encodeURIComponent(text)}`;
+  btn.onclick = async () => {
+    if (navigator.share) {
+      try { await navigator.share({ title: `${title} · Shlokashala`, text: `${line}\n${title}`, url }); return; } catch (e) { if (e.name === 'AbortError') return; }
+    }
+    menu.hidden = !menu.hidden;
+  };
+  $('#share-copy').onclick = async () => {
+    try { await navigator.clipboard.writeText(url); $('#share-copy').textContent = 'Copied'; }
+    catch { $('#share-copy').textContent = url; }
+    setTimeout(() => { $('#share-copy').textContent = 'Copy link'; }, 1800);
+  };
+}
+
+// ---------- install as an app ----------
+let installPrompt = null;
+window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); installPrompt = e; showInstall(); });
+window.addEventListener('appinstalled', () => { installPrompt = null; showInstall(); });
+function showInstall() { $$('.install-app').forEach(b => b.hidden = !installPrompt); }
+async function doInstall() {
+  if (!installPrompt) return;
+  installPrompt.prompt();
+  await installPrompt.userChoice.catch(() => {});
+  installPrompt = null; showInstall();
 }
 
 function bindPuzzle(v) {
@@ -410,6 +454,7 @@ function viewCollection(c) {
   <div class="toolbar">
     <div class="seg" role="group" aria-label="Script"><button data-script="deva">देवनागरी</button><button data-script="both">Both</button><button data-script="iast">IAST</button></div>
     <a class="btn primary" href="#${c.verses[0].id}">Learn verse by verse →</a>
+    ${shareButton()}
   </div>
   <div class="shloka stotra mode-${prefs.script}">
     ${shlokaMandala()}
@@ -591,6 +636,9 @@ function viewAbout() {
     <p>1. Listen to the verse and read it aloud. 2. Look at the meter scanner and clap the rhythm: long for —, short for ◡. 3. Work out the meaning from the word cards before you read the translation. 4. Solve the puzzle yourself, then open the solution. 5. Revise in Flashcards and the Quiz a day later.</p>
     <h2>About the texts</h2>
     <p>Verses follow commonly printed texts. Readings and verse numbers differ slightly between editions, so compare with a printed edition when you study. Every verse is checked by the meter scanner; where a hymn bends its meter, the verse notes say so. The peacock problem is Līlāvatī 152, with its rule in verse 151 (Plofker's translation in Katz, ed., <i>The Mathematics of Egypt, Mesopotamia, China, India, and Islam: A Sourcebook</i>, Princeton, 2007).</p>
+    <h2>Use it as an app, even offline</h2>
+    <p>Shlokashala works without internet once you have opened it. <b>Android (Chrome):</b> tap <i>Install as an app</i> on the home page, or the ⋮ menu → <i>Add to Home screen</i>. <b>iPhone (Safari):</b> tap the Share button → <i>Add to Home Screen</i>. <b>Computer (Chrome or Edge):</b> click the install icon at the right of the address bar.</p>
+    <p><button class="btn primary install-app" hidden>📲 Install as an app</button></p>
     <h2>Further reading</h2>
     <p><a href="https://old.maa.org/node/116870">MAA: Mathematical Treasures, Lilavati of Bhaskara</a><br>
     <a href="https://wolframcloud.com/obj/history-of-mathematics/production/artifacts/lilavati-of-bhaskara-ii">MoMath + Wolfram: Lilāvatī of Bhāskara II</a></p>
@@ -620,7 +668,7 @@ function render() {
     bindVerse(v); T(`${v.title} · ${owner.meta.title}`);
   } else if (c) {
     devotional = c.meta.kind === 'stotra'; view = devotional ? 'bhakti' : 'ganita';
-    app.innerHTML = viewCollection(c); bindScript('shloka stotra'); T(c.meta.title);
+    app.innerHTML = viewCollection(c); bindScript('shloka stotra'); bindShare(c.meta.id, c.meta.title, c.meta.title_deva); T(c.meta.title);
   } else if (id === 'bhakti' || id === 'stotras') { view = 'bhakti'; devotional = true; app.innerHTML = viewBhakti(); T('Bhakti'); }
   else if (id === 'ganita') { view = 'ganita'; app.innerHTML = viewGanita(); T('Gaṇita'); }
   else if (id === 'practice') { view = 'practice'; app.innerHTML = viewPractice(); T('Practice'); }
@@ -633,6 +681,8 @@ function render() {
   else if (id === 'about') { view = 'learn'; app.innerHTML = viewAbout(); T('About'); }
   else { app.innerHTML = viewHome(); document.title = 'Shlokashala · श्लोकशाला'; }
   $$('#links a').forEach(a => a.classList.toggle('active', a.dataset.view === view));
+  $$('.install-app').forEach(b => b.onclick = e => { e.preventDefault(); doInstall(); });
+  showInstall();
   document.body.classList.toggle('devotional', devotional);
   petals(devotional);
   window.scrollTo(0, 0);

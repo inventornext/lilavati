@@ -105,6 +105,11 @@ for cid in cindex["collections"]:
 
 load(ROOT / "data" / "grammar.json")
 
+# share pages built by tools/build_static.py
+missing = [i for i in seen_ids if i and not (ROOT / "v" / f"{i}.html").exists()]
+if missing:
+    warnings.append(f"{len(missing)} share pages missing (e.g. v/{missing[0]}.html). Run: python tools/build_static.py")
+
 for w in warnings:
     print("WARNING:", w)
 for e in errors:

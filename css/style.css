@@ -332,3 +332,12 @@ main, footer { position: relative; z-index: 1; }
 .hero { padding: 84px 0 70px; }
 .hero .mandala { width: min(480px, 92vw); }
 @media (max-width: 640px) { .hero { padding: 56px 0 48px; } .hero .mandala { width: min(330px, 84vw); } }
+
+/* share menu */
+.share-wrap { position: relative; display: inline-block; }
+.share-menu { position: absolute; top: 110%; left: 0; z-index: 20; display: flex; flex-direction: column; min-width: 160px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow); overflow: hidden; }
+.share-menu[hidden] { display: none; }
+.share-menu a, .share-menu button { font: inherit; font-size: 15px; text-align: left; padding: 10px 14px; border: 0; background: none; color: var(--ink); text-decoration: none; cursor: pointer; }
+.share-menu a:hover, .share-menu button:hover { background: var(--surface-2); }
+button.cta { border: 0; cursor: pointer; font: inherit; font-weight: 600; }
+.install-app[hidden] { display: none !important; }
