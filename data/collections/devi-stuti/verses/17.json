@@ -2,7 +2,6 @@
   "id": "devi-stuti-17",
   "number": "Ya Devi 12",
   "title": "Peace",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "शान्तिरूपेण संस्थिता।",
@@ -14,11 +13,7 @@
   "words": [
     {
       "sanskrit": "शान्ति",
-      "meaning": "peace",
-      "note": ""
+      "meaning": "peace"
     }
-  ],
-  "grammar": [
-    "<b>The changing word:</b> <span class='dv'>शान्ति</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
   ]
 }

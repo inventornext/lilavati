@@ -2,8 +2,6 @@
   "id": "mandukya-6",
   "number": "Mantra 5",
   "title": "The Third Quarter: Deep Sleep",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "यत्र सुप्तो न कञ्चन कामं कामयते",
     "न कञ्चन स्वप्नं पश्यति तत्सुषुप्तम्।",
@@ -15,78 +13,62 @@
   "words": [
     {
       "sanskrit": "यत्र",
-      "meaning": "where",
-      "note": ""
+      "meaning": "where"
     },
     {
       "sanskrit": "सुप्तः",
-      "meaning": "asleep",
-      "note": "√svap."
+      "meaning": "asleep"
     },
     {
       "sanskrit": "कञ्चन",
-      "meaning": "any (at all)",
-      "note": ""
+      "meaning": "any (at all)"
     },
     {
       "sanskrit": "कामम्",
-      "meaning": "desire",
-      "note": ""
+      "meaning": "desire"
     },
     {
       "sanskrit": "कामयते",
-      "meaning": "desires",
-      "note": ""
+      "meaning": "desires"
     },
     {
       "sanskrit": "पश्यति",
-      "meaning": "sees",
-      "note": ""
+      "meaning": "sees"
     },
     {
       "sanskrit": "सुषुप्तम्",
-      "meaning": "deep sleep",
-      "note": "su + supta: 'well asleep'."
+      "meaning": "deep sleep"
     },
     {
       "sanskrit": "एकीभूतः",
-      "meaning": "become one",
-      "note": "eka + bhuta, like ahutikrita."
+      "meaning": "become one"
     },
     {
       "sanskrit": "प्रज्ञानघनः",
-      "meaning": "a dense mass of awareness",
-      "note": "ghana = dense; in maths, ghana = cube (घनमूल = cube root)!"
+      "meaning": "a dense mass of awareness"
     },
     {
       "sanskrit": "आनन्दमयः",
-      "meaning": "made of bliss",
-      "note": "-maya = 'made of'."
+      "meaning": "made of bliss"
     },
     {
       "sanskrit": "आनन्दभुक्",
-      "meaning": "enjoyer of bliss",
-      "note": ""
+      "meaning": "enjoyer of bliss"
     },
     {
       "sanskrit": "चेतोमुखः",
-      "meaning": "whose mouth is consciousness",
-      "note": ""
+      "meaning": "whose mouth is consciousness"
     },
     {
       "sanskrit": "प्राज्ञः",
-      "meaning": "Prajna, 'the knower'",
-      "note": ""
+      "meaning": "Prajna, 'the knower'"
     },
     {
       "sanskrit": "तृतीयः",
-      "meaning": "third",
-      "note": ""
+      "meaning": "third"
     }
   ],
-  "grammar": [
-    "<b>Ghana = dense and cube:</b> the Upanishad's 'dense mass of awareness' uses the same word Bhaskara uses for a cube, because a cube is 'solid'.",
-    "<b>-maya 'made of':</b> <span class='dv'>आनन्दमय</span>, like the five koshas: annamaya, pranamaya, manomaya, vijnanamaya, anandamaya (Nirvana Shatkam verse 2).",
-    "<b>Science link:</b> deep, dreamless sleep shows as slow delta waves on an EEG, about 0.5 to 4 Hz: the brain's slowest rhythm."
+  "science": [
+    "deep, dreamless sleep shows as slow delta waves on an EEG, about 0.5 to 4 Hz: the brain's slowest rhythm."
   ]
 }

@@ -2,7 +2,6 @@
   "id": "tandava-5",
   "number": "Verse 5",
   "title": "Pollen at His Feet",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "सहस्रलोचनप्रभृत्यशेषलेखशेखर-",
     "प्रसूनधूलिधोरणी विधूसराङ्घ्रिपीठभूः।",
@@ -14,93 +13,71 @@
   "words": [
     {
       "sanskrit": "सहस्रलोचन",
-      "meaning": "thousand-eyed (Indra)",
-      "note": "sahasra = 1000, locana = eye."
+      "meaning": "thousand-eyed (Indra)"
     },
     {
       "sanskrit": "प्रभृति",
-      "meaning": "and others, beginning with",
-      "note": "Like 'etc.'"
+      "meaning": "and others, beginning with"
     },
     {
       "sanskrit": "अशेष",
-      "meaning": "all, without remainder",
-      "note": "a (not) + shesha (remainder). Hindi शेष."
+      "meaning": "all, without remainder"
     },
     {
       "sanskrit": "लेख",
-      "meaning": "god",
-      "note": ""
+      "meaning": "god"
     },
     {
       "sanskrit": "शेखर",
-      "meaning": "crown",
-      "note": ""
+      "meaning": "crown"
     },
     {
       "sanskrit": "प्रसून",
-      "meaning": "flower",
-      "note": ""
+      "meaning": "flower"
     },
     {
       "sanskrit": "धूलि",
-      "meaning": "dust, pollen",
-      "note": "Hindi धूल."
+      "meaning": "dust, pollen"
     },
     {
       "sanskrit": "विधूसर",
-      "meaning": "grey",
-      "note": "Hindi धूसर."
+      "meaning": "grey"
     },
     {
       "sanskrit": "अङ्घ्रिपीठभूः",
-      "meaning": "the footstool",
-      "note": "anghri = foot; pitha = seat."
+      "meaning": "the footstool"
     },
     {
       "sanskrit": "भुजङ्गराज",
-      "meaning": "king of serpents",
-      "note": ""
+      "meaning": "king of serpents"
     },
     {
       "sanskrit": "मालया",
-      "meaning": "with a garland",
-      "note": "Instrumental."
+      "meaning": "with a garland"
     },
     {
       "sanskrit": "निबद्ध",
-      "meaning": "tied",
-      "note": "Hindi बद्ध, बंधन."
+      "meaning": "tied"
     },
     {
       "sanskrit": "जाटजूटकः",
-      "meaning": "knot of matted hair",
-      "note": "Hindi जटाजूट."
+      "meaning": "knot of matted hair"
     },
     {
       "sanskrit": "श्रियै",
-      "meaning": "for prosperity",
-      "note": "Dative of shri."
+      "meaning": "for prosperity"
     },
     {
       "sanskrit": "चिराय",
-      "meaning": "for a long time",
-      "note": "Hindi चिरकाल."
+      "meaning": "for a long time"
     },
     {
       "sanskrit": "जायताम्",
-      "meaning": "may he be",
-      "note": "Imperative of √jan (to be born, become)."
+      "meaning": "may he be"
     },
     {
       "sanskrit": "चकोरबन्धुशेखरः",
-      "meaning": "whose crest is the cakora's friend",
-      "note": "The cakora bird is said to drink moonlight, so its 'friend' is the moon."
+      "meaning": "whose crest is the cakora's friend"
     }
-  ],
-  "grammar": [
-    "<b>Dative of purpose:</b> <span class='dv'>श्रियै</span> 'for prosperity', <span class='dv'>चिराय</span> 'for long'. The dative answers 'for what?'.",
-    "<b>Kenning:</b> <span class='dv'>चकोरबन्धु</span> 'friend of the cakora' = the moon. Poets name things indirectly, like the word-numerals in the bamboo verse.",
-    "<b>Yan sandhi:</b> <span class='dv'>प्रभृति + अशेष → प्रभृत्यशेष</span>. इ before a different vowel becomes य्."
   ]
 }

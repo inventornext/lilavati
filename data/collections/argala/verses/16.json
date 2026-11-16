@@ -2,7 +2,6 @@
   "id": "argala-16",
   "number": "Verse 16",
   "title": "Make Me Learned",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "विद्यावन्तं यशस्वन्तं",
     "लक्ष्मीवन्तं जनं कुरु।",
@@ -14,32 +13,23 @@
   "words": [
     {
       "sanskrit": "विद्यावन्तम्",
-      "meaning": "learned",
-      "note": "vidya + -vat (having)."
+      "meaning": "learned"
     },
     {
       "sanskrit": "यशस्वन्तम्",
-      "meaning": "famous",
-      "note": ""
+      "meaning": "famous"
     },
     {
       "sanskrit": "लक्ष्मीवन्तम्",
-      "meaning": "prosperous",
-      "note": ""
+      "meaning": "prosperous"
     },
     {
       "sanskrit": "जनम्",
-      "meaning": "the person",
-      "note": ""
+      "meaning": "the person"
     },
     {
       "sanskrit": "कुरु",
-      "meaning": "make!",
-      "note": "Imperative of √kri."
+      "meaning": "make!"
     }
-  ],
-  "grammar": [
-    "<b>Suffix -vat 'having':</b> <span class='dv'>विद्यावत्, लक्ष्मीवत्</span>, like ninadavat in Tandava verse 1. Hindi विद्यावान.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

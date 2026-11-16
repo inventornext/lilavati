@@ -2,7 +2,6 @@
   "id": "argala-3",
   "number": "Verse 3",
   "title": "Slayer of Madhu and Kaitabha",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "मधुकैटभविद्रावि",
     "विधातृवरदे नमः।",
@@ -14,58 +13,43 @@
   "words": [
     {
       "sanskrit": "मधुकैटभ",
-      "meaning": "the demons Madhu and Kaitabha",
-      "note": "The story of chapter 1."
+      "meaning": "the demons Madhu and Kaitabha"
     },
     {
       "sanskrit": "विद्रावि",
-      "meaning": "O router, who made flee",
-      "note": "Vocative."
+      "meaning": "O router, who made flee"
     },
     {
       "sanskrit": "विधातृ",
-      "meaning": "Brahma, the Creator",
-      "note": "Agent noun: 'arranger'."
+      "meaning": "Brahma, the Creator"
     },
     {
       "sanskrit": "वरदे",
-      "meaning": "O giver of boons",
-      "note": "vara (boon) + da (giver). Vocative."
+      "meaning": "O giver of boons"
     },
     {
       "sanskrit": "रूपम्",
-      "meaning": "beauty, form",
-      "note": ""
+      "meaning": "beauty, form"
     },
     {
       "sanskrit": "देहि",
-      "meaning": "give!",
-      "note": "Imperative of √da."
+      "meaning": "give!"
     },
     {
       "sanskrit": "जयम्",
-      "meaning": "victory",
-      "note": ""
+      "meaning": "victory"
     },
     {
       "sanskrit": "यशः",
-      "meaning": "glory, fame",
-      "note": "Hindi यश."
+      "meaning": "glory, fame"
     },
     {
       "sanskrit": "द्विषः",
-      "meaning": "enemies",
-      "note": "Accusative plural of dvish (hater). Same root as dvesha."
+      "meaning": "enemies"
     },
     {
       "sanskrit": "जहि",
-      "meaning": "destroy!",
-      "note": "Imperative of √han."
+      "meaning": "destroy!"
     }
-  ],
-  "grammar": [
-    "<b>The refrain begins:</b> every verse from here ends <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span>. Its word cards are in this verse.",
-    "<b>Two imperatives:</b> <span class='dv'>देहि</span> 'give' (√da) and <span class='dv'>जहि</span> 'destroy' (√han).",
-    "<b>Chapter 1 in one line:</b> the Saptashati's first story is the slaying of Madhu and Kaitabha. Each verse of the Argala recalls one story."
   ]
 }

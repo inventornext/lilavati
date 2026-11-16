@@ -2,7 +2,6 @@
   "id": "argala-5",
   "number": "Verse 5",
   "title": "Slayer of Raktabija",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "रक्तबीजवधे देवि",
     "चण्डमुण्डविनाशिनि।",
@@ -14,27 +13,19 @@
   "words": [
     {
       "sanskrit": "रक्तबीज",
-      "meaning": "the demon Raktabija",
-      "note": "'Blood-seed': each drop of his blood became a new demon."
+      "meaning": "the demon Raktabija"
     },
     {
       "sanskrit": "वधे",
-      "meaning": "O slayer",
-      "note": ""
+      "meaning": "O slayer"
     },
     {
       "sanskrit": "चण्डमुण्ड",
-      "meaning": "the demons Chanda and Munda",
-      "note": "Their slaying gave her the name Chamunda."
+      "meaning": "the demons Chanda and Munda"
     },
     {
       "sanskrit": "विनाशिनि",
-      "meaning": "O destroyer",
-      "note": ""
+      "meaning": "O destroyer"
     }
-  ],
-  "grammar": [
-    "<b>Chamunda:</b> chanda + munda → the name of the Goddess who killed them (chapter 7).",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

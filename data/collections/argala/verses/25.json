@@ -2,7 +2,6 @@
   "id": "argala-25",
   "number": "Verse 25 · Phalashruti",
   "title": "Before the Great Hymn",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "इदं स्तोत्रं पठित्वा तु",
     "महास्तोत्रं पठेन्नरः।",
@@ -14,43 +13,31 @@
   "words": [
     {
       "sanskrit": "पठित्वा",
-      "meaning": "having recited",
-      "note": "Gerund."
+      "meaning": "having recited"
     },
     {
       "sanskrit": "महास्तोत्रम्",
-      "meaning": "the great hymn",
-      "note": "The Saptashati itself."
+      "meaning": "the great hymn"
     },
     {
       "sanskrit": "पठेत्",
-      "meaning": "should recite",
-      "note": "Optative."
+      "meaning": "should recite"
     },
     {
       "sanskrit": "सप्तशती",
-      "meaning": "the seven hundred (verses)",
-      "note": "sapta (7) + shata (100)."
+      "meaning": "the seven hundred (verses)"
     },
     {
       "sanskrit": "संख्या",
-      "meaning": "number",
-      "note": ""
+      "meaning": "number"
     },
     {
       "sanskrit": "आप्नोति",
-      "meaning": "obtains",
-      "note": ""
+      "meaning": "obtains"
     },
     {
       "sanskrit": "सम्पदाम्",
-      "meaning": "of blessings, riches",
-      "note": ""
+      "meaning": "of blessings, riches"
     }
-  ],
-  "grammar": [
-    "<b>Why 'Argala':</b> argala means a bolt or latch. This stotra is the bolt that opens the door to the Saptashati, so it is recited before it.",
-    "<b>Saptashati = 700:</b> sapta × shata. The text is named by its number of verses.",
-    "<b>t + n → nn:</b> <span class='dv'>पठेत् + नरः → पठेन्नरः</span>."
   ]
 }

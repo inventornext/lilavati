@@ -2,7 +2,6 @@
   "id": "lingashtakam-6",
   "number": "Verse 6",
   "title": "Worshipped with Devotion",
-  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "देवगणार्चितसेवितलिङ्गं",
     "भावैर्भक्तिभिरेव च लिङ्गम्।",
@@ -14,38 +13,27 @@
   "words": [
     {
       "sanskrit": "देवगण",
-      "meaning": "hosts of gods",
-      "note": ""
+      "meaning": "hosts of gods"
     },
     {
       "sanskrit": "सेवित",
-      "meaning": "served",
-      "note": "Hindi सेवा."
+      "meaning": "served"
     },
     {
       "sanskrit": "भावैः",
-      "meaning": "with feelings",
-      "note": "Instrumental plural."
+      "meaning": "with feelings"
     },
     {
       "sanskrit": "भक्तिभिः",
-      "meaning": "with devotions",
-      "note": "Instrumental plural of bhakti."
+      "meaning": "with devotions"
     },
     {
       "sanskrit": "दिनकर",
-      "meaning": "sun, 'day-maker'",
-      "note": "dina + kara. In word numerals, a sun = 12."
+      "meaning": "sun, 'day-maker'"
     },
     {
       "sanskrit": "प्रभाकर",
-      "meaning": "light-maker",
-      "note": ""
+      "meaning": "light-maker"
     }
-  ],
-  "grammar": [
-    "<b>-kara 'maker':</b> <span class='dv'>दिनकर</span> (day-maker), <span class='dv'>प्रभाकर</span> (light-maker), भास्कर, शङ्कर. One suffix, many names.",
-    "<b>Meter note:</b> line 3 has 17 matras in strict counting, because <span class='dv'>कोटि</span> before प्र counts as heavy; in recitation it is sung as 16.",
-    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that linga of Sadashiva.'"
   ]
 }

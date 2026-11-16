@@ -2,7 +2,6 @@
   "id": "argala-9",
   "number": "Verse 9",
   "title": "For Those Who Bow",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "नतेभ्यः सर्वदा भक्त्या",
     "चण्डिके दुरितापहे।",
@@ -14,32 +13,23 @@
   "words": [
     {
       "sanskrit": "नतेभ्यः",
-      "meaning": "for those who bow",
-      "note": "Dative plural."
+      "meaning": "for those who bow"
     },
     {
       "sanskrit": "सर्वदा",
-      "meaning": "always",
-      "note": ""
+      "meaning": "always"
     },
     {
       "sanskrit": "भक्त्या",
-      "meaning": "with devotion",
-      "note": "Instrumental."
+      "meaning": "with devotion"
     },
     {
       "sanskrit": "चण्डिके",
-      "meaning": "O Chandika",
-      "note": "Vocative."
+      "meaning": "O Chandika"
     },
     {
       "sanskrit": "दुरितापहे",
-      "meaning": "O remover of sins",
-      "note": "durita (sin) + apaha (remover)."
+      "meaning": "O remover of sins"
     }
-  ],
-  "grammar": [
-    "<b>Dative plural -ebhyah:</b> <span class='dv'>नतेभ्यः</span> 'for those who bow'.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

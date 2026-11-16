@@ -2,7 +2,6 @@
   "id": "argala-1",
   "number": "Verse 1",
   "title": "Eleven Names",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "जयन्ती मङ्गला काली",
     "भद्रकाली कपालिनी।",
@@ -14,58 +13,43 @@
   "words": [
     {
       "sanskrit": "जयन्ती",
-      "meaning": "the victorious",
-      "note": "Present participle of √ji, feminine."
+      "meaning": "the victorious"
     },
     {
       "sanskrit": "मङ्गला",
-      "meaning": "the auspicious",
-      "note": ""
+      "meaning": "the auspicious"
     },
     {
       "sanskrit": "काली",
-      "meaning": "the dark one, Time",
-      "note": ""
+      "meaning": "the dark one, Time"
     },
     {
       "sanskrit": "भद्रकाली",
-      "meaning": "the gracious Kali",
-      "note": ""
+      "meaning": "the gracious Kali"
     },
     {
       "sanskrit": "कपालिनी",
-      "meaning": "bearer of the skull",
-      "note": "Feminine of kapalin (Tandava verse 6)."
+      "meaning": "bearer of the skull"
     },
     {
       "sanskrit": "क्षमा",
-      "meaning": "forgiveness, the earth",
-      "note": ""
+      "meaning": "forgiveness, the earth"
     },
     {
       "sanskrit": "धात्री",
-      "meaning": "supporter",
-      "note": ""
+      "meaning": "supporter"
     },
     {
       "sanskrit": "स्वाहा",
-      "meaning": "Svaha",
-      "note": "The call with which offerings are poured into the fire."
+      "meaning": "Svaha"
     },
     {
       "sanskrit": "स्वधा",
-      "meaning": "Svadha",
-      "note": "The call for offerings to the ancestors."
+      "meaning": "Svadha"
     },
     {
       "sanskrit": "नमोऽस्तु ते",
-      "meaning": "salutations be to you",
-      "note": "namah + astu + te."
+      "meaning": "salutations be to you"
     }
-  ],
-  "grammar": [
-    "<b>This verse is a mantra:</b> it is often chanted on its own, 108 times, in Navaratri.",
-    "<b>Avagraha:</b> <span class='dv'>नमः + अस्तु → नमोऽस्तु</span>.",
-    "<b>Svaha and svadha:</b> the two words spoken when offerings are made to the gods and to the ancestors. The Goddess is both."
   ]
 }

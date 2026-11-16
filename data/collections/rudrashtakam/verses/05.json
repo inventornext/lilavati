@@ -2,7 +2,6 @@
   "id": "rudrashtakam-5",
   "number": "Verse 5",
   "title": "The Fierce and the Kind",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "प्रचण्डं प्रकृष्टं प्रगल्भं परेशं",
     "अखण्डं अजं भानुकोटिप्रकाशम्।",
@@ -14,68 +13,51 @@
   "words": [
     {
       "sanskrit": "प्रचण्डम्",
-      "meaning": "fierce",
-      "note": ""
+      "meaning": "fierce"
     },
     {
       "sanskrit": "प्रकृष्टम्",
-      "meaning": "supreme, excellent",
-      "note": ""
+      "meaning": "supreme, excellent"
     },
     {
       "sanskrit": "प्रगल्भम्",
-      "meaning": "bold",
-      "note": ""
+      "meaning": "bold"
     },
     {
       "sanskrit": "परेशम्",
-      "meaning": "the highest Lord",
-      "note": "para + isha."
+      "meaning": "the highest Lord"
     },
     {
       "sanskrit": "अखण्डम्",
-      "meaning": "undivided",
-      "note": "a + khanda (part). Khanda is the 'parts' method in Lilavati verse 8!"
+      "meaning": "undivided"
     },
     {
       "sanskrit": "अजम्",
-      "meaning": "unborn",
-      "note": "a + ja (born)."
+      "meaning": "unborn"
     },
     {
       "sanskrit": "भानुकोटिप्रकाशम्",
-      "meaning": "bright as ten million suns",
-      "note": "bhanu = sun."
+      "meaning": "bright as ten million suns"
     },
     {
       "sanskrit": "त्रयःशूल",
-      "meaning": "the three sufferings",
-      "note": "Of body, of other beings, and of nature."
+      "meaning": "the three sufferings"
     },
     {
       "sanskrit": "निर्मूलनम्",
-      "meaning": "uprooting",
-      "note": "nir + mula (root). Hindi निर्मूल."
+      "meaning": "uprooting"
     },
     {
       "sanskrit": "शूलपाणिम्",
-      "meaning": "trident in hand",
-      "note": ""
+      "meaning": "trident in hand"
     },
     {
       "sanskrit": "भवानीपतिम्",
-      "meaning": "husband of Bhavani",
-      "note": ""
+      "meaning": "husband of Bhavani"
     },
     {
       "sanskrit": "भावगम्यम्",
-      "meaning": "reached through devotion",
-      "note": "gamya = to be reached."
+      "meaning": "reached through devotion"
     }
-  ],
-  "grammar": [
-    "<b>The prefix pra-:</b> <span class='dv'>प्रचण्ड, प्रकृष्ट, प्रगल्भ</span>. Three pra- words in a row give the line force.",
-    "<b>Root mula again:</b> <span class='dv'>निर्मूलन</span> 'uprooting'. mula is root, square root and principal in the Lilavati.",
-    "<b>Gerundive -ya:</b> <span class='dv'>गम्य</span> 'to be reached', like भोज्य 'to be eaten' in Nirvana Shatkam."
   ]
 }

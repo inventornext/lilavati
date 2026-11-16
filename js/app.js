@@ -1,6 +1,6 @@
 // Shlokashala: a small single-page site driven by the files in data/.
 // Pages: #  (home) · #<lilavati verse id> · #stotras · #<collection id> · #<collection id>-<n>
-//        #flashcards · #quiz · #grammar · #shabdakosh · #words · #about
+//        #flashcards · #quiz · #shabdakosh · #words · #about
 // To add content you edit data/ only. See README.md.
 
 const DEVA_DIGITS = '०१२३४५६७८९';
@@ -19,7 +19,7 @@ const prefs = { lang: store.get('lp-lang', 'en'), motion: store.get('lp-motion',
 const solved = new Set(store.get('lp-solved', []));
 const known = new Set(store.get('lp-known', []));
 
-const DATA = { verses: [], vocab: [], shabda: { intro: '', terms: [] }, collections: [], grammar: { sections: [] } };
+const DATA = { verses: [], vocab: [], shabda: { intro: '', terms: [] }, collections: [] };
 const coll = id => DATA.collections.find(c => c.meta.id === id);
 
 async function getJSON(p) { const r = await fetch(p); if (!r.ok) throw new Error(`Could not load ${p} (${r.status})`); return r.json(); }
@@ -37,7 +37,6 @@ async function loadAll() {
   DATA.verses = await Promise.all(verses.map(async n => withExtras(await getJSON(`data/verses/${n}.json`))));
   DATA.vocab = (await getJSON('data/vocab.json')).words;
   DATA.shabda = await getJSON('data/shabdakosh.json').catch(() => ({ intro: '', terms: [] }));
-  DATA.grammar = await getJSON('data/grammar.json').catch(() => ({ sections: [] }));
   const { collections } = await getJSON('data/collections.json').catch(() => ({ collections: [] }));
   DATA.collections = await Promise.all(collections.map(async id => {
     const meta = await getJSON(`data/collections/${id}/manifest.json`);
@@ -82,7 +81,7 @@ function viewHome() {
     <p class="invocation">॥ श्रीगणेशाय नमः ॥</p>
     <h1>श्लोकशाला</h1>
     <p class="en">Shlokashala · a school of verses</p>
-    <p class="sub">Learn Sanskrit one verse at a time: the great stotras to Shiva and the Goddess, and the poetry of Indian mathematics and astronomy. Every verse comes with its words, grammar, meter and translation.</p>
+    <p class="sub">Learn Sanskrit one verse at a time: the great stotras to Shiva and the Goddess, and the poetry of Indian mathematics and astronomy. Every verse comes with its word meanings and translations in English and Hindi.</p>
     <div class="stats">
       <span class="stat"><b>${all.length}</b> verses</span>
       <span class="stat"><b>${words}</b> words</span>
@@ -114,7 +113,7 @@ function viewHome() {
 
   <div class="grid small-doors">
     <a class="card feature" href="#practice"><div class="big">अभ्यास</div><h3>Practice</h3><p class="note">Flashcards for every word, and a ten-question quiz.</p></a>
-    <a class="card feature" href="#learn"><div class="big">व्याकरण</div><h3>Learn</h3><p class="note">Grammar guide, Vidyut Shabdakosh and the science word bank.</p></a>
+    <a class="card feature" href="#learn"><div class="big">ज्ञान</div><h3>Learn</h3><p class="note">Vidyut Shabdakosh and the science word bank.</p></a>
   </div>`;
 }
 function viewBhakti() {
@@ -123,7 +122,7 @@ function viewBhakti() {
   const intro = { 'Upanishad': 'Twelve prose mantras on Om and the four states of the Self, the root of Advaita Vedanta.', 'Shiva': 'Hymns to Shiva, from Ravana’s thundering Tandava to Shankara’s meditation on the Self.', 'Durga Saptashati': 'The most-recited parts of the Durga Saptashati (Devi Mahatmya). More chapters will be added over time.' };
   return `
   <div class="page-head"><div class="page-deva">भक्ति</div><h1>Bhakti · Stotras and Upanishad</h1>
-  <p class="section-sub">Each stotra has a full-text page for recitation and a page for every verse with meanings, grammar, meter and translations.</p></div>
+  <p class="section-sub">Each stotra has a full-text page for recitation and a page for every verse with word meanings and translations.</p></div>
   ${groups.map(g => `
     <h2 class="section-title">${({ 'Shiva': 'शिव · Shiva', 'Durga Saptashati': 'दुर्गासप्तशती · Durga Saptashati', 'Upanishad': 'उपनिषद् · Upanishad' })[g] || g}</h2>
     <p class="section-sub">${intro[g] || ''}</p>
@@ -160,15 +159,14 @@ function viewPractice() {
   <p class="section-sub">Revise a day after you study a verse. Little and often works best.</p></div>
   <div class="grid">
     <a class="card feature" href="#flashcards"><div class="big">स्मरण</div><h3>Flashcards</h3><p class="note">Every word from every verse, by text or all together. Flip, mark Got it or Again, and track what you know.</p></a>
-    <a class="card feature" href="#quiz"><div class="big">परीक्षा</div><h3>Quiz</h3><p class="note">Ten questions: word meanings both ways, and naming the meter of a verse. Best score: ${store.get('lp-quiz-best', 0)} / 10.</p></a>
+    <a class="card feature" href="#quiz"><div class="big">परीक्षा</div><h3>Quiz</h3><p class="note">Ten questions on word meanings, both ways. Best score: ${store.get('lp-quiz-best', 0)} / 10.</p></a>
   </div>`;
 }
 function viewLearn() {
   return `
-  <div class="page-head"><div class="page-deva">व्याकरण</div><h1>Learn</h1>
+  <div class="page-head"><div class="page-deva">ज्ञान</div><h1>Learn</h1>
   <p class="section-sub">Reference pages that gather what the verses teach.</p></div>
   <div class="grid">
-    <a class="card feature" href="#grammar"><div class="big">व्याकरणम्</div><h3>Grammar guide</h3><p class="note">Sandhi, the eight cases, verb forms, compounds, meters and word numerals, each linked to a verse.</p></a>
     <a class="card feature" href="#shabdakosh"><div class="big">विद्युत्</div><h3>Vidyut Shabdakosh</h3><p class="note">Electrical engineering terms built from Sanskrit roots.</p></a>
     <a class="card feature" href="#words"><div class="big">गणित</div><h3>Science word bank</h3><p class="note">Maths words from the verses that are still used today.</p></a>
     <a class="card feature" href="#about"><div class="big">परिचय</div><h3>About</h3><p class="note">About Shlokashala, how to study a verse, and the sources.</p></a>
@@ -177,35 +175,6 @@ function viewLearn() {
 function collCard(c) {
   return `<a class="card feature" href="#${c.meta.id}"><div class="big">${c.meta.title_deva}</div><h3>${c.meta.title}</h3>
     <p class="note">${c.verses.length} verses · ${c.meta.author || ''}</p></a>`;
-}
-
-// ---------- meter scanner ----------
-function meterBlock(v) {
-  if (v.meterNote) return `<div class="block"><h2>Meter <span class="meter-result">${v.meter.split(' (')[0]}</span></h2><p class="legend">${v.meterNote} <a href="#grammar">Meters in the grammar guide →</a></p></div>`;
-  const info = Meter.identify(v.devanagari);
-  const ref = info && info.pattern;
-  const refMorae = ref ? Meter.morae(ref) : null;
-  const rows = v.devanagari.map(line => {
-    const syl = Meter.scan(line);
-    const pat = syl.map(s => s.weight).join('');
-    const morae = Meter.morae(pat);
-    // two light syllables may stand for one heavy: same matras, not an error
-    const matraEqual = ref && pat.length !== ref.length && Meter.moraOptions(pat).some(m => Meter.moraOptions(ref).includes(m));
-    const chips = syl.map((s, i) => {
-      const off = ref && !matraEqual && i < ref.length - 1 && ref[i] !== s.weight ? ' off' : '';
-      const gap = !info || info.pattern ? (i > 0 && i % 3 === 0 ? ' gap' : '') : '';
-      return `<span class="syl ${s.weight}${gap}${off}"><span class="mk">${s.weight === 'G' ? '—' : '◡'}</span><span class="tx">${s.text}</span></span>`;
-    }).join('');
-    const extra = matraEqual ? ` · <b>matra-equal variant</b> (◡◡ = —, still ${refMorae} matras)` : '';
-    const ganas = info && info.pattern ? ` · ganas: ${Meter.ganas(pat).join(' ')}` : '';
-    return `<div class="mline">${chips}</div><div class="ganas">${syl.length} syllables · ${morae} matras${ganas}${extra}</div>`;
-  }).join('');
-  return `
-  <div class="block">
-    <h2>Meter scanner <span class="meter-result">${info ? `✓ ${info.name}` : 'Meter not recognised'}</span></h2>
-    <p class="legend"><b>—</b> guru (heavy, 2 matras): a long vowel, or a vowel followed by ं ः or two consonants. <b>◡</b> laghu (light, 1 matra): a short vowel followed by at most one consonant. The last syllable of a line may be either. <a href="#grammar">More in the grammar guide →</a></p>
-    ${rows}
-  </div>`;
 }
 
 function translationHTML(v) {
@@ -223,7 +192,7 @@ function viewVerse(v, idx, list, crumb, end) {
   <div class="vhead">
     <div class="vnum">${v.number}</div>
     <h1>${v.title}</h1>
-    <span class="pill">${v.meter}</span>${v.topic ? `<span class="pill">${v.topic}</span>` : ''}
+    ${v.topic ? `<span class="pill">${v.topic}</span>` : ''}
   </div>
   <div class="toolbar">
     <button class="btn" id="listen">${v.audio ? '🔊 Listen' : '🔊 Listen (machine voice)'}</button>
@@ -232,13 +201,12 @@ function viewVerse(v, idx, list, crumb, end) {
   </div>
   <div class="shloka">${shlokaMandala()}${lines}</div>
 
-  ${meterBlock(v)}
 
   <div class="block">
     <h2>Word by word <button class="btn ${document.body.classList.contains('selftest') ? 'on' : ''}" id="selftest">Self-test</button></h2>
-    <p class="tip">Tap a card for its grammar note. Self-test hides the meanings; tap a card to reveal it.</p>
+    <p class="tip">Self-test hides the meanings; tap a card to reveal it.</p>
     <div class="words">${v.words.map(w => `
-      <div class="w" tabindex="0"><div class="d">${w.sanskrit}</div><div class="m">${w.meaning}</div><div class="n">${w.note || ''}</div></div>`).join('')}
+      <div class="w" tabindex="0"><div class="d">${w.sanskrit}</div><div class="m">${w.meaning}</div></div>`).join('')}
     </div>
   </div>
 
@@ -249,10 +217,10 @@ function viewVerse(v, idx, list, crumb, end) {
     <div id="tr">${translationHTML(v)}</div>
   </div>
 
-  <div class="block">
-    <h2>Grammar in this verse</h2>
-    <ul class="gram">${v.grammar.map(g => `<li>${g}</li>`).join('')}</ul>
-  </div>
+  ${v.science ? `<div class="block">
+    <h2>Science link</h2>
+    <ul class="gram">${v.science.map(g => `<li>${g}</li>`).join('')}</ul>
+  </div>` : ''}
 
   ${v.question ? `<div class="block">
     <h2>Your turn</h2>
@@ -479,8 +447,8 @@ function viewCollection(c) {
 const fc = { deck: 'lilavati', dir: 'sa', hideKnown: true, queue: [] };
 function allCards() {
   const cards = [];
-  DATA.verses.forEach(v => v.words.forEach((w, i) => cards.push({ key: `${v.id}:${i}`, deck: v.id, group: 'lilavati', front: w.sanskrit, back: w.meaning, note: w.note, from: v.title })));
-  DATA.collections.forEach(c => c.verses.forEach(v => v.words.forEach((w, i) => cards.push({ key: `${v.id}:${i}`, deck: v.id, group: c.meta.id, front: w.sanskrit, back: w.meaning, note: w.note, from: `${c.meta.title} · ${v.title}` }))));
+  DATA.verses.forEach(v => v.words.forEach((w, i) => cards.push({ key: `${v.id}:${i}`, deck: v.id, group: 'lilavati', front: w.sanskrit, back: w.meaning, from: v.title })));
+  DATA.collections.forEach(c => c.verses.forEach(v => v.words.forEach((w, i) => cards.push({ key: `${v.id}:${i}`, deck: v.id, group: c.meta.id, front: w.sanskrit, back: w.meaning, from: `${c.meta.title} · ${v.title}` }))));
   DATA.shabda.terms.forEach((t, i) => cards.push({ key: `shabda:${i}`, deck: 'shabda', group: 'shabda', front: t.sanskrit, back: t.english, note: t.root, from: 'Vidyut Shabdakosh' }));
   return cards;
 }
@@ -527,7 +495,7 @@ function drawCard() {
   const sa = `<div class="big">${card.front}</div>`;
   const en = `<div class="en-big">${card.back}</div>`;
   front.innerHTML = (fc.dir === 'sa' ? sa : en) + `<div class="from">tap to flip</div>`;
-  back.innerHTML = (fc.dir === 'sa' ? en : sa) + `<div class="small">${card.note || ''}</div><div class="from">from: ${card.from}</div>`;
+  back.innerHTML = (fc.dir === 'sa' ? en : sa) + (card.note ? `<div class="small">${card.note}</div>` : '') + `<div class="from">from: ${card.from}</div>`;
 }
 function bindFlashcards() {
   $('#fc-deck').value = fc.deck;
@@ -550,24 +518,17 @@ function makeQuiz() {
   const uniqueBy = (arr, f) => [...new Map(arr.map(x => [f(x), x])).values()];
   const pool = uniqueBy(cards, c => c.back);
   const qs = [];
-  shuffle(pool.slice()).slice(0, 7).forEach((c, n) => {
+  shuffle(pool.slice()).slice(0, 10).forEach((c, n) => {
     const wrong = shuffle(pool.filter(x => x.back !== c.back && x.front !== c.front)).slice(0, 3);
     if (n % 2 === 0) qs.push({ kind: 'Meaning', prompt: `<div class="qbig dv">${c.front}</div><p>What does this mean?</p>`, options: shuffle([c, ...wrong]).map(x => x.back), answer: c.back, explain: `${c.front} = ${c.back}. From: ${c.from}.` });
     else qs.push({ kind: 'Sanskrit word', prompt: `<div class="qbig">${c.back}</div><p>Which Sanskrit word means this?</p>`, options: shuffle([c, ...wrong]).map(x => x.front), answer: c.front, dv: true, explain: `${c.back} = ${c.front}. From: ${c.from}.` });
-  });
-  // meter questions
-  const verses = everyVerse().map(x => ({ ...x, m: (Meter.identify(x.v.devanagari) || {}).name })).filter(x => x.m && !x.m.startsWith('Matra'));
-  const meterNames = [...new Set(verses.map(x => x.m))];
-  shuffle(verses).slice(0, 3).forEach(x => {
-    const opts = shuffle([x.m, ...shuffle(meterNames.filter(n => n !== x.m)).slice(0, 3)]);
-    qs.push({ kind: 'Meter', prompt: `<div class="qline dv">${x.v.devanagari[0]}<br>${x.v.devanagari[1]}</div><p>Which meter is this? <span class="note">(Use the rhythm: count syllables, find light and heavy.)</span></p>`, options: opts, answer: x.m, explain: `This is ${x.v.title} (${x.where}), in ${x.m}.`, href: x.href });
   });
   quiz.qs = shuffle(qs).slice(0, 10); quiz.i = 0; quiz.score = 0; quiz.answered = false;
 }
 function viewQuiz() {
   return `
   <h1 class="section-title">परीक्षा · Quiz</h1>
-  <p class="section-sub">Ten questions from every section: word meanings both ways, and meters. Best score: <b id="best">${store.get('lp-quiz-best', 0)}</b> / 10</p>
+  <p class="section-sub">Ten questions from every section: word meanings both ways. Best score: <b id="best">${store.get('lp-quiz-best', 0)}</b> / 10</p>
   <div class="block quiz" id="quizbox"></div>`;
 }
 function drawQuiz() {
@@ -600,18 +561,7 @@ function drawQuiz() {
   });
 }
 
-// ---------- grammar, shabdakosh, word bank, about ----------
-function viewGrammar() {
-  const g = DATA.grammar;
-  return `
-  <h1 class="section-title">व्याकरणम् · Grammar guide</h1>
-  <p class="section-sub">${g.intro || ''}</p>
-  <div class="toc">${g.sections.map(s => `<a href="#grammar" data-jump="${s.id}">${s.title}</a>`).join('')}</div>
-  ${g.sections.map(s => `<div class="block prose" id="g-${s.id}"><h2>${s.title}</h2>${s.html}</div>`).join('')}`;
-}
-function bindGrammar() {
-  $$('[data-jump]').forEach(a => a.onclick = e => { e.preventDefault(); document.getElementById('g-' + a.dataset.jump).scrollIntoView({ behavior: 'smooth' }); });
-}
+// ---------- shabdakosh, word bank, about ----------
 function viewShabda() {
   return `
   <h1 class="section-title">विद्युत् शब्दकोश · Vidyut Shabdakosh</h1>
@@ -642,11 +592,11 @@ function viewAbout() {
   <div class="prose">
     <h1 class="section-title">About Shlokashala</h1>
     <p><b>Shlokashala</b> (श्लोकशाला, 'school of verses') teaches Sanskrit through two kinds of verse: <b>bhakti</b>, the great stotras to Shiva and the Goddess, and <b>ganita</b>, the mathematics and astronomy of Bhaskaracharya and Aryabhata.</p>
-    <p>In 1150 CE, Bhaskaracharya (Bhaskara II) wrote the <i>Lilavati</i>, the arithmetic and geometry volume of his <i>Siddhanta Shiromani</i>. Its problems are written as Sanskrit poetry in classical meters, often addressed to a young girl named Lilavati. That makes it a perfect textbook for learning the language and the mathematics together.</p>
+    <p>In 1150 CE, Bhaskaracharya (Bhaskara II) wrote the <i>Lilavati</i>, the arithmetic and geometry volume of his <i>Siddhanta Shiromani</i>. Its problems are written as Sanskrit poetry, often addressed to a young girl named Lilavati. That makes it a perfect textbook for learning the language and the mathematics together.</p>
     <h2>How to study a verse</h2>
-    <p>1. Listen to the verse and read it aloud. 2. Look at the meter scanner and clap the rhythm: long for —, short for ◡. 3. Work out the meaning from the word cards before you read the translation. 4. Solve the puzzle yourself, then open the solution. 5. Revise in Flashcards and the Quiz a day later.</p>
+    <p>1. Listen to the verse and read it aloud. 2. Work out the meaning from the word cards before you read the translation. 3. For the Lilavati, solve the puzzle yourself, then open the solution. 4. Revise in Flashcards and the Quiz a day later.</p>
     <h2>About the texts</h2>
-    <p>Verses follow commonly printed texts. Readings and verse numbers differ slightly between editions, so compare with a printed edition when you study. Every verse is checked by the meter scanner; where a hymn bends its meter, the verse notes say so. The peacock problem is Lilavati 152, with its rule in verse 151 (Plofker's translation in Katz, ed., <i>The Mathematics of Egypt, Mesopotamia, China, India, and Islam: A Sourcebook</i>, Princeton, 2007).</p>
+    <p>Verses follow commonly printed texts. Readings and verse numbers differ slightly between editions, so compare with a printed edition when you study. The peacock problem is Lilavati 152, with its rule in verse 151 (Plofker's translation in Katz, ed., <i>The Mathematics of Egypt, Mesopotamia, China, India, and Islam: A Sourcebook</i>, Princeton, 2007).</p>
     <h2>Use it as an app, even offline</h2>
     <p>Shlokashala works without internet once you have opened it. <b>Android (Chrome):</b> tap <i>Install as an app</i> on the home page, or the ⋮ menu → <i>Add to Home screen</i>. <b>iPhone (Safari):</b> tap the Share button → <i>Add to Home Screen</i>. <b>Computer (Chrome or Edge):</b> click the install icon at the right of the address bar.</p>
     <p><button class="btn primary install-app" hidden>📲 Install as an app</button></p>
@@ -686,7 +636,6 @@ function render() {
   else if (id === 'learn') { view = 'learn'; app.innerHTML = viewLearn(); T('Learn'); }
   else if (id === 'flashcards') { view = 'practice'; app.innerHTML = viewFlashcards(); bindFlashcards(); T('Flashcards'); }
   else if (id === 'quiz') { view = 'practice'; app.innerHTML = viewQuiz(); makeQuiz(); drawQuiz(); T('Quiz'); }
-  else if (id === 'grammar') { view = 'learn'; app.innerHTML = viewGrammar(); bindGrammar(); T('Grammar guide'); }
   else if (id === 'shabdakosh') { view = 'learn'; app.innerHTML = viewShabda(); bindShabda(); T('Vidyut Shabdakosh'); }
   else if (id === 'words') { view = 'learn'; app.innerHTML = viewWords(); T('Word bank'); }
   else if (id === 'about') { view = 'learn'; app.innerHTML = viewAbout(); T('About'); }

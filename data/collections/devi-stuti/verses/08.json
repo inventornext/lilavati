@@ -2,7 +2,6 @@
   "id": "devi-stuti-8",
   "number": "Ya Devi 3",
   "title": "Intelligence",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "बुद्धिरूपेण संस्थिता।",
@@ -14,22 +13,15 @@
   "words": [
     {
       "sanskrit": "बुद्धि",
-      "meaning": "intelligence",
-      "note": ""
+      "meaning": "intelligence"
     },
     {
       "sanskrit": "रूपेण",
-      "meaning": "in the form of",
-      "note": "Instrumental of rupa: 'by way of form'."
+      "meaning": "in the form of"
     },
     {
       "sanskrit": "संस्थिता",
-      "meaning": "dwells, is established",
-      "note": "sam + √stha."
+      "meaning": "dwells, is established"
     }
-  ],
-  "grammar": [
-    "<b>The pattern from here on:</b> <span class='dv'>X-रूपेण संस्थिता</span> 'present in the form of X'. Only one word changes in each verse: learn that word and you know the verse.",
-    "<b>Instrumental of manner:</b> <span class='dv'>रूपेण</span> 'by way of form', like अनिलेन 'by the wind'."
   ]
 }

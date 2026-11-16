@@ -2,7 +2,6 @@
   "id": "devi-stuti-1",
   "number": "Opening",
   "title": "Salutations to the Goddess",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "नमो देव्यै महादेव्यै",
     "शिवायै सततं नमः।",
@@ -14,58 +13,43 @@
   "words": [
     {
       "sanskrit": "नमः",
-      "meaning": "salutation",
-      "note": "With the dative: नमः X-ai = 'salutation to X'."
+      "meaning": "salutation"
     },
     {
       "sanskrit": "देव्यै",
-      "meaning": "to the Goddess",
-      "note": "Dative of devi. Feminine -i nouns take -यै."
+      "meaning": "to the Goddess"
     },
     {
       "sanskrit": "महादेव्यै",
-      "meaning": "to the Great Goddess",
-      "note": ""
+      "meaning": "to the Great Goddess"
     },
     {
       "sanskrit": "शिवायै",
-      "meaning": "to the auspicious one",
-      "note": "Dative of shiva (feminine of shiva)."
+      "meaning": "to the auspicious one"
     },
     {
       "sanskrit": "सततम्",
-      "meaning": "always",
-      "note": ""
+      "meaning": "always"
     },
     {
       "sanskrit": "प्रकृत्यै",
-      "meaning": "to Prakriti (nature)",
-      "note": "Hindi प्रकृति."
+      "meaning": "to Prakriti (nature)"
     },
     {
       "sanskrit": "भद्रायै",
-      "meaning": "to the gracious one",
-      "note": "Hindi भद्र."
+      "meaning": "to the gracious one"
     },
     {
       "sanskrit": "नियताः",
-      "meaning": "self-controlled (we)",
-      "note": ""
+      "meaning": "self-controlled (we)"
     },
     {
       "sanskrit": "प्रणताः स्म",
-      "meaning": "we have bowed",
-      "note": "sma makes the present past or emphatic."
+      "meaning": "we have bowed"
     },
     {
       "sanskrit": "ताम्",
-      "meaning": "to her",
-      "note": "Accusative of sa."
+      "meaning": "to her"
     }
-  ],
-  "grammar": [
-    "<b>Namah + dative:</b> salutation always takes the dative ('to'): <span class='dv'>देव्यै, शिवायै, प्रकृत्यै</span>. Compare शिवाय नमः.",
-    "<b>Feminine dative -ai:</b> devi → <span class='dv'>देव्यै</span>, shiva → <span class='dv'>शिवायै</span>, prakriti → <span class='dv'>प्रकृत्यै</span>.",
-    "<b>Setting:</b> in chapter 5 of the Durga Saptashati, the gods, defeated by the demons Shumbha and Nishumbha, go to the Himalaya and praise the Goddess with this hymn."
   ]
 }

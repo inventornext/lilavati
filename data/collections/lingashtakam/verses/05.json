@@ -2,7 +2,6 @@
   "id": "lingashtakam-5",
   "number": "Verse 5",
   "title": "Kumkum and Sandal",
-  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "कुङ्कुमचन्दनलेपितलिङ्गं",
     "पङ्कजहारसुशोभितलिङ्गम्।",
@@ -14,43 +13,31 @@
   "words": [
     {
       "sanskrit": "कुङ्कुम",
-      "meaning": "kumkum, saffron",
-      "note": ""
+      "meaning": "kumkum, saffron"
     },
     {
       "sanskrit": "चन्दन",
-      "meaning": "sandalwood",
-      "note": ""
+      "meaning": "sandalwood"
     },
     {
       "sanskrit": "लेपित",
-      "meaning": "smeared",
-      "note": ""
+      "meaning": "smeared"
     },
     {
       "sanskrit": "पङ्कज",
-      "meaning": "lotus",
-      "note": "'Mud-born'."
+      "meaning": "lotus"
     },
     {
       "sanskrit": "हार",
-      "meaning": "garland",
-      "note": "As in the necklace verse."
+      "meaning": "garland"
     },
     {
       "sanskrit": "सञ्चित",
-      "meaning": "accumulated",
-      "note": "Hindi संचित."
+      "meaning": "accumulated"
     },
     {
       "sanskrit": "पाप",
-      "meaning": "sin",
-      "note": ""
+      "meaning": "sin"
     }
-  ],
-  "grammar": [
-    "<b>Puja words:</b> kunkuma, candana, pankaja: the things you offer in your own puja.",
-    "<b>Samchita:</b> 'gathered up', the karma stored from past lives in the teaching of samchita, prarabdha and kriyamana karma.",
-    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that linga of Sadashiva.'"
   ]
 }

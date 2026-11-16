@@ -2,7 +2,6 @@
   "id": "devi-stuti-2",
   "number": "Opening",
   "title": "Fierce and Gentle",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "रौद्रायै नमो नित्यायै",
     "गौर्यै धात्र्यै नमो नमः।",
@@ -14,43 +13,31 @@
   "words": [
     {
       "sanskrit": "रौद्रायै",
-      "meaning": "to the fierce one",
-      "note": "From rudra."
+      "meaning": "to the fierce one"
     },
     {
       "sanskrit": "नित्यायै",
-      "meaning": "to the eternal one",
-      "note": ""
+      "meaning": "to the eternal one"
     },
     {
       "sanskrit": "गौर्यै",
-      "meaning": "to Gauri",
-      "note": "The fair one, Parvati."
+      "meaning": "to Gauri"
     },
     {
       "sanskrit": "धात्र्यै",
-      "meaning": "to the supporter",
-      "note": "dhatri = supporter, also nurse, mother."
+      "meaning": "to the supporter"
     },
     {
       "sanskrit": "ज्योत्स्नायै",
-      "meaning": "to moonlight",
-      "note": ""
+      "meaning": "to moonlight"
     },
     {
       "sanskrit": "इन्दुरूपिण्यै",
-      "meaning": "to her whose form is the moon",
-      "note": "indu = moon, as in balendu."
+      "meaning": "to her whose form is the moon"
     },
     {
       "sanskrit": "सुखायै",
-      "meaning": "to happiness",
-      "note": ""
+      "meaning": "to happiness"
     }
-  ],
-  "grammar": [
-    "<b>Opposites in one Goddess:</b> <span class='dv'>रौद्रा</span> (fierce) and <span class='dv'>ज्योत्स्ना</span> (gentle moonlight) side by side.",
-    "<b>Guna sandhi:</b> <span class='dv'>च + इन्दु → चेन्दु</span>. अ + इ → ए.",
-    "<b>-rupini:</b> 'having the form of', the feminine of -rupa."
   ]
 }

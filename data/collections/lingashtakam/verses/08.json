@@ -2,7 +2,6 @@
   "id": "lingashtakam-8",
   "number": "Verse 8",
   "title": "Beyond the Highest",
-  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "सुरगुरुसुरवरपूजितलिङ्गं",
     "सुरवनपुष्पसदार्चितलिङ्गम्।",
@@ -14,43 +13,31 @@
   "words": [
     {
       "sanskrit": "सुरगुरु",
-      "meaning": "teacher of the gods (Brihaspati)",
-      "note": ""
+      "meaning": "teacher of the gods (Brihaspati)"
     },
     {
       "sanskrit": "सुरवर",
-      "meaning": "best of the gods",
-      "note": ""
+      "meaning": "best of the gods"
     },
     {
       "sanskrit": "पूजित",
-      "meaning": "worshipped",
-      "note": ""
+      "meaning": "worshipped"
     },
     {
       "sanskrit": "सुरवन",
-      "meaning": "garden of the gods",
-      "note": ""
+      "meaning": "garden of the gods"
     },
     {
       "sanskrit": "पुष्प",
-      "meaning": "flower",
-      "note": ""
+      "meaning": "flower"
     },
     {
       "sanskrit": "परात् परम्",
-      "meaning": "higher than the highest",
-      "note": "Ablative of comparison: 'higher than'."
+      "meaning": "higher than the highest"
     },
     {
       "sanskrit": "परमात्मक",
-      "meaning": "whose nature is the Supreme Self",
-      "note": ""
+      "meaning": "whose nature is the Supreme Self"
     }
-  ],
-  "grammar": [
-    "<b>Ablative of comparison:</b> <span class='dv'>परात् परम्</span> 'higher than the high'. The ablative means 'than' as well as 'from'.",
-    "<b>Eight light syllables:</b> <span class='dv'>सुरगुरुसुरवर</span> is ◡◡◡◡◡◡◡◡, two full beats of light syllables.",
-    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that linga of Sadashiva.'"
   ]
 }

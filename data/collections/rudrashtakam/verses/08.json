@@ -2,7 +2,6 @@
   "id": "rudrashtakam-8",
   "number": "Verse 8",
   "title": "Protect Me, O Shambhu",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "न जानामि योगं जपं नैव पूजां",
     "नतोऽहं सदा सर्वदा शम्भु तुभ्यम्।",
@@ -14,68 +13,51 @@
   "words": [
     {
       "sanskrit": "न जानामि",
-      "meaning": "I do not know",
-      "note": "√jna. Hindi जानना."
+      "meaning": "I do not know"
     },
     {
       "sanskrit": "योगम्",
-      "meaning": "yoga",
-      "note": ""
+      "meaning": "yoga"
     },
     {
       "sanskrit": "जपम्",
-      "meaning": "repetition of a mantra",
-      "note": ""
+      "meaning": "repetition of a mantra"
     },
     {
       "sanskrit": "पूजाम्",
-      "meaning": "worship",
-      "note": ""
+      "meaning": "worship"
     },
     {
       "sanskrit": "सदा सर्वदा",
-      "meaning": "always, at every time",
-      "note": ""
+      "meaning": "always, at every time"
     },
     {
       "sanskrit": "तुभ्यम्",
-      "meaning": "to you",
-      "note": "Dative of tvam."
+      "meaning": "to you"
     },
     {
       "sanskrit": "जरा",
-      "meaning": "old age",
-      "note": ""
+      "meaning": "old age"
     },
     {
       "sanskrit": "दुःखौघ",
-      "meaning": "flood of sorrows",
-      "note": "duhkha + ogha (flood). अ + ओ → औ."
+      "meaning": "flood of sorrows"
     },
     {
       "sanskrit": "तातप्यमानम्",
-      "meaning": "burning intensely",
-      "note": "Intensive form of √tap (to burn): 'burning and burning'."
+      "meaning": "burning intensely"
     },
     {
       "sanskrit": "पाहि",
-      "meaning": "protect!",
-      "note": "Imperative of √pa."
+      "meaning": "protect!"
     },
     {
       "sanskrit": "आपन्नम्",
-      "meaning": "one in distress",
-      "note": "Hindi आपदा."
+      "meaning": "one in distress"
     },
     {
       "sanskrit": "शम्भो",
-      "meaning": "O Shambhu",
-      "note": "Vocative."
+      "meaning": "O Shambhu"
     }
-  ],
-  "grammar": [
-    "<b>Intensive verb:</b> <span class='dv'>तातप्यमान</span> from √तप् repeated, 'burning over and over'. Sanskrit can intensify a verb by doubling it.",
-    "<b>Vriddhi sandhi:</b> <span class='dv'>दुःख + ओघ → दुःखौघ</span>. अ + ओ → औ.",
-    "<b>Dative 'to you':</b> <span class='dv'>तुभ्यम्</span>, as in नमस्तुभ्यम्, 'salutations to you'."
   ]
 }

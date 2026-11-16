@@ -2,7 +2,6 @@
   "id": "nirvana-5",
   "number": "Verse 5",
   "title": "No Death, No Birth",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "न मृत्युर्न शङ्का न मे जातिभेदः",
     "पिता नैव मे नैव माता न जन्म।",
@@ -14,58 +13,43 @@
   "words": [
     {
       "sanskrit": "मृत्युः",
-      "meaning": "death",
-      "note": ""
+      "meaning": "death"
     },
     {
       "sanskrit": "शङ्का",
-      "meaning": "fear, doubt",
-      "note": "Hindi शंका."
+      "meaning": "fear, doubt"
     },
     {
       "sanskrit": "जातिभेदः",
-      "meaning": "distinction of birth",
-      "note": "bheda = difference."
+      "meaning": "distinction of birth"
     },
     {
       "sanskrit": "पिता",
-      "meaning": "father",
-      "note": ""
+      "meaning": "father"
     },
     {
       "sanskrit": "माता",
-      "meaning": "mother",
-      "note": ""
+      "meaning": "mother"
     },
     {
       "sanskrit": "जन्म",
-      "meaning": "birth",
-      "note": ""
+      "meaning": "birth"
     },
     {
       "sanskrit": "बन्धुः",
-      "meaning": "relative",
-      "note": ""
+      "meaning": "relative"
     },
     {
       "sanskrit": "मित्रम्",
-      "meaning": "friend",
-      "note": ""
+      "meaning": "friend"
     },
     {
       "sanskrit": "गुरुः",
-      "meaning": "teacher",
-      "note": ""
+      "meaning": "teacher"
     },
     {
       "sanskrit": "शिष्यः",
-      "meaning": "student",
-      "note": ""
+      "meaning": "student"
     }
-  ],
-  "grammar": [
-    "<b>Pairs of opposites again:</b> father and mother, friend and relative, teacher and student, like the pairs in Tandava verse 12.",
-    "<b>Visarga to r:</b> <span class='dv'>मृत्युः + न → मृत्युर्न</span>, <span class='dv'>गुरुः + नैव → गुरुर्नैव</span>.",
-    "Refrain: <span class='dv'>चिदानन्दरूपः शिवोऽहं शिवोऽहम्</span> 'My form is consciousness and bliss. I am Shiva, I am Shiva.'"
   ]
 }

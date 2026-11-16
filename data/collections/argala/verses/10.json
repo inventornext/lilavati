@@ -2,7 +2,6 @@
   "id": "argala-10",
   "number": "Verse 10",
   "title": "For Those Who Praise",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "स्तुवद्भ्यो भक्तिपूर्वं त्वां",
     "चण्डिके व्याधिनाशिनि।",
@@ -14,27 +13,19 @@
   "words": [
     {
       "sanskrit": "स्तुवद्भ्यः",
-      "meaning": "for those praising",
-      "note": "Dative plural of the present participle of √stu."
+      "meaning": "for those praising"
     },
     {
       "sanskrit": "भक्तिपूर्वम्",
-      "meaning": "with devotion",
-      "note": ""
+      "meaning": "with devotion"
     },
     {
       "sanskrit": "त्वाम्",
-      "meaning": "you",
-      "note": "Accusative."
+      "meaning": "you"
     },
     {
       "sanskrit": "व्याधि",
-      "meaning": "disease",
-      "note": ""
+      "meaning": "disease"
     }
-  ],
-  "grammar": [
-    "<b>Root √stu:</b> to praise. <span class='dv'>स्तुति, स्तोत्र, स्तव</span> all come from it.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

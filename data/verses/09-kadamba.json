@@ -3,7 +3,6 @@
   "number": "Verse 9 · Fractions",
   "topic": "Linear equations",
   "title": "Bees Among the Flowers",
-  "meter": "Meter: Shardulavikridita (19 syllables per line)",
   "devanagari": [
     "पञ्चांशोऽलिकुलात्कदम्बमगमत्त्र्यंशः शिलीन्ध्रं तयो-",
     "र्विश्लेषस्त्रिगुणो मृगाक्षि कुटजं दोलायमानोऽपरः।",
@@ -15,115 +14,88 @@
   "words": [
     {
       "sanskrit": "पञ्चांशः",
-      "meaning": "one fifth",
-      "note": "pancha + amsha (part)."
+      "meaning": "one fifth"
     },
     {
       "sanskrit": "अलिकुलात्",
-      "meaning": "from the swarm of bees",
-      "note": "Ablative: 'from'."
+      "meaning": "from the swarm of bees"
     },
     {
       "sanskrit": "कदम्बम्",
-      "meaning": "to the kadamba flower",
-      "note": "Accusative of destination."
+      "meaning": "to the kadamba flower"
     },
     {
       "sanskrit": "अगमत्",
-      "meaning": "went",
-      "note": "Aorist (past) of √gam."
+      "meaning": "went"
     },
     {
       "sanskrit": "त्र्यंशः",
-      "meaning": "one third",
-      "note": "tri + amsha."
+      "meaning": "one third"
     },
     {
       "sanskrit": "शिलीन्ध्रम्",
-      "meaning": "to the shilindhra flower",
-      "note": ""
+      "meaning": "to the shilindhra flower"
     },
     {
       "sanskrit": "तयोः विश्लेषः",
-      "meaning": "the difference of the two",
-      "note": "vishlesha = separation, difference. Hindi विश्लेषण (analysis)."
+      "meaning": "the difference of the two"
     },
     {
       "sanskrit": "त्रिगुणः",
-      "meaning": "three times",
-      "note": "Same as trigunita in the peacock verse."
+      "meaning": "three times"
     },
     {
       "sanskrit": "मृगाक्षि",
-      "meaning": "O deer-eyed one",
-      "note": "mriga + akshi (eye). Vocative."
+      "meaning": "O deer-eyed one"
     },
     {
       "sanskrit": "कुटजम्",
-      "meaning": "to the kutaja flower",
-      "note": ""
+      "meaning": "to the kutaja flower"
     },
     {
       "sanskrit": "दोलायमानः",
-      "meaning": "swinging",
-      "note": "Hindi डोलना, दोला (swing)."
+      "meaning": "swinging"
     },
     {
       "sanskrit": "अपरः",
-      "meaning": "another (one)",
-      "note": ""
+      "meaning": "another (one)"
     },
     {
       "sanskrit": "केतकमालती",
-      "meaning": "ketaki and jasmine",
-      "note": "A dvandva compound."
+      "meaning": "ketaki and jasmine"
     },
     {
       "sanskrit": "परिमल",
-      "meaning": "fragrance",
-      "note": "Also in the first bee verse."
+      "meaning": "fragrance"
     },
     {
       "sanskrit": "एककाल",
-      "meaning": "at the same time",
-      "note": ""
+      "meaning": "at the same time"
     },
     {
       "sanskrit": "प्रियादूताहूतः",
-      "meaning": "called by a beloved's messenger",
-      "note": "duta = messenger; ahuta = called."
+      "meaning": "called by a beloved's messenger"
     },
     {
       "sanskrit": "इतस्ततः",
-      "meaning": "here and there",
-      "note": "Hindi इधर उधर."
+      "meaning": "here and there"
     },
     {
       "sanskrit": "भ्रमति",
-      "meaning": "wanders",
-      "note": "Hindi भ्रमण."
+      "meaning": "wanders"
     },
     {
       "sanskrit": "खे",
-      "meaning": "in the sky",
-      "note": "Locative of kha (sky)."
+      "meaning": "in the sky"
     },
     {
       "sanskrit": "भृङ्गः",
-      "meaning": "a bee",
-      "note": ""
+      "meaning": "a bee"
     },
     {
       "sanskrit": "अलिसंख्याम्",
-      "meaning": "the number of bees",
-      "note": "Same ending as the first bee verse."
+      "meaning": "the number of bees"
     }
-  ],
-  "grammar": [
-    "<b>Aorist past:</b> <span class='dv'>अगमत्</span> 'went', another past tense (compare चकार and अपतत्).",
-    "<b>Ablative 'from':</b> <span class='dv'>अलिकुलात्</span> 'from the swarm', like बिलात् 'from the hole'.",
-    "<b>Visarga to sh:</b> <span class='dv'>विश्लेषः + त्रिगुणः → विश्लेषस्त्रिगुणः</span> (स् before त), and <span class='dv'>तयोः + विश्लेषः → तयोर्विश्लेषः</span> (र् before a voiced sound).",
-    "<b>Poetry in maths:</b> the lone bee is compared to a lover torn between two messengers. Bhaskara never lets the numbers be dull."
   ],
   "question": "How many bees were in the swarm?",
   "answer": 15,

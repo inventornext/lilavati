@@ -2,7 +2,6 @@
   "id": "devi-stuti-18",
   "number": "Ya Devi 13",
   "title": "Faith",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "श्रद्धारूपेण संस्थिता।",
@@ -14,11 +13,7 @@
   "words": [
     {
       "sanskrit": "श्रद्धा",
-      "meaning": "faith",
-      "note": ""
+      "meaning": "faith"
     }
-  ],
-  "grammar": [
-    "<b>The changing word:</b> <span class='dv'>श्रद्धा</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
   ]
 }

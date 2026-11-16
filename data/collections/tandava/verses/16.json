@@ -2,7 +2,6 @@
   "id": "tandava-16",
   "number": "Verse 16 · Phalashruti",
   "title": "Fruit of Recitation",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "इमं हि नित्यमेवमुक्तमुत्तमोत्तमं स्तवं",
     "पठन्स्मरन्ब्रुवन्नरो विशुद्धिमेति सन्ततम्।",
@@ -14,113 +13,87 @@
   "words": [
     {
       "sanskrit": "इमम्",
-      "meaning": "this",
-      "note": ""
+      "meaning": "this"
     },
     {
       "sanskrit": "नित्यम्",
-      "meaning": "daily",
-      "note": "Hindi नित्य."
+      "meaning": "daily"
     },
     {
       "sanskrit": "एवम् उक्तम्",
-      "meaning": "thus spoken",
-      "note": ""
+      "meaning": "thus spoken"
     },
     {
       "sanskrit": "उत्तमोत्तमम्",
-      "meaning": "best of the best",
-      "note": "uttama + uttama. अ + उ → ओ."
+      "meaning": "best of the best"
     },
     {
       "sanskrit": "स्तवम्",
-      "meaning": "hymn",
-      "note": "Hindi स्तव, स्तुति."
+      "meaning": "hymn"
     },
     {
       "sanskrit": "पठन्",
-      "meaning": "reading",
-      "note": "Hindi पढ़ना, पाठ."
+      "meaning": "reading"
     },
     {
       "sanskrit": "स्मरन्",
-      "meaning": "remembering",
-      "note": "Hindi स्मरण."
+      "meaning": "remembering"
     },
     {
       "sanskrit": "ब्रुवन्",
-      "meaning": "reciting",
-      "note": "√bru, as in bruhi in the Lilavati verses."
+      "meaning": "reciting"
     },
     {
       "sanskrit": "नरः",
-      "meaning": "a person",
-      "note": ""
+      "meaning": "a person"
     },
     {
       "sanskrit": "विशुद्धिम्",
-      "meaning": "purity",
-      "note": ""
+      "meaning": "purity"
     },
     {
       "sanskrit": "एति",
-      "meaning": "attains",
-      "note": "√i (to go)."
+      "meaning": "attains"
     },
     {
       "sanskrit": "सन्ततम्",
-      "meaning": "always",
-      "note": ""
+      "meaning": "always"
     },
     {
       "sanskrit": "हरे गुरौ",
-      "meaning": "in Hara, the guru",
-      "note": "Locatives."
+      "meaning": "in Hara, the guru"
     },
     {
       "sanskrit": "सुभक्तिम्",
-      "meaning": "deep devotion",
-      "note": ""
+      "meaning": "deep devotion"
     },
     {
       "sanskrit": "आशु",
-      "meaning": "quickly",
-      "note": ""
+      "meaning": "quickly"
     },
     {
       "sanskrit": "याति",
-      "meaning": "goes to, obtains",
-      "note": ""
+      "meaning": "goes to, obtains"
     },
     {
       "sanskrit": "नान्यथा",
-      "meaning": "not otherwise",
-      "note": "na + anyatha."
+      "meaning": "not otherwise"
     },
     {
       "sanskrit": "गतिम्",
-      "meaning": "way",
-      "note": ""
+      "meaning": "way"
     },
     {
       "sanskrit": "विमोहनम्",
-      "meaning": "removing delusion",
-      "note": "As read here by the tradition."
+      "meaning": "removing delusion"
     },
     {
       "sanskrit": "देहिनाम्",
-      "meaning": "of embodied beings",
-      "note": "dehin = one with a body (deha)."
+      "meaning": "of embodied beings"
     },
     {
       "sanskrit": "चिन्तनम्",
-      "meaning": "thinking of, meditation",
-      "note": "Hindi चिंतन."
+      "meaning": "thinking of, meditation"
     }
-  ],
-  "grammar": [
-    "<b>Present participles:</b> <span class='dv'>पठन्, स्मरन्, ब्रुवन्</span> 'reading, remembering, reciting'.",
-    "<b>Guna sandhi:</b> <span class='dv'>उत्तम + उत्तम → उत्तमोत्तम</span>, like तस्योपरि in the peacock verse.",
-    "<b>Phalashruti:</b> a closing verse that tells the 'fruit' (phala) of reciting a hymn. It still keeps the Panchachamara meter."
   ]
 }

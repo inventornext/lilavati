@@ -2,7 +2,6 @@
   "id": "tandava-12",
   "number": "Verse 12",
   "title": "Equal Vision",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "दृषद्विचित्रतल्पयोर्भुजङ्गमौक्तिकस्रजो-",
     "र्गरिष्ठरत्नलोष्ठयोः सुहृद्विपक्षपक्षयोः।",
@@ -14,103 +13,79 @@
   "words": [
     {
       "sanskrit": "दृषद्",
-      "meaning": "stone",
-      "note": ""
+      "meaning": "stone"
     },
     {
       "sanskrit": "विचित्रतल्प",
-      "meaning": "beautiful bed",
-      "note": "talpa = bed."
+      "meaning": "beautiful bed"
     },
     {
       "sanskrit": "भुजङ्ग",
-      "meaning": "snake",
-      "note": ""
+      "meaning": "snake"
     },
     {
       "sanskrit": "मौक्तिकस्रज्",
-      "meaning": "pearl necklace",
-      "note": "mauktika = pearl, as in the necklace verse; sraj = garland."
+      "meaning": "pearl necklace"
     },
     {
       "sanskrit": "गरिष्ठ",
-      "meaning": "most precious, heaviest",
-      "note": "Superlative of guru. Hindi गरिष्ठ (heavy food)."
+      "meaning": "most precious, heaviest"
     },
     {
       "sanskrit": "रत्न",
-      "meaning": "jewel",
-      "note": ""
+      "meaning": "jewel"
     },
     {
       "sanskrit": "लोष्ठ",
-      "meaning": "clod of earth",
-      "note": ""
+      "meaning": "clod of earth"
     },
     {
       "sanskrit": "सुहृद्",
-      "meaning": "friend",
-      "note": "'Good-hearted': su + hrid."
+      "meaning": "friend"
     },
     {
       "sanskrit": "विपक्षपक्ष",
-      "meaning": "the enemy's side",
-      "note": "Hindi विपक्ष (opposition)."
+      "meaning": "the enemy's side"
     },
     {
       "sanskrit": "तृण",
-      "meaning": "blade of grass",
-      "note": "Hindi तिनका."
+      "meaning": "blade of grass"
     },
     {
       "sanskrit": "अरविन्दचक्षुस्",
-      "meaning": "lotus-eyed (woman)",
-      "note": "aravinda = lotus; chakshus = eye."
+      "meaning": "lotus-eyed (woman)"
     },
     {
       "sanskrit": "प्रजा",
-      "meaning": "common people",
-      "note": "Hindi प्रजा."
+      "meaning": "common people"
     },
     {
       "sanskrit": "महीमहेन्द्र",
-      "meaning": "king of the earth",
-      "note": "mahi = earth."
+      "meaning": "king of the earth"
     },
     {
       "sanskrit": "समम्",
-      "meaning": "equally",
-      "note": "Hindi सम, समान."
+      "meaning": "equally"
     },
     {
       "sanskrit": "प्रवर्तयन्",
-      "meaning": "keeping, directing",
-      "note": "Causative participle of pra + √vrit."
+      "meaning": "keeping, directing"
     },
     {
       "sanskrit": "मनः",
-      "meaning": "mind",
-      "note": ""
+      "meaning": "mind"
     },
     {
       "sanskrit": "कदा",
-      "meaning": "when?",
-      "note": ""
+      "meaning": "when?"
     },
     {
       "sanskrit": "सदाशिवम्",
-      "meaning": "Sadashiva, the ever-auspicious",
-      "note": ""
+      "meaning": "Sadashiva, the ever-auspicious"
     },
     {
       "sanskrit": "भजे",
-      "meaning": "shall I worship",
-      "note": ""
+      "meaning": "shall I worship"
     }
-  ],
-  "grammar": [
-    "<b>The dual number:</b> every pair ends in <span class='dv'>-योः</span> (genitive dual): तल्पयोः, स्रजोः, लोष्ठयोः, पक्षयोः, चक्षुषोः, महेन्द्रयोः. Six pairs of opposites, six duals. Compare तयोः in the peacock verse.",
-    "<b>Superlative -इष्ठ:</b> <span class='dv'>गुरु → गरिष्ठ</span> 'heaviest', like श्रेष्ठ (best), ज्येष्ठ (eldest). Guru also means 'heavy' in meter!",
-    "<b>Samatva:</b> the ideal of an even mind, as in the Gita: <span class='dv'>समत्वं योग उच्यते</span>."
   ]
 }

@@ -3,7 +3,6 @@
   "number": "Verse 8 · Topic",
   "topic": "Pythagorean theorem",
   "title": "Title of the Puzzle",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "First line in Devanagari",
     "Second line।",
@@ -15,12 +14,8 @@
   "words": [
     {
       "sanskrit": "शब्द",
-      "meaning": "word",
-      "note": "Grammar note shown when the card is tapped."
+      "meaning": "word"
     }
-  ],
-  "grammar": [
-    "<b>Sandhi:</b> <span class='dv'>अ + उ → ओ</span>. Explain one rule per line."
   ],
   "question": "The question the reader must answer?",
   "answer": 0,

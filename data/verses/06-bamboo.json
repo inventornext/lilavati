@@ -3,7 +3,6 @@
   "number": "Verse 6 · Right triangles",
   "topic": "Pythagorean theorem",
   "title": "The Bamboo Broken by the Wind",
-  "meter": "Meter: Malini (15 syllables per line)",
   "devanagari": [
     "यदि समभुवि वेणुर्द्वित्रिपाणिप्रमाणो",
     "गणक पवनवेगादेकदेशे स भग्नः।",
@@ -15,105 +14,80 @@
   "words": [
     {
       "sanskrit": "यदि",
-      "meaning": "if",
-      "note": ""
+      "meaning": "if"
     },
     {
       "sanskrit": "समभुवि",
-      "meaning": "on level ground",
-      "note": "sama (level) + bhu (earth). Locative."
+      "meaning": "on level ground"
     },
     {
       "sanskrit": "वेणुः",
-      "meaning": "a bamboo",
-      "note": "Also 'flute', as in Venugopala. Visarga → र् before द: वेणुर्द्वि."
+      "meaning": "a bamboo"
     },
     {
       "sanskrit": "द्वित्रिपाणिप्रमाणः",
-      "meaning": "measuring 32 hastas",
-      "note": "dvi (2), tri (3): digits are read right to left, so 'two-three' = 32. pani = hand."
+      "meaning": "measuring 32 hastas"
     },
     {
       "sanskrit": "गणक",
-      "meaning": "O mathematician",
-      "note": "Vocative."
+      "meaning": "O mathematician"
     },
     {
       "sanskrit": "पवनवेगात्",
-      "meaning": "from the force of the wind",
-      "note": "pavana (wind) + vega (speed, force). Ablative of cause: 'because of'."
+      "meaning": "from the force of the wind"
     },
     {
       "sanskrit": "एकदेशे",
-      "meaning": "at one place",
-      "note": "eka (one) + desha (place). Locative."
+      "meaning": "at one place"
     },
     {
       "sanskrit": "सः",
-      "meaning": "it",
-      "note": "Visarga drops before a consonant: स भग्नः."
+      "meaning": "it"
     },
     {
       "sanskrit": "भग्नः",
-      "meaning": "broken",
-      "note": "Past participle of √bhanj (to break). Hindi भग्न, भंग."
+      "meaning": "broken"
     },
     {
       "sanskrit": "भुवि",
-      "meaning": "on the ground",
-      "note": "Locative of bhu."
+      "meaning": "on the ground"
     },
     {
       "sanskrit": "नृपमितहस्तेषु",
-      "meaning": "at 'kings'-many hastas = 16",
-      "note": "nripa (king) stands for 16 in the word-numeral system; mita = measured."
+      "meaning": "at 'kings'-many hastas = 16"
     },
     {
       "sanskrit": "अङ्ग",
-      "meaning": "dear friend",
-      "note": "A friendly particle of address."
+      "meaning": "dear friend"
     },
     {
       "sanskrit": "लग्नम्",
-      "meaning": "touched",
-      "note": "Past participle of √lag (to stick). Hindi लगना."
+      "meaning": "touched"
     },
     {
       "sanskrit": "तदग्रम्",
-      "meaning": "its top",
-      "note": "tat (its) + agra (tip). Hindi अग्र, आगे."
+      "meaning": "its top"
     },
     {
       "sanskrit": "कथय",
-      "meaning": "tell!",
-      "note": ""
+      "meaning": "tell!"
     },
     {
       "sanskrit": "कतिषु",
-      "meaning": "at how many",
-      "note": "Locative plural of kati."
+      "meaning": "at how many"
     },
     {
       "sanskrit": "मूलात्",
-      "meaning": "from the root",
-      "note": "Ablative of mula. Same mula as 'square root' in the bee verse!"
+      "meaning": "from the root"
     },
     {
       "sanskrit": "एषः",
-      "meaning": "this (bamboo)",
-      "note": "Visarga drops before a consonant: एष भग्नः."
+      "meaning": "this (bamboo)"
     },
     {
       "sanskrit": "करेषु",
-      "meaning": "hastas",
-      "note": "Locative plural of kara (hand, a unit of length)."
+      "meaning": "hastas"
     }
-  ],
-  "grammar": [
-    "<b>Word numerals (bhuta-sankhya):</b> numbers written as words for things. <span class='dv'>नृप</span> (king) = 16 by convention. Digits are read right to left, <span class='dv'>अङ्कानां वामतो गतिः</span>, so <span class='dv'>द्वि-त्रि</span> = 32. This let poets fit numbers into a meter.",
-    "<b>Yan sandhi:</b> <span class='dv'>हस्तेषु + अङ्ग → हस्तेष्वङ्ग</span>. उ before a different vowel becomes व्.",
-    "<b>Ablative of cause:</b> <span class='dv'>पवनवेगात्</span> 'because of the wind's force'. The ablative means 'from', and also 'because of'.",
-    "<b>Consonant sandhi:</b> <span class='dv'>वेगात् + एक → वेगादेक</span>, <span class='dv'>मूलात् + एष → मूलादेष</span>. त् → द् before a vowel."
   ],
   "question": "At how many hastas from the root did the bamboo break?",
   "answer": 12,

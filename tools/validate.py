@@ -12,8 +12,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-REQUIRED = ["id", "number", "title", "meter", "devanagari", "translation",
-            "words", "grammar", "question", "answer", "unit", "solution"]
+REQUIRED = ["id", "number", "title", "devanagari", "translation",
+            "words", "question", "answer", "unit", "solution"]
 WORD_FIELDS = ["sanskrit", "meaning"]
 
 errors, warnings = [], []
@@ -67,8 +67,8 @@ for name in manifest["verses"]:
 load(ROOT / "data" / "vocab.json")
 
 # Collections: stotras and the Aryabhatiya (puzzle fields optional)
-COLL_REQUIRED = ["id", "number", "title", "meter", "devanagari",
-                 "translation", "words", "grammar"]
+COLL_REQUIRED = ["id", "number", "title", "devanagari",
+                 "translation", "words"]
 n_coll = 0
 cindex = load(ROOT / "data" / "collections.json") or {"collections": []}
 for cid in cindex["collections"]:
@@ -99,7 +99,6 @@ for cid in cindex["collections"]:
             if r.returncode != 0:
                 errors.append(f"{tag} {v['code']} crashed:\n{r.stderr.strip()}")
 
-load(ROOT / "data" / "grammar.json")
 
 # share pages built by tools/build_static.py
 missing = [i for i in seen_ids if i and not (ROOT / "v" / f"{i}.html").exists()]

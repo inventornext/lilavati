@@ -2,7 +2,6 @@
   "id": "devi-stuti-24",
   "number": "Ya Devi 19",
   "title": "Contentment",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "तुष्टिरूपेण संस्थिता।",
@@ -14,11 +13,7 @@
   "words": [
     {
       "sanskrit": "तुष्टि",
-      "meaning": "contentment",
-      "note": "Related to tosha in Rudrashtakam 9."
+      "meaning": "contentment"
     }
-  ],
-  "grammar": [
-    "<b>The changing word:</b> <span class='dv'>तुष्टि</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
   ]
 }

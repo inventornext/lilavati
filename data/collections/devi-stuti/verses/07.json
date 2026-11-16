@@ -2,7 +2,6 @@
   "id": "devi-stuti-7",
   "number": "Ya Devi 2",
   "title": "Consciousness",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "चेतनेत्यभिधीयते।",
@@ -14,17 +13,11 @@
   "words": [
     {
       "sanskrit": "चेतना",
-      "meaning": "consciousness",
-      "note": "Hindi चेतना."
+      "meaning": "consciousness"
     },
     {
       "sanskrit": "अभिधीयते",
-      "meaning": "is named",
-      "note": "Passive of abhi + √dha."
+      "meaning": "is named"
     }
-  ],
-  "grammar": [
-    "<b>Passive verb:</b> <span class='dv'>अभिधीयते</span> 'is called', the passive of abhi + √dha, like प्रोच्यताम् in Lilavati verse 8.",
-    "<b>Yan sandhi:</b> <span class='dv'>चेतना + इति → चेतनेति</span>, then <span class='dv'>इति + अभिधीयते → इत्यभिधीयते</span>."
   ]
 }

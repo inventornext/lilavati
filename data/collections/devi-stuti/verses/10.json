@@ -2,7 +2,6 @@
   "id": "devi-stuti-10",
   "number": "Ya Devi 5",
   "title": "Hunger",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "क्षुधारूपेण संस्थिता।",
@@ -14,11 +13,7 @@
   "words": [
     {
       "sanskrit": "क्षुधा",
-      "meaning": "hunger",
-      "note": ""
+      "meaning": "hunger"
     }
-  ],
-  "grammar": [
-    "<b>The changing word:</b> <span class='dv'>क्षुधा</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
   ]
 }

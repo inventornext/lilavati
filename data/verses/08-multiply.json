@@ -3,7 +3,6 @@
   "number": "Verse 8 · Multiplication",
   "topic": "Place value",
   "title": "The Deer-eyed Girl's Multiplication",
-  "meter": "Meter: Shardulavikridita (19 syllables per line)",
   "devanagari": [
     "बाले बालकुरङ्गलोलनयने लीलावति प्रोच्यतां",
     "पञ्चत्र्येकमिता दिवाकरगुणा अङ्काः कति स्युर्यदि।",
@@ -15,115 +14,88 @@
   "words": [
     {
       "sanskrit": "बाले",
-      "meaning": "O girl",
-      "note": "Vocative of bala."
+      "meaning": "O girl"
     },
     {
       "sanskrit": "बालकुरङ्ग",
-      "meaning": "young deer",
-      "note": "kuranga = deer. Hindi कुरंग."
+      "meaning": "young deer"
     },
     {
       "sanskrit": "लोलनयने",
-      "meaning": "O restless-eyed one",
-      "note": "lola (restless) + nayana (eye). Vocative."
+      "meaning": "O restless-eyed one"
     },
     {
       "sanskrit": "प्रोच्यताम्",
-      "meaning": "let it be told",
-      "note": "Passive imperative of pra + √vac."
+      "meaning": "let it be told"
     },
     {
       "sanskrit": "पञ्चत्र्येकमिताः",
-      "meaning": "measured as five-three-one",
-      "note": "Digits are read right to left: 5, 3, 1 → 135."
+      "meaning": "measured as five-three-one"
     },
     {
       "sanskrit": "दिवाकरगुणाः",
-      "meaning": "multiplied by the suns",
-      "note": "divakara (sun) = 12 in word numerals, for the 12 Adityas."
+      "meaning": "multiplied by the suns"
     },
     {
       "sanskrit": "अङ्काः",
-      "meaning": "digits, number",
-      "note": "Hindi अंक."
+      "meaning": "digits, number"
     },
     {
       "sanskrit": "कति",
-      "meaning": "how many",
-      "note": ""
+      "meaning": "how many"
     },
     {
       "sanskrit": "स्युः",
-      "meaning": "would be",
-      "note": "Optative of √as, plural."
+      "meaning": "would be"
     },
     {
       "sanskrit": "यदि",
-      "meaning": "if",
-      "note": ""
+      "meaning": "if"
     },
     {
       "sanskrit": "रूप",
-      "meaning": "whole (number)",
-      "note": "Multiplying by the whole multiplier at once."
+      "meaning": "whole (number)"
     },
     {
       "sanskrit": "स्थान",
-      "meaning": "place",
-      "note": "Multiplying digit by digit, place by place."
+      "meaning": "place"
     },
     {
       "sanskrit": "विभाग",
-      "meaning": "factors",
-      "note": "Splitting the multiplier into factors: 12 = 3 × 4."
+      "meaning": "factors"
     },
     {
       "sanskrit": "खण्ड",
-      "meaning": "parts",
-      "note": "Splitting the multiplier into a sum: 12 = 8 + 4."
+      "meaning": "parts"
     },
     {
       "sanskrit": "गुणने",
-      "meaning": "in multiplication",
-      "note": "Locative of gunana. Hindi गुणा."
+      "meaning": "in multiplication"
     },
     {
       "sanskrit": "कल्या असि",
-      "meaning": "you are clever",
-      "note": "kalya = skilled."
+      "meaning": "you are clever"
     },
     {
       "sanskrit": "कल्याणिनि",
-      "meaning": "O fair one",
-      "note": "Vocative of kalyanini."
+      "meaning": "O fair one"
     },
     {
       "sanskrit": "छिन्नाः",
-      "meaning": "divided",
-      "note": "Literally 'cut'. √chid, as in -cchid in the Tandava stotra!"
+      "meaning": "divided"
     },
     {
       "sanskrit": "तेन गुणेन",
-      "meaning": "by that multiplier",
-      "note": "Instrumental."
+      "meaning": "by that multiplier"
     },
     {
       "sanskrit": "जाताः",
-      "meaning": "become",
-      "note": "Past participle of √jan."
+      "meaning": "become"
     },
     {
       "sanskrit": "वद",
-      "meaning": "tell!",
-      "note": ""
+      "meaning": "tell!"
     }
-  ],
-  "grammar": [
-    "<b>Word numerals:</b> <span class='dv'>दिवाकर</span> (sun) = 12, for the twelve Adityas. <span class='dv'>पञ्च-त्रि-एक</span> read right to left = 135. See the Grammar page for the full table.",
-    "<b>Division is 'cutting':</b> <span class='dv'>छिन्न</span> 'cut' from √छिद्. The same root gives -च्छिद् 'destroyer' in Tandava verse 9.",
-    "<b>Optative:</b> <span class='dv'>स्युः</span> 'would be', the mood for 'if…, what would…'.",
-    "<b>Yan sandhi:</b> <span class='dv'>त्रि + एक → त्र्येक</span>. इ before a different vowel becomes य्."
   ],
   "question": "What is 135 × 12?",
   "answer": 1620,

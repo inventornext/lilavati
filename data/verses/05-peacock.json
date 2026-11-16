@@ -3,7 +3,6 @@
   "number": "Verse 5 · Lilavati 152 · Right triangles",
   "topic": "Pythagorean theorem",
   "title": "The Peacock and the Snake",
-  "meter": "Meter: Shardulavikridita (19 syllables per line)",
   "devanagari": [
     "अस्ति स्तम्भतले बिलं तदुपरि क्रीडाशिखण्डी स्थितः",
     "स्तम्भे हस्तनवोच्छ्रिते त्रिगुणितस्तम्भप्रमाणान्तरे।",
@@ -15,121 +14,92 @@
   "words": [
     {
       "sanskrit": "अस्ति",
-      "meaning": "there is",
-      "note": "Present tense of √as (to be)."
+      "meaning": "there is"
     },
     {
       "sanskrit": "स्तम्भतले",
-      "meaning": "at the foot of a pillar",
-      "note": "stambha (pillar) + tala (base). Locative."
+      "meaning": "at the foot of a pillar"
     },
     {
       "sanskrit": "बिलम्",
-      "meaning": "a hole",
-      "note": "Neuter noun, the snake's hole."
+      "meaning": "a hole"
     },
     {
       "sanskrit": "तदुपरि",
-      "meaning": "above it",
-      "note": "tat (that) + upari (above)."
+      "meaning": "above it"
     },
     {
       "sanskrit": "क्रीडाशिखण्डी",
-      "meaning": "a pet peacock",
-      "note": "krida (play) + shikhandin (crested one, peacock)."
+      "meaning": "a pet peacock"
     },
     {
       "sanskrit": "स्थितः",
-      "meaning": "is standing",
-      "note": "Past participle of √stha (to stand)."
+      "meaning": "is standing"
     },
     {
       "sanskrit": "हस्तनवोच्छ्रिते",
-      "meaning": "raised nine hastas",
-      "note": "nava + ucchrita: अ + उ → ओ (guna sandhi)."
+      "meaning": "raised nine hastas"
     },
     {
       "sanskrit": "त्रिगुणित",
-      "meaning": "tripled",
-      "note": "tri (three) + gunita (multiplied)."
+      "meaning": "tripled"
     },
     {
       "sanskrit": "प्रमाणान्तरे",
-      "meaning": "at a distance of (that) measure",
-      "note": "pramana (measure) + antara (gap, distance). Locative."
+      "meaning": "at a distance of (that) measure"
     },
     {
       "sanskrit": "दृष्ट्वा",
-      "meaning": "having seen",
-      "note": "Gerund of √drish. The -tva ending means 'having done'."
+      "meaning": "having seen"
     },
     {
       "sanskrit": "अहिम्",
-      "meaning": "the snake",
-      "note": "Accusative of ahi (snake)."
+      "meaning": "the snake"
     },
     {
       "sanskrit": "आव्रजन्तम्",
-      "meaning": "coming toward",
-      "note": "Present participle of a + √vraj (to come)."
+      "meaning": "coming toward"
     },
     {
       "sanskrit": "अपतत्",
-      "meaning": "swooped, fell",
-      "note": "Imperfect (past) tense of √pat (to fall, fly)."
+      "meaning": "swooped, fell"
     },
     {
       "sanskrit": "तिर्यक्",
-      "meaning": "slantwise",
-      "note": "Oblique, diagonal. Today: तिर्यक् रेखा = oblique line."
+      "meaning": "slantwise"
     },
     {
       "sanskrit": "तस्य उपरि",
-      "meaning": "upon it",
-      "note": "अ + उ → ओ gives तस्योपरि."
+      "meaning": "upon it"
     },
     {
       "sanskrit": "क्षिप्रम्",
-      "meaning": "quickly",
-      "note": "Adverb. The mathematician is told to answer fast!"
+      "meaning": "quickly"
     },
     {
       "sanskrit": "तयोः",
-      "meaning": "of the two",
-      "note": "Genitive dual of tad. Visarga → र् before a voiced sound."
+      "meaning": "of the two"
     },
     {
       "sanskrit": "बिलात्",
-      "meaning": "from the hole",
-      "note": "Ablative: the 'from' case."
+      "meaning": "from the hole"
     },
     {
       "sanskrit": "कति करैः",
-      "meaning": "at how many hastas",
-      "note": "kati = how many; kara = hand, used as the hasta unit. Instrumental plural."
+      "meaning": "at how many hastas"
     },
     {
       "sanskrit": "साम्येन",
-      "meaning": "with equality",
-      "note": "Instrumental of samya: 'their speeds being equal'."
+      "meaning": "with equality"
     },
     {
       "sanskrit": "गत्योः",
-      "meaning": "of the two motions",
-      "note": "Genitive dual of gati (motion, speed)."
+      "meaning": "of the two motions"
     },
     {
       "sanskrit": "युतिः",
-      "meaning": "the meeting, junction",
-      "note": "From √yu (to join). Compare yoga."
+      "meaning": "the meeting, junction"
     }
-  ],
-  "grammar": [
-    "<b>Guna sandhi:</b> <span class='dv'>नव + उच्छ्रिते → नवोच्छ्रिते</span> and <span class='dv'>तस्य + उपरि → तस्योपरि</span>. अ + उ always becomes ओ.",
-    "<b>Long vowel sandhi:</b> <span class='dv'>दृष्ट्वा + अहिम् → दृष्ट्वाहिम्</span>. Two similar vowels merge into one long vowel.",
-    "<b>Dual number:</b> Sanskrit has singular, dual and plural. <span class='dv'>तयोः</span> and <span class='dv'>गत्योः</span> are dual because there are exactly two animals.",
-    "<b>Ablative case:</b> <span class='dv'>बिलात्</span> = 'from the hole'. The distance is measured from the hole, which tells you exactly what <i>x</i> is in the equation.",
-    "<b>Gerund:</b> <span class='dv'>दृष्ट्वा</span> 'having seen'. Very common: गत्वा (having gone), कृत्वा (having done)."
   ],
   "question": "How many hastas from the hole do they meet?",
   "answer": 12,

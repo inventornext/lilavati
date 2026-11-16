@@ -2,8 +2,6 @@
   "id": "mandukya-12",
   "number": "Mantra 11",
   "title": "M: The Third Measure",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "सुषुप्तस्थानः प्राज्ञो मकारस्तृतीया मात्रा",
     "मितेरपीतेर्वा",
@@ -14,32 +12,23 @@
   "words": [
     {
       "sanskrit": "तृतीया",
-      "meaning": "third (measure)",
-      "note": ""
+      "meaning": "third (measure)"
     },
     {
       "sanskrit": "मितेः",
-      "meaning": "because of measuring",
-      "note": "miti from √ma (to measure)."
+      "meaning": "because of measuring"
     },
     {
       "sanskrit": "अपीतेः",
-      "meaning": "because of merging",
-      "note": ""
+      "meaning": "because of merging"
     },
     {
       "sanskrit": "मिनोति",
-      "meaning": "measures",
-      "note": "Present of √mi/√ma."
+      "meaning": "measures"
     },
     {
       "sanskrit": "अपीतिः",
-      "meaning": "the merging place",
-      "note": ""
+      "meaning": "the merging place"
     }
-  ],
-  "grammar": [
-    "<b>Root √ma 'measure' once more:</b> <span class='dv'>मिति, मिनोति, मात्रा</span>, and from earlier pages प्रमाण (measure), मेय (measurable), मान (amount). One root runs through mathematics, meter and the Upanishad.",
-    "<b>M closes:</b> Om ends with the lips closing on M; all sound 'merges' into it, as waking and dream merge into deep sleep."
   ]
 }

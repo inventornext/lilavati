@@ -1,7 +1,7 @@
 {
   "name": "Shlokashala · श्लोकशाला",
   "short_name": "Shlokashala",
-  "description": "Learn Sanskrit through Shiva stotras, the Durga Saptashati, the Lilavati and Aryabhata, word by word, with meter and translation.",
+  "description": "Learn Sanskrit through Shiva stotras, the Durga Saptashati, the Lilavati and Aryabhata, word by word, with translations in English and Hindi.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

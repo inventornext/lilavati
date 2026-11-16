@@ -2,7 +2,6 @@
   "id": "argala-19",
   "number": "Verse 19",
   "title": "Praised by Krishna",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "कृष्णेन संस्तुते देवि",
     "शश्वद्भक्त्या सदाम्बिके।",
@@ -14,22 +13,15 @@
   "words": [
     {
       "sanskrit": "कृष्णेन",
-      "meaning": "by Krishna",
-      "note": "Instrumental: agent of a passive."
+      "meaning": "by Krishna"
     },
     {
       "sanskrit": "शश्वत्",
-      "meaning": "constant, eternal",
-      "note": ""
+      "meaning": "constant, eternal"
     },
     {
       "sanskrit": "सदा",
-      "meaning": "always",
-      "note": ""
+      "meaning": "always"
     }
-  ],
-  "grammar": [
-    "<b>Passive with instrumental:</b> <span class='dv'>कृष्णेन संस्तुते</span> 'praised by Krishna', like सुकेश्या प्राप्तः in the necklace verse.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

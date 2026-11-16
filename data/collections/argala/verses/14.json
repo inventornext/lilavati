@@ -2,7 +2,6 @@
   "id": "argala-14",
   "number": "Verse 14",
   "title": "Grant Welfare",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "विधेहि देवि कल्याणं",
     "विधेहि परमां श्रियम्।",
@@ -14,22 +13,15 @@
   "words": [
     {
       "sanskrit": "कल्याणम्",
-      "meaning": "welfare",
-      "note": ""
+      "meaning": "welfare"
     },
     {
       "sanskrit": "परमाम्",
-      "meaning": "highest (feminine)",
-      "note": "Agrees with shriyam."
+      "meaning": "highest (feminine)"
     },
     {
       "sanskrit": "श्रियम्",
-      "meaning": "prosperity",
-      "note": ""
+      "meaning": "prosperity"
     }
-  ],
-  "grammar": [
-    "<b>Agreement:</b> <span class='dv'>परमं सुखम्</span> (neuter) in verse 12 but <span class='dv'>परमां श्रियम्</span> (feminine) here: adjectives follow their noun's gender.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

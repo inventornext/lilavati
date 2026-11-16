@@ -2,8 +2,6 @@
   "id": "mandukya-1",
   "number": "Shanti Mantra",
   "title": "Shanti Mantra: May We Hear Good",
-  "meter": "Meter: Vedic Trishtubh (about 11 syllables per line)",
-  "meterNote": "This is a Vedic prayer in Trishtubh meter. Vedic verses were chanted with pitch accents and don't always fit the strict syllable counts of classical meters, so the scanner is not used here.",
   "devanagari": [
     "ॐ भद्रं कर्णेभिः शृणुयाम देवाः",
     "भद्रं पश्येमाक्षभिर्यजत्राः।",
@@ -20,124 +18,95 @@
   "words": [
     {
       "sanskrit": "भद्रम्",
-      "meaning": "what is good, auspicious",
-      "note": "As in bhadrayai in the Devi Stuti."
+      "meaning": "what is good, auspicious"
     },
     {
       "sanskrit": "कर्णेभिः",
-      "meaning": "with the ears",
-      "note": "Vedic instrumental plural; classical Sanskrit says कर्णैः. Karna also means hypotenuse (Lilavati verse 12)!"
+      "meaning": "with the ears"
     },
     {
       "sanskrit": "शृणुयाम",
-      "meaning": "may we hear",
-      "note": "Optative of √shru (to hear)."
+      "meaning": "may we hear"
     },
     {
       "sanskrit": "देवाः",
-      "meaning": "O gods",
-      "note": "Vocative plural."
+      "meaning": "O gods"
     },
     {
       "sanskrit": "पश्येम",
-      "meaning": "may we see",
-      "note": "Optative of √pash."
+      "meaning": "may we see"
     },
     {
       "sanskrit": "अक्षभिः",
-      "meaning": "with the eyes",
-      "note": "Vedic instrumental of akshi."
+      "meaning": "with the eyes"
     },
     {
       "sanskrit": "यजत्राः",
-      "meaning": "O worshipful ones",
-      "note": ""
+      "meaning": "O worshipful ones"
     },
     {
       "sanskrit": "स्थिरैः अङ्गैः",
-      "meaning": "with steady limbs",
-      "note": ""
+      "meaning": "with steady limbs"
     },
     {
       "sanskrit": "तुष्टुवांसः",
-      "meaning": "having praised",
-      "note": "Perfect participle of √stu (as in stuti)."
+      "meaning": "having praised"
     },
     {
       "sanskrit": "तनूभिः",
-      "meaning": "with bodies",
-      "note": ""
+      "meaning": "with bodies"
     },
     {
       "sanskrit": "व्यशेम",
-      "meaning": "may we attain",
-      "note": "Optative of vi + √ash."
+      "meaning": "may we attain"
     },
     {
       "sanskrit": "देवहितम्",
-      "meaning": "given by the gods",
-      "note": ""
+      "meaning": "given by the gods"
     },
     {
       "sanskrit": "आयुः",
-      "meaning": "life, lifespan",
-      "note": "As in Ayurveda."
+      "meaning": "life, lifespan"
     },
     {
       "sanskrit": "स्वस्ति",
-      "meaning": "well-being",
-      "note": "su + asti, 'it is well'. Hence swastika."
+      "meaning": "well-being"
     },
     {
       "sanskrit": "नः",
-      "meaning": "to us",
-      "note": ""
+      "meaning": "to us"
     },
     {
       "sanskrit": "वृद्धश्रवाः",
-      "meaning": "of great fame",
-      "note": "shravas = fame, 'what is heard'."
+      "meaning": "of great fame"
     },
     {
       "sanskrit": "पूषा",
-      "meaning": "Pushan",
-      "note": "The Vedic god of paths and nourishment."
+      "meaning": "Pushan"
     },
     {
       "sanskrit": "विश्ववेदाः",
-      "meaning": "all-knowing",
-      "note": ""
+      "meaning": "all-knowing"
     },
     {
       "sanskrit": "तार्क्ष्यः",
-      "meaning": "Tarkshya (Garuda)",
-      "note": ""
+      "meaning": "Tarkshya (Garuda)"
     },
     {
       "sanskrit": "अरिष्टनेमिः",
-      "meaning": "whose wheel-rim is unharmed",
-      "note": "nemi = rim of a wheel."
+      "meaning": "whose wheel-rim is unharmed"
     },
     {
       "sanskrit": "बृहस्पतिः",
-      "meaning": "Brihaspati",
-      "note": "Teacher of the gods (suraguru in Lingashtakam 8)."
+      "meaning": "Brihaspati"
     },
     {
       "sanskrit": "दधातु",
-      "meaning": "may he grant",
-      "note": "Imperative of √dha."
+      "meaning": "may he grant"
     },
     {
       "sanskrit": "शान्तिः",
-      "meaning": "peace",
-      "note": ""
+      "meaning": "peace"
     }
-  ],
-  "grammar": [
-    "<b>Vedic Sanskrit:</b> forms like <span class='dv'>कर्णेभिः, अक्षभिः</span> are older than classical Sanskrit (कर्णैः, अक्षिभिः). This prayer comes from the Atharvaveda, to which the Mandukya belongs.",
-    "<b>Optative 'may we':</b> <span class='dv'>शृणुयाम, पश्येम, व्यशेम</span>, the mood of wishes, like पठेत् in the Lingashtakam.",
-    "<b>Three times shanti:</b> traditionally for peace from the three kinds of suffering: from oneself, from other beings, and from nature. These are the trayah-shula of Rudrashtakam verse 5.",
-    "<b>Svasti + dative:</b> <span class='dv'>स्वस्ति नः</span> 'well-being to us', like नमः + dative."
   ]
 }

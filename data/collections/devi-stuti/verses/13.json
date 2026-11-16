@@ -2,7 +2,6 @@
   "id": "devi-stuti-13",
   "number": "Ya Devi 8",
   "title": "Thirst",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "तृष्णारूपेण संस्थिता।",
@@ -14,11 +13,7 @@
   "words": [
     {
       "sanskrit": "तृष्णा",
-      "meaning": "thirst, craving",
-      "note": ""
+      "meaning": "thirst, craving"
     }
-  ],
-  "grammar": [
-    "<b>The changing word:</b> <span class='dv'>तृष्णा</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
   ]
 }

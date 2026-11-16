@@ -2,7 +2,6 @@
   "id": "lingashtakam-4",
   "number": "Verse 4",
   "title": "Adorned with Gold and Serpents",
-  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "कनकमहामणिभूषितलिङ्गं",
     "फणिपतिवेष्टितशोभितलिङ्गम्।",
@@ -14,43 +13,31 @@
   "words": [
     {
       "sanskrit": "कनक",
-      "meaning": "gold",
-      "note": ""
+      "meaning": "gold"
     },
     {
       "sanskrit": "महामणि",
-      "meaning": "great jewel",
-      "note": ""
+      "meaning": "great jewel"
     },
     {
       "sanskrit": "भूषित",
-      "meaning": "adorned",
-      "note": ""
+      "meaning": "adorned"
     },
     {
       "sanskrit": "फणिपति",
-      "meaning": "king of serpents",
-      "note": "phanin = hooded one."
+      "meaning": "king of serpents"
     },
     {
       "sanskrit": "वेष्टित",
-      "meaning": "coiled around",
-      "note": ""
+      "meaning": "coiled around"
     },
     {
       "sanskrit": "दक्ष",
-      "meaning": "Daksha",
-      "note": "Sati's father."
+      "meaning": "Daksha"
     },
     {
       "sanskrit": "सुयज्ञ",
-      "meaning": "great sacrifice",
-      "note": ""
+      "meaning": "great sacrifice"
     }
-  ],
-  "grammar": [
-    "<b>Matra equivalence:</b> <span class='dv'>कनकमहा…</span> starts with four light syllables (◡◡◡◡ = 4 matras), the same weight as — ◡ ◡. The scanner shows these lines as matra-equal.",
-    "<b>Daksha's yajna:</b> the same story as makha-cchid in Tandava verse 9.",
-    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that linga of Sadashiva.'"
   ]
 }

@@ -2,7 +2,6 @@
   "id": "rudrashtakam-2",
   "number": "Verse 2",
   "title": "Beyond Words and Senses",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "निराकारमोङ्कारमूलं तुरीयं",
     "गिराज्ञानगोतीतमीशं गिरीशम्।",
@@ -14,73 +13,55 @@
   "words": [
     {
       "sanskrit": "ओङ्कारमूलम्",
-      "meaning": "root of Om",
-      "note": "mula again: root."
+      "meaning": "root of Om"
     },
     {
       "sanskrit": "तुरीयम्",
-      "meaning": "the fourth (state)",
-      "note": "Beyond waking, dreaming and deep sleep."
+      "meaning": "the fourth (state)"
     },
     {
       "sanskrit": "गिरा",
-      "meaning": "speech",
-      "note": ""
+      "meaning": "speech"
     },
     {
       "sanskrit": "ज्ञान",
-      "meaning": "knowledge",
-      "note": ""
+      "meaning": "knowledge"
     },
     {
       "sanskrit": "गो",
-      "meaning": "the senses",
-      "note": "go also means cow, light and earth!"
+      "meaning": "the senses"
     },
     {
       "sanskrit": "अतीतम्",
-      "meaning": "beyond",
-      "note": "Hindi अतीत (past, beyond)."
+      "meaning": "beyond"
     },
     {
       "sanskrit": "गिरीशम्",
-      "meaning": "lord of the mountain",
-      "note": "giri + isha."
+      "meaning": "lord of the mountain"
     },
     {
       "sanskrit": "करालम्",
-      "meaning": "terrible",
-      "note": ""
+      "meaning": "terrible"
     },
     {
       "sanskrit": "महाकालकालम्",
-      "meaning": "death of great Time itself",
-      "note": "kala = time and death."
+      "meaning": "death of great Time itself"
     },
     {
       "sanskrit": "कृपालम्",
-      "meaning": "merciful",
-      "note": ""
+      "meaning": "merciful"
     },
     {
       "sanskrit": "गुणागार",
-      "meaning": "home of virtues",
-      "note": "agara = house."
+      "meaning": "home of virtues"
     },
     {
       "sanskrit": "संसारपारम्",
-      "meaning": "beyond worldly existence",
-      "note": "para = the far shore."
+      "meaning": "beyond worldly existence"
     },
     {
       "sanskrit": "नतोऽहम्",
-      "meaning": "I bow",
-      "note": "natah + aham."
+      "meaning": "I bow"
     }
-  ],
-  "grammar": [
-    "<b>Kala = time and death:</b> <span class='dv'>महाकालकाल</span> 'the death of Mahakala'. The pun only works in Sanskrit.",
-    "<b>Turiya:</b> 'the fourth', from the Mandukya Upanishad's four states of consciousness. Related to catur (four).",
-    "<b>Avagraha:</b> <span class='dv'>नतः + अहम् → नतोऽहम्</span>."
   ]
 }

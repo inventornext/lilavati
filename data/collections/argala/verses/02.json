@@ -2,7 +2,6 @@
   "id": "argala-2",
   "number": "Verse 2",
   "title": "Victory to Chamunda",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "जय त्वं देवि चामुण्डे",
     "जय भूतार्तिहारिणि।",
@@ -14,43 +13,31 @@
   "words": [
     {
       "sanskrit": "जय",
-      "meaning": "be victorious!",
-      "note": "Imperative of √ji."
+      "meaning": "be victorious!"
     },
     {
       "sanskrit": "त्वम्",
-      "meaning": "you",
-      "note": ""
+      "meaning": "you"
     },
     {
       "sanskrit": "देवि",
-      "meaning": "O Goddess",
-      "note": "Vocative of devi."
+      "meaning": "O Goddess"
     },
     {
       "sanskrit": "चामुण्डे",
-      "meaning": "O Chamunda",
-      "note": "Slayer of Chanda and Munda. Vocative."
+      "meaning": "O Chamunda"
     },
     {
       "sanskrit": "भूतार्तिहारिणि",
-      "meaning": "O remover of beings' pain",
-      "note": "arti = pain; harini = remover. Vocative."
+      "meaning": "O remover of beings' pain"
     },
     {
       "sanskrit": "सर्वगते",
-      "meaning": "O all-pervading one",
-      "note": "Vocative."
+      "meaning": "O all-pervading one"
     },
     {
       "sanskrit": "कालरात्रि",
-      "meaning": "O Night of Time",
-      "note": "The seventh form worshipped in Navaratri."
+      "meaning": "O Night of Time"
     }
-  ],
-  "grammar": [
-    "<b>Feminine vocatives:</b> -a nouns take -e (<span class='dv'>चामुण्डे</span>), -i nouns take -i (<span class='dv'>देवि, कालरात्रि</span>). Compare बाले in Lilavati verse 1.",
-    "<b>Jaya:</b> 'be victorious', the imperative; Hindi जय.",
-    "<b>Arti:</b> 'pain' (not the same word as arati, the lamp ceremony)."
   ]
 }

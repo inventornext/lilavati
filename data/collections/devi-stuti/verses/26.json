@@ -2,7 +2,6 @@
   "id": "devi-stuti-26",
   "number": "Ya Devi 21",
   "title": "Delusion",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "भ्रान्तिरूपेण संस्थिता।",
@@ -14,12 +13,7 @@
   "words": [
     {
       "sanskrit": "भ्रान्ति",
-      "meaning": "delusion, error",
-      "note": "√bhram, as bhramat in Tandava verse 2."
+      "meaning": "delusion, error"
     }
-  ],
-  "grammar": [
-    "<b>Even delusion:</b> after sleep, hunger and thirst, the hymn says the Goddess is present even as <span class='dv'>भ्रान्ति</span>, error. Nothing in experience is outside her.",
-    "<b>Root √bhram:</b> to wander. भ्रान्ति, भ्रमण, भ्रम: wandering of the mind and of the feet."
   ]
 }

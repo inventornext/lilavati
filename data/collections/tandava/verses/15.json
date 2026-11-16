@@ -2,7 +2,6 @@
   "id": "tandava-15",
   "number": "Verse 15 · Found in some editions",
   "title": "The Wedding Sound",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "प्रचण्डवाडवानलप्रभाशुभप्रचारणी",
     "महाष्टसिद्धिकामिनीजनावहूतजल्पना।",
@@ -14,78 +13,59 @@
   "words": [
     {
       "sanskrit": "प्रचण्ड",
-      "meaning": "fierce",
-      "note": ""
+      "meaning": "fierce"
     },
     {
       "sanskrit": "वाडवानल",
-      "meaning": "fire beneath the ocean",
-      "note": "vadava + anala (fire). Hindi बड़वानल."
+      "meaning": "fire beneath the ocean"
     },
     {
       "sanskrit": "शुभ",
-      "meaning": "auspicious",
-      "note": ""
+      "meaning": "auspicious"
     },
     {
       "sanskrit": "प्रचारणी",
-      "meaning": "spreading",
-      "note": "Hindi प्रचार."
+      "meaning": "spreading"
     },
     {
       "sanskrit": "महाष्टसिद्धि",
-      "meaning": "the eight great siddhis",
-      "note": "Anima, mahima, garima, laghima, prapti, prakamya, ishitva, vashitva."
+      "meaning": "the eight great siddhis"
     },
     {
       "sanskrit": "कामिनीजन",
-      "meaning": "women",
-      "note": ""
+      "meaning": "women"
     },
     {
       "sanskrit": "अवहूत",
-      "meaning": "called out, sung",
-      "note": ""
+      "meaning": "called out, sung"
     },
     {
       "sanskrit": "जल्पना",
-      "meaning": "chant, speech",
-      "note": ""
+      "meaning": "chant, speech"
     },
     {
       "sanskrit": "वामलोचना",
-      "meaning": "fair-eyed woman (Parvati)",
-      "note": ""
+      "meaning": "fair-eyed woman (Parvati)"
     },
     {
       "sanskrit": "विवाहकालिक",
-      "meaning": "of the wedding time",
-      "note": "Hindi विवाह, कालिक."
+      "meaning": "of the wedding time"
     },
     {
       "sanskrit": "ध्वनिः",
-      "meaning": "sound",
-      "note": ""
+      "meaning": "sound"
     },
     {
       "sanskrit": "मन्त्रभूषणा",
-      "meaning": "adorned with the mantra",
-      "note": "Hindi भूषण."
+      "meaning": "adorned with the mantra"
     },
     {
       "sanskrit": "जगज्जयाय",
-      "meaning": "for the victory of the world",
-      "note": "Dative of purpose."
+      "meaning": "for the victory of the world"
     },
     {
       "sanskrit": "जायताम्",
-      "meaning": "may it be",
-      "note": ""
+      "meaning": "may it be"
     }
-  ],
-  "grammar": [
-    "<b>Long vowel sandhi:</b> <span class='dv'>वाडव + अनल → वाडवानल</span>.",
-    "<b>t → j before j:</b> <span class='dv'>जगत् + जय → जगज्जय</span>.",
-    "<b>Laghu and guru again:</b> two of the eight siddhis are <span class='dv'>लघिमा</span> (lightness) and <span class='dv'>गरिमा</span> (heaviness), from the same words the meter scanner uses: laghu and guru."
   ]
 }

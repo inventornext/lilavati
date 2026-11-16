@@ -2,7 +2,6 @@
   "id": "lingashtakam-3",
   "number": "Verse 3",
   "title": "Anointed with Fragrance",
-  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "सर्वसुगन्धिसुलेपितलिङ्गं",
     "बुद्धिविवर्धनकारणलिङ्गम्।",
@@ -14,48 +13,35 @@
   "words": [
     {
       "sanskrit": "सुगन्धि",
-      "meaning": "fragrant",
-      "note": ""
+      "meaning": "fragrant"
     },
     {
       "sanskrit": "सुलेपित",
-      "meaning": "well anointed",
-      "note": "Hindi लेप."
+      "meaning": "well anointed"
     },
     {
       "sanskrit": "बुद्धि",
-      "meaning": "wisdom",
-      "note": ""
+      "meaning": "wisdom"
     },
     {
       "sanskrit": "विवर्धन",
-      "meaning": "increasing",
-      "note": "Hindi वर्धन, वृद्धि."
+      "meaning": "increasing"
     },
     {
       "sanskrit": "कारण",
-      "meaning": "cause",
-      "note": ""
+      "meaning": "cause"
     },
     {
       "sanskrit": "सिद्ध",
-      "meaning": "perfected being",
-      "note": ""
+      "meaning": "perfected being"
     },
     {
       "sanskrit": "सुरासुर",
-      "meaning": "gods and demons",
-      "note": "sura + asura."
+      "meaning": "gods and demons"
     },
     {
       "sanskrit": "वन्दित",
-      "meaning": "praised",
-      "note": "Hindi वंदना."
+      "meaning": "praised"
     }
-  ],
-  "grammar": [
-    "<b>Su- 'well, good':</b> <span class='dv'>सुगन्धि, सुलेपित</span>, like सुमुखी and सुकेशी in earlier verses.",
-    "<b>Sura and asura:</b> a- usually means 'not', so asura looks like 'not-god'.",
-    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that linga of Sadashiva.'"
   ]
 }

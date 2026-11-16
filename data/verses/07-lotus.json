@@ -3,7 +3,6 @@
   "number": "Verse 7 · Right triangles",
   "topic": "Pythagorean theorem",
   "title": "The Lotus in the Lake",
-  "meter": "Meter: Mandakranta (17 syllables per line)",
   "devanagari": [
     "चक्रक्रौञ्चाकुलितसलिले क्वापि दृष्टं तडागे",
     "तोयादूर्ध्वं कमलकलिकाग्रं वितस्तिप्रमाणम्।",
@@ -15,111 +14,84 @@
   "words": [
     {
       "sanskrit": "चक्रक्रौञ्च",
-      "meaning": "shelducks and cranes",
-      "note": "cakra = chakravaka (ruddy shelduck), krauncha = crane. A dvandva ('and') compound."
+      "meaning": "shelducks and cranes"
     },
     {
       "sanskrit": "आकुलित",
-      "meaning": "crowded, stirred",
-      "note": "Past participle: filled with."
+      "meaning": "crowded, stirred"
     },
     {
       "sanskrit": "सलिले",
-      "meaning": "in the water",
-      "note": "Locative of salila (water)."
+      "meaning": "in the water"
     },
     {
       "sanskrit": "क्वापि",
-      "meaning": "somewhere",
-      "note": "kva (where) + api (even) = 'somewhere'."
+      "meaning": "somewhere"
     },
     {
       "sanskrit": "दृष्टम्",
-      "meaning": "was seen",
-      "note": "Past participle of √drish (to see)."
+      "meaning": "was seen"
     },
     {
       "sanskrit": "तडागे",
-      "meaning": "in a pond",
-      "note": "Locative of tadaga. Hindi तालाब comes from this family."
+      "meaning": "in a pond"
     },
     {
       "sanskrit": "तोयात्",
-      "meaning": "from the water",
-      "note": "Ablative of toya (water). त् → द् before a vowel: तोयादूर्ध्वम्."
+      "meaning": "from the water"
     },
     {
       "sanskrit": "ऊर्ध्वम्",
-      "meaning": "above",
-      "note": "Upward. Compare ऊर्ध्वाधर (vertical)."
+      "meaning": "above"
     },
     {
       "sanskrit": "कमलकलिकाग्रम्",
-      "meaning": "the tip of a lotus bud",
-      "note": "kamala (lotus) + kalika (bud) + agra (tip)."
+      "meaning": "the tip of a lotus bud"
     },
     {
       "sanskrit": "वितस्तिप्रमाणम्",
-      "meaning": "one span in measure",
-      "note": "vitasti = span (about half a hasta)."
+      "meaning": "one span in measure"
     },
     {
       "sanskrit": "मन्दं मन्दम्",
-      "meaning": "slowly, slowly",
-      "note": "Repetition for emphasis. Compare Hindi धीरे धीरे."
+      "meaning": "slowly, slowly"
     },
     {
       "sanskrit": "चलितम्",
-      "meaning": "moved",
-      "note": "Past participle of √cal (to move)."
+      "meaning": "moved"
     },
     {
       "sanskrit": "अनिलेन",
-      "meaning": "by the wind",
-      "note": "Instrumental of anila (wind): the 'by' case."
+      "meaning": "by the wind"
     },
     {
       "sanskrit": "आहतम्",
-      "meaning": "struck",
-      "note": "Past participle of a + √han (to strike)."
+      "meaning": "struck"
     },
     {
       "sanskrit": "हस्तयुग्मे",
-      "meaning": "at two hastas",
-      "note": "yugma = pair. Locative: 'at a pair of hastas' (distance)."
+      "meaning": "at two hastas"
     },
     {
       "sanskrit": "तस्मिन्",
-      "meaning": "there, in it",
-      "note": "Locative singular of tad."
+      "meaning": "there, in it"
     },
     {
       "sanskrit": "मग्नम्",
-      "meaning": "submerged",
-      "note": "Past participle of √majj (to sink). Hindi मग्न (absorbed)."
+      "meaning": "submerged"
     },
     {
       "sanskrit": "गणक",
-      "meaning": "O mathematician",
-      "note": "Vocative. Same root as गणित (mathematics)."
+      "meaning": "O mathematician"
     },
     {
       "sanskrit": "कथय",
-      "meaning": "tell!",
-      "note": "Imperative of √kath (to tell). Compare कथा (story)."
+      "meaning": "tell!"
     },
     {
       "sanskrit": "अम्भःप्रमाणम्",
-      "meaning": "the depth of the water",
-      "note": "ambhas (water) + pramana (measure)."
+      "meaning": "the depth of the water"
     }
-  ],
-  "grammar": [
-    "<b>Consonant sandhi:</b> <span class='dv'>तोयात् + ऊर्ध्वम् → तोयादूर्ध्वम्</span>. A final त् becomes द् before a vowel.",
-    "<b>Long vowel sandhi:</b> <span class='dv'>अनिलेन + आहतम् → अनिलेनाहतम्</span>, <span class='dv'>क्व + अपि → क्वापि</span>.",
-    "<b>Instrumental case:</b> <span class='dv'>अनिलेन</span> 'by the wind'. The instrumental marks the agent or the means.",
-    "<b>Vocative:</b> <span class='dv'>गणक</span> 'O mathematician!' Bhaskara speaks directly to you, the reader.",
-    "<b>Meter:</b> Mandakranta means 'slowly stepping'. Its slow, heavy rhythm matches <span class='dv'>मन्दं मन्दम्</span>, the lotus moving slowly in the wind."
   ],
   "question": "What is the depth of the water, in hastas?",
   "answer": 3.75,

@@ -2,8 +2,6 @@
   "id": "mandukya-13",
   "number": "Mantra 12",
   "title": "The Silent Fourth",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "अमात्रश्चतुर्थोऽव्यवहार्यः प्रपञ्चोपशमः शिवोऽद्वैत",
     "एवमोङ्कार आत्मैव",
@@ -14,58 +12,43 @@
   "words": [
     {
       "sanskrit": "अमात्रः",
-      "meaning": "without measure",
-      "note": "a + matra: the silence after Om."
+      "meaning": "without measure"
     },
     {
       "sanskrit": "चतुर्थः",
-      "meaning": "the fourth",
-      "note": ""
+      "meaning": "the fourth"
     },
     {
       "sanskrit": "अव्यवहार्यः",
-      "meaning": "beyond dealings",
-      "note": ""
+      "meaning": "beyond dealings"
     },
     {
       "sanskrit": "प्रपञ्चोपशमः",
-      "meaning": "where the world comes to rest",
-      "note": ""
+      "meaning": "where the world comes to rest"
     },
     {
       "sanskrit": "शिवः",
-      "meaning": "auspicious",
-      "note": ""
+      "meaning": "auspicious"
     },
     {
       "sanskrit": "अद्वैतः",
-      "meaning": "non-dual",
-      "note": ""
+      "meaning": "non-dual"
     },
     {
       "sanskrit": "आत्मा एव",
-      "meaning": "the Self itself",
-      "note": "Written आत्मैव."
+      "meaning": "the Self itself"
     },
     {
       "sanskrit": "संविशति",
-      "meaning": "enters",
-      "note": "sam + √vish. Same root as avesha (electric charge)!"
+      "meaning": "enters"
     },
     {
       "sanskrit": "आत्मना",
-      "meaning": "by the Self",
-      "note": "Instrumental."
+      "meaning": "by the Self"
     },
     {
       "sanskrit": "आत्मानम्",
-      "meaning": "into the Self",
-      "note": "Accusative."
+      "meaning": "into the Self"
     }
-  ],
-  "grammar": [
-    "<b>A-matra:</b> A, U and M are the three measures; the fourth is the silence after them, which has no measure. Chant Om and listen to the silence that follows.",
-    "<b>One word, two cases:</b> <span class='dv'>आत्मना आत्मानम्</span> 'by the Self, the Self': the knower and the known are the same.",
-    "<b>Vriddhi sandhi:</b> <span class='dv'>आत्मा + एव → आत्मैव</span>, like सदैव."
   ]
 }

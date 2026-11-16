@@ -2,7 +2,6 @@
   "id": "tandava-1",
   "number": "Verse 1",
   "title": "The Dance Begins",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "जटाटवीगलज्जलप्रवाहपावितस्थले",
     "गलेऽवलम्ब्य लम्बितां भुजङ्गतुङ्गमालिकाम्।",
@@ -14,109 +13,83 @@
   "words": [
     {
       "sanskrit": "जटाटवी",
-      "meaning": "forest of matted locks",
-      "note": "jata (matted hair) + atavi (forest). A + अ → आ."
+      "meaning": "forest of matted locks"
     },
     {
       "sanskrit": "गलत्",
-      "meaning": "flowing, dripping",
-      "note": "Present participle of √gal. Before ज it becomes गलज्."
+      "meaning": "flowing, dripping"
     },
     {
       "sanskrit": "जल",
-      "meaning": "water",
-      "note": "Same in Hindi."
+      "meaning": "water"
     },
     {
       "sanskrit": "प्रवाह",
-      "meaning": "stream, flow",
-      "note": "pra + √vah (to carry). Hindi प्रवाह."
+      "meaning": "stream, flow"
     },
     {
       "sanskrit": "पावितस्थले",
-      "meaning": "on the place made holy",
-      "note": "pavita = purified (causative of √pu); sthala = place. Locative."
+      "meaning": "on the place made holy"
     },
     {
       "sanskrit": "गले",
-      "meaning": "on the neck",
-      "note": "Locative of gala. Hindi गला."
+      "meaning": "on the neck"
     },
     {
       "sanskrit": "अवलम्ब्य",
-      "meaning": "having hung",
-      "note": "Gerund of ava + √lamb. With a prefix the gerund ends in -य, not -त्वा."
+      "meaning": "having hung"
     },
     {
       "sanskrit": "लम्बिताम्",
-      "meaning": "long, hanging",
-      "note": "Agrees with malikam (feminine accusative)."
+      "meaning": "long, hanging"
     },
     {
       "sanskrit": "भुजङ्ग",
-      "meaning": "serpent",
-      "note": "'Moving crookedly': bhuja (bend) + √gam (go)."
+      "meaning": "serpent"
     },
     {
       "sanskrit": "तुङ्ग",
-      "meaning": "lofty, mighty",
-      "note": ""
+      "meaning": "lofty, mighty"
     },
     {
       "sanskrit": "मालिकाम्",
-      "meaning": "garland",
-      "note": "Accusative of malika. Hindi माला."
+      "meaning": "garland"
     },
     {
       "sanskrit": "डमड्डमड्",
-      "meaning": "the sound of the drum",
-      "note": "Onomatopoeia: the words sound like what they mean."
+      "meaning": "the sound of the drum"
     },
     {
       "sanskrit": "निनादवत्",
-      "meaning": "resounding",
-      "note": "ninad (loud sound) + -vat (having)."
+      "meaning": "resounding"
     },
     {
       "sanskrit": "डमर्वयम्",
-      "meaning": "this damaru",
-      "note": "damaru + ayam: उ before अ becomes व्."
+      "meaning": "this damaru"
     },
     {
       "sanskrit": "चकार",
-      "meaning": "did, performed",
-      "note": "Perfect tense of √kri (to do), used for story-past."
+      "meaning": "did, performed"
     },
     {
       "sanskrit": "चण्डताण्डवम्",
-      "meaning": "the fierce Tandava",
-      "note": "chanda = fierce (Hindi प्रचंड)."
+      "meaning": "the fierce Tandava"
     },
     {
       "sanskrit": "तनोतु",
-      "meaning": "may he spread",
-      "note": "Imperative of √tan (to stretch, spread)."
+      "meaning": "may he spread"
     },
     {
       "sanskrit": "नः",
-      "meaning": "for us",
-      "note": ""
+      "meaning": "for us"
     },
     {
       "sanskrit": "शिवः",
-      "meaning": "Shiva",
-      "note": "Nominative: the one who acts."
+      "meaning": "Shiva"
     },
     {
       "sanskrit": "शिवम्",
-      "meaning": "auspiciousness, welfare",
-      "note": "Neuter accusative: the thing he spreads."
+      "meaning": "auspiciousness, welfare"
     }
-  ],
-  "grammar": [
-    "<b>Wordplay:</b> <span class='dv'>शिवः शिवम्</span>. The same word is the god's name (masculine, subject) and 'auspiciousness' (neuter, object): 'May Shiva spread shivam.'",
-    "<b>Gerund with a prefix:</b> <span class='dv'>अव + लम्ब् → अवलम्ब्य</span> 'having hung'. Without a prefix you get -त्वा (दृष्ट्वा); with a prefix, -य.",
-    "<b>Avagraha:</b> <span class='dv'>गले + अवलम्ब्य → गलेऽवलम्ब्य</span>, the same rule as कान्तेऽलि in the bee verse.",
-    "<b>Perfect tense:</b> <span class='dv'>चकार</span> 'he did' is the tense of stories and epics, for events the speaker did not witness."
   ]
 }

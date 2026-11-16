@@ -2,7 +2,6 @@
   "id": "devi-stuti-27",
   "number": "Closing",
   "title": "Ruler of the Senses",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "इन्द्रियाणामधिष्ठात्री",
     "भूतानां चाखिलेषु या।",
@@ -14,27 +13,19 @@
   "words": [
     {
       "sanskrit": "इन्द्रियाणाम्",
-      "meaning": "of the senses",
-      "note": "Genitive plural of indriya."
+      "meaning": "of the senses"
     },
     {
       "sanskrit": "अधिष्ठात्री",
-      "meaning": "ruler, presiding one",
-      "note": "Feminine agent noun."
+      "meaning": "ruler, presiding one"
     },
     {
       "sanskrit": "अखिलेषु",
-      "meaning": "in all",
-      "note": ""
+      "meaning": "in all"
     },
     {
       "sanskrit": "व्याप्तिदेव्यै",
-      "meaning": "to the all-pervading Goddess",
-      "note": "vyapti = pervasion (Hindi व्याप्त)."
+      "meaning": "to the all-pervading Goddess"
     }
-  ],
-  "grammar": [
-    "<b>Feminine agent noun:</b> <span class='dv'>अधिष्ठातृ → अधिष्ठात्री</span>, like धात्री in verse 2.",
-    "<b>Vyapti:</b> 'pervasion'; in logic it means the invariable relation between smoke and fire. Here the Goddess pervades everything."
   ]
 }

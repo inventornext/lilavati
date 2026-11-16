@@ -2,7 +2,6 @@
   "id": "nirvana-4",
   "number": "Verse 4",
   "title": "Not Merit, Not Sin",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "न पुण्यं न पापं न सौख्यं न दुःखं",
     "न मन्त्रो न तीर्थं न वेदा न यज्ञाः।",
@@ -14,63 +13,47 @@
   "words": [
     {
       "sanskrit": "पुण्यम्",
-      "meaning": "merit",
-      "note": ""
+      "meaning": "merit"
     },
     {
       "sanskrit": "पापम्",
-      "meaning": "sin",
-      "note": ""
+      "meaning": "sin"
     },
     {
       "sanskrit": "सौख्यम्",
-      "meaning": "pleasure",
-      "note": "From sukha."
+      "meaning": "pleasure"
     },
     {
       "sanskrit": "दुःखम्",
-      "meaning": "pain",
-      "note": ""
+      "meaning": "pain"
     },
     {
       "sanskrit": "मन्त्रः",
-      "meaning": "mantra",
-      "note": ""
+      "meaning": "mantra"
     },
     {
       "sanskrit": "तीर्थम्",
-      "meaning": "pilgrimage place",
-      "note": "Literally 'a crossing place' on a river."
+      "meaning": "pilgrimage place"
     },
     {
       "sanskrit": "वेदाः",
-      "meaning": "the Vedas",
-      "note": ""
+      "meaning": "the Vedas"
     },
     {
       "sanskrit": "यज्ञाः",
-      "meaning": "sacrifices",
-      "note": ""
+      "meaning": "sacrifices"
     },
     {
       "sanskrit": "भोजनम्",
-      "meaning": "eating, food",
-      "note": "√bhuj (to eat)."
+      "meaning": "eating, food"
     },
     {
       "sanskrit": "भोज्यम्",
-      "meaning": "what is eaten",
-      "note": "-ya: 'to be eaten'."
+      "meaning": "what is eaten"
     },
     {
       "sanskrit": "भोक्ता",
-      "meaning": "the eater, enjoyer",
-      "note": "Agent noun in -tri."
+      "meaning": "the eater, enjoyer"
     }
-  ],
-  "grammar": [
-    "<b>One root, three roles:</b> √भुज् gives <span class='dv'>भोजन</span> (the act), <span class='dv'>भोज्य</span> (the object, 'to be eaten') and <span class='dv'>भोक्ता</span> (the doer). Sanskrit builds whole word families this way.",
-    "<b>Agent noun -tri:</b> <span class='dv'>भोक्तृ → भोक्ता</span>, like भर्तृ in Tandava verse 4.",
-    "Refrain: <span class='dv'>चिदानन्दरूपः शिवोऽहं शिवोऽहम्</span> 'My form is consciousness and bliss. I am Shiva, I am Shiva.'"
   ]
 }

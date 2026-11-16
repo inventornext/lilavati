@@ -2,7 +2,6 @@
   "id": "tandava-14",
   "number": "Verse 14 · Found in some editions",
   "title": "Radiance of His Limbs",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "निलिम्पनाथनागरीकदम्बमौलमल्लिका-",
     "निगुम्फनिर्भरक्षरन्मधूष्णिकामनोहरः।",
@@ -14,88 +13,67 @@
   "words": [
     {
       "sanskrit": "निलिम्पनाथ",
-      "meaning": "lord of the gods (Indra)",
-      "note": ""
+      "meaning": "lord of the gods (Indra)"
     },
     {
       "sanskrit": "नागरी",
-      "meaning": "women of the city",
-      "note": "Hindi नागरिक, नगर."
+      "meaning": "women of the city"
     },
     {
       "sanskrit": "मौल",
-      "meaning": "head, hair",
-      "note": "mauli = crown."
+      "meaning": "head, hair"
     },
     {
       "sanskrit": "मल्लिका",
-      "meaning": "jasmine",
-      "note": ""
+      "meaning": "jasmine"
     },
     {
       "sanskrit": "निगुम्फ",
-      "meaning": "woven garland",
-      "note": ""
+      "meaning": "woven garland"
     },
     {
       "sanskrit": "निर्भर",
-      "meaning": "abundant",
-      "note": ""
+      "meaning": "abundant"
     },
     {
       "sanskrit": "क्षरत्",
-      "meaning": "dripping",
-      "note": "√kshar."
+      "meaning": "dripping"
     },
     {
       "sanskrit": "मधूष्णिका",
-      "meaning": "warm honey",
-      "note": "madhu + ushna (warm). उ + उ → ऊ."
+      "meaning": "warm honey"
     },
     {
       "sanskrit": "मनोहरः",
-      "meaning": "charming",
-      "note": "'Mind-stealing': manas + hara."
+      "meaning": "charming"
     },
     {
       "sanskrit": "मनोमुदम्",
-      "meaning": "joy of mind",
-      "note": ""
+      "meaning": "joy of mind"
     },
     {
       "sanskrit": "विनोदिनीम्",
-      "meaning": "playful",
-      "note": ""
+      "meaning": "playful"
     },
     {
       "sanskrit": "अहर्निशम्",
-      "meaning": "day and night",
-      "note": "Hindi अहर्निश."
+      "meaning": "day and night"
     },
     {
       "sanskrit": "परश्रियः",
-      "meaning": "of supreme beauty",
-      "note": ""
+      "meaning": "of supreme beauty"
     },
     {
       "sanskrit": "परं पदम्",
-      "meaning": "the highest abode",
-      "note": ""
+      "meaning": "the highest abode"
     },
     {
       "sanskrit": "तदङ्गजत्विषाम्",
-      "meaning": "of the radiance born from his limbs",
-      "note": "tvish = radiance."
+      "meaning": "of the radiance born from his limbs"
     },
     {
       "sanskrit": "चयः",
-      "meaning": "mass, heap",
-      "note": ""
+      "meaning": "mass, heap"
     }
-  ],
-  "grammar": [
-    "<b>Long vowel sandhi:</b> <span class='dv'>मधु + उष्णिका → मधूष्णिका</span>.",
-    "<b>-as → -o:</b> <span class='dv'>मनस् + हर → मनोहर</span>. A final -अस् becomes -ओ before a voiced sound.",
-    "<b>Note:</b> this verse and the next are found only in some editions and recitations, and some of their compounds are read differently by different commentators."
   ]
 }

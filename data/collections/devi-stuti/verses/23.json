@@ -2,7 +2,6 @@
   "id": "devi-stuti-23",
   "number": "Ya Devi 18",
   "title": "Compassion",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "दयारूपेण संस्थिता।",
@@ -14,11 +13,7 @@
   "words": [
     {
       "sanskrit": "दया",
-      "meaning": "compassion",
-      "note": ""
+      "meaning": "compassion"
     }
-  ],
-  "grammar": [
-    "<b>The changing word:</b> <span class='dv'>दया</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
   ]
 }

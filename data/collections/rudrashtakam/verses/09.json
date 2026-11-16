@@ -2,7 +2,6 @@
   "id": "rudrashtakam-9",
   "number": "Verse 9 · Phalashruti",
   "title": "Fruit of the Hymn",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "रुद्राष्टकमिदं प्रोक्तं",
     "विप्रेण हरतोषये।",
@@ -14,53 +13,39 @@
   "words": [
     {
       "sanskrit": "रुद्राष्टकम्",
-      "meaning": "the eight verses to Rudra",
-      "note": "rudra + ashtaka (group of eight)."
+      "meaning": "the eight verses to Rudra"
     },
     {
       "sanskrit": "इदम्",
-      "meaning": "this",
-      "note": ""
+      "meaning": "this"
     },
     {
       "sanskrit": "प्रोक्तम्",
-      "meaning": "was spoken",
-      "note": "pra + ukta."
+      "meaning": "was spoken"
     },
     {
       "sanskrit": "विप्रेण",
-      "meaning": "by a Brahmin",
-      "note": "Instrumental: the agent of a passive."
+      "meaning": "by a Brahmin"
     },
     {
       "sanskrit": "हरतोषये",
-      "meaning": "to please Hara",
-      "note": "Dative of purpose. tosha = satisfaction (Hindi संतोष)."
+      "meaning": "to please Hara"
     },
     {
       "sanskrit": "पठन्ति",
-      "meaning": "they read",
-      "note": ""
+      "meaning": "they read"
     },
     {
       "sanskrit": "भक्त्या",
-      "meaning": "with devotion",
-      "note": "Instrumental of bhakti."
+      "meaning": "with devotion"
     },
     {
       "sanskrit": "तेषाम्",
-      "meaning": "on them",
-      "note": "Genitive plural."
+      "meaning": "on them"
     },
     {
       "sanskrit": "प्रसीदति",
-      "meaning": "is pleased",
-      "note": ""
+      "meaning": "is pleased"
     }
-  ],
-  "grammar": [
-    "<b>A new meter:</b> this closing verse is in <b>Anushtubh</b>, eight syllables per quarter, the meter of the Gita and the epics.",
-    "<b>-ashtaka:</b> 'a group of eight', as in Lingashtakam and Bilvashtakam.",
-    "<b>Ye … tesham:</b> 'those who … to them', relative and correlative."
   ]
 }

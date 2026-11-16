@@ -2,7 +2,6 @@
   "id": "nirvana-1",
   "number": "Verse 1",
   "title": "Not the Mind, Not the Senses",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "मनोबुद्ध्यहङ्कारचित्तानि नाहं",
     "न च श्रोत्रजिह्वे न च घ्राणनेत्रे।",
@@ -14,94 +13,71 @@
   "words": [
     {
       "sanskrit": "मनः",
-      "meaning": "mind",
-      "note": ""
+      "meaning": "mind"
     },
     {
       "sanskrit": "बुद्धि",
-      "meaning": "intellect",
-      "note": "Hindi बुद्धि."
+      "meaning": "intellect"
     },
     {
       "sanskrit": "अहङ्कार",
-      "meaning": "ego",
-      "note": "aham (I) + kara (maker): 'the I-maker'."
+      "meaning": "ego"
     },
     {
       "sanskrit": "चित्तानि",
-      "meaning": "memory, mind-stuff",
-      "note": "citta. Plural for the whole list."
+      "meaning": "memory, mind-stuff"
     },
     {
       "sanskrit": "न अहम्",
-      "meaning": "I am not",
-      "note": "Written नाहं."
+      "meaning": "I am not"
     },
     {
       "sanskrit": "श्रोत्र",
-      "meaning": "ear",
-      "note": "√shru (to hear). Same root as shruti."
+      "meaning": "ear"
     },
     {
       "sanskrit": "जिह्वे",
-      "meaning": "tongue",
-      "note": "Dual with shrotra: 'ear and tongue'."
+      "meaning": "tongue"
     },
     {
       "sanskrit": "घ्राण",
-      "meaning": "nose, smell",
-      "note": ""
+      "meaning": "nose, smell"
     },
     {
       "sanskrit": "नेत्रे",
-      "meaning": "eyes",
-      "note": "Hindi नेत्र."
+      "meaning": "eyes"
     },
     {
       "sanskrit": "व्योम",
-      "meaning": "space, sky",
-      "note": "Hindi व्योम."
+      "meaning": "space, sky"
     },
     {
       "sanskrit": "भूमिः",
-      "meaning": "earth",
-      "note": ""
+      "meaning": "earth"
     },
     {
       "sanskrit": "तेजः",
-      "meaning": "fire, light",
-      "note": "Hindi तेज."
+      "meaning": "fire, light"
     },
     {
       "sanskrit": "वायुः",
-      "meaning": "air",
-      "note": "Hindi वायु."
+      "meaning": "air"
     },
     {
       "sanskrit": "चित्",
-      "meaning": "consciousness",
-      "note": ""
+      "meaning": "consciousness"
     },
     {
       "sanskrit": "आनन्द",
-      "meaning": "bliss",
-      "note": "Hindi आनंद."
+      "meaning": "bliss"
     },
     {
       "sanskrit": "रूपः",
-      "meaning": "whose form is",
-      "note": "Bahuvrihi: 'having consciousness-bliss as form'."
+      "meaning": "whose form is"
     },
     {
       "sanskrit": "शिवोऽहम्",
-      "meaning": "I am Shiva",
-      "note": "shivah + aham → shivo 'ham (avagraha)."
+      "meaning": "I am Shiva"
     }
-  ],
-  "grammar": [
-    "<b>Negation:</b> <span class='dv'>न … न … न</span> 'not … not … not'. The whole stotra defines the Self by what it is not (neti neti).",
-    "<b>Avagraha:</b> <span class='dv'>शिवः + अहम् → शिवोऽहम्</span>. -अः before अ becomes -ओ and the अ drops.",
-    "<b>Dual compounds:</b> <span class='dv'>श्रोत्रजिह्वे, घ्राणनेत्रे</span> are dual: 'the two, ear and tongue'.",
-    "<b>Author:</b> Adi Shankaracharya. Also called Atma-shatkam, 'six verses on the Self'."
   ]
 }

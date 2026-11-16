@@ -2,7 +2,6 @@
   "id": "tandava-4",
   "number": "Verse 4",
   "title": "The Serpent Jewels",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "जटाभुजङ्गपिङ्गलस्फुरत्फणामणिप्रभा-",
     "कदम्बकुङ्कुमद्रवप्रलिप्तदिग्वधूमुखे।",
@@ -14,88 +13,67 @@
   "words": [
     {
       "sanskrit": "पिङ्गल",
-      "meaning": "tawny, reddish-yellow",
-      "note": ""
+      "meaning": "tawny, reddish-yellow"
     },
     {
       "sanskrit": "फणा",
-      "meaning": "serpent's hood",
-      "note": "Hindi फन."
+      "meaning": "serpent's hood"
     },
     {
       "sanskrit": "मणि",
-      "meaning": "jewel",
-      "note": ""
+      "meaning": "jewel"
     },
     {
       "sanskrit": "प्रभा",
-      "meaning": "glow, light",
-      "note": ""
+      "meaning": "glow, light"
     },
     {
       "sanskrit": "कदम्ब",
-      "meaning": "mass, cluster",
-      "note": "Also the kadamba tree."
+      "meaning": "mass, cluster"
     },
     {
       "sanskrit": "कुङ्कुमद्रव",
-      "meaning": "liquid saffron",
-      "note": "drava = liquid. Hindi द्रव; द्रव यांत्रिकी = fluid mechanics."
+      "meaning": "liquid saffron"
     },
     {
       "sanskrit": "प्रलिप्त",
-      "meaning": "smeared",
-      "note": "Hindi लिप्त, लेप."
+      "meaning": "smeared"
     },
     {
       "sanskrit": "दिग्वधूमुखे",
-      "meaning": "on the faces of the brides of the directions",
-      "note": "The directions imagined as brides. Locative."
+      "meaning": "on the faces of the brides of the directions"
     },
     {
       "sanskrit": "मदान्ध",
-      "meaning": "blind with rage",
-      "note": "mada (frenzy) + andha (blind)."
+      "meaning": "blind with rage"
     },
     {
       "sanskrit": "सिन्धुर",
-      "meaning": "elephant",
-      "note": ""
+      "meaning": "elephant"
     },
     {
       "sanskrit": "त्वक्",
-      "meaning": "skin, hide",
-      "note": "Hindi त्वचा. Becomes त्वग् before a vowel."
+      "meaning": "skin, hide"
     },
     {
       "sanskrit": "उत्तरीय",
-      "meaning": "upper garment",
-      "note": ""
+      "meaning": "upper garment"
     },
     {
       "sanskrit": "मेदुरे",
-      "meaning": "glossy, covered",
-      "note": "Locative."
+      "meaning": "glossy, covered"
     },
     {
       "sanskrit": "अद्भुतम्",
-      "meaning": "wonderful",
-      "note": "Hindi अद्भुत."
+      "meaning": "wonderful"
     },
     {
       "sanskrit": "बिभर्तु",
-      "meaning": "may it hold",
-      "note": "Imperative of √bhri (to bear). Reduplicated: bi-bhar-."
+      "meaning": "may it hold"
     },
     {
       "sanskrit": "भूतभर्तरि",
-      "meaning": "in the lord of beings",
-      "note": "bhartri = supporter, lord. Locative bhartari."
+      "meaning": "in the lord of beings"
     }
-  ],
-  "grammar": [
-    "<b>Reduplication:</b> some roots double their first syllable in the present: √भृ → बिभर्ति (bears), imperative बिभर्तु. Compare √दा → ददाति (gives).",
-    "<b>Agent nouns in -tri:</b> <span class='dv'>भर्तृ</span> 'supporter' (from √bhri), like कर्तृ (doer) and दातृ (giver). Locative: भर्तरि.",
-    "<b>Science word:</b> <span class='dv'>द्रव</span> 'liquid' is the Hindi word for fluid in physics: द्रव यांत्रिकी = fluid mechanics."
   ]
 }

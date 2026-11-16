@@ -2,7 +2,6 @@
   "id": "argala-20",
   "number": "Verse 20",
   "title": "Praised by Shiva",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "हिमाचलसुतानाथ-",
     "संस्तुते परमेश्वरि।",
@@ -14,22 +13,15 @@
   "words": [
     {
       "sanskrit": "हिमाचल",
-      "meaning": "the Himalaya",
-      "note": "hima (snow) + acala (mountain, 'unmoving')."
+      "meaning": "the Himalaya"
     },
     {
       "sanskrit": "सुता",
-      "meaning": "daughter",
-      "note": ""
+      "meaning": "daughter"
     },
     {
       "sanskrit": "नाथ",
-      "meaning": "lord",
-      "note": ""
+      "meaning": "lord"
     }
-  ],
-  "grammar": [
-    "<b>Acala = mountain:</b> 'the unmoving', the same word as the 'still' stars in Aryabhata's boat verse.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

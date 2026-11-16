@@ -2,7 +2,6 @@
   "id": "argala-7",
   "number": "Verse 7",
   "title": "Whose Feet Are Worshipped",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "वन्दिताङ्घ्रियुगे देवि",
     "सर्वसौभाग्यदायिनि।",
@@ -14,27 +13,19 @@
   "words": [
     {
       "sanskrit": "वन्दित",
-      "meaning": "worshipped",
-      "note": ""
+      "meaning": "worshipped"
     },
     {
       "sanskrit": "अङ्घ्रियुगे",
-      "meaning": "whose pair of feet",
-      "note": "anghri = foot (Tandava verse 5); yuga = pair."
+      "meaning": "whose pair of feet"
     },
     {
       "sanskrit": "सौभाग्य",
-      "meaning": "good fortune",
-      "note": ""
+      "meaning": "good fortune"
     },
     {
       "sanskrit": "दायिनि",
-      "meaning": "O giver",
-      "note": ""
+      "meaning": "O giver"
     }
-  ],
-  "grammar": [
-    "<b>Yuga = pair:</b> the same word as shata-yuga (two hundred) in the monkey verse.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

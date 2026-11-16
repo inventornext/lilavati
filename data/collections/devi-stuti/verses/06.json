@@ -2,7 +2,6 @@
   "id": "devi-stuti-6",
   "number": "Ya Devi 1",
   "title": "Vishnu's Maya",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "विष्णुमायेति शब्दिता।",
@@ -14,48 +13,35 @@
   "words": [
     {
       "sanskrit": "या",
-      "meaning": "she who",
-      "note": "Relative pronoun, feminine."
+      "meaning": "she who"
     },
     {
       "sanskrit": "देवी",
-      "meaning": "the Goddess",
-      "note": ""
+      "meaning": "the Goddess"
     },
     {
       "sanskrit": "सर्वभूतेषु",
-      "meaning": "in all beings",
-      "note": "Locative plural of bhuta."
+      "meaning": "in all beings"
     },
     {
       "sanskrit": "विष्णुमाया",
-      "meaning": "Vishnu's power of illusion",
-      "note": ""
+      "meaning": "Vishnu's power of illusion"
     },
     {
       "sanskrit": "इति",
-      "meaning": "thus, as",
-      "note": "Quotation marker."
+      "meaning": "thus, as"
     },
     {
       "sanskrit": "शब्दिता",
-      "meaning": "is called",
-      "note": "From shabda (word): 'is worded'."
+      "meaning": "is called"
     },
     {
       "sanskrit": "नमः",
-      "meaning": "salutation",
-      "note": ""
+      "meaning": "salutation"
     },
     {
       "sanskrit": "तस्यै",
-      "meaning": "to her",
-      "note": "Dative of sa: the correlative of ya."
+      "meaning": "to her"
     }
-  ],
-  "grammar": [
-    "<b>Ya … tasyai:</b> 'she who … to her'. The relative <span class='dv'>या</span> and the correlative <span class='dv'>तस्यै</span> frame every verse of this hymn.",
-    "<b>Triple refrain:</b> <span class='dv'>नमस्तस्यै नमस्तस्यै नमस्तस्यै नमो नमः</span>: salutation to her, to her, to her, again and again. The repetition is the heart of the chant.",
-    "<b>Visarga before t:</b> <span class='dv'>नमः + तस्यै → नमस्तस्यै</span>, like हारस्तारः."
   ]
 }

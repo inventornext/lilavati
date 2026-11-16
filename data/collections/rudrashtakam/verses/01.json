@@ -2,7 +2,6 @@
   "id": "rudrashtakam-1",
   "number": "Verse 1",
   "title": "I Bow to the Lord",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "नमामीशमीशान निर्वाणरूपं",
     "विभुं व्यापकं ब्रह्मवेदस्वरूपम्।",
@@ -14,73 +13,55 @@
   "words": [
     {
       "sanskrit": "नमामि",
-      "meaning": "I bow",
-      "note": "√nam, 1st person. Hindi नमन."
+      "meaning": "I bow"
     },
     {
       "sanskrit": "ईशम्",
-      "meaning": "the Lord",
-      "note": ""
+      "meaning": "the Lord"
     },
     {
       "sanskrit": "ईशान",
-      "meaning": "O Ishana",
-      "note": "Vocative: a name of Shiva, lord of the north-east."
+      "meaning": "O Ishana"
     },
     {
       "sanskrit": "निर्वाणरूपम्",
-      "meaning": "whose form is liberation",
-      "note": ""
+      "meaning": "whose form is liberation"
     },
     {
       "sanskrit": "विभुम्",
-      "meaning": "all-pervading",
-      "note": ""
+      "meaning": "all-pervading"
     },
     {
       "sanskrit": "व्यापकम्",
-      "meaning": "pervading",
-      "note": "Hindi व्यापक."
+      "meaning": "pervading"
     },
     {
       "sanskrit": "ब्रह्मवेदस्वरूपम्",
-      "meaning": "embodiment of Brahman and the Vedas",
-      "note": ""
+      "meaning": "embodiment of Brahman and the Vedas"
     },
     {
       "sanskrit": "निजम्",
-      "meaning": "his own self",
-      "note": "Hindi निज."
+      "meaning": "his own self"
     },
     {
       "sanskrit": "निर्गुणम्",
-      "meaning": "beyond qualities",
-      "note": "nir + guna."
+      "meaning": "beyond qualities"
     },
     {
       "sanskrit": "निरीहम्",
-      "meaning": "desireless",
-      "note": "nir + iha (desire)."
+      "meaning": "desireless"
     },
     {
       "sanskrit": "चिदाकाशम्",
-      "meaning": "sky of consciousness",
-      "note": ""
+      "meaning": "sky of consciousness"
     },
     {
       "sanskrit": "आकाशवासम्",
-      "meaning": "dwelling in the sky",
-      "note": ""
+      "meaning": "dwelling in the sky"
     },
     {
       "sanskrit": "भजेऽहम्",
-      "meaning": "I worship",
-      "note": "bhaje + aham."
+      "meaning": "I worship"
     }
-  ],
-  "grammar": [
-    "<b>Accusative chain:</b> every epithet ends in -म् because each is an object of <span class='dv'>नमामि</span> and <span class='dv'>भजे</span>.",
-    "<b>nir- 'without':</b> <span class='dv'>निर्गुण, निर्विकल्प, निरीह</span>, like निराकार in Nirvana Shatkam.",
-    "<b>Author:</b> Goswami Tulsidas, in the Uttarakanda of the Ramcharitmanas (16th century). The Brahmin in the story recites it to please Shiva."
   ]
 }

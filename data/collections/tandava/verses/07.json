@@ -2,7 +2,6 @@
   "id": "tandava-7",
   "number": "Verse 7",
   "title": "The Three-eyed Artist",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "करालभालपट्टिकाधगद्धगद्धगज्ज्वल-",
     "द्धनञ्जयाहुतीकृतप्रचण्डपञ्चसायके।",
@@ -14,73 +13,55 @@
   "words": [
     {
       "sanskrit": "कराल",
-      "meaning": "terrible, fearsome",
-      "note": "Hindi विकराल."
+      "meaning": "terrible, fearsome"
     },
     {
       "sanskrit": "भालपट्टिका",
-      "meaning": "surface of the forehead",
-      "note": "bhala = forehead."
+      "meaning": "surface of the forehead"
     },
     {
       "sanskrit": "ज्वलत्",
-      "meaning": "blazing",
-      "note": ""
+      "meaning": "blazing"
     },
     {
       "sanskrit": "आहुतीकृत",
-      "meaning": "made into an offering",
-      "note": "ahuti = oblation poured into the yajna fire."
+      "meaning": "made into an offering"
     },
     {
       "sanskrit": "प्रचण्डपञ्चसायके",
-      "meaning": "the mighty five-arrowed one",
-      "note": "Locative."
+      "meaning": "the mighty five-arrowed one"
     },
     {
       "sanskrit": "नन्दिनी",
-      "meaning": "daughter",
-      "note": ""
+      "meaning": "daughter"
     },
     {
       "sanskrit": "कुचाग्र",
-      "meaning": "bosom",
-      "note": ""
+      "meaning": "bosom"
     },
     {
       "sanskrit": "चित्रपत्रक",
-      "meaning": "decorative leaf designs",
-      "note": "Painted patterns on the body (patra-lekha)."
+      "meaning": "decorative leaf designs"
     },
     {
       "sanskrit": "प्रकल्पन",
-      "meaning": "designing, creating",
-      "note": "Hindi कल्पना."
+      "meaning": "designing, creating"
     },
     {
       "sanskrit": "एकशिल्पिनि",
-      "meaning": "in the one (unique) artist",
-      "note": "shilpin = artist, craftsman. Hindi शिल्पी."
+      "meaning": "in the one (unique) artist"
     },
     {
       "sanskrit": "त्रिलोचने",
-      "meaning": "in the three-eyed one",
-      "note": "tri (three) + locana (eye)."
+      "meaning": "in the three-eyed one"
     },
     {
       "sanskrit": "रतिः",
-      "meaning": "love",
-      "note": ""
+      "meaning": "love"
     },
     {
       "sanskrit": "मम",
-      "meaning": "my",
-      "note": ""
+      "meaning": "my"
     }
-  ],
-  "grammar": [
-    "<b>-i-krita 'made into':</b> <span class='dv'>आहुति + कृत → आहुतीकृत</span> 'made into an oblation'. Same pattern: भस्मीकृत (reduced to ash), स्वीकृत (made one's own, accepted).",
-    "<b>Vriddhi sandhi:</b> <span class='dv'>प्रकल्पन + एक → प्रकल्पनैक</span>. अ + ए → ऐ.",
-    "<b>Visarga to r:</b> <span class='dv'>रतिः + मम → रतिर्मम</span>, like शम्भोर्हरेः in the Vishnu verse."
   ]
 }

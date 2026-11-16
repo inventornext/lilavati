@@ -3,7 +3,6 @@
   "number": "Golapada 9 · Astronomy",
   "topic": "Rotation of the Earth",
   "title": "The Boat and the Stars",
-  "meter": "Meter: Arya (counted in matras: 30 + 27 per half-verse)",
   "devanagari": [
     "अनुलोमगतिर्नौस्थः पश्यत्यचलं विलोमगं यद्वत्।",
     "अचलानि भानि तद्वत् समपश्चिमगानि लङ्कायाम्॥"
@@ -13,59 +12,44 @@
   "words": [
     {
       "sanskrit": "अनुलोमगतिः",
-      "meaning": "moving forward",
-      "note": "anuloma = 'with the grain', forward."
+      "meaning": "moving forward"
     },
     {
       "sanskrit": "नौस्थः",
-      "meaning": "one standing in a boat",
-      "note": "nau = boat. Hindi नाव; English 'navy' shares the root!"
+      "meaning": "one standing in a boat"
     },
     {
       "sanskrit": "पश्यति",
-      "meaning": "sees",
-      "note": "Present of √pash/√drish."
+      "meaning": "sees"
     },
     {
       "sanskrit": "अचलम्",
-      "meaning": "the unmoving (thing)",
-      "note": "a + cala. Hindi अचल."
+      "meaning": "the unmoving (thing)"
     },
     {
       "sanskrit": "विलोमगम्",
-      "meaning": "going backward",
-      "note": "viloma = against the grain."
+      "meaning": "going backward"
     },
     {
       "sanskrit": "यद्वत्",
-      "meaning": "just as",
-      "note": ""
+      "meaning": "just as"
     },
     {
       "sanskrit": "अचलानि भानि",
-      "meaning": "the unmoving stars",
-      "note": "bha = star, from √bha (to shine)."
+      "meaning": "the unmoving stars"
     },
     {
       "sanskrit": "तद्वत्",
-      "meaning": "so, in the same way",
-      "note": ""
+      "meaning": "so, in the same way"
     },
     {
       "sanskrit": "समपश्चिमगानि",
-      "meaning": "moving exactly westward",
-      "note": "pashchima = west. Hindi पश्चिम."
+      "meaning": "moving exactly westward"
     },
     {
       "sanskrit": "लङ्कायाम्",
-      "meaning": "at Lanka",
-      "note": "In Indian astronomy, Lanka is the point on the equator at longitude zero."
+      "meaning": "at Lanka"
     }
-  ],
-  "grammar": [
-    "<b>Yadvat … tadvat:</b> 'just as … so', a relative-correlative pair for comparisons.",
-    "<b>Anuloma and viloma:</b> 'with the hair' and 'against the hair'. Yoga students know them from anuloma-viloma pranayama.",
-    "<b>Neuter plural:</b> <span class='dv'>अचलानि भानि …गानि</span>, all ending in -आनि because bha (star) is neuter."
   ],
   "question": "A point on the equator travels about 40,075 km in 24 hours. Roughly how fast is it moving, in km/h?",
   "answer": 1670,

@@ -2,7 +2,6 @@
   "id": "devi-stuti-25",
   "number": "Ya Devi 20",
   "title": "Mother",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "मातृरूपेण संस्थिता।",
@@ -14,11 +13,7 @@
   "words": [
     {
       "sanskrit": "मातृ",
-      "meaning": "mother",
-      "note": "Agent noun in -tri, like pitri."
+      "meaning": "mother"
     }
-  ],
-  "grammar": [
-    "<b>The changing word:</b> <span class='dv'>मातृ</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
   ]
 }

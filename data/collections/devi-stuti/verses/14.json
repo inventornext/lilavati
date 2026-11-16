@@ -2,7 +2,6 @@
   "id": "devi-stuti-14",
   "number": "Ya Devi 9",
   "title": "Forbearance",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "क्षान्तिरूपेण संस्थिता।",
@@ -14,11 +13,7 @@
   "words": [
     {
       "sanskrit": "क्षान्ति",
-      "meaning": "forbearance, patience",
-      "note": "Related to kshama."
+      "meaning": "forbearance, patience"
     }
-  ],
-  "grammar": [
-    "<b>The changing word:</b> <span class='dv'>क्षान्ति</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
   ]
 }

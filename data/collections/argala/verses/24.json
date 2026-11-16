@@ -2,7 +2,6 @@
   "id": "argala-24",
   "number": "Verse 24",
   "title": "A Good Life Partner",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "पत्नीं मनोरमां देहि",
     "मनोवृत्तानुसारिणीम्।",
@@ -14,43 +13,31 @@
   "words": [
     {
       "sanskrit": "पत्नीम्",
-      "meaning": "wife",
-      "note": ""
+      "meaning": "wife"
     },
     {
       "sanskrit": "मनोरमाम्",
-      "meaning": "charming",
-      "note": "'Delighting the mind'."
+      "meaning": "charming"
     },
     {
       "sanskrit": "मनोवृत्त",
-      "meaning": "wishes of the heart",
-      "note": ""
+      "meaning": "wishes of the heart"
     },
     {
       "sanskrit": "अनुसारिणीम्",
-      "meaning": "who follows",
-      "note": "Hindi अनुसार."
+      "meaning": "who follows"
     },
     {
       "sanskrit": "तारिणीम्",
-      "meaning": "who carries across",
-      "note": "√tri, as tirtha."
+      "meaning": "who carries across"
     },
     {
       "sanskrit": "संसारसागरस्य",
-      "meaning": "of the ocean of worldly life",
-      "note": ""
+      "meaning": "of the ocean of worldly life"
     },
     {
       "sanskrit": "कुलोद्भवाम्",
-      "meaning": "born of a good family",
-      "note": ""
+      "meaning": "born of a good family"
     }
-  ],
-  "grammar": [
-    "<b>No refrain here:</b> this verse is a full four-quarter prayer, traditionally recited by unmarried men.",
-    "<b>Tarini:</b> 'she who carries across', the same idea as दुर्गपारा in the Devi Stuti.",
-    "<b>Accusative chain:</b> every word describing the wife is accusative, the object of <span class='dv'>देहि</span>."
   ]
 }

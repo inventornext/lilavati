@@ -2,8 +2,6 @@
   "id": "mandukya-4",
   "number": "Mantra 3",
   "title": "The First Quarter: Waking",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "जागरितस्थानो बहिष्प्रज्ञः सप्ताङ्ग",
     "एकोनविंशतिमुखः स्थूलभुग्वैश्वानरः",
@@ -14,63 +12,50 @@
   "words": [
     {
       "sanskrit": "जागरित",
-      "meaning": "waking",
-      "note": "Hindi जागना, जाग्रत."
+      "meaning": "waking"
     },
     {
       "sanskrit": "स्थानः",
-      "meaning": "whose place (field) is",
-      "note": ""
+      "meaning": "whose place (field) is"
     },
     {
       "sanskrit": "बहिष्प्रज्ञः",
-      "meaning": "aware outwardly",
-      "note": "bahis = outside (Hindi बाहर)."
+      "meaning": "aware outwardly"
     },
     {
       "sanskrit": "सप्ताङ्गः",
-      "meaning": "having seven limbs",
-      "note": ""
+      "meaning": "having seven limbs"
     },
     {
       "sanskrit": "एकोनविंशति",
-      "meaning": "nineteen",
-      "note": "eka-una-vimshati 'one less than twenty'. Hindi उन्नीस comes from this."
+      "meaning": "nineteen"
     },
     {
       "sanskrit": "मुखः",
-      "meaning": "(having) mouths",
-      "note": "The channels of experience."
+      "meaning": "(having) mouths"
     },
     {
       "sanskrit": "स्थूल",
-      "meaning": "gross, physical",
-      "note": "Hindi स्थूल."
+      "meaning": "gross, physical"
     },
     {
       "sanskrit": "भुक्",
-      "meaning": "enjoyer",
-      "note": "From √bhuj, as bhokta in Nirvana Shatkam."
+      "meaning": "enjoyer"
     },
     {
       "sanskrit": "वैश्वानरः",
-      "meaning": "Vaishvanara",
-      "note": "'Common to all men'."
+      "meaning": "Vaishvanara"
     },
     {
       "sanskrit": "प्रथमः",
-      "meaning": "first",
-      "note": ""
+      "meaning": "first"
     },
     {
       "sanskrit": "पादः",
-      "meaning": "quarter",
-      "note": ""
+      "meaning": "quarter"
     }
   ],
-  "grammar": [
-    "<b>Subtractive numbers:</b> <span class='dv'>एकोनविंशति</span> = 'twenty minus one' = 19, exactly like Latin undeviginti. Hindi उन्नीस, उनतीस, उनचास keep this pattern.",
-    "<b>The nineteen mouths</b> (Shankara's commentary): 5 senses + 5 organs of action + 5 vital airs + mind, intellect, ego and citta. Compare the lists in Nirvana Shatkam.",
-    "<b>Science link:</b> waking awareness shows on an EEG as fast beta waves, about 13 to 30 Hz."
+  "science": [
+    "waking awareness shows on an EEG as fast beta waves, about 13 to 30 Hz."
   ]
 }

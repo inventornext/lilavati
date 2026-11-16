@@ -3,7 +3,6 @@
   "number": "Ganitapada 10 · Geometry",
   "topic": "Value of π",
   "title": "Aryabhata's π",
-  "meter": "Meter: Arya (counted in matras: 30 + 27 per half-verse)",
   "devanagari": [
     "चतुरधिकं शतमष्टगुणं द्वाषष्टिस्तथा सहस्राणाम्।",
     "अयुतद्वयविष्कम्भस्यासन्नो वृत्तपरिणाहः॥"
@@ -13,59 +12,44 @@
   "words": [
     {
       "sanskrit": "चतुरधिकम्",
-      "meaning": "increased by four",
-      "note": "catur (4) + adhika (more). Hindi अधिक."
+      "meaning": "increased by four"
     },
     {
       "sanskrit": "शतम्",
-      "meaning": "a hundred",
-      "note": ""
+      "meaning": "a hundred"
     },
     {
       "sanskrit": "अष्टगुणम्",
-      "meaning": "multiplied by eight",
-      "note": ""
+      "meaning": "multiplied by eight"
     },
     {
       "sanskrit": "द्वाषष्टिः",
-      "meaning": "sixty-two",
-      "note": "Hindi बासठ."
+      "meaning": "sixty-two"
     },
     {
       "sanskrit": "तथा",
-      "meaning": "and also",
-      "note": ""
+      "meaning": "and also"
     },
     {
       "sanskrit": "सहस्राणाम्",
-      "meaning": "of thousands",
-      "note": "62 thousands = 62,000."
+      "meaning": "of thousands"
     },
     {
       "sanskrit": "अयुतद्वय",
-      "meaning": "two ayutas = 20,000",
-      "note": "ayuta = 10,000, as in Lilavati verse 1."
+      "meaning": "two ayutas = 20,000"
     },
     {
       "sanskrit": "विष्कम्भस्य",
-      "meaning": "of the diameter",
-      "note": "vishkambha = diameter."
+      "meaning": "of the diameter"
     },
     {
       "sanskrit": "आसन्नः",
-      "meaning": "approximate, near",
-      "note": "Literally 'sitting near'. Hindi आसन्न."
+      "meaning": "approximate, near"
     },
     {
       "sanskrit": "वृत्तपरिणाहः",
-      "meaning": "circumference of a circle",
-      "note": "vritta = circle (Hindi वृत्त); parinaha = circumference."
+      "meaning": "circumference of a circle"
     }
-  ],
-  "grammar": [
-    "<b>Asanna 'approximate':</b> Aryabhata calls his value 'near', not exact. Some historians read this as a sign he knew no exact fraction for π exists; π's irrationality was proved only in 1761.",
-    "<b>Numbers as words:</b> <span class='dv'>चतुरधिकं शतम्</span> 'a hundred with four more' = 104. The verse is a recipe: (104 × 8) + 62000.",
-    "<b>Genitive:</b> <span class='dv'>विष्कम्भस्य</span> 'of the diameter': the circumference belongs to that circle."
   ],
   "question": "What value of π does this give, to four decimal places?",
   "answer": 3.1416,

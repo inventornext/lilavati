@@ -2,7 +2,6 @@
   "id": "argala-11",
   "number": "Verse 11",
   "title": "For Those Who Worship",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "चण्डिके सततं ये त्वाम्",
     "अर्चयन्तीह भक्तितः।",
@@ -14,27 +13,19 @@
   "words": [
     {
       "sanskrit": "ये",
-      "meaning": "those who",
-      "note": ""
+      "meaning": "those who"
     },
     {
       "sanskrit": "अर्चयन्ति",
-      "meaning": "worship",
-      "note": "√arc, as arcita in Lingashtakam."
+      "meaning": "worship"
     },
     {
       "sanskrit": "इह",
-      "meaning": "here",
-      "note": ""
+      "meaning": "here"
     },
     {
       "sanskrit": "भक्तितः",
-      "meaning": "out of devotion",
-      "note": "-tah = 'from'."
+      "meaning": "out of devotion"
     }
-  ],
-  "grammar": [
-    "<b>Suffix -tas:</b> <span class='dv'>भक्तितः</span> 'from devotion'. Compare इतस्ततः (here and there) in Lilavati verse 9.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

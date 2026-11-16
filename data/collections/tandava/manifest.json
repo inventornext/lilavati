@@ -2,8 +2,8 @@
   "id": "tandava",
   "title": "Shiva Tandava Stotram",
   "title_deva": "शिवताण्डवस्तोत्रम्",
-  "intro": "A hymn to Shiva as the cosmic dancer, traditionally sung by Ravana (its last verse calls it <i>dashavaktra-gitam</i>, 'sung by the ten-faced one'). Its Panchachamara meter alternates light and heavy syllables, ◡ — ◡ — ◡ —, sixteen to a line, so the words themselves beat like Shiva's damaru.",
-  "note": "Verses 1 to 13 are the core of the stotra. Verses 14 and 15 appear in some editions and recitations only. Verses 16 and 17 are the phalashruti, the closing verses on the fruit of recitation. Wording varies slightly between editions; every verse here scans correctly in its meter.",
+  "intro": "A hymn to Shiva as the cosmic dancer, traditionally sung by Ravana: its last verse calls it <span class='dv'>दशवक्त्रगीतम्</span>, 'sung by the ten-faced one'.",
+  "note": "Verses 1 to 13 are the core of the stotra. Verses 14 and 15 appear in some editions and recitations only. Verses 16 and 17 are the phalashruti, the closing verses on the fruit of recitation.",
   "verses": [
     "01",
     "02",

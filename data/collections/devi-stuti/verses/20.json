@@ -2,7 +2,6 @@
   "id": "devi-stuti-20",
   "number": "Ya Devi 15",
   "title": "Prosperity",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "लक्ष्मीरूपेण संस्थिता।",
@@ -14,11 +13,7 @@
   "words": [
     {
       "sanskrit": "लक्ष्मी",
-      "meaning": "prosperity",
-      "note": ""
+      "meaning": "prosperity"
     }
-  ],
-  "grammar": [
-    "<b>The changing word:</b> <span class='dv'>लक्ष्मी</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
   ]
 }

@@ -2,7 +2,6 @@
   "id": "tandava-3",
   "number": "Verse 3",
   "title": "Delight of Parvati",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "धराधरेन्द्रनन्दिनीविलासबन्धुबन्धुर-",
     "स्फुरद्दिगन्तसन्ततिप्रमोदमानमानसे।",
@@ -14,98 +13,75 @@
   "words": [
     {
       "sanskrit": "धराधरेन्द्र",
-      "meaning": "king of mountains (Himalaya)",
-      "note": "dhara (earth) + dhara (holder) = mountain; + indra (king)."
+      "meaning": "king of mountains (Himalaya)"
     },
     {
       "sanskrit": "नन्दिनी",
-      "meaning": "daughter",
-      "note": "'She who gives joy'. Here: Parvati."
+      "meaning": "daughter"
     },
     {
       "sanskrit": "विलास",
-      "meaning": "graceful play",
-      "note": ""
+      "meaning": "graceful play"
     },
     {
       "sanskrit": "बन्धुर",
-      "meaning": "lovely, charming",
-      "note": ""
+      "meaning": "lovely, charming"
     },
     {
       "sanskrit": "स्फुरत्",
-      "meaning": "shining, flashing",
-      "note": "Hindi स्फूर्ति."
+      "meaning": "shining, flashing"
     },
     {
       "sanskrit": "दिगन्त",
-      "meaning": "ends of the directions",
-      "note": "dik (direction) + anta (end). Hindi दिगंत."
+      "meaning": "ends of the directions"
     },
     {
       "sanskrit": "सन्तति",
-      "meaning": "the whole expanse",
-      "note": ""
+      "meaning": "the whole expanse"
     },
     {
       "sanskrit": "प्रमोदमानमानसे",
-      "meaning": "whose mind rejoices",
-      "note": "pramoda = joy; manasa = mind. Locative."
+      "meaning": "whose mind rejoices"
     },
     {
       "sanskrit": "कृपाकटाक्ष",
-      "meaning": "merciful glance",
-      "note": "kripa = mercy (Hindi कृपा); kataksha = sidelong glance."
+      "meaning": "merciful glance"
     },
     {
       "sanskrit": "धोरणी",
-      "meaning": "continuous stream",
-      "note": ""
+      "meaning": "continuous stream"
     },
     {
       "sanskrit": "निरुद्ध",
-      "meaning": "held back, blocked",
-      "note": "Same √rudh as the trapped bee (Lilavati verse 3) and प्रतिरोध (resistance)."
+      "meaning": "held back, blocked"
     },
     {
       "sanskrit": "दुर्धरापदि",
-      "meaning": "hard-to-bear calamities",
-      "note": "durdhara (hard to bear) + apad (calamity, Hindi आपदा)."
+      "meaning": "hard-to-bear calamities"
     },
     {
       "sanskrit": "क्वचित्",
-      "meaning": "sometimes, somewhere",
-      "note": ""
+      "meaning": "sometimes, somewhere"
     },
     {
       "sanskrit": "दिगम्बरे",
-      "meaning": "in Digambara, 'sky-clad'",
-      "note": "dik (directions) + ambara (clothes). क् → ग् before a vowel."
+      "meaning": "in Digambara, 'sky-clad'"
     },
     {
       "sanskrit": "मनः",
-      "meaning": "mind",
-      "note": "-अः → -ओ before a voiced sound: मनो विनोदम्."
+      "meaning": "mind"
     },
     {
       "sanskrit": "विनोदम्",
-      "meaning": "joy, delight",
-      "note": "Hindi विनोद."
+      "meaning": "joy, delight"
     },
     {
       "sanskrit": "एतु",
-      "meaning": "may it go, may it reach",
-      "note": "Imperative of √i (to go)."
+      "meaning": "may it go, may it reach"
     },
     {
       "sanskrit": "वस्तुनि",
-      "meaning": "in that reality",
-      "note": "Locative of vastu (thing, real being)."
+      "meaning": "in that reality"
     }
-  ],
-  "grammar": [
-    "<b>Imperative of √i 'go':</b> <span class='dv'>विनोदम् एतु</span> 'may it go to joy', meaning 'may it find joy'. A tiny verb: एति (goes), एतु (may it go).",
-    "<b>Consonant sandhi:</b> <span class='dv'>दिक् + अम्बर → दिगम्बर</span>. A hard consonant softens before a vowel, like वेगात् → वेगाद् in the bamboo verse.",
-    "<b>Root √rudh:</b> <span class='dv'>निरुद्ध</span> 'blocked'. One root gives निरुद्ध (blocked), प्रतिरोध (resistance) and अवरोध (obstruction)."
   ]
 }

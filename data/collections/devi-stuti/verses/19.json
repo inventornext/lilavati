@@ -2,7 +2,6 @@
   "id": "devi-stuti-19",
   "number": "Ya Devi 14",
   "title": "Beauty",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "या देवी सर्वभूतेषु",
     "कान्तिरूपेण संस्थिता।",
@@ -14,11 +13,7 @@
   "words": [
     {
       "sanskrit": "कान्ति",
-      "meaning": "radiance, beauty",
-      "note": ""
+      "meaning": "radiance, beauty"
     }
-  ],
-  "grammar": [
-    "<b>The changing word:</b> <span class='dv'>कान्ति</span>. Everything else repeats the pattern: <span class='dv'>या देवी सर्वभूतेषु … रूपेण संस्थिता</span>."
   ]
 }

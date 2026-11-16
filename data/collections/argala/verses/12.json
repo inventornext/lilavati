@@ -2,7 +2,6 @@
   "id": "argala-12",
   "number": "Verse 12",
   "title": "Give Health and Joy",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "देहि सौभाग्यमारोग्यं",
     "देहि मे परमं सुखम्।",
@@ -14,27 +13,19 @@
   "words": [
     {
       "sanskrit": "सौभाग्यम्",
-      "meaning": "good fortune",
-      "note": ""
+      "meaning": "good fortune"
     },
     {
       "sanskrit": "आरोग्यम्",
-      "meaning": "health",
-      "note": "a + roga (disease)."
+      "meaning": "health"
     },
     {
       "sanskrit": "मे",
-      "meaning": "to me",
-      "note": ""
+      "meaning": "to me"
     },
     {
       "sanskrit": "परमम्",
-      "meaning": "highest",
-      "note": ""
+      "meaning": "highest"
     }
-  ],
-  "grammar": [
-    "<b>Arogya:</b> 'freedom from disease', a + roga. Hindi आरोग्य.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

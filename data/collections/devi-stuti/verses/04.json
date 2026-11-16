@@ -2,7 +2,6 @@
   "id": "devi-stuti-4",
   "number": "Opening",
   "title": "Durga Who Carries Across",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "दुर्गायै दुर्गपारायै",
     "सारायै सर्वकारिण्यै।",
@@ -14,48 +13,35 @@
   "words": [
     {
       "sanskrit": "दुर्गायै",
-      "meaning": "to Durga",
-      "note": "'Hard to reach', from dur + √gam."
+      "meaning": "to Durga"
     },
     {
       "sanskrit": "दुर्गपारायै",
-      "meaning": "to her who carries across difficulty",
-      "note": "durga = hardship; para = far shore."
+      "meaning": "to her who carries across difficulty"
     },
     {
       "sanskrit": "सारायै",
-      "meaning": "to the essence",
-      "note": "Hindi सार."
+      "meaning": "to the essence"
     },
     {
       "sanskrit": "सर्वकारिण्यै",
-      "meaning": "to the maker of all",
-      "note": ""
+      "meaning": "to the maker of all"
     },
     {
       "sanskrit": "ख्यात्यै",
-      "meaning": "to fame",
-      "note": "Hindi ख्याति."
+      "meaning": "to fame"
     },
     {
       "sanskrit": "तथैव",
-      "meaning": "and likewise",
-      "note": "tatha + eva."
+      "meaning": "and likewise"
     },
     {
       "sanskrit": "कृष्णायै",
-      "meaning": "to the dark one",
-      "note": ""
+      "meaning": "to the dark one"
     },
     {
       "sanskrit": "धूम्रायै",
-      "meaning": "to the smoke-coloured one",
-      "note": "Hindi धुआँ."
+      "meaning": "to the smoke-coloured one"
     }
-  ],
-  "grammar": [
-    "<b>Durga's name:</b> <span class='dv'>दुर्ग</span> = a fort, a hard place; <span class='dv'>दुर्गपारा</span> = she who takes you across hard places. The name contains her promise.",
-    "<b>Vriddhi sandhi:</b> <span class='dv'>तथा + एव → तथैव</span>. आ + ए → ऐ.",
-    "<b>Para:</b> the far shore, as in संसारपार in Rudrashtakam."
   ]
 }

@@ -2,7 +2,6 @@
   "id": "tandava-11",
   "number": "Verse 11",
   "title": "Victory to Shiva",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "जयत्वदभ्रविभ्रमभ्रमद्भुजङ्गमश्वस-",
     "द्विनिर्गमत्क्रमस्फुरत्करालभालहव्यवाट्।",
@@ -14,98 +13,75 @@
   "words": [
     {
       "sanskrit": "जयतु",
-      "meaning": "may he be victorious",
-      "note": "Imperative of √ji. Hindi जय."
+      "meaning": "may he be victorious"
     },
     {
       "sanskrit": "अदभ्र",
-      "meaning": "great, not little",
-      "note": "a + dabhra (small)."
+      "meaning": "great, not little"
     },
     {
       "sanskrit": "विभ्रम",
-      "meaning": "whirling",
-      "note": ""
+      "meaning": "whirling"
     },
     {
       "sanskrit": "भ्रमत्",
-      "meaning": "spinning",
-      "note": ""
+      "meaning": "spinning"
     },
     {
       "sanskrit": "भुजङ्गम",
-      "meaning": "serpent",
-      "note": ""
+      "meaning": "serpent"
     },
     {
       "sanskrit": "श्वसत्",
-      "meaning": "hissing, breathing",
-      "note": "√shvas. Hindi श्वास."
+      "meaning": "hissing, breathing"
     },
     {
       "sanskrit": "विनिर्गमत्",
-      "meaning": "coming out",
-      "note": ""
+      "meaning": "coming out"
     },
     {
       "sanskrit": "क्रम",
-      "meaning": "step by step, sequence",
-      "note": "Hindi क्रम, क्रमशः."
+      "meaning": "step by step, sequence"
     },
     {
       "sanskrit": "स्फुरत्",
-      "meaning": "flashing",
-      "note": ""
+      "meaning": "flashing"
     },
     {
       "sanskrit": "भाल",
-      "meaning": "forehead",
-      "note": ""
+      "meaning": "forehead"
     },
     {
       "sanskrit": "हव्यवाट्",
-      "meaning": "fire, 'carrier of oblations'",
-      "note": "havya (offering) + √vah (to carry). Agni carries offerings to the gods."
+      "meaning": "fire, 'carrier of oblations'"
     },
     {
       "sanskrit": "धिमिद्धिमिद्",
-      "meaning": "sound of the mridanga",
-      "note": "Onomatopoeia."
+      "meaning": "sound of the mridanga"
     },
     {
       "sanskrit": "ध्वनत्",
-      "meaning": "sounding",
-      "note": "Hindi ध्वनि."
+      "meaning": "sounding"
     },
     {
       "sanskrit": "मृदङ्ग",
-      "meaning": "drum",
-      "note": ""
+      "meaning": "drum"
     },
     {
       "sanskrit": "मङ्गल",
-      "meaning": "auspicious",
-      "note": ""
+      "meaning": "auspicious"
     },
     {
       "sanskrit": "प्रवर्तित",
-      "meaning": "set in motion",
-      "note": "pra + √vrit (to turn), causative."
+      "meaning": "set in motion"
     },
     {
       "sanskrit": "प्रचण्डताण्डवः",
-      "meaning": "whose Tandava is fierce",
-      "note": ""
+      "meaning": "whose Tandava is fierce"
     },
     {
       "sanskrit": "शिवः",
-      "meaning": "Shiva",
-      "note": "The subject arrives only at the very end."
+      "meaning": "Shiva"
     }
-  ],
-  "grammar": [
-    "<b>Yan sandhi:</b> <span class='dv'>जयतु + अदभ्र → जयत्वदभ्र</span>. उ before a different vowel becomes व्.",
-    "<b>Root √vrit 'turn':</b> <span class='dv'>प्रवर्तित</span> 'set turning'. The same root gives आवृत्ति (frequency) and प्रत्यावर्ती धारा (alternating current) in the Shabdakosh.",
-    "<b>Suspense:</b> the whole verse is one sentence, and its subject <span class='dv'>शिवः</span> is the last word."
   ]
 }

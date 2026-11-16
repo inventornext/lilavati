@@ -3,7 +3,6 @@
   "number": "Verse 11 · Interest",
   "topic": "Rule of three",
   "title": "Interest on a Loan",
-  "meter": "Meter: Vasantatilaka (14 syllables per line)",
   "devanagari": [
     "मासे शतस्य यदि पञ्च कलान्तरं स्यात्",
     "वर्षे गते भवति किं वद षोडशानाम्।",
@@ -15,79 +14,60 @@
   "words": [
     {
       "sanskrit": "मासे",
-      "meaning": "in a month",
-      "note": "Locative of masa. Hindi मास, महीना."
+      "meaning": "in a month"
     },
     {
       "sanskrit": "शतस्य",
-      "meaning": "of a hundred",
-      "note": "Genitive of shata."
+      "meaning": "of a hundred"
     },
     {
       "sanskrit": "कलान्तरम्",
-      "meaning": "interest",
-      "note": "Literally 'the difference over time'."
+      "meaning": "interest"
     },
     {
       "sanskrit": "स्यात्",
-      "meaning": "should be",
-      "note": "Optative of √as."
+      "meaning": "should be"
     },
     {
       "sanskrit": "वर्षे गते",
-      "meaning": "when a year has passed",
-      "note": "Locative absolute: 'the year having gone'."
+      "meaning": "when a year has passed"
     },
     {
       "sanskrit": "भवति",
-      "meaning": "becomes",
-      "note": ""
+      "meaning": "becomes"
     },
     {
       "sanskrit": "किम्",
-      "meaning": "what?",
-      "note": ""
+      "meaning": "what?"
     },
     {
       "sanskrit": "षोडशानाम्",
-      "meaning": "of sixteen",
-      "note": "Genitive plural of shodasha. Hindi सोलह."
+      "meaning": "of sixteen"
     },
     {
       "sanskrit": "कालम्",
-      "meaning": "the time",
-      "note": "Hindi काल."
+      "meaning": "the time"
     },
     {
       "sanskrit": "मूल",
-      "meaning": "principal",
-      "note": "Literally 'root'. The root of the money, like the root of a number!"
+      "meaning": "principal"
     },
     {
       "sanskrit": "मूलकलान्तराभ्याम्",
-      "meaning": "from principal and interest",
-      "note": "Ablative dual."
+      "meaning": "from principal and interest"
     },
     {
       "sanskrit": "धनम्",
-      "meaning": "money, wealth",
-      "note": "Hindi धन."
+      "meaning": "money, wealth"
     },
     {
       "sanskrit": "कालफलम्",
-      "meaning": "time and interest",
-      "note": "phala = fruit, result: the interest earned."
+      "meaning": "time and interest"
     },
     {
       "sanskrit": "विदित्वा",
-      "meaning": "having known",
-      "note": "Gerund of √vid (to know)."
+      "meaning": "having known"
     }
-  ],
-  "grammar": [
-    "<b>Locative absolute:</b> <span class='dv'>वर्षे गते</span> 'the year having gone' = after a year. Noun and participle both in the locative.",
-    "<b>Dual again:</b> <span class='dv'>मूलकलान्तराभ्याम्</span> 'from the two, principal and interest', ablative dual.",
-    "<b>Mula = principal:</b> the same word means root of a plant, square root (bee verse) and the principal of a loan."
   ],
   "question": "What is the interest on 16 after one year? (Give a decimal.)",
   "answer": 9.6,

@@ -2,8 +2,6 @@
   "id": "mandukya-10",
   "number": "Mantra 9",
   "title": "A: The First Measure",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "जागरितस्थानो वैश्वानरोऽकारः",
     "प्रथमा मात्राऽऽप्तेरादिमत्त्वाद्वाऽऽप्नोति",
@@ -14,48 +12,35 @@
   "words": [
     {
       "sanskrit": "प्रथमा",
-      "meaning": "first (measure)",
-      "note": "Feminine, agreeing with matra."
+      "meaning": "first (measure)"
     },
     {
       "sanskrit": "आप्तेः",
-      "meaning": "because of pervading",
-      "note": "Ablative of apti, 'reaching everywhere'."
+      "meaning": "because of pervading"
     },
     {
       "sanskrit": "आदिमत्त्वात्",
-      "meaning": "because of being first",
-      "note": "adi = beginning (Hindi आदि)."
+      "meaning": "because of being first"
     },
     {
       "sanskrit": "वा",
-      "meaning": "or",
-      "note": ""
+      "meaning": "or"
     },
     {
       "sanskrit": "आप्नोति",
-      "meaning": "obtains",
-      "note": ""
+      "meaning": "obtains"
     },
     {
       "sanskrit": "सर्वान् कामान्",
-      "meaning": "all desires",
-      "note": ""
+      "meaning": "all desires"
     },
     {
       "sanskrit": "आदिः",
-      "meaning": "the first",
-      "note": ""
+      "meaning": "the first"
     },
     {
       "sanskrit": "यः एवं वेद",
-      "meaning": "who knows thus",
-      "note": "veda = 'knows', from √vid, the root of the word Veda."
+      "meaning": "who knows thus"
     }
-  ],
-  "grammar": [
-    "<b>Wordplay (nirukta):</b> A is linked to <span class='dv'>आप्ति</span> and <span class='dv'>आदि</span>, words that begin with a.",
-    "<b>A truly pervades:</b> in Devanagari every consonant letter carries the vowel a inside it: क = k + a. And अ is the first letter of the alphabet.",
-    "<b>Ablative of cause:</b> <span class='dv'>आप्तेः, आदिमत्त्वात्</span> 'because of…', like पवनवेगात् in the bamboo verse."
   ]
 }

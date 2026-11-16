@@ -2,7 +2,6 @@
   "id": "nirvana-3",
   "number": "Verse 3",
   "title": "No Hatred, No Desire",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "न मे द्वेषरागौ न मे लोभमोहौ",
     "मदो नैव मे नैव मात्सर्यभावः।",
@@ -14,58 +13,43 @@
   "words": [
     {
       "sanskrit": "मे",
-      "meaning": "my, for me",
-      "note": ""
+      "meaning": "my, for me"
     },
     {
       "sanskrit": "द्वेषरागौ",
-      "meaning": "hatred and attachment",
-      "note": "Dual. Hindi द्वेष, राग."
+      "meaning": "hatred and attachment"
     },
     {
       "sanskrit": "लोभमोहौ",
-      "meaning": "greed and delusion",
-      "note": "Dual."
+      "meaning": "greed and delusion"
     },
     {
       "sanskrit": "मदः",
-      "meaning": "pride, intoxication",
-      "note": ""
+      "meaning": "pride, intoxication"
     },
     {
       "sanskrit": "नैव",
-      "meaning": "not at all",
-      "note": "na + eva."
+      "meaning": "not at all"
     },
     {
       "sanskrit": "मात्सर्यभावः",
-      "meaning": "jealousy",
-      "note": "Hindi मत्सर."
+      "meaning": "jealousy"
     },
     {
       "sanskrit": "धर्मः",
-      "meaning": "duty, righteousness",
-      "note": ""
+      "meaning": "duty, righteousness"
     },
     {
       "sanskrit": "अर्थः",
-      "meaning": "wealth",
-      "note": ""
+      "meaning": "wealth"
     },
     {
       "sanskrit": "कामः",
-      "meaning": "desire",
-      "note": ""
+      "meaning": "desire"
     },
     {
       "sanskrit": "मोक्षः",
-      "meaning": "liberation",
-      "note": ""
+      "meaning": "liberation"
     }
-  ],
-  "grammar": [
-    "<b>The six enemies:</b> kama, krodha, lobha, moha, mada, matsarya (shad-ripu). This verse lists most of them.",
-    "<b>The four purusharthas:</b> dharma, artha, kama, moksha. Even the highest goal, moksha, is denied: the Self is already free.",
-    "<b>Dual with -au:</b> <span class='dv'>द्वेषरागौ, लोभमोहौ</span>, nominative dual for pairs, like हरे गुरौ uses a locative."
   ]
 }

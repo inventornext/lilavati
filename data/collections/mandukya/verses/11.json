@@ -2,8 +2,6 @@
   "id": "mandukya-11",
   "number": "Mantra 10",
   "title": "U: The Second Measure",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "स्वप्नस्थानस्तैजस उकारो",
     "द्वितीया मात्रोत्कर्षादुभयत्वाद्वोत्कर्षति",
@@ -15,53 +13,39 @@
   "words": [
     {
       "sanskrit": "द्वितीया",
-      "meaning": "second (measure)",
-      "note": ""
+      "meaning": "second (measure)"
     },
     {
       "sanskrit": "उत्कर्षात्",
-      "meaning": "because of elevation",
-      "note": "Hindi उत्कर्ष."
+      "meaning": "because of elevation"
     },
     {
       "sanskrit": "उभयत्वात्",
-      "meaning": "because of being between both",
-      "note": "U stands between A and M."
+      "meaning": "because of being between both"
     },
     {
       "sanskrit": "उत्कर्षति",
-      "meaning": "raises",
-      "note": ""
+      "meaning": "raises"
     },
     {
       "sanskrit": "ज्ञानसन्ततिम्",
-      "meaning": "the stream of knowledge",
-      "note": "santati = continuity, as in Tandava verse 3."
+      "meaning": "the stream of knowledge"
     },
     {
       "sanskrit": "समानः",
-      "meaning": "balanced, equal",
-      "note": ""
+      "meaning": "balanced, equal"
     },
     {
       "sanskrit": "अस्य",
-      "meaning": "his",
-      "note": ""
+      "meaning": "his"
     },
     {
       "sanskrit": "अब्रह्मवित्",
-      "meaning": "one who does not know Brahman",
-      "note": ""
+      "meaning": "one who does not know Brahman"
     },
     {
       "sanskrit": "कुले",
-      "meaning": "in the family",
-      "note": ""
+      "meaning": "in the family"
     }
-  ],
-  "grammar": [
-    "<b>Wordplay again:</b> U is linked to <span class='dv'>उत्कर्ष</span> and <span class='dv'>उभय</span>, both starting with u.",
-    "<b>Phonetics:</b> A is said with the mouth open, M with the lips closed; U, with rounded lips, is literally between them.",
-    "<b>Vowel sandhi:</b> <span class='dv'>मात्रा + उत्कर्षात् → मात्रोत्कर्षात्</span>, <span class='dv'>वा + उत्कर्षति → वोत्कर्षति</span>."
   ]
 }

@@ -2,7 +2,6 @@
   "id": "devi-stuti-5",
   "number": "Opening",
   "title": "Most Gentle, Most Fierce",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "अतिसौम्यातिरौद्रायै",
     "नतास्तस्यै नमो नमः।",
@@ -14,38 +13,27 @@
   "words": [
     {
       "sanskrit": "अतिसौम्य",
-      "meaning": "most gentle",
-      "note": "ati = very; saumya = gentle, moon-like."
+      "meaning": "most gentle"
     },
     {
       "sanskrit": "अतिरौद्रायै",
-      "meaning": "to the most fierce",
-      "note": ""
+      "meaning": "to the most fierce"
     },
     {
       "sanskrit": "नताः",
-      "meaning": "(we are) bowed",
-      "note": ""
+      "meaning": "(we are) bowed"
     },
     {
       "sanskrit": "तस्यै",
-      "meaning": "to her",
-      "note": "Dative of sa."
+      "meaning": "to her"
     },
     {
       "sanskrit": "जगत्प्रतिष्ठायै",
-      "meaning": "to the foundation of the world",
-      "note": "Hindi प्रतिष्ठा."
+      "meaning": "to the foundation of the world"
     },
     {
       "sanskrit": "कृत्यै",
-      "meaning": "to action",
-      "note": "From √kri."
+      "meaning": "to action"
     }
-  ],
-  "grammar": [
-    "<b>Ati- 'very':</b> <span class='dv'>अतिसौम्य, अतिरौद्र</span>. Hindi uses the same: अति सुंदर.",
-    "<b>Tasyai 'to her':</b> the dative of सा, the word that becomes the refrain नमस्तस्यै in the next verses.",
-    "<b>Saumya:</b> from soma, the moon: gentle and cool like moonlight."
   ]
 }

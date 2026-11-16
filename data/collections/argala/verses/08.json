@@ -2,7 +2,6 @@
   "id": "argala-8",
   "number": "Verse 8",
   "title": "Beyond Thought",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "अचिन्त्यरूपचरिते",
     "सर्वशत्रुविनाशिनि।",
@@ -14,22 +13,15 @@
   "words": [
     {
       "sanskrit": "अचिन्त्य",
-      "meaning": "beyond thought",
-      "note": "a + cintya (to be thought)."
+      "meaning": "beyond thought"
     },
     {
       "sanskrit": "रूपचरिते",
-      "meaning": "O you of form and deeds",
-      "note": ""
+      "meaning": "O you of form and deeds"
     },
     {
       "sanskrit": "शत्रु",
-      "meaning": "enemy",
-      "note": ""
+      "meaning": "enemy"
     }
-  ],
-  "grammar": [
-    "<b>Gerundive with a-:</b> <span class='dv'>अचिन्त्य</span> 'not to be thought', like अमेय in Nirvana Shatkam.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

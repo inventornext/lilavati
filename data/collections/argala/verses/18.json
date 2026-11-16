@@ -2,7 +2,6 @@
   "id": "argala-18",
   "number": "Verse 18",
   "title": "Praised by Brahma",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "चतुर्भुजे चतुर्वक्त्र-",
     "संस्तुते परमेश्वरि।",
@@ -14,27 +13,19 @@
   "words": [
     {
       "sanskrit": "चतुर्भुजे",
-      "meaning": "O four-armed one",
-      "note": ""
+      "meaning": "O four-armed one"
     },
     {
       "sanskrit": "चतुर्वक्त्र",
-      "meaning": "four-faced (Brahma)",
-      "note": "Compare dashavaktra (Ravana) in Tandava verse 17."
+      "meaning": "four-faced (Brahma)"
     },
     {
       "sanskrit": "संस्तुते",
-      "meaning": "O praised one",
-      "note": ""
+      "meaning": "O praised one"
     },
     {
       "sanskrit": "परमेश्वरि",
-      "meaning": "O Supreme Goddess",
-      "note": ""
+      "meaning": "O Supreme Goddess"
     }
-  ],
-  "grammar": [
-    "<b>Catur- and dasha-:</b> <span class='dv'>चतुर्वक्त्र</span> (four-faced Brahma), <span class='dv'>दशवक्त्र</span> (ten-faced Ravana).",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

@@ -2,8 +2,6 @@
   "id": "mandukya-3",
   "number": "Mantra 2",
   "title": "The Self Has Four Quarters",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "सर्वं ह्येतद्ब्रह्मायमात्मा ब्रह्म",
     "सोऽयमात्मा चतुष्पात्॥"
@@ -13,38 +11,27 @@
   "words": [
     {
       "sanskrit": "हि",
-      "meaning": "indeed",
-      "note": ""
+      "meaning": "indeed"
     },
     {
       "sanskrit": "ब्रह्म",
-      "meaning": "Brahman, the Absolute",
-      "note": ""
+      "meaning": "Brahman, the Absolute"
     },
     {
       "sanskrit": "अयम्",
-      "meaning": "this",
-      "note": ""
+      "meaning": "this"
     },
     {
       "sanskrit": "आत्मा",
-      "meaning": "the Self",
-      "note": ""
+      "meaning": "the Self"
     },
     {
       "sanskrit": "सः",
-      "meaning": "that",
-      "note": "सः + अयम् → सोऽयम्."
+      "meaning": "that"
     },
     {
       "sanskrit": "चतुष्पात्",
-      "meaning": "having four quarters",
-      "note": "catur + pad. pada = foot, quarter: the same word as a quarter of a verse!"
+      "meaning": "having four quarters"
     }
-  ],
-  "grammar": [
-    "<b>A great saying (mahavakya):</b> <span class='dv'>अयमात्मा ब्रह्म</span> 'this Self is Brahman' is one of the four mahavakyas of the Upanishads.",
-    "<b>Pada = quarter:</b> the Self has four padas just as an Anushtubh verse has four padas of eight syllables.",
-    "<b>r → sh:</b> <span class='dv'>चतुर् + पात् → चतुष्पात्</span>. Before p, r becomes a visarga and then sh."
   ]
 }

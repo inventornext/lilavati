@@ -2,7 +2,6 @@
   "id": "tandava-10",
   "number": "Verse 10",
   "title": "Ender of Death",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "अखर्वसर्वमङ्गलाकलाकदम्बमञ्जरी-",
     "रसप्रवाहमाधुरीविजृम्भणामधुव्रतम्।",
@@ -14,88 +13,67 @@
   "words": [
     {
       "sanskrit": "अखर्व",
-      "meaning": "great, not small",
-      "note": "a (not) + kharva (dwarf)."
+      "meaning": "great, not small"
     },
     {
       "sanskrit": "सर्वमङ्गला",
-      "meaning": "the all-auspicious (Parvati)",
-      "note": "As in 'sarvamangala-mangalye'."
+      "meaning": "the all-auspicious (Parvati)"
     },
     {
       "sanskrit": "कला",
-      "meaning": "art",
-      "note": ""
+      "meaning": "art"
     },
     {
       "sanskrit": "कदम्ब",
-      "meaning": "cluster",
-      "note": ""
+      "meaning": "cluster"
     },
     {
       "sanskrit": "मञ्जरी",
-      "meaning": "blossom cluster",
-      "note": "Hindi मंजरी (tulsi manjari)."
+      "meaning": "blossom cluster"
     },
     {
       "sanskrit": "रसप्रवाह",
-      "meaning": "flow of nectar",
-      "note": ""
+      "meaning": "flow of nectar"
     },
     {
       "sanskrit": "माधुरी",
-      "meaning": "sweetness",
-      "note": "Hindi माधुर्य, मधुर."
+      "meaning": "sweetness"
     },
     {
       "sanskrit": "विजृम्भण",
-      "meaning": "blossoming, spreading",
-      "note": ""
+      "meaning": "blossoming, spreading"
     },
     {
       "sanskrit": "मधुव्रतम्",
-      "meaning": "bee",
-      "note": "'Whose vow is honey'. A third word for bee, after ali and bhringa in the Lilavati bee verse!"
+      "meaning": "bee"
     },
     {
       "sanskrit": "स्मरान्तकम्",
-      "meaning": "ender of Kama",
-      "note": "smara + antaka."
+      "meaning": "ender of Kama"
     },
     {
       "sanskrit": "पुरान्तकम्",
-      "meaning": "ender of Tripura",
-      "note": ""
+      "meaning": "ender of Tripura"
     },
     {
       "sanskrit": "भवान्तकम्",
-      "meaning": "ender of worldly existence",
-      "note": ""
+      "meaning": "ender of worldly existence"
     },
     {
       "sanskrit": "मखान्तकम्",
-      "meaning": "ender of the sacrifice",
-      "note": ""
+      "meaning": "ender of the sacrifice"
     },
     {
       "sanskrit": "अन्धकान्तकम्",
-      "meaning": "ender of Andhaka",
-      "note": ""
+      "meaning": "ender of Andhaka"
     },
     {
       "sanskrit": "अन्तकान्तकम्",
-      "meaning": "ender of the Ender (death)",
-      "note": "Mrityunjaya."
+      "meaning": "ender of the Ender (death)"
     },
     {
       "sanskrit": "भजे",
-      "meaning": "I worship",
-      "note": ""
+      "meaning": "I worship"
     }
-  ],
-  "grammar": [
-    "<b>Same list, new word:</b> verse 9 used <span class='dv'>-च्छिद्</span> (cutter); this verse repeats the list with <span class='dv'>-अन्तक</span> (ender). A good way to learn synonyms.",
-    "<b>Bahuvrihi:</b> <span class='dv'>मधुव्रत</span> 'one whose vow is honey' = a bee. The compound describes something else.",
-    "<b>Wordplay:</b> <span class='dv'>अन्तकान्तक</span> 'ender of the ender', since antaka (Yama) himself means 'the ender'."
   ]
 }

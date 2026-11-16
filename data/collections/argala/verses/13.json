@@ -2,7 +2,6 @@
   "id": "argala-13",
   "number": "Verse 13",
   "title": "Grant Strength",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "विधेहि द्विषतां नाशं",
     "विधेहि बलमुच्चकैः।",
@@ -14,32 +13,23 @@
   "words": [
     {
       "sanskrit": "विधेहि",
-      "meaning": "bring about, grant",
-      "note": "Imperative of vi + √dha."
+      "meaning": "bring about, grant"
     },
     {
       "sanskrit": "द्विषताम्",
-      "meaning": "of enemies",
-      "note": ""
+      "meaning": "of enemies"
     },
     {
       "sanskrit": "नाशम्",
-      "meaning": "destruction",
-      "note": ""
+      "meaning": "destruction"
     },
     {
       "sanskrit": "बलम्",
-      "meaning": "strength",
-      "note": ""
+      "meaning": "strength"
     },
     {
       "sanskrit": "उच्चकैः",
-      "meaning": "greatly, high",
-      "note": ""
+      "meaning": "greatly, high"
     }
-  ],
-  "grammar": [
-    "<b>Vidhehi:</b> 'arrange, bring about', from vi + √dha; vidhatri (Brahma) in verse 3 is 'the arranger'.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

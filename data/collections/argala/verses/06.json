@@ -2,7 +2,6 @@
   "id": "argala-6",
   "number": "Verse 6",
   "title": "Crusher of Shumbha and Nishumbha",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "शुम्भस्यैव निशुम्भस्य",
     "धूम्राक्षस्य च मर्दिनि।",
@@ -14,28 +13,19 @@
   "words": [
     {
       "sanskrit": "शुम्भस्य",
-      "meaning": "of Shumbha",
-      "note": "Genitive."
+      "meaning": "of Shumbha"
     },
     {
       "sanskrit": "निशुम्भस्य",
-      "meaning": "of Nishumbha",
-      "note": ""
+      "meaning": "of Nishumbha"
     },
     {
       "sanskrit": "धूम्राक्ष",
-      "meaning": "the demon 'Smoke-eye'",
-      "note": ""
+      "meaning": "the demon 'Smoke-eye'"
     },
     {
       "sanskrit": "मर्दिनि",
-      "meaning": "O crusher",
-      "note": "As in Mahishasura-mardini."
+      "meaning": "O crusher"
     }
-  ],
-  "grammar": [
-    "<b>Genitive with an agent noun:</b> 'crusher <i>of</i> Shumbha': the victims take the genitive.",
-    "<b>Vriddhi sandhi:</b> <span class='dv'>शुम्भस्य + एव → शुम्भस्यैव</span>.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

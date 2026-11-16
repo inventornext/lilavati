@@ -2,7 +2,6 @@
   "id": "nirvana-2",
   "number": "Verse 2",
   "title": "Not the Breath, Not the Body",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "न च प्राणसंज्ञो न वै पञ्चवायु-",
     "र्न वा सप्तधातुर्न वा पञ्चकोशः।",
@@ -14,53 +13,39 @@
   "words": [
     {
       "sanskrit": "प्राणसंज्ञः",
-      "meaning": "what is called prana",
-      "note": "samjna = name. Hindi संज्ञा (noun)!"
+      "meaning": "what is called prana"
     },
     {
       "sanskrit": "वै",
-      "meaning": "indeed",
-      "note": ""
+      "meaning": "indeed"
     },
     {
       "sanskrit": "पञ्चवायुः",
-      "meaning": "the five vital airs",
-      "note": "Prana, apana, vyana, udana, samana."
+      "meaning": "the five vital airs"
     },
     {
       "sanskrit": "सप्तधातुः",
-      "meaning": "the seven tissues",
-      "note": "In Ayurveda. Hindi धातु also means metal and verb root!"
+      "meaning": "the seven tissues"
     },
     {
       "sanskrit": "पञ्चकोशः",
-      "meaning": "the five sheaths",
-      "note": "The layers of the self in the Upanishads."
+      "meaning": "the five sheaths"
     },
     {
       "sanskrit": "वाक्",
-      "meaning": "speech",
-      "note": "Hindi वाणी."
+      "meaning": "speech"
     },
     {
       "sanskrit": "पाणि",
-      "meaning": "hand",
-      "note": "As in dvi-tri-pani in the bamboo verse."
+      "meaning": "hand"
     },
     {
       "sanskrit": "पादम्",
-      "meaning": "foot",
-      "note": ""
+      "meaning": "foot"
     },
     {
       "sanskrit": "उपस्थपायू",
-      "meaning": "organs of procreation and excretion",
-      "note": "Dual."
+      "meaning": "organs of procreation and excretion"
     }
-  ],
-  "grammar": [
-    "<b>Number words:</b> <span class='dv'>पञ्च, सप्त, पञ्च</span>: Indian philosophy loves lists, and their numbers become part of the name: पञ्चवायु, सप्तधातु, पञ्चकोश.",
-    "<b>Samjna:</b> 'name'. In Sanskrit grammar, Panini uses samjna for a technical term; in Hindi grammar संज्ञा means noun.",
-    "Refrain: <span class='dv'>चिदानन्दरूपः शिवोऽहं शिवोऽहम्</span> 'My form is consciousness and bliss. I am Shiva, I am Shiva.'"
   ]
 }

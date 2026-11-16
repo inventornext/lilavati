@@ -2,7 +2,6 @@
   "id": "lingashtakam-1",
   "number": "Verse 1",
   "title": "Worshipped by Brahma and Vishnu",
-  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "ब्रह्ममुरारिसुरार्चितलिङ्गं",
     "निर्मलभासितशोभितलिङ्गम्।",
@@ -14,78 +13,59 @@
   "words": [
     {
       "sanskrit": "ब्रह्म",
-      "meaning": "Brahma",
-      "note": ""
+      "meaning": "Brahma"
     },
     {
       "sanskrit": "मुरारि",
-      "meaning": "Vishnu, 'enemy of Mura'",
-      "note": "mura + ari."
+      "meaning": "Vishnu, 'enemy of Mura'"
     },
     {
       "sanskrit": "सुर",
-      "meaning": "the gods",
-      "note": ""
+      "meaning": "the gods"
     },
     {
       "sanskrit": "अर्चित",
-      "meaning": "worshipped",
-      "note": "√arc. Hindi अर्चना."
+      "meaning": "worshipped"
     },
     {
       "sanskrit": "लिङ्गम्",
-      "meaning": "the linga, sign",
-      "note": "Literally 'mark, sign'. In grammar, linga means gender!"
+      "meaning": "the linga, sign"
     },
     {
       "sanskrit": "निर्मल",
-      "meaning": "pure",
-      "note": "nir + mala (dirt)."
+      "meaning": "pure"
     },
     {
       "sanskrit": "भासित",
-      "meaning": "shining",
-      "note": "√bhas."
+      "meaning": "shining"
     },
     {
       "sanskrit": "शोभित",
-      "meaning": "beautiful",
-      "note": ""
+      "meaning": "beautiful"
     },
     {
       "sanskrit": "जन्मज",
-      "meaning": "born of birth",
-      "note": "janma + ja."
+      "meaning": "born of birth"
     },
     {
       "sanskrit": "दुःख",
-      "meaning": "sorrow",
-      "note": ""
+      "meaning": "sorrow"
     },
     {
       "sanskrit": "विनाशक",
-      "meaning": "destroyer",
-      "note": ""
+      "meaning": "destroyer"
     },
     {
       "sanskrit": "तत्",
-      "meaning": "that",
-      "note": ""
+      "meaning": "that"
     },
     {
       "sanskrit": "प्रणमामि",
-      "meaning": "I bow",
-      "note": "pra + √nam. न → ण after र."
+      "meaning": "I bow"
     },
     {
       "sanskrit": "सदाशिव",
-      "meaning": "Sadashiva, the ever-auspicious",
-      "note": ""
+      "meaning": "Sadashiva, the ever-auspicious"
     }
-  ],
-  "grammar": [
-    "<b>A matra meter:</b> each line has 16 matras in four beats of 4 (— ◡ ◡ or ◡ ◡ ◡ ◡). The scanner shows the Dodhaka pattern, and two light syllables may replace one heavy.",
-    "<b>Retroflex n:</b> <span class='dv'>प्र + नमामि → प्रणमामि</span>. After र in the same word, न becomes ण.",
-    "<b>Linga = sign:</b> also the word for grammatical gender: पुंलिङ्ग, स्त्रीलिङ्ग, नपुंसकलिङ्ग."
   ]
 }

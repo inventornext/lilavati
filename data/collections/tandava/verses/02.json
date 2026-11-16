@@ -2,7 +2,6 @@
   "id": "tandava-2",
   "number": "Verse 2",
   "title": "Ganga in His Hair",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "जटाकटाहसम्भ्रमभ्रमन्निलिम्पनिर्झरी-",
     "विलोलवीचिवल्लरीविराजमानमूर्धनि।",
@@ -14,98 +13,75 @@
   "words": [
     {
       "sanskrit": "कटाह",
-      "meaning": "cauldron",
-      "note": "Hindi कड़ाह, कड़ाही."
+      "meaning": "cauldron"
     },
     {
       "sanskrit": "सम्भ्रम",
-      "meaning": "whirling",
-      "note": ""
+      "meaning": "whirling"
     },
     {
       "sanskrit": "भ्रमत्",
-      "meaning": "spinning, wandering",
-      "note": "√bhram. Hindi भ्रमण, भ्रम."
+      "meaning": "spinning, wandering"
     },
     {
       "sanskrit": "निलिम्पनिर्झरी",
-      "meaning": "river of the gods (Ganga)",
-      "note": "nilimpa = god; nirjhari = stream, waterfall (Hindi निर्झर)."
+      "meaning": "river of the gods (Ganga)"
     },
     {
       "sanskrit": "विलोल",
-      "meaning": "restless, tossing",
-      "note": ""
+      "meaning": "restless, tossing"
     },
     {
       "sanskrit": "वीचि",
-      "meaning": "wave",
-      "note": ""
+      "meaning": "wave"
     },
     {
       "sanskrit": "वल्लरी",
-      "meaning": "creeper, vine",
-      "note": "The waves curl like vines."
+      "meaning": "creeper, vine"
     },
     {
       "sanskrit": "विराजमान",
-      "meaning": "shining",
-      "note": "Hindi विराजमान."
+      "meaning": "shining"
     },
     {
       "sanskrit": "मूर्धनि",
-      "meaning": "on the head",
-      "note": "Locative of murdhan (head). Hindi मूर्धन्य."
+      "meaning": "on the head"
     },
     {
       "sanskrit": "धगद्धगद्",
-      "meaning": "crackle of flames",
-      "note": "Onomatopoeia."
+      "meaning": "crackle of flames"
     },
     {
       "sanskrit": "ज्वलत्",
-      "meaning": "blazing",
-      "note": "√jval. Hindi ज्वाला. ज्वलत् + ल → ज्वलल्ल."
+      "meaning": "blazing"
     },
     {
       "sanskrit": "ललाटपट्ट",
-      "meaning": "broad forehead",
-      "note": "lalata = forehead; patta = flat surface."
+      "meaning": "broad forehead"
     },
     {
       "sanskrit": "पावके",
-      "meaning": "fire",
-      "note": "Locative. pavaka = 'the purifier', a name of Agni."
+      "meaning": "fire"
     },
     {
       "sanskrit": "किशोरचन्द्र",
-      "meaning": "young moon",
-      "note": "kishora = young (Hindi किशोर)."
+      "meaning": "young moon"
     },
     {
       "sanskrit": "शेखरे",
-      "meaning": "on him whose crest is…",
-      "note": "shekhara = crest, crown. Chandrashekhara = Shiva."
+      "meaning": "on him whose crest is…"
     },
     {
       "sanskrit": "रतिः",
-      "meaning": "delight, love",
-      "note": ""
+      "meaning": "delight, love"
     },
     {
       "sanskrit": "प्रतिक्षणम्",
-      "meaning": "every moment",
-      "note": "prati (each) + kshana (moment)."
+      "meaning": "every moment"
     },
     {
       "sanskrit": "मम",
-      "meaning": "my",
-      "note": ""
+      "meaning": "my"
     }
-  ],
-  "grammar": [
-    "<b>Bahuvrihi compounds:</b> <span class='dv'>…मूर्धनि, …पावके, …शेखरे</span> all describe Shiva: 'him whose head…, whose forehead-fire…, whose crest…'. They are locative because love is felt 'in' him.",
-    "<b>No verb needed:</b> <span class='dv'>रतिः प्रतिक्षणं मम</span> 'my love (is) every moment'. Sanskrit often leaves out 'is'.",
-    "<b>Consonant assimilation:</b> <span class='dv'>ज्वलत् + ललाट → ज्वलल्ललाट</span>. त् becomes ल् before ल."
   ]
 }

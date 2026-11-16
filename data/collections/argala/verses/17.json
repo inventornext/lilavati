@@ -2,7 +2,6 @@
   "id": "argala-17",
   "number": "Verse 17",
   "title": "Breaker of Demons' Pride",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "प्रचण्डदैत्यदर्पघ्ने",
     "चण्डिके प्रणताय मे।",
@@ -14,23 +13,15 @@
   "words": [
     {
       "sanskrit": "दैत्य",
-      "meaning": "demon",
-      "note": ""
+      "meaning": "demon"
     },
     {
       "sanskrit": "दर्पघ्ने",
-      "meaning": "O breaker of pride",
-      "note": "darpa (pride) + ghna (killer, from √han)."
+      "meaning": "O breaker of pride"
     },
     {
       "sanskrit": "प्रणताय",
-      "meaning": "to the one bowing",
-      "note": "Dative."
+      "meaning": "to the one bowing"
     }
-  ],
-  "grammar": [
-    "<b>-ghna 'killer':</b> from √han, like jahi in the refrain.",
-    "<b>Darpa:</b> the same word as in Lingashtakam verse 2, Ravana's darpa.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

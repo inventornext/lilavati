@@ -3,7 +3,6 @@
   "number": "Verse 4 · Permutations (ankapasha)",
   "topic": "Combinatorics",
   "title": "The Forms of Shiva and Vishnu",
-  "meter": "Meter: Vasantatilaka (14 syllables per line)",
   "devanagari": [
     "पाशाङ्कुशाहिडमरूककपालशूलैः",
     "खट्वाङ्गशक्तिशरचापयुतैर्भवन्ति।",
@@ -15,120 +14,92 @@
   "words": [
     {
       "sanskrit": "पाश",
-      "meaning": "noose",
-      "note": "Rope used to bind."
+      "meaning": "noose"
     },
     {
       "sanskrit": "अङ्कुश",
-      "meaning": "elephant goad",
-      "note": "Hindi अंकुश, 'control'."
+      "meaning": "elephant goad"
     },
     {
       "sanskrit": "अहि",
-      "meaning": "snake",
-      "note": "Same word as in the peacock verse."
+      "meaning": "snake"
     },
     {
       "sanskrit": "डमरूक",
-      "meaning": "damaru drum",
-      "note": "Shiva's small hand drum."
+      "meaning": "damaru drum"
     },
     {
       "sanskrit": "कपाल",
-      "meaning": "skull-cup",
-      "note": ""
+      "meaning": "skull-cup"
     },
     {
       "sanskrit": "शूलैः",
-      "meaning": "with the trident",
-      "note": "The instrumental plural ending -aih covers the whole compound list."
+      "meaning": "with the trident"
     },
     {
       "sanskrit": "खट्वाङ्ग",
-      "meaning": "skull-topped staff",
-      "note": ""
+      "meaning": "skull-topped staff"
     },
     {
       "sanskrit": "शक्ति",
-      "meaning": "spear",
-      "note": "Also 'power'. In Hindi physics, शक्ति = power."
+      "meaning": "spear"
     },
     {
       "sanskrit": "शर",
-      "meaning": "arrow",
-      "note": ""
+      "meaning": "arrow"
     },
     {
       "sanskrit": "चाप",
-      "meaning": "bow",
-      "note": "Also 'arc' in geometry: चाप = arc of a circle."
+      "meaning": "bow"
     },
     {
       "sanskrit": "युतैः",
-      "meaning": "joined with",
-      "note": "From √yu (to join). Compare yutih in the peacock verse."
+      "meaning": "joined with"
     },
     {
       "sanskrit": "भवन्ति",
-      "meaning": "there are",
-      "note": "Present tense plural of √bhu (to be, become)."
+      "meaning": "there are"
     },
     {
       "sanskrit": "अन्योन्यहस्तकलितैः",
-      "meaning": "held in each other's hands",
-      "note": "anyonya (mutual) + hasta (hand) + kalita (held): swapped hand to hand."
+      "meaning": "held in each other's hands"
     },
     {
       "sanskrit": "कति",
-      "meaning": "how many",
-      "note": "Compare Hindi कितने."
+      "meaning": "how many"
     },
     {
       "sanskrit": "मूर्तिभेदाः",
-      "meaning": "different forms",
-      "note": "murti (image, form) + bheda (difference). Hindi मूर्ति, भेद."
+      "meaning": "different forms"
     },
     {
       "sanskrit": "शम्भोः",
-      "meaning": "of Shambhu (Shiva)",
-      "note": "Genitive of shambhu."
+      "meaning": "of Shambhu (Shiva)"
     },
     {
       "sanskrit": "हरेः",
-      "meaning": "of Hari (Vishnu)",
-      "note": "Genitive of hari."
+      "meaning": "of Hari (Vishnu)"
     },
     {
       "sanskrit": "इव",
-      "meaning": "like, as",
-      "note": ""
+      "meaning": "like, as"
     },
     {
       "sanskrit": "गदा",
-      "meaning": "mace",
-      "note": ""
+      "meaning": "mace"
     },
     {
       "sanskrit": "अरि",
-      "meaning": "discus",
-      "note": "Literally 'enemy'; a name for the cakra, the enemy of demons."
+      "meaning": "discus"
     },
     {
       "sanskrit": "सरोज",
-      "meaning": "lotus",
-      "note": "saras (lake) + ja (born): 'born in a lake'."
+      "meaning": "lotus"
     },
     {
       "sanskrit": "शङ्खैः",
-      "meaning": "with the conch",
-      "note": "Instrumental plural, closing the second list."
+      "meaning": "with the conch"
     }
-  ],
-  "grammar": [
-    "<b>One ending for a long list:</b> <span class='dv'>पाशाङ्कुशाहिडमरूककपालशूलैः</span> is one dvandva compound. Only the last word takes the case ending (-ऐः); all the others share it.",
-    "<b>Visarga to r:</b> <span class='dv'>शम्भोः + हरेः + इव → शम्भोर्हरेरिव</span>. After a vowel other than अ/आ, visarga becomes र् before a voiced sound.",
-    "<b>Upapada compound:</b> <span class='dv'>सरोज</span> = सरस् + ज, 'lake-born'. Same pattern: जलज, पङ्कज (lotus), द्विज (twice-born).",
-    "<b>Genitive:</b> <span class='dv'>शम्भोः, हरेः</span> 'of Shambhu, of Hari'. The forms belong to the god, so the god takes the 'of' case."
   ],
   "question": "How many different forms of Vishnu are there?",
   "answer": 24,

@@ -2,8 +2,6 @@
   "id": "mandukya-9",
   "number": "Mantra 8",
   "title": "Om as Its Measures",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "सोऽयमात्माध्यक्षरमोङ्कारोऽधिमात्रं",
     "पादा मात्रा मात्राश्च पादा",
@@ -14,43 +12,31 @@
   "words": [
     {
       "sanskrit": "अध्यक्षरम्",
-      "meaning": "as a syllable",
-      "note": "adhi (regarding) + akshara."
+      "meaning": "as a syllable"
     },
     {
       "sanskrit": "अधिमात्रम्",
-      "meaning": "as measures",
-      "note": ""
+      "meaning": "as measures"
     },
     {
       "sanskrit": "पादाः",
-      "meaning": "the quarters",
-      "note": "Also: quarters of a verse."
+      "meaning": "the quarters"
     },
     {
       "sanskrit": "मात्राः",
-      "meaning": "the measures",
-      "note": "Also: the matras (morae) the meter scanner counts!"
+      "meaning": "the measures"
     },
     {
       "sanskrit": "अकारः",
-      "meaning": "the sound A",
-      "note": "a + kara (making): 'the A-sound'. Hindi अकार."
+      "meaning": "the sound A"
     },
     {
       "sanskrit": "उकारः",
-      "meaning": "the sound U",
-      "note": ""
+      "meaning": "the sound U"
     },
     {
       "sanskrit": "मकारः",
-      "meaning": "the sound M",
-      "note": ""
+      "meaning": "the sound M"
     }
-  ],
-  "grammar": [
-    "<b>Pada and matra:</b> the Upanishad maps the four quarters of the Self onto the measures of Om, using the exact words Sanskrit prosody uses for a verse's quarters and its syllable lengths.",
-    "<b>-kara 'sound':</b> <span class='dv'>अकार, उकार, मकार</span>; Om itself is <span class='dv'>ओङ्कार</span>, 'the Om-sound'.",
-    "<b>Om = A + U + M:</b> in sandhi, अ + उ → ओ (guna), then म्: अ-उ-म् → ओम्."
   ]
 }

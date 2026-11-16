@@ -2,7 +2,6 @@
   "id": "argala-4",
   "number": "Verse 4",
   "title": "Slayer of Mahishasura",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "महिषासुरनिर्णाशि",
     "भक्तानां सुखदे नमः।",
@@ -14,27 +13,19 @@
   "words": [
     {
       "sanskrit": "महिषासुर",
-      "meaning": "the buffalo demon",
-      "note": "The story of chapters 2 to 4."
+      "meaning": "the buffalo demon"
     },
     {
       "sanskrit": "निर्णाशि",
-      "meaning": "O destroyer",
-      "note": "न → ण after र."
+      "meaning": "O destroyer"
     },
     {
       "sanskrit": "भक्तानाम्",
-      "meaning": "of devotees",
-      "note": ""
+      "meaning": "of devotees"
     },
     {
       "sanskrit": "सुखदे",
-      "meaning": "O giver of happiness",
-      "note": ""
+      "meaning": "O giver of happiness"
     }
-  ],
-  "grammar": [
-    "<b>Retroflex n:</b> <span class='dv'>निर् + नाशि → निर्णाशि</span>, the same rule as प्रणमामि.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

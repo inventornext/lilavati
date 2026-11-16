@@ -2,7 +2,6 @@
   "id": "devi-stuti-3",
   "number": "Opening",
   "title": "Growth of Those Who Bow",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "कल्याण्यै प्रणतां वृद्ध्यै",
     "सिद्ध्यै कुर्मो नमो नमः।",
@@ -14,53 +13,39 @@
   "words": [
     {
       "sanskrit": "कल्याण्यै",
-      "meaning": "to the auspicious one",
-      "note": ""
+      "meaning": "to the auspicious one"
     },
     {
       "sanskrit": "प्रणताम्",
-      "meaning": "of those who bow",
-      "note": "Genitive plural."
+      "meaning": "of those who bow"
     },
     {
       "sanskrit": "वृद्ध्यै",
-      "meaning": "to growth",
-      "note": "Hindi वृद्धि."
+      "meaning": "to growth"
     },
     {
       "sanskrit": "सिद्ध्यै",
-      "meaning": "to success",
-      "note": "Hindi सिद्धि."
+      "meaning": "to success"
     },
     {
       "sanskrit": "कुर्मः",
-      "meaning": "we do, we make",
-      "note": "√kri, 1st person plural."
+      "meaning": "we do, we make"
     },
     {
       "sanskrit": "नैर्ऋत्यै",
-      "meaning": "to misfortune (for the wicked)",
-      "note": "From nirriti, goddess of decay."
+      "meaning": "to misfortune (for the wicked)"
     },
     {
       "sanskrit": "भूभृताम्",
-      "meaning": "of kings, 'earth-bearers'",
-      "note": ""
+      "meaning": "of kings, 'earth-bearers'"
     },
     {
       "sanskrit": "लक्ष्म्यै",
-      "meaning": "to prosperity",
-      "note": ""
+      "meaning": "to prosperity"
     },
     {
       "sanskrit": "शर्वाण्यै",
-      "meaning": "to Sharvani",
-      "note": "Wife of Sharva (Shiva)."
+      "meaning": "to Sharvani"
     }
-  ],
-  "grammar": [
-    "<b>Namah kurmah:</b> 'we make salutation', with √kri in the plural.",
-    "<b>Bhu-bhrit:</b> 'earth-bearer' = king (and also mountain). Same √bhri as bhartri in Tandava verse 4.",
-    "<b>Genitive plural -am:</b> <span class='dv'>प्रणताम्, भूभृताम्</span> 'of those who bow, of kings'."
   ]
 }

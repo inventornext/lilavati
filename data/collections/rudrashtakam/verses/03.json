@@ -2,7 +2,6 @@
   "id": "rudrashtakam-3",
   "number": "Verse 3",
   "title": "White as Snowy Mountains",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "तुषाराद्रिसङ्काशगौरं गभीरं",
     "मनोभूतकोटिप्रभाश्रीशरीरम्।",
@@ -14,83 +13,63 @@
   "words": [
     {
       "sanskrit": "तुषाराद्रि",
-      "meaning": "snowy mountain",
-      "note": "tushara (snow) + adri (mountain)."
+      "meaning": "snowy mountain"
     },
     {
       "sanskrit": "सङ्काश",
-      "meaning": "like, resembling",
-      "note": ""
+      "meaning": "like, resembling"
     },
     {
       "sanskrit": "गौरम्",
-      "meaning": "fair, white",
-      "note": ""
+      "meaning": "fair, white"
     },
     {
       "sanskrit": "गभीरम्",
-      "meaning": "deep, serious",
-      "note": "Hindi गंभीर."
+      "meaning": "deep, serious"
     },
     {
       "sanskrit": "मनोभूत",
-      "meaning": "Kamadeva, 'mind-born'",
-      "note": ""
+      "meaning": "Kamadeva, 'mind-born'"
     },
     {
       "sanskrit": "कोटि",
-      "meaning": "ten million",
-      "note": "Hindi करोड़. Bhaskara's place-value list has koti = 10⁷."
+      "meaning": "ten million"
     },
     {
       "sanskrit": "प्रभा",
-      "meaning": "radiance",
-      "note": ""
+      "meaning": "radiance"
     },
     {
       "sanskrit": "शरीरम्",
-      "meaning": "body",
-      "note": ""
+      "meaning": "body"
     },
     {
       "sanskrit": "स्फुरत्",
-      "meaning": "sparkling",
-      "note": ""
+      "meaning": "sparkling"
     },
     {
       "sanskrit": "मौलि",
-      "meaning": "head",
-      "note": ""
+      "meaning": "head"
     },
     {
       "sanskrit": "कल्लोलिनी",
-      "meaning": "river with waves",
-      "note": "Hindi कल्लोल."
+      "meaning": "river with waves"
     },
     {
       "sanskrit": "चारु",
-      "meaning": "lovely",
-      "note": ""
+      "meaning": "lovely"
     },
     {
       "sanskrit": "लसत्",
-      "meaning": "shining",
-      "note": ""
+      "meaning": "shining"
     },
     {
       "sanskrit": "बालेन्दु",
-      "meaning": "young moon",
-      "note": "bala + indu."
+      "meaning": "young moon"
     },
     {
       "sanskrit": "कण्ठे",
-      "meaning": "on the neck",
-      "note": ""
+      "meaning": "on the neck"
     }
-  ],
-  "grammar": [
-    "<b>Koti = 10⁷:</b> the same number word as in the Lilavati place-value list (एक, दश, शत … कोटि).",
-    "<b>Guna sandhi:</b> <span class='dv'>बाल + इन्दु → बालेन्दु</span>. अ + इ → ए.",
-    "<b>Tulsidas's style:</b> Hindi-flavoured endings like <span class='dv'>भुजङ्गा</span> show this is a 16th-century Sanskrit hymn, not a classical one."
   ]
 }

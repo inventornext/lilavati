@@ -3,7 +3,6 @@
   "number": "Verse 2 · Fractions",
   "topic": "Linear equations",
   "title": "The Broken Pearl Necklace",
-  "meter": "Meter: Sragdhara (21 syllables per line)",
   "devanagari": [
     "हारस्तारस्तरुण्या निधुवनकलहे मौक्तिकानां विशीर्णो",
     "भूमौ यातस्त्रिभागः शयनतलगतः पञ्चमांशोऽस्य दृष्टः।",
@@ -15,135 +14,104 @@
   "words": [
     {
       "sanskrit": "हारः",
-      "meaning": "necklace",
-      "note": "Compare Hindi हार."
+      "meaning": "necklace"
     },
     {
       "sanskrit": "तारः",
-      "meaning": "shining",
-      "note": "Bright, sparkling. Visarga becomes स् before त: हारस्तारः."
+      "meaning": "shining"
     },
     {
       "sanskrit": "तरुण्याः",
-      "meaning": "of a young woman",
-      "note": "Genitive of taruni. Hindi तरुण, तरुणी."
+      "meaning": "of a young woman"
     },
     {
       "sanskrit": "निधुवनकलहे",
-      "meaning": "in a lovers' playful quarrel",
-      "note": "kalaha = quarrel (Hindi कलह). Locative."
+      "meaning": "in a lovers' playful quarrel"
     },
     {
       "sanskrit": "मौक्तिकानाम्",
-      "meaning": "of pearls",
-      "note": "Genitive plural of mauktika (pearl). Hindi मोती comes from this."
+      "meaning": "of pearls"
     },
     {
       "sanskrit": "विशीर्णः",
-      "meaning": "broken, scattered",
-      "note": "Past participle of vi + √shri. -अः becomes -ओ before a voiced sound."
+      "meaning": "broken, scattered"
     },
     {
       "sanskrit": "भूमौ",
-      "meaning": "on the ground",
-      "note": "Locative of bhumi."
+      "meaning": "on the ground"
     },
     {
       "sanskrit": "यातः",
-      "meaning": "went, fell",
-      "note": "Past participle of √ya (to go)."
+      "meaning": "went, fell"
     },
     {
       "sanskrit": "त्रिभागः",
-      "meaning": "a third part",
-      "note": "tri (three) + bhaga (part) = 1/3."
+      "meaning": "a third part"
     },
     {
       "sanskrit": "शयनतलगतः",
-      "meaning": "fallen on the bed",
-      "note": "shayana (bed) + tala (surface) + gata (gone)."
+      "meaning": "fallen on the bed"
     },
     {
       "sanskrit": "पञ्चमांशः",
-      "meaning": "a fifth part",
-      "note": "panchama (fifth) + amsha (portion) = 1/5. Hindi अंश."
+      "meaning": "a fifth part"
     },
     {
       "sanskrit": "अस्य",
-      "meaning": "of it",
-      "note": "Genitive of idam, 'of the necklace'."
+      "meaning": "of it"
     },
     {
       "sanskrit": "दृष्टः",
-      "meaning": "was seen",
-      "note": "Past participle of √drish (to see)."
+      "meaning": "was seen"
     },
     {
       "sanskrit": "प्राप्तः",
-      "meaning": "was obtained",
-      "note": "Past participle of pra + √ap. Hindi प्राप्त."
+      "meaning": "was obtained"
     },
     {
       "sanskrit": "षष्ठः",
-      "meaning": "a sixth",
-      "note": "Ordinal of shash (six) = 1/6."
+      "meaning": "a sixth"
     },
     {
       "sanskrit": "सुकेश्या",
-      "meaning": "by the lovely-haired woman",
-      "note": "su (good) + kesha (hair). Instrumental: the 'by' case."
+      "meaning": "by the lovely-haired woman"
     },
     {
       "sanskrit": "गणक",
-      "meaning": "O mathematician",
-      "note": "Vocative."
+      "meaning": "O mathematician"
     },
     {
       "sanskrit": "दशमकः",
-      "meaning": "a tenth",
-      "note": "Ordinal of dasha = 1/10."
+      "meaning": "a tenth"
     },
     {
       "sanskrit": "सङ्गृहीतः",
-      "meaning": "was gathered",
-      "note": "Past participle of sam + √grah. Hindi संग्रह."
+      "meaning": "was gathered"
     },
     {
       "sanskrit": "प्रियेण",
-      "meaning": "by the beloved",
-      "note": "Instrumental of priya."
+      "meaning": "by the beloved"
     },
     {
       "sanskrit": "षट्कम्",
-      "meaning": "a group of six",
-      "note": "shat (six) + -ka (group)."
+      "meaning": "a group of six"
     },
     {
       "sanskrit": "सूत्रे",
-      "meaning": "on the string",
-      "note": "Locative of sutra (thread). Hindi सूत, सूत्र."
+      "meaning": "on the string"
     },
     {
       "sanskrit": "कथय",
-      "meaning": "tell!",
-      "note": "Imperative of √kath."
+      "meaning": "tell!"
     },
     {
       "sanskrit": "कतिपयैः",
-      "meaning": "with how many",
-      "note": "Instrumental plural: 'made of how many pearls'."
+      "meaning": "with how many"
     },
     {
       "sanskrit": "एषः",
-      "meaning": "this",
-      "note": "Its visarga drops before a consonant: एष हारः."
+      "meaning": "this"
     }
-  ],
-  "grammar": [
-    "<b>Visarga before t:</b> <span class='dv'>हारः + तारः → हारस्तारः</span>. Before त/थ, visarga becomes स्.",
-    "<b>-ah before a voiced sound:</b> <span class='dv'>विशीर्णः + भूमौ → विशीर्णो भूमौ</span>. Final -अः becomes -ओ before a voiced consonant.",
-    "<b>Passive with instrumental:</b> <span class='dv'>सुकेश्या प्राप्तः</span> 'was found by the lovely-haired one', <span class='dv'>प्रियेण सङ्गृहीतः</span> 'was gathered by the beloved'. The doer takes the instrumental case.",
-    "<b>Fractions as ordinals:</b> <span class='dv'>त्रिभाग, पञ्चमांश, षष्ठ, दशमक</span> = 1/3, 1/5, 1/6, 1/10. 'The fifth' means 'the fifth part'."
   ],
   "question": "How many pearls were in the necklace?",
   "answer": 30,

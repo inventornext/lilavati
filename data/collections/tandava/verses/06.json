@@ -2,7 +2,6 @@
   "id": "tandava-6",
   "number": "Verse 6",
   "title": "Fire on the Forehead",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "ललाटचत्वरज्वलद्धनञ्जयस्फुलिङ्गभा-",
     "निपीतपञ्चसायकं नमन्निलिम्पनायकम्।",
@@ -14,89 +13,67 @@
   "words": [
     {
       "sanskrit": "चत्वर",
-      "meaning": "open courtyard",
-      "note": "The broad forehead seen as a square."
+      "meaning": "open courtyard"
     },
     {
       "sanskrit": "धनञ्जय",
-      "meaning": "fire",
-      "note": "Literally 'winner of wealth'; also a name of Arjuna."
+      "meaning": "fire"
     },
     {
       "sanskrit": "स्फुलिङ्ग",
-      "meaning": "spark",
-      "note": ""
+      "meaning": "spark"
     },
     {
       "sanskrit": "भा",
-      "meaning": "radiance",
-      "note": "Root of भास्कर, 'light-maker', the sun, and Bhaskara's own name."
+      "meaning": "radiance"
     },
     {
       "sanskrit": "निपीत",
-      "meaning": "swallowed up",
-      "note": "ni + √pa (to drink)."
+      "meaning": "swallowed up"
     },
     {
       "sanskrit": "पञ्चसायकम्",
-      "meaning": "the five-arrowed one (Kama)",
-      "note": "sayaka = arrow."
+      "meaning": "the five-arrowed one (Kama)"
     },
     {
       "sanskrit": "नमत्",
-      "meaning": "bowing",
-      "note": "√nam. Hindi नमन. Becomes नमन् before न."
+      "meaning": "bowing"
     },
     {
       "sanskrit": "निलिम्पनायकम्",
-      "meaning": "leader of the gods",
-      "note": "nayaka = leader. Hindi नायक."
+      "meaning": "leader of the gods"
     },
     {
       "sanskrit": "सुधामयूख",
-      "meaning": "nectar-rayed (the moon)",
-      "note": "sudha = nectar; mayukha = ray."
+      "meaning": "nectar-rayed (the moon)"
     },
     {
       "sanskrit": "लेखया",
-      "meaning": "with the crescent line",
-      "note": "Instrumental of lekha (line)."
+      "meaning": "with the crescent line"
     },
     {
       "sanskrit": "विराजमानशेखरम्",
-      "meaning": "whose crest shines",
-      "note": ""
+      "meaning": "whose crest shines"
     },
     {
       "sanskrit": "महाकपालि",
-      "meaning": "of the great skull-bearer",
-      "note": "kapalin = one who carries a skull, Shiva."
+      "meaning": "of the great skull-bearer"
     },
     {
       "sanskrit": "सम्पदे",
-      "meaning": "for wealth",
-      "note": "Dative of sampad. Hindi संपदा, संपत्ति."
+      "meaning": "for wealth"
     },
     {
       "sanskrit": "शिरः",
-      "meaning": "head",
-      "note": "Hindi शिर, सिर."
+      "meaning": "head"
     },
     {
       "sanskrit": "जटालम्",
-      "meaning": "having matted locks",
-      "note": ""
+      "meaning": "having matted locks"
     },
     {
       "sanskrit": "अस्तु",
-      "meaning": "may it be",
-      "note": "Imperative of √as. तथास्तु = 'so be it'."
+      "meaning": "may it be"
     }
-  ],
-  "grammar": [
-    "<b>The story:</b> this is Kamadahana. When Kama shot his arrows at Shiva, the fire of Shiva's third eye burned him to ash.",
-    "<b>t → n before a nasal:</b> <span class='dv'>नमत् + निलिम्प → नमन्निलिम्प</span>.",
-    "<b>अस्तु:</b> the imperative of 'to be', used in blessings: <span class='dv'>स्वस्ति अस्तु, तथास्तु</span>.",
-    "<b>Bhaskara's name:</b> <span class='dv'>भा</span> (light) + कर (maker) = the sun. The author of the Lilavati carries this word in his name."
   ]
 }

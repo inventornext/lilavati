@@ -2,7 +2,6 @@
   "id": "lingashtakam-2",
   "number": "Verse 2",
   "title": "Destroyer of Ravana's Pride",
-  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "देवमुनिप्रवरार्चितलिङ्गं",
     "कामदहं करुणाकरलिङ्गम्।",
@@ -14,43 +13,31 @@
   "words": [
     {
       "sanskrit": "मुनि",
-      "meaning": "sage",
-      "note": ""
+      "meaning": "sage"
     },
     {
       "sanskrit": "प्रवर",
-      "meaning": "the best",
-      "note": ""
+      "meaning": "the best"
     },
     {
       "sanskrit": "कामदहम्",
-      "meaning": "burner of Kama",
-      "note": "√dah (to burn). Hindi दहन."
+      "meaning": "burner of Kama"
     },
     {
       "sanskrit": "करुणाकर",
-      "meaning": "mine of compassion",
-      "note": "karuna + akara (mine, source)."
+      "meaning": "mine of compassion"
     },
     {
       "sanskrit": "रावण",
-      "meaning": "Ravana",
-      "note": "The author of the Tandava stotra!"
+      "meaning": "Ravana"
     },
     {
       "sanskrit": "दर्प",
-      "meaning": "pride",
-      "note": ""
+      "meaning": "pride"
     },
     {
       "sanskrit": "विनाशन",
-      "meaning": "destroying",
-      "note": ""
+      "meaning": "destroying"
     }
-  ],
-  "grammar": [
-    "<b>A link between hymns:</b> Ravana, who sang the Tandava stotra, once tried to lift Kailasa; Shiva pressed it down with his toe and humbled his pride.",
-    "<b>Akara 'mine, source':</b> <span class='dv'>करुणाकर</span>. Compare रत्नाकर (the ocean, 'mine of jewels').",
-    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that linga of Sadashiva.'"
   ]
 }

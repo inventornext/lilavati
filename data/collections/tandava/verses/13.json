@@ -2,7 +2,6 @@
   "id": "tandava-13",
   "number": "Verse 13",
   "title": "When Will I Be Happy?",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "कदा निलिम्पनिर्झरीनिकुञ्जकोटरे वसन्",
     "विमुक्तदुर्मतिः सदा शिरःस्थमञ्जलिं वहन्।",
@@ -14,98 +13,75 @@
   "words": [
     {
       "sanskrit": "निकुञ्ज",
-      "meaning": "grove",
-      "note": "Hindi कुंज."
+      "meaning": "grove"
     },
     {
       "sanskrit": "कोटरे",
-      "meaning": "in a hollow",
-      "note": "Locative of kotara (hollow, cave)."
+      "meaning": "in a hollow"
     },
     {
       "sanskrit": "वसन्",
-      "meaning": "living",
-      "note": "Present participle of √vas. Hindi वास, निवास."
+      "meaning": "living"
     },
     {
       "sanskrit": "विमुक्तदुर्मतिः",
-      "meaning": "free from evil thoughts",
-      "note": "dur (bad) + mati (mind)."
+      "meaning": "free from evil thoughts"
     },
     {
       "sanskrit": "सदा",
-      "meaning": "always",
-      "note": ""
+      "meaning": "always"
     },
     {
       "sanskrit": "शिरःस्थम्",
-      "meaning": "placed on the head",
-      "note": ""
+      "meaning": "placed on the head"
     },
     {
       "sanskrit": "अञ्जलिम्",
-      "meaning": "folded hands",
-      "note": "Hindi अंजलि."
+      "meaning": "folded hands"
     },
     {
       "sanskrit": "वहन्",
-      "meaning": "carrying",
-      "note": "Present participle of √vah."
+      "meaning": "carrying"
     },
     {
       "sanskrit": "लोचनः",
-      "meaning": "(whose) eyes",
-      "note": "-अः → -ओ: लोचनो ललाम."
+      "meaning": "(whose) eyes"
     },
     {
       "sanskrit": "ललाम",
-      "meaning": "beautiful mark, ornament",
-      "note": ""
+      "meaning": "beautiful mark, ornament"
     },
     {
       "sanskrit": "लग्नकः",
-      "meaning": "attached, devoted",
-      "note": "Hindi लगन."
+      "meaning": "attached, devoted"
     },
     {
       "sanskrit": "शिवेति",
-      "meaning": "'Shiva'",
-      "note": "shiva + iti. इति works like quotation marks."
+      "meaning": "'Shiva'"
     },
     {
       "sanskrit": "मन्त्रम्",
-      "meaning": "mantra",
-      "note": ""
+      "meaning": "mantra"
     },
     {
       "sanskrit": "उच्चरन्",
-      "meaning": "uttering",
-      "note": "ut + √car. Hindi उच्चारण."
+      "meaning": "uttering"
     },
     {
       "sanskrit": "कदा",
-      "meaning": "when?",
-      "note": ""
+      "meaning": "when?"
     },
     {
       "sanskrit": "सुखी",
-      "meaning": "happy",
-      "note": ""
+      "meaning": "happy"
     },
     {
       "sanskrit": "भवामि",
-      "meaning": "shall I be",
-      "note": "√bhu, present tense, 1st person."
+      "meaning": "shall I be"
     },
     {
       "sanskrit": "अहम्",
-      "meaning": "I",
-      "note": ""
+      "meaning": "I"
     }
-  ],
-  "grammar": [
-    "<b>इति as quotation marks:</b> <span class='dv'>शिव + इति → शिवेति</span> 'saying Shiva'. अ + इ → ए (guna).",
-    "<b>Present participles:</b> <span class='dv'>वसन्, वहन्, उच्चरन्</span> 'living, carrying, uttering', like Hindi रहते हुए, करते हुए.",
-    "<b>Present for a wish:</b> <span class='dv'>कदा भवामि</span> 'when do I become' = when shall I be. With कदा, the present looks to the future."
   ]
 }

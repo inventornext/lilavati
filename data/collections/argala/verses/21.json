@@ -2,7 +2,6 @@
   "id": "argala-21",
   "number": "Verse 21",
   "title": "Worshipped by Indra",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "इन्द्राणीपतिसद्भाव-",
     "पूजिते परमेश्वरि।",
@@ -14,22 +13,15 @@
   "words": [
     {
       "sanskrit": "इन्द्राणीपति",
-      "meaning": "Indra, husband of Indrani",
-      "note": ""
+      "meaning": "Indra, husband of Indrani"
     },
     {
       "sanskrit": "सद्भाव",
-      "meaning": "sincere feeling",
-      "note": "sat + bhava."
+      "meaning": "sincere feeling"
     },
     {
       "sanskrit": "पूजिते",
-      "meaning": "O worshipped one",
-      "note": ""
+      "meaning": "O worshipped one"
     }
-  ],
-  "grammar": [
-    "<b>Sadbhava:</b> sat (true) + bhava (feeling); t + bh → d + bh. Hindi सद्भाव.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

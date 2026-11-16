@@ -2,7 +2,6 @@
   "id": "rudrashtakam-7",
   "number": "Verse 7",
   "title": "No Peace Without Him",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "न यावद् उमानाथपादारविन्दं",
     "भजन्तीह लोके परे वा नराणाम्।",
@@ -14,68 +13,51 @@
   "words": [
     {
       "sanskrit": "यावत्",
-      "meaning": "as long as",
-      "note": ""
+      "meaning": "as long as"
     },
     {
       "sanskrit": "उमानाथ",
-      "meaning": "lord of Uma",
-      "note": ""
+      "meaning": "lord of Uma"
     },
     {
       "sanskrit": "पादारविन्दम्",
-      "meaning": "lotus feet",
-      "note": "pada + aravinda (lotus)."
+      "meaning": "lotus feet"
     },
     {
       "sanskrit": "भजन्ति",
-      "meaning": "they worship",
-      "note": ""
+      "meaning": "they worship"
     },
     {
       "sanskrit": "इह लोके",
-      "meaning": "in this world",
-      "note": ""
+      "meaning": "in this world"
     },
     {
       "sanskrit": "परे",
-      "meaning": "in the next",
-      "note": ""
+      "meaning": "in the next"
     },
     {
       "sanskrit": "नराणाम्",
-      "meaning": "of people",
-      "note": ""
+      "meaning": "of people"
     },
     {
       "sanskrit": "तावत्",
-      "meaning": "so long",
-      "note": ""
+      "meaning": "so long"
     },
     {
       "sanskrit": "सुखम्",
-      "meaning": "happiness",
-      "note": ""
+      "meaning": "happiness"
     },
     {
       "sanskrit": "शान्ति",
-      "meaning": "peace",
-      "note": ""
+      "meaning": "peace"
     },
     {
       "sanskrit": "सन्तापनाशम्",
-      "meaning": "end of suffering",
-      "note": ""
+      "meaning": "end of suffering"
     },
     {
       "sanskrit": "सर्वभूताधिवासम्",
-      "meaning": "dwelling in all beings",
-      "note": ""
+      "meaning": "dwelling in all beings"
     }
-  ],
-  "grammar": [
-    "<b>Yavat … tavat:</b> 'as long as … so long', like Hindi जब तक … तब तक.",
-    "<b>Meter note:</b> the scanner marks two syllables in line 1: <span class='dv'>यावद् उमा</span> gives light-light where the meter wants heavy-light. Tulsidas's Sanskrit allows small freedoms like this; reciters simply lengthen the syllable.",
-    "<b>Aravinda again:</b> 'lotus', as in अरविन्दचक्षुस् (lotus-eyed) in Tandava verse 12."
   ]
 }

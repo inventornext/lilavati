@@ -2,8 +2,6 @@
   "id": "mandukya-8",
   "number": "Mantra 7",
   "title": "The Fourth: Turiya",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "नान्तःप्रज्ञं न बहिष्प्रज्ञं नोभयतःप्रज्ञं",
     "न प्रज्ञानघनं न प्रज्ञं नाप्रज्ञम्।",
@@ -17,88 +15,67 @@
   "words": [
     {
       "sanskrit": "उभयतः",
-      "meaning": "both ways",
-      "note": ""
+      "meaning": "both ways"
     },
     {
       "sanskrit": "अप्रज्ञम्",
-      "meaning": "unaware",
-      "note": ""
+      "meaning": "unaware"
     },
     {
       "sanskrit": "अदृष्टम्",
-      "meaning": "unseen",
-      "note": "a + drishta."
+      "meaning": "unseen"
     },
     {
       "sanskrit": "अव्यवहार्यम्",
-      "meaning": "beyond all dealings",
-      "note": "Hindi व्यवहार."
+      "meaning": "beyond all dealings"
     },
     {
       "sanskrit": "अग्राह्यम्",
-      "meaning": "ungraspable",
-      "note": ""
+      "meaning": "ungraspable"
     },
     {
       "sanskrit": "अलक्षणम्",
-      "meaning": "without marks",
-      "note": ""
+      "meaning": "without marks"
     },
     {
       "sanskrit": "अचिन्त्यम्",
-      "meaning": "unthinkable",
-      "note": "As in the Argala Stotram verse 8."
+      "meaning": "unthinkable"
     },
     {
       "sanskrit": "अव्यपदेश्यम्",
-      "meaning": "indescribable",
-      "note": ""
+      "meaning": "indescribable"
     },
     {
       "sanskrit": "एकात्मप्रत्ययसारम्",
-      "meaning": "whose essence is the certainty of the one Self",
-      "note": ""
+      "meaning": "whose essence is the certainty of the one Self"
     },
     {
       "sanskrit": "प्रपञ्चोपशमम्",
-      "meaning": "where the world comes to rest",
-      "note": "prapancha = the spread-out world."
+      "meaning": "where the world comes to rest"
     },
     {
       "sanskrit": "शान्तम्",
-      "meaning": "peaceful",
-      "note": ""
+      "meaning": "peaceful"
     },
     {
       "sanskrit": "शिवम्",
-      "meaning": "auspicious",
-      "note": ""
+      "meaning": "auspicious"
     },
     {
       "sanskrit": "अद्वैतम्",
-      "meaning": "non-dual",
-      "note": "a + dvaita (duality). The name of Shankara's school."
+      "meaning": "non-dual"
     },
     {
       "sanskrit": "चतुर्थम्",
-      "meaning": "the fourth",
-      "note": "= turiya (Rudrashtakam verse 2)."
+      "meaning": "the fourth"
     },
     {
       "sanskrit": "मन्यन्ते",
-      "meaning": "they consider",
-      "note": ""
+      "meaning": "they consider"
     },
     {
       "sanskrit": "विज्ञेयः",
-      "meaning": "to be known",
-      "note": "Gerundive of vi + √jna."
+      "meaning": "to be known"
     }
-  ],
-  "grammar": [
-    "<b>The way of negation:</b> eight a- words in a row (अदृष्ट, अव्यवहार्य, अग्राह्य…). Turiya can only be pointed at by saying what it is not, exactly as Nirvana Shatkam does.",
-    "<b>Gerundives -ya:</b> <span class='dv'>ग्राह्य, चिन्त्य, व्यपदेश्य, विज्ञेय</span> 'to be grasped, thought, described, known'. With a-, 'not to be…'.",
-    "<b>Shivam advaitam:</b> 'auspicious, non-dual'. Here shiva is an adjective; the refrain of Nirvana Shatkam, शिवोऽहम्, draws on this mantra."
   ]
 }

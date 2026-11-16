@@ -3,7 +3,6 @@
   "number": "Golapada 5 · Astronomy",
   "topic": "Reflected light",
   "title": "Why the Moon Shines",
-  "meter": "Meter: Arya (counted in matras: 30 + 27 per half-verse)",
   "devanagari": [
     "भूग्रहभानां गोलार्धानि स्वच्छायया विवर्णानि।",
     "अर्धानि यथासारं सूर्याभिमुखानि दीप्यन्ते॥"
@@ -13,59 +12,44 @@
   "words": [
     {
       "sanskrit": "भू",
-      "meaning": "the Earth",
-      "note": ""
+      "meaning": "the Earth"
     },
     {
       "sanskrit": "ग्रह",
-      "meaning": "planet",
-      "note": "Hindi ग्रह."
+      "meaning": "planet"
     },
     {
       "sanskrit": "भानाम्",
-      "meaning": "of the stars",
-      "note": "Genitive plural of bha."
+      "meaning": "of the stars"
     },
     {
       "sanskrit": "गोलार्धानि",
-      "meaning": "hemispheres",
-      "note": "gola (sphere) + ardha (half). Hindi गोला, गोलार्ध."
+      "meaning": "hemispheres"
     },
     {
       "sanskrit": "स्वच्छायया",
-      "meaning": "by their own shadow",
-      "note": "chaya = shadow (Hindi छाया). छ doubles after a short vowel."
+      "meaning": "by their own shadow"
     },
     {
       "sanskrit": "विवर्णानि",
-      "meaning": "dark, colourless",
-      "note": "vi + varna (colour)."
+      "meaning": "dark, colourless"
     },
     {
       "sanskrit": "अर्धानि",
-      "meaning": "the (other) halves",
-      "note": ""
+      "meaning": "the (other) halves"
     },
     {
       "sanskrit": "यथासारम्",
-      "meaning": "according to their nature",
-      "note": "sara = essence."
+      "meaning": "according to their nature"
     },
     {
       "sanskrit": "सूर्याभिमुखानि",
-      "meaning": "facing the Sun",
-      "note": "abhimukha = facing. Hindi अभिमुख."
+      "meaning": "facing the Sun"
     },
     {
       "sanskrit": "दीप्यन्ते",
-      "meaning": "shine",
-      "note": "√dip (to shine). Hindi दीप, दीपक."
+      "meaning": "shine"
     }
-  ],
-  "grammar": [
-    "<b>छ doubling:</b> <span class='dv'>स्व + छाया → स्वच्छाया</span>, like स्मर + छिद् → स्मरच्छिद् in the Tandava stotra.",
-    "<b>Middle-voice verb:</b> <span class='dv'>दीप्यन्ते</span> 'they shine (by themselves)', 3rd person plural middle.",
-    "<b>Gola:</b> Indian astronomers described the Earth as a <span class='dv'>गोल</span>, a sphere. Aryabhata's astronomy chapter is called Golapada, 'the chapter on the sphere'."
   ],
   "question": "What fraction of the Moon's surface is lit by the Sun at any moment? (Give a decimal.)",
   "answer": 0.5,

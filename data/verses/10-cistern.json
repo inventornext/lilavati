@@ -3,7 +3,6 @@
   "number": "Verse 10 · Rates of work",
   "topic": "Rates (parallel sums)",
   "title": "Four Streams Filling a Tank",
-  "meter": "Meter: Vasantatilaka (14 syllables per line)",
   "devanagari": [
     "ये निर्झरा दिनदिनार्धतृतीयषष्ठैः",
     "सम्पूरयन्ति हि पृथक् पृथगेव मुक्ताः।",
@@ -15,104 +14,80 @@
   "words": [
     {
       "sanskrit": "ये",
-      "meaning": "which (ones)",
-      "note": "Relative pronoun, plural."
+      "meaning": "which (ones)"
     },
     {
       "sanskrit": "निर्झराः",
-      "meaning": "streams, fountains",
-      "note": "Same as nirjhari in the Tandava stotra."
+      "meaning": "streams, fountains"
     },
     {
       "sanskrit": "दिन",
-      "meaning": "a day",
-      "note": "Hindi दिन."
+      "meaning": "a day"
     },
     {
       "sanskrit": "दिनार्ध",
-      "meaning": "half a day",
-      "note": "dina + ardha."
+      "meaning": "half a day"
     },
     {
       "sanskrit": "तृतीय",
-      "meaning": "a third",
-      "note": ""
+      "meaning": "a third"
     },
     {
       "sanskrit": "षष्ठैः",
-      "meaning": "by a sixth",
-      "note": "Instrumental plural for the whole list."
+      "meaning": "by a sixth"
     },
     {
       "sanskrit": "सम्पूरयन्ति",
-      "meaning": "fill completely",
-      "note": "sam + √pri (to fill). Hindi पूरा, पूर्ण."
+      "meaning": "fill completely"
     },
     {
       "sanskrit": "पृथक् पृथक्",
-      "meaning": "each separately",
-      "note": "Hindi पृथक्."
+      "meaning": "each separately"
     },
     {
       "sanskrit": "मुक्ताः",
-      "meaning": "released, opened",
-      "note": ""
+      "meaning": "released, opened"
     },
     {
       "sanskrit": "वापीम्",
-      "meaning": "the tank, step-well",
-      "note": "Hindi बावड़ी."
+      "meaning": "the tank, step-well"
     },
     {
       "sanskrit": "यदा",
-      "meaning": "when",
-      "note": ""
+      "meaning": "when"
     },
     {
       "sanskrit": "युगपत्",
-      "meaning": "all at once, together",
-      "note": "yuga (yoke) + pad: 'yoked together'."
+      "meaning": "all at once, together"
     },
     {
       "sanskrit": "सखे",
-      "meaning": "O friend",
-      "note": "Vocative of sakhi."
+      "meaning": "O friend"
     },
     {
       "sanskrit": "विमुक्ताः",
-      "meaning": "opened",
-      "note": ""
+      "meaning": "opened"
     },
     {
       "sanskrit": "ते",
-      "meaning": "they",
-      "note": ""
+      "meaning": "they"
     },
     {
       "sanskrit": "केन",
-      "meaning": "by what?",
-      "note": "Instrumental of kim."
+      "meaning": "by what?"
     },
     {
       "sanskrit": "वासरलवेन",
-      "meaning": "fraction of a day",
-      "note": "vasara = day; lava = small part."
+      "meaning": "fraction of a day"
     },
     {
       "sanskrit": "तदा",
-      "meaning": "then",
-      "note": ""
+      "meaning": "then"
     },
     {
       "sanskrit": "वद त्वम्",
-      "meaning": "you tell!",
-      "note": ""
+      "meaning": "you tell!"
     }
-  ],
-  "grammar": [
-    "<b>Relative and correlative:</b> <span class='dv'>ये … ते</span> 'which (streams) … they', like यः … तस्य in Tandava verse 17.",
-    "<b>Repetition for 'each':</b> <span class='dv'>पृथक् पृथक्</span> 'each on its own', like Hindi अलग अलग.",
-    "<b>Visarga to s:</b> <span class='dv'>विमुक्ताः + ते → विमुक्तास्ते</span>."
   ],
   "question": "Together, in how many hours do they fill the tank? (Take a day as 24 hours.)",
   "answer": 2,

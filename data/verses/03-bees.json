@@ -3,7 +3,6 @@
   "number": "Verse 3 · Square-root problems",
   "topic": "Quadratic equations",
   "title": "The Bee Swarm",
-  "meter": "Meter: Malini (15 syllables per line)",
   "devanagari": [
     "अलिकुलदलमूलं मालतीं यातमष्टौ",
     "निखिलनवमभागाश्चालिनी भृङ्गमेकम्।",
@@ -15,115 +14,88 @@
   "words": [
     {
       "sanskrit": "अलिकुल",
-      "meaning": "swarm of bees",
-      "note": "ali (bee) + kula (family, group): a tatpurusha compound"
+      "meaning": "swarm of bees"
     },
     {
       "sanskrit": "दल",
-      "meaning": "half",
-      "note": "Literally a petal or a split piece. In mathematics: half."
+      "meaning": "half"
     },
     {
       "sanskrit": "मूलम्",
-      "meaning": "square root",
-      "note": "Literally 'root'. The same word gives वर्गमूल (square root) today."
+      "meaning": "square root"
     },
     {
       "sanskrit": "मालतीम्",
-      "meaning": "to the jasmine",
-      "note": "Accusative of malati. With a verb of motion, the accusative marks the destination."
+      "meaning": "to the jasmine"
     },
     {
       "sanskrit": "यातम्",
-      "meaning": "went",
-      "note": "Past participle of √ya (to go), agreeing with mulam (neuter)."
+      "meaning": "went"
     },
     {
       "sanskrit": "अष्टौ",
-      "meaning": "eight",
-      "note": "Numeral ashtan. Here: eight (ninths)."
+      "meaning": "eight"
     },
     {
       "sanskrit": "निखिल",
-      "meaning": "the whole",
-      "note": "Of the whole swarm."
+      "meaning": "the whole"
     },
     {
       "sanskrit": "नवमभागाः",
-      "meaning": "ninth parts",
-      "note": "navama = ninth, bhaga = part. Visarga becomes sh before च."
+      "meaning": "ninth parts"
     },
     {
       "sanskrit": "च",
-      "meaning": "and",
-      "note": "Enclitic: it comes after the word it joins."
+      "meaning": "and"
     },
     {
       "sanskrit": "अलिनी",
-      "meaning": "a female bee",
-      "note": "Feminine of ali, with the suffix -ini."
+      "meaning": "a female bee"
     },
     {
       "sanskrit": "भृङ्गम्",
-      "meaning": "a male bee (object)",
-      "note": "Accusative: the bee she is answering."
+      "meaning": "a male bee (object)"
     },
     {
       "sanskrit": "एकम्",
-      "meaning": "one",
-      "note": "Agrees with bhringam."
+      "meaning": "one"
     },
     {
       "sanskrit": "निशि",
-      "meaning": "at night",
-      "note": "Locative of nish (night)."
+      "meaning": "at night"
     },
     {
       "sanskrit": "परिमललुब्धम्",
-      "meaning": "greedy for fragrance",
-      "note": "parimala = fragrance, lubdha = greedy"
+      "meaning": "greedy for fragrance"
     },
     {
       "sanskrit": "पद्ममध्ये",
-      "meaning": "inside a lotus",
-      "note": "Locative: 'in the middle of the lotus'."
+      "meaning": "inside a lotus"
     },
     {
       "sanskrit": "निरुद्धम्",
-      "meaning": "trapped, shut in",
-      "note": "Past participle of ni + √rudh (to block). The lotus closes at night."
+      "meaning": "trapped, shut in"
     },
     {
       "sanskrit": "प्रतिरणति",
-      "meaning": "hums in reply",
-      "note": "prati (back, in return) + √ran (to hum). Present tense, 3rd person singular."
+      "meaning": "hums in reply"
     },
     {
       "sanskrit": "रणन्तम्",
-      "meaning": "humming",
-      "note": "Present participle, accusative, describing the male bee."
+      "meaning": "humming"
     },
     {
       "sanskrit": "ब्रूहि",
-      "meaning": "tell!",
-      "note": "Imperative of √bru (to speak)."
+      "meaning": "tell!"
     },
     {
       "sanskrit": "कान्ते",
-      "meaning": "O beloved",
-      "note": "Vocative of kanta. Bhaskara addresses the reader as a young woman."
+      "meaning": "O beloved"
     },
     {
       "sanskrit": "अलिसंख्याम्",
-      "meaning": "the number of bees",
-      "note": "ali + samkhya (number). कान्ते + अलि becomes कान्तेऽलि."
+      "meaning": "the number of bees"
     }
-  ],
-  "grammar": [
-    "<b>Visarga sandhi:</b> <span class='dv'>भागाः + च → भागाश्च</span>. Before च/छ, a visarga turns into श्.",
-    "<b>Avagraha:</b> <span class='dv'>कान्ते + अलि → कान्तेऽलि</span>. After ए or ओ, a following short अ disappears and is marked with ऽ.",
-    "<b>Case use:</b> the bees 'go to' the jasmine, so <span class='dv'>मालतीम्</span> is accusative. 'At night' and 'in the lotus' are locatives: <span class='dv'>निशि</span>, <span class='dv'>पद्ममध्ये</span>.",
-    "<b>Long compounds:</b> <span class='dv'>अलिकुलदलमूलम्</span> reads backwards in English: the root (मूल) of half (दल) of the swarm (अलिकुल)."
   ],
   "question": "How many bees are in the swarm?",
   "answer": 72,

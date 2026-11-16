@@ -2,7 +2,6 @@
   "id": "lingashtakam-9",
   "number": "Verse 9 · Phalashruti",
   "title": "Fruit of the Hymn",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "लिङ्गाष्टकमिदं पुण्यं",
     "यः पठेच्छिवसन्निधौ।",
@@ -14,48 +13,35 @@
   "words": [
     {
       "sanskrit": "लिङ्गाष्टकम्",
-      "meaning": "the eight verses on the linga",
-      "note": ""
+      "meaning": "the eight verses on the linga"
     },
     {
       "sanskrit": "पुण्यम्",
-      "meaning": "holy",
-      "note": ""
+      "meaning": "holy"
     },
     {
       "sanskrit": "पठेत्",
-      "meaning": "would recite",
-      "note": "Optative."
+      "meaning": "would recite"
     },
     {
       "sanskrit": "शिवसन्निधौ",
-      "meaning": "in Shiva's presence",
-      "note": "Locative of sannidhi. Hindi सान्निध्य."
+      "meaning": "in Shiva's presence"
     },
     {
       "sanskrit": "शिवलोकम्",
-      "meaning": "Shiva's world",
-      "note": ""
+      "meaning": "Shiva's world"
     },
     {
       "sanskrit": "अवाप्नोति",
-      "meaning": "attains",
-      "note": "ava + √ap."
+      "meaning": "attains"
     },
     {
       "sanskrit": "शिवेन सह",
-      "meaning": "with Shiva",
-      "note": "saha takes the instrumental."
+      "meaning": "with Shiva"
     },
     {
       "sanskrit": "मोदते",
-      "meaning": "rejoices",
-      "note": "Middle voice. Hindi मोद."
+      "meaning": "rejoices"
     }
-  ],
-  "grammar": [
-    "<b>t + sh → cch:</b> <span class='dv'>पठेत् + शिव → पठेच्छिव</span>.",
-    "<b>Saha with instrumental:</b> <span class='dv'>शिवेन सह</span> 'with Shiva', exactly like Hindi के साथ.",
-    "<b>Anushtubh:</b> like the closing verse of Rudrashtakam."
   ]
 }

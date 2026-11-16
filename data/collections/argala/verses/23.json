@@ -2,7 +2,6 @@
   "id": "argala-23",
   "number": "Verse 23",
   "title": "Giver of Boundless Joy",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "देवि भक्तजनोद्दाम-",
     "दत्तानन्दोदयेऽम्बिके।",
@@ -14,27 +13,19 @@
   "words": [
     {
       "sanskrit": "भक्तजन",
-      "meaning": "devotees",
-      "note": ""
+      "meaning": "devotees"
     },
     {
       "sanskrit": "उद्दाम",
-      "meaning": "boundless",
-      "note": ""
+      "meaning": "boundless"
     },
     {
       "sanskrit": "दत्त",
-      "meaning": "given",
-      "note": "Past participle of √da."
+      "meaning": "given"
     },
     {
       "sanskrit": "आनन्दोदये",
-      "meaning": "O rising of joy",
-      "note": "ananda + udaya."
+      "meaning": "O rising of joy"
     }
-  ],
-  "grammar": [
-    "<b>Guna sandhi:</b> <span class='dv'>जन + उद्दाम → जनोद्दाम</span>, <span class='dv'>आनन्द + उदय → आनन्दोदय</span>.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

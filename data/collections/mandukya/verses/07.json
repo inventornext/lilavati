@@ -2,8 +2,6 @@
   "id": "mandukya-7",
   "number": "Mantra 6",
   "title": "Lord of All",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "एष सर्वेश्वर एष सर्वज्ञ एषोऽन्तर्याम्येष",
     "योनिः सर्वस्य प्रभवाप्ययौ हि भूतानाम्॥"
@@ -13,47 +11,35 @@
   "words": [
     {
       "sanskrit": "एषः",
-      "meaning": "this",
-      "note": ""
+      "meaning": "this"
     },
     {
       "sanskrit": "सर्वेश्वरः",
-      "meaning": "lord of all",
-      "note": ""
+      "meaning": "lord of all"
     },
     {
       "sanskrit": "सर्वज्ञः",
-      "meaning": "all-knowing",
-      "note": "sarva + jna (knower)."
+      "meaning": "all-knowing"
     },
     {
       "sanskrit": "अन्तर्यामी",
-      "meaning": "inner controller",
-      "note": "Hindi अंतर्यामी."
+      "meaning": "inner controller"
     },
     {
       "sanskrit": "योनिः",
-      "meaning": "source, origin",
-      "note": ""
+      "meaning": "source, origin"
     },
     {
       "sanskrit": "प्रभव",
-      "meaning": "origin",
-      "note": ""
+      "meaning": "origin"
     },
     {
       "sanskrit": "अप्यय",
-      "meaning": "dissolution",
-      "note": ""
+      "meaning": "dissolution"
     },
     {
       "sanskrit": "भूतानाम्",
-      "meaning": "of beings",
-      "note": ""
+      "meaning": "of beings"
     }
-  ],
-  "grammar": [
-    "<b>Dual:</b> <span class='dv'>प्रभवाप्ययौ</span> 'origin and dissolution', the two together, like the dual pairs in Tandava verse 12.",
-    "<b>Esha / esho:</b> the visarga of <span class='dv'>एषः</span> drops before most sounds and becomes ओ before अ: एषोऽन्तर्यामी."
   ]
 }

@@ -2,7 +2,6 @@
   "id": "rudrashtakam-6",
   "number": "Verse 6",
   "title": "Be Pleased, O Lord",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "कलातीतकल्याणकल्पान्तकारी",
     "सदा सज्जनानन्ददाता पुरारी।",
@@ -14,63 +13,47 @@
   "words": [
     {
       "sanskrit": "कलातीत",
-      "meaning": "beyond the parts",
-      "note": "kala + atita."
+      "meaning": "beyond the parts"
     },
     {
       "sanskrit": "कल्याण",
-      "meaning": "auspicious",
-      "note": ""
+      "meaning": "auspicious"
     },
     {
       "sanskrit": "कल्पान्तकारी",
-      "meaning": "bringer of the end of the age",
-      "note": "kalpa = cosmic age."
+      "meaning": "bringer of the end of the age"
     },
     {
       "sanskrit": "सज्जन",
-      "meaning": "good people",
-      "note": "sat + jana. Hindi सज्जन."
+      "meaning": "good people"
     },
     {
       "sanskrit": "आनन्ददाता",
-      "meaning": "giver of joy",
-      "note": "datri = giver."
+      "meaning": "giver of joy"
     },
     {
       "sanskrit": "पुरारी",
-      "meaning": "enemy of Tripura",
-      "note": "pura + ari, as in pura-cchid."
+      "meaning": "enemy of Tripura"
     },
     {
       "sanskrit": "सन्दोह",
-      "meaning": "mass, abundance",
-      "note": ""
+      "meaning": "mass, abundance"
     },
     {
       "sanskrit": "मोहापहारी",
-      "meaning": "remover of delusion",
-      "note": ""
+      "meaning": "remover of delusion"
     },
     {
       "sanskrit": "प्रसीद",
-      "meaning": "be pleased!",
-      "note": "Imperative of pra + √sad."
+      "meaning": "be pleased!"
     },
     {
       "sanskrit": "प्रभो",
-      "meaning": "O Lord",
-      "note": "Vocative of prabhu."
+      "meaning": "O Lord"
     },
     {
       "sanskrit": "मन्मथारी",
-      "meaning": "enemy of Kama",
-      "note": "manmatha = 'mind-churner', Kama."
+      "meaning": "enemy of Kama"
     }
-  ],
-  "grammar": [
-    "<b>Consonant sandhi:</b> <span class='dv'>सत् + जन → सज्जन</span>. त् + ज → ज्ज.",
-    "<b>Imperative of request:</b> <span class='dv'>प्रसीद प्रसीद</span>, repeated for emphasis, like मन्दं मन्दं in the lotus verse.",
-    "<b>-ari 'enemy':</b> पुरारि, मन्मथारि, and अरि (discus, the enemy of demons) in Lilavati verse 4."
   ]
 }

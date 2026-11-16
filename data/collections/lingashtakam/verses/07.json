@@ -2,7 +2,6 @@
   "id": "lingashtakam-7",
   "number": "Verse 7",
   "title": "On the Eight-petalled Lotus",
-  "meter": "Meter: 16 matras per line (Dodhaka pattern)",
   "devanagari": [
     "अष्टदलोपरिवेष्टितलिङ्गं",
     "सर्वसमुद्भवकारणलिङ्गम्।",
@@ -14,33 +13,23 @@
   "words": [
     {
       "sanskrit": "अष्टदल",
-      "meaning": "eight petals",
-      "note": "dala = petal; also 'half' in the bee verse!"
+      "meaning": "eight petals"
     },
     {
       "sanskrit": "उपरि",
-      "meaning": "upon",
-      "note": "As in tad-upari in the peacock verse."
+      "meaning": "upon"
     },
     {
       "sanskrit": "समुद्भव",
-      "meaning": "origin, creation",
-      "note": ""
+      "meaning": "origin, creation"
     },
     {
       "sanskrit": "दरिद्र",
-      "meaning": "poverty",
-      "note": "Hindi दरिद्र."
+      "meaning": "poverty"
     },
     {
       "sanskrit": "विनाशित",
-      "meaning": "destroyed",
-      "note": ""
+      "meaning": "destroyed"
     }
-  ],
-  "grammar": [
-    "<b>One word, two meanings:</b> <span class='dv'>दल</span> = petal here, and 'half' in Lilavati verse 3. The meaning comes from context.",
-    "<b>Guna sandhi:</b> <span class='dv'>अष्टदल + उपरि → अष्टदलोपरि</span>, like तस्योपरि.",
-    "Refrain: <span class='dv'>तत्प्रणमामि सदाशिवलिङ्गम्</span> 'I bow to that linga of Sadashiva.'"
   ]
 }

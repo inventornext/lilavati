@@ -2,8 +2,6 @@
   "id": "mandukya-5",
   "number": "Mantra 4",
   "title": "The Second Quarter: Dream",
-  "meter": "Prose (the Upanishad mantras have no meter)",
-  "meterNote": "The mantras of the Mandukya Upanishad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pada</b> and <b>matra</b>, the same two words the meter scanner is built on.",
   "devanagari": [
     "स्वप्नस्थानोऽन्तःप्रज्ञः सप्ताङ्ग",
     "एकोनविंशतिमुखः प्रविविक्तभुक्तैजसो",
@@ -14,33 +12,26 @@
   "words": [
     {
       "sanskrit": "स्वप्न",
-      "meaning": "dream",
-      "note": "Hindi सपना."
+      "meaning": "dream"
     },
     {
       "sanskrit": "अन्तःप्रज्ञः",
-      "meaning": "aware inwardly",
-      "note": "antar = inside (Hindi अंदर)."
+      "meaning": "aware inwardly"
     },
     {
       "sanskrit": "प्रविविक्त",
-      "meaning": "subtle, separate",
-      "note": ""
+      "meaning": "subtle, separate"
     },
     {
       "sanskrit": "तैजसः",
-      "meaning": "Taijasa, 'the luminous'",
-      "note": "From tejas (light), as in Nirvana Shatkam verse 1."
+      "meaning": "Taijasa, 'the luminous'"
     },
     {
       "sanskrit": "द्वितीयः",
-      "meaning": "second",
-      "note": ""
+      "meaning": "second"
     }
   ],
-  "grammar": [
-    "<b>Avagraha:</b> <span class='dv'>स्थानः + अन्तः → स्थानोऽन्तः</span>.",
-    "<b>Pairs of opposites:</b> <span class='dv'>बहिष्प्रज्ञ</span> (outward) in mantra 3 and <span class='dv'>अन्तःप्रज्ञ</span> (inward) here.",
-    "<b>Science link:</b> dreaming happens mostly in REM sleep, when the brain is almost as active as when awake, but turned inward, just as the mantra says."
+  "science": [
+    "dreaming happens mostly in REM sleep, when the brain is almost as active as when awake, but turned inward, just as the mantra says."
   ]
 }

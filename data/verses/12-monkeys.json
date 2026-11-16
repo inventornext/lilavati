@@ -3,7 +3,6 @@
   "number": "Verse 12 · Right triangles",
   "topic": "Pythagorean theorem",
   "title": "Two Monkeys and a Pond",
-  "meter": "Meter: Shardulavikridita (19 syllables per line)",
   "devanagari": [
     "वृक्षाद्धस्तशतोच्छ्रयाच्छतयुगे वाप्यां कपिः कोऽप्यगा-",
     "दुत्तीर्याथ परो द्रुतं श्रुतिपथात्प्रोड्डीय किञ्चिद्द्रुमात्।",
@@ -15,119 +14,92 @@
   "words": [
     {
       "sanskrit": "वृक्षात्",
-      "meaning": "from a tree",
-      "note": "Ablative. त् → द् before ह: वृक्षाद्धस्त."
+      "meaning": "from a tree"
     },
     {
       "sanskrit": "हस्तशतोच्छ्रयात्",
-      "meaning": "100 hastas high",
-      "note": "ucchraya = height."
+      "meaning": "100 hastas high"
     },
     {
       "sanskrit": "शतयुगे",
-      "meaning": "at two hundred",
-      "note": "'At a pair of hundreds'."
+      "meaning": "at two hundred"
     },
     {
       "sanskrit": "वाप्याम्",
-      "meaning": "to the pond",
-      "note": "Locative of vapi, as in the cistern verse."
+      "meaning": "to the pond"
     },
     {
       "sanskrit": "कपिः",
-      "meaning": "a monkey",
-      "note": "Hindi कपि (Hanuman is Kapisha)."
+      "meaning": "a monkey"
     },
     {
       "sanskrit": "कोऽपि",
-      "meaning": "some (one)",
-      "note": "kah + api."
+      "meaning": "some (one)"
     },
     {
       "sanskrit": "अगात्",
-      "meaning": "went",
-      "note": "Aorist of √i (to go)."
+      "meaning": "went"
     },
     {
       "sanskrit": "उत्तीर्य",
-      "meaning": "having come down",
-      "note": "Gerund with prefix (-य)."
+      "meaning": "having come down"
     },
     {
       "sanskrit": "परः",
-      "meaning": "the other",
-      "note": ""
+      "meaning": "the other"
     },
     {
       "sanskrit": "द्रुतम्",
-      "meaning": "quickly",
-      "note": "Hindi द्रुत (fast tempo in music)."
+      "meaning": "quickly"
     },
     {
       "sanskrit": "श्रुतिपथात्",
-      "meaning": "by the hypotenuse path",
-      "note": "shruti = ear = karna, and karna also means hypotenuse! So 'ear-path' = the hypotenuse."
+      "meaning": "by the hypotenuse path"
     },
     {
       "sanskrit": "प्रोड्डीय",
-      "meaning": "having leapt up",
-      "note": "pra + ut + √di (to fly)."
+      "meaning": "having leapt up"
     },
     {
       "sanskrit": "किञ्चित्",
-      "meaning": "a little, some distance",
-      "note": ""
+      "meaning": "a little, some distance"
     },
     {
       "sanskrit": "द्रुमात्",
-      "meaning": "from the tree",
-      "note": "druma = tree."
+      "meaning": "from the tree"
     },
     {
       "sanskrit": "समता",
-      "meaning": "equality",
-      "note": ""
+      "meaning": "equality"
     },
     {
       "sanskrit": "गतौ",
-      "meaning": "in their journeys",
-      "note": "Locative of gati."
+      "meaning": "in their journeys"
     },
     {
       "sanskrit": "उड्डीनमानम्",
-      "meaning": "the height of the leap",
-      "note": "mana = measure."
+      "meaning": "the height of the leap"
     },
     {
       "sanskrit": "कियत्",
-      "meaning": "how much",
-      "note": ""
+      "meaning": "how much"
     },
     {
       "sanskrit": "विद्वन्",
-      "meaning": "O learned one",
-      "note": "Vocative of vidvas. Hindi विद्वान."
+      "meaning": "O learned one"
     },
     {
       "sanskrit": "सुपरिश्रमः",
-      "meaning": "good hard work",
-      "note": "Hindi परिश्रम."
+      "meaning": "good hard work"
     },
     {
       "sanskrit": "गणिते",
-      "meaning": "in mathematics",
-      "note": ""
+      "meaning": "in mathematics"
     },
     {
       "sanskrit": "आचक्ष्व",
-      "meaning": "tell!",
-      "note": "Imperative of a + √chaksh."
+      "meaning": "tell!"
     }
-  ],
-  "grammar": [
-    "<b>A synonym riddle:</b> karna means both 'ear' and 'hypotenuse'. Bhaskara writes <span class='dv'>श्रुति</span> (ear) instead, so 'ear-path' = hypotenuse. A puzzle inside the puzzle.",
-    "<b>Consonant sandhi:</b> <span class='dv'>वृक्षात् + हस्त → वृक्षाद्धस्त</span> (त् + ह → द्ध), <span class='dv'>उच्छ्रयात् + शत → उच्छ्रयाच्छत</span> (त् + श → च्छ).",
-    "<b>Yan sandhi:</b> <span class='dv'>गतौ + उड्डीन → गतावुड्डीन</span>. औ before a vowel becomes आव्."
   ],
   "question": "How many hastas did the second monkey leap up?",
   "answer": 50,

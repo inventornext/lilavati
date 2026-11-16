@@ -2,7 +2,6 @@
   "id": "tandava-8",
   "number": "Verse 8",
   "title": "Dark as a New-moon Night",
-  "meter": "Meter: Panchachamara (16 syllables per line)",
   "devanagari": [
     "नवीनमेघमण्डलीनिरुद्धदुर्धरस्फुरत्-",
     "कुहूनिशीथिनीतमः प्रबन्धबद्धकन्धरः।",
@@ -14,88 +13,67 @@
   "words": [
     {
       "sanskrit": "नवीन",
-      "meaning": "new, fresh",
-      "note": "Hindi नवीन."
+      "meaning": "new, fresh"
     },
     {
       "sanskrit": "मेघमण्डली",
-      "meaning": "masses of clouds",
-      "note": "megha = cloud; mandala = circle, mass."
+      "meaning": "masses of clouds"
     },
     {
       "sanskrit": "निरुद्ध",
-      "meaning": "blocked, closed in",
-      "note": ""
+      "meaning": "blocked, closed in"
     },
     {
       "sanskrit": "दुर्धर",
-      "meaning": "dense, hard to bear",
-      "note": ""
+      "meaning": "dense, hard to bear"
     },
     {
       "sanskrit": "कुहू",
-      "meaning": "new-moon day",
-      "note": "amavasya."
+      "meaning": "new-moon day"
     },
     {
       "sanskrit": "निशीथिनी",
-      "meaning": "night",
-      "note": "nishitha = midnight."
+      "meaning": "night"
     },
     {
       "sanskrit": "तमः",
-      "meaning": "darkness",
-      "note": "Hindi तम, तमस."
+      "meaning": "darkness"
     },
     {
       "sanskrit": "प्रबन्धबद्ध",
-      "meaning": "tightly bound",
-      "note": ""
+      "meaning": "tightly bound"
     },
     {
       "sanskrit": "कन्धरः",
-      "meaning": "(whose) neck",
-      "note": "The dark neck of Nilakantha, who drank the halahala poison."
+      "meaning": "(whose) neck"
     },
     {
       "sanskrit": "निर्झरीधरः",
-      "meaning": "bearer of the river (Ganga)",
-      "note": "dhara = holder."
+      "meaning": "bearer of the river (Ganga)"
     },
     {
       "sanskrit": "तनोतु",
-      "meaning": "may he spread",
-      "note": ""
+      "meaning": "may he spread"
     },
     {
       "sanskrit": "कृत्तिसिन्धुरः",
-      "meaning": "whose hide is an elephant's",
-      "note": "kritti = hide; sindhura = elephant."
+      "meaning": "whose hide is an elephant's"
     },
     {
       "sanskrit": "कलानिधान",
-      "meaning": "treasury of digits (the moon)",
-      "note": "kala = a digit of the moon; nidhana = treasury."
+      "meaning": "treasury of digits (the moon)"
     },
     {
       "sanskrit": "बन्धुरः",
-      "meaning": "lovely",
-      "note": ""
+      "meaning": "lovely"
     },
     {
       "sanskrit": "श्रियम्",
-      "meaning": "prosperity",
-      "note": "Accusative of shri."
+      "meaning": "prosperity"
     },
     {
       "sanskrit": "जगद्धुरन्धरः",
-      "meaning": "bearer of the world's burden",
-      "note": "dhurandhara = 'yoke-bearer'. Hindi धुरंधर (expert)."
+      "meaning": "bearer of the world's burden"
     }
-  ],
-  "grammar": [
-    "<b>Nilakantha:</b> the dark neck recalls the churning of the ocean, when Shiva drank the halahala poison to save the world and it stayed in his throat.",
-    "<b>Visarga before t:</b> <span class='dv'>धरः + तनोतु → धरस्तनोतु</span>, like हारस्तारः in the necklace verse.",
-    "<b>Science word:</b> <span class='dv'>कला</span> is a digit of the moon (16 kalas), and in Indian astronomy it is also a minute of arc, 1/60 of a degree."
   ]
 }

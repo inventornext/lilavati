@@ -1,6 +1,6 @@
 # Shlokashala · श्लोकशाला
 
-Shlokashala ('school of verses') teaches Sanskrit through **Bhakti** (stotras to Shiva and the Goddess, including the Durga Saptashati) and **Ganita** (Bhaskaracharya's *Lilavati* and Aryabhata's astronomy). Each verse has the original text, a meter scanner, word cards, English and Hindi translations, grammar notes, a puzzle with a worked solution, and a Python check. The site also has flashcards, a Sanskrit glossary of electrical engineering terms (Vidyut Shabdakosh) and a science word bank.
+Shlokashala ('school of verses') teaches Sanskrit through **Bhakti** (stotras to Shiva and the Goddess, including the Durga Saptashati) and **Ganita** (Bhaskaracharya's *Lilavati* and Aryabhata's astronomy). Each verse has the original Devanagari text, word cards, English and Hindi translations, and (for the maths verses) a puzzle with a worked solution and a Python check. The site also has flashcards, a Sanskrit glossary of electrical engineering terms (Vidyut Shabdakosh) and a science word bank.
 
 **Live site:** https://inventornext.github.io/shlokashala/
 
@@ -12,13 +12,12 @@ Shlokashala ('school of verses') teaches Sanskrit through **Bhakti** (stotras to
 | `#bhakti` | All stotras, grouped (Shiva, Durga Saptashati) |
 | `#ganita` | Lilavati puzzles and Aryabhatiya, with progress |
 | `#practice` | Flashcards and quiz |
-| `#learn` | Grammar, Shabdakosh, word bank, about |
+| `#learn` | Shabdakosh, word bank, about |
 | `#peacock` (any verse id) | One verse, with previous/next buttons |
 | `#tandava`, `#rudrashtakam`, `#nirvana`, `#lingashtakam` | A stotra's full text for recitation |
 | `#aryabhatiya` | Aryabhatiya (astronomy) full text |
 | `#tandava-1`, `#nirvana-3`, `#aryabhatiya-1` … | One verse of a collection |
 | `#quiz` | Ten-question quiz from every section |
-| `#grammar` | Grammar guide: sandhi, cases, verbs, compounds, meter, word numerals |
 | `#flashcards` | Flashcards for every word, progress saved on the device |
 | `#shabdakosh` | Vidyut Shabdakosh, searchable |
 | `#words` | Science word bank |
@@ -30,14 +29,13 @@ Shlokashala ('school of verses') teaches Sanskrit through **Bhakti** (stotras to
 index.html              page shell: top bar, footer
 css/style.css           theme: all colours and fonts are variables at the top
 js/app.js               builds every page from data/ (no need to edit)
-js/meter.js             Sanskrit meter scanner (laghu/guru, ganas, meter name)
+tools/meter.js          meter checker for verifying new texts (not shown on the site)
 data/manifest.json      which verses appear, and in what order
 data/verses/*.json      one file per verse
 data/shabdakosh.json    electrical engineering terms
 data/vocab.json         science word bank
 data/collections.json   which collections appear (stotras, Aryabhatiya), in order
 data/collections/<id>/  one folder per collection: manifest.json + verses/01.json …
-data/grammar.json       the grammar guide (HTML in each section)
 figures/*.svg           one diagram per verse
 code/*.py               one Python check per verse
 audio/                  your own recitations (optional)
@@ -60,8 +58,6 @@ python -m http.server 8000     # open http://localhost:8000
 git add . && git commit -m "Add verse 8: name" && git push
 ```
 
-The meter scanner works automatically. If it shows "Meter not recognised" or red-outlined syllables, there is probably a typo in the Devanagari.
-
 ## Field guide for a verse file
 
 | Field | What goes in it |
@@ -69,11 +65,10 @@ The meter scanner works automatically. If it shows "Meter not recognised" or red
 | `id` | short English id, used in the link (`#peacock`) |
 | `number` | label above the title, e.g. `Verse 8 · Fractions` |
 | `topic` | maths topic shown on the card, e.g. `Linear equations` |
-| `meter` | e.g. `Meter: Malini (15 syllables per line)` |
 | `devanagari` | the shloka line by line |
 | `translation`, `translation_hi` | English and Hindi translations; `<b>` allowed |
-| `words` | one entry per word: `sanskrit`, `meaning`, `note` |
-| `grammar` | list of short notes; HTML allowed (`<b>`, `<span class='dv'>`) |
+| `words` | one entry per word: `sanskrit`, `meaning` |
+| `science` | optional list of science-link notes, shown in a 'Science link' box |
 | `question`, `answer`, `tolerance`, `unit` | the puzzle and its numeric answer |
 | `solution` | HTML: `<div class="math">` for steps, `<div class="science">` for the modern link |
 | `audio` | optional: path to your recording, e.g. `audio/08-name.mp3` |
@@ -86,8 +81,6 @@ Each collection is a folder in `data/collections/`, for example `data/collection
 - `verses/01.json` …: same fields as a Lilavati verse. `question`, `answer`, `figure`, `code` are optional (the Aryabhatiya verses have them; stotras do not).
 
 **Add a new stotra:** copy a folder such as `data/collections/nirvana/`, edit its manifest and verse files, and add its folder name to `data/collections.json`. It then appears on the home page, the Stotras page, in Flashcards and in the Quiz automatically.
-
-The meter scanner checks every line. Two light syllables may replace one heavy (a matra-equal variant); anything else it marks in red, which usually means a typo.
 
 ## Your own recitation
 
@@ -118,11 +111,6 @@ A stotra's `manifest.json` can have `"group": "Shiva"` or `"group": "Durga Sapta
 - **Offline:** `sw.js` (the service worker) saves every page and verse on the visitor's device the first time they open the site, so it works without internet. `manifest.webmanifest` and `icons/` make it installable ("Add to Home screen"). When you add a whole new text, change `CACHE = 'shlokashala-vN'` in `sw.js` to the next number, so installed copies download it for offline use. For small edits nothing is needed.
 - **Share pages:** `python tools/build_static.py` writes `v/<verse-id>.html` for every verse and every stotra, plus `sitemap.xml`. These give WhatsApp and Google a proper title and description, and the Share button on each verse links to them. **Run it every time you add or change verses**; `tools/validate.py` warns you if you forget.
 - **Google:** submit `https://inventornext.github.io/shlokashala/sitemap.xml` in Google Search Console once, so the verse pages get indexed.
-
-## Prose texts
-
-A verse file can have `"meterNote"`: a sentence shown instead of the meter scanner. The Mandukya Upanishad uses it, because its mantras are prose.
-
 
 ## Devanagari only
 

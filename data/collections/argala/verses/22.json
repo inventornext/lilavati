@@ -2,7 +2,6 @@
   "id": "argala-22",
   "number": "Verse 22",
   "title": "Destroyer of Mighty Arms",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "देवि प्रचण्डदोर्दण्ड-",
     "दैत्यदर्पविनाशिनि।",
@@ -14,22 +13,15 @@
   "words": [
     {
       "sanskrit": "दोर्दण्ड",
-      "meaning": "mighty arm",
-      "note": "dos (arm) + danda (staff)."
+      "meaning": "mighty arm"
     },
     {
       "sanskrit": "दैत्यदर्प",
-      "meaning": "pride of demons",
-      "note": ""
+      "meaning": "pride of demons"
     },
     {
       "sanskrit": "विनाशिनि",
-      "meaning": "O destroyer",
-      "note": ""
+      "meaning": "O destroyer"
     }
-  ],
-  "grammar": [
-    "<b>Visarga to r:</b> <span class='dv'>दोः + दण्ड → दोर्दण्ड</span>.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

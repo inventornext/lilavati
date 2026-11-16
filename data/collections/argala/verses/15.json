@@ -2,7 +2,6 @@
   "id": "argala-15",
   "number": "Verse 15",
   "title": "Feet Touched by Crowns",
-  "meter": "Meter: Anushtubh (8 syllables per quarter)",
   "devanagari": [
     "सुरासुरशिरोरत्न-",
     "निघृष्टचरणेऽम्बिके।",
@@ -14,33 +13,23 @@
   "words": [
     {
       "sanskrit": "सुरासुर",
-      "meaning": "gods and demons",
-      "note": ""
+      "meaning": "gods and demons"
     },
     {
       "sanskrit": "शिरोरत्न",
-      "meaning": "crown jewels",
-      "note": ""
+      "meaning": "crown jewels"
     },
     {
       "sanskrit": "निघृष्ट",
-      "meaning": "rubbed",
-      "note": ""
+      "meaning": "rubbed"
     },
     {
       "sanskrit": "चरणे",
-      "meaning": "O you whose feet",
-      "note": ""
+      "meaning": "O you whose feet"
     },
     {
       "sanskrit": "अम्बिके",
-      "meaning": "O Ambika, 'mother'",
-      "note": "Vocative."
+      "meaning": "O Ambika, 'mother'"
     }
-  ],
-  "grammar": [
-    "<b>Avagraha:</b> <span class='dv'>चरणे + अम्बिके → चरणेऽम्बिके</span>.",
-    "<b>The image:</b> gods and demons alike bow so low that their crown jewels touch her feet; compare Tandava verse 5.",
-    "Refrain: <span class='dv'>रूपं देहि जयं देहि यशो देहि द्विषो जहि</span> 'Give me beauty, give me victory, give me glory, destroy my enemies.'"
   ]
 }

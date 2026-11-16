@@ -2,7 +2,6 @@
   "id": "rudrashtakam-4",
   "number": "Verse 4",
   "title": "Compassionate Blue-throat",
-  "meter": "Meter: Bhujangaprayata (12 syllables per line)",
   "devanagari": [
     "चलत्कुण्डलं भ्रूसुनेत्रं विशालं",
     "प्रसन्नाननं नीलकण्ठं दयालम्।",
@@ -14,73 +13,55 @@
   "words": [
     {
       "sanskrit": "चलत्कुण्डलम्",
-      "meaning": "with swaying earrings",
-      "note": "calat (moving) from √cal, as in chalaka (conductor)!"
+      "meaning": "with swaying earrings"
     },
     {
       "sanskrit": "भ्रू",
-      "meaning": "eyebrow",
-      "note": "Hindi भौंह."
+      "meaning": "eyebrow"
     },
     {
       "sanskrit": "सुनेत्रम्",
-      "meaning": "beautiful eyes",
-      "note": ""
+      "meaning": "beautiful eyes"
     },
     {
       "sanskrit": "विशालम्",
-      "meaning": "large",
-      "note": "Hindi विशाल."
+      "meaning": "large"
     },
     {
       "sanskrit": "प्रसन्नाननम्",
-      "meaning": "with a pleased face",
-      "note": "anana = face."
+      "meaning": "with a pleased face"
     },
     {
       "sanskrit": "नीलकण्ठम्",
-      "meaning": "blue-throated",
-      "note": ""
+      "meaning": "blue-throated"
     },
     {
       "sanskrit": "दयालम्",
-      "meaning": "compassionate",
-      "note": "Hindi दयालु."
+      "meaning": "compassionate"
     },
     {
       "sanskrit": "मृगाधीश",
-      "meaning": "lion, 'king of beasts'",
-      "note": ""
+      "meaning": "lion, 'king of beasts'"
     },
     {
       "sanskrit": "चर्माम्बरम्",
-      "meaning": "wearing a skin",
-      "note": "carma (skin) + ambara (clothes)."
+      "meaning": "wearing a skin"
     },
     {
       "sanskrit": "मुण्डमालम्",
-      "meaning": "with a garland of skulls",
-      "note": ""
+      "meaning": "with a garland of skulls"
     },
     {
       "sanskrit": "शङ्करम्",
-      "meaning": "Shankara, 'maker of peace'",
-      "note": "sham (peace) + kara (maker)."
+      "meaning": "Shankara, 'maker of peace'"
     },
     {
       "sanskrit": "सर्वनाथम्",
-      "meaning": "lord of all",
-      "note": ""
+      "meaning": "lord of all"
     },
     {
       "sanskrit": "भजामि",
-      "meaning": "I worship",
-      "note": "Active voice; the stotra also uses middle bhaje."
+      "meaning": "I worship"
     }
-  ],
-  "grammar": [
-    "<b>Name meaning:</b> <span class='dv'>शङ्कर</span> = शम् (peace, welfare) + कर (maker), 'the one who brings welfare'. Like भास्कर = light-maker.",
-    "<b>Active and middle:</b> <span class='dv'>भजामि</span> (active) here, <span class='dv'>भजे</span> (middle) in verse 1: both mean 'I worship'.",
-    "<b>Root √cal:</b> <span class='dv'>चलत्</span> 'moving', the same root as चालक (conductor) in the Shabdakosh."
   ]
 }
