@@ -122,3 +122,7 @@ A stotra's `manifest.json` can have `"group": "Shiva"` or `"group": "Durgā Sapt
 ## Prose texts
 
 A verse file can have `"meterNote"`: a sentence shown instead of the meter scanner. The Māṇḍūkya Upaniṣad uses it, because its mantras are prose.
+
+## Devanagari first
+
+The site shows only Devanagari by default. Roman transliteration (IAST: ā, ṣ, ś…) is hidden, and English text is shown with plain spellings (Tāṇḍava → Tandava, Pañca → Pancha). This happens automatically when the page is shown, so keep writing IAST in the data files as before: it is needed for the "+ Roman" switch, which brings the scholarly spelling back. The share pages in `v/` always use plain spellings.

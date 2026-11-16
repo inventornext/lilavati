@@ -15,7 +15,7 @@ const store = {
   get(k, d) { try { const v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch { return d; } },
   set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
 };
-const prefs = { script: store.get('lp-script', 'deva'), lang: store.get('lp-lang', 'en'), motion: store.get('lp-motion', true) };
+const prefs = { script: store.get('lp-script', 'deva') === 'iast' ? 'both' : store.get('lp-script', 'deva'), lang: store.get('lp-lang', 'en'), motion: store.get('lp-motion', true) };
 const solved = new Set(store.get('lp-solved', []));
 const known = new Set(store.get('lp-known', []));
 
@@ -227,7 +227,7 @@ function viewVerse(v, idx, list, crumb, end) {
   </div>
   <div class="toolbar">
     <div class="seg" role="group" aria-label="Script">
-      <button data-script="deva">देवनागरी</button><button data-script="both">Both</button><button data-script="iast">IAST</button>
+      <button data-script="deva">देवनागरी</button><button data-script="both">+ Roman</button>
     </div>
     <button class="btn" id="listen">${v.audio ? '🔊 Listen' : '🔊 Listen (machine voice)'}</button>
     ${shareButton()}
@@ -241,7 +241,7 @@ function viewVerse(v, idx, list, crumb, end) {
     <h2>Word by word <button class="btn ${document.body.classList.contains('selftest') ? 'on' : ''}" id="selftest">Self-test</button></h2>
     <p class="tip">Tap a card for its grammar note. Self-test hides the meanings; tap a card to reveal it.</p>
     <div class="words">${v.words.map(w => `
-      <div class="w" tabindex="0"><div class="d">${w.sanskrit}</div><div class="i">${w.iast}</div><div class="m">${w.meaning}</div><div class="n">${w.note || ''}</div></div>`).join('')}
+      <div class="w" tabindex="0"><div class="d">${w.sanskrit}</div><div class="i iast">${w.iast}</div><div class="m">${w.meaning}</div><div class="n">${w.note || ''}</div></div>`).join('')}
     </div>
   </div>
 
@@ -281,7 +281,9 @@ function viewVerse(v, idx, list, crumb, end) {
 
 function bindScript(cls = 'shloka') {
   const setScript = m => {
+    const changed = (m === 'both') !== (prefs.script === 'both');
     prefs.script = m; store.set('lp-script', m);
+    if (changed) { applyRoman(); render(); return; }
     $$('[data-script]').forEach(b => b.classList.toggle('on', b.dataset.script === m));
     $('.shloka').className = `${cls} mode-${m}`;
   };
@@ -326,6 +328,7 @@ function shareButton() {
 function bindShare(id, title, line) {
   const btn = $('#share'); if (!btn) return;
   const url = shareUrl(id);
+  if (prefs.script !== 'both') title = plain(title);
   const text = `${line}\n${title} · Shlokashala\n${url}`;
   const menu = $('#share-menu');
   $('#share-wa').href = `https://wa.me/?text=${encodeURIComponent(text)}`;
@@ -404,6 +407,24 @@ function bindListen(v) {
   };
 }
 
+// ---------- Devanagari first: plain spellings unless Roman (IAST) is switched on ----------
+const PLAIN = { 'ā': 'a', 'ī': 'i', 'ū': 'u', 'ṛ': 'ri', 'ṝ': 'ri', 'ḷ': 'li', 'ṅ': 'n', 'ñ': 'n', 'ṭ': 't', 'ḍ': 'd', 'ṇ': 'n', 'ś': 'sh', 'ṣ': 'sh', 'ṃ': 'm', 'ḥ': 'h',
+  'Ā': 'A', 'Ī': 'I', 'Ū': 'U', 'Ṛ': 'Ri', 'Ś': 'Sh', 'Ṣ': 'Sh', 'Ṭ': 'T', 'Ḍ': 'D', 'Ṇ': 'N', 'Ṅ': 'N', 'Ñ': 'N', 'Ṃ': 'M', 'Ḥ': 'H' };
+const PLAIN_RE = /[āīūṛṝḷṅñṭḍṇśṣṃḥĀĪŪṚŚṢṬḌṆṄÑṂḤ]/g;
+// in a Sanskrit word (one that has a diacritic), c is च: write it "ch"
+const SKT_WORD = /[A-Za-zāīūṛṝḷṅñṭḍṇśṣṃḥĀĪŪṚŚṢṬḌṆṄÑṂḤ'-]*[āīūṛṝḷṅñṭḍṇśṣṃḥĀĪŪṚŚṢṬḌṆṄÑṂḤ][A-Za-zāīūṛṝḷṅñṭḍṇśṣṃḥĀĪŪṚŚṢṬḌṆṄÑṂḤ'-]*/g;
+const plain = t => t.replace(SKT_WORD, w => w.replace(/c(?!h)/g, 'ch').replace(/C(?!h)/g, 'Ch').replace(PLAIN_RE, ch => PLAIN[ch]));
+function simplify(root) {
+  if (prefs.script === 'both' || !root) return;
+  const w = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode: n => n.parentElement && n.parentElement.closest('.iast, .t, script, style, pre, code') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT
+  });
+  let n; while ((n = w.nextNode())) { if (/[āīūṛṝḷṅñṭḍṇśṣṃḥĀĪŪṚŚṢṬḌṆṄÑṂḤ]/.test(n.nodeValue)) n.nodeValue = plain(n.nodeValue); }
+}
+function applyRoman() { document.body.classList.toggle('roman', prefs.script === 'both'); }
+new MutationObserver(ms => { if (prefs.script === 'both') return; ms.forEach(m => m.addedNodes.forEach(x => simplify(x.nodeType === 1 ? x : x.parentElement))); })
+  .observe(document.getElementById('app'), { childList: true, subtree: true });
+
 // ---------- devotional animation ----------
 function shlokaMandala() {
   let p = '';
@@ -453,7 +474,7 @@ function viewCollection(c) {
   <p>${m.intro}</p>
   <p class="note">${m.note || ''}</p>
   <div class="toolbar">
-    <div class="seg" role="group" aria-label="Script"><button data-script="deva">देवनागरी</button><button data-script="both">Both</button><button data-script="iast">IAST</button></div>
+    <div class="seg" role="group" aria-label="Script"><button data-script="deva">देवनागरी</button><button data-script="both">+ Roman</button></div>
     <a class="btn primary" href="#${c.verses[0].id}">Learn verse by verse →</a>
     ${shareButton()}
   </div>
@@ -514,7 +535,7 @@ function drawCard() {
     if (again) again.onclick = e => { e.stopPropagation(); fc.hideKnown = false; $('#fc-hide').checked = false; buildQueue(); drawCard(); };
     return;
   }
-  const sa = `<div class="big">${card.front}</div><div class="small"><i>${card.sub}</i></div>`;
+  const sa = `<div class="big">${card.front}</div><div class="small iast"><i>${card.sub}</i></div>`;
   const en = `<div class="en-big">${card.back}</div>`;
   front.innerHTML = (fc.dir === 'sa' ? sa : en) + `<div class="from">tap to flip</div>`;
   back.innerHTML = (fc.dir === 'sa' ? en : sa) + `<div class="small">${card.note || ''}</div><div class="from">from: ${card.from}</div>`;
@@ -542,8 +563,8 @@ function makeQuiz() {
   const qs = [];
   shuffle(pool.slice()).slice(0, 7).forEach((c, n) => {
     const wrong = shuffle(pool.filter(x => x.back !== c.back && x.front !== c.front)).slice(0, 3);
-    if (n % 2 === 0) qs.push({ kind: 'Meaning', prompt: `<div class="qbig dv">${c.front}</div><div class="note"><i>${c.sub}</i></div><p>What does this mean?</p>`, options: shuffle([c, ...wrong]).map(x => x.back), answer: c.back, explain: `${c.front} = ${c.back}. From: ${c.from}.` });
-    else qs.push({ kind: 'Sanskrit word', prompt: `<div class="qbig">${c.back}</div><p>Which Sanskrit word means this?</p>`, options: shuffle([c, ...wrong]).map(x => x.front), answer: c.front, dv: true, explain: `${c.back} = ${c.front} (${c.sub}). From: ${c.from}.` });
+    if (n % 2 === 0) qs.push({ kind: 'Meaning', prompt: `<div class="qbig dv">${c.front}</div><div class="note iast"><i>${c.sub}</i></div><p>What does this mean?</p>`, options: shuffle([c, ...wrong]).map(x => x.back), answer: c.back, explain: `${c.front} = ${c.back}. From: ${c.from}.` });
+    else qs.push({ kind: 'Sanskrit word', prompt: `<div class="qbig">${c.back}</div><p>Which Sanskrit word means this?</p>`, options: shuffle([c, ...wrong]).map(x => x.front), answer: c.front, dv: true, explain: `${c.back} = ${c.front}${prefs.script === 'both' ? ` (${c.sub})` : ''}. From: ${c.from}.` });
   });
   // meter questions
   const verses = everyVerse().map(x => ({ ...x, m: (Meter.identify(x.v.devanagari) || {}).name })).filter(x => x.m && !x.m.startsWith('Mātrā'));
@@ -609,7 +630,7 @@ function viewShabda() {
   <input class="search" id="q" placeholder="Search: current, धारा, √vṛt…" aria-label="Search terms">
   <div class="grid" id="terms">${DATA.shabda.terms.map(t => `
     <div class="card term" data-s="${esc((t.sanskrit + ' ' + t.iast + ' ' + t.english + ' ' + t.root).toLowerCase())}">
-      <div class="big">${t.sanskrit}</div><div class="note"><i>${t.iast}</i></div>
+      <div class="big">${t.sanskrit}</div><div class="note iast"><i>${t.iast}</i></div>
       <div class="en">${t.english}</div>
       <div class="root">${t.root}</div>
       ${t.link ? `<div class="link">↳ ${t.link}</div>` : ''}
@@ -624,7 +645,7 @@ function viewWords() {
   <p class="section-sub">Maths words from these verses. Many are still used in Hindi and other Indian languages today.</p>
   <div class="block"><table class="vocab">
     <thead><tr><th>Sanskrit</th><th>Meaning in the verses</th><th>Where you see it today</th></tr></thead>
-    <tbody>${DATA.vocab.map(w => `<tr><td><span class="dv">${w.sanskrit}</span><br><i class="note">${w.iast}</i></td><td>${w.meaning}</td><td>${w.today}</td></tr>`).join('')}</tbody>
+    <tbody>${DATA.vocab.map(w => `<tr><td><span class="dv">${w.sanskrit}</span><br><i class="note iast">${w.iast}</i></td><td>${w.meaning}</td><td>${w.today}</td></tr>`).join('')}</tbody>
   </table></div>`;
 }
 function viewAbout() {
@@ -657,7 +678,7 @@ function render() {
   const lIdx = DATA.verses.findIndex(v => v.id === id);
   const c = coll(id);
   const owner = DATA.collections.find(x => x.verses.some(v => v.id === id));
-  const T = t => document.title = `${t} · Shlokashala`;
+  const T = t => document.title = `${prefs.script === 'both' ? t : plain(t)} · Shlokashala`;
   if (lIdx >= 0) {
     view = 'ganita'; const v = DATA.verses[lIdx];
     app.innerHTML = viewVerse(v, lIdx, DATA.verses, { href: '#ganita', label: 'Gaṇita · Līlāvatī' }, { href: '#quiz', label: 'Test yourself in the quiz' });
@@ -701,6 +722,8 @@ function setupTheme() {
 (async function main() {
   setupTheme();
   applyMotion();
+  applyRoman();
+  simplify(document.querySelector('.topbar')); simplify(document.querySelector('footer'));
   $('#motion-toggle').onclick = e => { e.preventDefault(); prefs.motion = !prefs.motion; store.set('lp-motion', prefs.motion); applyMotion(); render(); };
   try {
     await loadAll();

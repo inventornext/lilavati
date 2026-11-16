@@ -21,8 +21,26 @@ def load(p):
     return json.loads((ROOT / p).read_text(encoding="utf-8"))
 
 
+PLAIN = {"ā": "a", "ī": "i", "ū": "u", "ṛ": "ri", "ṝ": "ri", "ḷ": "li", "ṅ": "n", "ñ": "n", "ṭ": "t", "ḍ": "d",
+         "ṇ": "n", "ś": "sh", "ṣ": "sh", "ṃ": "m", "ḥ": "h", "Ā": "A", "Ī": "I", "Ū": "U", "Ṛ": "Ri", "Ś": "Sh",
+         "Ṣ": "Sh", "Ṭ": "T", "Ḍ": "D", "Ṇ": "N", "Ṅ": "N", "Ñ": "N", "Ṃ": "M", "Ḥ": "H"}
+
+
+DIA = "".join(PLAIN)
+SKT_WORD = re.compile(f"[A-Za-z{DIA}'-]*[{DIA}][A-Za-z{DIA}'-]*")
+
+
+def simple(s):
+    """Devanagari-first: write Roman words with plain letters (Tāṇḍava -> Tandava, Pañca -> Pancha)."""
+    def fix(m):
+        w = re.sub(r"c(?!h)", "ch", m.group(0))
+        w = re.sub(r"C(?!h)", "Ch", w)
+        return "".join(PLAIN.get(ch, ch) for ch in w)
+    return SKT_WORD.sub(fix, s or "")
+
+
 def plain(s, n=None):
-    s = re.sub(r"<[^>]+>", "", s or "")
+    s = simple(re.sub(r"<[^>]+>", "", s or ""))
     s = html.unescape(s).strip()
     if n and len(s) > n:
         s = s[: n - 1].rsplit(" ", 1)[0] + "…"
@@ -30,6 +48,7 @@ def plain(s, n=None):
 
 
 def page(pid, title, where, desc, body, back_href, back_label):
+    title, where, back_label, body = simple(title), simple(where), simple(back_label), simple(body)
     t = html.escape(f"{title} · {where} | Shlokashala")
     d = html.escape(desc)
     url = f"{BASE}v/{pid}.html"
@@ -72,13 +91,12 @@ def page(pid, title, where, desc, body, back_href, back_label):
 
 
 def verse_body(v, where, link):
-    lines = "".join(f'<div class="l">{d}</div><div class="t">{html.escape(i)}</div>'
-                    for d, i in zip(v["devanagari"], v["iast"]))
+    lines = "".join(f'<div class="l">{d}</div>' for d in v["devanagari"])
     hi = f'<p class="tr hi">{v["translation_hi"]}</p>' if v.get("translation_hi") else ""
     return f"""
   <div class="vhead"><div class="vnum">{html.escape(where)} · {html.escape(v.get("number", ""))}</div>
   <h1>{html.escape(v["title"])}</h1><span class="pill">{html.escape(v.get("meter", ""))}</span></div>
-  <div class="shloka mode-both">{lines}</div>
+  <div class="shloka mode-deva">{lines}</div>
   <div class="block"><h2>Translation</h2><p class="tr">{v["translation"]}</p>{hi}</div>
   <p style="text-align:center;margin:26px 0"><a class="cta" href="../#{link}">Open with word meanings, meter, grammar and audio →</a></p>"""
 
