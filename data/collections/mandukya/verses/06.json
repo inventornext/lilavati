@@ -1,0 +1,112 @@
+{
+  "id": "mandukya-6",
+  "number": "Mantra 5",
+  "title": "The Third Quarter: Deep Sleep",
+  "meter": "Prose (the Upaniṣad mantras have no meter)",
+  "meterNote": "The mantras of the Māṇḍūkya Upaniṣad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pāda</b> and <b>mātrā</b>, the same two words the meter scanner is built on.",
+  "devanagari": [
+    "यत्र सुप्तो न कञ्चन कामं कामयते",
+    "न कञ्चन स्वप्नं पश्यति तत्सुषुप्तम्।",
+    "सुषुप्तस्थान एकीभूतः प्रज्ञानघन एवानन्दमयो",
+    "ह्यानन्दभुक्चेतोमुखः प्राज्ञस्तृतीयः पादः॥"
+  ],
+  "iast": [
+    "yatra supto na kañcana kāmaṃ kāmayate",
+    "na kañcana svapnaṃ paśyati tat suṣuptam |",
+    "suṣupta-sthāna ekībhūtaḥ prajñāna-ghana evānandamayo",
+    "hy ānanda-bhuk ceto-mukhaḥ prājñas tṛtīyaḥ pādaḥ ||"
+  ],
+  "translation": "Where the sleeper <b>desires nothing</b> and <b>sees no dream</b>, that is <b>deep sleep</b>. The <b>third quarter</b> is <b>Prājña</b>: its field is deep sleep, where everything has <b>become one</b>; it is a <b>mass of awareness</b>, made of <b>bliss</b>, enjoying bliss, with consciousness as its mouth.",
+  "translation_hi": "जहाँ सोया हुआ व्यक्ति न कोई इच्छा करता है और न कोई स्वप्न देखता है, वह सुषुप्ति है। तीसरा पाद प्राज्ञ है: उसका क्षेत्र सुषुप्ति है, जहाँ सब एक हो जाता है; वह प्रज्ञा का घन है, आनंदमय है, आनंद का भोक्ता है और चेतना ही उसका मुख है।",
+  "words": [
+    {
+      "sanskrit": "यत्र",
+      "iast": "yatra",
+      "meaning": "where",
+      "note": ""
+    },
+    {
+      "sanskrit": "सुप्तः",
+      "iast": "suptaḥ",
+      "meaning": "asleep",
+      "note": "√svap."
+    },
+    {
+      "sanskrit": "कञ्चन",
+      "iast": "kañcana",
+      "meaning": "any (at all)",
+      "note": ""
+    },
+    {
+      "sanskrit": "कामम्",
+      "iast": "kāmam",
+      "meaning": "desire",
+      "note": ""
+    },
+    {
+      "sanskrit": "कामयते",
+      "iast": "kāmayate",
+      "meaning": "desires",
+      "note": ""
+    },
+    {
+      "sanskrit": "पश्यति",
+      "iast": "paśyati",
+      "meaning": "sees",
+      "note": ""
+    },
+    {
+      "sanskrit": "सुषुप्तम्",
+      "iast": "suṣuptam",
+      "meaning": "deep sleep",
+      "note": "su + supta: 'well asleep'."
+    },
+    {
+      "sanskrit": "एकीभूतः",
+      "iast": "ekībhūtaḥ",
+      "meaning": "become one",
+      "note": "eka + bhūta, like āhutīkṛta."
+    },
+    {
+      "sanskrit": "प्रज्ञानघनः",
+      "iast": "prajñāna-ghanaḥ",
+      "meaning": "a dense mass of awareness",
+      "note": "ghana = dense; in maths, ghana = cube (घनमूल = cube root)!"
+    },
+    {
+      "sanskrit": "आनन्दमयः",
+      "iast": "ānandamayaḥ",
+      "meaning": "made of bliss",
+      "note": "-maya = 'made of'."
+    },
+    {
+      "sanskrit": "आनन्दभुक्",
+      "iast": "ānanda-bhuk",
+      "meaning": "enjoyer of bliss",
+      "note": ""
+    },
+    {
+      "sanskrit": "चेतोमुखः",
+      "iast": "ceto-mukhaḥ",
+      "meaning": "whose mouth is consciousness",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्राज्ञः",
+      "iast": "prājñaḥ",
+      "meaning": "Prājña, 'the knower'",
+      "note": ""
+    },
+    {
+      "sanskrit": "तृतीयः",
+      "iast": "tṛtīyaḥ",
+      "meaning": "third",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Ghana = dense and cube:</b> the Upaniṣad's 'dense mass of awareness' uses the same word Bhaskara uses for a cube, because a cube is 'solid'.",
+    "<b>-maya 'made of':</b> <span class='dv'>आनन्दमय</span>, like the five kośas: annamaya, prāṇamaya, manomaya, vijñānamaya, ānandamaya (Nirvāṇa Ṣaṭkam verse 2).",
+    "<b>Science link:</b> deep, dreamless sleep shows as slow delta waves on an EEG, about 0.5 to 4 Hz: the brain's slowest rhythm."
+  ]
+}

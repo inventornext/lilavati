@@ -1,0 +1,92 @@
+{
+  "id": "mandukya-4",
+  "number": "Mantra 3",
+  "title": "The First Quarter: Waking",
+  "meter": "Prose (the Upaniṣad mantras have no meter)",
+  "meterNote": "The mantras of the Māṇḍūkya Upaniṣad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pāda</b> and <b>mātrā</b>, the same two words the meter scanner is built on.",
+  "devanagari": [
+    "जागरितस्थानो बहिष्प्रज्ञः सप्ताङ्ग",
+    "एकोनविंशतिमुखः स्थूलभुग्वैश्वानरः",
+    "प्रथमः पादः॥"
+  ],
+  "iast": [
+    "jāgarita-sthāno bahiṣ-prajñaḥ saptāṅga",
+    "ekonaviṃśati-mukhaḥ sthūla-bhug vaiśvānaraḥ",
+    "prathamaḥ pādaḥ ||"
+  ],
+  "translation": "The <b>first quarter</b> is <b>Vaiśvānara</b>: its field is the <b>waking state</b>; its awareness turns <b>outward</b>; it has <b>seven limbs</b> and <b>nineteen mouths</b>; and it enjoys the <b>gross</b> world.",
+  "translation_hi": "पहला पाद वैश्वानर है: उसका क्षेत्र जाग्रत अवस्था है, उसकी चेतना बाहर की ओर है, उसके सात अंग और उन्नीस मुख हैं, और वह स्थूल जगत का भोग करता है।",
+  "words": [
+    {
+      "sanskrit": "जागरित",
+      "iast": "jāgarita",
+      "meaning": "waking",
+      "note": "Hindi जागना, जाग्रत."
+    },
+    {
+      "sanskrit": "स्थानः",
+      "iast": "sthānaḥ",
+      "meaning": "whose place (field) is",
+      "note": ""
+    },
+    {
+      "sanskrit": "बहिष्प्रज्ञः",
+      "iast": "bahiṣ-prajñaḥ",
+      "meaning": "aware outwardly",
+      "note": "bahis = outside (Hindi बाहर)."
+    },
+    {
+      "sanskrit": "सप्ताङ्गः",
+      "iast": "saptāṅgaḥ",
+      "meaning": "having seven limbs",
+      "note": ""
+    },
+    {
+      "sanskrit": "एकोनविंशति",
+      "iast": "ekonaviṃśati",
+      "meaning": "nineteen",
+      "note": "eka-ūna-viṃśati 'one less than twenty'. Hindi उन्नीस comes from this."
+    },
+    {
+      "sanskrit": "मुखः",
+      "iast": "mukhaḥ",
+      "meaning": "(having) mouths",
+      "note": "The channels of experience."
+    },
+    {
+      "sanskrit": "स्थूल",
+      "iast": "sthūla",
+      "meaning": "gross, physical",
+      "note": "Hindi स्थूल."
+    },
+    {
+      "sanskrit": "भुक्",
+      "iast": "bhuk",
+      "meaning": "enjoyer",
+      "note": "From √bhuj, as bhoktā in Nirvāṇa Ṣaṭkam."
+    },
+    {
+      "sanskrit": "वैश्वानरः",
+      "iast": "vaiśvānaraḥ",
+      "meaning": "Vaiśvānara",
+      "note": "'Common to all men'."
+    },
+    {
+      "sanskrit": "प्रथमः",
+      "iast": "prathamaḥ",
+      "meaning": "first",
+      "note": ""
+    },
+    {
+      "sanskrit": "पादः",
+      "iast": "pādaḥ",
+      "meaning": "quarter",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Subtractive numbers:</b> <span class='dv'>एकोनविंशति</span> = 'twenty minus one' = 19, exactly like Latin undeviginti. Hindi उन्नीस, उनतीस, उनचास keep this pattern.",
+    "<b>The nineteen mouths</b> (Śaṅkara's commentary): 5 senses + 5 organs of action + 5 vital airs + mind, intellect, ego and citta. Compare the lists in Nirvāṇa Ṣaṭkam.",
+    "<b>Science link:</b> waking awareness shows on an EEG as fast beta waves, about 13 to 30 Hz."
+  ]
+}

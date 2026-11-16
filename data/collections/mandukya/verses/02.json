@@ -1,0 +1,110 @@
+{
+  "id": "mandukya-2",
+  "number": "Mantra 1",
+  "title": "Om Is All This",
+  "meter": "Prose (the Upaniṣad mantras have no meter)",
+  "meterNote": "The mantras of the Māṇḍūkya Upaniṣad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pāda</b> and <b>mātrā</b>, the same two words the meter scanner is built on.",
+  "devanagari": [
+    "ओमित्येतदक्षरमिदं सर्वं तस्योपव्याख्यानं",
+    "भूतं भवद्भविष्यदिति सर्वमोङ्कार एव।",
+    "यच्चान्यत्त्रिकालातीतं तदप्योङ्कार एव॥"
+  ],
+  "iast": [
+    "om ity etad akṣaram idaṃ sarvaṃ tasyopavyākhyānaṃ",
+    "bhūtaṃ bhavad bhaviṣyad iti sarvam oṅkāra eva |",
+    "yac cānyat trikālātītaṃ tad apy oṅkāra eva ||"
+  ],
+  "translation": "<b>Om</b>: this syllable is <b>all this</b>. Here is its explanation: the <b>past</b>, the <b>present</b> and the <b>future</b>, all of it is Om alone. And whatever else lies <b>beyond the three times</b>, that too is Om.",
+  "translation_hi": "ॐ: यह अक्षर ही यह सब कुछ है। उसकी व्याख्या यह है: भूत, वर्तमान और भविष्य, यह सब ओंकार ही है। और जो कुछ तीनों कालों से परे है, वह भी ओंकार ही है।",
+  "words": [
+    {
+      "sanskrit": "ॐ इति",
+      "iast": "om iti",
+      "meaning": "'Om'",
+      "note": "iti marks the word as a quotation."
+    },
+    {
+      "sanskrit": "एतत्",
+      "iast": "etat",
+      "meaning": "this",
+      "note": ""
+    },
+    {
+      "sanskrit": "अक्षरम्",
+      "iast": "akṣaram",
+      "meaning": "syllable; the imperishable",
+      "note": "a + kṣara (perishing): a syllable is 'what does not decay'."
+    },
+    {
+      "sanskrit": "इदं सर्वम्",
+      "iast": "idaṃ sarvam",
+      "meaning": "all this",
+      "note": "The whole world."
+    },
+    {
+      "sanskrit": "तस्य",
+      "iast": "tasya",
+      "meaning": "its",
+      "note": ""
+    },
+    {
+      "sanskrit": "उपव्याख्यानम्",
+      "iast": "upavyākhyānam",
+      "meaning": "explanation",
+      "note": "Hindi व्याख्या."
+    },
+    {
+      "sanskrit": "भूतम्",
+      "iast": "bhūtam",
+      "meaning": "the past",
+      "note": "Past participle of √bhū: 'what has been'."
+    },
+    {
+      "sanskrit": "भवत्",
+      "iast": "bhavat",
+      "meaning": "the present",
+      "note": "Present participle: 'what is being'."
+    },
+    {
+      "sanskrit": "भविष्यत्",
+      "iast": "bhaviṣyat",
+      "meaning": "the future",
+      "note": "Future participle: 'what will be'. Hindi भविष्य."
+    },
+    {
+      "sanskrit": "ओङ्कारः",
+      "iast": "oṅkāraḥ",
+      "meaning": "the syllable Om",
+      "note": ""
+    },
+    {
+      "sanskrit": "एव",
+      "iast": "eva",
+      "meaning": "alone, only",
+      "note": ""
+    },
+    {
+      "sanskrit": "अन्यत्",
+      "iast": "anyat",
+      "meaning": "anything else",
+      "note": ""
+    },
+    {
+      "sanskrit": "त्रिकालातीतम्",
+      "iast": "trikālātītam",
+      "meaning": "beyond the three times",
+      "note": "tri + kāla + atīta."
+    },
+    {
+      "sanskrit": "अपि",
+      "iast": "api",
+      "meaning": "also",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>One root, three times:</b> √भू gives <span class='dv'>भूत</span> (past), <span class='dv'>भवत्</span> (present) and <span class='dv'>भविष्यत्</span> (future). Hindi still uses भूतकाल and भविष्यकाल.",
+    "<b>Akṣara:</b> 'syllable' and 'imperishable' at once. The Upaniṣad means both.",
+    "<b>Guṇa sandhi:</b> <span class='dv'>तस्य + उप → तस्योप</span>, like तस्योपरि in the peacock verse."
+  ]
+}

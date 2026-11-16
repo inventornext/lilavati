@@ -1,0 +1,74 @@
+{
+  "id": "mandukya-10",
+  "number": "Mantra 9",
+  "title": "A: The First Measure",
+  "meter": "Prose (the Upaniṣad mantras have no meter)",
+  "meterNote": "The mantras of the Māṇḍūkya Upaniṣad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pāda</b> and <b>mātrā</b>, the same two words the meter scanner is built on.",
+  "devanagari": [
+    "जागरितस्थानो वैश्वानरोऽकारः",
+    "प्रथमा मात्राऽऽप्तेरादिमत्त्वाद्वाऽऽप्नोति",
+    "ह वै सर्वान्कामानादिश्च भवति य एवं वेद॥"
+  ],
+  "iast": [
+    "jāgarita-sthāno vaiśvānaro 'kāraḥ",
+    "prathamā mātrāpter ādimattvād vāpnoti",
+    "ha vai sarvān kāmān ādiś ca bhavati ya evaṃ veda ||"
+  ],
+  "translation": "Vaiśvānara, whose field is <b>waking</b>, is <b>A</b>, the first measure: because A <b>pervades</b> (āpti) all speech, or because it comes <b>first</b> (ādi). Whoever knows this obtains all desires and becomes first.",
+  "translation_hi": "जाग्रत अवस्था वाला वैश्वानर अकार है, पहली मात्रा, क्योंकि अकार सब में व्याप्त है (आप्ति) या क्योंकि वह आदि में है। जो ऐसा जानता है वह सब कामनाएँ प्राप्त करता है और प्रथम होता है।",
+  "words": [
+    {
+      "sanskrit": "प्रथमा",
+      "iast": "prathamā",
+      "meaning": "first (measure)",
+      "note": "Feminine, agreeing with mātrā."
+    },
+    {
+      "sanskrit": "आप्तेः",
+      "iast": "āpteḥ",
+      "meaning": "because of pervading",
+      "note": "Ablative of āpti, 'reaching everywhere'."
+    },
+    {
+      "sanskrit": "आदिमत्त्वात्",
+      "iast": "ādimattvāt",
+      "meaning": "because of being first",
+      "note": "ādi = beginning (Hindi आदि)."
+    },
+    {
+      "sanskrit": "वा",
+      "iast": "vā",
+      "meaning": "or",
+      "note": ""
+    },
+    {
+      "sanskrit": "आप्नोति",
+      "iast": "āpnoti",
+      "meaning": "obtains",
+      "note": ""
+    },
+    {
+      "sanskrit": "सर्वान् कामान्",
+      "iast": "sarvān kāmān",
+      "meaning": "all desires",
+      "note": ""
+    },
+    {
+      "sanskrit": "आदिः",
+      "iast": "ādiḥ",
+      "meaning": "the first",
+      "note": ""
+    },
+    {
+      "sanskrit": "यः एवं वेद",
+      "iast": "yaḥ evaṃ veda",
+      "meaning": "who knows thus",
+      "note": "veda = 'knows', from √vid, the root of the word Veda."
+    }
+  ],
+  "grammar": [
+    "<b>Wordplay (nirukta):</b> A is linked to <span class='dv'>आप्ति</span> and <span class='dv'>आदि</span>, words that begin with ā.",
+    "<b>A truly pervades:</b> in Devanagari every consonant letter carries the vowel a inside it: क = k + a. And अ is the first letter of the alphabet.",
+    "<b>Ablative of cause:</b> <span class='dv'>आप्तेः, आदिमत्त्वात्</span> 'because of…', like पवनवेगात् in the bamboo verse."
+  ]
+}

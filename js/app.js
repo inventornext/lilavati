@@ -101,8 +101,8 @@ function viewHome() {
     <a class="door bhakti" href="#bhakti">
       <div class="door-deva">भक्ति</div>
       <h2>Bhakti</h2>
-      <p>Stotras to Shiva and the Goddess: Śiva Tāṇḍava, Rudrāṣṭakam, Nirvāṇa Ṣaṭkam, Liṅgāṣṭakam, and the Durgā Saptaśatī.</p>
-      <span class="door-count">${stotras.length} stotras · ${bhaktiVerses} verses →</span>
+      <p>Stotras to Shiva and the Goddess: Śiva Tāṇḍava, Rudrāṣṭakam, Nirvāṇa Ṣaṭkam, Liṅgāṣṭakam, the Durgā Saptaśatī and the Māṇḍūkya Upaniṣad.</p>
+      <span class="door-count">${stotras.length} texts · ${bhaktiVerses} verses →</span>
     </a>
     <a class="door ganita" href="#ganita">
       <div class="door-deva">गणित</div>
@@ -120,12 +120,12 @@ function viewHome() {
 function viewBhakti() {
   const st = DATA.collections.filter(c => c.meta.kind === 'stotra');
   const groups = [...new Set(st.map(c => c.meta.group || 'Stotras'))];
-  const intro = { 'Shiva': 'Hymns to Shiva, from Rāvaṇa’s thundering Tāṇḍava to Śaṅkara’s meditation on the Self.', 'Durgā Saptaśatī': 'The most-recited parts of the Durgā Saptaśatī (Devī Māhātmya). More chapters will be added over time.' };
+  const intro = { 'Upaniṣad': 'Twelve prose mantras on Om and the four states of the Self, the root of Advaita Vedānta.', 'Shiva': 'Hymns to Shiva, from Rāvaṇa’s thundering Tāṇḍava to Śaṅkara’s meditation on the Self.', 'Durgā Saptaśatī': 'The most-recited parts of the Durgā Saptaśatī (Devī Māhātmya). More chapters will be added over time.' };
   return `
-  <div class="page-head"><div class="page-deva">भक्ति</div><h1>Bhakti · Stotras</h1>
+  <div class="page-head"><div class="page-deva">भक्ति</div><h1>Bhakti · Stotras and Upaniṣad</h1>
   <p class="section-sub">Each stotra has a full-text page for recitation and a page for every verse with meanings, grammar, meter and translations.</p></div>
   ${groups.map(g => `
-    <h2 class="section-title">${g === 'Shiva' ? 'शिव · Shiva' : g === 'Durgā Saptaśatī' ? 'दुर्गासप्तशती · Durgā Saptaśatī' : g}</h2>
+    <h2 class="section-title">${({ 'Shiva': 'शिव · Shiva', 'Durgā Saptaśatī': 'दुर्गासप्तशती · Durgā Saptaśatī', 'Upaniṣad': 'उपनिषद् · Upaniṣad' })[g] || g}</h2>
     <p class="section-sub">${intro[g] || ''}</p>
     <div class="grid">${st.filter(c => (c.meta.group || 'Stotras') === g).map(c => `<a class="card feature" href="#${c.meta.id}"><div class="big">${c.meta.title_deva}</div><h3>${c.meta.title}</h3>
       <p class="note">${c.meta.intro.replace(/<[^>]+>/g, '').slice(0, 140)}…</p><span class="tag">${c.verses.length} verses · ${c.meta.author}</span></a>`).join('')}</div>`).join('')}`;
@@ -181,6 +181,7 @@ function collCard(c) {
 
 // ---------- meter scanner ----------
 function meterBlock(v) {
+  if (v.meterNote) return `<div class="block"><h2>Meter <span class="meter-result">${v.meter.split(' (')[0]}</span></h2><p class="legend">${v.meterNote} <a href="#grammar">Meters in the grammar guide →</a></p></div>`;
   const info = Meter.identify(v.devanagari);
   const ref = info && info.pattern;
   const refMorae = ref ? Meter.morae(ref) : null;

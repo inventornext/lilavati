@@ -1,0 +1,128 @@
+{
+  "id": "mandukya-8",
+  "number": "Mantra 7",
+  "title": "The Fourth: Turīya",
+  "meter": "Prose (the Upaniṣad mantras have no meter)",
+  "meterNote": "The mantras of the Māṇḍūkya Upaniṣad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pāda</b> and <b>mātrā</b>, the same two words the meter scanner is built on.",
+  "devanagari": [
+    "नान्तःप्रज्ञं न बहिष्प्रज्ञं नोभयतःप्रज्ञं",
+    "न प्रज्ञानघनं न प्रज्ञं नाप्रज्ञम्।",
+    "अदृष्टमव्यवहार्यमग्राह्यमलक्षणम्",
+    "अचिन्त्यमव्यपदेश्यमेकात्मप्रत्ययसारं",
+    "प्रपञ्चोपशमं शान्तं शिवमद्वैतं",
+    "चतुर्थं मन्यन्ते स आत्मा स विज्ञेयः॥"
+  ],
+  "iast": [
+    "nāntaḥ-prajñaṃ na bahiṣ-prajñaṃ nobhayataḥ-prajñaṃ",
+    "na prajñāna-ghanaṃ na prajñaṃ nāprajñam |",
+    "adṛṣṭam avyavahāryam agrāhyam alakṣaṇam",
+    "acintyam avyapadeśyam ekātma-pratyaya-sāraṃ",
+    "prapañcopaśamaṃ śāntaṃ śivam advaitaṃ",
+    "caturthaṃ manyante sa ātmā sa vijñeyaḥ ||"
+  ],
+  "translation": "Not aware inward, not aware outward, not aware both ways; not a mass of awareness; not aware, not unaware. <b>Unseen</b>, beyond all dealings, <b>ungraspable</b>, without marks, <b>unthinkable</b>, indescribable; its essence is the certainty of the <b>one Self</b>; in it the world comes to rest; <b>peaceful, auspicious, non-dual</b>: this they consider <b>the fourth</b>. That is the Self. That is to be known.",
+  "translation_hi": "न भीतर की ओर चेतन, न बाहर की ओर चेतन, न दोनों ओर चेतन; न प्रज्ञा का घन; न प्रज्ञ, न अप्रज्ञ। अदृश्य, व्यवहार से परे, अग्राह्य, लक्षणरहित, अचिंत्य, अवर्णनीय, एक आत्मा के अनुभव का सार, जहाँ संसार शांत हो जाता है, शांत, शिव और अद्वैत: इसे चतुर्थ (तुरीय) माना जाता है। वही आत्मा है, वही जानने योग्य है।",
+  "words": [
+    {
+      "sanskrit": "उभयतः",
+      "iast": "ubhayataḥ",
+      "meaning": "both ways",
+      "note": ""
+    },
+    {
+      "sanskrit": "अप्रज्ञम्",
+      "iast": "aprajñam",
+      "meaning": "unaware",
+      "note": ""
+    },
+    {
+      "sanskrit": "अदृष्टम्",
+      "iast": "adṛṣṭam",
+      "meaning": "unseen",
+      "note": "a + dṛṣṭa."
+    },
+    {
+      "sanskrit": "अव्यवहार्यम्",
+      "iast": "avyavahāryam",
+      "meaning": "beyond all dealings",
+      "note": "Hindi व्यवहार."
+    },
+    {
+      "sanskrit": "अग्राह्यम्",
+      "iast": "agrāhyam",
+      "meaning": "ungraspable",
+      "note": ""
+    },
+    {
+      "sanskrit": "अलक्षणम्",
+      "iast": "alakṣaṇam",
+      "meaning": "without marks",
+      "note": ""
+    },
+    {
+      "sanskrit": "अचिन्त्यम्",
+      "iast": "acintyam",
+      "meaning": "unthinkable",
+      "note": "As in the Argalā Stotram verse 8."
+    },
+    {
+      "sanskrit": "अव्यपदेश्यम्",
+      "iast": "avyapadeśyam",
+      "meaning": "indescribable",
+      "note": ""
+    },
+    {
+      "sanskrit": "एकात्मप्रत्ययसारम्",
+      "iast": "ekātma-pratyaya-sāram",
+      "meaning": "whose essence is the certainty of the one Self",
+      "note": ""
+    },
+    {
+      "sanskrit": "प्रपञ्चोपशमम्",
+      "iast": "prapañcopaśamam",
+      "meaning": "where the world comes to rest",
+      "note": "prapañca = the spread-out world."
+    },
+    {
+      "sanskrit": "शान्तम्",
+      "iast": "śāntam",
+      "meaning": "peaceful",
+      "note": ""
+    },
+    {
+      "sanskrit": "शिवम्",
+      "iast": "śivam",
+      "meaning": "auspicious",
+      "note": ""
+    },
+    {
+      "sanskrit": "अद्वैतम्",
+      "iast": "advaitam",
+      "meaning": "non-dual",
+      "note": "a + dvaita (duality). The name of Śaṅkara's school."
+    },
+    {
+      "sanskrit": "चतुर्थम्",
+      "iast": "caturtham",
+      "meaning": "the fourth",
+      "note": "= turīya (Rudrāṣṭakam verse 2)."
+    },
+    {
+      "sanskrit": "मन्यन्ते",
+      "iast": "manyante",
+      "meaning": "they consider",
+      "note": ""
+    },
+    {
+      "sanskrit": "विज्ञेयः",
+      "iast": "vijñeyaḥ",
+      "meaning": "to be known",
+      "note": "Gerundive of vi + √jñā."
+    }
+  ],
+  "grammar": [
+    "<b>The way of negation:</b> eight a- words in a row (अदृष्ट, अव्यवहार्य, अग्राह्य…). Turīya can only be pointed at by saying what it is not, exactly as Nirvāṇa Ṣaṭkam does.",
+    "<b>Gerundives -ya:</b> <span class='dv'>ग्राह्य, चिन्त्य, व्यपदेश्य, विज्ञेय</span> 'to be grasped, thought, described, known'. With a-, 'not to be…'.",
+    "<b>Śivam advaitam:</b> 'auspicious, non-dual'. Here śiva is an adjective; the refrain of Nirvāṇa Ṣaṭkam, शिवोऽहम्, draws on this mantra."
+  ]
+}

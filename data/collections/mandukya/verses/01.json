@@ -1,0 +1,177 @@
+{
+  "id": "mandukya-1",
+  "number": "Śānti Mantra",
+  "title": "Śānti Mantra: May We Hear Good",
+  "meter": "Meter: Vedic Triṣṭubh (about 11 syllables per line)",
+  "meterNote": "This is a Vedic prayer in Triṣṭubh meter. Vedic verses were chanted with pitch accents and don't always fit the strict syllable counts of classical meters, so the scanner is not used here.",
+  "devanagari": [
+    "ॐ भद्रं कर्णेभिः शृणुयाम देवाः",
+    "भद्रं पश्येमाक्षभिर्यजत्राः।",
+    "स्थिरैरङ्गैस्तुष्टुवांसस्तनूभि-",
+    "र्व्यशेम देवहितं यदायुः॥",
+    "स्वस्ति न इन्द्रो वृद्धश्रवाः",
+    "स्वस्ति नः पूषा विश्ववेदाः।",
+    "स्वस्ति नस्तार्क्ष्यो अरिष्टनेमिः",
+    "स्वस्ति नो बृहस्पतिर्दधातु॥",
+    "ॐ शान्तिः शान्तिः शान्तिः॥"
+  ],
+  "iast": [
+    "om bhadraṃ karṇebhiḥ śṛṇuyāma devāḥ",
+    "bhadraṃ paśyemākṣabhir yajatrāḥ |",
+    "sthirair aṅgais tuṣṭuvāṃsas tanūbhir",
+    "vyaśema devahitaṃ yad āyuḥ ||",
+    "svasti na indro vṛddhaśravāḥ",
+    "svasti naḥ pūṣā viśvavedāḥ |",
+    "svasti nas tārkṣyo ariṣṭanemiḥ",
+    "svasti no bṛhaspatir dadhātu ||",
+    "om śāntiḥ śāntiḥ śāntiḥ ||"
+  ],
+  "translation": "O gods, may we <b>hear what is good</b> with our ears; O worshipful ones, may we <b>see what is good</b> with our eyes. With <b>steady limbs and bodies</b>, praising you, may we live out the <b>life the gods have given</b>. May Indra of great fame grant us <b>well-being</b>; may Pūṣan, who knows all, grant us well-being; may Tārkṣya, whose wheel is never harmed, grant us well-being; may Bṛhaspati grant us well-being. Om, <b>peace, peace, peace</b>.",
+  "translation_hi": "हे देवताओ, हम कानों से शुभ सुनें; हे पूजनीयो, हम आँखों से शुभ देखें। स्थिर अंगों और शरीर से आपकी स्तुति करते हुए हम देवताओं द्वारा दी गई आयु जिएँ। महान यशस्वी इंद्र हमारा कल्याण करें; सर्वज्ञ पूषा हमारा कल्याण करें; अरिष्टनेमि तार्क्ष्य हमारा कल्याण करें; बृहस्पति हमारा कल्याण करें। ॐ शांति, शांति, शांति।",
+  "words": [
+    {
+      "sanskrit": "भद्रम्",
+      "iast": "bhadram",
+      "meaning": "what is good, auspicious",
+      "note": "As in bhadrāyai in the Devī Stuti."
+    },
+    {
+      "sanskrit": "कर्णेभिः",
+      "iast": "karṇebhiḥ",
+      "meaning": "with the ears",
+      "note": "Vedic instrumental plural; classical Sanskrit says कर्णैः. Karṇa also means hypotenuse (Lilavati verse 12)!"
+    },
+    {
+      "sanskrit": "शृणुयाम",
+      "iast": "śṛṇuyāma",
+      "meaning": "may we hear",
+      "note": "Optative of √śru (to hear)."
+    },
+    {
+      "sanskrit": "देवाः",
+      "iast": "devāḥ",
+      "meaning": "O gods",
+      "note": "Vocative plural."
+    },
+    {
+      "sanskrit": "पश्येम",
+      "iast": "paśyema",
+      "meaning": "may we see",
+      "note": "Optative of √paś."
+    },
+    {
+      "sanskrit": "अक्षभिः",
+      "iast": "akṣabhiḥ",
+      "meaning": "with the eyes",
+      "note": "Vedic instrumental of akṣi."
+    },
+    {
+      "sanskrit": "यजत्राः",
+      "iast": "yajatrāḥ",
+      "meaning": "O worshipful ones",
+      "note": ""
+    },
+    {
+      "sanskrit": "स्थिरैः अङ्गैः",
+      "iast": "sthirair aṅgaiḥ",
+      "meaning": "with steady limbs",
+      "note": ""
+    },
+    {
+      "sanskrit": "तुष्टुवांसः",
+      "iast": "tuṣṭuvāṃsaḥ",
+      "meaning": "having praised",
+      "note": "Perfect participle of √stu (as in stuti)."
+    },
+    {
+      "sanskrit": "तनूभिः",
+      "iast": "tanūbhiḥ",
+      "meaning": "with bodies",
+      "note": ""
+    },
+    {
+      "sanskrit": "व्यशेम",
+      "iast": "vyaśema",
+      "meaning": "may we attain",
+      "note": "Optative of vi + √aś."
+    },
+    {
+      "sanskrit": "देवहितम्",
+      "iast": "devahitam",
+      "meaning": "given by the gods",
+      "note": ""
+    },
+    {
+      "sanskrit": "आयुः",
+      "iast": "āyuḥ",
+      "meaning": "life, lifespan",
+      "note": "As in Āyurveda."
+    },
+    {
+      "sanskrit": "स्वस्ति",
+      "iast": "svasti",
+      "meaning": "well-being",
+      "note": "su + asti, 'it is well'. Hence swastika."
+    },
+    {
+      "sanskrit": "नः",
+      "iast": "naḥ",
+      "meaning": "to us",
+      "note": ""
+    },
+    {
+      "sanskrit": "वृद्धश्रवाः",
+      "iast": "vṛddhaśravāḥ",
+      "meaning": "of great fame",
+      "note": "śravas = fame, 'what is heard'."
+    },
+    {
+      "sanskrit": "पूषा",
+      "iast": "pūṣā",
+      "meaning": "Pūṣan",
+      "note": "The Vedic god of paths and nourishment."
+    },
+    {
+      "sanskrit": "विश्ववेदाः",
+      "iast": "viśvavedāḥ",
+      "meaning": "all-knowing",
+      "note": ""
+    },
+    {
+      "sanskrit": "तार्क्ष्यः",
+      "iast": "tārkṣyaḥ",
+      "meaning": "Tārkṣya (Garuḍa)",
+      "note": ""
+    },
+    {
+      "sanskrit": "अरिष्टनेमिः",
+      "iast": "ariṣṭanemiḥ",
+      "meaning": "whose wheel-rim is unharmed",
+      "note": "nemi = rim of a wheel."
+    },
+    {
+      "sanskrit": "बृहस्पतिः",
+      "iast": "bṛhaspatiḥ",
+      "meaning": "Bṛhaspati",
+      "note": "Teacher of the gods (suraguru in Liṅgāṣṭakam 8)."
+    },
+    {
+      "sanskrit": "दधातु",
+      "iast": "dadhātu",
+      "meaning": "may he grant",
+      "note": "Imperative of √dhā."
+    },
+    {
+      "sanskrit": "शान्तिः",
+      "iast": "śāntiḥ",
+      "meaning": "peace",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Vedic Sanskrit:</b> forms like <span class='dv'>कर्णेभिः, अक्षभिः</span> are older than classical Sanskrit (कर्णैः, अक्षिभिः). This prayer comes from the Atharvaveda, to which the Māṇḍūkya belongs.",
+    "<b>Optative 'may we':</b> <span class='dv'>शृणुयाम, पश्येम, व्यशेम</span>, the mood of wishes, like पठेत् in the Liṅgāṣṭakam.",
+    "<b>Three times śānti:</b> traditionally for peace from the three kinds of suffering: from oneself, from other beings, and from nature. These are the trayaḥ-śūla of Rudrāṣṭakam verse 5.",
+    "<b>Svasti + dative:</b> <span class='dv'>स्वस्ति नः</span> 'well-being to us', like नमः + dative."
+  ]
+}

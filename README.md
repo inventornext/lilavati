@@ -115,6 +115,10 @@ A stotra's `manifest.json` can have `"group": "Shiva"` or `"group": "Durgā Sapt
 
 ## Offline app and sharing
 
-- **Offline:** `sw.js` (the service worker) saves every page and verse on the visitor's device the first time they open the site, so it works without internet. `manifest.webmanifest` and `icons/` make it installable ("Add to Home screen"). Nothing to do when you add verses: the service worker reads the data files and picks them up on the next visit.
+- **Offline:** `sw.js` (the service worker) saves every page and verse on the visitor's device the first time they open the site, so it works without internet. `manifest.webmanifest` and `icons/` make it installable ("Add to Home screen"). When you add a whole new text, change `CACHE = 'shlokashala-vN'` in `sw.js` to the next number, so installed copies download it for offline use. For small edits nothing is needed.
 - **Share pages:** `python tools/build_static.py` writes `v/<verse-id>.html` for every verse and every stotra, plus `sitemap.xml`. These give WhatsApp and Google a proper title and description, and the Share button on each verse links to them. **Run it every time you add or change verses**; `tools/validate.py` warns you if you forget.
 - **Google:** submit `https://inventornext.github.io/shlokashala/sitemap.xml` in Google Search Console once, so the verse pages get indexed.
+
+## Prose texts
+
+A verse file can have `"meterNote"`: a sentence shown instead of the meter scanner. The Māṇḍūkya Upaniṣad uses it, because its mantras are prose.

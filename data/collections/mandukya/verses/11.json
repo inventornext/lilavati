@@ -1,0 +1,82 @@
+{
+  "id": "mandukya-11",
+  "number": "Mantra 10",
+  "title": "U: The Second Measure",
+  "meter": "Prose (the Upaniṣad mantras have no meter)",
+  "meterNote": "The mantras of the Māṇḍūkya Upaniṣad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pāda</b> and <b>mātrā</b>, the same two words the meter scanner is built on.",
+  "devanagari": [
+    "स्वप्नस्थानस्तैजस उकारो",
+    "द्वितीया मात्रोत्कर्षादुभयत्वाद्वोत्कर्षति",
+    "ह वै ज्ञानसन्ततिं समानश्च भवति",
+    "नास्याब्रह्मवित्कुले भवति य एवं वेद॥"
+  ],
+  "iast": [
+    "svapna-sthānas taijasa ukāro",
+    "dvitīyā mātrotkarṣād ubhayatvād votkarṣati",
+    "ha vai jñāna-santatiṃ samānaś ca bhavati",
+    "nāsyābrahmavit kule bhavati ya evaṃ veda ||"
+  ],
+  "translation": "Taijasa, whose field is <b>dream</b>, is <b>U</b>, the second measure: because of its <b>elevation</b> (utkarṣa), or because it stands <b>between both</b> (ubhaya). Whoever knows this raises the stream of knowledge and becomes balanced; no one ignorant of Brahman is born in his family.",
+  "translation_hi": "स्वप्न अवस्था वाला तैजस उकार है, दूसरी मात्रा, उत्कर्ष के कारण या दोनों के बीच होने के कारण। जो ऐसा जानता है वह ज्ञान की परंपरा को ऊँचा उठाता है और समभाव वाला होता है; उसके कुल में कोई ब्रह्म को न जानने वाला जन्म नहीं लेता।",
+  "words": [
+    {
+      "sanskrit": "द्वितीया",
+      "iast": "dvitīyā",
+      "meaning": "second (measure)",
+      "note": ""
+    },
+    {
+      "sanskrit": "उत्कर्षात्",
+      "iast": "utkarṣāt",
+      "meaning": "because of elevation",
+      "note": "Hindi उत्कर्ष."
+    },
+    {
+      "sanskrit": "उभयत्वात्",
+      "iast": "ubhayatvāt",
+      "meaning": "because of being between both",
+      "note": "U stands between A and M."
+    },
+    {
+      "sanskrit": "उत्कर्षति",
+      "iast": "utkarṣati",
+      "meaning": "raises",
+      "note": ""
+    },
+    {
+      "sanskrit": "ज्ञानसन्ततिम्",
+      "iast": "jñāna-santatim",
+      "meaning": "the stream of knowledge",
+      "note": "santati = continuity, as in Tāṇḍava verse 3."
+    },
+    {
+      "sanskrit": "समानः",
+      "iast": "samānaḥ",
+      "meaning": "balanced, equal",
+      "note": ""
+    },
+    {
+      "sanskrit": "अस्य",
+      "iast": "asya",
+      "meaning": "his",
+      "note": ""
+    },
+    {
+      "sanskrit": "अब्रह्मवित्",
+      "iast": "abrahmavit",
+      "meaning": "one who does not know Brahman",
+      "note": ""
+    },
+    {
+      "sanskrit": "कुले",
+      "iast": "kule",
+      "meaning": "in the family",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Wordplay again:</b> U is linked to <span class='dv'>उत्कर्ष</span> and <span class='dv'>उभय</span>, both starting with u.",
+    "<b>Phonetics:</b> A is said with the mouth open, M with the lips closed; U, with rounded lips, is literally between them.",
+    "<b>Vowel sandhi:</b> <span class='dv'>मात्रा + उत्कर्षात् → मात्रोत्कर्षात्</span>, <span class='dv'>वा + उत्कर्षति → वोत्कर्षति</span>."
+  ]
+}

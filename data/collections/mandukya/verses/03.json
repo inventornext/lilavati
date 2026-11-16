@@ -1,0 +1,60 @@
+{
+  "id": "mandukya-3",
+  "number": "Mantra 2",
+  "title": "The Self Has Four Quarters",
+  "meter": "Prose (the Upaniṣad mantras have no meter)",
+  "meterNote": "The mantras of the Māṇḍūkya Upaniṣad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pāda</b> and <b>mātrā</b>, the same two words the meter scanner is built on.",
+  "devanagari": [
+    "सर्वं ह्येतद्ब्रह्मायमात्मा ब्रह्म",
+    "सोऽयमात्मा चतुष्पात्॥"
+  ],
+  "iast": [
+    "sarvaṃ hy etad brahmāyam ātmā brahma",
+    "so 'yam ātmā catuṣpāt ||"
+  ],
+  "translation": "All this is indeed <b>Brahman</b>. <b>This Self is Brahman.</b> This Self has <b>four quarters</b>.",
+  "translation_hi": "यह सब ब्रह्म ही है। यह आत्मा ब्रह्म है। यह आत्मा चार पादों वाला है।",
+  "words": [
+    {
+      "sanskrit": "हि",
+      "iast": "hi",
+      "meaning": "indeed",
+      "note": ""
+    },
+    {
+      "sanskrit": "ब्रह्म",
+      "iast": "brahma",
+      "meaning": "Brahman, the Absolute",
+      "note": ""
+    },
+    {
+      "sanskrit": "अयम्",
+      "iast": "ayam",
+      "meaning": "this",
+      "note": ""
+    },
+    {
+      "sanskrit": "आत्मा",
+      "iast": "ātmā",
+      "meaning": "the Self",
+      "note": ""
+    },
+    {
+      "sanskrit": "सः",
+      "iast": "saḥ",
+      "meaning": "that",
+      "note": "सः + अयम् → सोऽयम्."
+    },
+    {
+      "sanskrit": "चतुष्पात्",
+      "iast": "catuṣ-pāt",
+      "meaning": "having four quarters",
+      "note": "catur + pād. pāda = foot, quarter: the same word as a quarter of a verse!"
+    }
+  ],
+  "grammar": [
+    "<b>A great saying (mahāvākya):</b> <span class='dv'>अयमात्मा ब्रह्म</span> 'this Self is Brahman' is one of the four mahāvākyas of the Upaniṣads.",
+    "<b>Pāda = quarter:</b> the Self has four pādas just as an Anuṣṭubh verse has four pādas of eight syllables.",
+    "<b>r → ṣ:</b> <span class='dv'>चतुर् + पात् → चतुष्पात्</span>. Before p, r becomes a visarga and then ṣ."
+  ]
+}

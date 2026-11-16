@@ -1,0 +1,56 @@
+{
+  "id": "mandukya-5",
+  "number": "Mantra 4",
+  "title": "The Second Quarter: Dream",
+  "meter": "Prose (the Upaniṣad mantras have no meter)",
+  "meterNote": "The mantras of the Māṇḍūkya Upaniṣad are prose, not verse, so there is no meter to scan. Their rhythm comes from the chant. Notice how this mantra uses <b>pāda</b> and <b>mātrā</b>, the same two words the meter scanner is built on.",
+  "devanagari": [
+    "स्वप्नस्थानोऽन्तःप्रज्ञः सप्ताङ्ग",
+    "एकोनविंशतिमुखः प्रविविक्तभुक्तैजसो",
+    "द्वितीयः पादः॥"
+  ],
+  "iast": [
+    "svapna-sthāno 'ntaḥ-prajñaḥ saptāṅga",
+    "ekonaviṃśati-mukhaḥ pravivikta-bhuk taijaso",
+    "dvitīyaḥ pādaḥ ||"
+  ],
+  "translation": "The <b>second quarter</b> is <b>Taijasa</b>: its field is <b>dream</b>; its awareness turns <b>inward</b>; it has seven limbs and nineteen mouths; and it enjoys the <b>subtle</b> world.",
+  "translation_hi": "दूसरा पाद तैजस है: उसका क्षेत्र स्वप्न अवस्था है, उसकी चेतना भीतर की ओर है, उसके सात अंग और उन्नीस मुख हैं, और वह सूक्ष्म जगत का भोग करता है।",
+  "words": [
+    {
+      "sanskrit": "स्वप्न",
+      "iast": "svapna",
+      "meaning": "dream",
+      "note": "Hindi सपना."
+    },
+    {
+      "sanskrit": "अन्तःप्रज्ञः",
+      "iast": "antaḥ-prajñaḥ",
+      "meaning": "aware inwardly",
+      "note": "antar = inside (Hindi अंदर)."
+    },
+    {
+      "sanskrit": "प्रविविक्त",
+      "iast": "pravivikta",
+      "meaning": "subtle, separate",
+      "note": ""
+    },
+    {
+      "sanskrit": "तैजसः",
+      "iast": "taijasaḥ",
+      "meaning": "Taijasa, 'the luminous'",
+      "note": "From tejas (light), as in Nirvāṇa Ṣaṭkam verse 1."
+    },
+    {
+      "sanskrit": "द्वितीयः",
+      "iast": "dvitīyaḥ",
+      "meaning": "second",
+      "note": ""
+    }
+  ],
+  "grammar": [
+    "<b>Avagraha:</b> <span class='dv'>स्थानः + अन्तः → स्थानोऽन्तः</span>.",
+    "<b>Pairs of opposites:</b> <span class='dv'>बहिष्प्रज्ञ</span> (outward) in mantra 3 and <span class='dv'>अन्तःप्रज्ञ</span> (inward) here.",
+    "<b>Science link:</b> dreaming happens mostly in REM sleep, when the brain is almost as active as when awake, but turned inward, just as the mantra says."
+  ]
+}

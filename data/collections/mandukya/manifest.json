@@ -1,0 +1,27 @@
+{
+  "id": "mandukya",
+  "kind": "stotra",
+  "group": "Upaniṣad",
+  "title": "Māṇḍūkya Upaniṣad",
+  "title_deva": "माण्डूक्योपनिषत्",
+  "author": "Atharvaveda",
+  "intro": "The shortest of the principal Upaniṣads: twelve prose mantras on Om and the four states of the Self. Waking is A, dream is U, deep sleep is M, and the fourth, turīya, is the silence beyond them. Śaṅkara's teacher's teacher, Gauḍapāda, wrote his famous Kārikā on it, and it is the root of Advaita Vedānta.",
+  "note": "The Upaniṣad is in prose, so the meter scanner is replaced by a note on each mantra. It opens with the Atharvaveda Śānti Mantra, भद्रं कर्णेभिः. Notice the words pāda (quarter) and mātrā (measure): the same words used for the quarters and syllable-lengths of a verse.",
+  "opening": "॥ हरिः ॐ ॥",
+  "closing": "॥ इति माण्डूक्योपनिषत् समाप्ता ॥",
+  "verses": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13"
+  ]
+}
