@@ -203,18 +203,18 @@ function viewVerse(v, idx, list, crumb, end) {
 
 
   <div class="block">
+    <h2>अर्थ · Meaning
+      <span class="seg" role="group" aria-label="Translation language"><button data-lang="en">English</button><button data-lang="hi">हिन्दी</button><button data-lang="both">Both</button></span>
+    </h2>
+    <div id="tr">${translationHTML(v)}</div>
+  </div>
+
+  <div class="block">
     <h2>Word by word <button class="btn ${document.body.classList.contains('selftest') ? 'on' : ''}" id="selftest">Self-test</button></h2>
     <p class="tip">Self-test hides the meanings; tap a card to reveal it.</p>
     <div class="words">${v.words.map(w => `
       <div class="w" tabindex="0"><div class="d">${w.sanskrit}</div><div class="m">${w.meaning}</div></div>`).join('')}
     </div>
-  </div>
-
-  <div class="block">
-    <h2>Translation
-      <span class="seg" role="group" aria-label="Translation language"><button data-lang="en">English</button><button data-lang="hi">हिन्दी</button><button data-lang="both">Both</button></span>
-    </h2>
-    <div id="tr">${translationHTML(v)}</div>
   </div>
 
   ${v.science ? `<div class="block">

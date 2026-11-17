@@ -97,7 +97,7 @@ def verse_body(v, where, link):
   <div class="vhead"><div class="vnum">{html.escape(where)} · {html.escape(v.get("number", ""))}</div>
   <h1>{html.escape(v["title"])}</h1></div>
   <div class="shloka mode-deva">{lines}</div>
-  <div class="block"><h2>Translation</h2><p class="tr">{v["translation"]}</p>{hi}</div>
+  <div class="block"><h2>अर्थ · Meaning</h2><p class="tr">{v["translation"]}</p>{hi}</div>
   <p style="text-align:center;margin:26px 0"><a class="cta" href="../#{link}">Open with word meanings and audio →</a></p>"""
 
 
