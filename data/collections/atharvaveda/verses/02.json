@@ -1,0 +1,63 @@
+{
+  "id": "atharvaveda-2",
+  "number": "Bhumi Sukta · Atharvaveda 12.1.12",
+  "title": "Earth Is My Mother",
+  "devanagari": [
+    "यत्ते मध्यं पृथिवि यच्च नभ्यं",
+    "यास्त ऊर्जस्तन्वः संबभूवुः।",
+    "तासु नो धेह्यभि नः पवस्व",
+    "माता भूमिः पुत्रो अहं पृथिव्याः।",
+    "पर्जन्यः पिता स उ नः पिपर्तु॥"
+  ],
+  "translation": "O Earth, place us in your centre, your navel, among the <b>nourishing energies</b> that rise from your body; purify us. <b>The Earth is my mother; I am the son of the Earth.</b> The rain-cloud is our father; may he sustain us.",
+  "translation_hi": "हे पृथ्वी, जो तुम्हारा मध्य है, जो तुम्हारी नाभि है, और जो पोषक शक्तियाँ तुम्हारे शरीर से उत्पन्न हुई हैं, उनमें हमें स्थापित करो और हमें पवित्र करो। भूमि मेरी माता है, मैं पृथ्वी का पुत्र हूँ। पर्जन्य (मेघ) पिता है, वह हमारा पालन करे।",
+  "words": [
+    {
+      "sanskrit": "मध्यम्",
+      "meaning": "centre"
+    },
+    {
+      "sanskrit": "नभ्यम्",
+      "meaning": "navel"
+    },
+    {
+      "sanskrit": "ऊर्जः",
+      "meaning": "nourishing energies"
+    },
+    {
+      "sanskrit": "तन्वः",
+      "meaning": "from your body"
+    },
+    {
+      "sanskrit": "धेहि",
+      "meaning": "place"
+    },
+    {
+      "sanskrit": "पवस्व",
+      "meaning": "purify"
+    },
+    {
+      "sanskrit": "माता भूमिः",
+      "meaning": "the Earth is mother"
+    },
+    {
+      "sanskrit": "पुत्रः अहम्",
+      "meaning": "I am the son"
+    },
+    {
+      "sanskrit": "पर्जन्यः",
+      "meaning": "the rain-cloud"
+    },
+    {
+      "sanskrit": "पिता",
+      "meaning": "father"
+    },
+    {
+      "sanskrit": "पिपर्तु",
+      "meaning": "may he sustain"
+    }
+  ],
+  "science": [
+    "Earth as mother and rain as father: all food comes from soil and rainfall together. It is the water cycle and agriculture, put in family terms."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "rigveda-5",
+  "number": "Agni Sukta · Rigveda 1.1.3",
+  "title": "Wealth Day by Day",
+  "devanagari": [
+    "अग्निना रयिमश्नवत्",
+    "पोषमेव दिवेदिवे।",
+    "यशसं वीरवत्तमम्॥"
+  ],
+  "translation": "Through Agni one gains <b>wealth</b> and nourishment <b>day by day</b>, glorious and rich in strong sons.",
+  "translation_hi": "अग्नि के द्वारा मनुष्य दिन प्रतिदिन धन और पोषण प्राप्त करता है, जो यशस्वी और वीर संतानों से युक्त होता है।",
+  "words": [
+    {
+      "sanskrit": "अग्निना",
+      "meaning": "through Agni"
+    },
+    {
+      "sanskrit": "रयिम्",
+      "meaning": "wealth"
+    },
+    {
+      "sanskrit": "अश्नवत्",
+      "meaning": "may one obtain"
+    },
+    {
+      "sanskrit": "पोषम्",
+      "meaning": "nourishment, growth"
+    },
+    {
+      "sanskrit": "दिवेदिवे",
+      "meaning": "day by day"
+    },
+    {
+      "sanskrit": "यशसम्",
+      "meaning": "glorious"
+    },
+    {
+      "sanskrit": "वीरवत्तमम्",
+      "meaning": "most rich in heroes"
+    }
+  ]
+}

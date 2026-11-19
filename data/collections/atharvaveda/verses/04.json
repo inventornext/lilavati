@@ -1,0 +1,66 @@
+{
+  "id": "atharvaveda-4",
+  "number": "Bhumi Sukta · Atharvaveda 12.1.45",
+  "title": "Home to Many Peoples",
+  "devanagari": [
+    "जनं बिभ्रती बहुधा विवाचसं",
+    "नानाधर्माणं पृथिवी यथौकसम्।",
+    "सहस्रं धारा द्रविणस्य मे दुहां",
+    "ध्रुवेव धेनुरनपस्फुरन्ती॥"
+  ],
+  "translation": "The Earth carries <b>people of many languages and many customs</b>, each in their own home. Like a steady, gentle cow, may she give me a <b>thousand streams of wealth</b>.",
+  "translation_hi": "पृथ्वी अनेक भाषाओं वाले, नाना धर्मों वाले लोगों को उनके अपने घरों में धारण करती है। एक स्थिर, शांत गाय की तरह वह मुझे धन की हजार धाराएँ दे।",
+  "words": [
+    {
+      "sanskrit": "जनम्",
+      "meaning": "people"
+    },
+    {
+      "sanskrit": "बिभ्रती",
+      "meaning": "carrying"
+    },
+    {
+      "sanskrit": "बहुधा",
+      "meaning": "in many ways"
+    },
+    {
+      "sanskrit": "विवाचसम्",
+      "meaning": "of different languages"
+    },
+    {
+      "sanskrit": "नानाधर्माणम्",
+      "meaning": "of various customs"
+    },
+    {
+      "sanskrit": "यथौकसम्",
+      "meaning": "each in their home"
+    },
+    {
+      "sanskrit": "सहस्रं धाराः",
+      "meaning": "a thousand streams"
+    },
+    {
+      "sanskrit": "द्रविणस्य",
+      "meaning": "of wealth"
+    },
+    {
+      "sanskrit": "दुहाम्",
+      "meaning": "may she yield"
+    },
+    {
+      "sanskrit": "ध्रुवा",
+      "meaning": "steady"
+    },
+    {
+      "sanskrit": "धेनुः",
+      "meaning": "cow"
+    },
+    {
+      "sanskrit": "अनपस्फुरन्ती",
+      "meaning": "not kicking, gentle"
+    }
+  ],
+  "science": [
+    "Over 3,000 years ago this verse celebrated diversity: many languages and customs sharing one Earth. Today the world has over 7,000 living languages."
+  ]
+}

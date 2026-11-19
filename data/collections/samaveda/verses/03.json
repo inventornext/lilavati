@@ -1,0 +1,37 @@
+{
+  "id": "samaveda-3",
+  "number": "Samaveda 1.3",
+  "title": "We Choose Agni as Messenger",
+  "devanagari": [
+    "अग्निं दूतं वृणीमहे",
+    "होतारं विश्ववेदसम्।",
+    "अस्य यज्ञस्य सुक्रतुम्॥"
+  ],
+  "translation": "We choose <b>Agni as our messenger</b>, the invoker who knows all, the wise performer of this sacrifice.",
+  "translation_hi": "हम अग्नि को अपना दूत चुनते हैं, जो सर्वज्ञ होता हैं और इस यज्ञ को उत्तम रीति से करने वाले हैं।",
+  "words": [
+    {
+      "sanskrit": "दूतम्",
+      "meaning": "messenger"
+    },
+    {
+      "sanskrit": "वृणीमहे",
+      "meaning": "we choose"
+    },
+    {
+      "sanskrit": "होतारम्",
+      "meaning": "invoker"
+    },
+    {
+      "sanskrit": "विश्ववेदसम्",
+      "meaning": "all-knowing"
+    },
+    {
+      "sanskrit": "सुक्रतुम्",
+      "meaning": "wise performer"
+    }
+  ],
+  "science": [
+    "Fire as 'messenger' to the sky: smoke and heat rise because hot air is less dense than the cool air around it, carrying the offering upward."
+  ]
+}

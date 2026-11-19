@@ -1,0 +1,42 @@
+{
+  "id": "samaveda-4",
+  "number": "Samaveda 1.4",
+  "title": "Agni Destroys Obstacles",
+  "devanagari": [
+    "अग्निर्वृत्राणि जङ्घन-",
+    "द्द्रविणस्युर्विपन्यया।",
+    "समिद्धः शुक्र आहुतः॥"
+  ],
+  "translation": "Agni, kindled, bright, receiving offerings, seeking wealth through praise, <b>strikes down all obstacles</b>.",
+  "translation_hi": "समिधा से प्रज्वलित, तेजस्वी, आहुति ग्रहण करने वाले अग्नि, स्तुति से धन की इच्छा करते हुए, सब बाधाओं का नाश करते हैं।",
+  "words": [
+    {
+      "sanskrit": "वृत्राणि",
+      "meaning": "obstacles, enemies"
+    },
+    {
+      "sanskrit": "जङ्घनत्",
+      "meaning": "strikes down"
+    },
+    {
+      "sanskrit": "द्रविणस्युः",
+      "meaning": "seeking wealth"
+    },
+    {
+      "sanskrit": "विपन्यया",
+      "meaning": "through praise"
+    },
+    {
+      "sanskrit": "समिद्धः",
+      "meaning": "kindled"
+    },
+    {
+      "sanskrit": "शुक्रः",
+      "meaning": "bright"
+    },
+    {
+      "sanskrit": "आहुतः",
+      "meaning": "receiving offerings"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "rigveda-30",
+  "number": "Purusha Sukta · Rigveda 10.90.12",
+  "title": "The Four Orders of Society",
+  "devanagari": [
+    "ब्राह्मणोऽस्य मुखमासी-",
+    "द्बाहू राजन्यः कृतः।",
+    "ऊरू तदस्य यद्वैश्यः",
+    "पद्भ्यां शूद्रो अजायत॥"
+  ],
+  "translation": "The <b>Brahmana</b> was his mouth; the <b>Rajanya</b> was made his arms; his thighs became the <b>Vaishya</b>; from his feet the <b>Shudra</b> was born.",
+  "translation_hi": "ब्राह्मण उसका मुख था; राजन्य उसकी भुजाएँ बना; उसकी जाँघें वैश्य थीं; उसके पैरों से शूद्र उत्पन्न हुआ।",
+  "words": [
+    {
+      "sanskrit": "ब्राह्मणः",
+      "meaning": "the Brahmana (priests, teachers)"
+    },
+    {
+      "sanskrit": "मुखम्",
+      "meaning": "mouth"
+    },
+    {
+      "sanskrit": "राजन्यः",
+      "meaning": "the Rajanya (rulers, warriors)"
+    },
+    {
+      "sanskrit": "कृतः",
+      "meaning": "was made"
+    },
+    {
+      "sanskrit": "वैश्यः",
+      "meaning": "the Vaishya (traders, farmers)"
+    },
+    {
+      "sanskrit": "पद्भ्याम्",
+      "meaning": "from the feet"
+    },
+    {
+      "sanskrit": "शूद्रः",
+      "meaning": "the Shudra (workers, artisans)"
+    }
+  ]
+}

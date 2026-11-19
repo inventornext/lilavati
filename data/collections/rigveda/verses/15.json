@@ -1,0 +1,59 @@
+{
+  "id": "rigveda-15",
+  "number": "Nasadiya Sukta · Rigveda 10.129.4",
+  "title": "Desire, the First Seed",
+  "devanagari": [
+    "कामस्तदग्रे समवर्तताधि",
+    "मनसो रेतः प्रथमं यदासीत्।",
+    "सतो बन्धुमसति निरविन्दन्",
+    "हृदि प्रतीष्या कवयो मनीषा॥"
+  ],
+  "translation": "In the beginning <b>desire</b> arose in it, the <b>first seed of mind</b>. Searching in their hearts with wisdom, the seers found the <b>bond of being in non-being</b>.",
+  "translation_hi": "आरंभ में उसमें काम (इच्छा) उत्पन्न हुआ, जो मन का पहला बीज था। ज्ञानियों ने अपने हृदय में बुद्धि से खोजकर असत् में सत् का संबंध पाया।",
+  "words": [
+    {
+      "sanskrit": "कामः",
+      "meaning": "desire"
+    },
+    {
+      "sanskrit": "समवर्तत",
+      "meaning": "arose"
+    },
+    {
+      "sanskrit": "मनसः",
+      "meaning": "of mind"
+    },
+    {
+      "sanskrit": "रेतः",
+      "meaning": "seed"
+    },
+    {
+      "sanskrit": "प्रथमम्",
+      "meaning": "first"
+    },
+    {
+      "sanskrit": "सतः बन्धुम्",
+      "meaning": "the bond of being"
+    },
+    {
+      "sanskrit": "असति",
+      "meaning": "in non-being"
+    },
+    {
+      "sanskrit": "निरविन्दन्",
+      "meaning": "they found"
+    },
+    {
+      "sanskrit": "हृदि",
+      "meaning": "in the heart"
+    },
+    {
+      "sanskrit": "कवयः",
+      "meaning": "the seers"
+    },
+    {
+      "sanskrit": "मनीषा",
+      "meaning": "with wisdom"
+    }
+  ]
+}

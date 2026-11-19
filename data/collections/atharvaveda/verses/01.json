@@ -1,0 +1,67 @@
+{
+  "id": "atharvaveda-1",
+  "number": "Bhumi Sukta · Atharvaveda 12.1.1",
+  "title": "What Holds the Earth",
+  "devanagari": [
+    "सत्यं बृहदृतमुग्रं दीक्षा",
+    "तपो ब्रह्म यज्ञः पृथिवीं धारयन्ति।",
+    "सा नो भूतस्य भव्यस्य पत्न्यु-",
+    "रुं लोकं पृथिवी नः कृणोतु॥"
+  ],
+  "translation": "<b>Truth, greatness, cosmic order, strength, dedication, discipline, prayer and sacrifice: these uphold the Earth.</b> May the Earth, mistress of what has been and what will be, give us wide space to live.",
+  "translation_hi": "सत्य, महानता, ऋत, उग्रता, दीक्षा, तप, ब्रह्म और यज्ञ, ये पृथ्वी को धारण करते हैं। भूत और भविष्य की स्वामिनी वह पृथ्वी हमें विस्तृत स्थान दे।",
+  "words": [
+    {
+      "sanskrit": "सत्यम्",
+      "meaning": "truth"
+    },
+    {
+      "sanskrit": "बृहत्",
+      "meaning": "greatness"
+    },
+    {
+      "sanskrit": "ऋतम्",
+      "meaning": "cosmic order"
+    },
+    {
+      "sanskrit": "उग्रम्",
+      "meaning": "strength"
+    },
+    {
+      "sanskrit": "दीक्षा",
+      "meaning": "dedication"
+    },
+    {
+      "sanskrit": "तपः",
+      "meaning": "discipline"
+    },
+    {
+      "sanskrit": "ब्रह्म",
+      "meaning": "prayer"
+    },
+    {
+      "sanskrit": "यज्ञः",
+      "meaning": "sacrifice"
+    },
+    {
+      "sanskrit": "पृथिवीम्",
+      "meaning": "the Earth"
+    },
+    {
+      "sanskrit": "धारयन्ति",
+      "meaning": "uphold"
+    },
+    {
+      "sanskrit": "पत्नी",
+      "meaning": "mistress, protector"
+    },
+    {
+      "sanskrit": "उरुं लोकम्",
+      "meaning": "wide space"
+    },
+    {
+      "sanskrit": "कृणोतु",
+      "meaning": "may she make"
+    }
+  ]
+}

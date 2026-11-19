@@ -1,0 +1,49 @@
+{
+  "id": "samaveda-1",
+  "number": "Samaveda 1.1",
+  "title": "Come, O Agni",
+  "devanagari": [
+    "अग्न आ याहि वीतये",
+    "गृणानो हव्यदातये।",
+    "नि होता सत्सि बर्हिषि॥"
+  ],
+  "translation": "<b>Come, O Agni</b>, to the feast, praised in song, to carry the offerings. Sit down as invoker on the <b>sacred grass</b>.",
+  "translation_hi": "हे अग्नि, भोज के लिए आओ, स्तुति किए जाते हुए, हवि को पहुँचाने के लिए। होता के रूप में पवित्र कुश पर बैठो।",
+  "words": [
+    {
+      "sanskrit": "अग्ने",
+      "meaning": "O Agni"
+    },
+    {
+      "sanskrit": "आ याहि",
+      "meaning": "come"
+    },
+    {
+      "sanskrit": "वीतये",
+      "meaning": "to the feast"
+    },
+    {
+      "sanskrit": "गृणानः",
+      "meaning": "being praised"
+    },
+    {
+      "sanskrit": "हव्यदातये",
+      "meaning": "to carry the offerings"
+    },
+    {
+      "sanskrit": "नि सत्सि",
+      "meaning": "sit down"
+    },
+    {
+      "sanskrit": "होता",
+      "meaning": "as invoker"
+    },
+    {
+      "sanskrit": "बर्हिषि",
+      "meaning": "on the sacred grass"
+    }
+  ],
+  "science": [
+    "The Samaveda is the Veda of melody: its verses, mostly taken from the Rigveda, are set to music. Indian classical music traces its seven notes (sa re ga ma) back to Saman chanting."
+  ]
+}

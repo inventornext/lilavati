@@ -1,0 +1,47 @@
+{
+  "id": "rigveda-26",
+  "number": "Purusha Sukta · Rigveda 10.90.8",
+  "title": "The Birds and Beasts",
+  "devanagari": [
+    "तस्माद्यज्ञात्सर्वहुतः",
+    "सम्भृतं पृषदाज्यम्।",
+    "पशून्ताँश्चक्रे वायव्या-",
+    "नारण्यान्ग्राम्याश्च ये॥"
+  ],
+  "translation": "From that sacrifice, fully offered, the clotted ghee was gathered. He made the <b>creatures of the air</b>, and the animals of the <b>forest and the village</b>.",
+  "translation_hi": "उस सर्वहुत यज्ञ से दही मिला घी एकत्र हुआ। उससे वायु में रहने वाले, वन के और गाँव के पशु बने।",
+  "words": [
+    {
+      "sanskrit": "सर्वहुतः",
+      "meaning": "fully offered"
+    },
+    {
+      "sanskrit": "सम्भृतम्",
+      "meaning": "gathered"
+    },
+    {
+      "sanskrit": "पृषदाज्यम्",
+      "meaning": "clotted ghee"
+    },
+    {
+      "sanskrit": "पशून्",
+      "meaning": "animals"
+    },
+    {
+      "sanskrit": "चक्रे",
+      "meaning": "he made"
+    },
+    {
+      "sanskrit": "वायव्यान्",
+      "meaning": "of the air"
+    },
+    {
+      "sanskrit": "आरण्यान्",
+      "meaning": "of the forest"
+    },
+    {
+      "sanskrit": "ग्राम्याः",
+      "meaning": "of the village"
+    }
+  ]
+}

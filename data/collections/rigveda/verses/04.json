@@ -1,0 +1,42 @@
+{
+  "id": "rigveda-4",
+  "number": "Agni Sukta · Rigveda 1.1.2",
+  "title": "Praised by Old and New Seers",
+  "devanagari": [
+    "अग्निः पूर्वेभिरृषिभि-",
+    "रीड्यो नूतनैरुत।",
+    "स देवाँ एह वक्षति॥"
+  ],
+  "translation": "Agni, worthy to be praised by the <b>ancient seers</b> and by the <b>new</b> ones: may he bring the gods here.",
+  "translation_hi": "अग्नि प्राचीन ऋषियों और नए ऋषियों द्वारा भी स्तुति योग्य हैं। वे देवताओं को यहाँ लाएँ।",
+  "words": [
+    {
+      "sanskrit": "पूर्वेभिः ऋषिभिः",
+      "meaning": "by the ancient seers"
+    },
+    {
+      "sanskrit": "ईड्यः",
+      "meaning": "worthy to be praised"
+    },
+    {
+      "sanskrit": "नूतनैः",
+      "meaning": "by the new ones"
+    },
+    {
+      "sanskrit": "उत",
+      "meaning": "and also"
+    },
+    {
+      "sanskrit": "देवान्",
+      "meaning": "the gods"
+    },
+    {
+      "sanskrit": "इह",
+      "meaning": "here"
+    },
+    {
+      "sanskrit": "वक्षति",
+      "meaning": "may he bring"
+    }
+  ]
+}

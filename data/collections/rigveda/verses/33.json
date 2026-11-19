@@ -1,0 +1,39 @@
+{
+  "id": "rigveda-33",
+  "number": "Purusha Sukta · Rigveda 10.90.15",
+  "title": "Seven Enclosures",
+  "devanagari": [
+    "सप्तास्यासन्परिधय-",
+    "स्त्रिः सप्त समिधः कृताः।",
+    "देवा यद्यज्ञं तन्वाना",
+    "अबध्नन्पुरुषं पशुम्॥"
+  ],
+  "translation": "Seven were its <b>enclosing sticks</b>, thrice seven its <b>fuel sticks</b>, when the gods, performing the sacrifice, bound the Purusha as the offering.",
+  "translation_hi": "उसकी सात परिधियाँ थीं और तीन गुना सात समिधाएँ बनाई गईं, जब देवताओं ने यज्ञ करते हुए पुरुष को पशु रूप में बाँधा।",
+  "words": [
+    {
+      "sanskrit": "सप्त",
+      "meaning": "seven"
+    },
+    {
+      "sanskrit": "परिधयः",
+      "meaning": "enclosing sticks"
+    },
+    {
+      "sanskrit": "त्रिः सप्त",
+      "meaning": "three times seven (21)"
+    },
+    {
+      "sanskrit": "समिधः",
+      "meaning": "fuel sticks"
+    },
+    {
+      "sanskrit": "तन्वानाः",
+      "meaning": "performing"
+    },
+    {
+      "sanskrit": "अबध्नन्",
+      "meaning": "they bound"
+    }
+  ]
+}

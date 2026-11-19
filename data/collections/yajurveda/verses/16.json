@@ -1,0 +1,50 @@
+{
+  "id": "yajurveda-16",
+  "number": "Isha Upanishad 15 · Yajurveda 40.15",
+  "title": "The Golden Lid",
+  "devanagari": [
+    "हिरण्मयेन पात्रेण",
+    "सत्यस्यापिहितं मुखम्।",
+    "तत्त्वं पूषन्नपावृणु",
+    "सत्यधर्माय दृष्टये॥"
+  ],
+  "translation": "The <b>face of Truth is covered by a golden lid</b>. O Pushan, remove it, so that I, devoted to truth, may see.",
+  "translation_hi": "सत्य का मुख सुनहरे पात्र से ढका है। हे पूषन्, उसे हटा दो, ताकि मैं, जो सत्य धर्म वाला हूँ, उसे देख सकूँ।",
+  "words": [
+    {
+      "sanskrit": "हिरण्मयेन",
+      "meaning": "golden"
+    },
+    {
+      "sanskrit": "पात्रेण",
+      "meaning": "by a lid, vessel"
+    },
+    {
+      "sanskrit": "सत्यस्य",
+      "meaning": "of Truth"
+    },
+    {
+      "sanskrit": "अपिहितम्",
+      "meaning": "covered"
+    },
+    {
+      "sanskrit": "मुखम्",
+      "meaning": "face"
+    },
+    {
+      "sanskrit": "पूषन्",
+      "meaning": "O Pushan (the sun as nourisher)"
+    },
+    {
+      "sanskrit": "अपावृणु",
+      "meaning": "uncover"
+    },
+    {
+      "sanskrit": "दृष्टये",
+      "meaning": "so that I may see"
+    }
+  ],
+  "science": [
+    "The 'golden lid' is the dazzling disc of the sun, too bright to look at directly. Astronomers study the sun's outer layers only when that glare is blocked, as during a total eclipse or with a coronagraph."
+  ]
+}

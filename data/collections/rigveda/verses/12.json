@@ -1,0 +1,66 @@
+{
+  "id": "rigveda-12",
+  "number": "Nasadiya Sukta · Rigveda 10.129.1",
+  "title": "Neither Being nor Non-being",
+  "devanagari": [
+    "नासदासीन्नो सदासीत्तदानीं",
+    "नासीद्रजो नो व्योमा परो यत्।",
+    "किमावरीवः कुह कस्य शर्म-",
+    "न्नम्भः किमासीद्गहनं गभीरम्॥"
+  ],
+  "translation": "Then there was <b>neither non-being nor being</b>; there was no air, nor sky beyond it. What covered it all? Where? In whose protection? Was there <b>water, deep and unfathomable</b>?",
+  "translation_hi": "तब न असत् था, न सत् था; न वायु था, न उसके परे आकाश। सबको किसने ढका था? कहाँ? किसके आश्रय में? क्या गहरा, अथाह जल था?",
+  "words": [
+    {
+      "sanskrit": "न असत्",
+      "meaning": "not non-being"
+    },
+    {
+      "sanskrit": "आसीत्",
+      "meaning": "was"
+    },
+    {
+      "sanskrit": "न सत्",
+      "meaning": "not being"
+    },
+    {
+      "sanskrit": "तदानीम्",
+      "meaning": "then"
+    },
+    {
+      "sanskrit": "रजः",
+      "meaning": "air, space"
+    },
+    {
+      "sanskrit": "व्योम",
+      "meaning": "sky"
+    },
+    {
+      "sanskrit": "किम्",
+      "meaning": "what"
+    },
+    {
+      "sanskrit": "आवरीवः",
+      "meaning": "covered"
+    },
+    {
+      "sanskrit": "कुह",
+      "meaning": "where"
+    },
+    {
+      "sanskrit": "शर्मन्",
+      "meaning": "in protection"
+    },
+    {
+      "sanskrit": "अम्भः",
+      "meaning": "water"
+    },
+    {
+      "sanskrit": "गहनम् गभीरम्",
+      "meaning": "deep, unfathomable"
+    }
+  ],
+  "science": [
+    "The Nasadiya Sukta asks what existed before the universe, the same question cosmology asks about the moment before the Big Bang."
+  ]
+}

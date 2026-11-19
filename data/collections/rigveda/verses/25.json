@@ -1,0 +1,39 @@
+{
+  "id": "rigveda-25",
+  "number": "Purusha Sukta · Rigveda 10.90.7",
+  "title": "The First Sacrifice",
+  "devanagari": [
+    "तं यज्ञं बर्हिषि प्रौक्ष-",
+    "न्पुरुषं जातमग्रतः।",
+    "तेन देवा अयजन्त",
+    "साध्या ऋषयश्च ये॥"
+  ],
+  "translation": "They sprinkled on the sacred grass that sacrifice, the Purusha, born <b>in the beginning</b>. With him the gods, the Sadhyas and the seers performed the sacrifice.",
+  "translation_hi": "उन्होंने उस यज्ञ रूप पुरुष को, जो आरंभ में उत्पन्न हुआ, कुश पर अभिषिक्त किया। उसके द्वारा देवताओं, साध्यों और ऋषियों ने यज्ञ किया।",
+  "words": [
+    {
+      "sanskrit": "बर्हिषि",
+      "meaning": "on the sacred grass"
+    },
+    {
+      "sanskrit": "प्रौक्षन्",
+      "meaning": "they sprinkled"
+    },
+    {
+      "sanskrit": "अग्रतः",
+      "meaning": "in the beginning"
+    },
+    {
+      "sanskrit": "अयजन्त",
+      "meaning": "they sacrificed"
+    },
+    {
+      "sanskrit": "साध्याः",
+      "meaning": "the Sadhyas, a class of gods"
+    },
+    {
+      "sanskrit": "ऋषयः",
+      "meaning": "seers"
+    }
+  ]
+}

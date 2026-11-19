@@ -1,0 +1,51 @@
+{
+  "id": "rigveda-19",
+  "number": "Purusha Sukta · Rigveda 10.90.1",
+  "title": "The Thousand-headed Purusha",
+  "devanagari": [
+    "सहस्रशीर्षा पुरुषः",
+    "सहस्राक्षः सहस्रपात्।",
+    "स भूमिं विश्वतो वृत्वा",
+    "ऽत्यतिष्ठद्दशाङ्गुलम्॥"
+  ],
+  "translation": "The <b>Purusha</b> has a thousand heads, a thousand eyes, a thousand feet. Covering the earth on all sides, he extends <b>ten fingers beyond it</b>.",
+  "translation_hi": "पुरुष के हजारों सिर, हजारों आँखें और हजारों पैर हैं। वह पृथ्वी को चारों ओर से ढककर उससे दस अंगुल आगे भी स्थित है।",
+  "words": [
+    {
+      "sanskrit": "सहस्रशीर्षा",
+      "meaning": "thousand-headed"
+    },
+    {
+      "sanskrit": "पुरुषः",
+      "meaning": "the cosmic Person"
+    },
+    {
+      "sanskrit": "सहस्राक्षः",
+      "meaning": "thousand-eyed"
+    },
+    {
+      "sanskrit": "सहस्रपात्",
+      "meaning": "thousand-footed"
+    },
+    {
+      "sanskrit": "भूमिम्",
+      "meaning": "the earth"
+    },
+    {
+      "sanskrit": "विश्वतः",
+      "meaning": "on all sides"
+    },
+    {
+      "sanskrit": "वृत्वा",
+      "meaning": "having covered"
+    },
+    {
+      "sanskrit": "अत्यतिष्ठत्",
+      "meaning": "stood beyond"
+    },
+    {
+      "sanskrit": "दशाङ्गुलम्",
+      "meaning": "by ten fingers"
+    }
+  ]
+}

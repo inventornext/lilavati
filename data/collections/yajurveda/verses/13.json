@@ -1,0 +1,27 @@
+{
+  "id": "yajurveda-13",
+  "number": "Isha Upanishad 12 · Yajurveda 40.12",
+  "title": "The Manifest and the Unmanifest",
+  "devanagari": [
+    "अन्धं तमः प्रविशन्ति",
+    "येऽसम्भूतिमुपासते।",
+    "ततो भूय इव ते तमो",
+    "य उ सम्भूत्यां रताः॥"
+  ],
+  "translation": "Those who worship the <b>unmanifest</b> enter blind darkness. Those who delight only in the <b>manifest</b> enter a darkness greater still.",
+  "translation_hi": "जो असंभूति (अव्यक्त) की उपासना करते हैं, वे घने अंधकार में प्रवेश करते हैं। और जो केवल संभूति (व्यक्त) में रत हैं, वे उससे भी अधिक अंधकार में।",
+  "words": [
+    {
+      "sanskrit": "असम्भूतिम्",
+      "meaning": "the unmanifest"
+    },
+    {
+      "sanskrit": "सम्भूत्याम्",
+      "meaning": "in the manifest"
+    },
+    {
+      "sanskrit": "रताः",
+      "meaning": "delighting"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "yajurveda-1",
+  "number": "Shanti Mantra",
+  "title": "Om, That Is Full",
+  "devanagari": [
+    "ॐ पूर्णमदः पूर्णमिदं",
+    "पूर्णात्पूर्णमुदच्यते।",
+    "पूर्णस्य पूर्णमादाय",
+    "पूर्णमेवावशिष्यते॥",
+    "ॐ शान्तिः शान्तिः शान्तिः॥"
+  ],
+  "translation": "<b>That is full; this is full.</b> From the full, the full arises. When the full is taken from the full, <b>the full alone remains</b>. Om, peace, peace, peace.",
+  "translation_hi": "वह पूर्ण है, यह पूर्ण है। पूर्ण से पूर्ण उत्पन्न होता है। पूर्ण में से पूर्ण निकाल लेने पर भी पूर्ण ही शेष रहता है। ॐ शांति, शांति, शांति।",
+  "words": [
+    {
+      "sanskrit": "पूर्णम्",
+      "meaning": "full, complete, infinite"
+    },
+    {
+      "sanskrit": "अदः",
+      "meaning": "that"
+    },
+    {
+      "sanskrit": "इदम्",
+      "meaning": "this"
+    },
+    {
+      "sanskrit": "पूर्णात्",
+      "meaning": "from the full"
+    },
+    {
+      "sanskrit": "उदच्यते",
+      "meaning": "arises"
+    },
+    {
+      "sanskrit": "आदाय",
+      "meaning": "having taken"
+    },
+    {
+      "sanskrit": "एव",
+      "meaning": "alone"
+    },
+    {
+      "sanskrit": "अवशिष्यते",
+      "meaning": "remains"
+    }
+  ],
+  "science": [
+    "In mathematics this is true of infinity. Take all the even numbers away from all the whole numbers, and the odd numbers that remain are still infinitely many: ∞ − ∞ can still be ∞."
+  ]
+}

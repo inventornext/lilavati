@@ -1,0 +1,45 @@
+{
+  "id": "rigveda-10",
+  "number": "Agni Sukta · Rigveda 1.1.8",
+  "title": "Guardian of Cosmic Order",
+  "devanagari": [
+    "राजन्तमध्वराणां",
+    "गोपामृतस्य दीदिविम्।",
+    "वर्धमानं स्वे दमे॥"
+  ],
+  "translation": "To you, <b>ruling over the rites</b>, the shining <b>guardian of Rita</b>, the cosmic order, growing in your own home.",
+  "translation_hi": "आप यज्ञों के राजा हैं, ऋत (सत्य और व्यवस्था) के चमकते रक्षक हैं, और अपने ही घर में बढ़ते हैं।",
+  "words": [
+    {
+      "sanskrit": "राजन्तम्",
+      "meaning": "ruling, shining"
+    },
+    {
+      "sanskrit": "अध्वराणाम्",
+      "meaning": "of the rites"
+    },
+    {
+      "sanskrit": "गोपाम्",
+      "meaning": "guardian"
+    },
+    {
+      "sanskrit": "ऋतस्य",
+      "meaning": "of Rita, the cosmic order"
+    },
+    {
+      "sanskrit": "दीदिविम्",
+      "meaning": "shining"
+    },
+    {
+      "sanskrit": "वर्धमानम्",
+      "meaning": "growing"
+    },
+    {
+      "sanskrit": "स्वे दमे",
+      "meaning": "in his own home"
+    }
+  ],
+  "science": [
+    "Rita (ऋत) is the Vedic idea of a lawful, ordered universe: the same regularity that lets science find laws of nature."
+  ]
+}

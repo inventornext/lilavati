@@ -1,0 +1,47 @@
+{
+  "id": "rigveda-21",
+  "number": "Purusha Sukta · Rigveda 10.90.3",
+  "title": "One Quarter Is the World",
+  "devanagari": [
+    "एतावानस्य महिमा",
+    "ऽतो ज्यायाँश्च पूरुषः।",
+    "पादोऽस्य विश्वा भूतानि",
+    "त्रिपादस्यामृतं दिवि॥"
+  ],
+  "translation": "Such is his greatness, and the Purusha is greater still. <b>All beings are one quarter</b> of him; <b>three quarters</b> are immortal, in heaven.",
+  "translation_hi": "इतनी उसकी महिमा है, और पुरुष इससे भी महान है। सब प्राणी उसका एक पाद हैं; उसके तीन पाद अमर हैं, स्वर्ग में।",
+  "words": [
+    {
+      "sanskrit": "एतावान्",
+      "meaning": "so great"
+    },
+    {
+      "sanskrit": "महिमा",
+      "meaning": "greatness"
+    },
+    {
+      "sanskrit": "ज्यायान्",
+      "meaning": "greater"
+    },
+    {
+      "sanskrit": "पादः",
+      "meaning": "one quarter"
+    },
+    {
+      "sanskrit": "विश्वा भूतानि",
+      "meaning": "all beings"
+    },
+    {
+      "sanskrit": "त्रिपात्",
+      "meaning": "three quarters"
+    },
+    {
+      "sanskrit": "अमृतम्",
+      "meaning": "immortal"
+    },
+    {
+      "sanskrit": "दिवि",
+      "meaning": "in heaven"
+    }
+  ]
+}

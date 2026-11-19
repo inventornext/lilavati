@@ -1,0 +1,46 @@
+{
+  "id": "rigveda-6",
+  "number": "Agni Sukta · Rigveda 1.1.4",
+  "title": "The Sacrifice Reaches the Gods",
+  "devanagari": [
+    "अग्ने यं यज्ञमध्वरं",
+    "विश्वतः परिभूरसि।",
+    "स इद्देवेषु गच्छति॥"
+  ],
+  "translation": "O Agni, the sacrifice that you <b>surround on every side</b>, that alone goes to the gods.",
+  "translation_hi": "हे अग्नि, जिस यज्ञ को आप चारों ओर से घेर लेते हैं, वही देवताओं तक पहुँचता है।",
+  "words": [
+    {
+      "sanskrit": "अग्ने",
+      "meaning": "O Agni"
+    },
+    {
+      "sanskrit": "यम् यज्ञम्",
+      "meaning": "the sacrifice which"
+    },
+    {
+      "sanskrit": "अध्वरम्",
+      "meaning": "the unharmed rite"
+    },
+    {
+      "sanskrit": "विश्वतः",
+      "meaning": "from all sides"
+    },
+    {
+      "sanskrit": "परिभूः असि",
+      "meaning": "you surround"
+    },
+    {
+      "sanskrit": "इत्",
+      "meaning": "indeed, alone"
+    },
+    {
+      "sanskrit": "देवेषु",
+      "meaning": "to the gods"
+    },
+    {
+      "sanskrit": "गच्छति",
+      "meaning": "goes"
+    }
+  ]
+}

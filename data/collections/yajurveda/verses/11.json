@@ -1,0 +1,43 @@
+{
+  "id": "yajurveda-11",
+  "number": "Isha Upanishad 10 · Yajurveda 40.10",
+  "title": "Two Different Results",
+  "devanagari": [
+    "अन्यदेवाहुर्विद्यया",
+    "ऽन्यदाहुरविद्यया।",
+    "इति शुश्रुम धीराणां",
+    "ये नस्तद्विचचक्षिरे॥"
+  ],
+  "translation": "One result, they say, comes from <b>knowledge</b>, and another from <b>ignorance</b>. So we have heard from the wise who explained it to us.",
+  "translation_hi": "कहते हैं विद्या से एक फल मिलता है और अविद्या से दूसरा। ऐसा हमने उन धीर पुरुषों से सुना है जिन्होंने हमें यह समझाया।",
+  "words": [
+    {
+      "sanskrit": "अन्यत्",
+      "meaning": "different"
+    },
+    {
+      "sanskrit": "आहुः",
+      "meaning": "they say"
+    },
+    {
+      "sanskrit": "विद्यया",
+      "meaning": "from knowledge"
+    },
+    {
+      "sanskrit": "अविद्यया",
+      "meaning": "from ignorance"
+    },
+    {
+      "sanskrit": "शुश्रुम",
+      "meaning": "we have heard"
+    },
+    {
+      "sanskrit": "धीराणाम्",
+      "meaning": "of the wise"
+    },
+    {
+      "sanskrit": "विचचक्षिरे",
+      "meaning": "explained"
+    }
+  ]
+}

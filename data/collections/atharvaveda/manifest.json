@@ -1,0 +1,19 @@
+{
+  "id": "atharvaveda",
+  "kind": "stotra",
+  "group": "Veda",
+  "title": "Atharvaveda",
+  "title_deva": "अथर्ववेद",
+  "author": "The Veda of daily life",
+  "intro": "The Veda of everyday life: healing, home, kingship and the Earth. Its twelfth book opens with the Bhumi Sukta, 63 verses in praise of Mother Earth, including the famous <span class='dv'>माता भूमिः पुत्रो अहं पृथिव्याः</span>. Five of its best-known verses are given here.",
+  "note": "Selected verses of the Bhumi Sukta (Atharvaveda 12.1). The Mandukya Upanishad on this site also belongs to the Atharvaveda. Vedic accent marks are not shown.",
+  "opening": "॥ अथर्ववेदः ॥",
+  "closing": "॥ इति अथर्ववेदात् ॥",
+  "verses": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+  ]
+}

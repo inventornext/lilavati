@@ -1,0 +1,50 @@
+{
+  "id": "atharvaveda-3",
+  "number": "Bhumi Sukta · Atharvaveda 12.1.35",
+  "title": "May I Not Hurt Your Heart",
+  "devanagari": [
+    "यत्ते भूमे विखनामि",
+    "क्षिप्रं तदपि रोहतु।",
+    "मा ते मर्म विमृग्वरि",
+    "मा ते हृदयमर्पिपम्॥"
+  ],
+  "translation": "O Earth, <b>whatever I dig from you, may it quickly grow back</b>. O purifier, may I not strike your vital points; <b>may I not hurt your heart</b>.",
+  "translation_hi": "हे भूमि, मैं तुमसे जो कुछ खोदूँ, वह शीघ्र फिर उग आए। हे पवित्र करने वाली, मैं तुम्हारे मर्मस्थल को आघात न पहुँचाऊँ, तुम्हारे हृदय को चोट न पहुँचाऊँ।",
+  "words": [
+    {
+      "sanskrit": "भूमे",
+      "meaning": "O Earth"
+    },
+    {
+      "sanskrit": "विखनामि",
+      "meaning": "I dig out"
+    },
+    {
+      "sanskrit": "क्षिप्रम्",
+      "meaning": "quickly"
+    },
+    {
+      "sanskrit": "रोहतु",
+      "meaning": "may it grow back"
+    },
+    {
+      "sanskrit": "मर्म",
+      "meaning": "vital point"
+    },
+    {
+      "sanskrit": "विमृग्वरि",
+      "meaning": "O purifier"
+    },
+    {
+      "sanskrit": "हृदयम्",
+      "meaning": "heart"
+    },
+    {
+      "sanskrit": "मा अर्पिपम्",
+      "meaning": "may I not hurt"
+    }
+  ],
+  "science": [
+    "An ancient prayer for sustainable use: take from the Earth only what can regrow. It is the core idea of soil conservation and responsible mining today."
+  ]
+}

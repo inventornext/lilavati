@@ -1,0 +1,60 @@
+{
+  "id": "yajurveda-21",
+  "number": "Shanti Mantra · Taittiriya Upanishad",
+  "title": "May We Study Together",
+  "devanagari": [
+    "ॐ सह नाववतु।",
+    "सह नौ भुनक्तु।",
+    "सह वीर्यं करवावहै।",
+    "तेजस्वि नावधीतमस्तु",
+    "मा विद्विषावहै॥",
+    "ॐ शान्तिः शान्तिः शान्तिः॥"
+  ],
+  "translation": "Om. May he <b>protect us both</b> together. May he nourish us both together. May we <b>work together with energy</b>. May our study be <b>brilliant</b>. May we <b>never hate each other</b>. Om, peace, peace, peace.",
+  "translation_hi": "ॐ। वह हम दोनों (गुरु और शिष्य) की साथ साथ रक्षा करे। हम दोनों का साथ साथ पोषण करे। हम साथ मिलकर पराक्रम करें। हमारा अध्ययन तेजस्वी हो। हम कभी एक दूसरे से द्वेष न करें। ॐ शांति, शांति, शांति।",
+  "words": [
+    {
+      "sanskrit": "सह",
+      "meaning": "together"
+    },
+    {
+      "sanskrit": "नौ",
+      "meaning": "us both (teacher and student)"
+    },
+    {
+      "sanskrit": "अवतु",
+      "meaning": "may he protect"
+    },
+    {
+      "sanskrit": "भुनक्तु",
+      "meaning": "may he nourish"
+    },
+    {
+      "sanskrit": "वीर्यम्",
+      "meaning": "energy, effort"
+    },
+    {
+      "sanskrit": "करवावहै",
+      "meaning": "may we do"
+    },
+    {
+      "sanskrit": "तेजस्वि",
+      "meaning": "brilliant"
+    },
+    {
+      "sanskrit": "अधीतम्",
+      "meaning": "what is studied"
+    },
+    {
+      "sanskrit": "अस्तु",
+      "meaning": "may it be"
+    },
+    {
+      "sanskrit": "मा विद्विषावहै",
+      "meaning": "may we not hate each other"
+    }
+  ],
+  "science": [
+    "This is the classic prayer before study, for teacher and student together. It describes what good research groups still aim for: shared effort, brilliant work, and no rivalry."
+  ]
+}

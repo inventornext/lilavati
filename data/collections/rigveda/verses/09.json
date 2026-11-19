@@ -1,0 +1,46 @@
+{
+  "id": "rigveda-9",
+  "number": "Agni Sukta · Rigveda 1.1.7",
+  "title": "We Come Day and Night",
+  "devanagari": [
+    "उप त्वाग्ने दिवेदिवे",
+    "दोषावस्तर्धिया वयम्।",
+    "नमो भरन्त एमसि॥"
+  ],
+  "translation": "To you, O Agni, <b>day after day</b>, in the <b>evening and the morning</b>, we come with our thoughts, <b>bringing reverence</b>.",
+  "translation_hi": "हे अग्नि, हम दिन प्रतिदिन, संध्या और प्रातः, अपनी बुद्धि से नमस्कार लेकर आपके पास आते हैं।",
+  "words": [
+    {
+      "sanskrit": "उप",
+      "meaning": "near, towards"
+    },
+    {
+      "sanskrit": "त्वा",
+      "meaning": "you"
+    },
+    {
+      "sanskrit": "दोषावस्तः",
+      "meaning": "evening and morning"
+    },
+    {
+      "sanskrit": "धिया",
+      "meaning": "with thought"
+    },
+    {
+      "sanskrit": "वयम्",
+      "meaning": "we"
+    },
+    {
+      "sanskrit": "नमः",
+      "meaning": "reverence"
+    },
+    {
+      "sanskrit": "भरन्तः",
+      "meaning": "bringing"
+    },
+    {
+      "sanskrit": "एमसि",
+      "meaning": "we come"
+    }
+  ]
+}

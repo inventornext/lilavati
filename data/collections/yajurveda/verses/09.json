@@ -1,0 +1,55 @@
+{
+  "id": "yajurveda-9",
+  "number": "Isha Upanishad 8 · Yajurveda 40.8",
+  "title": "Bright, Bodiless, Pure",
+  "devanagari": [
+    "स पर्यगाच्छुक्रमकाय-",
+    "मव्रणमस्नाविरं शुद्धमपापविद्धम्।",
+    "कविर्मनीषी परिभूः स्वयम्भू-",
+    "र्याथातथ्यतोऽर्थान्व्यदधाच्छाश्वतीभ्यः समाभ्यः॥"
+  ],
+  "translation": "He is everywhere: <b>bright, bodiless</b>, without wound, without sinews, <b>pure</b>, untouched by evil. The seer, the wise, the all-encompassing, the <b>self-existent</b>, he has arranged all things rightly for endless years.",
+  "translation_hi": "वह सर्वव्यापी है: तेजस्वी, शरीररहित, घावरहित, नसरहित, शुद्ध और पाप से अछूता। वह द्रष्टा, मनीषी, सबको घेरने वाला और स्वयंभू है, जिसने अनंत काल के लिए सब वस्तुओं को यथोचित रचा।",
+  "words": [
+    {
+      "sanskrit": "पर्यगात्",
+      "meaning": "pervades everywhere"
+    },
+    {
+      "sanskrit": "शुक्रम्",
+      "meaning": "bright"
+    },
+    {
+      "sanskrit": "अकायम्",
+      "meaning": "bodiless"
+    },
+    {
+      "sanskrit": "अव्रणम्",
+      "meaning": "without wound"
+    },
+    {
+      "sanskrit": "शुद्धम्",
+      "meaning": "pure"
+    },
+    {
+      "sanskrit": "अपापविद्धम्",
+      "meaning": "untouched by evil"
+    },
+    {
+      "sanskrit": "कविः",
+      "meaning": "seer"
+    },
+    {
+      "sanskrit": "मनीषी",
+      "meaning": "wise"
+    },
+    {
+      "sanskrit": "स्वयम्भूः",
+      "meaning": "self-existent"
+    },
+    {
+      "sanskrit": "शाश्वतीभ्यः समाभ्यः",
+      "meaning": "for endless years"
+    }
+  ]
+}

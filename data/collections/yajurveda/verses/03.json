@@ -1,0 +1,51 @@
+{
+  "id": "yajurveda-3",
+  "number": "Isha Upanishad 2 · Yajurveda 40.2",
+  "title": "Live a Hundred Years, Working",
+  "devanagari": [
+    "कुर्वन्नेवेह कर्माणि",
+    "जिजीविषेच्छतं समाः।",
+    "एवं त्वयि नान्यथेतोऽस्ति",
+    "न कर्म लिप्यते नरे॥"
+  ],
+  "translation": "<b>Doing your work here</b>, wish to live a <b>hundred years</b>. For you there is no other way than this: so work does not cling to a person.",
+  "translation_hi": "यहाँ कर्म करते हुए ही सौ वर्ष जीने की इच्छा करो। तुम्हारे लिए इसके सिवा कोई और मार्ग नहीं है; इस प्रकार कर्म मनुष्य से नहीं चिपकता।",
+  "words": [
+    {
+      "sanskrit": "कुर्वन्",
+      "meaning": "doing"
+    },
+    {
+      "sanskrit": "इह",
+      "meaning": "here"
+    },
+    {
+      "sanskrit": "कर्माणि",
+      "meaning": "works, actions"
+    },
+    {
+      "sanskrit": "जिजीविषेत्",
+      "meaning": "should wish to live"
+    },
+    {
+      "sanskrit": "शतं समाः",
+      "meaning": "a hundred years"
+    },
+    {
+      "sanskrit": "एवम्",
+      "meaning": "thus"
+    },
+    {
+      "sanskrit": "न अन्यथा",
+      "meaning": "not otherwise"
+    },
+    {
+      "sanskrit": "लिप्यते",
+      "meaning": "clings"
+    },
+    {
+      "sanskrit": "नरे",
+      "meaning": "to a person"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "yajurveda-8",
+  "number": "Isha Upanishad 7 · Yajurveda 40.7",
+  "title": "No Grief in Oneness",
+  "devanagari": [
+    "यस्मिन्सर्वाणि भूतान्या-",
+    "त्मैवाभूद्विजानतः।",
+    "तत्र को मोहः कः शोक",
+    "एकत्वमनुपश्यतः॥"
+  ],
+  "translation": "For one who knows that <b>all beings have become the Self</b>, what delusion, what grief can there be, for one who sees this <b>oneness</b>?",
+  "translation_hi": "जिसके लिए सब प्राणी आत्मा ही हो गए हैं, उस एकता को देखने वाले ज्ञानी के लिए क्या मोह और क्या शोक?",
+  "words": [
+    {
+      "sanskrit": "यस्मिन्",
+      "meaning": "in whom"
+    },
+    {
+      "sanskrit": "आत्मा एव अभूत्",
+      "meaning": "became the Self alone"
+    },
+    {
+      "sanskrit": "विजानतः",
+      "meaning": "of the knower"
+    },
+    {
+      "sanskrit": "मोहः",
+      "meaning": "delusion"
+    },
+    {
+      "sanskrit": "शोकः",
+      "meaning": "grief"
+    },
+    {
+      "sanskrit": "एकत्वम्",
+      "meaning": "oneness"
+    },
+    {
+      "sanskrit": "अनुपश्यतः",
+      "meaning": "of one who sees"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "rigveda-18",
+  "number": "Nasadiya Sukta · Rigveda 10.129.7",
+  "title": "Perhaps Even He Does Not Know",
+  "devanagari": [
+    "इयं विसृष्टिर्यत आबभूव",
+    "यदि वा दधे यदि वा न।",
+    "यो अस्याध्यक्षः परमे व्योम-",
+    "न्सो अङ्ग वेद यदि वा न वेद॥"
+  ],
+  "translation": "From where this creation arose, whether it was made or not, <b>he who watches over it in the highest heaven</b>, he surely knows. <b>Or perhaps he does not know.</b>",
+  "translation_hi": "यह सृष्टि जहाँ से उत्पन्न हुई, चाहे किसी ने इसे बनाया हो या न बनाया हो, जो परम आकाश में इसका अध्यक्ष है, वह निश्चय ही जानता है। या शायद वह भी नहीं जानता।",
+  "words": [
+    {
+      "sanskrit": "इयम्",
+      "meaning": "this"
+    },
+    {
+      "sanskrit": "यतः",
+      "meaning": "from where"
+    },
+    {
+      "sanskrit": "दधे",
+      "meaning": "made, established"
+    },
+    {
+      "sanskrit": "यदि वा न",
+      "meaning": "or if not"
+    },
+    {
+      "sanskrit": "अध्यक्षः",
+      "meaning": "overseer"
+    },
+    {
+      "sanskrit": "परमे व्योमन्",
+      "meaning": "in the highest heaven"
+    },
+    {
+      "sanskrit": "अङ्ग",
+      "meaning": "surely"
+    },
+    {
+      "sanskrit": "न वेद",
+      "meaning": "does not know"
+    }
+  ],
+  "science": [
+    "The hymn ends with honest uncertainty. That humility, admitting what we do not know, is also the starting point of science."
+  ]
+}

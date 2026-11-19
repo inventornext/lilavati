@@ -1,0 +1,58 @@
+{
+  "id": "rigveda-14",
+  "number": "Nasadiya Sukta · Rigveda 10.129.3",
+  "title": "Born of Heat",
+  "devanagari": [
+    "तम आसीत्तमसा गूळ्हमग्रे",
+    "ऽप्रकेतं सलिलं सर्वमा इदम्।",
+    "तुच्छ्येनाभ्वपिहितं यदासीत्",
+    "तपसस्तन्महिनाजायतैकम्॥"
+  ],
+  "translation": "In the beginning <b>darkness was hidden by darkness</b>; all this was an undistinguished flood. What was covered by the void, that One was <b>born through the power of heat</b> (tapas).",
+  "translation_hi": "आरंभ में अंधकार अंधकार से ढका था; यह सब बिना पहचान का जल था। जो शून्य से ढका था, वह एक तप की महिमा से उत्पन्न हुआ।",
+  "words": [
+    {
+      "sanskrit": "तमः",
+      "meaning": "darkness"
+    },
+    {
+      "sanskrit": "गूळ्हम्",
+      "meaning": "hidden"
+    },
+    {
+      "sanskrit": "अग्रे",
+      "meaning": "in the beginning"
+    },
+    {
+      "sanskrit": "अप्रकेतम्",
+      "meaning": "without marks"
+    },
+    {
+      "sanskrit": "सलिलम्",
+      "meaning": "flood, water"
+    },
+    {
+      "sanskrit": "तुच्छ्येन",
+      "meaning": "by the void"
+    },
+    {
+      "sanskrit": "अपिहितम्",
+      "meaning": "covered"
+    },
+    {
+      "sanskrit": "तपसः",
+      "meaning": "of heat, austerity"
+    },
+    {
+      "sanskrit": "महिना",
+      "meaning": "by the greatness"
+    },
+    {
+      "sanskrit": "अजायत",
+      "meaning": "was born"
+    }
+  ],
+  "science": [
+    "'Born of heat': modern cosmology also begins with an extremely hot, dense early universe."
+  ]
+}

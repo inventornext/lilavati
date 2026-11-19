@@ -1,0 +1,62 @@
+{
+  "id": "rigveda-1",
+  "number": "Rigveda 3.62.10",
+  "title": "Gayatri Mantra",
+  "devanagari": [
+    "ॐ भूर्भुवः स्वः।",
+    "तत्सवितुर्वरेण्यं",
+    "भर्गो देवस्य धीमहि।",
+    "धियो यो नः प्रचोदयात्॥"
+  ],
+  "translation": "Om. Earth, sky, heaven. We meditate on the <b>adorable radiance</b> of the divine <b>Savitar</b>, the sun. May he <b>inspire our minds</b>.",
+  "translation_hi": "ॐ। भू, भुवः, स्वः। हम सविता देव के उस वरणीय तेज का ध्यान करते हैं। वे हमारी बुद्धि को प्रेरित करें।",
+  "words": [
+    {
+      "sanskrit": "भूः भुवः स्वः",
+      "meaning": "earth, sky, heaven (the three worlds)"
+    },
+    {
+      "sanskrit": "तत्",
+      "meaning": "that"
+    },
+    {
+      "sanskrit": "सवितुः",
+      "meaning": "of Savitar, the sun as giver of life"
+    },
+    {
+      "sanskrit": "वरेण्यम्",
+      "meaning": "adorable, most excellent"
+    },
+    {
+      "sanskrit": "भर्गः",
+      "meaning": "radiance, light"
+    },
+    {
+      "sanskrit": "देवस्य",
+      "meaning": "of the god"
+    },
+    {
+      "sanskrit": "धीमहि",
+      "meaning": "we meditate on"
+    },
+    {
+      "sanskrit": "धियः",
+      "meaning": "minds, thoughts"
+    },
+    {
+      "sanskrit": "यः",
+      "meaning": "who"
+    },
+    {
+      "sanskrit": "नः",
+      "meaning": "our"
+    },
+    {
+      "sanskrit": "प्रचोदयात्",
+      "meaning": "may he inspire, urge on"
+    }
+  ],
+  "science": [
+    "Savitar is the sun as the source of life and energy. Almost all energy on Earth, from food to fossil fuels, wind and solar power, comes from sunlight."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "yajurveda-15",
+  "number": "Isha Upanishad 14 · Yajurveda 40.14",
+  "title": "Creation and Dissolution",
+  "devanagari": [
+    "सम्भूतिं च विनाशं च",
+    "यस्तद्वेदोभयं सह।",
+    "विनाशेन मृत्युं तीर्त्वा",
+    "सम्भूत्यामृतमश्नुते॥"
+  ],
+  "translation": "One who knows <b>both creation and dissolution together</b> crosses death through dissolution and attains immortality through creation.",
+  "translation_hi": "जो संभूति और विनाश दोनों को एक साथ जानता है, वह विनाश से मृत्यु को पार करके संभूति से अमरता प्राप्त करता है।",
+  "words": [
+    {
+      "sanskrit": "सम्भूतिम्",
+      "meaning": "creation, the manifest"
+    },
+    {
+      "sanskrit": "विनाशम्",
+      "meaning": "dissolution"
+    },
+    {
+      "sanskrit": "विनाशेन",
+      "meaning": "through dissolution"
+    },
+    {
+      "sanskrit": "सम्भूत्या",
+      "meaning": "through creation"
+    }
+  ]
+}

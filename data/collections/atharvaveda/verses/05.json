@@ -1,0 +1,55 @@
+{
+  "id": "atharvaveda-5",
+  "number": "Bhumi Sukta · Atharvaveda 12.1.63",
+  "title": "O Mother Earth",
+  "devanagari": [
+    "भूमे मातर्नि धेहि मा",
+    "भद्रया सुप्रतिष्ठितम्।",
+    "संविदाना दिवा कवे",
+    "श्रियां मा धेहि भूत्याम्॥"
+  ],
+  "translation": "<b>O Mother Earth</b>, set me down well established in goodness. In harmony with heaven, O wise one, place me in <b>prosperity and well-being</b>.",
+  "translation_hi": "हे माता भूमि, मुझे कल्याण में भली भाँति स्थापित करो। हे ज्ञानी, आकाश के साथ सामंजस्य रखते हुए मुझे समृद्धि और ऐश्वर्य में स्थापित करो।",
+  "words": [
+    {
+      "sanskrit": "भूमे मातः",
+      "meaning": "O Mother Earth"
+    },
+    {
+      "sanskrit": "नि धेहि",
+      "meaning": "set down"
+    },
+    {
+      "sanskrit": "मा",
+      "meaning": "me"
+    },
+    {
+      "sanskrit": "भद्रया",
+      "meaning": "in goodness"
+    },
+    {
+      "sanskrit": "सुप्रतिष्ठितम्",
+      "meaning": "well established"
+    },
+    {
+      "sanskrit": "संविदाना",
+      "meaning": "in harmony"
+    },
+    {
+      "sanskrit": "दिवा",
+      "meaning": "with heaven"
+    },
+    {
+      "sanskrit": "कवे",
+      "meaning": "O wise one"
+    },
+    {
+      "sanskrit": "श्रियाम्",
+      "meaning": "in prosperity"
+    },
+    {
+      "sanskrit": "भूत्याम्",
+      "meaning": "in well-being"
+    }
+  ]
+}

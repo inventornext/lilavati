@@ -1,0 +1,35 @@
+{
+  "id": "rigveda-27",
+  "number": "Purusha Sukta · Rigveda 10.90.9",
+  "title": "The Vedas Are Born",
+  "devanagari": [
+    "तस्माद्यज्ञात्सर्वहुत",
+    "ऋचः सामानि जज्ञिरे।",
+    "छन्दांसि जज्ञिरे तस्मा-",
+    "द्यजुस्तस्मादजायत॥"
+  ],
+  "translation": "From that sacrifice, fully offered, the <b>Rik verses and the Saman songs</b> were born; the <b>meters</b> were born from it, and the <b>Yajus</b> was born from it.",
+  "translation_hi": "उस सर्वहुत यज्ञ से ऋचाएँ और साम उत्पन्न हुए; उससे छंद उत्पन्न हुए, और उससे यजुः उत्पन्न हुआ।",
+  "words": [
+    {
+      "sanskrit": "ऋचः",
+      "meaning": "the Rik verses (Rigveda)"
+    },
+    {
+      "sanskrit": "सामानि",
+      "meaning": "the Saman songs (Samaveda)"
+    },
+    {
+      "sanskrit": "जज्ञिरे",
+      "meaning": "were born"
+    },
+    {
+      "sanskrit": "छन्दांसि",
+      "meaning": "meters"
+    },
+    {
+      "sanskrit": "यजुः",
+      "meaning": "the Yajus formulas (Yajurveda)"
+    }
+  ]
+}

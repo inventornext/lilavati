@@ -1,0 +1,58 @@
+{
+  "id": "rigveda-2",
+  "number": "Rigveda 7.59.12",
+  "title": "Mahamrityunjaya Mantra",
+  "devanagari": [
+    "त्र्यम्बकं यजामहे",
+    "सुगन्धिं पुष्टिवर्धनम्।",
+    "उर्वारुकमिव बन्धनान्",
+    "मृत्योर्मुक्षीय माऽमृतात्॥"
+  ],
+  "translation": "We worship the <b>three-eyed one</b>, fragrant, who makes all <b>grow and thrive</b>. As a ripe <b>cucumber is freed from its stalk</b>, may I be freed from <b>death</b>, but not from <b>immortality</b>.",
+  "translation_hi": "हम त्रिनेत्र शिव की पूजा करते हैं, जो सुगंधित हैं और पोषण तथा वृद्धि देने वाले हैं। जैसे पका हुआ खरबूजा अपनी बेल के बंधन से छूट जाता है, वैसे ही मैं मृत्यु से मुक्त हो जाऊँ, अमृत से नहीं।",
+  "words": [
+    {
+      "sanskrit": "त्र्यम्बकम्",
+      "meaning": "the three-eyed one (Shiva)"
+    },
+    {
+      "sanskrit": "यजामहे",
+      "meaning": "we worship"
+    },
+    {
+      "sanskrit": "सुगन्धिम्",
+      "meaning": "fragrant"
+    },
+    {
+      "sanskrit": "पुष्टिवर्धनम्",
+      "meaning": "who increases nourishment and growth"
+    },
+    {
+      "sanskrit": "उर्वारुकम्",
+      "meaning": "cucumber, melon"
+    },
+    {
+      "sanskrit": "इव",
+      "meaning": "like"
+    },
+    {
+      "sanskrit": "बन्धनात्",
+      "meaning": "from its bond (the stalk)"
+    },
+    {
+      "sanskrit": "मृत्योः",
+      "meaning": "from death"
+    },
+    {
+      "sanskrit": "मुक्षीय",
+      "meaning": "may I be freed"
+    },
+    {
+      "sanskrit": "मा अमृतात्",
+      "meaning": "not from immortality"
+    }
+  ],
+  "science": [
+    "A ripe fruit falls from its stalk by itself, without force: plants form a special separation layer at the stalk (abscission). The mantra asks for that kind of natural, effortless release."
+  ]
+}

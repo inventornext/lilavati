@@ -1,0 +1,46 @@
+{
+  "id": "rigveda-8",
+  "number": "Agni Sukta · Rigveda 1.1.6",
+  "title": "Your Kindness Is True",
+  "devanagari": [
+    "यदङ्ग दाशुषे त्वम्",
+    "अग्ने भद्रं करिष्यसि।",
+    "तवेत्तत्सत्यमङ्गिरः॥"
+  ],
+  "translation": "O dear Agni, whatever <b>good</b> you will do for the one who gives, that indeed is <b>your truth</b>, O Angiras.",
+  "translation_hi": "हे प्रिय अग्नि, आप दान करने वाले का जो भी भला करेंगे, हे अंगिरा, वह आपका ही सत्य है।",
+  "words": [
+    {
+      "sanskrit": "यत्",
+      "meaning": "whatever"
+    },
+    {
+      "sanskrit": "अङ्ग",
+      "meaning": "dear"
+    },
+    {
+      "sanskrit": "दाशुषे",
+      "meaning": "for the one who gives"
+    },
+    {
+      "sanskrit": "भद्रम्",
+      "meaning": "good"
+    },
+    {
+      "sanskrit": "करिष्यसि",
+      "meaning": "you will do"
+    },
+    {
+      "sanskrit": "तव इत्",
+      "meaning": "yours indeed"
+    },
+    {
+      "sanskrit": "सत्यम्",
+      "meaning": "truth"
+    },
+    {
+      "sanskrit": "अङ्गिरः",
+      "meaning": "O Angiras (a name of Agni)"
+    }
+  ]
+}

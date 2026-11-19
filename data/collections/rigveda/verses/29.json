@@ -1,0 +1,47 @@
+{
+  "id": "rigveda-29",
+  "number": "Purusha Sukta · Rigveda 10.90.11",
+  "title": "How Was He Divided?",
+  "devanagari": [
+    "यत्पुरुषं व्यदधुः",
+    "कतिधा व्यकल्पयन्।",
+    "मुखं किमस्य कौ बाहू",
+    "का ऊरू पादा उच्येते॥"
+  ],
+  "translation": "When they divided the Purusha, <b>into how many parts</b> did they arrange him? What was his mouth? What were his arms? What are called his thighs and feet?",
+  "translation_hi": "जब उन्होंने पुरुष को विभाजित किया, तो कितने भागों में बाँटा? उसका मुख क्या था? उसकी भुजाएँ क्या थीं? उसकी जाँघें और पैर क्या कहे जाते हैं?",
+  "words": [
+    {
+      "sanskrit": "व्यदधुः",
+      "meaning": "they divided"
+    },
+    {
+      "sanskrit": "कतिधा",
+      "meaning": "into how many parts"
+    },
+    {
+      "sanskrit": "व्यकल्पयन्",
+      "meaning": "they arranged"
+    },
+    {
+      "sanskrit": "मुखम्",
+      "meaning": "mouth"
+    },
+    {
+      "sanskrit": "बाहू",
+      "meaning": "the two arms"
+    },
+    {
+      "sanskrit": "ऊरू",
+      "meaning": "the two thighs"
+    },
+    {
+      "sanskrit": "पादा",
+      "meaning": "the feet"
+    },
+    {
+      "sanskrit": "उच्येते",
+      "meaning": "are called"
+    }
+  ]
+}

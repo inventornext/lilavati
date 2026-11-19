@@ -1,0 +1,46 @@
+{
+  "id": "rigveda-3",
+  "number": "Agni Sukta · Rigveda 1.1.1",
+  "title": "I praise Agni",
+  "devanagari": [
+    "अग्निमीळे पुरोहितं",
+    "यज्ञस्य देवमृत्विजम्।",
+    "होतारं रत्नधातमम्॥"
+  ],
+  "translation": "I praise <b>Agni</b>, the household priest, the divine minister of the sacrifice, the invoker, the greatest <b>giver of treasures</b>.",
+  "translation_hi": "मैं अग्नि की स्तुति करता हूँ, जो पुरोहित हैं, यज्ञ के दिव्य ऋत्विज हैं, होता हैं और रत्नों को देने वालों में श्रेष्ठ हैं।",
+  "words": [
+    {
+      "sanskrit": "अग्निम्",
+      "meaning": "Agni, fire"
+    },
+    {
+      "sanskrit": "ईळे",
+      "meaning": "I praise"
+    },
+    {
+      "sanskrit": "पुरोहितम्",
+      "meaning": "placed in front, the priest"
+    },
+    {
+      "sanskrit": "यज्ञस्य",
+      "meaning": "of the sacrifice"
+    },
+    {
+      "sanskrit": "देवम्",
+      "meaning": "divine"
+    },
+    {
+      "sanskrit": "ऋत्विजम्",
+      "meaning": "priest who sacrifices in season"
+    },
+    {
+      "sanskrit": "होतारम्",
+      "meaning": "the invoker"
+    },
+    {
+      "sanskrit": "रत्नधातमम्",
+      "meaning": "best giver of treasures"
+    }
+  ]
+}

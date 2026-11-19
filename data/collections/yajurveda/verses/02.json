@@ -1,0 +1,59 @@
+{
+  "id": "yajurveda-2",
+  "number": "Isha Upanishad 1 · Yajurveda 40.1",
+  "title": "All This Is Pervaded by the Lord",
+  "devanagari": [
+    "ईशा वास्यमिदं सर्वं",
+    "यत्किञ्च जगत्यां जगत्।",
+    "तेन त्यक्तेन भुञ्जीथा",
+    "मा गृधः कस्यस्विद्धनम्॥"
+  ],
+  "translation": "<b>All this, whatever moves in this moving world, is pervaded by the Lord.</b> Enjoy it through renunciation. Do not covet anyone's wealth.",
+  "translation_hi": "इस जगत में जो कुछ भी चलायमान है, वह सब ईश्वर से व्याप्त है। त्याग भाव से इसका भोग करो। किसी के धन का लालच मत करो।",
+  "words": [
+    {
+      "sanskrit": "ईशा",
+      "meaning": "by the Lord"
+    },
+    {
+      "sanskrit": "वास्यम्",
+      "meaning": "to be pervaded, dwelt in"
+    },
+    {
+      "sanskrit": "इदं सर्वम्",
+      "meaning": "all this"
+    },
+    {
+      "sanskrit": "यत् किञ्च",
+      "meaning": "whatever"
+    },
+    {
+      "sanskrit": "जगत्याम्",
+      "meaning": "in the world"
+    },
+    {
+      "sanskrit": "जगत्",
+      "meaning": "moving"
+    },
+    {
+      "sanskrit": "त्यक्तेन",
+      "meaning": "by renunciation"
+    },
+    {
+      "sanskrit": "भुञ्जीथाः",
+      "meaning": "enjoy"
+    },
+    {
+      "sanskrit": "मा गृधः",
+      "meaning": "do not covet"
+    },
+    {
+      "sanskrit": "कस्य स्वित्",
+      "meaning": "of anyone"
+    },
+    {
+      "sanskrit": "धनम्",
+      "meaning": "wealth"
+    }
+  ]
+}

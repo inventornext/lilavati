@@ -1,0 +1,27 @@
+{
+  "id": "yajurveda-14",
+  "number": "Isha Upanishad 13 · Yajurveda 40.13",
+  "title": "Again, Two Results",
+  "devanagari": [
+    "अन्यदेवाहुः सम्भवा-",
+    "दन्यदाहुरसम्भवात्।",
+    "इति शुश्रुम धीराणां",
+    "ये नस्तद्विचचक्षिरे॥"
+  ],
+  "translation": "One result, they say, comes from the <b>manifest</b>, another from the <b>unmanifest</b>. So we have heard from the wise who explained it to us.",
+  "translation_hi": "कहते हैं संभव से एक फल मिलता है और असंभव से दूसरा। ऐसा हमने उन धीर पुरुषों से सुना है जिन्होंने हमें यह समझाया।",
+  "words": [
+    {
+      "sanskrit": "सम्भवात्",
+      "meaning": "from the manifest"
+    },
+    {
+      "sanskrit": "असम्भवात्",
+      "meaning": "from the unmanifest"
+    },
+    {
+      "sanskrit": "धीराणाम्",
+      "meaning": "of the wise"
+    }
+  ]
+}

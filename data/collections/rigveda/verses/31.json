@@ -1,0 +1,47 @@
+{
+  "id": "rigveda-31",
+  "number": "Purusha Sukta · Rigveda 10.90.13",
+  "title": "Moon from Mind, Sun from Eye",
+  "devanagari": [
+    "चन्द्रमा मनसो जात-",
+    "श्चक्षोः सूर्यो अजायत।",
+    "मुखादिन्द्रश्चाग्निश्च",
+    "प्राणाद्वायुरजायत॥"
+  ],
+  "translation": "The <b>moon</b> was born from his mind; from his eye the <b>sun</b> was born; from his mouth Indra and Agni; from his breath, <b>Vayu</b>, the wind.",
+  "translation_hi": "चंद्रमा उसके मन से उत्पन्न हुआ; उसकी आँख से सूर्य उत्पन्न हुआ; उसके मुख से इंद्र और अग्नि; उसके प्राण से वायु उत्पन्न हुआ।",
+  "words": [
+    {
+      "sanskrit": "चन्द्रमाः",
+      "meaning": "the moon"
+    },
+    {
+      "sanskrit": "मनसः",
+      "meaning": "from the mind"
+    },
+    {
+      "sanskrit": "जातः",
+      "meaning": "born"
+    },
+    {
+      "sanskrit": "चक्षोः",
+      "meaning": "from the eye"
+    },
+    {
+      "sanskrit": "सूर्यः",
+      "meaning": "the sun"
+    },
+    {
+      "sanskrit": "मुखात्",
+      "meaning": "from the mouth"
+    },
+    {
+      "sanskrit": "प्राणात्",
+      "meaning": "from the breath"
+    },
+    {
+      "sanskrit": "वायुः",
+      "meaning": "the wind"
+    }
+  ]
+}

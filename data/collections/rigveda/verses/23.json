@@ -1,0 +1,47 @@
+{
+  "id": "rigveda-23",
+  "number": "Purusha Sukta · Rigveda 10.90.5",
+  "title": "Viraj Is Born",
+  "devanagari": [
+    "तस्माद्विराळजायत",
+    "विराजो अधि पूरुषः।",
+    "स जातो अत्यरिच्यत",
+    "पश्चाद्भूमिमथो पुरः॥"
+  ],
+  "translation": "From him <b>Viraj</b> was born, and from Viraj the Purusha. Once born, he extended beyond the earth, behind and in front.",
+  "translation_hi": "उससे विराट उत्पन्न हुआ, और विराट से पुरुष। जन्म लेकर वह पृथ्वी से आगे और पीछे फैल गया।",
+  "words": [
+    {
+      "sanskrit": "तस्मात्",
+      "meaning": "from him"
+    },
+    {
+      "sanskrit": "विराट्",
+      "meaning": "Viraj, the shining expanse"
+    },
+    {
+      "sanskrit": "अजायत",
+      "meaning": "was born"
+    },
+    {
+      "sanskrit": "अधि",
+      "meaning": "from, over"
+    },
+    {
+      "sanskrit": "जातः",
+      "meaning": "born"
+    },
+    {
+      "sanskrit": "अत्यरिच्यत",
+      "meaning": "extended beyond"
+    },
+    {
+      "sanskrit": "पश्चात्",
+      "meaning": "behind"
+    },
+    {
+      "sanskrit": "पुरः",
+      "meaning": "in front"
+    }
+  ]
+}

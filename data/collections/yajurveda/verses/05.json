@@ -1,0 +1,55 @@
+{
+  "id": "yajurveda-5",
+  "number": "Isha Upanishad 4 · Yajurveda 40.4",
+  "title": "Unmoving, Yet Faster than Mind",
+  "devanagari": [
+    "अनेजदेकं मनसो जवीयो",
+    "नैनद्देवा आप्नुवन्पूर्वमर्षत्।",
+    "तद्धावतोऽन्यानत्येति तिष्ठ-",
+    "त्तस्मिन्नपो मातरिश्वा दधाति॥"
+  ],
+  "translation": "That One is <b>unmoving, yet faster than the mind</b>. The senses cannot reach it; it is always ahead. <b>Standing still, it outruns those who run.</b> In it, the wind holds the waters.",
+  "translation_hi": "वह एक अचल है, फिर भी मन से तेज है। इंद्रियाँ उस तक नहीं पहुँच पातीं, वह सदा आगे है। स्थिर रहते हुए भी वह दौड़ने वालों से आगे निकल जाता है। उसी में वायु जल को धारण करता है।",
+  "words": [
+    {
+      "sanskrit": "अनेजत्",
+      "meaning": "unmoving"
+    },
+    {
+      "sanskrit": "एकम्",
+      "meaning": "one"
+    },
+    {
+      "sanskrit": "मनसः",
+      "meaning": "than the mind"
+    },
+    {
+      "sanskrit": "जवीयः",
+      "meaning": "faster"
+    },
+    {
+      "sanskrit": "देवाः",
+      "meaning": "the senses (or gods)"
+    },
+    {
+      "sanskrit": "आप्नुवन्",
+      "meaning": "reached"
+    },
+    {
+      "sanskrit": "धावतः",
+      "meaning": "those running"
+    },
+    {
+      "sanskrit": "अत्येति",
+      "meaning": "outruns"
+    },
+    {
+      "sanskrit": "तिष्ठत्",
+      "meaning": "standing"
+    },
+    {
+      "sanskrit": "मातरिश्वा",
+      "meaning": "the wind"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "rigveda-20",
+  "number": "Purusha Sukta · Rigveda 10.90.2",
+  "title": "All This Is Purusha",
+  "devanagari": [
+    "पुरुष एवेदं सर्वं",
+    "यद्भूतं यच्च भव्यम्।",
+    "उतामृतत्वस्येशानो",
+    "यदन्नेनातिरोहति॥"
+  ],
+  "translation": "The Purusha is <b>all this</b>: what has been and what will be. He is the lord of immortality, and of all that grows by food.",
+  "translation_hi": "पुरुष ही यह सब है: जो हो चुका और जो होगा। वह अमरता का स्वामी है और उसका भी जो अन्न से बढ़ता है।",
+  "words": [
+    {
+      "sanskrit": "एव इदं सर्वम्",
+      "meaning": "all this indeed"
+    },
+    {
+      "sanskrit": "भूतम्",
+      "meaning": "what has been"
+    },
+    {
+      "sanskrit": "भव्यम्",
+      "meaning": "what will be"
+    },
+    {
+      "sanskrit": "अमृतत्वस्य",
+      "meaning": "of immortality"
+    },
+    {
+      "sanskrit": "ईशानः",
+      "meaning": "lord"
+    },
+    {
+      "sanskrit": "अन्नेन",
+      "meaning": "by food"
+    },
+    {
+      "sanskrit": "अतिरोहति",
+      "meaning": "grows"
+    }
+  ]
+}

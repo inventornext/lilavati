@@ -1,0 +1,18 @@
+{
+  "id": "samaveda",
+  "kind": "stotra",
+  "group": "Veda",
+  "title": "Samaveda",
+  "title_deva": "सामवेद",
+  "author": "The Veda of melody",
+  "intro": "The Veda of song. Almost all of its verses come from the Rigveda, set to melodies (samans) for chanting during the soma sacrifice. These are its opening verses, all addressed to Agni.",
+  "note": "The Samaveda's power is in its music, which a page can't show. Vedic accent and melody marks are not shown.",
+  "opening": "॥ सामवेदः ॥",
+  "closing": "॥ इति सामवेदात् ॥",
+  "verses": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ]
+}

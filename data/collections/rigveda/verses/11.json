@@ -1,0 +1,38 @@
+{
+  "id": "rigveda-11",
+  "number": "Agni Sukta · Rigveda 1.1.9",
+  "title": "Be Near Us Like a Father",
+  "devanagari": [
+    "स नः पितेव सूनवे",
+    "ऽग्ने सूपायनो भव।",
+    "सचस्वा नः स्वस्तये॥"
+  ],
+  "translation": "O Agni, be <b>easy to reach</b> for us, as a <b>father to his son</b>. Stay with us for our <b>well-being</b>.",
+  "translation_hi": "हे अग्नि, जैसे पिता पुत्र के लिए सुलभ होता है, वैसे ही आप हमारे लिए सुलभ हों। हमारे कल्याण के लिए हमारे साथ रहें।",
+  "words": [
+    {
+      "sanskrit": "पिता इव",
+      "meaning": "like a father"
+    },
+    {
+      "sanskrit": "सूनवे",
+      "meaning": "to a son"
+    },
+    {
+      "sanskrit": "सूपायनः",
+      "meaning": "easy to approach"
+    },
+    {
+      "sanskrit": "भव",
+      "meaning": "be"
+    },
+    {
+      "sanskrit": "सचस्व",
+      "meaning": "stay with, accompany"
+    },
+    {
+      "sanskrit": "स्वस्तये",
+      "meaning": "for well-being"
+    }
+  ]
+}

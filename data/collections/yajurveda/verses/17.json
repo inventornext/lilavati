@@ -1,0 +1,55 @@
+{
+  "id": "yajurveda-17",
+  "number": "Isha Upanishad 16 · Yajurveda 40.16",
+  "title": "I Am He",
+  "devanagari": [
+    "पूषन्नेकर्षे यम सूर्य प्राजापत्य",
+    "व्यूह रश्मीन्समूह तेजः।",
+    "यत्ते रूपं कल्याणतमं तत्ते पश्यामि",
+    "योऽसावसौ पुरुषः सोऽहमस्मि॥"
+  ],
+  "translation": "O Pushan, lone seer, controller, sun, child of Prajapati: <b>spread out your rays, gather your light</b>. I see your most beautiful form. <b>That Person there, I am He.</b>",
+  "translation_hi": "हे पूषन्, हे एकमात्र ऋषि, हे यम, हे सूर्य, हे प्रजापति पुत्र, अपनी किरणें फैलाओ, अपना तेज समेटो। मैं तुम्हारा सबसे कल्याणकारी रूप देखता हूँ। वह जो पुरुष है, वह मैं हूँ।",
+  "words": [
+    {
+      "sanskrit": "एकर्षे",
+      "meaning": "O lone seer"
+    },
+    {
+      "sanskrit": "यम",
+      "meaning": "O controller"
+    },
+    {
+      "sanskrit": "सूर्य",
+      "meaning": "O sun"
+    },
+    {
+      "sanskrit": "व्यूह",
+      "meaning": "spread out"
+    },
+    {
+      "sanskrit": "रश्मीन्",
+      "meaning": "rays"
+    },
+    {
+      "sanskrit": "समूह",
+      "meaning": "gather"
+    },
+    {
+      "sanskrit": "तेजः",
+      "meaning": "light"
+    },
+    {
+      "sanskrit": "कल्याणतमम्",
+      "meaning": "most auspicious"
+    },
+    {
+      "sanskrit": "पश्यामि",
+      "meaning": "I see"
+    },
+    {
+      "sanskrit": "सः अहम् अस्मि",
+      "meaning": "I am He"
+    }
+  ]
+}

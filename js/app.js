@@ -100,7 +100,7 @@ function viewHome() {
     <a class="door bhakti" href="#bhakti">
       <div class="door-deva">भक्ति</div>
       <h2>Bhakti</h2>
-      <p>Stotras to Shiva and the Goddess: Shiva Tandava, Rudrashtakam, Nirvana Shatkam, Lingashtakam, the Durga Saptashati and the Mandukya Upanishad.</p>
+      <p>The four Vedas (Gayatri, Nasadiya, Purusha Sukta, Isha Upanishad, Bhumi Sukta) and stotras to Shiva and the Goddess: Shiva Tandava, Rudrashtakam, Nirvana Shatkam, Lingashtakam, the Durga Saptashati and the Mandukya Upanishad.</p>
       <span class="door-count">${stotras.length} texts · ${bhaktiVerses} verses →</span>
     </a>
     <a class="door ganita" href="#ganita">
@@ -119,12 +119,12 @@ function viewHome() {
 function viewBhakti() {
   const st = DATA.collections.filter(c => c.meta.kind === 'stotra');
   const groups = [...new Set(st.map(c => c.meta.group || 'Stotras'))];
-  const intro = { 'Upanishad': 'Twelve prose mantras on Om and the four states of the Self, the root of Advaita Vedanta.', 'Shiva': 'Hymns to Shiva, from Ravana’s thundering Tandava to Shankara’s meditation on the Self.', 'Durga Saptashati': 'The most-recited parts of the Durga Saptashati (Devi Mahatmya). More chapters will be added over time.' };
+  const intro = { 'Veda': 'The famous suktas and mantras of the four Vedas, the oldest texts in Sanskrit.', 'Upanishad': 'Twelve prose mantras on Om and the four states of the Self, the root of Advaita Vedanta.', 'Shiva': 'Hymns to Shiva, from Ravana’s thundering Tandava to Shankara’s meditation on the Self.', 'Durga Saptashati': 'The most-recited parts of the Durga Saptashati (Devi Mahatmya). More chapters will be added over time.' };
   return `
-  <div class="page-head"><div class="page-deva">भक्ति</div><h1>Bhakti · Stotras and Upanishad</h1>
-  <p class="section-sub">Each stotra has a full-text page for recitation and a page for every verse with word meanings and translations.</p></div>
+  <div class="page-head"><div class="page-deva">भक्ति</div><h1>Bhakti · Vedas, Stotras and Upanishad</h1>
+  <p class="section-sub">Each text has a full-text page for recitation and a page for every verse with word meanings and translations.</p></div>
   ${groups.map(g => `
-    <h2 class="section-title">${({ 'Shiva': 'शिव · Shiva', 'Durga Saptashati': 'दुर्गासप्तशती · Durga Saptashati', 'Upanishad': 'उपनिषद् · Upanishad' })[g] || g}</h2>
+    <h2 class="section-title">${({ 'Veda': 'वेद · Veda', 'Shiva': 'शिव · Shiva', 'Durga Saptashati': 'दुर्गासप्तशती · Durga Saptashati', 'Upanishad': 'उपनिषद् · Upanishad' })[g] || g}</h2>
     <p class="section-sub">${intro[g] || ''}</p>
     <div class="grid">${st.filter(c => (c.meta.group || 'Stotras') === g).map(c => `<a class="card feature" href="#${c.meta.id}"><div class="big">${c.meta.title_deva}</div><h3>${c.meta.title}</h3>
       <p class="note">${c.meta.intro.replace(/<[^>]+>/g, '').slice(0, 140)}…</p><span class="tag">${c.verses.length} verses · ${c.meta.author}</span></a>`).join('')}</div>`).join('')}`;

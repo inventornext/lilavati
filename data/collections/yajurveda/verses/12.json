@@ -1,0 +1,42 @@
+{
+  "id": "yajurveda-12",
+  "number": "Isha Upanishad 11 · Yajurveda 40.11",
+  "title": "Both Together",
+  "devanagari": [
+    "विद्यां चाविद्यां च य-",
+    "स्तद्वेदोभयं सह।",
+    "अविद्यया मृत्युं तीर्त्वा",
+    "विद्ययामृतमश्नुते॥"
+  ],
+  "translation": "One who knows <b>both, knowledge and ignorance, together</b>, crosses death through ignorance (action) and attains immortality through knowledge.",
+  "translation_hi": "जो विद्या और अविद्या दोनों को एक साथ जानता है, वह अविद्या (कर्म) से मृत्यु को पार करके विद्या से अमरता प्राप्त करता है।",
+  "words": [
+    {
+      "sanskrit": "उभयम् सह",
+      "meaning": "both together"
+    },
+    {
+      "sanskrit": "वेद",
+      "meaning": "knows"
+    },
+    {
+      "sanskrit": "मृत्युम्",
+      "meaning": "death"
+    },
+    {
+      "sanskrit": "तीर्त्वा",
+      "meaning": "having crossed"
+    },
+    {
+      "sanskrit": "अमृतम्",
+      "meaning": "immortality"
+    },
+    {
+      "sanskrit": "अश्नुते",
+      "meaning": "attains"
+    }
+  ],
+  "science": [
+    "Knowledge and action together: theory without practice, or practice without theory, falls short, a point every engineer knows."
+  ]
+}

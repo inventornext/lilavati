@@ -1,0 +1,43 @@
+{
+  "id": "yajurveda-6",
+  "number": "Isha Upanishad 5 · Yajurveda 40.5",
+  "title": "Far and Near",
+  "devanagari": [
+    "तदेजति तन्नैजति",
+    "तद्दूरे तद्वन्तिके।",
+    "तदन्तरस्य सर्वस्य",
+    "तदु सर्वस्यास्य बाह्यतः॥"
+  ],
+  "translation": "<b>It moves, and it does not move.</b> It is <b>far, and it is near</b>. It is <b>inside all this</b>, and it is outside all this.",
+  "translation_hi": "वह चलता है और नहीं भी चलता। वह दूर है और पास भी है। वह इस सबके भीतर है और इस सबके बाहर भी है।",
+  "words": [
+    {
+      "sanskrit": "एजति",
+      "meaning": "moves"
+    },
+    {
+      "sanskrit": "न एजति",
+      "meaning": "does not move"
+    },
+    {
+      "sanskrit": "दूरे",
+      "meaning": "far"
+    },
+    {
+      "sanskrit": "अन्तिके",
+      "meaning": "near"
+    },
+    {
+      "sanskrit": "अन्तः",
+      "meaning": "inside"
+    },
+    {
+      "sanskrit": "सर्वस्य",
+      "meaning": "of all"
+    },
+    {
+      "sanskrit": "बाह्यतः",
+      "meaning": "outside"
+    }
+  ]
+}

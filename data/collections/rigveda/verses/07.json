@@ -1,0 +1,38 @@
+{
+  "id": "rigveda-7",
+  "number": "Agni Sukta · Rigveda 1.1.5",
+  "title": "The Wise Invoker",
+  "devanagari": [
+    "अग्निर्होता कविक्रतुः",
+    "सत्यश्चित्रश्रवस्तमः।",
+    "देवो देवेभिरा गमत्॥"
+  ],
+  "translation": "Agni, the invoker, wise in counsel, <b>true</b>, of most brilliant fame: may the god come here <b>with the gods</b>.",
+  "translation_hi": "अग्नि होता हैं, ज्ञानियों जैसे कर्म वाले, सत्य, अत्यंत विचित्र यश वाले; वे देव देवताओं के साथ यहाँ आएँ।",
+  "words": [
+    {
+      "sanskrit": "होता",
+      "meaning": "the invoker"
+    },
+    {
+      "sanskrit": "कविक्रतुः",
+      "meaning": "wise in will"
+    },
+    {
+      "sanskrit": "सत्यः",
+      "meaning": "true"
+    },
+    {
+      "sanskrit": "चित्रश्रवस्तमः",
+      "meaning": "of most brilliant fame"
+    },
+    {
+      "sanskrit": "देवेभिः",
+      "meaning": "with the gods"
+    },
+    {
+      "sanskrit": "आ गमत्",
+      "meaning": "may he come"
+    }
+  ]
+}

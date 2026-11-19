@@ -1,0 +1,39 @@
+{
+  "id": "yajurveda-7",
+  "number": "Isha Upanishad 6 · Yajurveda 40.6",
+  "title": "Seeing the Self in All",
+  "devanagari": [
+    "यस्तु सर्वाणि भूतान्या-",
+    "त्मन्येवानुपश्यति।",
+    "सर्वभूतेषु चात्मानं",
+    "ततो न विजुगुप्सते॥"
+  ],
+  "translation": "One who sees <b>all beings in the Self</b>, and the <b>Self in all beings</b>, hates no one.",
+  "translation_hi": "जो सब प्राणियों को आत्मा में और आत्मा को सब प्राणियों में देखता है, वह किसी से घृणा नहीं करता।",
+  "words": [
+    {
+      "sanskrit": "सर्वाणि भूतानि",
+      "meaning": "all beings"
+    },
+    {
+      "sanskrit": "आत्मनि",
+      "meaning": "in the Self"
+    },
+    {
+      "sanskrit": "अनुपश्यति",
+      "meaning": "sees"
+    },
+    {
+      "sanskrit": "सर्वभूतेषु",
+      "meaning": "in all beings"
+    },
+    {
+      "sanskrit": "आत्मानम्",
+      "meaning": "the Self"
+    },
+    {
+      "sanskrit": "न विजुगुप्सते",
+      "meaning": "hates no one"
+    }
+  ]
+}

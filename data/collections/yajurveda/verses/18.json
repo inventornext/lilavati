@@ -1,0 +1,50 @@
+{
+  "id": "yajurveda-18",
+  "number": "Isha Upanishad 17 · Yajurveda 40.17",
+  "title": "Remember, O Mind",
+  "devanagari": [
+    "वायुरनिलममृत-",
+    "मथेदं भस्मान्तं शरीरम्।",
+    "ॐ क्रतो स्मर कृतं स्मर",
+    "क्रतो स्मर कृतं स्मर॥"
+  ],
+  "translation": "Let my breath return to the <b>immortal wind</b>, and this body end in <b>ashes</b>. Om. O mind, <b>remember what you have done</b>. Remember, remember what you have done.",
+  "translation_hi": "मेरा प्राण अमर वायु में मिल जाए और यह शरीर भस्म में समाप्त हो। ॐ। हे मन, अपने किए हुए कर्मों को स्मरण करो। स्मरण करो, किए हुए को स्मरण करो।",
+  "words": [
+    {
+      "sanskrit": "वायुः",
+      "meaning": "breath"
+    },
+    {
+      "sanskrit": "अनिलम्",
+      "meaning": "to the wind"
+    },
+    {
+      "sanskrit": "अमृतम्",
+      "meaning": "immortal"
+    },
+    {
+      "sanskrit": "भस्मान्तम्",
+      "meaning": "ending in ashes"
+    },
+    {
+      "sanskrit": "शरीरम्",
+      "meaning": "the body"
+    },
+    {
+      "sanskrit": "क्रतो",
+      "meaning": "O mind, O will"
+    },
+    {
+      "sanskrit": "स्मर",
+      "meaning": "remember"
+    },
+    {
+      "sanskrit": "कृतम्",
+      "meaning": "what was done"
+    }
+  ],
+  "science": [
+    "Matter is conserved: when a body is burned, its water and carbon return to the air as vapour and carbon dioxide, and its minerals remain as ash, just as the verse describes."
+  ]
+}

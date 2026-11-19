@@ -1,0 +1,43 @@
+{
+  "id": "rigveda-22",
+  "number": "Purusha Sukta · Rigveda 10.90.4",
+  "title": "Spreading in All Directions",
+  "devanagari": [
+    "त्रिपादूर्ध्व उदैत्पुरुषः",
+    "पादोऽस्येहाभवत्पुनः।",
+    "ततो विष्वङ् व्यक्राम-",
+    "त्साशनानशने अभि॥"
+  ],
+  "translation": "With three quarters the Purusha rose up; one quarter of him came to be here again. From there he spread <b>in all directions</b>, into what eats and what does not eat.",
+  "translation_hi": "तीन पादों से पुरुष ऊपर उठा; उसका एक पाद यहाँ फिर प्रकट हुआ। वहाँ से वह सब दिशाओं में फैला, खाने वालों और न खाने वालों में।",
+  "words": [
+    {
+      "sanskrit": "ऊर्ध्वः",
+      "meaning": "upward"
+    },
+    {
+      "sanskrit": "उदैत्",
+      "meaning": "rose"
+    },
+    {
+      "sanskrit": "इह",
+      "meaning": "here"
+    },
+    {
+      "sanskrit": "अभवत् पुनः",
+      "meaning": "came to be again"
+    },
+    {
+      "sanskrit": "विष्वङ्",
+      "meaning": "in all directions"
+    },
+    {
+      "sanskrit": "व्यक्रामत्",
+      "meaning": "spread"
+    },
+    {
+      "sanskrit": "साशनानशने",
+      "meaning": "the eating and the non-eating"
+    }
+  ]
+}

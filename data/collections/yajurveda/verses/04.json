@@ -1,0 +1,47 @@
+{
+  "id": "yajurveda-4",
+  "number": "Isha Upanishad 3 · Yajurveda 40.3",
+  "title": "Worlds of Darkness",
+  "devanagari": [
+    "असुर्या नाम ते लोका",
+    "अन्धेन तमसावृताः।",
+    "तांस्ते प्रेत्याभिगच्छन्ति",
+    "ये के चात्महनो जनाः॥"
+  ],
+  "translation": "Those worlds are called <b>sunless</b>, covered in <b>blind darkness</b>. Those who <b>kill the Self</b> (deny their own soul) go to them after death.",
+  "translation_hi": "वे लोक असुर्य (सूर्यरहित) कहलाते हैं, जो घने अंधकार से ढके हैं। जो लोग आत्मा का हनन करते हैं, वे मरने के बाद उन्हीं में जाते हैं।",
+  "words": [
+    {
+      "sanskrit": "असुर्याः",
+      "meaning": "sunless, demonic"
+    },
+    {
+      "sanskrit": "लोकाः",
+      "meaning": "worlds"
+    },
+    {
+      "sanskrit": "अन्धेन तमसा",
+      "meaning": "by blind darkness"
+    },
+    {
+      "sanskrit": "आवृताः",
+      "meaning": "covered"
+    },
+    {
+      "sanskrit": "प्रेत्य",
+      "meaning": "after death"
+    },
+    {
+      "sanskrit": "अभिगच्छन्ति",
+      "meaning": "go to"
+    },
+    {
+      "sanskrit": "आत्महनः",
+      "meaning": "killers of the Self"
+    },
+    {
+      "sanskrit": "जनाः",
+      "meaning": "people"
+    }
+  ]
+}

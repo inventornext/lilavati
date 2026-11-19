@@ -1,0 +1,50 @@
+{
+  "id": "rigveda-24",
+  "number": "Purusha Sukta · Rigveda 10.90.6",
+  "title": "The Seasons as Sacrifice",
+  "devanagari": [
+    "यत्पुरुषेण हविषा",
+    "देवा यज्ञमतन्वत।",
+    "वसन्तो अस्यासीदाज्यं",
+    "ग्रीष्म इध्मः शरद्धविः॥"
+  ],
+  "translation": "When the gods spread the sacrifice with the Purusha as offering, <b>spring</b> was its ghee, <b>summer</b> its firewood, <b>autumn</b> its oblation.",
+  "translation_hi": "जब देवताओं ने पुरुष को हवि बनाकर यज्ञ किया, तब वसंत उसका घी था, ग्रीष्म उसका ईंधन और शरद उसकी हवि।",
+  "words": [
+    {
+      "sanskrit": "हविषा",
+      "meaning": "as offering"
+    },
+    {
+      "sanskrit": "अतन्वत",
+      "meaning": "spread, performed"
+    },
+    {
+      "sanskrit": "वसन्तः",
+      "meaning": "spring"
+    },
+    {
+      "sanskrit": "आज्यम्",
+      "meaning": "ghee"
+    },
+    {
+      "sanskrit": "ग्रीष्मः",
+      "meaning": "summer"
+    },
+    {
+      "sanskrit": "इध्मः",
+      "meaning": "firewood"
+    },
+    {
+      "sanskrit": "शरत्",
+      "meaning": "autumn"
+    },
+    {
+      "sanskrit": "हविः",
+      "meaning": "oblation"
+    }
+  ],
+  "science": [
+    "The year itself is pictured as a sacrifice: the cycle of seasons, driven by the Earth's tilted orbit around the sun."
+  ]
+}

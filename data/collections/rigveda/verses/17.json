@@ -1,0 +1,55 @@
+{
+  "id": "rigveda-17",
+  "number": "Nasadiya Sukta · Rigveda 10.129.6",
+  "title": "Who Really Knows?",
+  "devanagari": [
+    "को अद्धा वेद क इह प्र वोच-",
+    "त्कुत आजाता कुत इयं विसृष्टिः।",
+    "अर्वाग्देवा अस्य विसर्जनेना-",
+    "था को वेद यत आबभूव॥"
+  ],
+  "translation": "<b>Who really knows?</b> Who can declare it here: from where it was born, from where this creation came? The <b>gods came later</b> than this creation. So who knows from where it arose?",
+  "translation_hi": "वास्तव में कौन जानता है? कौन यहाँ बता सकता है कि यह कहाँ से उत्पन्न हुई, यह सृष्टि कहाँ से आई? देवता तो इस सृष्टि के बाद आए। तो कौन जानता है कि यह कहाँ से हुई?",
+  "words": [
+    {
+      "sanskrit": "कः",
+      "meaning": "who"
+    },
+    {
+      "sanskrit": "अद्धा",
+      "meaning": "truly"
+    },
+    {
+      "sanskrit": "वेद",
+      "meaning": "knows"
+    },
+    {
+      "sanskrit": "प्र वोचत्",
+      "meaning": "may declare"
+    },
+    {
+      "sanskrit": "कुतः",
+      "meaning": "from where"
+    },
+    {
+      "sanskrit": "आजाता",
+      "meaning": "born"
+    },
+    {
+      "sanskrit": "विसृष्टिः",
+      "meaning": "creation"
+    },
+    {
+      "sanskrit": "अर्वाक्",
+      "meaning": "later, this side"
+    },
+    {
+      "sanskrit": "देवाः",
+      "meaning": "the gods"
+    },
+    {
+      "sanskrit": "आबभूव",
+      "meaning": "came into being"
+    }
+  ]
+}

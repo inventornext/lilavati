@@ -1,0 +1,51 @@
+{
+  "id": "rigveda-32",
+  "number": "Purusha Sukta · Rigveda 10.90.14",
+  "title": "The Worlds from His Body",
+  "devanagari": [
+    "नाभ्या आसीदन्तरिक्षं",
+    "शीर्ष्णो द्यौः समवर्तत।",
+    "पद्भ्यां भूमिर्दिशः श्रोत्रा-",
+    "त्तथा लोकाँ अकल्पयन्॥"
+  ],
+  "translation": "From his navel came the <b>mid-air</b>; from his head the <b>sky</b> took shape; from his feet the <b>earth</b>; from his ear the <b>directions</b>. So they arranged the worlds.",
+  "translation_hi": "उसकी नाभि से अंतरिक्ष हुआ; उसके सिर से आकाश बना; उसके पैरों से पृथ्वी; उसके कान से दिशाएँ। इस प्रकार उन्होंने लोकों की रचना की।",
+  "words": [
+    {
+      "sanskrit": "नाभ्याः",
+      "meaning": "from the navel"
+    },
+    {
+      "sanskrit": "अन्तरिक्षम्",
+      "meaning": "mid-air, space"
+    },
+    {
+      "sanskrit": "शीर्ष्णः",
+      "meaning": "from the head"
+    },
+    {
+      "sanskrit": "द्यौः",
+      "meaning": "the sky"
+    },
+    {
+      "sanskrit": "भूमिः",
+      "meaning": "the earth"
+    },
+    {
+      "sanskrit": "दिशः",
+      "meaning": "the directions"
+    },
+    {
+      "sanskrit": "श्रोत्रात्",
+      "meaning": "from the ear"
+    },
+    {
+      "sanskrit": "लोकान्",
+      "meaning": "the worlds"
+    },
+    {
+      "sanskrit": "अकल्पयन्",
+      "meaning": "they arranged"
+    }
+  ]
+}

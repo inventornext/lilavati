@@ -1,0 +1,43 @@
+{
+  "id": "yajurveda-10",
+  "number": "Isha Upanishad 9 · Yajurveda 40.9",
+  "title": "Knowledge and Ignorance",
+  "devanagari": [
+    "अन्धं तमः प्रविशन्ति",
+    "येऽविद्यामुपासते।",
+    "ततो भूय इव ते तमो",
+    "य उ विद्यायां रताः॥"
+  ],
+  "translation": "Those who worship <b>ignorance</b> enter blind darkness. Those who delight only in <b>knowledge</b> enter a darkness greater still.",
+  "translation_hi": "जो अविद्या की उपासना करते हैं, वे घने अंधकार में प्रवेश करते हैं। और जो केवल विद्या में रत हैं, वे उससे भी अधिक अंधकार में।",
+  "words": [
+    {
+      "sanskrit": "अन्धं तमः",
+      "meaning": "blind darkness"
+    },
+    {
+      "sanskrit": "प्रविशन्ति",
+      "meaning": "enter"
+    },
+    {
+      "sanskrit": "अविद्याम्",
+      "meaning": "ignorance (only worldly action)"
+    },
+    {
+      "sanskrit": "उपासते",
+      "meaning": "worship"
+    },
+    {
+      "sanskrit": "भूयः",
+      "meaning": "greater"
+    },
+    {
+      "sanskrit": "विद्यायाम्",
+      "meaning": "in knowledge"
+    },
+    {
+      "sanskrit": "रताः",
+      "meaning": "delighting"
+    }
+  ]
+}

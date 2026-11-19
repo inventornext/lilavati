@@ -1,0 +1,38 @@
+{
+  "id": "samaveda-2",
+  "number": "Samaveda 1.2",
+  "title": "Invoker of All Sacrifices",
+  "devanagari": [
+    "त्वमग्ने यज्ञानां",
+    "होता विश्वेषां हितः।",
+    "देवेभिर्मानुषे जने॥"
+  ],
+  "translation": "You, O Agni, have been set by the gods among humankind as the <b>invoker of all the sacrifices</b>.",
+  "translation_hi": "हे अग्नि, देवताओं ने तुम्हें मनुष्यों के बीच सब यज्ञों का होता नियुक्त किया है।",
+  "words": [
+    {
+      "sanskrit": "त्वम्",
+      "meaning": "you"
+    },
+    {
+      "sanskrit": "यज्ञानाम्",
+      "meaning": "of the sacrifices"
+    },
+    {
+      "sanskrit": "विश्वेषाम्",
+      "meaning": "of all"
+    },
+    {
+      "sanskrit": "हितः",
+      "meaning": "placed, appointed"
+    },
+    {
+      "sanskrit": "देवेभिः",
+      "meaning": "by the gods"
+    },
+    {
+      "sanskrit": "मानुषे जने",
+      "meaning": "among humankind"
+    }
+  ]
+}

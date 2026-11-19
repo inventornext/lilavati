@@ -1,0 +1,51 @@
+{
+  "id": "rigveda-34",
+  "number": "Purusha Sukta · Rigveda 10.90.16",
+  "title": "Sacrifice by Sacrifice",
+  "devanagari": [
+    "यज्ञेन यज्ञमयजन्त देवा-",
+    "स्तानि धर्माणि प्रथमान्यासन्।",
+    "ते ह नाकं महिमानः सचन्त",
+    "यत्र पूर्वे साध्याः सन्ति देवाः॥"
+  ],
+  "translation": "With sacrifice the gods offered the sacrifice: these were the <b>first laws</b>. These great ones reached the <b>heights of heaven</b>, where the ancient Sadhyas, the gods, dwell.",
+  "translation_hi": "देवताओं ने यज्ञ से यज्ञ किया: ये ही पहले धर्म थे। वे महान स्वर्ग की ऊँचाइयों तक पहुँचे, जहाँ प्राचीन साध्य देवता रहते हैं।",
+  "words": [
+    {
+      "sanskrit": "यज्ञेन",
+      "meaning": "with sacrifice"
+    },
+    {
+      "sanskrit": "अयजन्त",
+      "meaning": "they offered"
+    },
+    {
+      "sanskrit": "धर्माणि",
+      "meaning": "laws, duties"
+    },
+    {
+      "sanskrit": "प्रथमानि",
+      "meaning": "first"
+    },
+    {
+      "sanskrit": "नाकम्",
+      "meaning": "heaven"
+    },
+    {
+      "sanskrit": "महिमानः",
+      "meaning": "the great ones"
+    },
+    {
+      "sanskrit": "सचन्त",
+      "meaning": "reached"
+    },
+    {
+      "sanskrit": "पूर्वे",
+      "meaning": "ancient"
+    },
+    {
+      "sanskrit": "साध्याः",
+      "meaning": "the Sadhyas"
+    }
+  ]
+}

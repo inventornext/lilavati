@@ -1,0 +1,34 @@
+{
+  "id": "rigveda-28",
+  "number": "Purusha Sukta · Rigveda 10.90.10",
+  "title": "Horses, Cows, Goats and Sheep",
+  "devanagari": [
+    "तस्मादश्वा अजायन्त",
+    "ये के चोभयादतः।",
+    "गावो ह जज्ञिरे तस्मा-",
+    "त्तस्माज्जाता अजावयः॥"
+  ],
+  "translation": "From it <b>horses</b> were born, and all animals with two rows of teeth. <b>Cows</b> were born from it; from it came <b>goats and sheep</b>.",
+  "translation_hi": "उससे घोड़े उत्पन्न हुए और वे सब पशु जिनके दोनों ओर दाँत होते हैं। उससे गायें उत्पन्न हुईं, और उससे बकरियाँ और भेड़ें।",
+  "words": [
+    {
+      "sanskrit": "अश्वाः",
+      "meaning": "horses"
+    },
+    {
+      "sanskrit": "उभयादतः",
+      "meaning": "with teeth in both jaws"
+    },
+    {
+      "sanskrit": "गावः",
+      "meaning": "cows"
+    },
+    {
+      "sanskrit": "अजावयः",
+      "meaning": "goats and sheep"
+    }
+  ],
+  "science": [
+    "'Teeth in both jaws': the hymn sorts animals by their teeth, the same feature zoologists use. Cows, goats and sheep have no upper front teeth, while horses do."
+  ]
+}

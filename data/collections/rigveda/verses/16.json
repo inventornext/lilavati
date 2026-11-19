@@ -1,0 +1,55 @@
+{
+  "id": "rigveda-16",
+  "number": "Nasadiya Sukta · Rigveda 10.129.5",
+  "title": "A Line Stretched Across",
+  "devanagari": [
+    "तिरश्चीनो विततो रश्मिरेषा-",
+    "मधः स्विदासी३दुपरि स्विदासी३त्।",
+    "रेतोधा आसन्महिमान आस-",
+    "न्स्वधा अवस्तात्प्रयतिः परस्तात्॥"
+  ],
+  "translation": "Their <b>cord was stretched across</b>. Was there a below? Was there an above? There were <b>seed-bearers</b> and great powers: energy below, impulse above.",
+  "translation_hi": "उनकी रस्सी आड़ी फैली थी। क्या नीचे कुछ था? क्या ऊपर कुछ था? बीज धारण करने वाले थे, महान शक्तियाँ थीं: नीचे स्वधा, ऊपर प्रयति।",
+  "words": [
+    {
+      "sanskrit": "तिरश्चीनः",
+      "meaning": "across"
+    },
+    {
+      "sanskrit": "विततः",
+      "meaning": "stretched"
+    },
+    {
+      "sanskrit": "रश्मिः",
+      "meaning": "cord, ray"
+    },
+    {
+      "sanskrit": "अधः",
+      "meaning": "below"
+    },
+    {
+      "sanskrit": "उपरि",
+      "meaning": "above"
+    },
+    {
+      "sanskrit": "स्वित्",
+      "meaning": "perhaps"
+    },
+    {
+      "sanskrit": "रेतोधाः",
+      "meaning": "seed-bearers"
+    },
+    {
+      "sanskrit": "महिमानः",
+      "meaning": "great powers"
+    },
+    {
+      "sanskrit": "अवस्तात्",
+      "meaning": "below"
+    },
+    {
+      "sanskrit": "परस्तात्",
+      "meaning": "above"
+    }
+  ]
+}
