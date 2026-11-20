@@ -309,7 +309,7 @@ function rvSetup() {
   let q = 0;
   $('#rv-bottom').innerHTML = rev.map(l => `<div class="rv-row" style="--n:${l.length}">${l.map(() => `<span class="rv-t slot" data-q="${q++}"></span>`).join('')}</div>`).join('');
   $('#rv-stage').classList.toggle('long', n > 36);
-  $('#rv-anu').innerHTML = v.fw.join('<br>');
+  $('#rv-anu').innerHTML = v.fw.join('<br>'); $('#rv-anu').classList.remove('show');
   const mean = $('#rv-mean'); if (mean) mean.innerHTML = rvMeaningHTML(v);
   $('#rv-final').innerHTML = ''; $('#rv-final').classList.remove('show');
   $('#rv-caption').textContent = '';
@@ -325,7 +325,9 @@ function rvPlay() {
   const gap = Math.min(340, 11000 / n), fly = 750, noMotion = document.body.classList.contains('no-motion');
   // 1. read the original once
   src.forEach((t, j) => rvAt(200 + j * 45, () => { t.classList.add('lit'); rvAt(260, () => t.classList.remove('lit')); }));
-  const start = 200 + n * 45 + 700;
+  // the printed verse appears only after the forward reading is done
+  rvAt(200 + n * 45 + 200, () => $('#rv-anu').classList.add('show'));
+  const start = 200 + n * 45 + 1300;
   rvAt(start - 300, () => $('#rv-mid').classList.add('on'));
   // 2. the last syllable flies first, into the first empty slot below
   slots.forEach((slot, j) => rvAt(start + j * gap, () => {

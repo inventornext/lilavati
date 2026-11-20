@@ -471,7 +471,8 @@ body.no-motion .pl, body.no-motion .mala-svg { transition: none; animation: none
   .rv-stage { padding: 12px 6px; } .rv-box { padding: 8px 4px 10px; } .rv-row { gap: 2px; padding: 5px 3px; }
 }
 
-.rv-print { font-size: clamp(16px, 2.6vw, 21px); line-height: 1.7; color: var(--accent); margin-top: 10px; overflow-wrap: anywhere; }
+.rv-print { font-size: clamp(16px, 2.6vw, 21px); line-height: 1.7; color: var(--accent); overflow-wrap: anywhere; max-height: 0; opacity: 0; margin-top: 0; overflow: hidden; transition: opacity .9s, max-height .6s, margin-top .6s; }
+.rv-print.show { max-height: 200px; opacity: 1; margin-top: 10px; }
 .rv-meaning { margin-top: 14px; }
 .rv-mhead { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
 .rv-mhead h3 { margin: 0; font-family: var(--deva); }
