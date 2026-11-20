@@ -1,0 +1,33 @@
+{
+  "id": "hanuman-chalisa-41",
+  "number": "Chaupai 39",
+  "title": "Shiva Is Witness",
+  "devanagari": [
+    "जो यह पढ़ै हनुमान चालीसा।",
+    "होय सिद्धि साखी गौरीसा॥"
+  ],
+  "translation": "Whoever reads this <b>Hanuman Chalisa</b> attains success; <b>Shiva himself is witness</b>.",
+  "translation_hi": "जो यह हनुमान चालीसा पढ़ता है, उसे सिद्धि प्राप्त होती है, इसके साक्षी स्वयं भगवान शंकर हैं।",
+  "words": [
+    {
+      "sanskrit": "पढ़ै",
+      "meaning": "reads"
+    },
+    {
+      "sanskrit": "चालीसा",
+      "meaning": "forty verses"
+    },
+    {
+      "sanskrit": "सिद्धि",
+      "meaning": "success"
+    },
+    {
+      "sanskrit": "साखी",
+      "meaning": "witness"
+    },
+    {
+      "sanskrit": "गौरीसा",
+      "meaning": "lord of Gauri, Shiva"
+    }
+  ]
+}

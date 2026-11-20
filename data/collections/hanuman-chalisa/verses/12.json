@@ -1,0 +1,33 @@
+{
+  "id": "hanuman-chalisa-12",
+  "number": "Chaupai 10",
+  "title": "Destroyer of Demons",
+  "devanagari": [
+    "भीम रूप धरि असुर सँहारे।",
+    "रामचंद्र के काज सँवारे॥"
+  ],
+  "translation": "Taking a <b>mighty form</b>, you destroyed the demons and accomplished Ramachandra's tasks.",
+  "translation_hi": "आपने भयंकर रूप धारण करके असुरों का संहार किया और श्री रामचंद्र के कार्य पूरे किए।",
+  "words": [
+    {
+      "sanskrit": "भीम",
+      "meaning": "mighty, terrible"
+    },
+    {
+      "sanskrit": "असुर",
+      "meaning": "demons"
+    },
+    {
+      "sanskrit": "सँहारे",
+      "meaning": "destroyed"
+    },
+    {
+      "sanskrit": "काज",
+      "meaning": "tasks"
+    },
+    {
+      "sanskrit": "सँवारे",
+      "meaning": "accomplished"
+    }
+  ]
+}

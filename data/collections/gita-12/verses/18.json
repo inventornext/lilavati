@@ -1,0 +1,37 @@
+{
+  "id": "gita-12-18",
+  "number": "Bhagavad Gita 12.18",
+  "title": "Same to Friend and Foe",
+  "devanagari": [
+    "समः शत्रौ च मित्रे च तथा मानापमानयोः।",
+    "शीतोष्णसुखदुःखेषु समः सङ्गविवर्जितः॥"
+  ],
+  "translation": "The <b>same to friend and foe</b>, in honour and dishonour, the same in <b>cold and heat</b>, pleasure and pain, free from attachment...",
+  "translation_hi": "जो शत्रु और मित्र में, मान और अपमान में, सर्दी और गर्मी में, सुख और दुख में समान है, और आसक्ति से रहित है...",
+  "words": [
+    {
+      "sanskrit": "समः",
+      "meaning": "the same"
+    },
+    {
+      "sanskrit": "शत्रौ",
+      "meaning": "to a foe"
+    },
+    {
+      "sanskrit": "मित्रे",
+      "meaning": "to a friend"
+    },
+    {
+      "sanskrit": "मानापमानयोः",
+      "meaning": "in honour and dishonour"
+    },
+    {
+      "sanskrit": "शीतोष्ण",
+      "meaning": "cold and heat"
+    },
+    {
+      "sanskrit": "सङ्गविवर्जितः",
+      "meaning": "free from attachment"
+    }
+  ]
+}

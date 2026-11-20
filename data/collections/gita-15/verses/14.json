@@ -1,0 +1,48 @@
+{
+  "id": "gita-15-14",
+  "number": "Bhagavad Gita 15.14",
+  "title": "I Am the Digestive Fire",
+  "devanagari": [
+    "अहं वैश्वानरो भूत्वा प्राणिनां देहमाश्रितः।",
+    "प्राणापानसमायुक्तः पचाम्यन्नं चतुर्विधम्॥"
+  ],
+  "translation": "Becoming <b>Vaishvanara</b>, the fire of life, I dwell in the bodies of living beings. Joined with the in-breath and out-breath, I <b>digest the four kinds of food</b>.",
+  "translation_hi": "मैं वैश्वानर अग्नि बनकर प्राणियों के शरीर में रहता हूँ, और प्राण तथा अपान वायु से युक्त होकर चार प्रकार के अन्न को पचाता हूँ।",
+  "words": [
+    {
+      "sanskrit": "वैश्वानरः",
+      "meaning": "the digestive fire"
+    },
+    {
+      "sanskrit": "प्राणिनाम्",
+      "meaning": "of living beings"
+    },
+    {
+      "sanskrit": "देहम्",
+      "meaning": "body"
+    },
+    {
+      "sanskrit": "आश्रितः",
+      "meaning": "dwelling in"
+    },
+    {
+      "sanskrit": "प्राणापान",
+      "meaning": "in-breath and out-breath"
+    },
+    {
+      "sanskrit": "पचामि",
+      "meaning": "I digest"
+    },
+    {
+      "sanskrit": "अन्नम्",
+      "meaning": "food"
+    },
+    {
+      "sanskrit": "चतुर्विधम्",
+      "meaning": "of four kinds"
+    }
+  ],
+  "science": [
+    "Digestion really is a slow 'fire': cells burn food with the oxygen we breathe in and release carbon dioxide that we breathe out. Breathing and digestion work together, just as the verse says."
+  ]
+}

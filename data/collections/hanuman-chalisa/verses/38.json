@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-38",
+  "number": "Chaupai 36",
+  "title": "All Pain Ends",
+  "devanagari": [
+    "संकट कटै मिटै सब पीरा।",
+    "जो सुमिरै हनुमत बलबीरा॥"
+  ],
+  "translation": "<b>Troubles are cut away and all pain ends</b> for one who remembers mighty Hanuman.",
+  "translation_hi": "जो बलवीर हनुमान का स्मरण करता है, उसके संकट कट जाते हैं और सारी पीड़ा मिट जाती है।",
+  "words": [
+    {
+      "sanskrit": "संकट",
+      "meaning": "troubles"
+    },
+    {
+      "sanskrit": "कटै",
+      "meaning": "are cut"
+    },
+    {
+      "sanskrit": "मिटै",
+      "meaning": "ends"
+    },
+    {
+      "sanskrit": "पीरा",
+      "meaning": "pain"
+    },
+    {
+      "sanskrit": "सुमिरै",
+      "meaning": "remembers"
+    },
+    {
+      "sanskrit": "बलबीरा",
+      "meaning": "the mighty hero"
+    }
+  ]
+}

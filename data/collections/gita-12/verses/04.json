@@ -1,0 +1,37 @@
+{
+  "id": "gita-12-4",
+  "number": "Bhagavad Gita 12.4",
+  "title": "They Too Reach Me",
+  "devanagari": [
+    "सन्नियम्येन्द्रियग्रामं सर्वत्र समबुद्धयः।",
+    "ते प्राप्नुवन्ति मामेव सर्वभूतहिते रताः॥"
+  ],
+  "translation": "...controlling all the senses, <b>even-minded everywhere</b>, delighting in the <b>welfare of all beings</b>: they too reach me.",
+  "translation_hi": "...जो सब इंद्रियों को वश में करके, सर्वत्र समबुद्धि रखते हुए, सब प्राणियों के हित में लगे रहते हैं, वे भी मुझे ही प्राप्त होते हैं।",
+  "words": [
+    {
+      "sanskrit": "सन्नियम्य",
+      "meaning": "controlling"
+    },
+    {
+      "sanskrit": "इन्द्रियग्रामम्",
+      "meaning": "all the senses"
+    },
+    {
+      "sanskrit": "समबुद्धयः",
+      "meaning": "even-minded"
+    },
+    {
+      "sanskrit": "प्राप्नुवन्ति",
+      "meaning": "reach"
+    },
+    {
+      "sanskrit": "सर्वभूतहिते",
+      "meaning": "in the welfare of all beings"
+    },
+    {
+      "sanskrit": "रताः",
+      "meaning": "delighting"
+    }
+  ]
+}

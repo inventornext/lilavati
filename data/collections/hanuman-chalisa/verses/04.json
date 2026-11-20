@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-4",
+  "number": "Chaupai 2",
+  "title": "Rama's Messenger",
+  "devanagari": [
+    "राम दूत अतुलित बल धामा।",
+    "अंजनि-पुत्र पवनसुत नामा॥"
+  ],
+  "translation": "You are <b>Rama's messenger</b>, home of <b>matchless strength</b>, known as Anjani's son and the son of the Wind.",
+  "translation_hi": "आप श्रीराम के दूत हैं, अतुलनीय बल के धाम हैं, अंजनी पुत्र और पवनसुत नाम से जाने जाते हैं।",
+  "words": [
+    {
+      "sanskrit": "दूत",
+      "meaning": "messenger"
+    },
+    {
+      "sanskrit": "अतुलित",
+      "meaning": "matchless"
+    },
+    {
+      "sanskrit": "बल",
+      "meaning": "strength"
+    },
+    {
+      "sanskrit": "धामा",
+      "meaning": "home"
+    },
+    {
+      "sanskrit": "अंजनि-पुत्र",
+      "meaning": "son of Anjani"
+    },
+    {
+      "sanskrit": "पवनसुत",
+      "meaning": "son of the Wind"
+    }
+  ]
+}

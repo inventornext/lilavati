@@ -1,0 +1,33 @@
+{
+  "id": "hanuman-chalisa-40",
+  "number": "Chaupai 38",
+  "title": "A Hundred Recitations",
+  "devanagari": [
+    "जो सत बार पाठ कर कोई।",
+    "छूटहि बंदि महा सुख होई॥"
+  ],
+  "translation": "Whoever recites this <b>a hundred times</b> is freed from bondage and gains great joy.",
+  "translation_hi": "जो कोई इसका सौ बार पाठ करता है, वह बंधनों से छूट जाता है और उसे महासुख मिलता है।",
+  "words": [
+    {
+      "sanskrit": "सत बार",
+      "meaning": "a hundred times"
+    },
+    {
+      "sanskrit": "पाठ",
+      "meaning": "recitation"
+    },
+    {
+      "sanskrit": "छूटहि",
+      "meaning": "is freed"
+    },
+    {
+      "sanskrit": "बंदि",
+      "meaning": "bondage"
+    },
+    {
+      "sanskrit": "महा सुख",
+      "meaning": "great joy"
+    }
+  ]
+}

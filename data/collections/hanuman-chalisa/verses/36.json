@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-36",
+  "number": "Chaupai 34",
+  "title": "Rama's Abode at the End",
+  "devanagari": [
+    "अंत काल रघुबर पुर जाई।",
+    "जहाँ जन्म हरि-भक्त कहाई॥"
+  ],
+  "translation": "At the end, one goes to <b>Rama's abode</b>, and if born again, is known as a devotee of Hari.",
+  "translation_hi": "अंत समय में वह श्री रघुनाथ के धाम जाता है, और यदि जन्म लेता है तो हरि भक्त कहलाता है।",
+  "words": [
+    {
+      "sanskrit": "अंत काल",
+      "meaning": "at the end"
+    },
+    {
+      "sanskrit": "रघुबर पुर",
+      "meaning": "Rama's abode"
+    },
+    {
+      "sanskrit": "जाई",
+      "meaning": "goes"
+    },
+    {
+      "sanskrit": "जन्म",
+      "meaning": "birth"
+    },
+    {
+      "sanskrit": "हरि-भक्त",
+      "meaning": "devotee of Hari"
+    },
+    {
+      "sanskrit": "कहाई",
+      "meaning": "is called"
+    }
+  ]
+}

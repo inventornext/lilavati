@@ -1,0 +1,45 @@
+{
+  "id": "gita-15-9",
+  "number": "Bhagavad Gita 15.9",
+  "title": "The Senses and the Mind",
+  "devanagari": [
+    "श्रोत्रं चक्षुः स्पर्शनं च रसनं घ्राणमेव च।",
+    "अधिष्ठाय मनश्चायं विषयानुपसेवते॥"
+  ],
+  "translation": "Using the <b>ear, eye, touch, taste and smell</b>, and the mind, the soul enjoys the objects of the senses.",
+  "translation_hi": "कान, आँख, त्वचा, जीभ और नाक, तथा मन का आश्रय लेकर यह जीवात्मा विषयों का भोग करता है।",
+  "words": [
+    {
+      "sanskrit": "श्रोत्रम्",
+      "meaning": "ear"
+    },
+    {
+      "sanskrit": "चक्षुः",
+      "meaning": "eye"
+    },
+    {
+      "sanskrit": "स्पर्शनम्",
+      "meaning": "touch"
+    },
+    {
+      "sanskrit": "रसनम्",
+      "meaning": "taste"
+    },
+    {
+      "sanskrit": "घ्राणम्",
+      "meaning": "smell"
+    },
+    {
+      "sanskrit": "अधिष्ठाय",
+      "meaning": "presiding over"
+    },
+    {
+      "sanskrit": "विषयान्",
+      "meaning": "sense objects"
+    },
+    {
+      "sanskrit": "उपसेवते",
+      "meaning": "enjoys"
+    }
+  ]
+}

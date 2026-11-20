@@ -1,0 +1,44 @@
+{
+  "id": "hanuman-chalisa-13",
+  "number": "Chaupai 11",
+  "title": "The Sanjivani Herb",
+  "devanagari": [
+    "लाय सजीवन लखन जियाये।",
+    "श्रीरघुबीर हरषि उर लाये॥"
+  ],
+  "translation": "Bringing the <b>Sanjivani herb</b>, you revived Lakshmana; Rama, overjoyed, held you to his heart.",
+  "translation_hi": "आपने संजीवनी बूटी लाकर लक्ष्मण को जीवित किया, जिससे श्री रघुवीर ने हर्षित होकर आपको हृदय से लगा लिया।",
+  "words": [
+    {
+      "sanskrit": "लाय",
+      "meaning": "bringing"
+    },
+    {
+      "sanskrit": "सजीवन",
+      "meaning": "Sanjivani, the life-giving herb"
+    },
+    {
+      "sanskrit": "लखन",
+      "meaning": "Lakshmana"
+    },
+    {
+      "sanskrit": "जियाये",
+      "meaning": "revived"
+    },
+    {
+      "sanskrit": "हरषि",
+      "meaning": "joyfully"
+    },
+    {
+      "sanskrit": "उर",
+      "meaning": "heart, chest"
+    },
+    {
+      "sanskrit": "लाये",
+      "meaning": "held"
+    }
+  ],
+  "science": [
+    "Medicinal plants are real lifesavers: about a quarter of modern medicines come from plant compounds, like aspirin from willow bark and artemisinin from sweet wormwood."
+  ]
+}

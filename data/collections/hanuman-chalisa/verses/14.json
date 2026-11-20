@@ -1,0 +1,41 @@
+{
+  "id": "hanuman-chalisa-14",
+  "number": "Chaupai 12",
+  "title": "Dear as Bharata",
+  "devanagari": [
+    "रघुपति कीन्ही बहुत बड़ाई।",
+    "तुम मम प्रिय भरतहि सम भाई॥"
+  ],
+  "translation": "Rama praised you greatly: \"You are <b>as dear to me as my brother Bharata</b>.\"",
+  "translation_hi": "श्री रघुनाथ ने आपकी बहुत प्रशंसा की और कहा, \"तुम मुझे भरत के समान प्रिय भाई हो।\"",
+  "words": [
+    {
+      "sanskrit": "रघुपति",
+      "meaning": "Rama, lord of the Raghus"
+    },
+    {
+      "sanskrit": "कीन्ही",
+      "meaning": "did"
+    },
+    {
+      "sanskrit": "बड़ाई",
+      "meaning": "praise"
+    },
+    {
+      "sanskrit": "मम",
+      "meaning": "my"
+    },
+    {
+      "sanskrit": "प्रिय",
+      "meaning": "dear"
+    },
+    {
+      "sanskrit": "भरतहि सम",
+      "meaning": "like Bharata"
+    },
+    {
+      "sanskrit": "भाई",
+      "meaning": "brother"
+    }
+  ]
+}

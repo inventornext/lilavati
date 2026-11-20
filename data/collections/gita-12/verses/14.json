@@ -1,0 +1,37 @@
+{
+  "id": "gita-12-14",
+  "number": "Bhagavad Gita 12.14",
+  "title": "Dear to Me",
+  "devanagari": [
+    "सन्तुष्टः सततं योगी यतात्मा दृढनिश्चयः।",
+    "मय्यर्पितमनोबुद्धिर्यो मद्भक्तः स मे प्रियः॥"
+  ],
+  "translation": "...always content, a yogi, self-controlled, of <b>firm resolve</b>, with mind and intellect offered to me: such a devotee is <b>dear to me</b>.",
+  "translation_hi": "...जो सदा संतुष्ट है, योगी है, मन को वश में रखता है, दृढ़ निश्चयी है और जिसने मन और बुद्धि मुझे अर्पित कर दी है, वह मेरा भक्त मुझे प्रिय है।",
+  "words": [
+    {
+      "sanskrit": "सन्तुष्टः",
+      "meaning": "content"
+    },
+    {
+      "sanskrit": "सततम्",
+      "meaning": "always"
+    },
+    {
+      "sanskrit": "यतात्मा",
+      "meaning": "self-controlled"
+    },
+    {
+      "sanskrit": "दृढनिश्चयः",
+      "meaning": "of firm resolve"
+    },
+    {
+      "sanskrit": "अर्पितमनोबुद्धिः",
+      "meaning": "with mind and intellect offered"
+    },
+    {
+      "sanskrit": "प्रियः",
+      "meaning": "dear"
+    }
+  ]
+}

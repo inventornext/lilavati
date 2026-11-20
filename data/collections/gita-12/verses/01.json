@@ -1,0 +1,42 @@
+{
+  "id": "gita-12-1",
+  "number": "Bhagavad Gita 12.1",
+  "title": "Which Devotee Is Best?",
+  "devanagari": [
+    "अर्जुन उवाच।",
+    "एवं सततयुक्ता ये भक्तास्त्वां पर्युपासते।",
+    "ये चाप्यक्षरमव्यक्तं तेषां के योगवित्तमाः॥"
+  ],
+  "translation": "Arjuna said: Some devotees, always steadfast, worship <b>you in form</b>; others worship the <b>imperishable, unmanifest</b>. Which of them knows yoga best?",
+  "translation_hi": "अर्जुन ने कहा: जो भक्त सदा आपमें लगे रहकर आपकी उपासना करते हैं, और जो अविनाशी, अव्यक्त ब्रह्म की उपासना करते हैं, उनमें श्रेष्ठ योगी कौन है?",
+  "words": [
+    {
+      "sanskrit": "एवम्",
+      "meaning": "thus"
+    },
+    {
+      "sanskrit": "सततयुक्ताः",
+      "meaning": "always steadfast"
+    },
+    {
+      "sanskrit": "भक्ताः",
+      "meaning": "devotees"
+    },
+    {
+      "sanskrit": "पर्युपासते",
+      "meaning": "worship"
+    },
+    {
+      "sanskrit": "अक्षरम्",
+      "meaning": "the imperishable"
+    },
+    {
+      "sanskrit": "अव्यक्तम्",
+      "meaning": "the unmanifest"
+    },
+    {
+      "sanskrit": "योगवित्तमाः",
+      "meaning": "best knowers of yoga"
+    }
+  ]
+}

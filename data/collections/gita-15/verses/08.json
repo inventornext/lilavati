@@ -1,0 +1,52 @@
+{
+  "id": "gita-15-8",
+  "number": "Bhagavad Gita 15.8",
+  "title": "Like the Wind Carries Scent",
+  "devanagari": [
+    "शरीरं यदवाप्नोति यच्चाप्युत्क्रामतीश्वरः।",
+    "गृहीत्वैतानि संयाति वायुर्गन्धानिवाशयात्॥"
+  ],
+  "translation": "When the soul takes a body and when it leaves one, it carries these along, <b>as the wind carries scents</b> from their source.",
+  "translation_hi": "जब जीवात्मा शरीर ग्रहण करता है और जब उसे छोड़ता है, तब इन्हें साथ ले जाता है, जैसे वायु फूलों से सुगंध ले जाती है।",
+  "words": [
+    {
+      "sanskrit": "शरीरम्",
+      "meaning": "body"
+    },
+    {
+      "sanskrit": "अवाप्नोति",
+      "meaning": "obtains"
+    },
+    {
+      "sanskrit": "उत्क्रामति",
+      "meaning": "leaves"
+    },
+    {
+      "sanskrit": "ईश्वरः",
+      "meaning": "the lord (the soul)"
+    },
+    {
+      "sanskrit": "गृहीत्वा",
+      "meaning": "taking"
+    },
+    {
+      "sanskrit": "संयाति",
+      "meaning": "goes"
+    },
+    {
+      "sanskrit": "वायुः",
+      "meaning": "wind"
+    },
+    {
+      "sanskrit": "गन्धान्",
+      "meaning": "scents"
+    },
+    {
+      "sanskrit": "आशयात्",
+      "meaning": "from their source"
+    }
+  ],
+  "science": [
+    "The wind really does carry scent: smell is made of tiny molecules that drift through the air from flowers to your nose, where receptors detect them."
+  ]
+}

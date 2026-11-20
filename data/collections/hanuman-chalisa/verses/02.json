@@ -1,0 +1,57 @@
+{
+  "id": "hanuman-chalisa-2",
+  "number": "Doha 2",
+  "title": "Give Me Strength and Wisdom",
+  "devanagari": [
+    "बुद्धिहीन तनु जानिके, सुमिरौं पवन-कुमार।",
+    "बल बुधि बिद्या देहु मोहिं, हरहु कलेस बिकार॥"
+  ],
+  "translation": "Knowing myself to be <b>lacking in wisdom</b>, I remember you, son of the Wind. Give me <b>strength, wisdom and knowledge</b>, and take away my troubles and faults.",
+  "translation_hi": "अपने को बुद्धिहीन जानकर मैं पवनपुत्र हनुमान का स्मरण करता हूँ। मुझे बल, बुद्धि और विद्या दीजिए और मेरे क्लेश और विकार दूर कीजिए।",
+  "words": [
+    {
+      "sanskrit": "बुद्धिहीन",
+      "meaning": "without wisdom"
+    },
+    {
+      "sanskrit": "तनु",
+      "meaning": "this body, myself"
+    },
+    {
+      "sanskrit": "जानिके",
+      "meaning": "knowing"
+    },
+    {
+      "sanskrit": "सुमिरौं",
+      "meaning": "I remember"
+    },
+    {
+      "sanskrit": "पवन-कुमार",
+      "meaning": "son of the Wind"
+    },
+    {
+      "sanskrit": "बल",
+      "meaning": "strength"
+    },
+    {
+      "sanskrit": "बुधि",
+      "meaning": "wisdom"
+    },
+    {
+      "sanskrit": "बिद्या",
+      "meaning": "knowledge"
+    },
+    {
+      "sanskrit": "हरहु",
+      "meaning": "take away"
+    },
+    {
+      "sanskrit": "कलेस",
+      "meaning": "troubles"
+    },
+    {
+      "sanskrit": "बिकार",
+      "meaning": "faults"
+    }
+  ]
+}

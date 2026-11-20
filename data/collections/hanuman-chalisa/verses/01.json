@@ -1,0 +1,53 @@
+{
+  "id": "hanuman-chalisa-1",
+  "number": "Doha 1",
+  "title": "With the Dust of the Guru's Feet",
+  "devanagari": [
+    "श्रीगुरु चरन सरोज रज, निज मनु मुकुरु सुधारि।",
+    "बरनउँ रघुबर बिमल जसु, जो दायकु फल चारि॥"
+  ],
+  "translation": "Cleaning the <b>mirror of my mind</b> with the dust of my Guru's lotus feet, I sing the pure glory of <b>Rama</b>, which gives the four fruits of life.",
+  "translation_hi": "श्री गुरु के चरण कमलों की धूल से अपने मन रूपी दर्पण को साफ़ करके, मैं श्री रघुवीर के निर्मल यश का वर्णन करता हूँ, जो चारों फल (धर्म, अर्थ, काम, मोक्ष) देने वाला है।",
+  "words": [
+    {
+      "sanskrit": "चरन सरोज",
+      "meaning": "lotus feet"
+    },
+    {
+      "sanskrit": "रज",
+      "meaning": "dust"
+    },
+    {
+      "sanskrit": "निज",
+      "meaning": "my own"
+    },
+    {
+      "sanskrit": "मनु",
+      "meaning": "mind"
+    },
+    {
+      "sanskrit": "मुकुरु",
+      "meaning": "mirror"
+    },
+    {
+      "sanskrit": "सुधारि",
+      "meaning": "having cleaned"
+    },
+    {
+      "sanskrit": "बरनउँ",
+      "meaning": "I describe"
+    },
+    {
+      "sanskrit": "रघुबर",
+      "meaning": "Rama, best of the Raghus"
+    },
+    {
+      "sanskrit": "बिमल जसु",
+      "meaning": "pure glory"
+    },
+    {
+      "sanskrit": "फल चारि",
+      "meaning": "the four fruits (dharma, artha, kama, moksha)"
+    }
+  ]
+}

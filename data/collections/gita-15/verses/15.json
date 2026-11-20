@@ -1,0 +1,51 @@
+{
+  "id": "gita-15-15",
+  "number": "Bhagavad Gita 15.15",
+  "title": "Memory and Knowledge Come from Me",
+  "devanagari": [
+    "सर्वस्य चाहं हृदि सन्निविष्टो",
+    "मत्तः स्मृतिर्ज्ञानमपोहनं च।",
+    "वेदैश्च सर्वैरहमेव वेद्यो",
+    "वेदान्तकृद्वेदविदेव चाहम्॥"
+  ],
+  "translation": "I am seated in the <b>heart of all</b>. From me come <b>memory, knowledge</b> and their loss. I am what all the Vedas seek to know; I am the author of Vedanta and the knower of the Vedas.",
+  "translation_hi": "मैं सबके हृदय में स्थित हूँ। मुझसे ही स्मृति, ज्ञान और उनका लोप होता है। सब वेदों द्वारा जानने योग्य मैं ही हूँ, वेदांत का कर्ता और वेदों का ज्ञाता भी मैं ही हूँ।",
+  "words": [
+    {
+      "sanskrit": "हृदि",
+      "meaning": "in the heart"
+    },
+    {
+      "sanskrit": "सन्निविष्टः",
+      "meaning": "seated"
+    },
+    {
+      "sanskrit": "मत्तः",
+      "meaning": "from me"
+    },
+    {
+      "sanskrit": "स्मृतिः",
+      "meaning": "memory"
+    },
+    {
+      "sanskrit": "ज्ञानम्",
+      "meaning": "knowledge"
+    },
+    {
+      "sanskrit": "अपोहनम्",
+      "meaning": "loss, forgetting"
+    },
+    {
+      "sanskrit": "वेद्यः",
+      "meaning": "to be known"
+    },
+    {
+      "sanskrit": "वेदान्तकृत्",
+      "meaning": "author of Vedanta"
+    },
+    {
+      "sanskrit": "वेदवित्",
+      "meaning": "knower of the Vedas"
+    }
+  ]
+}

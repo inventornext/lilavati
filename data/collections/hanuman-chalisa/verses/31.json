@@ -1,0 +1,29 @@
+{
+  "id": "hanuman-chalisa-31",
+  "number": "Chaupai 29",
+  "title": "Famous in All Ages",
+  "devanagari": [
+    "चारों जुग परताप तुम्हारा।",
+    "है परसिद्ध जगत उजियारा॥"
+  ],
+  "translation": "Your glory shines in <b>all four ages</b>, famous, lighting up the world.",
+  "translation_hi": "चारों युगों में आपका प्रताप है, जो सारे जगत में प्रसिद्ध और प्रकाशित है।",
+  "words": [
+    {
+      "sanskrit": "चारों जुग",
+      "meaning": "all four ages"
+    },
+    {
+      "sanskrit": "परताप",
+      "meaning": "glory"
+    },
+    {
+      "sanskrit": "परसिद्ध",
+      "meaning": "famous"
+    },
+    {
+      "sanskrit": "उजियारा",
+      "meaning": "light"
+    }
+  ]
+}

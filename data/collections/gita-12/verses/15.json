@@ -1,0 +1,45 @@
+{
+  "id": "gita-12-15",
+  "number": "Bhagavad Gita 12.15",
+  "title": "Neither Disturbs Nor Is Disturbed",
+  "devanagari": [
+    "यस्मान्नोद्विजते लोको लोकान्नोद्विजते च यः।",
+    "हर्षामर्षभयोद्वेगैर्मुक्तो यः स च मे प्रियः॥"
+  ],
+  "translation": "One <b>by whom the world is not disturbed</b>, and who is not disturbed by the world, free from excitement, anger, fear and anxiety: that one is dear to me.",
+  "translation_hi": "जिससे संसार को कष्ट नहीं होता और जो संसार से विचलित नहीं होता, जो हर्ष, क्रोध, भय और उद्वेग से मुक्त है, वह मुझे प्रिय है।",
+  "words": [
+    {
+      "sanskrit": "यस्मात्",
+      "meaning": "from whom"
+    },
+    {
+      "sanskrit": "न उद्विजते",
+      "meaning": "is not disturbed"
+    },
+    {
+      "sanskrit": "लोकः",
+      "meaning": "the world"
+    },
+    {
+      "sanskrit": "हर्ष",
+      "meaning": "excitement"
+    },
+    {
+      "sanskrit": "अमर्ष",
+      "meaning": "anger"
+    },
+    {
+      "sanskrit": "भय",
+      "meaning": "fear"
+    },
+    {
+      "sanskrit": "उद्वेग",
+      "meaning": "anxiety"
+    },
+    {
+      "sanskrit": "मुक्तः",
+      "meaning": "free"
+    }
+  ]
+}

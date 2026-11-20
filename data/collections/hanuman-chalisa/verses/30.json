@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-30",
+  "number": "Chaupai 28",
+  "title": "Every Wish Fulfilled",
+  "devanagari": [
+    "और मनोरथ जो कोई लावै।",
+    "सोइ अमित जीवन फल पावै॥"
+  ],
+  "translation": "Whoever comes to you with any <b>wish</b> receives the <b>boundless fruit</b> of life.",
+  "translation_hi": "जो कोई और भी कोई इच्छा लेकर आता है, वह जीवन का असीम फल प्राप्त करता है।",
+  "words": [
+    {
+      "sanskrit": "मनोरथ",
+      "meaning": "wish"
+    },
+    {
+      "sanskrit": "लावै",
+      "meaning": "brings"
+    },
+    {
+      "sanskrit": "सोइ",
+      "meaning": "he"
+    },
+    {
+      "sanskrit": "अमित",
+      "meaning": "boundless"
+    },
+    {
+      "sanskrit": "जीवन फल",
+      "meaning": "fruit of life"
+    },
+    {
+      "sanskrit": "पावै",
+      "meaning": "obtains"
+    }
+  ]
+}

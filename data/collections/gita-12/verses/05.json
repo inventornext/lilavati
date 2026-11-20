@@ -1,0 +1,41 @@
+{
+  "id": "gita-12-5",
+  "number": "Bhagavad Gita 12.5",
+  "title": "The Harder Path",
+  "devanagari": [
+    "क्लेशोऽधिकतरस्तेषामव्यक्तासक्तचेतसाम्।",
+    "अव्यक्ता हि गतिर्दुःखं देहवद्भिरवाप्यते॥"
+  ],
+  "translation": "The struggle is <b>greater</b> for those whose minds are set on the unmanifest, for the unmanifest goal is <b>hard to reach</b> for embodied beings.",
+  "translation_hi": "जिनका मन अव्यक्त में लगा है, उनके लिए कठिनाई अधिक है, क्योंकि देहधारियों के लिए अव्यक्त की प्राप्ति कठिन होती है।",
+  "words": [
+    {
+      "sanskrit": "क्लेशः",
+      "meaning": "struggle"
+    },
+    {
+      "sanskrit": "अधिकतरः",
+      "meaning": "greater"
+    },
+    {
+      "sanskrit": "अव्यक्तासक्तचेतसाम्",
+      "meaning": "of those attached to the unmanifest"
+    },
+    {
+      "sanskrit": "गतिः",
+      "meaning": "goal"
+    },
+    {
+      "sanskrit": "दुःखम्",
+      "meaning": "with difficulty"
+    },
+    {
+      "sanskrit": "देहवद्भिः",
+      "meaning": "by the embodied"
+    },
+    {
+      "sanskrit": "अवाप्यते",
+      "meaning": "is reached"
+    }
+  ]
+}

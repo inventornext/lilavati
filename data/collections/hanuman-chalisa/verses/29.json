@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-29",
+  "number": "Chaupai 27",
+  "title": "Rama the King",
+  "devanagari": [
+    "सब पर राम तपस्वी राजा।",
+    "तिन के काज सकल तुम साजा॥"
+  ],
+  "translation": "<b>Rama, the ascetic king</b>, is above all; and you carried out all his tasks.",
+  "translation_hi": "तपस्वी राजा श्रीराम सबसे श्रेष्ठ हैं, और उनके सब कामों को आपने ही पूरा किया।",
+  "words": [
+    {
+      "sanskrit": "सब पर",
+      "meaning": "above all"
+    },
+    {
+      "sanskrit": "तपस्वी",
+      "meaning": "ascetic"
+    },
+    {
+      "sanskrit": "राजा",
+      "meaning": "king"
+    },
+    {
+      "sanskrit": "तिन के",
+      "meaning": "his"
+    },
+    {
+      "sanskrit": "सकल",
+      "meaning": "all"
+    },
+    {
+      "sanskrit": "साजा",
+      "meaning": "accomplished"
+    }
+  ]
+}

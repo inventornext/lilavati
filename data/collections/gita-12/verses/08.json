@@ -1,0 +1,37 @@
+{
+  "id": "gita-12-8",
+  "number": "Bhagavad Gita 12.8",
+  "title": "Fix Your Mind on Me",
+  "devanagari": [
+    "मय्येव मन आधत्स्व मयि बुद्धिं निवेशय।",
+    "निवसिष्यसि मय्येव अत ऊर्ध्वं न संशयः॥"
+  ],
+  "translation": "<b>Fix your mind on me alone</b>, let your intellect rest in me. Then you will live in me; of this there is <b>no doubt</b>.",
+  "translation_hi": "अपना मन मुझमें ही लगाओ, अपनी बुद्धि मुझमें स्थिर करो। तब तुम मुझमें ही निवास करोगे, इसमें कोई संदेह नहीं।",
+  "words": [
+    {
+      "sanskrit": "मयि एव",
+      "meaning": "in me alone"
+    },
+    {
+      "sanskrit": "आधत्स्व",
+      "meaning": "fix"
+    },
+    {
+      "sanskrit": "बुद्धिम्",
+      "meaning": "intellect"
+    },
+    {
+      "sanskrit": "निवेशय",
+      "meaning": "place"
+    },
+    {
+      "sanskrit": "निवसिष्यसि",
+      "meaning": "you will dwell"
+    },
+    {
+      "sanskrit": "न संशयः",
+      "meaning": "no doubt"
+    }
+  ]
+}

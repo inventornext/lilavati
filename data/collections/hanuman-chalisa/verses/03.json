@@ -1,0 +1,41 @@
+{
+  "id": "hanuman-chalisa-3",
+  "number": "Chaupai 1",
+  "title": "Ocean of Wisdom",
+  "devanagari": [
+    "जय हनुमान ज्ञान गुन सागर।",
+    "जय कपीस तिहुँ लोक उजागर॥"
+  ],
+  "translation": "Victory to Hanuman, <b>ocean of wisdom and virtue</b>. Victory to the lord of the monkeys, who lights up the three worlds.",
+  "translation_hi": "हे हनुमान, आपकी जय हो। आप ज्ञान और गुणों के सागर हैं। हे कपीश्वर, आपकी जय हो, आप तीनों लोकों में प्रसिद्ध हैं।",
+  "words": [
+    {
+      "sanskrit": "जय",
+      "meaning": "victory"
+    },
+    {
+      "sanskrit": "ज्ञान",
+      "meaning": "wisdom"
+    },
+    {
+      "sanskrit": "गुन",
+      "meaning": "virtues"
+    },
+    {
+      "sanskrit": "सागर",
+      "meaning": "ocean"
+    },
+    {
+      "sanskrit": "कपीस",
+      "meaning": "lord of the monkeys"
+    },
+    {
+      "sanskrit": "तिहुँ लोक",
+      "meaning": "three worlds"
+    },
+    {
+      "sanskrit": "उजागर",
+      "meaning": "shining, famous"
+    }
+  ]
+}

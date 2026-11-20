@@ -1,0 +1,43 @@
+{
+  "id": "gita-15-2",
+  "number": "Bhagavad Gita 15.2",
+  "title": "Branches Spreading Everywhere",
+  "devanagari": [
+    "अधश्चोर्ध्वं प्रसृतास्तस्य शाखा",
+    "गुणप्रवृद्धा विषयप्रवालाः।",
+    "अधश्च मूलान्यनुसन्ततानि",
+    "कर्मानुबन्धीनि मनुष्यलोके॥"
+  ],
+  "translation": "Its branches <b>spread below and above</b>, fed by the gunas, with sense objects as buds. Its roots stretch downward too, <b>binding to action</b> in the human world.",
+  "translation_hi": "उसकी शाखाएँ नीचे और ऊपर फैली हैं, गुणों से बढ़ी हुई हैं, और विषय उनकी कोंपलें हैं। उसकी जड़ें नीचे भी फैली हैं, जो मनुष्य लोक में कर्मों से बाँधती हैं।",
+  "words": [
+    {
+      "sanskrit": "शाखाः",
+      "meaning": "branches"
+    },
+    {
+      "sanskrit": "प्रसृताः",
+      "meaning": "spread"
+    },
+    {
+      "sanskrit": "गुणप्रवृद्धाः",
+      "meaning": "nourished by the gunas"
+    },
+    {
+      "sanskrit": "विषयप्रवालाः",
+      "meaning": "with sense objects as buds"
+    },
+    {
+      "sanskrit": "मूलानि",
+      "meaning": "roots"
+    },
+    {
+      "sanskrit": "अनुसन्ततानि",
+      "meaning": "stretched"
+    },
+    {
+      "sanskrit": "कर्मानुबन्धीनि",
+      "meaning": "binding to action"
+    }
+  ]
+}

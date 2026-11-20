@@ -1,0 +1,41 @@
+{
+  "id": "gita-15-16",
+  "number": "Bhagavad Gita 15.16",
+  "title": "The Perishable and the Imperishable",
+  "devanagari": [
+    "द्वाविमौ पुरुषौ लोके क्षरश्चाक्षर एव च।",
+    "क्षरः सर्वाणि भूतानि कूटस्थोऽक्षर उच्यते॥"
+  ],
+  "translation": "There are <b>two beings</b> in the world: the <b>perishable</b> and the <b>imperishable</b>. All creatures are perishable; the unchanging is called imperishable.",
+  "translation_hi": "संसार में दो पुरुष हैं, क्षर (नाशवान) और अक्षर (अविनाशी)। सब प्राणी क्षर हैं और कूटस्थ आत्मा अक्षर कहलाता है।",
+  "words": [
+    {
+      "sanskrit": "द्वौ",
+      "meaning": "two"
+    },
+    {
+      "sanskrit": "पुरुषौ",
+      "meaning": "beings"
+    },
+    {
+      "sanskrit": "क्षरः",
+      "meaning": "perishable"
+    },
+    {
+      "sanskrit": "अक्षरः",
+      "meaning": "imperishable"
+    },
+    {
+      "sanskrit": "भूतानि",
+      "meaning": "creatures"
+    },
+    {
+      "sanskrit": "कूटस्थः",
+      "meaning": "unchanging"
+    },
+    {
+      "sanskrit": "उच्यते",
+      "meaning": "is called"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "hanuman-chalisa-6",
+  "number": "Chaupai 4",
+  "title": "Golden in Colour",
+  "devanagari": [
+    "कंचन बरन बिराज सुबेसा।",
+    "कानन कुंडल कुंचित केसा॥"
+  ],
+  "translation": "Your colour is <b>golden</b>, you are finely dressed, with earrings in your ears and <b>curly hair</b>.",
+  "translation_hi": "आपका रंग सोने जैसा है, आप सुंदर वेश में शोभित हैं, कानों में कुंडल हैं और बाल घुँघराले हैं।",
+  "words": [
+    {
+      "sanskrit": "कंचन",
+      "meaning": "gold"
+    },
+    {
+      "sanskrit": "बरन",
+      "meaning": "colour"
+    },
+    {
+      "sanskrit": "बिराज",
+      "meaning": "shines"
+    },
+    {
+      "sanskrit": "सुबेसा",
+      "meaning": "fine dress"
+    },
+    {
+      "sanskrit": "कानन",
+      "meaning": "in the ears"
+    },
+    {
+      "sanskrit": "कुंडल",
+      "meaning": "earrings"
+    },
+    {
+      "sanskrit": "कुंचित केसा",
+      "meaning": "curly hair"
+    }
+  ]
+}

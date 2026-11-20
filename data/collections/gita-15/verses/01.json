@@ -1,0 +1,42 @@
+{
+  "id": "gita-15-1",
+  "number": "Bhagavad Gita 15.1",
+  "title": "The Upside-down Tree",
+  "devanagari": [
+    "श्रीभगवानुवाच।",
+    "ऊर्ध्वमूलमधःशाखमश्वत्थं प्राहुरव्ययम्।",
+    "छन्दांसि यस्य पर्णानि यस्तं वेद स वेदवित्॥"
+  ],
+  "translation": "The Lord said: They speak of an eternal <b>ashvattha tree with roots above and branches below</b>. Its leaves are the Vedic hymns. Whoever knows it knows the Vedas.",
+  "translation_hi": "श्री भगवान ने कहा: एक अविनाशी पीपल का वृक्ष बताया गया है, जिसकी जड़ ऊपर और शाखाएँ नीचे हैं। वेद के छंद उसके पत्ते हैं। जो उसे जानता है, वही वेद का ज्ञाता है।",
+  "words": [
+    {
+      "sanskrit": "ऊर्ध्वमूलम्",
+      "meaning": "with roots above"
+    },
+    {
+      "sanskrit": "अधःशाखम्",
+      "meaning": "with branches below"
+    },
+    {
+      "sanskrit": "अश्वत्थम्",
+      "meaning": "the ashvattha (peepal) tree"
+    },
+    {
+      "sanskrit": "अव्ययम्",
+      "meaning": "eternal"
+    },
+    {
+      "sanskrit": "छन्दांसि",
+      "meaning": "Vedic hymns"
+    },
+    {
+      "sanskrit": "पर्णानि",
+      "meaning": "leaves"
+    },
+    {
+      "sanskrit": "वेदवित्",
+      "meaning": "knower of the Vedas"
+    }
+  ]
+}

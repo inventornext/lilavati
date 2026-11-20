@@ -1,0 +1,33 @@
+{
+  "id": "hanuman-chalisa-10",
+  "number": "Chaupai 8",
+  "title": "Delighting in Rama's Story",
+  "devanagari": [
+    "प्रभु चरित्र सुनिबे को रसिया।",
+    "राम लखन सीता मन बसिया॥"
+  ],
+  "translation": "You <b>delight in hearing the Lord's story</b>; Rama, Lakshmana and Sita live in your heart.",
+  "translation_hi": "आप प्रभु का चरित्र सुनने के रसिया हैं। राम, लक्ष्मण और सीता आपके मन में बसते हैं।",
+  "words": [
+    {
+      "sanskrit": "प्रभु चरित्र",
+      "meaning": "the Lord's story"
+    },
+    {
+      "sanskrit": "सुनिबे को",
+      "meaning": "to hear"
+    },
+    {
+      "sanskrit": "रसिया",
+      "meaning": "lover, one who delights"
+    },
+    {
+      "sanskrit": "मन",
+      "meaning": "heart, mind"
+    },
+    {
+      "sanskrit": "बसिया",
+      "meaning": "dwelling"
+    }
+  ]
+}

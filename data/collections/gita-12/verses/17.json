@@ -1,0 +1,37 @@
+{
+  "id": "gita-12-17",
+  "number": "Bhagavad Gita 12.17",
+  "title": "Beyond Good and Bad",
+  "devanagari": [
+    "यो न हृष्यति न द्वेष्टि न शोचति न काङ्क्षति।",
+    "शुभाशुभपरित्यागी भक्तिमान्यः स मे प्रियः॥"
+  ],
+  "translation": "One who neither rejoices nor hates, <b>neither grieves nor craves</b>, who has gone beyond good and bad, full of devotion: that one is dear to me.",
+  "translation_hi": "जो न हर्षित होता है, न द्वेष करता है, न शोक करता है, न इच्छा करता है, जो शुभ और अशुभ दोनों को त्याग चुका है, वह भक्तिमान मुझे प्रिय है।",
+  "words": [
+    {
+      "sanskrit": "न हृष्यति",
+      "meaning": "does not rejoice"
+    },
+    {
+      "sanskrit": "न द्वेष्टि",
+      "meaning": "does not hate"
+    },
+    {
+      "sanskrit": "न शोचति",
+      "meaning": "does not grieve"
+    },
+    {
+      "sanskrit": "न काङ्क्षति",
+      "meaning": "does not crave"
+    },
+    {
+      "sanskrit": "शुभाशुभ",
+      "meaning": "good and bad"
+    },
+    {
+      "sanskrit": "भक्तिमान्",
+      "meaning": "full of devotion"
+    }
+  ]
+}

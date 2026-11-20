@@ -1,0 +1,41 @@
+{
+  "id": "hanuman-chalisa-25",
+  "number": "Chaupai 23",
+  "title": "The Worlds Tremble",
+  "devanagari": [
+    "आपन तेज सम्हारो आपै।",
+    "तीनों लोक हाँक तें काँपै॥"
+  ],
+  "translation": "Only <b>you can hold your own power</b>; the three worlds tremble at your roar.",
+  "translation_hi": "अपने तेज को आप ही सँभाल सकते हैं। आपकी हुंकार से तीनों लोक काँप उठते हैं।",
+  "words": [
+    {
+      "sanskrit": "आपन",
+      "meaning": "your own"
+    },
+    {
+      "sanskrit": "तेज",
+      "meaning": "power"
+    },
+    {
+      "sanskrit": "सम्हारो",
+      "meaning": "control"
+    },
+    {
+      "sanskrit": "आपै",
+      "meaning": "you yourself"
+    },
+    {
+      "sanskrit": "तीनों लोक",
+      "meaning": "three worlds"
+    },
+    {
+      "sanskrit": "हाँक",
+      "meaning": "roar"
+    },
+    {
+      "sanskrit": "काँपै",
+      "meaning": "tremble"
+    }
+  ]
+}

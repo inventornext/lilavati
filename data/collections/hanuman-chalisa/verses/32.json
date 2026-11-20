@@ -1,0 +1,33 @@
+{
+  "id": "hanuman-chalisa-32",
+  "number": "Chaupai 30",
+  "title": "Protector of Saints",
+  "devanagari": [
+    "साधु संत के तुम रखवारे।",
+    "असुर निकंदन राम दुलारे॥"
+  ],
+  "translation": "You are the <b>protector of saints and good people</b>, destroyer of demons, beloved of Rama.",
+  "translation_hi": "आप साधु संतों के रक्षक हैं, असुरों का नाश करने वाले और श्रीराम के दुलारे हैं।",
+  "words": [
+    {
+      "sanskrit": "साधु संत",
+      "meaning": "saints and good people"
+    },
+    {
+      "sanskrit": "रखवारे",
+      "meaning": "protector"
+    },
+    {
+      "sanskrit": "असुर",
+      "meaning": "demons"
+    },
+    {
+      "sanskrit": "निकंदन",
+      "meaning": "destroyer"
+    },
+    {
+      "sanskrit": "दुलारे",
+      "meaning": "beloved"
+    }
+  ]
+}

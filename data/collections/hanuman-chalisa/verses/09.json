@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-9",
+  "number": "Chaupai 7",
+  "title": "Eager for Rama's Work",
+  "devanagari": [
+    "बिद्यावान गुनी अति चातुर।",
+    "राम काज करिबे को आतुर॥"
+  ],
+  "translation": "Learned, virtuous and very clever, you are always <b>eager to do Rama's work</b>.",
+  "translation_hi": "आप विद्वान, गुणी और अत्यंत चतुर हैं, और श्रीराम का काम करने के लिए सदा उत्सुक रहते हैं।",
+  "words": [
+    {
+      "sanskrit": "बिद्यावान",
+      "meaning": "learned"
+    },
+    {
+      "sanskrit": "गुनी",
+      "meaning": "virtuous"
+    },
+    {
+      "sanskrit": "अति चातुर",
+      "meaning": "very clever"
+    },
+    {
+      "sanskrit": "काज",
+      "meaning": "work"
+    },
+    {
+      "sanskrit": "करिबे को",
+      "meaning": "to do"
+    },
+    {
+      "sanskrit": "आतुर",
+      "meaning": "eager"
+    }
+  ]
+}

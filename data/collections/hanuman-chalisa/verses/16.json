@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-16",
+  "number": "Chaupai 14",
+  "title": "Sages and Gods Praise You",
+  "devanagari": [
+    "सनकादिक ब्रह्मादि मुनीसा।",
+    "नारद सारद सहित अहीसा॥"
+  ],
+  "translation": "Sanaka and the sages, <b>Brahma</b> and the gods, Narada, <b>Saraswati</b> and the king of serpents...",
+  "translation_hi": "सनकादि ऋषि, ब्रह्मा आदि देवता और मुनीश्वर, नारद, सरस्वती और शेषनाग...",
+  "words": [
+    {
+      "sanskrit": "सनकादिक",
+      "meaning": "Sanaka and the other sages"
+    },
+    {
+      "sanskrit": "ब्रह्मादि",
+      "meaning": "Brahma and others"
+    },
+    {
+      "sanskrit": "मुनीसा",
+      "meaning": "great sages"
+    },
+    {
+      "sanskrit": "नारद",
+      "meaning": "Narada"
+    },
+    {
+      "sanskrit": "सारद",
+      "meaning": "Saraswati"
+    },
+    {
+      "sanskrit": "अहीसा",
+      "meaning": "lord of serpents"
+    }
+  ]
+}

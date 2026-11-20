@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-27",
+  "number": "Chaupai 25",
+  "title": "Disease Is Destroyed",
+  "devanagari": [
+    "नासै रोग हरै सब पीरा।",
+    "जपत निरंतर हनुमत बीरा॥"
+  ],
+  "translation": "<b>Illness is destroyed and all pain is removed</b> for one who constantly chants the name of brave Hanuman.",
+  "translation_hi": "वीर हनुमान का निरंतर जप करने से रोग नष्ट होते हैं और सारी पीड़ा दूर हो जाती है।",
+  "words": [
+    {
+      "sanskrit": "नासै",
+      "meaning": "destroys"
+    },
+    {
+      "sanskrit": "रोग",
+      "meaning": "illness"
+    },
+    {
+      "sanskrit": "हरै",
+      "meaning": "removes"
+    },
+    {
+      "sanskrit": "पीरा",
+      "meaning": "pain"
+    },
+    {
+      "sanskrit": "जपत",
+      "meaning": "chanting"
+    },
+    {
+      "sanskrit": "निरंतर",
+      "meaning": "constantly"
+    }
+  ]
+}

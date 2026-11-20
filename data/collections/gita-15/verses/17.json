@@ -1,0 +1,41 @@
+{
+  "id": "gita-15-17",
+  "number": "Bhagavad Gita 15.17",
+  "title": "The Supreme Self",
+  "devanagari": [
+    "उत्तमः पुरुषस्त्वन्यः परमात्मेत्युदाहृतः।",
+    "यो लोकत्रयमाविश्य बिभर्त्यव्यय ईश्वरः॥"
+  ],
+  "translation": "But there is another, the <b>highest Person</b>, called the Supreme Self, the eternal Lord who enters the three worlds and <b>sustains them</b>.",
+  "translation_hi": "परंतु उत्तम पुरुष इनसे अलग है, जिसे परमात्मा कहा जाता है, जो अविनाशी ईश्वर तीनों लोकों में प्रवेश करके उनका पालन करता है।",
+  "words": [
+    {
+      "sanskrit": "उत्तमः",
+      "meaning": "highest"
+    },
+    {
+      "sanskrit": "अन्यः",
+      "meaning": "another"
+    },
+    {
+      "sanskrit": "परमात्मा",
+      "meaning": "the Supreme Self"
+    },
+    {
+      "sanskrit": "उदाहृतः",
+      "meaning": "is called"
+    },
+    {
+      "sanskrit": "लोकत्रयम्",
+      "meaning": "the three worlds"
+    },
+    {
+      "sanskrit": "बिभर्ति",
+      "meaning": "sustains"
+    },
+    {
+      "sanskrit": "अव्ययः",
+      "meaning": "eternal"
+    }
+  ]
+}

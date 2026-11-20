@@ -1,0 +1,52 @@
+{
+  "id": "gita-15-12",
+  "number": "Bhagavad Gita 15.12",
+  "title": "The Light of Sun, Moon and Fire",
+  "devanagari": [
+    "यदादित्यगतं तेजो जगद्भासयतेऽखिलम्।",
+    "यच्चन्द्रमसि यच्चाग्नौ तत्तेजो विद्धि मामकम्॥"
+  ],
+  "translation": "The <b>light in the sun</b> that lights the whole world, the light in the moon and in fire: know that light to be <b>mine</b>.",
+  "translation_hi": "जो तेज सूर्य में स्थित होकर सारे जगत को प्रकाशित करता है, और जो चंद्रमा और अग्नि में है, उस तेज को मेरा ही जानो।",
+  "words": [
+    {
+      "sanskrit": "आदित्यगतम्",
+      "meaning": "in the sun"
+    },
+    {
+      "sanskrit": "तेजः",
+      "meaning": "light"
+    },
+    {
+      "sanskrit": "जगत्",
+      "meaning": "world"
+    },
+    {
+      "sanskrit": "भासयते",
+      "meaning": "lights up"
+    },
+    {
+      "sanskrit": "अखिलम्",
+      "meaning": "whole"
+    },
+    {
+      "sanskrit": "चन्द्रमसि",
+      "meaning": "in the moon"
+    },
+    {
+      "sanskrit": "अग्नौ",
+      "meaning": "in fire"
+    },
+    {
+      "sanskrit": "विद्धि",
+      "meaning": "know"
+    },
+    {
+      "sanskrit": "मामकम्",
+      "meaning": "mine"
+    }
+  ],
+  "science": [
+    "Moonlight is sunlight reflected off the Moon's surface, and the energy in firewood is sunlight stored by plants through photosynthesis. In a sense all three lights are one light."
+  ]
+}

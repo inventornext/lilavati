@@ -1,0 +1,45 @@
+{
+  "id": "gita-12-12",
+  "number": "Bhagavad Gita 12.12",
+  "title": "Peace Follows Letting Go",
+  "devanagari": [
+    "श्रेयो हि ज्ञानमभ्यासाज्ज्ञानाद्ध्यानं विशिष्यते।",
+    "ध्यानात्कर्मफलत्यागस्त्यागाच्छान्तिरनन्तरम्॥"
+  ],
+  "translation": "Knowledge is better than practice; meditation is better than knowledge; <b>giving up the fruits of action</b> is better than meditation. <b>Peace follows letting go</b> at once.",
+  "translation_hi": "अभ्यास से ज्ञान श्रेष्ठ है, ज्ञान से ध्यान श्रेष्ठ है, ध्यान से कर्मफल का त्याग श्रेष्ठ है, और त्याग से तुरंत शांति मिलती है।",
+  "words": [
+    {
+      "sanskrit": "श्रेयः",
+      "meaning": "better"
+    },
+    {
+      "sanskrit": "ज्ञानम्",
+      "meaning": "knowledge"
+    },
+    {
+      "sanskrit": "अभ्यासात्",
+      "meaning": "than practice"
+    },
+    {
+      "sanskrit": "ध्यानम्",
+      "meaning": "meditation"
+    },
+    {
+      "sanskrit": "विशिष्यते",
+      "meaning": "excels"
+    },
+    {
+      "sanskrit": "त्यागात्",
+      "meaning": "from letting go"
+    },
+    {
+      "sanskrit": "शान्तिः",
+      "meaning": "peace"
+    },
+    {
+      "sanskrit": "अनन्तरम्",
+      "meaning": "immediately"
+    }
+  ]
+}

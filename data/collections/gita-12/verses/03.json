@@ -1,0 +1,37 @@
+{
+  "id": "gita-12-3",
+  "number": "Bhagavad Gita 12.3",
+  "title": "Those Who Seek the Formless",
+  "devanagari": [
+    "ये त्वक्षरमनिर्देश्यमव्यक्तं पर्युपासते।",
+    "सर्वत्रगमचिन्त्यं च कूटस्थमचलं ध्रुवम्॥"
+  ],
+  "translation": "But those who worship the <b>imperishable</b>, the indefinable, the unmanifest, all-pervading, <b>beyond thought</b>, unchanging, unmoving and eternal...",
+  "translation_hi": "परंतु जो अविनाशी, अवर्णनीय, अव्यक्त, सर्वव्यापी, अचिंत्य, कूटस्थ, अचल और नित्य ब्रह्म की उपासना करते हैं...",
+  "words": [
+    {
+      "sanskrit": "अनिर्देश्यम्",
+      "meaning": "indefinable"
+    },
+    {
+      "sanskrit": "सर्वत्रगम्",
+      "meaning": "all-pervading"
+    },
+    {
+      "sanskrit": "अचिन्त्यम्",
+      "meaning": "beyond thought"
+    },
+    {
+      "sanskrit": "कूटस्थम्",
+      "meaning": "unchanging"
+    },
+    {
+      "sanskrit": "अचलम्",
+      "meaning": "unmoving"
+    },
+    {
+      "sanskrit": "ध्रुवम्",
+      "meaning": "eternal"
+    }
+  ]
+}

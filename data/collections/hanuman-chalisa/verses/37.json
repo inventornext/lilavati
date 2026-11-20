@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-37",
+  "number": "Chaupai 35",
+  "title": "Hanuman Gives Every Joy",
+  "devanagari": [
+    "और देवता चित्त न धरई।",
+    "हनुमत सेइ सर्ब सुख करई॥"
+  ],
+  "translation": "Even without holding other gods in mind, one who <b>serves Hanuman</b> gains every happiness.",
+  "translation_hi": "दूसरे देवताओं को मन में न रखने पर भी, हनुमान की सेवा से सब सुख मिलते हैं।",
+  "words": [
+    {
+      "sanskrit": "और देवता",
+      "meaning": "other gods"
+    },
+    {
+      "sanskrit": "चित्त",
+      "meaning": "mind"
+    },
+    {
+      "sanskrit": "न धरई",
+      "meaning": "does not hold"
+    },
+    {
+      "sanskrit": "सेइ",
+      "meaning": "serving"
+    },
+    {
+      "sanskrit": "सर्ब सुख",
+      "meaning": "all happiness"
+    },
+    {
+      "sanskrit": "करई",
+      "meaning": "gives"
+    }
+  ]
+}

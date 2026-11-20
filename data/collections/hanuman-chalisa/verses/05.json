@@ -1,0 +1,41 @@
+{
+  "id": "hanuman-chalisa-5",
+  "number": "Chaupai 3",
+  "title": "Mighty as Vajra",
+  "devanagari": [
+    "महाबीर बिक्रम बजरंगी।",
+    "कुमति निवार सुमति के संगी॥"
+  ],
+  "translation": "Great hero, mighty, with a body <b>strong as a thunderbolt</b>, you drive away bad thoughts and are the companion of good sense.",
+  "translation_hi": "हे महावीर, आप पराक्रमी हैं, आपका शरीर वज्र जैसा है। आप बुरी बुद्धि को दूर करते हैं और अच्छी बुद्धि वालों के साथी हैं।",
+  "words": [
+    {
+      "sanskrit": "महाबीर",
+      "meaning": "great hero"
+    },
+    {
+      "sanskrit": "बिक्रम",
+      "meaning": "valour"
+    },
+    {
+      "sanskrit": "बजरंगी",
+      "meaning": "with a body like a thunderbolt"
+    },
+    {
+      "sanskrit": "कुमति",
+      "meaning": "bad thinking"
+    },
+    {
+      "sanskrit": "निवार",
+      "meaning": "removing"
+    },
+    {
+      "sanskrit": "सुमति",
+      "meaning": "good sense"
+    },
+    {
+      "sanskrit": "संगी",
+      "meaning": "companion"
+    }
+  ]
+}

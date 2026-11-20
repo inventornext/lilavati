@@ -1,0 +1,41 @@
+{
+  "id": "hanuman-chalisa-28",
+  "number": "Chaupai 26",
+  "title": "Freedom from Trouble",
+  "devanagari": [
+    "संकट तें हनुमान छुड़ावै।",
+    "मन क्रम बचन ध्यान जो लावै॥"
+  ],
+  "translation": "Hanuman frees from trouble whoever meditates on him in <b>thought, deed and word</b>.",
+  "translation_hi": "जो मन, कर्म और वचन से हनुमान का ध्यान करता है, उसे वे संकटों से छुड़ाते हैं।",
+  "words": [
+    {
+      "sanskrit": "संकट",
+      "meaning": "trouble"
+    },
+    {
+      "sanskrit": "छुड़ावै",
+      "meaning": "frees"
+    },
+    {
+      "sanskrit": "मन",
+      "meaning": "thought"
+    },
+    {
+      "sanskrit": "क्रम",
+      "meaning": "deed"
+    },
+    {
+      "sanskrit": "बचन",
+      "meaning": "word"
+    },
+    {
+      "sanskrit": "ध्यान",
+      "meaning": "meditation"
+    },
+    {
+      "sanskrit": "लावै",
+      "meaning": "brings"
+    }
+  ]
+}

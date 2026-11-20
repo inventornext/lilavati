@@ -1,0 +1,41 @@
+{
+  "id": "hanuman-chalisa-7",
+  "number": "Chaupai 5",
+  "title": "Thunderbolt and Flag",
+  "devanagari": [
+    "हाथ बज्र औ ध्वजा बिराजै।",
+    "काँधे मूँज जनेऊ साजै॥"
+  ],
+  "translation": "In your hands shine the <b>thunderbolt</b> and the <b>flag</b>; a sacred thread of munja grass adorns your shoulder.",
+  "translation_hi": "आपके हाथ में वज्र और ध्वजा शोभित हैं, और कंधे पर मूँज का जनेऊ सजा है।",
+  "words": [
+    {
+      "sanskrit": "बज्र",
+      "meaning": "thunderbolt (mace)"
+    },
+    {
+      "sanskrit": "ध्वजा",
+      "meaning": "flag"
+    },
+    {
+      "sanskrit": "बिराजै",
+      "meaning": "shines"
+    },
+    {
+      "sanskrit": "काँधे",
+      "meaning": "on the shoulder"
+    },
+    {
+      "sanskrit": "मूँज",
+      "meaning": "munja grass"
+    },
+    {
+      "sanskrit": "जनेऊ",
+      "meaning": "sacred thread"
+    },
+    {
+      "sanskrit": "साजै",
+      "meaning": "adorns"
+    }
+  ]
+}

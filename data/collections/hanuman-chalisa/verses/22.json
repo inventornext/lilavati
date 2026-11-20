@@ -1,0 +1,41 @@
+{
+  "id": "hanuman-chalisa-22",
+  "number": "Chaupai 20",
+  "title": "Hard Made Easy",
+  "devanagari": [
+    "दुर्गम काज जगत के जेते।",
+    "सुगम अनुग्रह तुम्हरे तेते॥"
+  ],
+  "translation": "All the <b>difficult tasks</b> in the world become <b>easy by your grace</b>.",
+  "translation_hi": "संसार के जितने भी कठिन काम हैं, वे सब आपकी कृपा से सरल हो जाते हैं।",
+  "words": [
+    {
+      "sanskrit": "दुर्गम",
+      "meaning": "difficult"
+    },
+    {
+      "sanskrit": "काज",
+      "meaning": "tasks"
+    },
+    {
+      "sanskrit": "जगत",
+      "meaning": "world"
+    },
+    {
+      "sanskrit": "जेते",
+      "meaning": "as many as"
+    },
+    {
+      "sanskrit": "सुगम",
+      "meaning": "easy"
+    },
+    {
+      "sanskrit": "अनुग्रह",
+      "meaning": "grace"
+    },
+    {
+      "sanskrit": "तेते",
+      "meaning": "that many"
+    }
+  ]
+}

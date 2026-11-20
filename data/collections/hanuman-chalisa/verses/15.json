@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-15",
+  "number": "Chaupai 13",
+  "title": "Embraced by Rama",
+  "devanagari": [
+    "सहस बदन तुम्हरो जस गावैं।",
+    "अस कहि श्रीपति कंठ लगावैं॥"
+  ],
+  "translation": "\"May the <b>thousand-mouthed</b> serpent sing your glory\": saying this, the Lord <b>embraced you</b>.",
+  "translation_hi": "\"हज़ार मुख वाले शेषनाग तुम्हारा यश गाएँ\", ऐसा कहकर श्रीपति (राम) ने आपको गले लगा लिया।",
+  "words": [
+    {
+      "sanskrit": "सहस बदन",
+      "meaning": "thousand-mouthed (Shesha)"
+    },
+    {
+      "sanskrit": "जस",
+      "meaning": "glory"
+    },
+    {
+      "sanskrit": "गावैं",
+      "meaning": "may sing"
+    },
+    {
+      "sanskrit": "अस कहि",
+      "meaning": "saying so"
+    },
+    {
+      "sanskrit": "श्रीपति",
+      "meaning": "husband of Shri, Rama"
+    },
+    {
+      "sanskrit": "कंठ लगावैं",
+      "meaning": "embraced"
+    }
+  ]
+}

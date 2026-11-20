@@ -1,0 +1,33 @@
+{
+  "id": "hanuman-chalisa-23",
+  "number": "Chaupai 21",
+  "title": "Guard of Rama's Door",
+  "devanagari": [
+    "राम दुआरे तुम रखवारे।",
+    "होत न आज्ञा बिनु पैसारे॥"
+  ],
+  "translation": "You are the <b>guardian of Rama's door</b>; no one enters without your permission.",
+  "translation_hi": "आप श्रीराम के द्वार के रखवाले हैं, आपकी आज्ञा के बिना कोई भीतर प्रवेश नहीं कर सकता।",
+  "words": [
+    {
+      "sanskrit": "दुआरे",
+      "meaning": "at the door"
+    },
+    {
+      "sanskrit": "रखवारे",
+      "meaning": "guardian"
+    },
+    {
+      "sanskrit": "आज्ञा",
+      "meaning": "permission"
+    },
+    {
+      "sanskrit": "बिनु",
+      "meaning": "without"
+    },
+    {
+      "sanskrit": "पैसारे",
+      "meaning": "entry"
+    }
+  ]
+}

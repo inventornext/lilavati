@@ -1,0 +1,41 @@
+{
+  "id": "gita-15-20",
+  "number": "Bhagavad Gita 15.20",
+  "title": "The Most Secret Teaching",
+  "devanagari": [
+    "इति गुह्यतमं शास्त्रमिदमुक्तं मयानघ।",
+    "एतद्बुद्ध्वा बुद्धिमान्स्यात्कृतकृत्यश्च भारत॥"
+  ],
+  "translation": "Thus I have told you this <b>most secret teaching</b>, O sinless one. Understanding it, one becomes wise and has <b>done all that is to be done</b>, O Bharata.",
+  "translation_hi": "हे निष्पाप, इस प्रकार मैंने यह अत्यंत गुप्त शास्त्र तुम्हें बताया। हे भारत, इसे समझकर मनुष्य बुद्धिमान और कृतकृत्य हो जाता है।",
+  "words": [
+    {
+      "sanskrit": "गुह्यतमम्",
+      "meaning": "most secret"
+    },
+    {
+      "sanskrit": "शास्त्रम्",
+      "meaning": "teaching"
+    },
+    {
+      "sanskrit": "उक्तम्",
+      "meaning": "told"
+    },
+    {
+      "sanskrit": "अनघ",
+      "meaning": "O sinless one"
+    },
+    {
+      "sanskrit": "बुद्ध्वा",
+      "meaning": "understanding"
+    },
+    {
+      "sanskrit": "बुद्धिमान्",
+      "meaning": "wise"
+    },
+    {
+      "sanskrit": "कृतकृत्यः",
+      "meaning": "one who has done all that is to be done"
+    }
+  ]
+}

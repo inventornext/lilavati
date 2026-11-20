@@ -1,0 +1,33 @@
+{
+  "id": "hanuman-chalisa-39",
+  "number": "Chaupai 37",
+  "title": "Be My Guru",
+  "devanagari": [
+    "जै जै जै हनुमान गोसाईं।",
+    "कृपा करहु गुरुदेव की नाईं॥"
+  ],
+  "translation": "Victory, victory, victory to Lord Hanuman! <b>Bless me as my Guru</b> would.",
+  "translation_hi": "हे स्वामी हनुमान, आपकी जय हो, जय हो, जय हो! आप गुरुदेव की तरह मुझ पर कृपा कीजिए।",
+  "words": [
+    {
+      "sanskrit": "जै",
+      "meaning": "victory"
+    },
+    {
+      "sanskrit": "गोसाईं",
+      "meaning": "lord, master"
+    },
+    {
+      "sanskrit": "कृपा करहु",
+      "meaning": "be kind"
+    },
+    {
+      "sanskrit": "गुरुदेव",
+      "meaning": "the Guru"
+    },
+    {
+      "sanskrit": "की नाईं",
+      "meaning": "like"
+    }
+  ]
+}

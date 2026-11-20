@@ -1,0 +1,37 @@
+{
+  "id": "gita-15-11",
+  "number": "Bhagavad Gita 15.11",
+  "title": "Effort Is Needed",
+  "devanagari": [
+    "यतन्तो योगिनश्चैनं पश्यन्त्यात्मन्यवस्थितम्।",
+    "यतन्तोऽप्यकृतात्मानो नैनं पश्यन्त्यचेतसः॥"
+  ],
+  "translation": "<b>Striving yogis</b> see it dwelling in themselves. But the unprepared and thoughtless, though they strive, do not see it.",
+  "translation_hi": "प्रयत्न करने वाले योगी इसे अपने भीतर स्थित देखते हैं। परंतु जिनका मन शुद्ध नहीं है, वे अविवेकी प्रयत्न करने पर भी इसे नहीं देखते।",
+  "words": [
+    {
+      "sanskrit": "यतन्तः",
+      "meaning": "striving"
+    },
+    {
+      "sanskrit": "योगिनः",
+      "meaning": "yogis"
+    },
+    {
+      "sanskrit": "आत्मनि",
+      "meaning": "in the self"
+    },
+    {
+      "sanskrit": "अवस्थितम्",
+      "meaning": "dwelling"
+    },
+    {
+      "sanskrit": "अकृतात्मानः",
+      "meaning": "unprepared"
+    },
+    {
+      "sanskrit": "अचेतसः",
+      "meaning": "thoughtless"
+    }
+  ]
+}

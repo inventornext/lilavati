@@ -1,0 +1,37 @@
+{
+  "id": "gita-15-19",
+  "number": "Bhagavad Gita 15.19",
+  "title": "Knowing Me, One Knows All",
+  "devanagari": [
+    "यो मामेवमसम्मूढो जानाति पुरुषोत्तमम्।",
+    "स सर्वविद्भजति मां सर्वभावेन भारत॥"
+  ],
+  "translation": "Whoever, free from delusion, knows me as the Supreme Person <b>knows everything</b>, and worships me with their whole being, O Bharata.",
+  "translation_hi": "हे भारत, जो मोहरहित होकर मुझे पुरुषोत्तम जानता है, वह सर्वज्ञ है और पूरे भाव से मेरी भक्ति करता है।",
+  "words": [
+    {
+      "sanskrit": "असम्मूढः",
+      "meaning": "free from delusion"
+    },
+    {
+      "sanskrit": "जानाति",
+      "meaning": "knows"
+    },
+    {
+      "sanskrit": "सर्ववित्",
+      "meaning": "knower of all"
+    },
+    {
+      "sanskrit": "भजति",
+      "meaning": "worships"
+    },
+    {
+      "sanskrit": "सर्वभावेन",
+      "meaning": "with whole being"
+    },
+    {
+      "sanskrit": "भारत",
+      "meaning": "O Bharata (Arjuna)"
+    }
+  ]
+}

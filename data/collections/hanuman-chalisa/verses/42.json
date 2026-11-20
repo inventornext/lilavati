@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-42",
+  "number": "Chaupai 40",
+  "title": "Live in My Heart",
+  "devanagari": [
+    "तुलसीदास सदा हरि चेरा।",
+    "कीजै नाथ हृदय महँ डेरा॥"
+  ],
+  "translation": "<b>Tulsidas</b> is forever the servant of Hari. O Lord, <b>make your home in my heart</b>.",
+  "translation_hi": "तुलसीदास सदा हरि के सेवक हैं। हे नाथ, आप मेरे हृदय में निवास कीजिए।",
+  "words": [
+    {
+      "sanskrit": "तुलसीदास",
+      "meaning": "Tulsidas, the poet"
+    },
+    {
+      "sanskrit": "सदा",
+      "meaning": "always"
+    },
+    {
+      "sanskrit": "चेरा",
+      "meaning": "servant"
+    },
+    {
+      "sanskrit": "नाथ",
+      "meaning": "Lord"
+    },
+    {
+      "sanskrit": "हृदय महँ",
+      "meaning": "in the heart"
+    },
+    {
+      "sanskrit": "डेरा",
+      "meaning": "home"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-24",
+  "number": "Chaupai 22",
+  "title": "Fear Not",
+  "devanagari": [
+    "सब सुख लहै तुम्हारी सरना।",
+    "तुम रच्छक काहू को डर ना॥"
+  ],
+  "translation": "Whoever takes <b>refuge in you</b> finds every joy; with you as protector, there is <b>nothing to fear</b>.",
+  "translation_hi": "आपकी शरण में आने वाले को सब सुख मिलते हैं। जब आप रक्षक हैं, तो किसी का डर नहीं।",
+  "words": [
+    {
+      "sanskrit": "सुख",
+      "meaning": "happiness"
+    },
+    {
+      "sanskrit": "लहै",
+      "meaning": "obtains"
+    },
+    {
+      "sanskrit": "सरना",
+      "meaning": "refuge"
+    },
+    {
+      "sanskrit": "रच्छक",
+      "meaning": "protector"
+    },
+    {
+      "sanskrit": "काहू को",
+      "meaning": "of anyone"
+    },
+    {
+      "sanskrit": "डर ना",
+      "meaning": "no fear"
+    }
+  ]
+}

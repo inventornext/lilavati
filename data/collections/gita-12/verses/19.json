@@ -1,0 +1,37 @@
+{
+  "id": "gita-12-19",
+  "number": "Bhagavad Gita 12.19",
+  "title": "Content with Whatever Comes",
+  "devanagari": [
+    "तुल्यनिन्दास्तुतिर्मौनी सन्तुष्टो येन केनचित्।",
+    "अनिकेतः स्थिरमतिर्भक्तिमान्मे प्रियो नरः॥"
+  ],
+  "translation": "...the same in <b>blame and praise</b>, quiet, <b>content with whatever comes</b>, not attached to a home, steady in mind, full of devotion: that person is dear to me.",
+  "translation_hi": "...जो निंदा और स्तुति को समान मानता है, मौन रहता है, जो कुछ मिले उसी में संतुष्ट है, घर में आसक्त नहीं, स्थिर बुद्धि वाला भक्त मनुष्य मुझे प्रिय है।",
+  "words": [
+    {
+      "sanskrit": "तुल्यनिन्दास्तुतिः",
+      "meaning": "same in blame and praise"
+    },
+    {
+      "sanskrit": "मौनी",
+      "meaning": "quiet"
+    },
+    {
+      "sanskrit": "सन्तुष्टः",
+      "meaning": "content"
+    },
+    {
+      "sanskrit": "येन केनचित्",
+      "meaning": "with whatever"
+    },
+    {
+      "sanskrit": "अनिकेतः",
+      "meaning": "not attached to a home"
+    },
+    {
+      "sanskrit": "स्थिरमतिः",
+      "meaning": "steady in mind"
+    }
+  ]
+}

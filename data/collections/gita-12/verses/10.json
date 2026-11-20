@@ -1,0 +1,37 @@
+{
+  "id": "gita-12-10",
+  "number": "Bhagavad Gita 12.10",
+  "title": "Work for Me",
+  "devanagari": [
+    "अभ्यासेऽप्यसमर्थोऽसि मत्कर्मपरमो भव।",
+    "मदर्थमपि कर्माणि कुर्वन्सिद्धिमवाप्स्यसि॥"
+  ],
+  "translation": "If you cannot even practise, then <b>devote yourself to work for me</b>. Doing actions for my sake, you will reach perfection.",
+  "translation_hi": "यदि अभ्यास में भी असमर्थ हो, तो मेरे लिए कर्म करने में लग जाओ। मेरे लिए कर्म करते हुए भी तुम सिद्धि प्राप्त करोगे।",
+  "words": [
+    {
+      "sanskrit": "अभ्यासे",
+      "meaning": "in practice"
+    },
+    {
+      "sanskrit": "असमर्थः",
+      "meaning": "unable"
+    },
+    {
+      "sanskrit": "मत्कर्मपरमः",
+      "meaning": "devoted to work for me"
+    },
+    {
+      "sanskrit": "मदर्थम्",
+      "meaning": "for my sake"
+    },
+    {
+      "sanskrit": "सिद्धिम्",
+      "meaning": "perfection"
+    },
+    {
+      "sanskrit": "अवाप्स्यसि",
+      "meaning": "you will attain"
+    }
+  ]
+}

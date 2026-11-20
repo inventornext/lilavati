@@ -1,0 +1,33 @@
+{
+  "id": "hanuman-chalisa-26",
+  "number": "Chaupai 24",
+  "title": "Ghosts Stay Away",
+  "devanagari": [
+    "भूत पिसाच निकट नहिं आवै।",
+    "महाबीर जब नाम सुनावै॥"
+  ],
+  "translation": "Ghosts and evil spirits <b>do not come near</b> when one speaks the name of the great hero.",
+  "translation_hi": "जहाँ महावीर हनुमान का नाम लिया जाता है, वहाँ भूत पिशाच पास नहीं आते।",
+  "words": [
+    {
+      "sanskrit": "भूत",
+      "meaning": "ghosts"
+    },
+    {
+      "sanskrit": "पिसाच",
+      "meaning": "evil spirits"
+    },
+    {
+      "sanskrit": "निकट",
+      "meaning": "near"
+    },
+    {
+      "sanskrit": "नहिं आवै",
+      "meaning": "do not come"
+    },
+    {
+      "sanskrit": "नाम सुनावै",
+      "meaning": "speaks the name"
+    }
+  ]
+}

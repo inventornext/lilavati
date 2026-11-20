@@ -1,0 +1,37 @@
+{
+  "id": "gita-12-16",
+  "number": "Bhagavad Gita 12.16",
+  "title": "Pure and Skilful",
+  "devanagari": [
+    "अनपेक्षः शुचिर्दक्ष उदासीनो गतव्यथः।",
+    "सर्वारम्भपरित्यागी यो मद्भक्तः स मे प्रियः॥"
+  ],
+  "translation": "One who wants nothing, is <b>pure, skilful</b>, unconcerned, free from worry, and has given up selfish undertakings: that devotee is dear to me.",
+  "translation_hi": "जो किसी चीज़ की अपेक्षा नहीं रखता, पवित्र है, कुशल है, उदासीन है, चिंता से मुक्त है और स्वार्थी आरंभों को त्याग चुका है, वह भक्त मुझे प्रिय है।",
+  "words": [
+    {
+      "sanskrit": "अनपेक्षः",
+      "meaning": "wanting nothing"
+    },
+    {
+      "sanskrit": "शुचिः",
+      "meaning": "pure"
+    },
+    {
+      "sanskrit": "दक्षः",
+      "meaning": "skilful"
+    },
+    {
+      "sanskrit": "उदासीनः",
+      "meaning": "unconcerned"
+    },
+    {
+      "sanskrit": "गतव्यथः",
+      "meaning": "free from worry"
+    },
+    {
+      "sanskrit": "सर्वारम्भपरित्यागी",
+      "meaning": "giving up selfish undertakings"
+    }
+  ]
+}

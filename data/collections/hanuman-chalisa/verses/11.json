@@ -1,0 +1,45 @@
+{
+  "id": "hanuman-chalisa-11",
+  "number": "Chaupai 9",
+  "title": "Tiny and Terrible Forms",
+  "devanagari": [
+    "सूक्ष्म रूप धरि सियहिं दिखावा।",
+    "बिकट रूप धरि लंक जरावा॥"
+  ],
+  "translation": "Taking a <b>tiny form</b>, you appeared before Sita; taking a <b>fearsome form</b>, you burned Lanka.",
+  "translation_hi": "आपने सूक्ष्म रूप धारण करके सीताजी को दर्शन दिए और विकराल रूप धारण करके लंका जलाई।",
+  "words": [
+    {
+      "sanskrit": "सूक्ष्म",
+      "meaning": "tiny"
+    },
+    {
+      "sanskrit": "रूप",
+      "meaning": "form"
+    },
+    {
+      "sanskrit": "धरि",
+      "meaning": "taking"
+    },
+    {
+      "sanskrit": "सियहिं",
+      "meaning": "to Sita"
+    },
+    {
+      "sanskrit": "दिखावा",
+      "meaning": "showed"
+    },
+    {
+      "sanskrit": "बिकट",
+      "meaning": "fearsome"
+    },
+    {
+      "sanskrit": "लंक",
+      "meaning": "Lanka"
+    },
+    {
+      "sanskrit": "जरावा",
+      "meaning": "burned"
+    }
+  ]
+}

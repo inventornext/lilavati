@@ -1,0 +1,48 @@
+{
+  "id": "gita-15-13",
+  "number": "Bhagavad Gita 15.13",
+  "title": "I Sustain the Plants",
+  "devanagari": [
+    "गामाविश्य च भूतानि धारयाम्यहमोजसा।",
+    "पुष्णामि चौषधीः सर्वाः सोमो भूत्वा रसात्मकः॥"
+  ],
+  "translation": "Entering the <b>earth</b>, I support all beings with my energy. Becoming <b>soma</b>, the sap, I nourish all plants.",
+  "translation_hi": "पृथ्वी में प्रवेश करके मैं अपनी शक्ति से सब प्राणियों को धारण करता हूँ, और रस रूप सोम बनकर सब वनस्पतियों का पोषण करता हूँ।",
+  "words": [
+    {
+      "sanskrit": "गाम्",
+      "meaning": "the earth"
+    },
+    {
+      "sanskrit": "आविश्य",
+      "meaning": "entering"
+    },
+    {
+      "sanskrit": "धारयामि",
+      "meaning": "I support"
+    },
+    {
+      "sanskrit": "ओजसा",
+      "meaning": "with energy"
+    },
+    {
+      "sanskrit": "पुष्णामि",
+      "meaning": "I nourish"
+    },
+    {
+      "sanskrit": "ओषधीः",
+      "meaning": "plants"
+    },
+    {
+      "sanskrit": "सोमः",
+      "meaning": "soma, the moon, the sap"
+    },
+    {
+      "sanskrit": "रसात्मकः",
+      "meaning": "whose nature is sap"
+    }
+  ],
+  "science": [
+    "Gravity is what lets the Earth 'hold' all beings, and plants are fed by the water and nutrients moving up their stems as sap."
+  ]
+}

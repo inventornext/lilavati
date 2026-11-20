@@ -1,0 +1,33 @@
+{
+  "id": "gita-12-7",
+  "number": "Bhagavad Gita 12.7",
+  "title": "I Lift Them Across",
+  "devanagari": [
+    "तेषामहं समुद्धर्ता मृत्युसंसारसागरात्।",
+    "भवामि नचिरात्पार्थ मय्यावेशितचेतसाम्॥"
+  ],
+  "translation": "...for them, whose minds are fixed on me, I soon become the one who <b>lifts them out of the ocean</b> of death and rebirth, O Partha.",
+  "translation_hi": "...हे पार्थ, जिनका मन मुझमें लगा है, उन्हें मैं शीघ्र ही मृत्यु रूपी संसार सागर से पार कर देता हूँ।",
+  "words": [
+    {
+      "sanskrit": "समुद्धर्ता",
+      "meaning": "one who lifts out"
+    },
+    {
+      "sanskrit": "मृत्युसंसारसागरात्",
+      "meaning": "from the ocean of death and rebirth"
+    },
+    {
+      "sanskrit": "नचिरात्",
+      "meaning": "soon"
+    },
+    {
+      "sanskrit": "पार्थ",
+      "meaning": "O Partha (Arjuna)"
+    },
+    {
+      "sanskrit": "आवेशितचेतसाम्",
+      "meaning": "whose minds are fixed"
+    }
+  ]
+}

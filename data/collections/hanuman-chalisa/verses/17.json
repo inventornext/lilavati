@@ -1,0 +1,41 @@
+{
+  "id": "hanuman-chalisa-17",
+  "number": "Chaupai 15",
+  "title": "No One Can Describe You",
+  "devanagari": [
+    "जम कुबेर दिगपाल जहाँ ते।",
+    "कबि कोबिद कहि सके कहाँ ते॥"
+  ],
+  "translation": "...Yama, Kubera and the guardians of the directions: even they, and poets and scholars, <b>cannot fully describe your glory</b>.",
+  "translation_hi": "...यम, कुबेर और सब दिक्पाल भी आपका यश पूरा नहीं कह सकते, तो कवि और विद्वान कैसे कह सकते हैं?",
+  "words": [
+    {
+      "sanskrit": "जम",
+      "meaning": "Yama"
+    },
+    {
+      "sanskrit": "कुबेर",
+      "meaning": "Kubera"
+    },
+    {
+      "sanskrit": "दिगपाल",
+      "meaning": "guardians of the directions"
+    },
+    {
+      "sanskrit": "कबि",
+      "meaning": "poets"
+    },
+    {
+      "sanskrit": "कोबिद",
+      "meaning": "scholars"
+    },
+    {
+      "sanskrit": "कहि सके",
+      "meaning": "could tell"
+    },
+    {
+      "sanskrit": "कहाँ ते",
+      "meaning": "how"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-21",
+  "number": "Chaupai 19",
+  "title": "Crossing the Ocean",
+  "devanagari": [
+    "प्रभु मुद्रिका मेलि मुख माहीं।",
+    "जलधि लाँघि गये अचरज नाहीं॥"
+  ],
+  "translation": "Holding the <b>Lord's ring</b> in your mouth, you <b>leapt across the ocean</b>: no wonder at all for you.",
+  "translation_hi": "प्रभु की अँगूठी मुँह में रखकर आपने समुद्र लाँघ लिया, इसमें कोई आश्चर्य नहीं।",
+  "words": [
+    {
+      "sanskrit": "मुद्रिका",
+      "meaning": "ring"
+    },
+    {
+      "sanskrit": "मेलि",
+      "meaning": "placing"
+    },
+    {
+      "sanskrit": "मुख माहीं",
+      "meaning": "in the mouth"
+    },
+    {
+      "sanskrit": "जलधि",
+      "meaning": "ocean"
+    },
+    {
+      "sanskrit": "लाँघि",
+      "meaning": "leaping across"
+    },
+    {
+      "sanskrit": "अचरज नाहीं",
+      "meaning": "no wonder"
+    }
+  ]
+}

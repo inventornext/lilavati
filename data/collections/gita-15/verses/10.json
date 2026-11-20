@@ -1,0 +1,37 @@
+{
+  "id": "gita-15-10",
+  "number": "Bhagavad Gita 15.10",
+  "title": "The Eye of Knowledge Sees",
+  "devanagari": [
+    "उत्क्रामन्तं स्थितं वापि भुञ्जानं वा गुणान्वितम्।",
+    "विमूढा नानुपश्यन्ति पश्यन्ति ज्ञानचक्षुषः॥"
+  ],
+  "translation": "Whether it is leaving, staying or enjoying, joined with the gunas, the deluded do not see it. Those with the <b>eye of knowledge</b> see it.",
+  "translation_hi": "जीवात्मा शरीर छोड़ता हो, उसमें रहता हो या गुणों से युक्त होकर भोग करता हो, मूढ़ लोग उसे नहीं देखते। ज्ञान रूपी नेत्र वाले उसे देखते हैं।",
+  "words": [
+    {
+      "sanskrit": "उत्क्रामन्तम्",
+      "meaning": "leaving"
+    },
+    {
+      "sanskrit": "स्थितम्",
+      "meaning": "staying"
+    },
+    {
+      "sanskrit": "भुञ्जानम्",
+      "meaning": "enjoying"
+    },
+    {
+      "sanskrit": "गुणान्वितम्",
+      "meaning": "joined with the gunas"
+    },
+    {
+      "sanskrit": "विमूढाः",
+      "meaning": "the deluded"
+    },
+    {
+      "sanskrit": "ज्ञानचक्षुषः",
+      "meaning": "those with the eye of knowledge"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-8",
+  "number": "Chaupai 6",
+  "title": "Son of Kesari",
+  "devanagari": [
+    "संकर सुवन केसरीनंदन।",
+    "तेज प्रताप महा जग बंदन॥"
+  ],
+  "translation": "Form of <b>Shankara</b>, son of Kesari, your radiance and might are great, and the <b>whole world bows</b> to you.",
+  "translation_hi": "आप शंकर के अंश और केसरी के पुत्र हैं। आपका तेज और प्रताप महान है, सारा जगत आपकी वंदना करता है।",
+  "words": [
+    {
+      "sanskrit": "संकर सुवन",
+      "meaning": "born of Shankara (his form)"
+    },
+    {
+      "sanskrit": "केसरीनंदन",
+      "meaning": "son of Kesari"
+    },
+    {
+      "sanskrit": "तेज",
+      "meaning": "radiance"
+    },
+    {
+      "sanskrit": "प्रताप",
+      "meaning": "might"
+    },
+    {
+      "sanskrit": "जग",
+      "meaning": "world"
+    },
+    {
+      "sanskrit": "बंदन",
+      "meaning": "worship"
+    }
+  ]
+}

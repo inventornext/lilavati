@@ -1,0 +1,41 @@
+{
+  "id": "gita-12-13",
+  "number": "Bhagavad Gita 12.13",
+  "title": "Friendly and Compassionate",
+  "devanagari": [
+    "अद्वेष्टा सर्वभूतानां मैत्रः करुण एव च।",
+    "निर्ममो निरहङ्कारः समदुःखसुखः क्षमी॥"
+  ],
+  "translation": "One who <b>hates no being</b>, is friendly and <b>compassionate</b>, free from 'mine' and from ego, the same in pain and pleasure, forgiving...",
+  "translation_hi": "जो किसी प्राणी से द्वेष नहीं करता, सबका मित्र और दयालु है, ममता और अहंकार से रहित है, सुख दुख में समान है और क्षमाशील है...",
+  "words": [
+    {
+      "sanskrit": "अद्वेष्टा",
+      "meaning": "one who hates none"
+    },
+    {
+      "sanskrit": "मैत्रः",
+      "meaning": "friendly"
+    },
+    {
+      "sanskrit": "करुणः",
+      "meaning": "compassionate"
+    },
+    {
+      "sanskrit": "निर्ममः",
+      "meaning": "free from 'mine'"
+    },
+    {
+      "sanskrit": "निरहङ्कारः",
+      "meaning": "free from ego"
+    },
+    {
+      "sanskrit": "समदुःखसुखः",
+      "meaning": "same in pain and pleasure"
+    },
+    {
+      "sanskrit": "क्षमी",
+      "meaning": "forgiving"
+    }
+  ]
+}

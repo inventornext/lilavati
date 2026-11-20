@@ -1,0 +1,33 @@
+{
+  "id": "gita-12-6",
+  "number": "Bhagavad Gita 12.6",
+  "title": "Those Who Offer Everything",
+  "devanagari": [
+    "ये तु सर्वाणि कर्माणि मयि संन्यस्य मत्पराः।",
+    "अनन्येनैव योगेन मां ध्यायन्त उपासते॥"
+  ],
+  "translation": "But those who <b>offer all their actions to me</b>, holding me supreme, and worship me with undivided devotion...",
+  "translation_hi": "परंतु जो सब कर्मों को मुझमें अर्पित करके, मुझे ही परम मानकर, अनन्य भक्ति से मेरा ध्यान करते हुए उपासना करते हैं...",
+  "words": [
+    {
+      "sanskrit": "सर्वाणि कर्माणि",
+      "meaning": "all actions"
+    },
+    {
+      "sanskrit": "संन्यस्य",
+      "meaning": "offering"
+    },
+    {
+      "sanskrit": "मत्पराः",
+      "meaning": "holding me supreme"
+    },
+    {
+      "sanskrit": "अनन्येन",
+      "meaning": "undivided"
+    },
+    {
+      "sanskrit": "ध्यायन्तः",
+      "meaning": "meditating"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "hanuman-chalisa-34",
+  "number": "Chaupai 32",
+  "title": "The Elixir of Rama",
+  "devanagari": [
+    "राम रसायन तुम्हरे पासा।",
+    "सदा रहो रघुपति के दासा॥"
+  ],
+  "translation": "You hold the <b>elixir of Rama's name</b>; may you always remain Rama's servant.",
+  "translation_hi": "आपके पास राम नाम रूपी रसायन है। आप सदा श्री रघुपति के दास बने रहें।",
+  "words": [
+    {
+      "sanskrit": "रसायन",
+      "meaning": "elixir"
+    },
+    {
+      "sanskrit": "पासा",
+      "meaning": "with you"
+    },
+    {
+      "sanskrit": "सदा",
+      "meaning": "always"
+    },
+    {
+      "sanskrit": "दासा",
+      "meaning": "servant"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "id": "gita-15-6",
+  "number": "Bhagavad Gita 15.6",
+  "title": "Where Sun and Moon Do Not Shine",
+  "devanagari": [
+    "न तद्भासयते सूर्यो न शशाङ्को न पावकः।",
+    "यद्गत्वा न निवर्तन्ते तद्धाम परमं मम॥"
+  ],
+  "translation": "<b>Neither the sun, nor the moon, nor fire lights it up.</b> Having gone there, no one returns. That is my <b>supreme abode</b>.",
+  "translation_hi": "उसे न सूर्य प्रकाशित करता है, न चंद्रमा, न अग्नि। जहाँ जाकर कोई लौटता नहीं, वही मेरा परम धाम है।",
+  "words": [
+    {
+      "sanskrit": "भासयते",
+      "meaning": "lights up"
+    },
+    {
+      "sanskrit": "सूर्यः",
+      "meaning": "the sun"
+    },
+    {
+      "sanskrit": "शशाङ्कः",
+      "meaning": "the moon"
+    },
+    {
+      "sanskrit": "पावकः",
+      "meaning": "fire"
+    },
+    {
+      "sanskrit": "गत्वा",
+      "meaning": "having gone"
+    },
+    {
+      "sanskrit": "धाम",
+      "meaning": "abode"
+    },
+    {
+      "sanskrit": "परमम्",
+      "meaning": "supreme"
+    }
+  ]
+}

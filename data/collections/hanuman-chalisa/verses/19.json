@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-19",
+  "number": "Chaupai 17",
+  "title": "Vibhishana Took Your Advice",
+  "devanagari": [
+    "तुम्हरो मंत्र बिभीषन माना।",
+    "लंकेस्वर भए सब जग जाना॥"
+  ],
+  "translation": "<b>Vibhishana followed your advice</b> and became king of Lanka, as the whole world knows.",
+  "translation_hi": "विभीषण ने आपकी सलाह मानी, जिससे वे लंका के राजा बने, यह सारा संसार जानता है।",
+  "words": [
+    {
+      "sanskrit": "मंत्र",
+      "meaning": "advice"
+    },
+    {
+      "sanskrit": "बिभीषन",
+      "meaning": "Vibhishana"
+    },
+    {
+      "sanskrit": "माना",
+      "meaning": "accepted"
+    },
+    {
+      "sanskrit": "लंकेस्वर",
+      "meaning": "king of Lanka"
+    },
+    {
+      "sanskrit": "भए",
+      "meaning": "became"
+    },
+    {
+      "sanskrit": "जग जाना",
+      "meaning": "the world knows"
+    }
+  ]
+}

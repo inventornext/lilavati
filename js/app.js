@@ -68,67 +68,356 @@ function dailyVerse() {
   const day = Math.floor((Date.now() - new Date().getTimezoneOffset() * 60000) / 86400000);
   return all[day % all.length];
 }
+// ---------- days practised and streak ----------
+const todayKey = (d = new Date()) => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+function markPractice() {
+  const days = store.get('lp-days', []); const t = todayKey();
+  if (!days.includes(t)) { days.push(t); store.set('lp-days', days.slice(-400)); }
+}
+function streak() {
+  const days = new Set(store.get('lp-days', []));
+  const d = new Date(); if (!days.has(todayKey(d))) d.setDate(d.getDate() - 1);
+  let n = 0; while (days.has(todayKey(d))) { n++; d.setDate(d.getDate() - 1); }
+  return n;
+}
+const pathCount = () => Object.values(store.get('lp-paths', {})).reduce((a, b) => a + b, 0);
+
+// ---------- greeting, day of the week and festivals ----------
+function greeting() {
+  const h = new Date().getHours();
+  if (h >= 4 && h < 12) return 'सुप्रभातम् · Good morning';
+  if (h >= 12 && h < 17) return 'नमस्ते · Good afternoon';
+  if (h >= 17 && h < 21) return 'शुभसन्ध्या · Good evening';
+  return 'शुभरात्रिः · Good night';
+}
+// dates for India; small differences between panchangs are covered by the windows
+const FESTIVALS = [
+  { from: '2026-12-13', to: '2026-12-20', name: 'Gita Jayanti', deva: 'गीता जयन्ती', when: '20 December', ids: ['gita-12', 'gita-15'] },
+  { from: '2027-02-27', to: '2027-03-06', name: 'Maha Shivaratri', deva: 'महाशिवरात्रि', when: '5 or 6 March (check your panchang)', ids: ['tandava', 'rudrashtakam', 'lingashtakam'] },
+  { from: '2027-04-07', to: '2027-04-14', name: 'Chaitra Navratri', deva: 'चैत्र नवरात्रि', when: '7 to 15 April', ids: ['argala', 'devi-stuti'] },
+  { from: '2027-04-15', to: '2027-04-15', name: 'Ram Navami', deva: 'रामनवमी', when: 'today', ids: ['hanuman-chalisa'] },
+  { from: '2027-04-16', to: '2027-04-20', name: 'Hanuman Jayanti', deva: 'हनुमान जयन्ती', when: '20 April', ids: ['hanuman-chalisa'] },
+  { from: '2027-10-01', to: '2027-10-10', name: 'Sharad Navratri', deva: 'शारदीय नवरात्रि', when: 'from 1 October', ids: ['argala', 'devi-stuti'] },
+  { from: '2027-12-02', to: '2027-12-09', name: 'Gita Jayanti', deva: 'गीता जयन्ती', when: '9 December', ids: ['gita-12', 'gita-15'] }
+];
+const WEEKDAY = [
+  { day: 'Sunday', deva: 'रविवार', why: 'the day of Surya, the sun', ids: ['rigveda'] },
+  { day: 'Monday', deva: 'सोमवार', why: 'Shiva’s day', ids: ['tandava', 'rudrashtakam', 'lingashtakam'] },
+  { day: 'Tuesday', deva: 'मंगलवार', why: 'Hanuman’s day', ids: ['hanuman-chalisa'] },
+  { day: 'Wednesday', deva: 'बुधवार', why: 'the day of Budha, for learning', ids: ['yajurveda', 'mandukya'] },
+  { day: 'Thursday', deva: 'गुरुवार', why: 'the Guru’s day', ids: ['gita-12', 'gita-15'] },
+  { day: 'Friday', deva: 'शुक्रवार', why: 'the Goddess’s day', ids: ['argala', 'devi-stuti'] },
+  { day: 'Saturday', deva: 'शनिवार', why: 'Hanuman’s day', ids: ['hanuman-chalisa'] }
+];
+function todaysPick() {
+  const t = todayKey();
+  const f = FESTIVALS.find(f => t >= f.from && t <= f.to);
+  if (f) return { kicker: `${f.deva} · ${f.name}${f.when === 'today' ? ' is today' : ', ' + f.when}`, ids: f.ids, festival: true };
+  const w = WEEKDAY[new Date().getDay()];
+  return { kicker: `आज ${w.deva} · ${w.day}, ${w.why}`, ids: w.ids, festival: false };
+}
+
+// ---------- the list of all texts, grouped ----------
+const GROUPS = [
+  { g: 'Veda', head: 'वेद · Veda', sub: 'The famous suktas and mantras of the four Vedas.' },
+  { g: 'Hanuman', head: 'हनुमान · Hanuman', sub: 'Tulsidas’s Hanuman Chalisa, for Tuesdays and Saturdays.' },
+  { g: 'Bhagavad Gita', head: 'भगवद्गीता · Bhagavad Gita', sub: 'Krishna’s teaching to Arjuna, chapter by chapter.' },
+  { g: 'Shiva', head: 'शिव · Shiva', sub: 'Hymns to Shiva, from Ravana’s thundering Tandava to Shankara’s meditation on the Self.' },
+  { g: 'Durga Saptashati', head: 'देवी · Durga Saptashati', sub: 'The most-recited parts of the Devi Mahatmya.' },
+  { g: 'Upanishad', head: 'उपनिषद् · Upanishad', sub: 'Twelve mantras on Om and the four states of the Self.' }
+];
+function textCard(c) {
+  return `<a class="tcard" href="#${c.meta.id}"><div class="tdeva">${c.meta.title_deva}</div><h3>${c.meta.title}</h3><span class="tmeta">${c.verses.length} verses · ${c.meta.author}</span></a>`;
+}
+function textsList() {
+  const st = DATA.collections.filter(c => c.meta.kind === 'stotra');
+  const known = GROUPS.map(x => x.g);
+  const extra = [...new Set(st.map(c => c.meta.group || 'Stotras'))].filter(g => !known.includes(g)).map(g => ({ g, head: g, sub: '' }));
+  const blocks = [...GROUPS, ...extra].map(({ g, head, sub }) => {
+    const cs = st.filter(c => (c.meta.group || 'Stotras') === g);
+    if (!cs.length) return '';
+    return `<section class="tgroup"><h2>${head}</h2><p class="tsub">${sub}</p><div class="tgrid">${cs.map(textCard).join('')}</div></section>`;
+  }).join('');
+  const arya = coll('aryabhatiya');
+  return blocks + `<section class="tgroup"><h2>गणित · Ganita</h2><p class="tsub">Mathematics and astronomy in verse, with puzzles to solve.</p><div class="tgrid">
+    <a class="tcard" href="#ganita"><div class="tdeva">लीलावती</div><h3>Lilavati</h3><span class="tmeta">${DATA.verses.length} puzzles · Bhaskaracharya</span></a>
+    ${arya ? textCard(arya) : ''}</div></section>`;
+}
+
+// ---------- search ----------
+const plain = s => String(s).replace(/<[^>]+>/g, '').toLowerCase();
+const squash = s => String(s).replace(/[\s।॥\-·,.'"!?;:()]/g, '');
+let SEARCH = null;
+function searchIndex() {
+  if (SEARCH) return SEARCH;
+  SEARCH = everyVerse().map(x => {
+    const dev = x.v.devanagari.join(' ');
+    return { ...x, dev, devSq: squash(dev), en: plain([x.v.title, x.where, x.v.number, x.v.translation, x.v.translation_hi || '', x.v.words.map(w => w.sanskrit + ' ' + w.meaning).join(' ')].join(' ')) };
+  });
+  return SEARCH;
+}
+function runSearch(q) {
+  q = q.trim(); if (q.length < 2) return '';
+  const ql0 = q.toLowerCase(), qs = squash(q);
+  const ALIAS = { 'गायत्री': 'gayatri', 'मृत्युञ्जय': 'mahamrityunjaya', 'मृत्युंजय': 'mahamrityunjaya', 'गीता': 'gita', 'हनुमान': 'hanuman', 'चालीसा': 'chalisa', 'ताण्डव': 'tandava', 'तांडव': 'tandava', 'नासदीय': 'nasadiya', 'पुरुष': 'purusha', 'भूमि': 'bhumi', 'ईश': 'isha', 'अर्गला': 'argala', 'माण्डूक्य': 'mandukya', 'लीलावती': 'lilavati', 'आर्यभट': 'aryabhata' };
+  const alias = Object.keys(ALIAS).find(k => qs.startsWith(squash(k)) || squash(k).startsWith(qs) && qs.length > 2);
+  const ql = alias ? ALIAS[alias] : ql0;
+  const texts = DATA.collections.filter(c => plain(c.meta.title + ' ' + c.meta.title_deva + ' ' + c.meta.group).includes(ql));
+  const hits = searchIndex().filter(x => x.devSq.includes(qs) || x.en.includes(ql) || x.en.includes(ql0))
+    .sort((a, b) => (b.devSq.includes(qs) ? 1 : 0) - (a.devSq.includes(qs) ? 1 : 0)).slice(0, 30);
+  if (!texts.length && !hits.length) return `<p class="note">Nothing found for “${esc(q)}”. Try a word from the verse, like <span class="dv">शिव</span>, or an English word, like “peace”.</p>`;
+  return `${texts.map(c => `<a class="sres text" href="#${c.meta.id}"><span class="sw">${c.meta.title_deva}</span><b>${c.meta.title}</b><span class="sm">Full text · ${c.verses.length} verses</span></a>`).join('')}
+    ${hits.map(x => `<a class="sres" href="${x.href}"><span class="sw dv">${esc(x.v.devanagari[0])}</span><b>${x.v.title}</b><span class="sm">${x.where}</span></a>`).join('')}`;
+}
+function bindSearch() {
+  const box = $('#search'), out = $('#search-results'); if (!box) return;
+  let t; box.oninput = () => { clearTimeout(t); t = setTimeout(() => { out.innerHTML = runSearch(box.value); }, 120); };
+  box.onkeydown = e => { if (e.key === 'Enter') { const a = $('a', out); if (a) location.hash = a.getAttribute('href'); } };
+}
+
+// ---------- home ----------
 function viewHome() {
   const all = everyVerse();
-  const words = all.reduce((n, x) => n + x.v.words.length, 0);
   const d = dailyVerse();
-  const stotras = DATA.collections.filter(c => c.meta.kind === 'stotra');
-  const bhaktiVerses = stotras.reduce((n, c) => n + c.verses.length, 0);
-  const ganitaVerses = DATA.verses.length + (coll('aryabhatiya')?.verses.length || 0);
+  const pick = todaysPick();
+  const picks = pick.ids.map(coll).filter(Boolean);
+  const s = streak(), mala = store.get('lp-mala', {});
   return `
-  <section class="hero">
+  <section class="hero compact">
     ${mandala()}
-    <p class="invocation">॥ श्रीगणेशाय नमः ॥</p>
+    <p class="invocation">${greeting()}</p>
     <h1>श्लोकशाला</h1>
-    <p class="en">Shlokashala · a school of verses</p>
-    <p class="sub">Learn Sanskrit one verse at a time: the great stotras to Shiva and the Goddess, and the poetry of Indian mathematics and astronomy. Every verse comes with its word meanings and translations in English and Hindi.</p>
+    <p class="sub">Sanskrit verses with their meaning, word by word, in English and Hindi. Read, listen, recite, and count your mala.</p>
+    <div class="searchbox"><span aria-hidden="true">🔍</span><input id="search" type="search" placeholder="Search: गायत्री, Hanuman, peace, कर्म…" autocomplete="off" aria-label="Search verses"></div>
+    <div id="search-results" class="search-results"></div>
     <div class="stats">
-      <span class="stat"><b>${all.length}</b> verses</span>
-      <span class="stat"><b>${words}</b> words</span>
       <span class="stat"><b>${DATA.collections.length + 1}</b> texts</span>
+      <span class="stat"><b>${all.length}</b> verses</span>
+      <span class="stat">🔥 <b>${s}</b> day${s === 1 ? '' : 's'} streak</span>
     </div>
     <button class="cta install-app" hidden>📲 Install as an app (works offline)</button>
   </section>
 
-  <a class="daily" href="${d.href}">
-    <div class="kicker">आज का श्लोक · Verse of the day · ${d.where}</div>
-    <div class="dl">${d.v.devanagari.join('<br>')}</div>
-    <div class="dt">${d.v.title} →</div>
-  </a>
+  <section class="today${pick.festival ? ' festival' : ''}">
+    <div class="kicker">${pick.kicker}</div>
+    <div class="today-cards">${picks.map(c => `<a class="pick" href="#${c.meta.id}"><span class="dv">${c.meta.title_deva}</span><small>${c.meta.title} →</small></a>`).join('')}</div>
+  </section>
 
-  <div class="doors">
-    <a class="door bhakti" href="#bhakti">
-      <div class="door-deva">भक्ति</div>
-      <h2>Bhakti</h2>
-      <p>The four Vedas (Gayatri, Nasadiya, Purusha Sukta, Isha Upanishad, Bhumi Sukta) and stotras to Shiva and the Goddess: Shiva Tandava, Rudrashtakam, Nirvana Shatkam, Lingashtakam, the Durga Saptashati and the Mandukya Upanishad.</p>
-      <span class="door-count">${stotras.length} texts · ${bhaktiVerses} verses →</span>
+  <div class="home-row">
+    <a class="daily" href="${d.href}">
+      <div class="kicker">आज का श्लोक · Verse of the day</div>
+      <div class="dl">${d.v.devanagari.slice(0, 4).join('<br>')}</div>
+      <div class="dt">${d.v.title} · ${d.where} →</div>
     </a>
-    <a class="door ganita" href="#ganita">
-      <div class="door-deva">गणित</div>
-      <h2>Ganita</h2>
-      <p>Bhaskaracharya's Lilavati puzzles in verse, and Aryabhata's astronomy: π, the turning Earth, the light of the Moon.</p>
-      <span class="door-count">${ganitaVerses} verses with puzzles →</span>
+    <a class="mala-mini" href="#mala">
+      <div class="kicker">जप माला · Mala</div>
+      <div class="mm-num">${mala.today === todayKey() ? (mala.todayBeads || 0) : 0}</div>
+      <div class="dt">beads today · ${mala.rounds || 0} malas in all →</div>
     </a>
   </div>
 
+  <h2 class="section-title center">सर्वे ग्रन्थाः · All texts</h2>
+  ${textsList()}
+
   <div class="grid small-doors">
     <a class="card feature" href="#practice"><div class="big">अभ्यास</div><h3>Practice</h3><p class="note">Flashcards for every word, and a ten-question quiz.</p></a>
-    <a class="card feature" href="#learn"><div class="big">ज्ञान</div><h3>Learn</h3><p class="note">Vidyut Shabdakosh and the science word bank.</p></a>
+    <a class="card feature" href="#learn"><div class="big">ज्ञान</div><h3>Learn</h3><p class="note">Vidyut Shabdakosh, the science word bank, and about this site.</p></a>
   </div>`;
 }
-function viewBhakti() {
-  const st = DATA.collections.filter(c => c.meta.kind === 'stotra');
-  const groups = [...new Set(st.map(c => c.meta.group || 'Stotras'))];
-  const intro = { 'Veda': 'The famous suktas and mantras of the four Vedas, the oldest texts in Sanskrit.', 'Upanishad': 'Twelve prose mantras on Om and the four states of the Self, the root of Advaita Vedanta.', 'Shiva': 'Hymns to Shiva, from Ravana’s thundering Tandava to Shankara’s meditation on the Self.', 'Durga Saptashati': 'The most-recited parts of the Durga Saptashati (Devi Mahatmya). More chapters will be added over time.' };
-  return `
-  <div class="page-head"><div class="page-deva">भक्ति</div><h1>Bhakti · Vedas, Stotras and Upanishad</h1>
-  <p class="section-sub">Each text has a full-text page for recitation and a page for every verse with word meanings and translations.</p></div>
-  ${groups.map(g => `
-    <h2 class="section-title">${({ 'Veda': 'वेद · Veda', 'Shiva': 'शिव · Shiva', 'Durga Saptashati': 'दुर्गासप्तशती · Durga Saptashati', 'Upanishad': 'उपनिषद् · Upanishad' })[g] || g}</h2>
-    <p class="section-sub">${intro[g] || ''}</p>
-    <div class="grid">${st.filter(c => (c.meta.group || 'Stotras') === g).map(c => `<a class="card feature" href="#${c.meta.id}"><div class="big">${c.meta.title_deva}</div><h3>${c.meta.title}</h3>
-      <p class="note">${c.meta.intro.replace(/<[^>]+>/g, '').slice(0, 140)}…</p><span class="tag">${c.verses.length} verses · ${c.meta.author}</span></a>`).join('')}</div>`).join('')}`;
+function viewTexts() {
+  return `<div class="page-head"><div class="page-deva">ग्रन्थाः</div><h1>All texts</h1>
+  <p class="section-sub">Each text has a full-text page for recitation, a path mode, and a page for every verse with word meanings and translations.</p></div>
+  ${textsList()}`;
 }
+
+// ---------- path mode: recite a whole text, line by line ----------
+const pathState = { c: null, vi: 0, li: 0, playing: false, timer: null, speed: 1, voice: false, size: store.get('lp-path-size', 1), wake: null, audio: null };
+function openPath(c) {
+  Object.assign(pathState, { c, vi: 0, li: 0, playing: false });
+  let box = $('#path'); if (box) box.remove();
+  box = document.createElement('div'); box.id = 'path'; box.setAttribute('role', 'dialog'); box.setAttribute('aria-label', 'Path mode');
+  box.innerHTML = `
+    <div class="path-top"><span class="dv">${c.meta.title_deva}</span><span class="path-prog" id="path-prog"></span><button class="icon-btn" id="path-close" aria-label="Close">✕</button></div>
+    <div class="path-stage" id="path-stage"></div>
+    <div class="path-controls">
+      <button class="pbtn" id="path-prev" aria-label="Previous verse">⏮</button>
+      <button class="pbtn main" id="path-play" aria-label="Play or pause">▶</button>
+      <button class="pbtn" id="path-next" aria-label="Next verse">⏭</button>
+    </div>
+    <div class="path-opts">
+      <div class="seg" role="group" aria-label="Speed"><button data-sp="1.5">Slow</button><button data-sp="1">Normal</button><button data-sp="0.7">Fast</button></div>
+      <button class="btn" id="path-voice">🔇 Silent</button>
+      <button class="btn" id="path-small" aria-label="Smaller text">A−</button><button class="btn" id="path-big" aria-label="Larger text">A+</button>
+    </div>`;
+  document.body.appendChild(box); document.body.classList.add('path-open');
+  $('#path-close').onclick = closePath;
+  $('#path-play').onclick = () => pathState.playing ? pathPause() : pathPlay();
+  $('#path-prev').onclick = () => pathGo(pathState.vi - 1);
+  $('#path-next').onclick = () => pathGo(pathState.vi + 1);
+  $('#path-voice').onclick = () => { pathState.voice = !pathState.voice; $('#path-voice').textContent = pathState.voice ? '🔊 Machine voice' : '🔇 Silent'; if (pathState.playing) { pathPause(); pathPlay(); } };
+  $$('[data-sp]', box).forEach(b => b.onclick = () => { pathState.speed = +b.dataset.sp; $$('[data-sp]', box).forEach(x => x.classList.toggle('on', x === b)); });
+  $$('[data-sp]', box).forEach(x => x.classList.toggle('on', +x.dataset.sp === pathState.speed));
+  $('#path-small').onclick = () => { pathState.size = Math.max(0.7, pathState.size - 0.15); store.set('lp-path-size', pathState.size); drawPath(); };
+  $('#path-big').onclick = () => { pathState.size = Math.min(2, pathState.size + 0.15); store.set('lp-path-size', pathState.size); drawPath(); };
+  document.addEventListener('keydown', pathKeys);
+  drawPath();
+}
+function pathKeys(e) {
+  if (!$('#path')) return;
+  if (e.key === 'Escape') closePath();
+  else if (e.key === ' ') { e.preventDefault(); pathState.playing ? pathPause() : pathPlay(); }
+  else if (e.key === 'ArrowRight') pathGo(pathState.vi + 1);
+  else if (e.key === 'ArrowLeft') pathGo(pathState.vi - 1);
+}
+function closePath() {
+  pathPause(); document.removeEventListener('keydown', pathKeys);
+  const b = $('#path'); if (b) b.remove(); document.body.classList.remove('path-open');
+}
+function drawPath() {
+  const { c, vi, li } = pathState; const stage = $('#path-stage'); if (!stage) return;
+  if (vi >= c.verses.length) {
+    stage.innerHTML = `<div class="path-done"><div class="dv big">॥ पाठः सम्पूर्णः ॥</div><p>Path complete. You have recited the ${c.meta.title} <b>${store.get('lp-paths', {})[c.meta.id] || 1}</b> time(s) on this device.</p>
+      <p>🔥 ${streak()} day streak</p><button class="btn primary" id="path-again">Recite again</button></div>`;
+    $('#path-again').onclick = () => { pathState.vi = 0; pathState.li = 0; drawPath(); pathPlay(); };
+    $('#path-prog').textContent = ''; $('#path-play').textContent = '▶'; return;
+  }
+  const v = c.verses[vi];
+  stage.innerHTML = `${vi === 0 && c.meta.opening ? `<p class="path-opening dv">${c.meta.opening}</p>` : ''}
+    <div class="path-verse dv" style="font-size:${(pathState.size * 100).toFixed(0)}%">${v.devanagari.map((l, j) => `<div class="pl${j === li && pathState.playing ? ' now' : ''}${j < li && pathState.playing ? ' said' : ''}">${l}</div>`).join('')}</div>
+    <div class="path-num dv">॥ ${toDeva(vi + 1)} ॥</div>
+    <p class="path-tr">${v.translation}</p>`;
+  $('#path-prog').textContent = `${vi + 1} / ${c.verses.length}`;
+  const now = $('.pl.now', stage); if (now) now.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+}
+function pathGo(i) {
+  const was = pathState.playing; pathPause();
+  pathState.vi = Math.max(0, Math.min(pathState.c.verses.length - 1, i)); pathState.li = 0; drawPath();
+  if (was) pathPlay();
+}
+async function pathPlay() {
+  if (pathState.vi >= pathState.c.verses.length) { pathState.vi = 0; pathState.li = 0; }
+  pathState.playing = true; $('#path-play').textContent = '⏸';
+  try { if ('wakeLock' in navigator) pathState.wake = await navigator.wakeLock.request('screen'); } catch {}
+  pathStep();
+}
+function pathPause() {
+  pathState.playing = false; clearTimeout(pathState.timer);
+  window.speechSynthesis && speechSynthesis.cancel();
+  if (pathState.audio) { pathState.audio.pause(); pathState.audio = null; }
+  try { pathState.wake && pathState.wake.release(); } catch {} pathState.wake = null;
+  const p = $('#path-play'); if (p) p.textContent = '▶';
+  drawPath();
+}
+function pathAdvance() {
+  if (!pathState.playing) return;
+  const v = pathState.c.verses[pathState.vi];
+  if (pathState.li < v.devanagari.length - 1) pathState.li++;
+  else {
+    pathState.vi++; pathState.li = 0;
+    if (pathState.vi >= pathState.c.verses.length) { pathFinished(); return; }
+  }
+  pathStep();
+}
+function pathFinished() {
+  const p = store.get('lp-paths', {}); p[pathState.c.meta.id] = (p[pathState.c.meta.id] || 0) + 1; store.set('lp-paths', p);
+  markPractice(); pathState.playing = false; drawPath();
+  try { navigator.vibrate && navigator.vibrate([60, 60, 120]); } catch {}
+}
+function pathStep() {
+  if (!pathState.playing) return;
+  drawPath();
+  const v = pathState.c.verses[pathState.vi], line = v.devanagari[pathState.li];
+  // your own recording: play the verse once and move the highlight along by line length
+  if (v.audio && pathState.li === 0) {
+    const a = new Audio(v.audio); pathState.audio = a;
+    const lens = v.devanagari.map(l => l.length), total = lens.reduce((x, y) => x + y, 0);
+    a.ontimeupdate = () => { if (!a.duration) return; let t = a.currentTime / a.duration * total, j = 0; while (j < lens.length - 1 && t > lens[j]) { t -= lens[j]; j++; } if (j !== pathState.li) { pathState.li = j; drawPath(); } };
+    a.onended = () => { pathState.audio = null; pathState.li = v.devanagari.length - 1; pathAdvance(); };
+    a.playbackRate = 1 / pathState.speed; a.play().catch(() => { pathState.audio = null; timedLine(line); });
+    return;
+  }
+  if (v.audio) return;
+  const synth = window.speechSynthesis;
+  if (pathState.voice && synth) {
+    const voices = synth.getVoices();
+    const voice = voices.find(x => /^sa/i.test(x.lang)) || voices.find(x => /^hi/i.test(x.lang));
+    const u = new SpeechSynthesisUtterance(line.replace(/[।॥]/g, ' '));
+    u.lang = voice ? voice.lang : 'hi-IN'; if (voice) u.voice = voice; u.rate = 0.8 / pathState.speed;
+    u.onend = () => { pathState.timer = setTimeout(pathAdvance, 250); };
+    u.onerror = () => timedLine(line);
+    synth.cancel(); synth.speak(u);
+  } else timedLine(line);
+}
+function timedLine(line) {
+  const ms = Math.max(1800, line.replace(/[\s।॥]/g, '').length * 170) * pathState.speed;
+  pathState.timer = setTimeout(pathAdvance, ms);
+}
+
+// ---------- mala (japa counter) ----------
+const MANTRAS = [
+  { id: 'shiva', deva: 'ॐ नमः शिवाय', en: 'Om Namah Shivaya' },
+  { id: 'rama', deva: 'श्रीराम जय राम जय जय राम', en: 'Shri Ram Jay Ram' },
+  { id: 'krishna', deva: 'ॐ नमो भगवते वासुदेवाय', en: 'Om Namo Bhagavate Vasudevaya' },
+  { id: 'ganesha', deva: 'ॐ गं गणपतये नमः', en: 'Om Gam Ganapataye Namah' },
+  { id: 'hanuman', deva: 'ॐ हं हनुमते नमः', en: 'Om Ham Hanumate Namah' },
+  { id: 'gayatri', deva: 'ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि धियो यो नः प्रचोदयात्', en: 'Gayatri Mantra', href: '#rigveda-1' },
+  { id: 'mrityunjaya', deva: 'ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात्', en: 'Mahamrityunjaya Mantra', href: '#rigveda-2' }
+];
+function malaState() {
+  const m = store.get('lp-mala', {});
+  if (m.today !== todayKey()) { m.today = todayKey(); m.todayBeads = 0; m.todayRounds = 0; }
+  return Object.assign({ mantra: 'shiva', count: 0, rounds: 0, todayBeads: 0, todayRounds: 0 }, m);
+}
+function malaSvg(count) {
+  let beads = '';
+  for (let i = 0; i < 108; i++) {
+    const a = Math.PI / 2 + (i + 1) * (Math.PI * 2 / 110);
+    const x = 160 + 135 * Math.cos(a), y = 160 + 135 * Math.sin(a);
+    beads += `<circle cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="5.2" class="bead${i < count ? ' done' : ''}${i === count ? ' cur' : ''}"/>`;
+  }
+  return `<svg viewBox="0 0 320 335" class="mala-svg" aria-hidden="true"><circle cx="160" cy="160" r="135" class="thread"/>${beads}
+    <circle cx="160" cy="295" r="9" class="sumeru"/><path d="M155 303 L150 326 M160 304 L160 328 M165 303 L170 326" class="tassel"/>
+    <text x="160" y="150" class="mala-count">${count}</text><text x="160" y="185" class="mala-of">of 108</text></svg>`;
+}
+function viewMala() {
+  const m = malaState(), mt = MANTRAS.find(x => x.id === m.mantra) || MANTRAS[0];
+  return `
+  <div class="page-head center"><div class="page-deva">जप माला</div><h1>Mala</h1>
+  <p class="section-sub">Choose a mantra, then tap the mala (or press the space bar) once for each repetition. 108 beads make one mala.</p></div>
+  <div class="mala-pick"><select id="mala-mantra" aria-label="Mantra">${MANTRAS.map(x => `<option value="${x.id}" ${x.id === mt.id ? 'selected' : ''}>${x.en}</option>`).join('')}</select></div>
+  <p class="mala-mantra dv">${mt.deva}</p>
+  ${mt.href ? `<p class="center note"><a href="${mt.href}">Meaning of this mantra →</a></p>` : ''}
+  <button class="mala-tap" id="mala-tap" aria-label="Count one bead">${malaSvg(m.count)}</button>
+  <div class="mala-stats">
+    <span class="stat">Today: <b id="ms-today">${m.todayBeads}</b> beads</span>
+    <span class="stat">Malas today: <b id="ms-rounds-today">${m.todayRounds}</b></span>
+    <span class="stat">All malas: <b id="ms-rounds">${m.rounds}</b></span>
+    <span class="stat">🔥 <b id="ms-streak">${streak()}</b> day streak</span>
+  </div>
+  <div class="mala-actions"><button class="btn" id="mala-undo">↺ Undo one</button><button class="btn" id="mala-reset">Start this mala again</button></div>
+  <p class="note center">Paths recited: <b>${pathCount()}</b>. Open any text and tap “Path mode” to recite it line by line.</p>`;
+}
+function bindMala() {
+  const save = m => store.set('lp-mala', m);
+  const redraw = m => {
+    $('#mala-tap').innerHTML = malaSvg(m.count);
+    $('#ms-today').textContent = m.todayBeads; $('#ms-rounds-today').textContent = m.todayRounds; $('#ms-rounds').textContent = m.rounds; $('#ms-streak').textContent = streak();
+  };
+  const tap = () => {
+    const m = malaState(); m.count++; m.todayBeads++;
+    let vib = 12;
+    if (m.count >= 108) { m.count = 0; m.rounds++; m.todayRounds++; vib = [80, 60, 160]; $('#mala-tap').classList.add('complete'); setTimeout(() => $('#mala-tap')?.classList.remove('complete'), 1200); }
+    save(m); markPractice(); redraw(m);
+    try { navigator.vibrate && navigator.vibrate(vib); } catch {}
+  };
+  $('#mala-tap').onclick = tap;
+  const key = e => { if (location.hash !== '#mala') { document.removeEventListener('keydown', key); return; } if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); tap(); } };
+  document.addEventListener('keydown', key);
+  $('#mala-undo').onclick = () => { const m = malaState(); if (m.count > 0) { m.count--; m.todayBeads = Math.max(0, m.todayBeads - 1); save(m); redraw(m); } };
+  $('#mala-reset').onclick = () => { const m = malaState(); m.count = 0; save(m); redraw(m); };
+  $('#mala-mantra').onchange = e => { const m = malaState(); m.mantra = e.target.value; save(m); render(); };
+}
+
 function viewGanita() {
   const pct = Math.round(100 * DATA.verses.filter(v => solved.has(v.id)).length / DATA.verses.length);
   const arya = coll('aryabhatiya');
@@ -399,7 +688,7 @@ function viewCollection(c) {
       ${v.devanagari.map((d, j) => `<div class="l">${d}</div>`).join('')}
       <div class="vfoot"><span class="dv">॥ ${toDeva(i + 1)} ॥</span> <a href="#${v.id}">${v.title} · meaning →</a></div>
     </div>`).join('');
-  const crumb = m.kind === 'stotra' ? '<a href="#bhakti">Bhakti</a>' : '<a href="#ganita">Ganita</a>';
+  const crumb = m.kind === 'stotra' ? '<a href="#texts">All texts</a>' : '<a href="#ganita">Ganita</a>';
   return `
   <p class="crumbs">${crumb} › ${m.title}</p>
   <div class="vhead">
@@ -410,7 +699,8 @@ function viewCollection(c) {
   <p>${m.intro}</p>
   <p class="note">${m.note || ''}</p>
   <div class="toolbar">
-    <a class="btn primary" href="#${c.verses[0].id}">Learn verse by verse →</a>
+    <button class="btn primary" id="open-path">▶ Path mode</button>
+    <a class="btn" href="#${c.verses[0].id}">Learn verse by verse →</a>
     ${shareButton()}
   </div>
   <div class="shloka stotra">
@@ -569,7 +859,9 @@ function viewAbout() {
   return `
   <div class="prose">
     <h1 class="section-title">About Shlokashala</h1>
-    <p><b>Shlokashala</b> (श्लोकशाला, 'school of verses') teaches Sanskrit through two kinds of verse: <b>bhakti</b>, the great stotras to Shiva and the Goddess, and <b>ganita</b>, the mathematics and astronomy of Bhaskaracharya and Aryabhata.</p>
+    <p><b>Shlokashala</b> (श्लोकशाला, 'school of verses') teaches Sanskrit through two kinds of verse: <b>bhakti</b>, from the four Vedas, the Bhagavad Gita and the Hanuman Chalisa to the great stotras to Shiva and the Goddess, and <b>ganita</b>, the mathematics and astronomy of Bhaskaracharya and Aryabhata.</p>
+    <h2>Path mode, mala and streak</h2>
+    <p>Open any text and tap <b>Path mode</b>: the text plays full screen, one verse at a time, and the line to recite lights up. Use the <a href="#mala">Mala</a> page as a japa counter of 108 beads. Every day you read a verse, finish a path or count your mala adds to your streak. All of this is saved only on your device.</p>
     <p>In 1150 CE, Bhaskaracharya (Bhaskara II) wrote the <i>Lilavati</i>, the arithmetic and geometry volume of his <i>Siddhanta Shiromani</i>. Its problems are written as Sanskrit poetry, often addressed to a young girl named Lilavati. That makes it a perfect textbook for learning the language and the mathematics together.</p>
     <h2>How to study a verse</h2>
     <p>1. Listen to the verse and read it aloud. 2. Work out the meaning from the word cards before you read the translation. 3. For the Lilavati, solve the puzzle yourself, then open the solution. 4. Revise in Flashcards and the Quiz a day later.</p>
@@ -582,7 +874,7 @@ function viewAbout() {
     <p><a href="https://old.maa.org/node/116870">MAA: Mathematical Treasures, Lilavati of Bhaskara</a><br>
     <a href="https://wolframcloud.com/obj/history-of-mathematics/production/artifacts/lilavati-of-bhaskara-ii">MoMath + Wolfram: Lilavati of Bhaskara II</a></p>
     <h2>Coming next</h2>
-    <p>More chapters of the Durga Saptashati (Kilakam, Siddha Kunjika), the Shiva Mahimnah Stotram, more Lilavati verses, and recitations in my own voice.</p>
+    <p>More chapters of the Bhagavad Gita, more of the Durga Saptashati, the Shiva Mahimnah Stotram, more Lilavati verses, and recitations in my own voice.</p>
   </div>`;
 }
 
@@ -599,16 +891,18 @@ function render() {
   if (lIdx >= 0) {
     view = 'ganita'; const v = DATA.verses[lIdx];
     app.innerHTML = viewVerse(v, lIdx, DATA.verses, { href: '#ganita', label: 'Ganita · Lilavati' }, { href: '#quiz', label: 'Test yourself in the quiz' });
-    bindVerse(v); T(v.title);
+    bindVerse(v); markPractice(); T(v.title);
   } else if (owner) {
     const i = owner.verses.findIndex(v => v.id === id), v = owner.verses[i];
-    devotional = owner.meta.kind === 'stotra'; view = devotional ? 'bhakti' : 'ganita';
+    devotional = owner.meta.kind === 'stotra'; view = devotional ? 'texts' : 'ganita'; markPractice();
     app.innerHTML = viewVerse(v, i, owner.verses, { href: `#${owner.meta.id}`, label: owner.meta.title }, { href: `#${owner.meta.id}`, label: `Read the full ${owner.meta.title}` });
     bindVerse(v); T(`${v.title} · ${owner.meta.title}`);
   } else if (c) {
-    devotional = c.meta.kind === 'stotra'; view = devotional ? 'bhakti' : 'ganita';
+    devotional = c.meta.kind === 'stotra'; view = devotional ? 'texts' : 'ganita';
     app.innerHTML = viewCollection(c); bindShare(c.meta.id, c.meta.title, c.meta.title_deva); T(c.meta.title);
-  } else if (id === 'bhakti' || id === 'stotras') { view = 'bhakti'; devotional = true; app.innerHTML = viewBhakti(); T('Bhakti'); }
+    $('#open-path').onclick = () => openPath(c);
+  } else if (id === 'texts' || id === 'bhakti' || id === 'stotras') { view = 'texts'; devotional = true; app.innerHTML = viewTexts(); T('All texts'); }
+  else if (id === 'mala') { view = 'mala'; devotional = true; app.innerHTML = viewMala(); bindMala(); T('Mala'); }
   else if (id === 'ganita') { view = 'ganita'; app.innerHTML = viewGanita(); T('Ganita'); }
   else if (id === 'practice') { view = 'practice'; app.innerHTML = viewPractice(); T('Practice'); }
   else if (id === 'learn') { view = 'learn'; app.innerHTML = viewLearn(); T('Learn'); }
@@ -617,7 +911,8 @@ function render() {
   else if (id === 'shabdakosh') { view = 'learn'; app.innerHTML = viewShabda(); bindShabda(); T('Vidyut Shabdakosh'); }
   else if (id === 'words') { view = 'learn'; app.innerHTML = viewWords(); T('Word bank'); }
   else if (id === 'about') { view = 'learn'; app.innerHTML = viewAbout(); T('About'); }
-  else { app.innerHTML = viewHome(); document.title = 'Shlokashala · श्लोकशाला'; }
+  else { app.innerHTML = viewHome(); bindSearch(); document.title = 'Shlokashala · श्लोकशाला'; }
+  if ($('#path') && !c) closePath();
   $$('#links a').forEach(a => a.classList.toggle('active', a.dataset.view === view));
   $$('.install-app').forEach(b => b.onclick = e => { e.preventDefault(); doInstall(); });
   showInstall();
@@ -627,13 +922,19 @@ function render() {
 }
 
 function setupTheme() {
-  $('#theme').onclick = () => {
-    const root = document.documentElement;
-    const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-    root.dataset.theme = dark ? 'light' : 'dark';
-    try { localStorage.setItem('lp-theme', root.dataset.theme); } catch {}
+  const btn = $('#theme'), root = document.documentElement;
+  const icons = { auto: '🌓', light: '☀️', dark: '🌙' };
+  const label = { auto: 'Theme: automatic (light by day, dark at night)', light: 'Theme: light', dark: 'Theme: dark' };
+  const show = () => { const m = store.get('lp-theme', 'auto'); btn.textContent = icons[m] || '🌓'; btn.title = label[m]; btn.setAttribute('aria-label', label[m]); };
+  btn.onclick = () => {
+    const order = ['auto', 'light', 'dark'], m = store.get('lp-theme', 'auto');
+    const next = order[(order.indexOf(m) + 1) % 3]; store.set('lp-theme', next);
+    root.dataset.theme = next === 'auto' ? autoTheme() : next; show();
   };
+  show();
+  setInterval(() => { if (store.get('lp-theme', 'auto') === 'auto') root.dataset.theme = autoTheme(); }, 5 * 60000);
 }
+function autoTheme() { const h = new Date().getHours(); return h >= 6 && h < 18 ? 'light' : 'dark'; }
 
 (async function main() {
   setupTheme();

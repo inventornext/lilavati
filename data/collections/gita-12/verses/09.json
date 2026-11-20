@@ -1,0 +1,44 @@
+{
+  "id": "gita-12-9",
+  "number": "Bhagavad Gita 12.9",
+  "title": "The Yoga of Practice",
+  "devanagari": [
+    "अथ चित्तं समाधातुं न शक्नोषि मयि स्थिरम्।",
+    "अभ्यासयोगेन ततो मामिच्छाप्तुं धनञ्जय॥"
+  ],
+  "translation": "If you cannot keep your mind steady on me, then seek to reach me through the <b>yoga of practice</b>, O Dhananjaya.",
+  "translation_hi": "यदि तुम मन को मुझमें स्थिर नहीं रख सकते, तो हे धनंजय, अभ्यास योग के द्वारा मुझे पाने की इच्छा करो।",
+  "words": [
+    {
+      "sanskrit": "चित्तम्",
+      "meaning": "mind"
+    },
+    {
+      "sanskrit": "समाधातुम्",
+      "meaning": "to fix"
+    },
+    {
+      "sanskrit": "न शक्नोषि",
+      "meaning": "you cannot"
+    },
+    {
+      "sanskrit": "स्थिरम्",
+      "meaning": "steady"
+    },
+    {
+      "sanskrit": "अभ्यासयोगेन",
+      "meaning": "by the yoga of practice"
+    },
+    {
+      "sanskrit": "आप्तुम्",
+      "meaning": "to reach"
+    },
+    {
+      "sanskrit": "धनञ्जय",
+      "meaning": "O Dhananjaya (Arjuna)"
+    }
+  ],
+  "science": [
+    "Practice changes the brain: repeating a skill strengthens the neural connections behind it (neuroplasticity). The Gita's 'yoga of practice' matches how learning works."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "gita-12-20",
+  "number": "Bhagavad Gita 12.20",
+  "title": "Exceedingly Dear",
+  "devanagari": [
+    "ये तु धर्म्यामृतमिदं यथोक्तं पर्युपासते।",
+    "श्रद्दधाना मत्परमा भक्तास्तेऽतीव मे प्रियाः॥"
+  ],
+  "translation": "Those who follow this <b>nectar of dharma</b> as I have taught it, with faith, holding me supreme: those devotees are <b>exceedingly dear</b> to me.",
+  "translation_hi": "जो श्रद्धा से, मुझे परम मानकर, इस धर्ममय अमृत का जैसा मैंने कहा है वैसा पालन करते हैं, वे भक्त मुझे अत्यंत प्रिय हैं।",
+  "words": [
+    {
+      "sanskrit": "धर्म्यामृतम्",
+      "meaning": "nectar of dharma"
+    },
+    {
+      "sanskrit": "यथोक्तम्",
+      "meaning": "as taught"
+    },
+    {
+      "sanskrit": "श्रद्दधानाः",
+      "meaning": "with faith"
+    },
+    {
+      "sanskrit": "मत्परमाः",
+      "meaning": "holding me supreme"
+    },
+    {
+      "sanskrit": "अतीव",
+      "meaning": "exceedingly"
+    },
+    {
+      "sanskrit": "प्रियाः",
+      "meaning": "dear"
+    }
+  ]
+}

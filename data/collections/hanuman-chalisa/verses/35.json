@@ -1,0 +1,33 @@
+{
+  "id": "hanuman-chalisa-35",
+  "number": "Chaupai 33",
+  "title": "Reaching Rama",
+  "devanagari": [
+    "तुम्हरे भजन राम को पावै।",
+    "जनम जनम के दुख बिसरावै॥"
+  ],
+  "translation": "Through <b>devotion to you</b> one reaches Rama and forgets the sorrows of many lifetimes.",
+  "translation_hi": "आपके भजन से राम की प्राप्ति होती है और जन्म जन्म के दुख भूल जाते हैं।",
+  "words": [
+    {
+      "sanskrit": "भजन",
+      "meaning": "devotion"
+    },
+    {
+      "sanskrit": "पावै",
+      "meaning": "reaches"
+    },
+    {
+      "sanskrit": "जनम जनम",
+      "meaning": "birth after birth"
+    },
+    {
+      "sanskrit": "दुख",
+      "meaning": "sorrows"
+    },
+    {
+      "sanskrit": "बिसरावै",
+      "meaning": "forgets"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "gita-15-18",
+  "number": "Bhagavad Gita 15.18",
+  "title": "Purushottama",
+  "devanagari": [
+    "यस्मात्क्षरमतीतोऽहमक्षरादपि चोत्तमः।",
+    "अतोऽस्मि लोके वेदे च प्रथितः पुरुषोत्तमः॥"
+  ],
+  "translation": "Because I am beyond the perishable and higher even than the imperishable, I am known in the world and in the Vedas as <b>Purushottama, the Supreme Person</b>.",
+  "translation_hi": "क्योंकि मैं क्षर से परे हूँ और अक्षर से भी उत्तम हूँ, इसलिए लोक और वेद में मैं पुरुषोत्तम नाम से प्रसिद्ध हूँ।",
+  "words": [
+    {
+      "sanskrit": "यस्मात्",
+      "meaning": "because"
+    },
+    {
+      "sanskrit": "अतीतः",
+      "meaning": "beyond"
+    },
+    {
+      "sanskrit": "उत्तमः",
+      "meaning": "higher"
+    },
+    {
+      "sanskrit": "अतः",
+      "meaning": "therefore"
+    },
+    {
+      "sanskrit": "प्रथितः",
+      "meaning": "known"
+    },
+    {
+      "sanskrit": "पुरुषोत्तमः",
+      "meaning": "the Supreme Person"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "hanuman-chalisa-33",
+  "number": "Chaupai 31",
+  "title": "Eight Siddhis, Nine Treasures",
+  "devanagari": [
+    "अष्ट सिद्धि नौ निधि के दाता।",
+    "अस बर दीन जानकी माता॥"
+  ],
+  "translation": "You can grant the <b>eight powers and nine treasures</b>: this boon was given to you by Mother Sita.",
+  "translation_hi": "आप आठों सिद्धियों और नौ निधियों के देने वाले हैं, ऐसा वरदान आपको माता जानकी ने दिया है।",
+  "words": [
+    {
+      "sanskrit": "अष्ट सिद्धि",
+      "meaning": "eight powers"
+    },
+    {
+      "sanskrit": "नौ निधि",
+      "meaning": "nine treasures"
+    },
+    {
+      "sanskrit": "दाता",
+      "meaning": "giver"
+    },
+    {
+      "sanskrit": "बर",
+      "meaning": "boon"
+    },
+    {
+      "sanskrit": "दीन",
+      "meaning": "gave"
+    },
+    {
+      "sanskrit": "जानकी माता",
+      "meaning": "Mother Sita"
+    }
+  ]
+}

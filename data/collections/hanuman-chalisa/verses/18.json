@@ -1,0 +1,33 @@
+{
+  "id": "hanuman-chalisa-18",
+  "number": "Chaupai 16",
+  "title": "You Helped Sugriva",
+  "devanagari": [
+    "तुम उपकार सुग्रीवहिं कीन्हा।",
+    "राम मिलाय राज पद दीन्हा॥"
+  ],
+  "translation": "You did <b>Sugriva a great favour</b>: you brought him to Rama and gave him back his kingdom.",
+  "translation_hi": "आपने सुग्रीव पर उपकार किया, उन्हें श्रीराम से मिलाकर राजपद दिलाया।",
+  "words": [
+    {
+      "sanskrit": "उपकार",
+      "meaning": "favour, help"
+    },
+    {
+      "sanskrit": "सुग्रीवहिं",
+      "meaning": "to Sugriva"
+    },
+    {
+      "sanskrit": "मिलाय",
+      "meaning": "uniting"
+    },
+    {
+      "sanskrit": "राज पद",
+      "meaning": "kingship"
+    },
+    {
+      "sanskrit": "दीन्हा",
+      "meaning": "gave"
+    }
+  ]
+}
