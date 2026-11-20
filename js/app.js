@@ -253,10 +253,11 @@ function viewRaghava() {
   <div class="vhead"><div class="vnum">30 verses that become 60 · ${R.author}</div>
     <h1 class="dv" style="color:var(--accent)">${R.title}</h1>
     <p class="en" style="font-family:var(--serif);font-size:24px;margin:0">${R.title_en}: a poem that reads both ways</p></div>
-  <p>Read each verse forward and it tells the story of <b>Rama</b> (राघव). Read the same verse <b>backwards, syllable by syllable</b>, and it becomes a new verse telling the story of <b>Krishna</b> (यादव). Press play and watch Rama's verse turn into Krishna's.</p>
+  <p>Read each verse forward and it tells the story of <b>Rama</b> (राघव). Read the same verse <b>backwards, syllable by syllable</b>, and it becomes a new verse telling the story of <b>Krishna</b> (यादव). Press play: the original stays on top, and its syllables fly down one by one, from the last to the first, to build the reversed verse below.</p>
   <div class="rv-stage" id="rv-stage">
-    <div class="rv-label" id="rv-label"></div>
-    <div class="rv-tiles dv" id="rv-tiles"></div>
+    <div class="rv-box top"><div class="rv-boxlabel"><b class="dv">अनुलोम</b> · original verse, read forward: Rama’s story</div><div id="rv-top"></div></div>
+    <div class="rv-mid" id="rv-mid">⇣ take the syllables from the end, one by one ⇣</div>
+    <div class="rv-box bottom"><div class="rv-boxlabel"><b class="dv">विलोम</b> · reversed: Krishna’s story</div><div id="rv-bottom"></div></div>
     <div class="rv-final dv" id="rv-final"></div>
     <div class="rv-caption" id="rv-caption"></div>
   </div>
@@ -278,75 +279,72 @@ function viewRaghava() {
       <span class="rv-side dv">${v.fw.join('<br>')}</span><span class="rv-arrow" aria-hidden="true">⇄</span><span class="rv-side dv krishna">${v.bw.join('<br>')}</span></button>`).join('')}</div>
   <p class="note">${R.source} Word meanings will be added once they are checked against a commentary. In a few verses, a vowel or a sandhi letter differs between the two readings, as poets allow at word joins.</p>`;
 }
-function rvClear() {
-  rv.timers.forEach(clearTimeout); rv.timers = [];
-  rv.anims.forEach(a => { try { a.cancel(); } catch {} }); rv.anims = [];
-}
 function rvAt(ms, fn) { rv.timers.push(setTimeout(fn, ms * rv.speed)); }
 function rvSetup() {
   const v = DATA.raghava.verses[rv.i];
-  // each line is shown as two half-lines, so every row fits on screen
-  const lines = v.fw.map(aksharas).flatMap(l => { const h = Math.ceil(l.length / 2); return [l.slice(0, h), l.slice(h)]; });
-  const tiles = $('#rv-tiles'); tiles.classList.remove('flipped'); tiles.classList.toggle('long', lines.flat().length > 36);
+  const lines = v.fw.map(aksharas);
+  const n = lines.flat().length;
+  // top: the original, one row per line. bottom: empty slots, the reversed lines
+  const rev = lines.slice().reverse().map(l => l.slice().reverse());
   let k = 0;
-  tiles.innerHTML = lines.map((l, li) => l.map(a => `<span class="rv-t" data-k="${k++}">${a}</span>`).join('') + (li < lines.length - 1 ? '<span class="rv-br"></span>' : '')).join('');
-  $('#rv-label').innerHTML = '<b class="dv">अनुलोम</b> · read forward: Rama’s story';
-  $('#rv-label').className = 'rv-label';
+  $('#rv-top').innerHTML = lines.map(l => `<div class="rv-row">${l.map(a => `<span class="rv-t" data-k="${k++}">${a}</span>`).join('')}</div>`).join('');
+  let q = 0;
+  $('#rv-bottom').innerHTML = rev.map(l => `<div class="rv-row">${l.map(() => `<span class="rv-t slot" data-q="${q++}"></span>`).join('')}</div>`).join('');
+  $('#rv-stage').classList.toggle('long', n > 36);
   $('#rv-final').innerHTML = ''; $('#rv-final').classList.remove('show');
   $('#rv-caption').textContent = '';
+  $('#rv-mid').classList.remove('on');
   $('#rv-num').textContent = `Verse ${v.n} of ${DATA.raghava.verses.length}`;
   $$('.rv-pair').forEach(p => p.classList.toggle('on', +p.dataset.rvi === rv.i));
-  return { v, lines };
+  return { v, n };
 }
 function rvPlay() {
   rvClear(); rv.playing = true; $('#rv-play').textContent = '⏸';
-  const { v, lines } = rvSetup();
-  const tiles = $$('#rv-tiles .rv-t'), n = tiles.length;
-  const step = Math.min(110, 3500 / n), stag = Math.min(85, 2700 / n), noMotion = document.body.classList.contains('no-motion');
-  // 1. read forward
-  tiles.forEach((t, j) => rvAt(400 + j * step, () => { t.classList.add('lit'); rvAt(step * 2.2, () => t.classList.remove('lit')); }));
-  const t1 = 400 + n * step + 700;
-  // 2. read backward
-  rvAt(t1 - 400, () => { $('#rv-caption').textContent = 'Now read the same syllables backwards…'; });
-  tiles.slice().reverse().forEach((t, j) => rvAt(t1 + j * step, () => { t.classList.add('back'); }));
-  const t2 = t1 + n * step + 600;
-  // 3. the syllables fly to their reversed places
-  rvAt(t2, () => {
-    $('#rv-caption').textContent = '';
-    const box = $('#rv-tiles'), first = tiles.map(t => t.getBoundingClientRect());
-    const rev = lines.slice().reverse().map(l => l.slice().reverse());
-    // rebuild in reversed order: the last line, reversed, comes first
-    let idx = n - 1; const order = [];
-    rev.forEach((l, li) => { l.forEach(() => order.push(tiles[idx--])); if (li < rev.length - 1) order.push('br'); });
-    box.innerHTML = ''; order.forEach(t => box.appendChild(t === 'br' ? Object.assign(document.createElement('span'), { className: 'rv-br' }) : t));
-    box.classList.add('flipped');
-    tiles.forEach((t, j) => {
-      const a = first[j], b = t.getBoundingClientRect(), dx = a.left - b.left, dy = a.top - b.top;
-      t.classList.remove('back');
-      if (noMotion) return;
-      const lift = -70 - Math.abs(dx) * 0.08;
-      rv.anims.push(t.animate([
-        { transform: `translate(${dx}px, ${dy}px)`, offset: 0 },
-        { transform: `translate(${dx / 2}px, ${dy / 2 + lift}px) rotate(${dx > 0 ? -1 : 1}turn) scale(1.25)`, color: 'var(--gold)', offset: 0.5 },
-        { transform: 'translate(0, 0)', offset: 1 }
-      ], { duration: 1500 * rv.speed, delay: (n - 1 - j) * stag * rv.speed, easing: 'cubic-bezier(.45,.05,.3,1)', fill: 'backwards' }));
-    });
+  const { v, n } = rvSetup();
+  const src = $$('#rv-top .rv-t'), slots = $$('#rv-bottom .slot'), stage = $('#rv-stage');
+  const gap = Math.min(340, 11000 / n), fly = 750, noMotion = document.body.classList.contains('no-motion');
+  // 1. read the original once
+  src.forEach((t, j) => rvAt(200 + j * 45, () => { t.classList.add('lit'); rvAt(260, () => t.classList.remove('lit')); }));
+  const start = 200 + n * 45 + 700;
+  rvAt(start - 300, () => $('#rv-mid').classList.add('on'));
+  // 2. the last syllable flies first, into the first empty slot below
+  slots.forEach((slot, j) => rvAt(start + j * gap, () => {
+    const from = src[n - 1 - j];
+    from.classList.add('taken');
+    if (noMotion) { slot.textContent = from.textContent; slot.classList.add('filled'); return; }
+    const sr = stage.getBoundingClientRect(), a = from.getBoundingClientRect(), b = slot.getBoundingClientRect();
+    const c = document.createElement('span'); c.className = 'rv-t rv-fly'; c.textContent = from.textContent;
+    Object.assign(c.style, { left: (a.left - sr.left) + 'px', top: (a.top - sr.top) + 'px', width: a.width + 'px', height: a.height + 'px' });
+    stage.appendChild(c);
+    const dx = b.left - a.left, dy = b.top - a.top, side = dx === 0 ? 40 : -Math.sign(dx) * 40;
+    const anim = c.animate([
+      { transform: 'translate(0,0) scale(1)' },
+      { transform: `translate(${dx * 0.35 + side}px, ${dy * 0.45}px) scale(1.35) rotate(${dx > 0 ? 12 : -12}deg)`, offset: 0.45 },
+      { transform: `translate(${dx}px, ${dy}px) scale(1)` }
+    ], { duration: fly * rv.speed, easing: 'cubic-bezier(.4,0,.2,1)', fill: 'forwards' });
+    rv.anims.push(anim);
+    anim.onfinish = () => { c.remove(); slot.textContent = from.textContent; slot.classList.add('filled'); };
+  }));
+  const end = start + n * gap + fly + 400;
+  // 3. read the new verse and show it printed
+  rvAt(end, () => {
+    $('#rv-mid').classList.remove('on');
+    src.forEach(t => t.classList.remove('taken'));
+    slots.forEach((t, j) => rvAt(j * 45, () => { t.classList.add('lit2'); rvAt(260, () => t.classList.remove('lit2')); }));
   });
-  const t3 = t2 + 1500 + n * stag + 300;
-  // 4. it is now Krishna's verse
-  rvAt(t3, () => {
-    $('#rv-label').innerHTML = '<b class="dv">विलोम</b> · read backward: Krishna’s story';
-    $('#rv-label').className = 'rv-label krishna';
-    $$('#rv-tiles .rv-t').forEach((t, j) => rvAt(j * 40, () => t.classList.add('glow')));
-  });
-  rvAt(t3 + 1600, () => {
+  rvAt(end + n * 45 + 400, () => {
     $('#rv-final').innerHTML = v.bw.join('<br>'); $('#rv-final').classList.add('show');
-    $('#rv-caption').textContent = 'The same syllables, reversed: Rama’s verse has become Krishna’s.';
+    $('#rv-caption').textContent = 'The same syllables in reverse order: Rama’s verse has become Krishna’s.';
   });
-  rvAt(t3 + 5200, () => {
+  rvAt(end + n * 45 + 3400, () => {
     if (rv.auto && rv.i < DATA.raghava.verses.length - 1) { rv.i++; rvPlay(); }
     else { rv.playing = false; $('#rv-play').textContent = '↺'; }
   });
+}
+function rvClear() {
+  rv.timers.forEach(clearTimeout); rv.timers = [];
+  rv.anims.forEach(a => { try { a.cancel(); } catch {} }); rv.anims = [];
+  $$('.rv-fly').forEach(e => e.remove());
 }
 function bindRaghava() {
   if (!DATA.raghava) return;
