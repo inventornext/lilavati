@@ -224,6 +224,7 @@ function viewHome() {
 
   <div class="grid small-doors">
     <a class="card feature" href="#practice"><div class="big">अभ्यास</div><h3>Practice</h3><p class="note">Flashcards for every word, and a ten-question quiz.</p></a>
+    <a class="card feature" href="#sutra"><div class="big">सूत्रम्</div><h3>Code in Sanskrit</h3><p class="note">Sutra, a programming language with Sanskrit keywords. Try it now.</p></a>
     <a class="card feature" href="#learn"><div class="big">ज्ञान</div><h3>Learn</h3><p class="note">Vidyut Shabdakosh, the science word bank, and about this site.</p></a>
   </div>`;
 }
@@ -356,6 +357,89 @@ function bindRaghava() {
   $$('[data-rvsp]').forEach(b => b.onclick = () => { rv.speed = +b.dataset.rvsp; $$('[data-rvsp]').forEach(x => x.classList.toggle('on', x === b)); });
   $$('[data-rvsp]').forEach(x => x.classList.toggle('on', +x.dataset.rvsp === rv.speed));
   $$('.rv-pair').forEach(p => p.onclick = () => { rv.i = +p.dataset.rvi; $('#rv-stage').scrollIntoView({ behavior: 'smooth', block: 'center' }); rvPlay(); });
+}
+
+// ---------- सूत्र: the Sanskrit programming language playground ----------
+let SUTRA_EX = null;
+const SUTRA_KEYS = [
+  ['मान', 'let: create a variable', 'मान x = ५'],
+  ['वद', 'say: print values', 'वद "नमस्ते", x'],
+  ['यदि', 'if', 'यदि x > ३ { … }'],
+  ['अन्यथा', 'else', '} अन्यथा { … }'],
+  ['यावत्', 'while (as long as)', 'यावत् x < १० { … }'],
+  ['आवर्तय', 'repeat: for a counter', 'आवर्तय i = १ तः १० पर्यन्तम् { … }'],
+  ['तः', 'from', ''], ['पर्यन्तम्', 'up to', ''],
+  ['प्रत्येकम्', 'for each', 'प्रत्येकम् क अस्मिन् सूची { … }'],
+  ['अस्मिन्', 'in', ''],
+  ['कार्यम्', 'function', 'कार्यम् योगः(अ, ब) { … }'],
+  ['प्रत्यर्पय', 'return (give back)', 'प्रत्यर्पय अ + ब'],
+  ['विरम', 'break (stop the loop)', ''], ['अनुवर्तस्व', 'continue (next round)', ''],
+  ['सत्यम्', 'true', ''], ['असत्यम्', 'false', ''], ['शून्यम्', 'nothing (null)', ''],
+  ['च', 'and', 'x > १ च x < ९'], ['वा', 'or', ''], ['न', 'not', 'न सत्यम्']
+];
+const SUTRA_FNS = [
+  ['दैर्घ्यम्(x)', 'length of a list or text'], ['योजय(सूची, x)', 'add x to the end of a list'],
+  ['मूलम्(x)', 'square root'], ['पूर्णाङ्कः(x)', 'whole number part'], ['निरपेक्षम्(x)', 'absolute value'],
+  ['यादृच्छिकम्(अ, ब)', 'random whole number from अ to ब'], ['संख्या(x)', 'text to number'], ['पाठः(x)', 'value to text'], ['परिधिः()', 'π']
+];
+function viewSutra() {
+  return `
+  <div class="page-head"><div class="page-deva">सूत्रम्</div><h1>Sutra · a programming language in Sanskrit</h1>
+  <p class="section-sub">Write a program with Sanskrit words, press Run, and see the answer in Devanagari numbers. Lists count from १, as people do. A danda (।) can end a line.</p></div>
+  <div class="sutra-bar">
+    <select id="sutra-ex" aria-label="Examples"><option value="">Examples…</option></select>
+    <button class="btn primary" id="sutra-run">▶ Run</button>
+    <button class="btn" id="sutra-clear">Clear</button>
+    <span class="note">Ctrl + Enter also runs</span>
+  </div>
+  <div class="sutra-keys" id="sutra-keys">${SUTRA_KEYS.map(([k, en]) => `<button class="kbtn dv" data-ins="${k}" title="${en}">${k}</button>`).join('')}
+    ${['=', '{ }', '( )', '[ ]', '"', '।', '<', '>', '==', '+', '-', '*', '/', '%', '^', '०', '१', '२', '३', '४', '५', '६', '७', '८', '९'].map(k => `<button class="kbtn" data-ins="${esc(k).replace(/"/g, '&quot;')}">${esc(k)}</button>`).join('')}</div>
+  <div class="sutra-wrap">
+    <textarea id="sutra-code" class="sutra-code dv" spellcheck="false" autocapitalize="off" autocomplete="off" aria-label="Sutra program"></textarea>
+    <div class="sutra-out-wrap"><div class="sutra-out-head">फलम् · Output</div><pre id="sutra-out" class="sutra-out dv" aria-live="polite"></pre></div>
+  </div>
+  <h2 class="section-title">शब्दाः · Keywords</h2>
+  <div class="block"><table class="vocab"><thead><tr><th>Sutra</th><th>Meaning</th><th>Example</th></tr></thead>
+    <tbody>${SUTRA_KEYS.map(([k, en, ex]) => `<tr><td><span class="dv">${k}</span></td><td>${en}</td><td><code class="dv">${esc(ex)}</code></td></tr>`).join('')}</tbody></table></div>
+  <h2 class="section-title">कार्याणि · Built-in functions</h2>
+  <div class="block"><table class="vocab"><tbody>${SUTRA_FNS.map(([k, en]) => `<tr><td><code class="dv">${k}</code></td><td>${en}</td></tr>`).join('')}</tbody></table></div>
+  <div class="block science"><h3>How Sutra works</h3>
+  <p>Like every programming language, Sutra works in three steps. The <b>tokenizer</b> splits your text into words and symbols. The <b>parser</b> builds them into a tree using grammar rules. The <b>interpreter</b> walks the tree and does the work. Panini’s Ashtadhyayi worked the same way 2,500 years ago: short rules, applied in order, that turn roots into finished words. The whole language is one file, <code>js/sutra.js</code>, so you can read it and add your own keywords.</p></div>`;
+}
+async function bindSutra() {
+  const code = $('#sutra-code'), out = $('#sutra-out');
+  if (!SUTRA_EX) SUTRA_EX = (await getJSON('data/sutra-examples.json').catch(() => ({ examples: [] }))).examples;
+  const sel = $('#sutra-ex');
+  sel.innerHTML += SUTRA_EX.map(e => `<option value="${e.id}">${e.title}</option>`).join('');
+  code.value = store.get('lp-sutra-code', '') || (SUTRA_EX[0] ? SUTRA_EX[0].code : 'वद "नमस्ते"');
+  const runIt = () => {
+    store.set('lp-sutra-code', code.value);
+    if (!window.Sutra) { out.textContent = 'The Sutra interpreter did not load.'; return; }
+    const lines = [];
+    const r = Sutra.run(code.value, { print: s => lines.push(s) });
+    out.classList.toggle('err', !r.ok);
+    out.textContent = lines.join('\n') + (r.ok ? (lines.length ? '' : '(no output: use वद to print)') : (lines.length ? '\n' : '') + String(r.error));
+    markPractice();
+  };
+  $('#sutra-run').onclick = runIt;
+  $('#sutra-clear').onclick = () => { code.value = ''; out.textContent = ''; code.focus(); };
+  sel.onchange = () => { const e = SUTRA_EX.find(x => x.id === sel.value); if (e) { code.value = e.code; out.textContent = ''; runIt(); } sel.value = ''; };
+  code.onkeydown = e => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); runIt(); }
+    else if (e.key === 'Tab') { e.preventDefault(); insertAt(code, '  '); }
+  };
+  $$('#sutra-keys .kbtn').forEach(b => b.onclick = () => {
+    const k = b.dataset.ins;
+    if (k === '{ }') insertAt(code, '{\n  \n}', 4); else if (k === '( )' || k === '[ ]') insertAt(code, k[0] + k[2], 1);
+    else if (k === '"') insertAt(code, '""', 1);
+    else insertAt(code, /^[०-९=<>+\-*/%^।]+$/.test(k) || k === '==' ? k : k + ' ');
+  });
+  runIt();
+}
+function insertAt(ta, text, back = 0) {
+  const s = ta.selectionStart, e = ta.selectionEnd;
+  ta.value = ta.value.slice(0, s) + text + ta.value.slice(e);
+  const pos = s + text.length - back; ta.focus(); ta.setSelectionRange(pos, pos);
 }
 
 // ---------- path mode: recite a whole text, line by line ----------
@@ -584,6 +668,7 @@ function viewLearn() {
   <div class="page-head"><div class="page-deva">ज्ञान</div><h1>Learn</h1>
   <p class="section-sub">Reference pages that gather what the verses teach.</p></div>
   <div class="grid">
+    <a class="card feature" href="#sutra"><div class="big">सूत्रम्</div><h3>Sutra: code in Sanskrit</h3><p class="note">A programming language with Sanskrit keywords. Write and run programs here.</p></a>
     <a class="card feature" href="#shabdakosh"><div class="big">विद्युत्</div><h3>Vidyut Shabdakosh</h3><p class="note">Electrical engineering terms built from Sanskrit roots.</p></a>
     <a class="card feature" href="#words"><div class="big">गणित</div><h3>Science word bank</h3><p class="note">Maths words from the verses that are still used today.</p></a>
     <a class="card feature" href="#about"><div class="big">परिचय</div><h3>About</h3><p class="note">About Shlokashala, how to study a verse, and the sources.</p></a>
@@ -1032,6 +1117,7 @@ function render() {
     $('#open-path').onclick = () => openPath(c);
   } else if (id === 'texts' || id === 'bhakti' || id === 'stotras') { view = 'texts'; devotional = true; app.innerHTML = viewTexts(); T('All texts'); }
   else if (id === 'raghava-yadaviyam') { view = 'texts'; app.innerHTML = viewRaghava(); bindRaghava(); markPractice(); T('Raghava Yadaviyam'); }
+  else if (id === 'sutra') { view = 'learn'; app.innerHTML = viewSutra(); bindSutra(); T('Sutra: code in Sanskrit'); }
   else if (id === 'mala') { view = 'mala'; devotional = true; app.innerHTML = viewMala(); bindMala(); T('Mala'); }
   else if (id === 'ganita') { view = 'ganita'; app.innerHTML = viewGanita(); T('Ganita'); }
   else if (id === 'practice') { view = 'practice'; app.innerHTML = viewPractice(); T('Practice'); }
