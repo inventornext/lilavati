@@ -1,11 +1,11 @@
 // Shlokashala service worker: keeps every page and verse available offline.
 // Files are served from the cache first and refreshed in the background,
 // so new verses appear on the next visit after you push them.
-const CACHE = 'shlokashala-v10';
+const CACHE = 'shlokashala-v11';
 const FONTS = 'shlokashala-fonts-v1';
 const CORE = [
   './', 'index.html', 'css/style.css', 'js/app.js', 'manifest.webmanifest',
-  'data/manifest.json', 'data/collections.json', 'data/vocab.json', 'data/shabdakosh.json',
+  'data/manifest.json', 'data/collections.json', 'data/special/raghava-yadaviyam.json', 'data/vocab.json', 'data/shabdakosh.json',
   'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-32.png'
 ];
 
