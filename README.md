@@ -115,20 +115,3 @@ A stotra's `manifest.json` can have `"group": "Shiva"` or `"group": "Durga Sapta
 ## Devanagari only
 
 The site uses Devanagari for all Sanskrit. There is no Roman transliteration (IAST). When English text mentions a Sanskrit name, write it in plain spelling: Tandava, Upanishad, Saptashati, Panchachamara (च = ch, श/ष = sh).
-
-## सूत्र (Sutra): the Sanskrit programming language
-
-Sutra is a small programming language with Sanskrit keywords. Try it on the site at `#sutra`.
-
-- The whole language is one file: `js/sutra.js` (tokenizer, parser, interpreter). It runs in the browser and in Node.
-- Examples live in `data/sutra-examples.json`. Each has the program and the output it should print.
-- Test the language after any change: `node tools/test_sutra.js`
-- To add a keyword, add it to `KEYWORDS` in `js/sutra.js`, then handle it in `statement()` (parser) and `stmt()` (interpreter).
-- To add a built-in function, add one line with `builtin('नाम', (line, x) => …)`.
-
-```
-कार्यम् योगः(अ, ब) {
-  प्रत्यर्पय अ + ब
-}
-वद योगः(२, ३)      # prints ५
-```

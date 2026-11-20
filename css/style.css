@@ -469,19 +469,3 @@ body.no-motion .pl, body.no-motion .mala-svg { transition: none; animation: none
   .rv-pair { grid-template-columns: 1fr; } .rv-arrow { transform: rotate(90deg); justify-self: center; }
   .rv-t { min-width: 1.5em; height: 1.6em; padding: 0 2px; font-size: 15px; } .rv-stage { padding: 12px 8px; } .rv-box { padding: 8px 5px 10px; }
 }
-
-/* ---------- Sutra playground ---------- */
-.sutra-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 6px 0 10px; }
-.sutra-bar select { max-width: 100%; font: 16px var(--sans); padding: 8px 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); }
-.sutra-keys { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 10px; }
-.kbtn { font: 15px var(--sans); padding: 4px 9px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface-2); color: var(--ink); cursor: pointer; }
-.kbtn.dv { font-family: var(--deva); font-size: 16px; color: var(--accent); }
-.kbtn:hover { border-color: var(--accent); }
-.sutra-wrap { display: grid; grid-template-columns: 3fr 2fr; gap: 12px; }
-.sutra-code { width: 100%; min-height: 380px; resize: vertical; padding: 14px; border-radius: 14px; border: 1px solid var(--line); background: var(--code); color: var(--ink); font-size: 17px; line-height: 1.7; tab-size: 2; white-space: pre; overflow: auto; }
-.sutra-code:focus { outline: none; border-color: var(--accent); }
-.sutra-out-wrap { display: flex; flex-direction: column; border-radius: 14px; border: 1px solid var(--line); background: var(--surface); overflow: hidden; }
-.sutra-out-head { font-size: 14px; color: var(--gold); font-weight: 600; padding: 8px 14px; border-bottom: 1px solid var(--line); }
-.sutra-out { flex: 1; margin: 0; padding: 12px 14px; font-size: 17px; line-height: 1.7; white-space: pre-wrap; overflow: auto; min-height: 120px; }
-.sutra-out.err { color: var(--bad); }
-@media (max-width: 760px) { .sutra-wrap { grid-template-columns: 1fr; } .sutra-code { min-height: 300px; font-size: 16px; } }
