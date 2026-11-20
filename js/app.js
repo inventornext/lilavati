@@ -246,6 +246,19 @@ function aksharas(line) {
   return out;
 }
 const rv = { i: 0, playing: false, timers: [], anims: [], speed: 1, auto: false };
+const langSeg = () => `<span class="seg" role="group" aria-label="Meaning language"><button data-lang="en">English</button><button data-lang="hi">हिन्दी</button><button data-lang="both">Both</button></span>`;
+function rvMeaningHTML(v) {
+  if (!v.meaning) return '<p class="note">Meaning coming soon.</p>';
+  const part = (m, cls, head) => {
+    const en = `<p>${m.en}</p>`, hi = `<p class="hi">${m.hi}</p>`;
+    return `<div class="rv-m ${cls}"><b>${head}</b>${prefs.lang === 'hi' ? hi : prefs.lang === 'both' ? en + hi : en}</div>`;
+  };
+  return part(v.meaning.fw, 'rama', 'अनुलोम · Rama’s story') + part(v.meaning.bw, 'krishna', 'विलोम · Krishna’s story');
+}
+function rvShowMeaning() {
+  const v = DATA.raghava.verses[rv.i]; const box = $('#rv-mean'); if (box) box.innerHTML = rvMeaningHTML(v);
+  $$('.rv-mtext').forEach(el => { el.innerHTML = rvMeaningHTML(DATA.raghava.verses[+el.dataset.mi]); });
+}
 function viewRaghava() {
   const R = DATA.raghava; if (!R) return '<p class="error">Could not load the poem.</p>';
   return `
@@ -255,7 +268,7 @@ function viewRaghava() {
     <p class="en" style="font-family:var(--serif);font-size:24px;margin:0">${R.title_en}: a poem that reads both ways</p></div>
   <p>Read each verse forward and it tells the story of <b>Rama</b> (राघव). Read the same verse <b>backwards, syllable by syllable</b>, and it becomes a new verse telling the story of <b>Krishna</b> (यादव). Press play: the original stays on top, and its syllables fly down one by one, from the last to the first, to build the reversed verse below.</p>
   <div class="rv-stage" id="rv-stage">
-    <div class="rv-box top"><div class="rv-boxlabel"><b class="dv">अनुलोम</b> · original verse, read forward: Rama’s story</div><div id="rv-top"></div></div>
+    <div class="rv-box top"><div class="rv-boxlabel"><b class="dv">अनुलोम</b> · original verse, read forward: Rama’s story</div><div id="rv-top"></div><div class="rv-print dv" id="rv-anu"></div></div>
     <div class="rv-mid" id="rv-mid">⇣ take the syllables from the end, one by one ⇣</div>
     <div class="rv-box bottom"><div class="rv-boxlabel"><b class="dv">विलोम</b> · reversed: Krishna’s story</div><div id="rv-bottom"></div></div>
     <div class="rv-final dv" id="rv-final"></div>
@@ -271,13 +284,18 @@ function viewRaghava() {
     <div class="seg" role="group" aria-label="Speed"><button data-rvsp="1.3">Slow</button><button data-rvsp="1">Normal</button><button data-rvsp="0.7">Fast</button></div>
     <label class="note"><input type="checkbox" id="rv-auto"> Play all verses</label>
   </div>
+  <div class="block rv-meaning">
+    <div class="rv-mhead"><h3>अर्थ · Meaning</h3>${langSeg()}</div>
+    <div id="rv-mean"></div>
+  </div>
   <div class="block science"><h3>Science link</h3><p>A <b>palindrome</b> reads the same in both directions, like the number 12321. This poem goes further: reversed, each verse is a different, meaningful verse. Nature uses palindromes too: many DNA sites that enzymes cut, such as GAATTC, read the same backwards on the opposite strand.</p></div>
   <h2 class="section-title">All 30 verses</h2>
   <p class="section-sub">Left: अनुलोम, Rama's story. Right: विलोम, the same syllables reversed, Krishna's story. Tap a verse to animate it.</p>
   <div class="rv-list">${R.verses.map((v, i) => `
-    <button class="rv-pair" data-rvi="${i}"><span class="rv-n">॥ ${toDeva(v.n)} ॥</span>
-      <span class="rv-side dv">${v.fw.join('<br>')}</span><span class="rv-arrow" aria-hidden="true">⇄</span><span class="rv-side dv krishna">${v.bw.join('<br>')}</span></button>`).join('')}</div>
-  <p class="note">${R.source} Word meanings will be added once they are checked against a commentary. In a few verses, a vowel or a sandhi letter differs between the two readings, as poets allow at word joins.</p>`;
+    <div class="rv-item"><button class="rv-pair" data-rvi="${i}" title="Animate this verse"><span class="rv-n">॥ ${toDeva(v.n)} ॥</span>
+      <span class="rv-side dv">${v.fw.join('<br>')}</span><span class="rv-arrow" aria-hidden="true">⇄</span><span class="rv-side dv krishna">${v.bw.join('<br>')}</span></button>
+      ${v.meaning ? `<details class="rv-det"><summary>अर्थ · Meaning</summary><div class="rv-mtext" data-mi="${i}">${rvMeaningHTML(v)}</div></details>` : ''}</div>`).join('')}</div>
+  <p class="note">${R.source} ${R.meaning_source || ''} In a few verses, a vowel or a sandhi letter differs between the two readings, as poets allow at word joins.</p>`;
 }
 function rvAt(ms, fn) { rv.timers.push(setTimeout(fn, ms * rv.speed)); }
 function rvSetup() {
@@ -287,10 +305,12 @@ function rvSetup() {
   // top: the original, one row per line. bottom: empty slots, the reversed lines
   const rev = lines.slice().reverse().map(l => l.slice().reverse());
   let k = 0;
-  $('#rv-top').innerHTML = lines.map(l => `<div class="rv-row">${l.map(a => `<span class="rv-t" data-k="${k++}">${a}</span>`).join('')}</div>`).join('');
+  $('#rv-top').innerHTML = lines.map(l => `<div class="rv-row" style="--n:${l.length}">${l.map(a => `<span class="rv-t" data-k="${k++}">${a}</span>`).join('')}</div>`).join('');
   let q = 0;
-  $('#rv-bottom').innerHTML = rev.map(l => `<div class="rv-row">${l.map(() => `<span class="rv-t slot" data-q="${q++}"></span>`).join('')}</div>`).join('');
+  $('#rv-bottom').innerHTML = rev.map(l => `<div class="rv-row" style="--n:${l.length}">${l.map(() => `<span class="rv-t slot" data-q="${q++}"></span>`).join('')}</div>`).join('');
   $('#rv-stage').classList.toggle('long', n > 36);
+  $('#rv-anu').innerHTML = v.fw.join('<br>');
+  const mean = $('#rv-mean'); if (mean) mean.innerHTML = rvMeaningHTML(v);
   $('#rv-final').innerHTML = ''; $('#rv-final').classList.remove('show');
   $('#rv-caption').textContent = '';
   $('#rv-mid').classList.remove('on');
@@ -314,7 +334,7 @@ function rvPlay() {
     if (noMotion) { slot.textContent = from.textContent; slot.classList.add('filled'); return; }
     const sr = stage.getBoundingClientRect(), a = from.getBoundingClientRect(), b = slot.getBoundingClientRect();
     const c = document.createElement('span'); c.className = 'rv-t rv-fly'; c.textContent = from.textContent;
-    Object.assign(c.style, { left: (a.left - sr.left) + 'px', top: (a.top - sr.top) + 'px', width: a.width + 'px', height: a.height + 'px' });
+    Object.assign(c.style, { fontSize: getComputedStyle(from).fontSize, left: (a.left - sr.left) + 'px', top: (a.top - sr.top) + 'px', width: a.width + 'px', height: a.height + 'px' });
     stage.appendChild(c);
     const dx = b.left - a.left, dy = b.top - a.top, side = dx === 0 ? 40 : -Math.sign(dx) * 40;
     const anim = c.animate([
@@ -349,6 +369,9 @@ function rvClear() {
 function bindRaghava() {
   if (!DATA.raghava) return;
   rv.i = 0; rv.playing = false; rvSetup();
+  const setLang = l => { prefs.lang = l; store.set('lp-lang', l); $$('[data-lang]').forEach(b => b.classList.toggle('on', b.dataset.lang === l)); rvShowMeaning(); };
+  $$('[data-lang]').forEach(b => b.onclick = () => setLang(b.dataset.lang));
+  setLang(prefs.lang);
   $('#rv-play').onclick = () => { if (rv.playing) { rvClear(); rv.playing = false; $('#rv-play').textContent = '▶'; rvSetup(); } else rvPlay(); };
   $('#rv-prev').onclick = () => { rv.i = Math.max(0, rv.i - 1); rv.playing ? rvPlay() : (rvClear(), rvSetup()); };
   $('#rv-next').onclick = () => { rv.i = Math.min(DATA.raghava.verses.length - 1, rv.i + 1); rv.playing ? rvPlay() : (rvClear(), rvSetup()); };

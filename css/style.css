@@ -439,7 +439,8 @@ body.no-motion .pl, body.no-motion .mala-svg { transition: none; animation: none
 .rv-boxlabel { font-size: 14px; color: var(--accent); margin-bottom: 8px; }
 .rv-box.bottom .rv-boxlabel { color: var(--teal); }
 .rv-boxlabel b { font-size: 19px; margin-right: 3px; }
-.rv-row { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px 3px; padding: 6px 4px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); }
+.rv-row { display: flex; flex-wrap: nowrap; justify-content: center; gap: 3px; padding: 6px 5px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); container-type: inline-size; }
+.rv-row .rv-t { flex: 1 1 0; min-width: 0; max-width: 2.4em; padding: 0; font-size: min(24px, calc(100cqi / var(--n, 16) * 0.62)); }
 .rv-row + .rv-row { margin-top: 8px; }
 .rv-mid { color: var(--muted); font-size: 15px; margin: 12px 0; transition: color .4s; }
 .rv-mid.on { color: var(--gold); font-weight: 600; animation: rvPulse 1.2s ease-in-out infinite; }
@@ -453,7 +454,7 @@ body.no-motion .pl, body.no-motion .mala-svg { transition: none; animation: none
 .rv-t.slot.lit2 { background: var(--teal); color: var(--surface); }
 @keyframes rvLand { 0% { transform: scale(1.25); box-shadow: 0 0 16px var(--gold); } 100% { transform: none; } }
 .rv-fly { position: absolute; z-index: 5; margin: 0; background: var(--gold); color: #2a1a00; border-color: var(--gold); box-shadow: 0 6px 20px rgba(0,0,0,.25); pointer-events: none; }
-.rv-stage.long .rv-t { font-size: clamp(13px, 1.9vw, 20px); min-width: 1.6em; }
+
 .rv-final { font-size: clamp(17px, 2.8vw, 23px); line-height: 1.7; color: var(--teal); margin-top: 14px; opacity: 0; transform: translateY(8px); transition: opacity .9s, transform .9s; overflow-wrap: anywhere; }
 .rv-final.show { opacity: 1; transform: none; }
 .rv-caption { color: var(--muted); font-size: 15px; margin-top: 8px; min-height: 1.4em; }
@@ -467,5 +468,20 @@ body.no-motion .pl, body.no-motion .mala-svg { transition: none; animation: none
 .tcard.wonder { background: linear-gradient(135deg, var(--gold-soft), var(--teal-soft)); }
 @media (max-width: 640px) {
   .rv-pair { grid-template-columns: 1fr; } .rv-arrow { transform: rotate(90deg); justify-self: center; }
-  .rv-t { min-width: 1.5em; height: 1.6em; padding: 0 2px; font-size: 15px; } .rv-stage { padding: 12px 8px; } .rv-box { padding: 8px 5px 10px; }
+  .rv-stage { padding: 12px 6px; } .rv-box { padding: 8px 4px 10px; } .rv-row { gap: 2px; padding: 5px 3px; }
 }
+
+.rv-print { font-size: clamp(16px, 2.6vw, 21px); line-height: 1.7; color: var(--accent); margin-top: 10px; overflow-wrap: anywhere; }
+.rv-meaning { margin-top: 14px; }
+.rv-mhead { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 8px; }
+.rv-mhead h3 { margin: 0; font-family: var(--deva); }
+.rv-m { padding: 10px 14px; border-radius: 12px; margin-top: 8px; }
+.rv-m b { font-family: var(--deva); font-size: 15px; }
+.rv-m p { margin: 4px 0 0; } .rv-m p.hi { font-family: var(--deva); }
+.rv-m.rama { background: var(--accent-soft); } .rv-m.rama b { color: var(--accent); }
+.rv-m.krishna { background: var(--teal-soft); } .rv-m.krishna b { color: var(--teal); }
+.rv-item { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.rv-item .rv-pair { border: 0; border-radius: 0; width: 100%; }
+.rv-item:has(.rv-pair.on) { border-color: var(--accent); }
+.rv-det { border-top: 1px solid var(--line); padding: 4px 14px 10px; }
+.rv-det summary { cursor: pointer; color: var(--gold); font-family: var(--deva); font-weight: 600; padding: 6px 0; }

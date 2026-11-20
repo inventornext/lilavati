@@ -2,7 +2,7 @@
  "title": "श्रीराघवयादवीयम्",
  "title_en": "Raghava Yadaviyam",
  "author": "Venkatadhvari (17th century)",
- "source": "Text as encoded and proofread by P. P. Narayanaswami (sanskritdocuments.org). Compare with a printed edition.",
+ "source": "Text as encoded by P. P. Narayanaswami (sanskritdocuments.org). Compare with a printed edition.",
  "verses": [
   {
    "n": 1,
@@ -13,7 +13,17 @@
    "bw": [
     "सेवाध्येयो रामालाली गोप्याराधी मारामोराः ।",
     "यस्साभालंकारं तारं तं श्रीतं वन्देऽहं देवम् ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "After searching the Malaya and Sahya mountains for Sita, Rama returned to Ayodhya and lived happily with her for a long time.",
+     "hi": "सीता को मलय और सह्य पर्वतों पर खोजने के बाद राम अयोध्या लौटे और बहुत समय तक उनके साथ सुख से रहे।"
+    },
+    "bw": {
+     "en": "Krishna, reached through spiritual discipline, plays with his consorts, is adored by the gopis, holds Lakshmi in his heart and shines with ornaments.",
+     "hi": "साधना से प्राप्त होने वाले कृष्ण अपनी पत्नियों के साथ क्रीड़ा करते हैं, गोपियाँ उनकी आराधना करती हैं, वे लक्ष्मी को हृदय में धारण करते हैं और आभूषणों से शोभित हैं।"
+    }
+   }
   },
   {
    "n": 2,
@@ -24,7 +34,17 @@
    "bw": [
     "वाराशावासाग्र्या साश्वाविद्यावादेताजीरापूः ।",
     "राधार्यप्ता दीप्राविद्यासीमायाज्याख्याताकेसा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Ayodhya, first of the holy cities, was a rich capital full of learned brahmins and merchants, built by Aja's son and visited by the gods.",
+     "hi": "अयोध्या, पवित्र नगरियों में प्रथम, विद्वान ब्राह्मणों और व्यापारियों से भरी समृद्ध राजधानी थी, जिसे अज के पुत्र ने बसाया और जहाँ देवता आते थे।"
+    },
+    "bw": {
+     "en": "Dvaraka, foremost of the seven holy cities, stood in the ocean, rich in horses and elephants, home to Krishna and to centres of learning.",
+     "hi": "द्वारका, सात पवित्र नगरियों में श्रेष्ठ, समुद्र में स्थित थी, घोड़ों और हाथियों से समृद्ध, कृष्ण का निवास और विद्या का केंद्र।"
+    }
+   }
   },
   {
    "n": 3,
@@ -35,7 +55,17 @@
    "bw": [
     "भूरिभूसुरकागारासनापीवरसारसा ।",
     "कापिवानघसौधासौ श्रीरसालस्थभामका ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Ayodhya is a city of mansions and wealth, with deep wells, the calls of sarasa birds, and golden earth.",
+     "hi": "अयोध्या महलों और धन की नगरी है, जहाँ गहरे कुएँ हैं, सारस पक्षियों की ध्वनि है और सुनहरी धरती है।"
+    },
+    "bw": {
+     "en": "Dvaraka has altars crowded with brahmins, large lotus ponds, flawless mansions and tall mango trees.",
+     "hi": "द्वारका में ब्राह्मणों से भरी यज्ञ वेदियाँ, बड़े कमल सरोवर, निर्दोष महल और ऊँचे आम के वृक्ष हैं।"
+    }
+   }
   },
   {
    "n": 4,
@@ -46,7 +76,17 @@
    "bw": [
     "यादवेनस्तुभारातासंररक्षमहामनाः ।",
     "तां समानधरोगोमाननेमासमधामराः ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Lit by Rama's splendour, Ayodhya was always full of festivals and joy, so its people never even noticed the stars.",
+     "hi": "राम के तेज से प्रकाशित अयोध्या में सदा उत्सव और आनंद रहता था, इसलिए वहाँ के लोगों ने कभी तारे भी नहीं देखे।"
+    },
+    "bw": {
+     "en": "Krishna, the sun of the Yadavas and generous protector of cows, guarded Dvaraka with boundless power and prosperity.",
+     "hi": "यादवों के सूर्य और गायों के उदार रक्षक कृष्ण ने अपार शक्ति और समृद्धि से द्वारका की रक्षा की।"
+    }
+   }
   },
   {
    "n": 5,
@@ -57,7 +97,17 @@
    "bw": [
     "तं त्राताहाश्रीमानामाभीतं स्फीत्तं शीतं ख्यातं ।",
     "सौख्ये सौम्येसौ नेता वै गीरागीयो योधेगायन् ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Sage Vishvamitra took the calm and glorious Rama to protect his sacrifice from demons.",
+     "hi": "ऋषि विश्वामित्र शांत और यशस्वी राम को अपने यज्ञ की रक्षा के लिए ले गए।"
+    },
+    "bw": {
+     "en": "Narada, the great musician, came singing to the gentle, merciful Krishna, famed for the welfare of the world.",
+     "hi": "महान संगीतज्ञ नारद, जगत के कल्याण के लिए प्रसिद्ध, कोमल और दयालु कृष्ण के पास गाते हुए आए।"
+    }
+   }
   },
   {
    "n": 6,
@@ -68,7 +118,17 @@
    "bw": [
     "तेन रातमवामास गोपालादमराविका ।",
     "तं श्रितानृपजासारंभ रामाकुसुमं रमा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Sita, born of the earth, patient and truthful, won Rama, the Lord of Lakshmi in human form.",
+     "hi": "धरती से जन्मी, धैर्यवान और सत्यनिष्ठ सीता ने मनुष्य रूप में आए लक्ष्मीपति राम को प्राप्त किया।"
+    },
+    "bw": {
+     "en": "Rukmini, a princess and form of Lakshmi, won Krishna as her husband and received the parijata flower through Narada.",
+     "hi": "राजकुमारी और लक्ष्मी की अवतार रुक्मिणी ने कृष्ण को पति रूप में पाया और नारद के द्वारा पारिजात पुष्प प्राप्त किया।"
+    }
+   }
   },
   {
    "n": 7,
@@ -79,7 +139,17 @@
    "bw": [
     "मेरुभूजेत्रगाकाणुरेगोसुमेसारसा भास्वताहासदामोदिका ।",
     "तेन वा पारिजातेन पीता नवा यादवे भादखेदासमानामरा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Rama, kind to the distressed, calmed the fierce Parashurama, son of Renuka, when he humbled himself.",
+     "hi": "दुखियों पर दया करने वाले राम ने रेणुका पुत्र उग्र परशुराम को शांत किया, जब वे विनम्र हुए।"
+    },
+    "bw": {
+     "en": "Having received the parijata flower, Rukmini found ordinary flowers dull and felt renewed and joyful with Krishna.",
+     "hi": "पारिजात पुष्प पाकर रुक्मिणी को साधारण फूल फीके लगे और वे कृष्ण के साथ नई ऊर्जा और आनंद से भर गईं।"
+    }
+   }
   },
   {
    "n": 8,
@@ -90,7 +160,17 @@
    "bw": [
     "हारसारसुमारम्यक्षेमेरेहविसाध्वसा ।",
     "यातसीसुमधाम्नाभूक्षिताधामससारसा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Rama, whose mighty eyes destroy demon armies, lived happily in Ayodhya with Sita.",
+     "hi": "राक्षस सेनाओं का नाश करने वाले तेजस्वी नेत्रों वाले राम सीता के साथ अयोध्या में सुख से रहे।"
+    },
+    "bw": {
+     "en": "Joyful and fearless, Rukmini went home with Krishna, wearing the parijata flower like a pearl necklace.",
+     "hi": "आनंदित और निर्भय रुक्मिणी पारिजात पुष्प को मोतियों के हार की तरह धारण कर कृष्ण के साथ घर गईं।"
+    }
+   }
   },
   {
    "n": 9,
@@ -101,7 +181,17 @@
    "bw": [
     "सारतागधियातापोपेतायामध्यमत्रसा ।",
     "यात्तमन्युमताभामा भयेतारभसागसा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Kaikeyi, consumed by anger, wrongly secured the kingdom for her son Bharata.",
+     "hi": "क्रोध से भरी कैकेयी ने अनुचित रूप से अपने पुत्र भरत के लिए राज्य प्राप्त किया।"
+    },
+    "bw": {
+     "en": "Satyabhama became upset and afraid when Krishna hastily gave the parijata flower to Rukmini.",
+     "hi": "जब कृष्ण ने जल्दी में पारिजात पुष्प रुक्मिणी को दे दिया, तो सत्यभामा दुखी और आशंकित हो गईं।"
+    }
+   }
   },
   {
    "n": 10,
@@ -112,7 +202,17 @@
    "bw": [
     "हहदाहमयीकेकैकावासेद्ध्वृतालया ।",
     "सासदाननकामेराभामाकोपदवानता ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Upset by Rama's coming coronation, Kaikeyi had him sent to the forest.",
+     "hi": "राम के होने वाले राज्याभिषेक से दुखी होकर कैकेयी ने उन्हें वन भेजवा दिया।"
+    },
+    "bw": {
+     "en": "Burning with anger, Satyabhama bolted the doors of her palace and shut out her attendants.",
+     "hi": "क्रोध से जलती सत्यभामा ने अपने महल के द्वार बंद कर दिए और सेविकाओं को भी बाहर कर दिया।"
+    }
+   }
   },
   {
    "n": 11,
@@ -123,7 +223,17 @@
    "bw": [
     "सौम्यगानवरारोहापरोधीरस्स्थिरस्वभाः ।",
     "होदरादत्रापितह्रीसत्यासदनमारवा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Steadfast and radiant, Rama went to the forest without ornaments, honouring his father, who was ashamed of breaking his word.",
+     "hi": "दृढ़ और तेजस्वी राम अपने पिता का सम्मान करते हुए, जो वचन टूटने से लज्जित थे, बिना आभूषणों के वन गए।"
+    },
+    "bw": {
+     "en": "Krishna, steady and fond of music, went to Satyabhama's home, ashamed of what he had done.",
+     "hi": "स्थिर और संगीत प्रेमी कृष्ण अपने किए पर लज्जित होकर सत्यभामा के घर गए।"
+    }
+   }
   },
   {
    "n": 12,
@@ -134,7 +244,17 @@
    "bw": [
     "भानलोकिनपातासह्रीतायाविहितागसा ।",
     "वेदयानस्तयासारदाताधीघनयानया ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Sita, daughter of the earth, bravely went to the forest, grieved by Kaikeyi's shameful act.",
+     "hi": "धरती की पुत्री सीता कैकेयी के लज्जाजनक कार्य से दुखी होकर साहस से वन गईं।"
+    },
+    "bw": {
+     "en": "Hurt by the slight, Satyabhama would not even look at Krishna, radiant protector though he was.",
+     "hi": "अपमान से आहत सत्यभामा ने तेजस्वी रक्षक कृष्ण की ओर देखा तक नहीं।"
+    }
+   }
   },
   {
    "n": 13,
@@ -145,7 +265,17 @@
    "bw": [
     "नोहिगामदसीयामाजद्वारभतगानया ।",
     "हह साहमहोदारदार्वागतिधुरागिरा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Rama, destroyer of demons, came to sage Bharadvaja and other self-controlled sages, tired from walking.",
+     "hi": "राक्षसों का नाश करने वाले राम चलते चलते थककर ऋषि भरद्वाज और अन्य संयमी मुनियों के पास पहुँचे।"
+    },
+    "bw": {
+     "en": "Satyabhama first ignored Krishna's words, then spoke sharply when he vowed to bring her the parijata tree.",
+     "hi": "सत्यभामा ने पहले कृष्ण की बातों पर ध्यान नहीं दिया, फिर जब उन्होंने पारिजात वृक्ष लाने का वचन दिया तो उन्होंने तीखे शब्द कहे।"
+    }
+   }
   },
   {
    "n": 14,
@@ -156,7 +286,17 @@
    "bw": [
     "यात्रयाघनभोगातुं क्षयदं परमागसः ।",
     "गन्धगंतरुमावद्यं रंभाभादजिरा तु या ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Splendid and faultless, Rama reached Chitrakuta, a pleasant hill with gentle breezes.",
+     "hi": "तेजस्वी और निर्दोष राम मंद पवन वाले सुंदर पर्वत चित्रकूट पहुँचे।"
+    },
+    "bw": {
+     "en": "Cloud-coloured Krishna went to heaven, adorned by apsaras like Rambha, to fetch the fragrant parijata tree.",
+     "hi": "मेघ वर्ण कृष्ण सुगंधित पारिजात वृक्ष लाने के लिए स्वर्ग गए, जहाँ रंभा जैसी अप्सराएँ शोभा बढ़ाती थीं।"
+    }
+   }
   },
   {
    "n": 15,
@@ -167,7 +307,17 @@
    "bw": [
     "नसदातनभोग्याभो नोनेतावनमास सः ।",
     "हारिकायमताहल्याजारामोदप्रकाण्डदम् ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Self-controlled Rama, conqueror of Parashurama, entered the Dandaka forest.",
+     "hi": "संयमी और परशुराम को जीतने वाले राम दंडक वन में प्रवेश किए।"
+    },
+    "bw": {
+     "en": "Krishna, the eternal leader, reached Indra's Nandana garden.",
+     "hi": "सनातन नायक कृष्ण इंद्र के नंदन वन पहुँचे।"
+    }
+   }
   },
   {
    "n": 16,
@@ -178,7 +328,17 @@
    "bw": [
     "हाधराविषदोनानागानाटोपरसाद्रुतम्।",
     "जम्भकुण्ठकरादेवेनोज्ञानदरमारसः ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "After slaying Viradha, the blameless Rama went to sage Agastya, whose voice rang with the Vedas.",
+     "hi": "विराध को मारने के बाद निर्दोष राम ऋषि अगस्त्य के पास गए, जिनकी वाणी में वेद गूँजते थे।"
+    },
+    "bw": {
+     "en": "Indra, giver of rain, grew confused and afraid when he heard that Krishna had arrived.",
+     "hi": "वर्षा देने वाले इंद्र कृष्ण के आने की बात सुनकर भ्रमित और भयभीत हो गए।"
+    }
+   }
   },
   {
    "n": 17,
@@ -189,7 +349,17 @@
    "bw": [
     "तं रसास्वजराकालंमारामार्दनमासन ।",
     "सहितोनवनाकेकं हातापारकमागसा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Rama, protector of sages and served by the eagle Jatayu, was desired by Surpanakha, Ravana's sister.",
+     "hi": "मुनियों के रक्षक और जटायु से सेवित राम पर रावण की बहन शूर्पणखा मोहित हुई।"
+    },
+    "bw": {
+     "en": "Grieved at the uprooting of the parijata tree, Indra went to fight Krishna, not knowing he is beyond death.",
+     "hi": "पारिजात वृक्ष के उखाड़े जाने से दुखी इंद्र कृष्ण से युद्ध करने गए, यह न जानते हुए कि वे मृत्यु से परे हैं।"
+    }
+   }
   },
   {
    "n": 18,
@@ -200,7 +370,17 @@
    "bw": [
     "केशवं विरसानाविराहालापसमारवैः ।",
     "ततरोदसमग्राविदोश्रीदोमरगोसताम् ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Surpanakha, whose nose was cut off by fearless Lakshmana, became vengeful towards Rama.",
+     "hi": "निर्भय लक्ष्मण द्वारा नाक काटे जाने पर शूर्पणखा राम से बदला लेने को उतावली हो गई।"
+    },
+    "bw": {
+     "en": "Indra, his glory now dimmed, spoke words of peace to Krishna, creator of heaven and earth.",
+     "hi": "अपना तेज खो चुके इंद्र ने स्वर्ग और पृथ्वी के रचयिता कृष्ण से शांति के वचन कहे।"
+    }
+   }
   },
   {
    "n": 19,
@@ -211,7 +391,17 @@
    "bw": [
     "हातिरादजरालोकविरोधावहसाहस ।",
     "यानसेरखगश्रीद भूयोमास्वमगोद्युगः ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Rama, famed across heaven and earth, fought Khara's army and shone as a fearless victor.",
+     "hi": "स्वर्ग और पृथ्वी में प्रसिद्ध राम ने खर की सेना से युद्ध किया और निर्भय विजेता के रूप में शोभित हुए।"
+    },
+    "bw": {
+     "en": "Indra asked Krishna not to carry the heavenly tree down from heaven to earth.",
+     "hi": "इंद्र ने कृष्ण से कहा कि दिव्य वृक्ष को स्वर्ग से पृथ्वी पर न ले जाएँ।"
+    }
+   }
   },
   {
    "n": 20,
@@ -222,7 +412,17 @@
    "bw": [
     "घोरमाहग्रहंहाहापोरातेरविराजिराः ।",
     "धीरसामयशोकेलं यो हेये च पपात ह ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "With Khara and his demons slain, the cruel, arrogant Ravana plotted against Rama.",
+     "hi": "खर और उसके राक्षसों के मारे जाने पर क्रूर और घमंडी रावण ने राम के विरुद्ध षड्यंत्र रचा।"
+    },
+    "bw": {
+     "en": "Overcome by grief, Indra ordered that Krishna be captured.",
+     "hi": "दुख से व्याकुल इंद्र ने कृष्ण को बंदी बनाने का आदेश दिया।"
+    }
+   }
   },
   {
    "n": 21,
@@ -233,7 +433,17 @@
    "bw": [
     "विभुनामदनाप्तेनातासीनाजयहासहा ।",
     "ससरागिरिहारीहानोदेवालयकेटता ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Rama shone after killing Maricha, while Sita, alone, grew distressed at Maricha's false cry.",
+     "hi": "मारीच को मारकर राम शोभित हुए, जबकि अकेली सीता मारीच की झूठी पुकार सुनकर व्याकुल हो गईं।"
+    },
+    "bw": {
+     "en": "Indra could not keep up with Krishna as he roamed heaven with his son Pradyumna.",
+     "hi": "इंद्र अपने पुत्र प्रद्युम्न के साथ स्वर्ग में घूमते कृष्ण के साथ नहीं चल पाए।"
+    }
+   }
   },
   {
    "n": 22,
@@ -244,7 +454,17 @@
    "bw": [
     "ताहृताहिमहीदेव्यैक्यालोपानवधीरुचा ।",
     "हानकेहकुधीराशानाकेशादकुमारभाः ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Radiant Sita was carried off by the wicked Ravana as the forest spirits looked on.",
+     "hi": "दुष्ट रावण तेजस्विनी सीता को हर ले गया और वन देवता देखते रह गए।"
+    },
+    "bw": {
+     "en": "Pradyumna lost ground to Indra, who regained courage to protect the fleeing gods.",
+     "hi": "प्रद्युम्न इंद्र से पिछड़ गए, जिन्होंने भागते देवताओं की रक्षा के लिए फिर साहस जुटाया।"
+    }
+   }
   },
   {
    "n": 23,
@@ -255,7 +475,17 @@
    "bw": [
     "योमराज्ञरसादोमोतापेतोहिममारुतम्।",
     "जोयुवाघनगेयोविमाराभोदयतोरिहा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Sugriva, robbed of joy and strength by Vali, came to Rama, who was separated from Sita and helped by Hanuman.",
+     "hi": "बाली से आनंद और बल छिन जाने पर सुग्रीव राम के पास आए, जो सीता से बिछुड़े थे और हनुमान जिनकी सहायता कर रहे थे।"
+    },
+    "bw": {
+     "en": "Young Pradyumna, revived by a cool breeze, regained his glory and defeated the gods.",
+     "hi": "युवा प्रद्युम्न शीतल पवन से फिर चेतन हुए, उन्होंने अपना तेज पाया और देवताओं को हराया।"
+    }
+   }
   },
   {
    "n": 24,
@@ -266,7 +496,17 @@
    "bw": [
     "विंसवातकृतारातिक्षोभासारमताहतं ।",
     "तं हरोपदमोदासमावाभातनुभानुभाः ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Lotus-eyed Rama, brighter than the sun, killed Vali, the son of Indra.",
+     "hi": "सूर्य से भी तेजस्वी कमलनयन राम ने इंद्र पुत्र बाली का वध किया।"
+    },
+    "bw": {
+     "en": "Krishna, whose glory outshone the sun, protected Garuda, whose beating wings scattered the enemy.",
+     "hi": "सूर्य से भी अधिक तेज वाले कृष्ण ने गरुड़ की रक्षा की, जिनके पंखों की हवा से शत्रु बिखर गए।"
+    }
+   }
   },
   {
    "n": 25,
@@ -277,7 +517,17 @@
    "bw": [
     "यं रमारयताघाविरक्षोरणवराजिरा ।",
     "निजभासुरदारोपजालबद्धरुजासहम् ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "With Sugriva's mighty army, Rama won greater glory by slaying Ravana.",
+     "hi": "सुग्रीव की विशाल सेना के साथ राम ने रावण का वध कर और भी यश पाया।"
+    },
+    "bw": {
+     "en": "Krishna withstood showers of arrows and won victory over the gods by his own glory.",
+     "hi": "कृष्ण ने बाणों की वर्षा सही और अपने स्वाभाविक तेज से देवताओं पर विजय पाई।"
+    }
+   }
   },
   {
    "n": 26,
@@ -288,7 +538,17 @@
    "bw": [
     "जंगतोगद्यसादाभाप्तागोजंतरुमासतं ।",
     "हस्समारसुशोकेनातिभामागतिरागसा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Rama, who surpassed Indra's glory, shone with Hanuman, who had leapt across the ocean.",
+     "hi": "इंद्र के तेज से भी बढ़कर राम समुद्र लाँघने वाले हनुमान के साथ शोभित हुए।"
+    },
+    "bw": {
+     "en": "Angered by the wrong done to Pradyumna, Krishna seized the heavenly tree and triumphed.",
+     "hi": "प्रद्युम्न के साथ हुए अन्याय से क्रोधित कृष्ण ने दिव्य वृक्ष को पकड़ लिया और विजयी हुए।"
+    }
+   }
   },
   {
    "n": 27,
@@ -299,7 +559,17 @@
    "bw": [
     "नातुसेवनतोयस्यदयागोरिवधायतः ।",
     "सहितावदभातात्रास्यनसेरनवारवी ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Rama, protector of the brave monkey army, crossed the ocean by a new bridge.",
+     "hi": "वीर वानर सेना के रक्षक राम ने नए सेतु से समुद्र पार किया।"
+    },
+    "bw": {
+     "en": "One who serves and praises Hari overcomes enemies by his grace; one who does not fears even an unarmed foe.",
+     "hi": "जो हरि की सेवा और स्तुति करता है, वह उनकी कृपा से शत्रुओं को जीत लेता है; जो नहीं करता, वह निहत्थे शत्रु से भी डरता है।"
+    }
+   }
   },
   {
    "n": 28,
@@ -310,7 +580,17 @@
    "bw": [
     "हार्तिदायधरामारमोराजोनुतभूरुचा ।",
     "सहितोहिमदीभेसुनाकेलंसहसारिहा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Rama, who slew Ravana and ended Vibhishana's grief, was honoured by the gods.",
+     "hi": "रावण का वध कर विभीषण का दुख दूर करने वाले राम का देवताओं ने सम्मान किया।"
+    },
+    "bw": {
+     "en": "Krishna, who protected Pradyumna, defeated his foes in heaven, even the elephant Airavata, and returned to earth.",
+     "hi": "प्रद्युम्न की रक्षा करने वाले कृष्ण ने स्वर्ग में शत्रुओं को, ऐरावत हाथी को भी, हराया और पृथ्वी पर लौटे।"
+    }
+   }
   },
   {
    "n": 29,
@@ -321,7 +601,17 @@
    "bw": [
     "नामुनानहिजेभेरापूरामेक्षरिणावरा ।",
     "कापिसारसुसौरागाराकाभासुरकेलिना ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Ayodhya, with colourful mansions among coconut palms, became the worthy home of Rama, conqueror of Ravana.",
+     "hi": "नारियल के वृक्षों के बीच रंगीन महलों वाली अयोध्या रावण विजेता राम का योग्य निवास बनी।"
+    },
+    "bw": {
+     "en": "Dvaraka, full of victorious elephants and now the parijata tree, welcomed Krishna, the gopis' beloved.",
+     "hi": "विजयी हाथियों और अब पारिजात वृक्ष से भरी द्वारका ने गोपियों के प्रिय कृष्ण का स्वागत किया।"
+    }
+   }
   },
   {
    "n": 30,
@@ -332,7 +622,18 @@
    "bw": [
     "भाजरागसुमेराश्रीसत्याजिरपदेजनि ।",
     "गौरभानघमाक्षामरागासारमताग्र्यसा ॥"
-   ]
+   ],
+   "meaning": {
+    "fw": {
+     "en": "Ayodhya, bright and prosperous, became Lakshmi's home, and Rama, the unconquered king, ruled in glory.",
+     "hi": "उज्ज्वल और समृद्ध अयोध्या लक्ष्मी का निवास बनी, और अजेय राजा राम ने यश के साथ राज्य किया।"
+    },
+    "bw": {
+     "en": "The parijata tree bloomed in Satyabhama's courtyard, and she, now free of envy, rejoiced with Krishna.",
+     "hi": "सत्यभामा के आँगन में पारिजात वृक्ष खिल उठा, और ईर्ष्या से मुक्त होकर वे कृष्ण के साथ आनंदित हुईं।"
+    }
+   }
   }
- ]
+ ],
+ "meaning_source": "Meanings are short summaries in our own words, based on the English commentary by Dr. Saroja Ramanujam (sadagopan.org)."
 }
